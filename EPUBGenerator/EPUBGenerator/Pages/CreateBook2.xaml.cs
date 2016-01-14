@@ -24,5 +24,11 @@ namespace EPUBGenerator.Pages
         {
             InitializeComponent();
         }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new CreateBook1());
+        }
+
     }
 }

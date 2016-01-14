@@ -31,9 +31,9 @@
     </UserControl.Resources>
 
     <Grid>
-        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
+        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="94,58,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
 
-        <Button x:Name="browseLocation" Content="Browse" HorizontalAlignment="Left" Margin="600,167,0,0" VerticalAlignment="Top" Width="90" Height="35" Click="browseLocation_Click">
+        <Button x:Name="browseLocation" Content="Browse" HorizontalAlignment="Left" Margin="614,226,0,0" VerticalAlignment="Top" Width="90" Height="34" Click="browseLocation_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#01a2a6" />
@@ -65,7 +65,7 @@
             </Button.Style>
         </Button>
 
-        <Button x:Name="browseEpub" Content="Browse" HorizontalAlignment="Left" Margin="600,222,0,0" VerticalAlignment="Top" Width="90" Height="35" Click="browseEpub_Click">
+        <Button x:Name="browseEpub" Content="Browse" HorizontalAlignment="Left" Margin="614,280,0,0" VerticalAlignment="Top" Width="90" Height="36" Click="browseEpub_Click">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#01a2a6" />
@@ -97,7 +97,7 @@
             </Button.Style>
         </Button>
 
-        <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Center" Margin="350,284,350,0" VerticalAlignment="Top" Width="100" Click="nextButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+        <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="80,401,0,0" VerticalAlignment="Top" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#bdf271" />
@@ -108,9 +108,49 @@
                         <Setter.Value>
                             <ControlTemplate TargetType="{x:Type Button}">
                                 <Border Background="{TemplateBinding Background}">
-                                    <Grid>
-                                        <ContentPresenter x:Name="Create" Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                                    </Grid>
+                                    <StackPanel Height="Auto" Orientation="Horizontal">
+                                        <Image Source="/EPUBGenerator;component/Resources/nextPlay.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="15,0,0,0" RenderTransformOrigin="0.5,0.5">
+                                            <Image.RenderTransform>
+                                                <TransformGroup>
+                                                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                                                    <SkewTransform AngleY="0" AngleX="0"/>
+                                                    <RotateTransform Angle="0"/>
+                                                    <TranslateTransform/>
+                                                </TransformGroup>
+                                            </Image.RenderTransform>
+                                        </Image>
+                                        <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Center" />
+
+                                    </StackPanel>
+                                </Border>
+
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FFB1E26C" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Right" Margin="0,401,80,0" VerticalAlignment="Top" Width="100" Click="nextButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#bdf271" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="FontSize" Value="20" />
+                    <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}">
+                                    <StackPanel Height="Auto" Orientation="Horizontal">
+                                        <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Center" />
+                                        <Image Source="/EPUBGenerator;component/Resources/nextPlay.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                    </StackPanel>
                                 </Border>
 
                                 <ControlTemplate.Triggers>
@@ -128,17 +168,17 @@
                 </Style>
             </Button.Style>
         </Button>
-        
-        <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="80,118,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
-        <Label x:Name="projLocationLabel" Content="Location :" HorizontalAlignment="Left" Margin="80,167,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}"/>
-        <Label x:Name="label" Content="Input EPUB :" HorizontalAlignment="Left" Margin="80,222,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
 
-        <Label x:Name="projLocationPath" Content=".. please select project location .." HorizontalAlignment="Left" Height="34" Margin="200,167,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource LabelLocationStyle}" />
-        <Label x:Name="epubPath" Content=".. please select input file .." HorizontalAlignment="Left" Height="34" Margin="200,222,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource LabelLocationStyle}" />
+        <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="94,156,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
+        <Label x:Name="projLocationLabel" Content="Location :" HorizontalAlignment="Left" Margin="94,226,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}"/>
+        <Label x:Name="label" Content="Input EPUB :" HorizontalAlignment="Left" Margin="94,280,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
 
-        <TextBox x:Name="projName" HorizontalAlignment="Left" Height="30" Margin="200,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" TextChanged="projName_TextChanged" Style="{StaticResource TextboxStyle}" Padding="5,2,0,0" />
+        <Label x:Name="projLocationPath" Content=".. please select project location .." HorizontalAlignment="Left" Height="34" Margin="214,226,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource LabelLocationStyle}" />
+        <Label x:Name="epubPath" Content=".. please select input file .." HorizontalAlignment="Left" Height="34" Margin="214,280,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource LabelLocationStyle}" />
 
-        <TextBox x:Name="output" HorizontalAlignment="Left" Height="202" Margin="146,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497" Text="Some Output" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
+        <TextBox x:Name="projName" HorizontalAlignment="Left" Height="30" Margin="214,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" TextChanged="projName_TextChanged" Style="{StaticResource TextboxStyle}" Padding="5,2,0,0" />
+
+        <TextBox x:Name="output" HorizontalAlignment="Left" Height="70" Margin="146,498,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497" Text="Some Output" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" AcceptsReturn="True"/>
 
 
     </Grid>

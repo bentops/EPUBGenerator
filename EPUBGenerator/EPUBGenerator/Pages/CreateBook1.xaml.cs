@@ -37,6 +37,12 @@ namespace EPUBGenerator.Pages
 
             //output.Text = folderBrowserDialog.SelectedPath;
         }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new Home());
+        }
+
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
             //output.Text = TestClass.reCreate(openFileDialog.FileName, (string)projLocationPath.Content);
