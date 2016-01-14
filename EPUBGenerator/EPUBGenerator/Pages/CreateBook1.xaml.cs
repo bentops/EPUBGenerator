@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,21 +15,18 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 
-using TTSScheduler;
-
-namespace EPUBGenerator
+namespace EPUBGenerator.Pages
 {
     /// <summary>
-    /// Interaction logic for TempWindow.xaml
+    /// Interaction logic for CreateBook1.xaml
     /// </summary>
-    public partial class TempWindow : Window
+    public partial class CreateBook1 : System.Windows.Controls.UserControl
     {
         //private Scheduler TTSSch = new Scheduler("g2pconfig_cutts_dict.conf", "SynBlock.conf");
         private FolderBrowserDialog folderBrowserDialog;
         private OpenFileDialog openFileDialog;
 
-
-        public TempWindow()
+        public CreateBook1()
         {
             InitializeComponent();
 
@@ -38,12 +35,11 @@ namespace EPUBGenerator
             openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "EPUB files (*.epub)|*.epub";
 
-            createButton.IsEnabled = false;
+            //output.Text = folderBrowserDialog.SelectedPath;
         }
-
         private void createButton_Click(object sender, RoutedEventArgs e)
         {
-            output.Text = TestClass.reCreate(openFileDialog.FileName, (string)projLocationPath.Content);
+            //output.Text = TestClass.reCreate(openFileDialog.FileName, (string)projLocationPath.Content);
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -51,14 +47,13 @@ namespace EPUBGenerator
             //TTSSch.Clear();
             //TestClass.Save();
         }
-        
+
         private void projName_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (!String.IsNullOrEmpty(folderBrowserDialog.SelectedPath))
             {
                 projLocationPath.Content = System.IO.Path.Combine(folderBrowserDialog.SelectedPath, projName.Text);
             }
-            updateCreateButton();
         }
 
         private void browseLocation_Click(object sender, RoutedEventArgs e)
@@ -66,7 +61,6 @@ namespace EPUBGenerator
             if (folderBrowserDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 projLocationPath.Content = System.IO.Path.Combine(folderBrowserDialog.SelectedPath, projName.Text);
-                updateCreateButton();
             }
         }
 
@@ -75,20 +69,7 @@ namespace EPUBGenerator
             if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 epubPath.Content = openFileDialog.FileName;
-                updateCreateButton();
             }
-        }
-
-        private void updateCreateButton()
-        {
-            createButton.IsEnabled = false;
-            if (string.IsNullOrEmpty(openFileDialog.FileName)) return;
-            if (string.IsNullOrEmpty(projName.Text)) return;
-            if (string.IsNullOrEmpty(folderBrowserDialog.SelectedPath)) return;
-            createButton.IsEnabled = true;
         }
     }
 }
-/*
-a-christmas-carol-audio.epub
-*/

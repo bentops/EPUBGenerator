@@ -15,7 +15,7 @@ namespace EPUBGenerator
         public static string Create(String file)
         {
             //string path = @"C:\Users\xinghbtong.Baitongs\Documents\Top\Chula\Year 4\Senior Project\Project\EPUB\";
-            string path = "";
+            string path = "" + "";
             Epub epub = new Epub(path + file);
             string output = "" + ((ContentData)epub.Content[2]).GetContentAsPlainText();
             for (int i = 110; i < epub.Content.Count; i++)
