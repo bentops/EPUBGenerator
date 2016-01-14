@@ -1,12 +1,17 @@
-﻿<Window x:Class="EPUBGenerator.MainWindow"
+﻿<Window x:Name="EPUB_Generator" x:Class="EPUBGenerator.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EPUBGenerator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="EPUB FULL-TEXT-AUDIO BOOK GENERATOR" 
+        Height="620" 
+        Width="800"
+        Margin="0" 
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Grid Width="800" Height="600">
     </Grid>
 </Window>

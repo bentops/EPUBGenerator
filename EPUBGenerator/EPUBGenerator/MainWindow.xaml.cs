@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EPUBGenerator.Pages;
 
 namespace EPUBGenerator
 {
@@ -23,6 +24,14 @@ namespace EPUBGenerator
         public MainWindow()
         {
             InitializeComponent();
+            Switcher.pageSwitcher = this;
+            Switcher.Switch(new Home());
         }
+
+        public void Navigate(UserControl nextPage)
+        {
+            this.Content = nextPage;
+        }
+
     }
 }
