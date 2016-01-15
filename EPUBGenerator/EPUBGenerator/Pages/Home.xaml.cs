@@ -26,7 +26,7 @@ namespace EPUBGenerator.Pages
         }
         private void createbutton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            Switcher.Switch(new CreateBook1());
+            Switcher.Switch(Switcher.createBook1);
         }
         private void button_Click(object sender, RoutedEventArgs e)
         {

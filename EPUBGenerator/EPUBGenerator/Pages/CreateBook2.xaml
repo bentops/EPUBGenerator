@@ -33,7 +33,10 @@
     <Grid>
         <Label x:Name="createNewProject" Content="Create New Project 2" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
 
-        <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="80,401,0,0" VerticalAlignment="Top" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+        <ProgressBar Name="GeneratorProgess" HorizontalAlignment="Left" Height="62" Margin="110,170,0,0" VerticalAlignment="Top" Width="444" Minimum="0" Maximum="100" Value="90"/>
+
+
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="80,401,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#bdf271" />
@@ -44,20 +47,7 @@
                         <Setter.Value>
                             <ControlTemplate TargetType="{x:Type Button}">
                                 <Border Background="{TemplateBinding Background}">
-                                    <StackPanel Height="Auto" Orientation="Horizontal">
-                                        <Image Source="/EPUBGenerator;component/Resources/nextPlay.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="15,0,0,0" RenderTransformOrigin="0.5,0.5">
-                                            <Image.RenderTransform>
-                                                <TransformGroup>
-                                                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
-                                                    <SkewTransform AngleY="0" AngleX="0"/>
-                                                    <RotateTransform Angle="0"/>
-                                                    <TranslateTransform/>
-                                                </TransformGroup>
-                                            </Image.RenderTransform>
-                                        </Image>
-                                        <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Center" />
-
-                                    </StackPanel>
+                                    <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" />
                                 </Border>
 
                                 <ControlTemplate.Triggers>

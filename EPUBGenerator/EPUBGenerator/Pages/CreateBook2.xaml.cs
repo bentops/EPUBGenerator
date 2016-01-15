@@ -20,15 +20,23 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class CreateBook2 : UserControl
     {
+
         public CreateBook2()
         {
             InitializeComponent();
         }
 
-        private void backButton_Click(object sender, RoutedEventArgs e)
+        public void createEPUB(string file, string savePath)
         {
-            Switcher.Switch(new CreateBook1());
+            Switcher.Switch(this);
+            TestClass.reCreate(file, savePath);
         }
+        
 
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Switcher.createBook1);
+        }
+        
     }
 }
