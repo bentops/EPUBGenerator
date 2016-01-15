@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 using eBdb.EpubReader;
 using System.Xml.Linq;
 using System.IO;
+using System.ComponentModel;
+using System.Threading;
 
 namespace EPUBGenerator
 {
     public class TestClass
     {
+        public static BackgroundWorker bw;
         public static string Create(String file)
         {
             //string path = @"C:\Users\xinghbtong.Baitongs\Documents\Top\Chula\Year 4\Senior Project\Project\EPUB\";
@@ -43,6 +46,7 @@ namespace EPUBGenerator
         private static string getAllContents(List<NavPoint> TOC, string savePath)
         {
             string output = "----------NavPoint----------\r\n";
+            int i = 0;
             foreach (NavPoint np in TOC)
             {
                 output += "ID: " + np.ID + "\r\n";
@@ -63,6 +67,9 @@ namespace EPUBGenerator
                 }
                 output += "<<<<< \\CONTENT >>>>>\r\n";
                 output += getAllContents(np.Children, savePath);
+                i++;
+                bw.ReportProgress(i * 100 / TOC.Count);
+                Thread.Sleep(100);
             }
             return output;
         }

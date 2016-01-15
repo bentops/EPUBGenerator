@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,9 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class CreateBook2 : UserControl
     {
+        private BackgroundWorker bw = new BackgroundWorker();
+        private string fileName;
+        private string filePath;
 
         public CreateBook2()
         {
@@ -28,10 +32,30 @@ namespace EPUBGenerator.Pages
 
         public void createEPUB(string file, string savePath)
         {
+            fileName = file;
+            filePath = savePath;
+            TestClass.bw = bw;
+
             Switcher.Switch(this);
-            TestClass.reCreate(file, savePath);
+
+            Console.WriteLine("Suay kaaaa");
+            bw.WorkerReportsProgress = true;
+            bw.DoWork += bw_DoWork;
+            bw.ProgressChanged += bw_ProgressChanged;
+            bw.RunWorkerAsync();
+
         }
-        
+
+        private void bw_DoWork(object sender, DoWorkEventArgs e)
+        {
+            TestClass.reCreate(fileName, filePath);
+        }
+
+        private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            GeneratorProgess.Value = e.ProgressPercentage;
+        }
+
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {

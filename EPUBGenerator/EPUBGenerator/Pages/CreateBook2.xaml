@@ -33,7 +33,7 @@
     <Grid>
         <Label x:Name="createNewProject" Content="Create New Project 2" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
 
-        <ProgressBar Name="GeneratorProgess" HorizontalAlignment="Left" Height="62" Margin="110,170,0,0" VerticalAlignment="Top" Width="444" Minimum="0" Maximum="100" Value="90"/>
+        <ProgressBar Name="GeneratorProgess" HorizontalAlignment="Left" Height="62" Margin="110,170,0,0" VerticalAlignment="Top" Width="444" />
 
 
         <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="80,401,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
