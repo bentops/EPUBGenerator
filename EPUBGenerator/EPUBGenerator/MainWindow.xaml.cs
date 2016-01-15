@@ -25,7 +25,10 @@ namespace EPUBGenerator
         {
             InitializeComponent();
             Switcher.pageSwitcher = this;
-            Switcher.Switch(new Home());
+            Switcher.home = new Home();
+            Switcher.createBook1 = new CreateBook1();
+            Switcher.createBook2 = new CreateBook2();
+            Switcher.Switch(Switcher.home);
         }
 
         public void Navigate(UserControl nextPage)
