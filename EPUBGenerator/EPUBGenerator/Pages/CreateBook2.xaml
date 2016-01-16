@@ -15,8 +15,8 @@
             <Setter Property="Foreground" Value="#2f2933" />
         </Style>
         <Style TargetType="{x:Type Label}" x:Key="LabelStyle" >
-            <Setter Property="FontSize" Value="16" />
-            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
         </Style>
         <Style TargetType="{x:Type Label}" x:Key="LabelLocationStyle" >
             <Setter Property="FontSize" Value="16" />
@@ -33,7 +33,8 @@
     <Grid>
         <Label x:Name="createNewProject" Content="Create New Project 2" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
 
-        <ProgressBar Name="GeneratorProgess" HorizontalAlignment="Left" Height="62" Margin="110,170,0,0" VerticalAlignment="Top" Width="444" />
+        <Label x:Name="wait" Content="Please wait while generating ..." HorizontalAlignment="Left" Margin="150,158,0,0" VerticalAlignment="Top" Style="{StaticResource LabelStyle}"/>
+        <ProgressBar Name="GeneratorProgess" HorizontalAlignment="Left" Height="50" Margin="150,200,0,0" VerticalAlignment="Top" Width="500" />
 
 
         <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="80,401,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">

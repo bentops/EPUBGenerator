@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -42,8 +43,8 @@ namespace EPUBGenerator.Pages
             bw.WorkerReportsProgress = true;
             bw.DoWork += bw_DoWork;
             bw.ProgressChanged += bw_ProgressChanged;
+            bw.RunWorkerCompleted += bw_RunWorkerCompleted;
             bw.RunWorkerAsync();
-
         }
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
@@ -56,6 +57,11 @@ namespace EPUBGenerator.Pages
             GeneratorProgess.Value = e.ProgressPercentage;
         }
 
+        private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            Thread.Sleep(300);
+            Switcher.Switch(Switcher.createBook3);
+        }
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {

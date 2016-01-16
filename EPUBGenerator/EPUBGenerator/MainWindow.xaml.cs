@@ -28,6 +28,7 @@ namespace EPUBGenerator
             Switcher.home = new Home();
             Switcher.createBook1 = new CreateBook1();
             Switcher.createBook2 = new CreateBook2();
+            Switcher.createBook3 = new CreateBook3();
             Switcher.Switch(Switcher.home);
         }
 
