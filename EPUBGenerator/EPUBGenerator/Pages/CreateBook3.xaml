@@ -18,21 +18,135 @@
             <Setter Property="FontSize" Value="20" />
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
         </Style>
-        <Style TargetType="{x:Type Label}" x:Key="LabelLocationStyle" >
-            <Setter Property="FontSize" Value="16" />
+        <Style TargetType="{x:Type Label}" x:Key="doneStyle" >
+            <Setter Property="FontSize" Value="40" />
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-            <Setter Property="Foreground" Value="#555555" />
+            <Setter Property="Foreground" Value="Black" />
         </Style>
         <Style TargetType="{x:Type TextBox}" x:Key="TextboxStyle" >
             <Setter Property="FontSize" Value="16" />
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
             <Setter Property="Foreground" Value="#555555" />
         </Style>
+        <Style TargetType="{x:Type TextBlock}" x:Key="TextBlockStyle" >
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+            <Setter Property="Foreground" Value="Black" />
+        </Style>
     </UserControl.Resources>
 
     <Grid>
-        <Label x:Name="createNewProject" Content="Create New Project 3" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
+        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
+        <TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" Margin="80,220,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+        <Label x:Name="done" Content="DONE !" HorizontalAlignment="Center" Margin="328,125,328,412" VerticalAlignment="Center" Style="{StaticResource doneStyle}" />
 
+        <Button x:Name="createbutton" Content="" HorizontalAlignment="Left" Margin="150,0,0,60" VerticalAlignment="Bottom" Click="homebutton_Click" Height="120" Width="120" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Template>
+                <ControlTemplate>
+                    <Grid>
+                        <Ellipse Name="Ellipse" Fill="{TemplateBinding Background}" />
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/backHome.png" />
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/backHomeB.png" />
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Cursor" Value="Hand" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Button x:Name="editbutton" Content="" HorizontalAlignment="Center" Margin="0,0,0,60" VerticalAlignment="Bottom" Click="editThisBookbutton_Click" Height="120" Width="120" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Template>
+                <ControlTemplate>
+                    <Grid>
+                        <Ellipse Name="Ellipse" Fill="{TemplateBinding Background}" />
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/editThisBook.png" />
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/editThisBookB.png" />
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Cursor" Value="Hand" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Button x:Name="exitbutton" Content="" HorizontalAlignment="Right" Margin="0,0,150,60" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="120" Width="120" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Template>
+                <ControlTemplate>
+                    <Grid>
+                        <Ellipse Name="Ellipse" Fill="{TemplateBinding Background}" />
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/close.png" />
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/closeB.png" />
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Cursor" Value="Hand" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
     </Grid>
 
 </UserControl>

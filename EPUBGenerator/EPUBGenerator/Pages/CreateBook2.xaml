@@ -28,13 +28,21 @@
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
             <Setter Property="Foreground" Value="#555555" />
         </Style>
+        <Style TargetType="{x:Type TextBlock}" x:Key="TextBlockStyle" >
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+            <Setter Property="Foreground" Value="Black" />
+        </Style>
     </UserControl.Resources>
 
     <Grid>
-        <Label x:Name="createNewProject" Content="Create New Project 2" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
+        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
 
-        <Label x:Name="wait" Content="Please wait while generating ..." HorizontalAlignment="Left" Margin="150,158,0,0" VerticalAlignment="Top" Style="{StaticResource LabelStyle}"/>
-        <ProgressBar Name="GeneratorProgess" HorizontalAlignment="Left" Height="50" Margin="150,200,0,0" VerticalAlignment="Top" Width="500" />
+        <TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" Margin="80,130,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+
+        <Label x:Name="showFileName" Content="{Binding Path=FileName}" HorizontalAlignment="Left" Margin="328,116,0,0" VerticalAlignment="Top" Style="{StaticResource LabelStyle}"/>
+        <Label x:Name="wait" Content="Please wait while generating ..." HorizontalAlignment="Left" Margin="150,256,0,0" VerticalAlignment="Top" Style="{StaticResource LabelStyle}"/>
+        <ProgressBar Name="GeneratorProgress" HorizontalAlignment="Left" Height="50" Margin="150,298,0,0" VerticalAlignment="Top" Width="500" />
 
 
         <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="80,401,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
@@ -62,6 +70,7 @@
                 </Style>
             </Button.Style>
         </Button>
+
     </Grid>
 
 </UserControl>

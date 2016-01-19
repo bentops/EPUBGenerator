@@ -22,6 +22,12 @@ namespace EPUBGenerator
         {
             pageSwitcher.Navigate(newPage);
         }
-        
+
+        public static void NewHome()
+        {
+            UserControl newHome = new Home();
+            pageSwitcher.Navigate(newHome);
+        }
+
     }
 }
