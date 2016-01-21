@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EPUBGenerator"
         mc:Ignorable="d"
-        Title="EPUB FULL-TEXT-AUDIO BOOK GENERATOR -- EDIT BOOK MODE" Height="800" Width="1200" WindowState="Maximized">
+        Title="EPUB FULL-TEXT-AUDIO BOOK GENERATOR -- EDIT BOOK MODE" Height="800" Width="1200" WindowState="Maximized"
+        Icon="Resources/logoMiniR.png">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="80" />
