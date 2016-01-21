@@ -50,15 +50,18 @@ namespace EPUBGenerator.Pages
 
         private void homebutton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.NewHome();
+            System.Windows.Forms.Application.Restart();
+            System.Windows.Application.Current.Shutdown();
         }
 
         private void editThisBookbutton_Click(object sender, RoutedEventArgs e)
         {
+
         }
 
         private void exitbutton_Click(object sender, RoutedEventArgs e)
         {
+            Application.Current.Shutdown();
         }
 
     }
