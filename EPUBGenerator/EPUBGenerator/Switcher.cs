@@ -13,20 +13,15 @@ namespace EPUBGenerator
     public static class Switcher
     {
         public static MainWindow pageSwitcher;
+        public static Home home;
         public static CreateBook1 createBook1;
         public static CreateBook2 createBook2;
         public static CreateBook3 createBook3;
-        public static Home home;
+        public static EditBook1 editBook1;
 
         public static void Switch(UserControl newPage)
         {
             pageSwitcher.Navigate(newPage);
-        }
-
-        public static void NewHome()
-        {
-            UserControl newHome = new Home();
-            pageSwitcher.Navigate(newHome);
         }
 
     }

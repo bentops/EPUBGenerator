@@ -21,7 +21,7 @@ namespace EPUBGenerator.Pages
     public partial class CreateBook3 : UserControl
     {
         private string projName;
-        private string savePath;
+        private string projPath;
         private string epubPath;
 
         public CreateBook3()
@@ -34,7 +34,7 @@ namespace EPUBGenerator.Pages
             Switcher.Switch(this);
 
             this.projName = projName;
-            this.savePath = savePath;
+            this.projPath = savePath;
             this.epubPath = epubPath;
         }
 
@@ -44,7 +44,7 @@ namespace EPUBGenerator.Pages
             var block = sender as TextBlock;
             // Set text.
             block.Text = "Project Name :\t\t" + projName + Environment.NewLine + Environment.NewLine +
-                "Project Location : \t" + savePath + Environment.NewLine + Environment.NewLine +
+                "Project Location : \t" + projPath + Environment.NewLine + Environment.NewLine +
                 "Input Location : \t\t" + epubPath;
         }
 
@@ -56,7 +56,10 @@ namespace EPUBGenerator.Pages
 
         private void editThisBookbutton_Click(object sender, RoutedEventArgs e)
         {
-
+            EditWindow editWin = new EditWindow();
+            editWin.bookInfo(projPath);             //!!!!
+            editWin.Show();
+            Switcher.pageSwitcher.Close();
         }
 
         private void exitbutton_Click(object sender, RoutedEventArgs e)

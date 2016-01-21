@@ -24,14 +24,22 @@ namespace EPUBGenerator.Pages
         {
             InitializeComponent();
         }
+
         private void createbutton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             Switcher.Switch(Switcher.createBook1);
         }
-        private void button_Click(object sender, RoutedEventArgs e)
+
+        private void editButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(Switcher.editBook1);
+        }
+
+        private void insButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
+
 
     }
 }

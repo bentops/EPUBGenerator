@@ -46,7 +46,7 @@
             </Button.Style>
         </Button>
 
-        <Button x:Name="editbutton" Content="" HorizontalAlignment="Center" Margin="0,0,0,60" VerticalAlignment="Bottom" Click="button_Click" Height="120" Width="120" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="editbutton" Content="" HorizontalAlignment="Center" Margin="0,0,0,60" VerticalAlignment="Bottom" Click="editButton_Click" Height="120" Width="120" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.Template>
                 <ControlTemplate>
                     <Grid>
@@ -82,7 +82,7 @@
             </Button.Style>
         </Button>
 
-        <Button x:Name="instructionbutton" Content="" HorizontalAlignment="Right" Margin="0,0,150,60" VerticalAlignment="Bottom" Click="button_Click" Height="120" Width="120" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="instructionbutton" Content="" HorizontalAlignment="Right" Margin="0,0,150,60" VerticalAlignment="Bottom" Click="insButton_Click" Height="120" Width="120" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.Template>
                 <ControlTemplate>
                     <Grid>

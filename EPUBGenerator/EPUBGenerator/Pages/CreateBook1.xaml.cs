@@ -40,13 +40,13 @@ namespace EPUBGenerator.Pages
 
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new Home());
+            Switcher.Switch(Switcher.home);
         }
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
             //output.Text = TestClass.reCreate(openFileDialog.FileName, (string)projLocationPath.Content);
-            Switcher.createBook2.createEPUB(openFileDialog.FileName, (string)projLocationPath.Content, projName.Text);
+            Switcher.createBook2.createEPUB(openFileDialog.FileName, (string)projLocationPath.Text, projName.Text);
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -59,7 +59,7 @@ namespace EPUBGenerator.Pages
         {
             if (!String.IsNullOrEmpty(folderBrowserDialog.SelectedPath))
             {
-                projLocationPath.Content = System.IO.Path.Combine(folderBrowserDialog.SelectedPath, projName.Text);
+                projLocationPath.Text = System.IO.Path.Combine(folderBrowserDialog.SelectedPath, projName.Text);
             }
         }
 
@@ -67,7 +67,7 @@ namespace EPUBGenerator.Pages
         {
             if (folderBrowserDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                projLocationPath.Content = System.IO.Path.Combine(folderBrowserDialog.SelectedPath, projName.Text);
+                projLocationPath.Text = System.IO.Path.Combine(folderBrowserDialog.SelectedPath, projName.Text);
             }
         }
 
@@ -75,7 +75,7 @@ namespace EPUBGenerator.Pages
         {
             if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                epubPath.Content = openFileDialog.FileName;
+                epubPath.Text = openFileDialog.FileName;
             }
         }
     }
