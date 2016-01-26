@@ -18,6 +18,7 @@ namespace EPUBGenerator
         public static CreateBook2 createBook2;
         public static CreateBook3 createBook3;
         public static EditBook1 editBook1;
+        public static Error error;
 
         public static void Switch(UserControl newPage)
         {

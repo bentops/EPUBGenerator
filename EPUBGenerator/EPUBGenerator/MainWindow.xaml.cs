@@ -30,7 +30,8 @@ namespace EPUBGenerator
             Switcher.createBook2 = new CreateBook2();
             Switcher.createBook3 = new CreateBook3();
             Switcher.editBook1 = new EditBook1();
-            Switcher.Switch(Switcher.home);
+            Switcher.error = new Error();
+            Switcher.Switch(Switcher.error);
         }
 
         public void Navigate(UserControl nextPage)
