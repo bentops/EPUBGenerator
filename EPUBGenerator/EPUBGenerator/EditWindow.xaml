@@ -57,24 +57,23 @@
             <Grid Grid.Column="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0" Background="White">
                     <Label Content="Content" />
                 </Grid>
                 <Grid Grid.Row="1" Background="#bdf271">
                     <Border BorderBrush="Black" BorderThickness="0 1 0 0" />
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="50" />
-                        <RowDefinition Height="50" />
-                    </Grid.RowDefinitions>
-                    <Grid Grid.Row="0">
-                        <Button x:Name="playB" Content="PLAY" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="40" Margin="200,10,0,0"/>
+                    <Button x:Name="playB" Content="PLAY" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="40" Margin="200,10,0,0"/>
                         <Button x:Name="pauseB" Content="PAUSE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="40" Margin="300,10,0,0"/>
                         <Button x:Name="stopB" Content="STOP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="40" Margin="500,10,0,0"/>
                         <Button x:Name="forwardB" Content="FORWARD" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="40" Margin="100,10,0,0"/>
-                        <Button x:Name="backwardB" Content="BACKWARD" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="40" Margin="400,10,0,0"/>
-                    </Grid>
+                    <Button x:Name="backwardB" Content="BACKWARD" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="40" Margin="400,10,0,0"/>
+                </Grid>
+                <Grid Grid.Row="2" Background="#bdf271">
+                    <Border BorderBrush="Black" BorderThickness="0 1 0 0" />
+                    <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="100"/>
                 </Grid>
             </Grid>
 
