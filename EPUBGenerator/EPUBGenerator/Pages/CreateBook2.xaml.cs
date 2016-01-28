@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EPUBGenerator.MainLogic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -14,7 +15,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using EPUBGenerator.MainLogic;
 
 namespace EPUBGenerator.Pages
 {

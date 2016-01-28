@@ -1,13 +1,14 @@
-﻿using System;
+﻿using eBdb.EpubReader;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using eBdb.EpubReader;
-using System.ComponentModel;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Xml.Linq;
-using System.IO;
+using Path = System.IO.Path;
 
 namespace EPUBGenerator.MainLogic
 {
@@ -35,7 +36,7 @@ namespace EPUBGenerator.MainLogic
             {
                 Ch.GetContent();
 
-                StreamWriter sw = new StreamWriter(System.IO.Path.Combine(projPath, Ch.Source));
+                StreamWriter sw = new StreamWriter(Path.Combine(projPath, Ch.Source));
                 sw.Write(Ch.Root);
                 sw.Close();
 
