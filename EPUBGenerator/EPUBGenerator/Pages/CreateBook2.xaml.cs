@@ -22,9 +22,9 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class CreateBook2 : UserControl
     {
-        private BackgroundWorker bw = new BackgroundWorker();
+        private BackgroundWorker bw;
         private string epubPath;
-        private string savePath;
+        private string projPath;
         private string projName;
 
         public CreateBook2()
@@ -32,17 +32,14 @@ namespace EPUBGenerator.Pages
             InitializeComponent();
         }
 
-        public void createEPUB(string epubPath, string savePath, string projName)
+        public void createEPUB(string epubPath, string projPath, string projName)
         {
             this.epubPath = epubPath;
-            this.savePath = savePath;
+            this.projPath = projPath;
             this.projName = projName;
-            //this.epubfileName = System.IO.Path.GetFileName(epubPath);
-
+            
+            bw = new BackgroundWorker();
             TestClass.bw = bw;
-
-            Switcher.Switch(this);
-
             bw.WorkerReportsProgress = true;
             bw.DoWork += bw_DoWork;
             bw.ProgressChanged += bw_ProgressChanged;
@@ -56,13 +53,13 @@ namespace EPUBGenerator.Pages
             var block = sender as TextBlock;
             // Set text.
             block.Text = "Project Name :\t\t" + projName + Environment.NewLine + Environment.NewLine +
-                "Project Location : \t" + savePath + Environment.NewLine  + Environment.NewLine +
+                "Project Location : \t" + projPath + Environment.NewLine  + Environment.NewLine +
                 "Input Location : \t\t" + epubPath;
         }
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            TestClass.reCreate(epubPath, savePath);
+            TestClass.reCreate(epubPath, projPath);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -73,7 +70,8 @@ namespace EPUBGenerator.Pages
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             Thread.Sleep(300);
-            Switcher.createBook3.bookInfo(projName, savePath, epubPath);
+            Switcher.Switch(Switcher.createBook3);
+            Switcher.createBook3.bookInfo(projName, projPath, epubPath);
         }
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
