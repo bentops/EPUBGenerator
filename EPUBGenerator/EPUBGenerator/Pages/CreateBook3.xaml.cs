@@ -29,12 +29,10 @@ namespace EPUBGenerator.Pages
             InitializeComponent();
             
         }
-        public void bookInfo(string projName, string savePath, string epubPath)
+        public void bookInfo(string projName, string projPath, string epubPath)
         {
-            Switcher.Switch(this);
-
             this.projName = projName;
-            this.projPath = savePath;
+            this.projPath = projPath;
             this.epubPath = epubPath;
         }
 

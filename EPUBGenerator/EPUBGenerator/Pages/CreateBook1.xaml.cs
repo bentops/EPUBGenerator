@@ -23,19 +23,43 @@ namespace EPUBGenerator.Pages
     public partial class CreateBook1 : System.Windows.Controls.UserControl
     {
         //private Scheduler TTSSch = new Scheduler("g2pconfig_cutts_dict.conf", "SynBlock.conf");
+        private static String plsSelLoc = ".. please select project location ..";
+        private static String plsSelEpub = ".. please select input file ..";
         private FolderBrowserDialog folderBrowserDialog;
         private OpenFileDialog openFileDialog;
+        private String ProjectName
+        {
+            get { return projName.Text; }
+        }
+        private String LocationPath
+        {
+            get { return folderBrowserDialog.SelectedPath; }
+        }
+        private String ProjectPath
+        {
+            get
+            {
+                if (String.IsNullOrEmpty(LocationPath) || String.IsNullOrEmpty(ProjectName))
+                    return "";
+                return System.IO.Path.Combine(LocationPath, ProjectName);
+            }
+        }
+        private String EpubPath
+        {
+            get { return openFileDialog.FileName; }
+        }
 
         public CreateBook1()
         {
             InitializeComponent();
 
             folderBrowserDialog = new FolderBrowserDialog();
-
             openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "EPUB files (*.epub)|*.epub";
 
-            //output.Text = folderBrowserDialog.SelectedPath;
+            updateProjectLocationPath();
+            updateEpubPath();
+            updateNextButton();
         }
 
         private void backButton_Click(object sender, RoutedEventArgs e)
@@ -45,8 +69,8 @@ namespace EPUBGenerator.Pages
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
-            //output.Text = TestClass.reCreate(openFileDialog.FileName, (string)projLocationPath.Content);
-            Switcher.createBook2.createEPUB(openFileDialog.FileName, (string)projLocationPath.Text, projName.Text);
+            Switcher.Switch(Switcher.createBook2);
+            Switcher.createBook2.createEPUB(EpubPath, ProjectPath, ProjectName);
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -57,17 +81,16 @@ namespace EPUBGenerator.Pages
 
         private void projName_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (!String.IsNullOrEmpty(folderBrowserDialog.SelectedPath))
-            {
-                projLocationPath.Text = System.IO.Path.Combine(folderBrowserDialog.SelectedPath, projName.Text);
-            }
+            updateProjectLocationPath();
+            updateNextButton();
         }
 
         private void browseLocation_Click(object sender, RoutedEventArgs e)
         {
             if (folderBrowserDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                projLocationPath.Text = System.IO.Path.Combine(folderBrowserDialog.SelectedPath, projName.Text);
+                updateProjectLocationPath();
+                updateNextButton();
             }
         }
 
@@ -75,8 +98,25 @@ namespace EPUBGenerator.Pages
         {
             if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                epubPath.Text = openFileDialog.FileName;
+                updateEpubPath();
+                updateNextButton();
             }
+        }
+
+        private void updateProjectLocationPath()
+        {
+            projLocationPath.Text = String.IsNullOrEmpty(LocationPath) ? plsSelLoc :
+                String.IsNullOrEmpty(ProjectName) ? LocationPath : ProjectPath;
+        }
+
+        private void updateEpubPath()
+        {
+            epubPath.Text = String.IsNullOrEmpty(EpubPath) ? plsSelEpub : EpubPath;
+        }
+
+        private void updateNextButton()
+        {
+            nextButton.IsEnabled = !String.IsNullOrEmpty(ProjectPath) && !String.IsNullOrEmpty(EpubPath); ;
         }
     }
 }
