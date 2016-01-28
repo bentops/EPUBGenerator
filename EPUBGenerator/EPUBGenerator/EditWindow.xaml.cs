@@ -66,5 +66,17 @@ namespace EPUBGenerator
         {
 
         }
+
+        private void playpauseB_Click(object sender, RoutedEventArgs e)
+        {
+            if (playpauseB.Content == FindResource("Play"))
+            {
+                playpauseB.Content = FindResource("Stop");
+            }
+            else
+            {
+                playpauseB.Content = FindResource("Play");
+            }
+        }
     }
 }
