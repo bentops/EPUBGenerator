@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EPUBGenerator.MainLogic;
 
 namespace EPUBGenerator.Pages
 {
@@ -59,7 +60,8 @@ namespace EPUBGenerator.Pages
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            TestClass.reCreate(epubPath, projPath);
+            //TestClass.reCreate(epubPath, projPath);
+            new Generator().CreateEpub(epubPath, projPath, bw);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
