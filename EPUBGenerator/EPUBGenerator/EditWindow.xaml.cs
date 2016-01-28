@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Xceed.Wpf.Toolkit;
 using Path = System.IO.Path;
 
 namespace EPUBGenerator
@@ -44,6 +45,46 @@ namespace EPUBGenerator
         private string GetProjectFileName(string projPath)
         {
             return Path.GetFileNameWithoutExtension(projPath);
+        }
+
+        private void forwardB_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void browseLocation_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void playpauseB_Click(object sender, RoutedEventArgs e)
+        {
+            if (playpauseB.Content == FindResource("Play"))
+            {
+                playpauseB.Content = FindResource("Stop");
+            }
+            else
+            {
+                playpauseB.Content = FindResource("Play");
+            }
+        }
+
+        private void stopB_Click(object sender, RoutedEventArgs e)
+        {
+            if (playpauseB.Content == FindResource("Stop"))
+            {
+                playpauseB.Content = FindResource("Play");
+            }
         }
     }
 }
