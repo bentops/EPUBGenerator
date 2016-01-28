@@ -65,7 +65,7 @@
             </Setter>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#FFB1E26C" />
+                    <Setter Property="Background" Value="#e4725c" />
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -80,7 +80,7 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FFB1E26C" />
+                                <Setter Property="Background" Value="#e4725c" />
                             </Trigger>
                             <!-- Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="OrangeRed" />
@@ -102,7 +102,7 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FFB1E26C" />
+                                <Setter Property="Background" Value="#e4725c" />
                             </Trigger>
                             <!-- Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="OrangeRed" />
@@ -124,12 +124,8 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FFB1E26C" />
+                                <Setter Property="Background" Value="#e4725c" />
                             </Trigger>
-                            <!-- Trigger Property="IsPressed" Value="True">
-                                        <Setter Property="Background" Value="OrangeRed" />
-                                        <Setter Property="Foreground" Value="White" />
-                                    </Trigger-->
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
@@ -188,12 +184,12 @@
                     <Button x:Name="playpauseB" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,75,0" Style="{StaticResource PlayConsoleStyle}" Click="playpauseB_Click">
                         <DynamicResource ResourceKey="Play"/>
                     </Button>
-                    <Button x:Name="stopB" Content="STOP" HorizontalAlignment="Center" Width="50" Margin="444,10,218,0" Style="{StaticResource StopConsoleStyle}" />
+                    <Button x:Name="stopB" Content="STOP" HorizontalAlignment="Center" Width="50" Margin="444,10,218,0" Style="{StaticResource StopConsoleStyle}" Height="40" VerticalAlignment="Top" Click="stopB_Click" />
                     <Button x:Name="forwardB" Content="FORWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="75,0,0,0" Style="{StaticResource ForwConsoleStyle}" />
                     <Button x:Name="backwardB" Content="BACKWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,225,0" Style="{StaticResource BackConsoleStyle}" />
                 </Grid>
                 <Grid Grid.Row="2" Background="#bdf271">
-                    <Slider x:Name="slider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Maximum="3" Minimum="-3" SmallChange="0.25" TickFrequency="0.25" IsSnapToTickEnabled="True" Margin="181,16,231,16" Grid.ColumnSpan="2"/>
+                    <Slider x:Name="slider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Maximum="3" SmallChange="0.25" TickFrequency="0.25" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="181,16,231,16" Grid.ColumnSpan="2" Background="{x:Null}" BorderBrush="{x:Null}" Value="1" Minimum="0.25"/>
                     <TextBox Text="{Binding ElementName=slider, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" TextAlignment="Center" Width="50" Height="30" Margin="300,10,0,10" Style="{StaticResource TextboxStyle}" Grid.Column="1" VerticalAlignment="Center" />
                 </Grid>
             </Grid>
