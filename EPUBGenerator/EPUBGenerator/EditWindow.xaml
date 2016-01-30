@@ -12,6 +12,11 @@
     <Window.Resources>
         <Image x:Key="Play" Source="Resources/nextPlay.png" Height="25" Width="25" />
         <Image x:Key="Stop" Source="Resources/pause.png" Height="25" Width="25"/>
+        <Style TargetType="{x:Type Label}" x:Key="HeadLabelStyle" >
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
+            <Setter Property="Foreground" Value="#2f2933" />
+        </Style>
         <Style TargetType="{x:Type TextBlock}" x:Key="progName" >
             <Setter Property="FontSize" Value="14" />
             <Setter Property="FontFamily" Value="Segoe UI Symbol" />
@@ -28,6 +33,33 @@
             <Setter Property="Background" Value="#01a2a6" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <Grid>
+                                <ContentPresenter x:Name="Create" Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
+                            </Grid>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#008b8e" />
+                            </Trigger>
+                            <!-- Trigger Property="IsPressed" Value="True">
+                                        <Setter Property="Background" Value="OrangeRed" />
+                                        <Setter Property="Foreground" Value="White" />
+                                    </Trigger-->
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="{x:Type Button}" x:Key="SaveStyle">
+            <Setter Property="Background" Value="#01a2a6" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="18" />
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
             <Setter Property="Template">
                 <Setter.Value>
@@ -159,7 +191,7 @@
                 <Grid Grid.Row="0" Background="#ffffa6">
                     <Label Content="Content" />
                 </Grid>
-                <Grid Grid.Row="1" Background="#ff7f66">
+                <Grid Grid.Row="1" Background="#FFFBD553">
                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="95,0,0,0" Style="{StaticResource progName}">
                         EPUB<LineBreak/>
                         FULL-TEXT-<LineBreak/>
@@ -177,7 +209,7 @@
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0" Background="White">
-                    <Label Content="Content" />
+                    <Label Content="Content" Margin="10,10,-10,-10" />
                 </Grid>
                 <Grid Grid.Row="1" Background="#bdf271" >
                     <Border BorderBrush="Black" BorderThickness="0 1 0 0" />
@@ -196,7 +228,7 @@
 
             <Grid Grid.Column="2" Background="#bdf271" >
                 <Border BorderBrush="Black" BorderThickness="1 0 0 0" />
-                <Label Content="Control" />
+                <Label x:Name="EditConsole" Content="Edit Console" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
                 <StackPanel Margin="10,100,10,10">
                     <WrapPanel Margin="0,0,0,0">
                         <StackPanel>
@@ -222,9 +254,10 @@
                             <Button x:Name="Apply2" Content="Apply" Height="30" Width="50" VerticalAlignment="Center" Click="browseLocation_Click" Style="{StaticResource ApplyBStyle}" />
                         </StackPanel>
                     </WrapPanel>
+                    <Button Content="SAVE" Width="260" Height="40" Margin="0,50,0,0" Style="{StaticResource SaveStyle}" />
                 </StackPanel>
-
-
+                
+                <Button Content="SAVE BOOK" Width="260" Height="80" Margin="0,10" Style="{StaticResource SaveStyle}" VerticalAlignment="Bottom" />
             </Grid>
 
             <GridSplitter HorizontalAlignment="Right" VerticalAlignment="Stretch" Grid.Column="0" Width="5" Background="#2f2933"/>
