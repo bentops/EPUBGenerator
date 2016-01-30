@@ -1,5 +1,7 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,14 +15,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.IO;
+using Path = System.IO.Path;
+using UserControl = System.Windows.Controls.UserControl;
 
 namespace EPUBGenerator.Pages
 {
     /// <summary>
     /// Interaction logic for CreateBook1.xaml
     /// </summary>
-    public partial class CreateBook1 : System.Windows.Controls.UserControl
+    public partial class CreateBook1 : UserControl
     {
         //private Scheduler TTSSch = new Scheduler("g2pconfig_cutts_dict.conf", "SynBlock.conf");
         private static String plsSelLoc = ".. please select project location ..";
@@ -41,7 +44,7 @@ namespace EPUBGenerator.Pages
             {
                 if (String.IsNullOrEmpty(LocationPath) || String.IsNullOrEmpty(ProjectName))
                     return "";
-                return System.IO.Path.Combine(LocationPath, ProjectName);
+                return Path.Combine(LocationPath, ProjectName);
             }
         }
         private String EpubPath
@@ -73,7 +76,7 @@ namespace EPUBGenerator.Pages
             Switcher.createBook2.createEPUB(EpubPath, ProjectPath, ProjectName);
         }
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        private void Window_Closing(object sender, CancelEventArgs e)
         {
             //TTSSch.Clear();
             //TestClass.Save();
@@ -87,7 +90,7 @@ namespace EPUBGenerator.Pages
 
         private void browseLocation_Click(object sender, RoutedEventArgs e)
         {
-            if (folderBrowserDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
             {
                 updateProjectLocationPath();
                 updateNextButton();
@@ -96,7 +99,7 @@ namespace EPUBGenerator.Pages
 
         private void browseEpub_Click(object sender, RoutedEventArgs e)
         {
-            if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 updateEpubPath();
                 updateNextButton();

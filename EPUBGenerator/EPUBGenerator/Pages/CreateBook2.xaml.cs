@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EPUBGenerator.MainLogic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -59,7 +60,8 @@ namespace EPUBGenerator.Pages
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            TestClass.reCreate(epubPath, projPath);
+            //TestClass.reCreate(epubPath, projPath);
+            new Generator().CreateEpub(epubPath, projPath, bw);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)

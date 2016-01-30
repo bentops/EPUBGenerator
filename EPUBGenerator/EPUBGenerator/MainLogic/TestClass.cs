@@ -10,7 +10,7 @@ using System.IO;
 using System.ComponentModel;
 using System.Threading;
 
-namespace EPUBGenerator
+namespace EPUBGenerator.MainLogic
 {
     public class TestClass
     {

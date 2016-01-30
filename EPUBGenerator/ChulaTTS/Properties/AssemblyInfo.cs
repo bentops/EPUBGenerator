@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TTSScheduler")]
+[assembly: AssemblyTitle("ChulaTTS")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("WorkGroup")]
-[assembly: AssemblyProduct("TTSScheduler")]
-[assembly: AssemblyCopyright("Copyright © WorkGroup 2010")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ChulaTTS")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("922d4bd7-1a58-41fa-ae6f-a2df2a2ba2c5")]
+[assembly: Guid("127885f3-1423-4532-a250-df182ee98f10")]
 
 // Version information for an assembly consists of the following four values:
 //
