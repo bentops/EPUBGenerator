@@ -172,16 +172,14 @@
             </Button.Style>
         </Button>
 
-        <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="94,156,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
-        <Label x:Name="projLocationLabel" Content="Location :" HorizontalAlignment="Left" Margin="94,226,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}"/>
-        <Label x:Name="label" Content="Input EPUB :" HorizontalAlignment="Left" Margin="94,280,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
+        <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="60,156,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
+        <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="60,226,0,0" VerticalAlignment="Top" Height="30" Width="138" Style="{StaticResource LabelStyle}"/>
+        <Label x:Name="label" Content="Input EPUB :" HorizontalAlignment="Left" Margin="60,280,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
 
-        <TextBlock x:Name="projLocationPath" Text=".. please select project location .." HorizontalAlignment="Left" Height="Auto" Margin="214,226,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource TextLocationStyle}" TextWrapping="WrapWithOverflow" />
-        <TextBlock x:Name="epubPath" Text=".. please select input file .." HorizontalAlignment="Left" Height="Auto" Margin="214,280,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource TextLocationStyle}" TextWrapping="WrapWithOverflow" />
+        <TextBlock x:Name="projLocationPath" Text=".. please select project location .." HorizontalAlignment="Left" Height="Auto" Margin="214,229,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource TextLocationStyle}" TextWrapping="WrapWithOverflow" />
+        <TextBlock x:Name="epubPath" Text=".. please select input file .." HorizontalAlignment="Left" Height="Auto" Margin="214,283,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource TextLocationStyle}" TextWrapping="WrapWithOverflow" />
 
         <TextBox x:Name="projName" HorizontalAlignment="Left" Height="30" Margin="214,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" TextChanged="projName_TextChanged" Style="{StaticResource TextboxStyle}" Padding="5,2,0,0" />
-
-        <TextBox x:Name="output" HorizontalAlignment="Left" Height="80" Margin="146,0,0,20" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="497" Text="Some Output" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" Grid.IsSharedSizeScope="True"/>
 
 
     </Grid>

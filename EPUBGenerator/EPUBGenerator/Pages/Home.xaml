@@ -22,7 +22,7 @@
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background">
                         <Setter.Value>
-                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/newBook.png" />
+                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/newProj.png" />
                         </Setter.Value>
                     </Setter>
                     <Setter Property="Template">
@@ -36,7 +36,7 @@
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/newBookB.png" />
+                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/newProjTxt.png" />
                                 </Setter.Value>
                             </Setter>
                             <Setter Property="Cursor" Value="Hand" />
@@ -58,7 +58,7 @@
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background">
                         <Setter.Value>
-                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/editBook.png" />
+                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/openProj.png" />
                         </Setter.Value>
                     </Setter>
                     <Setter Property="Template">
@@ -72,7 +72,7 @@
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/editBookB.png" />
+                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/openProjTxt.png" />
                                 </Setter.Value>
                             </Setter>
                             <Setter Property="Cursor" Value="Hand" />
@@ -108,7 +108,7 @@
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/instructionB.png" />
+                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/instructionTxt.png" />
                                 </Setter.Value>
                             </Setter>
                             <Setter Property="Cursor" Value="Hand" />
