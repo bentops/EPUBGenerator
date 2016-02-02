@@ -138,9 +138,13 @@ namespace eBdb.EpubReader {
 
             return string.Format(_HtmlTemplate, string.Join(", ", Creator) + " - " + Title[0], headPart.Trim(), bodyTag, body);
 		}
-
-		
-		#endregion
+        
+        // NEW By Volkyoe
+        public string GetOpfPath()
+        {
+            return _ContentOpfPath;
+        }
+        #endregion
 
         #region Private Functions
         private string EmbedImages(string html) {

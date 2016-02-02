@@ -28,8 +28,9 @@ namespace EPUBGenerator.MainLogic
         private static List<NavPoint> NavPoints { get; set; }
 
         #region Subdirectories
-        private static String Resources { get; set; }
-        private static String Saves { get; set; }
+        private static String ResourcesPath { get; set; }
+        private static String PackagePath { get; set; }
+        private static String SavesPath { get; set; }
         #endregion
 
         public static void SetTools()
@@ -45,7 +46,8 @@ namespace EPUBGenerator.MainLogic
 
         public static void Create(String epubPath, String projPath, BackgroundWorker bw, DoWorkEventArgs e) 
         {
-            // Initial
+            // ------------------ Initial --------------------------
+            EpubReader = new Epub(epubPath); // Use original epubPath to read data
             SetTools(); // Set TTS Tools
             SetSubdirectories(projPath); // Create Subdirectories
 
@@ -54,10 +56,10 @@ namespace EPUBGenerator.MainLogic
             DoWorkEvent = e;
 
             EpubName = "Original_" + Path.GetFileName(epubPath);
-            EpubPath = Path.Combine(Resources, EpubName); // Path of the Epub-Copy in this Project
+            EpubPath = Path.Combine(ResourcesPath, EpubName); // Path of the Epub-Copy in this Project
             File.Copy(epubPath, EpubPath);
-            EpubReader = new Epub(epubPath); // Use original epubPath to read data
             NavPoints = GetAllNavPoints(EpubReader.TOC);
+            // -----------------------------------------------------
 
             Console.WriteLine("Total: " + NavPoints.Count);
             int i = 0;
@@ -65,9 +67,7 @@ namespace EPUBGenerator.MainLogic
             {
                 Content content = new Content(nav);
 
-                StreamWriter sw = new StreamWriter(Path.Combine(projPath, content.Source));
-                sw.Write(content.Root);
-                sw.Close();
+                SaveContent(content);
 
                 i++;
                 bw.ReportProgress(i * 100 / NavPoints.Count);
@@ -82,13 +82,16 @@ namespace EPUBGenerator.MainLogic
                 }
             }
 
-            // Final
+            // ------------------ Final --------------------------
             Status = (int)Statuses.None;
+            // ---------------------------------------------------
         }
 
         private static void SaveContent(Content content)
         {
-            StreamWriter sw = new StreamWriter(Path.Combine(Saves, content.Source));
+            String contentDirectory = Path.GetDirectoryName(content.Source);
+            Directory.CreateDirectory(Path.Combine(PackagePath, contentDirectory));
+            StreamWriter sw = new StreamWriter(Path.Combine(PackagePath, content.Source));
             sw.Write(content.Root);
             sw.Close();
         }
@@ -110,8 +113,13 @@ namespace EPUBGenerator.MainLogic
         private static void SetSubdirectories(String projPath)
         {
             ProjectPath = projPath;
-            Directory.CreateDirectory(Resources = Path.Combine(ProjectPath, "Resources"));
-            Directory.CreateDirectory(Saves = Path.Combine(ProjectPath, "Saves"));
+
+            Directory.CreateDirectory(ResourcesPath = Path.Combine(ProjectPath, "Resources"));
+            
+            String packageDirectory = Path.GetDirectoryName(EpubReader.GetOpfPath());
+            Directory.CreateDirectory(PackagePath = Path.Combine(ResourcesPath, packageDirectory));
+
+            Directory.CreateDirectory(SavesPath = Path.Combine(ProjectPath, "Saves"));
         }
 
         private static List<NavPoint> GetAllNavPoints(List<NavPoint> navList)
