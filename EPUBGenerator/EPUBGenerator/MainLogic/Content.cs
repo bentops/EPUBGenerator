@@ -2,45 +2,66 @@
 using eBdb.EpubReader;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 
 namespace EPUBGenerator.MainLogic
 {
-    class Chapter
+    class Content
     {
-        public String ID { get; private set; }
+        private int count;
+
+        public String NavID { get; private set; }
         public XElement Root { get; private set; }
         public XNamespace Xns { get; private set; }
         public String Source { get; private set; }
         public String Title { get; private set; }
         public int Order { get; private set; }
-        public List<Sentence> Sentences { get; private set; }
+        public List<Block> Blocks { get; private set; }
 
-        private int count;
-
-        public Chapter(NavPoint Nav) 
+        public Content(NavPoint Nav) 
         {
-            ID = Nav.ID;
+            NavID = Nav.ID;
             Root = XElement.Parse(Nav.ContentData.Content);
             Xns = Root.Attribute("xmlns") != null ? Root.Attribute("xmlns").Value : XNamespace.None;
             Source = Nav.Source;
             Title = Nav.Title;
             Order = Nav.Order;
-            Sentences = new List<Sentence>();
 
-            count = 0;
+            try
+            {
+                GetBlocks();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("FOUND IN CONTENT");
+            }
         }
 
-        public void GetContent()
+        private void GetBlocks()
         {
-            GetContent(Root.Element(Xns + "body"));
-
+            count = 0;
+            Blocks = new List<Block>();
+            GetBlocks(Root.Element(Xns + "body"));
         }
 
-        public void GetContent(XElement CurNode)
+        private void GetBlocks(XElement CurNode)
+        {
+            foreach (XNode ChildNode in CurNode.Nodes())
+            {
+                if (ChildNode is XText)
+                {
+                    XText TextNode = ChildNode as XText;
+                    Block block = new Block(count++, TextNode.Value);
+                    TextNode.Value = block.BID;
+                    Blocks.Add(block);
+                }
+                else if (ChildNode is XElement)
+                    GetBlocks(ChildNode as XElement);
+            }
+        }
+
+        /*
+        private void GetBlocks(XElement CurNode)
         {
             List<XText> DelList = new List<XText>();
             List<XElement> InsList = new List<XElement>();
@@ -50,7 +71,7 @@ namespace EPUBGenerator.MainLogic
                 {
                     // DO SOME SPLITTER HERE //
                     XText TextNode = ChildNode as XText;
-                    List<KeyValuePair<String, Int32>> SList = SentenceSplitter.Split(TextNode.Value);
+                    List<KeyValuePair<String, Int32>> SList = Tools.SentenceSplitter.Split(TextNode.Value);
                     foreach (KeyValuePair<String, Int32> Sp in SList)
                     {
                         if (String.IsNullOrWhiteSpace(Sp.Key)) continue;
@@ -62,11 +83,14 @@ namespace EPUBGenerator.MainLogic
                     DelList.Add(TextNode);
                 }
                 else if (ChildNode is XElement)
-                    this.GetContent(ChildNode as XElement);
+                    this.GetBlocks(ChildNode as XElement);
             }
+
             foreach (XText Text in DelList)
                 Text.Remove();
+
             CurNode.Add(InsList);
         }
+        */
     }
 }

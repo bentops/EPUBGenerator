@@ -1,21 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Forms;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using Path = System.IO.Path;
+using MessageBox = System.Windows.MessageBox;
 using UserControl = System.Windows.Controls.UserControl;
 
 namespace EPUBGenerator.Pages
@@ -25,7 +15,6 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class CreateBook1 : UserControl
     {
-        //private Scheduler TTSSch = new Scheduler("g2pconfig_cutts_dict.conf", "SynBlock.conf");
         private static String plsSelLoc = ".. please select project location ..";
         private static String plsSelEpub = ".. please select input file ..";
         private FolderBrowserDialog folderBrowserDialog;
@@ -72,16 +61,26 @@ namespace EPUBGenerator.Pages
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(Switcher.createBook2);
-            Switcher.createBook2.createEPUB(EpubPath, ProjectPath, ProjectName);
+            try
+            {
+                if (!Directory.CreateDirectory(ProjectPath).EnumerateFileSystemInfos().Any())
+                {
+                    Switcher.Switch(Switcher.createBook2);
+                    Switcher.createBook2.createEPUB(EpubPath, ProjectPath, ProjectName);
+                }
+                else
+                {
+                    MessageBox.Show("The same 'Project Name' already exists in this directory and is not empty. Please use other name.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("CreatBook1, NextButton: ");
+                Console.WriteLine(ex.Message);
+                MessageBox.Show(ex.Message);
+            }
         }
-
-        private void Window_Closing(object sender, CancelEventArgs e)
-        {
-            //TTSSch.Clear();
-            //TestClass.Save();
-        }
-
+        
         private void projName_TextChanged(object sender, TextChangedEventArgs e)
         {
             updateProjectLocationPath();

@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ChulaTTS.G2PConverter
+namespace ChulaTTS.G2PConverter.SentenceSplitter
 {
-    public class SentenceSplitter
+    public class SentenceSplitter : ISentenceSplitter
     {
 
         //Define type 1 = Thai
@@ -18,7 +17,7 @@ namespace ChulaTTS.G2PConverter
         private static Regex cutter2 = new Regex("[,0-9๐-๙]+", RegexOptions.Compiled);
         private static Regex cutter3 = new Regex("[a-zA-Z]+", RegexOptions.Compiled);
 
-        public static List<KeyValuePair<String, Int32>> Split(String inp)
+        public List<KeyValuePair<String, Int32>> Split(String inp)
         {
             Match m;
             Int32 offset;

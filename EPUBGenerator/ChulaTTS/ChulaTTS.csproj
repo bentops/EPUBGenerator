@@ -40,11 +40,57 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="G2PConverter\SentenceSplitter.cs" />
+    <Compile Include="G2PConverter\G2P\G2PEn.cs" />
+    <Compile Include="G2PConverter\G2P\G2P.cs" />
+    <Compile Include="G2PConverter\G2P\G2PNum.cs" />
+    <Compile Include="G2PConverter\G2P\G2PSym.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\C2SSegmentatorException.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\C2SThaiWordSegmentator.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\Converters\LabelConverter.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\Converters\ThaiPhonemeConverter.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\Converters\ThaiPronunciationConverter.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\Converters\ThaiPronunciationResult.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\IWordStructureRule.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureChar.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureConcatRule.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureOptionalRule.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructurePronunciationRule.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureRuleList.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureString.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureThaiDictRule.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureTwoChar.cs" />
+    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureUnionRule.cs" />
+    <Compile Include="G2PConverter\IG2P.cs" />
+    <Compile Include="G2PConverter\IPhonemeConverter.cs" />
+    <Compile Include="G2PConverter\PhonemeConverter\PhonemeConverter.cs" />
+    <Compile Include="G2PConverter\PhonemeConverter\Wirote2TSync.cs" />
+    <Compile Include="G2PConverter\Preprocessor\Dummy.cs" />
+    <Compile Include="G2PConverter\Preprocessor\Preprocessor.cs" />
+    <Compile Include="G2PConverter\IPreprocessor.cs" />
+    <Compile Include="G2PConverter\ISentenceSplitter.cs" />
+    <Compile Include="G2PConverter\SentenceSplitter\SentenceSplitter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Synthesizer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThaiWordDict.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoConsDict.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

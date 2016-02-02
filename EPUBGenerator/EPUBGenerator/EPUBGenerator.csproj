@@ -85,10 +85,12 @@
     <Compile Include="EditWindow.xaml.cs">
       <DependentUpon>EditWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainLogic\Chapter.cs" />
-    <Compile Include="MainLogic\Generator.cs" />
+    <Compile Include="MainLogic\Block.cs" />
+    <Compile Include="MainLogic\Content.cs" />
+    <Compile Include="MainLogic\Project.cs" />
     <Compile Include="ISwitchable.cs" />
     <Compile Include="MainLogic\Sentence.cs" />
+    <Compile Include="MainLogic\Tools.cs" />
     <Compile Include="MainLogic\Word.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

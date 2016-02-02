@@ -16,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace EPUBGenerator.Pages
 {
     /// <summary>
@@ -45,6 +46,8 @@ namespace EPUBGenerator.Pages
             bw.DoWork += bw_DoWork;
             bw.ProgressChanged += bw_ProgressChanged;
             bw.RunWorkerCompleted += bw_RunWorkerCompleted;
+
+            bw.WorkerSupportsCancellation = true;
             bw.RunWorkerAsync();
         }
 
@@ -61,7 +64,7 @@ namespace EPUBGenerator.Pages
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
             //TestClass.reCreate(epubPath, projPath);
-            new Generator().CreateEpub(epubPath, projPath, bw);
+            Project.Create(epubPath, projPath, bw, e);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -71,14 +74,29 @@ namespace EPUBGenerator.Pages
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            Thread.Sleep(300);
-            Switcher.Switch(Switcher.createBook3);
-            Switcher.createBook3.bookInfo(projName, projPath, epubPath);
+            bw.Dispose();
+            if (e.Cancelled)
+            {
+                Switcher.Switch(Switcher.createBook1);
+            }
+            else if (e.Error != null)
+            {
+                Switcher.error.setErrorMsgText("invalidEpubFile", Switcher.createBook1);
+                Switcher.Switch(Switcher.error);
+                Console.WriteLine("CreatBook2, RunworkerCompleted with Exception: ");
+                Console.WriteLine("\t" + e.Error.Message);
+            }
+            else
+            {
+                Thread.Sleep(300);
+                Switcher.Switch(Switcher.createBook3);
+                Switcher.createBook3.bookInfo(projName, projPath, epubPath);
+            }
         }
-
+        
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(Switcher.createBook1);
+            bw.CancelAsync();
         }
         
     }
