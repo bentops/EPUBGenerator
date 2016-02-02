@@ -57,12 +57,12 @@
             <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="70,30,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelLocationStyle}" />
             <TextBlock x:Name="infoprojName" HorizontalAlignment="Left" Margin="220,36,0,0" TextWrapping="Wrap" Text="Project Name" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
             <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="70,60,0,0" VerticalAlignment="Top" Height="30" Width="138" Style="{StaticResource LabelLocationStyle}"/>
-            <TextBlock x:Name="infoprojLocation" Loaded="ProjLo_Loaded" TextWrapping="WrapWithOverflow" Margin="220,67,0,0" Width="510" Text="Project Location" Style="{StaticResource TextBlockStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <TextBlock x:Name="infoprojLocation" TextWrapping="WrapWithOverflow" Margin="220,67,0,0" Width="510" Text="Project Location" Style="{StaticResource TextBlockStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" />
         </Grid>
 
         <Grid Grid.Row="3">
             <Label x:Name="inputEPUBlabel" Content="Input EPUB :" HorizontalAlignment="Left" Margin="70,0,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelLocationStyle}" />
-            <TextBlock x:Name="infoinputEPUB" Loaded="EPUBLo_Loaded" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="220,6,0,0" Width="510" Text="Input EPUB" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+            <TextBlock x:Name="infoinputEPUB" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="220,6,0,0" Width="510" Text="Input EPUB" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
         </Grid>
 
         <Grid Grid.Row="4">

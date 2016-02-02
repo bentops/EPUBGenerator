@@ -41,6 +41,8 @@ namespace EPUBGenerator.Pages
             this.projName = projName;
 
             infoprojName.Text = projName;
+            infoprojLocation.Text = projPath;
+            infoinputEPUB.Text = epubPath;
 
             bw = new BackgroundWorker();
             TestClass.bw = bw;
@@ -50,24 +52,17 @@ namespace EPUBGenerator.Pages
             bw.RunWorkerCompleted += bw_RunWorkerCompleted;
 
             bw.WorkerSupportsCancellation = true;
-            //bw.RunWorkerAsync();
+            bw.RunWorkerAsync();
         }
 
-        private void ProjLo_Loaded(object sender, RoutedEventArgs e)
+/*        private void ProjLo_Loaded(object sender, RoutedEventArgs e)
         {
             // Get TextBlock reference.
             var block = sender as TextBlock;
             // Set text.
             block.Text = projPath;
         }
-
-        private void EPUBLo_Loaded(object sender, RoutedEventArgs e)
-        {
-            // Get TextBlock reference.
-            var block = sender as TextBlock;
-            // Set text.
-            block.Text = epubPath;
-        }
+*/
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
