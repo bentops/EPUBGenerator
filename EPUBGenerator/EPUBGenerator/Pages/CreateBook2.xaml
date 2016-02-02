@@ -15,7 +15,7 @@
             <Setter Property="Foreground" Value="#2f2933" />
         </Style>
         <Style TargetType="{x:Type Label}" x:Key="LabelStyle" >
-            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontSize" Value="18" />
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
         </Style>
         <Style TargetType="{x:Type Label}" x:Key="LabelLocationStyle" >
@@ -36,11 +36,18 @@
     </UserControl.Resources>
 
     <Grid>
-        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="80,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
+        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="60,40,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
 
-        <TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" Margin="80,130,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
-
-        <Label x:Name="showFileName" Content="{Binding Path=FileName}" HorizontalAlignment="Left" Margin="328,116,0,0" VerticalAlignment="Top" Style="{StaticResource LabelStyle}"/>
+        <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="80,110,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelLocationStyle}" />
+        <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="80,140,0,0" VerticalAlignment="Top" Height="30" Width="138" Style="{StaticResource LabelLocationStyle}"/>
+        <Label x:Name="label" Content="Input EPUB :" HorizontalAlignment="Left" Margin="80,170,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelLocationStyle}" />
+       
+        <TextBlock x:Name="infoprojName" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" Margin="205,116,0,0" TextWrapping="Wrap" Text="Project Name" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+        <Viewbox Stretch="Uniform">
+            <TextBlock x:Name="infoprojLocation" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" Margin="223,147,0,0" TextWrapping="Wrap" Height="40" Width="500" Text="Project LocationdfFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFsfsjdhgknskfnknv.SF/SVENKAJNFKWJNGKJNDKJB/NKJQN.E,MRN.,ZN;CLNE.,ASNFNSJDBKJKWNKNSKJFNKWNEM,FNKXJNV" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+        </Viewbox>
+        <TextBlock x:Name="infoinputEPUB" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" Margin="186,177,0,0" TextWrapping="Wrap" Height="40" Width="500" Text="Input EPUB" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+        
         <Label x:Name="wait" Content="Please wait while generating ..." HorizontalAlignment="Left" Margin="150,256,0,0" VerticalAlignment="Top" Style="{StaticResource LabelStyle}"/>
         <ProgressBar Name="GeneratorProgress" HorizontalAlignment="Left" Height="50" Margin="150,298,0,0" VerticalAlignment="Top" Width="500" />
 

@@ -31,7 +31,7 @@
     </UserControl.Resources>
 
     <Grid>
-        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="94,50,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
+        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="60,50,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
 
         <Button x:Name="browseLocation" Content="Browse" HorizontalAlignment="Left" Margin="614,226,0,0" VerticalAlignment="Top" Width="90" Height="34" Click="browseLocation_Click">
             <Button.Style>
