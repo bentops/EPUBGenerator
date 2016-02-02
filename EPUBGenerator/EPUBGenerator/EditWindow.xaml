@@ -228,7 +228,7 @@
 
             <Grid Grid.Column="2" Background="#bdf271" >
                 <Border BorderBrush="Black" BorderThickness="1 0 0 0" />
-                <Label x:Name="EditConsole" Content="Edit Console" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
+                <Label x:Name="EditConsole" Content="Edit" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
                 <StackPanel Margin="10,100,10,10">
                     <WrapPanel Margin="0,0,0,0">
                         <StackPanel>
