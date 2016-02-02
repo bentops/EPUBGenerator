@@ -99,5 +99,9 @@ namespace EPUBGenerator.Pages
             bw.CancelAsync();
         }
         
+        public void editWaitlabel(String txt)
+        {
+            wait.Content = txt;
+        }
     }
 }

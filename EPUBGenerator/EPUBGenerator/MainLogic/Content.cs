@@ -33,7 +33,7 @@ namespace EPUBGenerator.MainLogic
             }
             catch (Exception e)
             {
-                Console.WriteLine("FOUND IN CONTENT");
+                Console.WriteLine("EXCEPTION FOUND IN CONTENT: " + e.StackTrace);
             }
         }
 
