@@ -11,11 +11,11 @@ namespace EPUBGenerator.MainLogic
         private String text;
 
         public int ID { get; set; }
-        public String SID { get { return "S" + ID.ToString("D4"); } }
+        public String SID { get { return "S" + ID.ToString("D5"); } }
         public int Type { get; set; }
         public double StartTime { get; set; }
         public double EndTime { get; set; }
-        public List<Word> Words { get; private set; }
+        public LinkedList<Word> Words { get; private set; }
 
         public String Text
         {
@@ -25,10 +25,13 @@ namespace EPUBGenerator.MainLogic
                 text = value;
                 if (Project.Status == (int)Statuses.Create)
                 {
-                    Words = new List<Word>();
+                    Words = new LinkedList<Word>();
                     List<KeyValuePair<String, String>> list = Tools.G2P.GenTranscriptList(text, Type);
                     foreach (KeyValuePair<String, String> kvPair in list)
-                        Words.Add(new Word(Type, kvPair.Key, kvPair.Value));
+                    {
+                        Word word = new Word(Type, kvPair.Key, kvPair.Value);
+                        word.Node = Words.AddLast(word);
+                    }
                 }
             }
         }
@@ -62,14 +65,12 @@ namespace EPUBGenerator.MainLogic
             Text = text;
         }
 
-        public void MergeWithNextWord(int index)
+        public Sentence(int id, int type, String text, LinkedList<Word> words)
         {
-            if (Words == null || index <= 0 || index >= Words.Count)
-                return;
-            String newText = Words[index - 1].Text + Words[index].Text;
-            String newTranscript = Tools.G2P.GenTranscript(newText, Type);
-            Word newWord = new Word(Type, newText, newTranscript);
-            
+            ID = id;
+            Type = type;
+            Text = text;
+            Words = words;
         }
     }
 }
