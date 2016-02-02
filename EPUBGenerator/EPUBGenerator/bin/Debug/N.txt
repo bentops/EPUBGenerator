@@ -1,0 +1,5088 @@
+NAB	nxp3
+NABBED	nxp3
+NABBING	nxp3 bing2
+NABER	nxx0 bqq2
+NABERS	nxx0 bqq2
+NABLOS	nxx0 bl@@s3
+NABOB	nee0 b@p3
+NABOBISM	nee0 b@p3 bis3 svm2
+NABOBISMS	nee0 b@p3 bis3 svm2
+NABOBS	nee0 b@p3
+NABS	nxp3
+NACELLE	nxs3 seel0
+NACELLES	nxs3 seel0
+NACRE	nee0 khqq2
+NACRED	nee0 khqt1
+NACREOUS	nee0 khriias2
+NACRES	nee0 khras2
+NACRINE	nee0 kraaj0
+NACRITE	nee0 kraj3
+NADIA	nxx0 diia0
+NADIAS	nxx0 diias2
+NADIR	nee0 dqq2
+NADIRS	nee0 dqq2
+NAG	nxk1
+NAGARE	nx1 kaa0
+NAGER	nx1 khqq2
+NAGERS	nx1 khqq2
+NAGEST	nx1 kis2
+NAGGED	nxk1
+NAGGER	nxk3 khqq2
+NAGGERS	nxk3 khqq2
+NAGGIN	nxk3 kin2
+NAGGING	nxk3 king2
+NAGGINGS	nxk3 king2
+NAGORE	nxk3 kh@@0
+NAGOYA	naa0 koo0 jaa2
+NAGPUR	nxk3 phuua0
+NAGS	nxk3
+NAGSMAN	nxk3 mxxn0
+NAIAD	naaj0 xxt1
+NAIADES	naaj0 xx0 dii2
+NAIADS	naaj0 xxt1
+NAIL	neel0
+NAILBRUSH	neel0 brach1
+NAILBRUSHES	neel0 brach3 ches1
+NAILED	neel0
+NAILER	neel0 lqq2
+NAILERS	neel0 lqq2
+NAILES	neel0
+NAILFILE	neel0 faaj0
+NAILFILES	neel0 faaj0
+NAILHEAD	neel0 heet3
+NAILHEADS	neel0 heet3
+NAILING	neel0 ling2
+NAILINGS	neel0 ling2
+NAILS	neel0
+NAILSEA	neel0 sii0
+NAILSET	neel0 set3
+NAILSETS	neel0 set3
+NAINSOOK	neen0 suk3
+NAIRA	naaj0 rqq2
+NAIRAS	naaj0 rqqs2
+NAIRN	nxxn0
+NAIROBI	naaj0 roo0 bii0
+NAIVE	naaj0 iif3
+NAIVELY	naaj0 iif3 lii2
+NAIVENESS	naaj0 iif3 nees1
+NAIVER	naaj0 iif3 wqq2
+NAIVES	naaj0 iif3 wis1
+NAIVETIES	naaj0 iif3 wqt1 thii2
+NAIVETY	naaj0 iif3 wqq0 thii2
+NAKED	nee0 khit1
+NAKEDER	nee0 khit3 dqq2
+NAKEDEST	nee0 khit1 dis1
+NAKEDLY	nee0 khit1 lii2
+NAKEDNESS	nee0 khit1 nees1
+NAKEDS	nee0 khit1
+NAMBAS	nxxm0 bqs2
+NAMBERG	nxxm0 bqqk1
+NAMBIA	nxxm0 biia0
+NAMBIAN	nxxm0 biian2
+NAMBIANS	nxxm0 biian2
+NAMBIAR	nxxm0 biia0 rqq2
+NAMBURY	nxxm0 bee0 rii2
+NAMBY	nxxm0 bii2
+NAME	neem0
+NAMEABLE	neem0 mee0 bql2
+NAMED	neem0
+NAMELESS	neem0 lees1
+NAMELESSLY	neem0 lees3 lii2
+NAMELESSNESS	neem0 lees3 nees1
+NAMELY	neem0 lii2
+NAMEPLATE	neem0 phleet1
+NAMEPLATES	neem0 phleet1
+NAMER	neem0 mqq2
+NAMERS	neem0 mqq2
+NAMES	neem0
+NAMESAKE	neem0 seek3
+NAMESAKES	neem0 seek3
+NAMIBIA	nqq0 mi3 biia0
+NAMIBIAN	nqq0 mi3 biian2
+NAMIBIANS	nqq0 mi3 biian2
+NAMING	neem0 ming2
+NAMINGS	neem0 ming2
+NANCHANG	nxxn0 chxxng0
+NANCY	nxxn0 sii2
+NANCYS	nxxn0 sii2
+NANING	nxxn0 ning2
+NANKEEN	nxxn0 khiin0
+NANKEENS	nxxn0 khiin0
+NANKEY	nxxn0 kii2
+NANKIN	nxxn0 kin2
+NANKING	nxxn0 king0
+NANKINGESE	nxxn0 king0 ngiis3
+NANKINS	nxxn0 kin2
+NANNA	nxxn0 nqq2
+NANNIED	nxxn0 nit1
+NANNIES	nxxn0 nees1
+NANNING	nxxn0 ning2
+NANNY	nxxn0 nii2
+NANNYING	nxxn0 nii2 ing2
+NANNYISM	nxxn0 nii0 is3 svm2
+NANNYS	nxxn0 nii2
+NANTANA	nxxn0 thaa0 nqq2
+NANTEL	nxxn0 thql2
+NANTELL	nxxn0 theel0
+NANTELLE	nxxn0 theel0
+NANTERS	nxxn0 thqq2
+NANTES	nxxn0 thii2
+NANTLE	nxxn0 thql2
+NANTON	nxxn0 th@n2
+NANTWICH	nxn3 wich3
+NAOMI	nee0 q1 mii2
+NAOMIE	nee0 q1 mii2
+NAOMIS	nee0 q1 mii2
+NAP	nxp3
+NAPALM	nee0 phaam0
+NAPALMED	nee0 phaam0
+NAPALMING	nee0 phaam0 ming2
+NAPALMS	nee0 phaam0
+NAPE	neep3
+NAPERER	nee0 phq1 rqq2
+NAPERIES	nee0 phq1 ris1
+NAPERY	nee0 phq1 rii2
+NAPES	neep3
+NAPHTHA	nxf3 thqq2
+NAPHTHALENE	nxf3 thql2 liin0
+NAPHTHAS	nxf3 tqq2
+NAPHTHOL	nxf3 thool0
+NAPHTHOLS	nxf3 thool0
+NAPIER	nq1 phiia0
+NAPIERIAN	nq1 phiia0 riian2
+NAPIERS	nq1 phiia0
+NAPKIN	nxp3 khin2
+NAPKINING	nxp3 khin0 ning2
+NAPKINS	nxp3 khin2
+NAPLER	nee0 phlqq2
+NAPLES	nee0 pql2
+NAPLESS	nxp3 phles1
+NAPLETON	nee0 pql0 tan2
+NAPOLEON	nq1 ph@@l0 liian0
+NAPOLEONIC	nq1 ph@@l0 li3 @@n0 nik1
+NAPOLEONICALLY	nq1 ph@@l0 li3 @@n0 ni3 khq1 lii2
+NAPOLEONS	nq1 ph@@l0 liian2
+NAPOLES	nq1 phool0
+NAPOLI	naa0 phq1 lii2
+NAPOLITAN	naa0 phq1 lii0 thxxn0
+NAPOLITANOS	naa0 phq1 lii0 thxxn0 n@@s2
+NAPPED	nxp3
+NAPPER	nxp3 phqq2
+NAPPERS	nxp3 phqq2
+NAPPIE	nxp3 paaj0
+NAPPIED	nxp3 paaj3
+NAPPIER	nxp3 phiia0
+NAPPIES	nxp3 phis2
+NAPPINESS	nxp3 phi3 nees1
+NAPPING	nxp3 phing2
+NAPPINGS	nxp3 phing2
+NAPPISHNESS	nxp3 phich3 nees1
+NAPPY	nxp3 phii2
+NAPRON	nxp3 r@n2
+NAPROOM	nxp3 ruum0
+NAPS	nxp3
+NARBOROUGH	naa0 brqq2
+NARCES	naa0 ses1
+NARCIS	naa0 ses1
+NARCISSA	naa0 sis3 sqq2
+NARCISSI	naa0 sis3 saaj0
+NARCISSISM	naa0 sis3 sis3 svm2
+NARCISSISMS	naa0 sis3 sis3 svm2
+NARCISSIST	naa0 ses1
+NARCISSISTIC	naa0 sis3 sis3 tik1
+NARCISSISTICALLY	naa0 sis3 sis3 ti1 khq1 lii2
+NARCISSISTS	naa0 sis3 ses1
+NARCISSUS	naa0 sis3 sqqs2
+NARCISSUSES	naa0 sis3 sqs1 ses1
+NARCIST	naa0 ses1
+NARCISTIC	naa0 sis3 tik1
+NARCOMA	naak3 kh@@m0 mqq2
+NARCOMATA	naak3 kh@@m0 mq1 thqq2
+NARCOMATOUS	naak3 kh@@m0 mq1 tqq2
+NARCOSE	naak3 kh@@s3
+NARCOSES	naak3 kh@@s3 ses1
+NARCOSIS	naak3 kh@@s3 sis1
+NARCOTIC	naak3 khoo0 thik1
+NARCOTICAL	naak3 kh@t3 thi1 khql2
+NARCOTICALLY	naak3 khoo0 thik3 khlii2
+NARCOTICALNESS	naak3 kh@t3 thi1 khql2 nees1
+NARCOTICISM	naak3 kh@t3 this3 sis3 svm2
+NARCOTICISTS	naak3 kh@t3 this3 ses1
+NARCOTICIZED	naak3 kh@t3 this3 saj3
+NARCOTICIZERS	naak3 kh@t3 this3 saj3 sqqs2
+NARCOTICOS	naak3 kh@t3 thi1 kh@@s3
+NARCOTICS	naak3 khoo0 thik1
+NARCOTICUS	naak3 khoo0 thik3 kqq2
+NARCOTISED	naak3 kq1 this2
+NARCOTISING	naak3 khq1 this3 sing2
+NARCOTISM	naak3 khq1 this3 svm2
+NARCOTIST	naak3 kq1 this2
+NARD	naat1
+NARDEAU	naa0 doo2
+NARDELL	naa0 deel0
+NARDELLA	naa0 deel0 lqq2
+NARDELLI	naa0 deel0 laaj0
+NARDELLO	naa0 deel0 loo2
+NARDIN	naa0 din2
+NARDINGER	naa0 din0 cqq2
+NARDONE	naa0 dan0
+NARGHILE	naak3 kil0 lii2
+NARK	naak3
+NARKED	naak3 khit1
+NARKING	naak3 khing2
+NARKS	naak3
+NARRATABLE	nxx0 reet3 thee0 bql2
+NARRATE	nxx0 reet1
+NARRATED	nxx0 reet3 thet1
+NARRATER	nxx0 reet3 thqq2
+NARRATERS	nxx0 reet3 thqq2
+NARRATES	nxx0 reet3
+NARRATING	nxx0 reet3 thing2
+NARRATIO	nxx0 ree0 chii0 oo2
+NARRATION	nxx0 ree0 chan2
+NARRATIONLESS	nxx0 ree0 chan2 n@l2 les1
+NARRATIONS	nxx0 ree0 chan2
+NARRATIVE	nxx0 rq1 thiif1
+NARRATIVELY	nxx0 rq1 thiif1 lii2
+NARRATIVES	nxx0 rq1 thiif1
+NARRATIVITY	nxx0 rq1 thi3 wi3 thii2
+NARRATIVIZATION	nxx0 rq1 thi1 waaj3 see0 chan2
+NARRATIVIZES	nxx0 rq1 thi1 waaj0 ses1
+NARRATOR	nxx0 ree0 tqq2
+NARRATORS	nxx0 ree0 thqq2
+NARRATRESS	nxx0 ree0 thres1
+NARRATRIX	nxx0 ree0 thrik1
+NARROW	nxx0 roo2
+NARROWBAND	nxx0 roo2 bxxn0
+NARROWED	nxx0 root2
+NARROWER	nxx0 roo0 wqq2
+NARROWEST	nxx0 roo0 es1
+NARROWING	nxx0 roo0 ing2
+NARROWINGS	nxx0 roo0 ing2
+NARROWLY	nxx0 roo0 lii2
+NARROWNESS	nxx0 roo2 nees1
+NARROWS	nxx0 roos2
+NARROWY	nxx0 roo0 ii2
+NARWHAL	naa0 wql2
+NARWHALES	naa0 wql2
+NARWHALS	naa0 wql2
+NASA	naa0 sqq2
+NASAL	nee0 sql2
+NASALIS	nee0 sql2 lis3
+NASALISED	nee0 sql2 lis3
+NASALISES	nee0 sql2 lis3 ses1
+NASALISING	nee0 sql2 lis3 sing2
+NASALISM	nee0 sql2 lis3 svm2
+NASALITIES	nee0 s@l2 li3 tii2
+NASALITY	nee0 s@l2 li3 tii2
+NASALIZATION	nee0 sql2 laj3 see0 chan2
+NASALIZE	nee0 sql2 laj3
+NASALIZED	nee0 sql2 laj3
+NASALIZES	nee0 sql2 laaj0 ses1
+NASALIZING	nee0 sql2 laj3 sing2
+NASALS	nee0 sql2
+NASCENCE	nxxs3 sqn2
+NASCENCES	nxs3 sqn2 ses1
+NASCENCIES	nxs3 sqn2 sii2
+NASCENCY	nxs3 sqn2 sii2
+NASCENT	nxs3 sqn2
+NASRIN	nxs3 riin0
+NASTEC	naas3 thek1
+NASTECH	naas3 thek1
+NASTES	naas3 thes1
+NASTIA	naas3 thiia0
+NASTIER	naas3 thiia0
+NASTIES	naas3 thii2
+NASTIEST	naas3 thi1 es1
+NASTILY	naas3 thil0 lii2
+NASTINESS	nxs3 ti1 nees1
+NASTRAN	naas3 thrxxn0
+NASTRI	naas3 thrii2
+NASTRO	naas3 troo2
+NASTURTIUM	nqs3 thqq0 chqm2
+NASTURTIUMS	nqs3 thqq0 chqm2
+NASTY	naas3 thii2
+NAT	nxt3
+NATAL	nee0 thql2
+NATALE	nxt3 theel0
+NATALES	nxt3 thel0 lis1
+NATALI	nxt3 thel0 lii2
+NATALIA	nxt3 theel0 liia0
+NATALIE	nxt3 thql2 lii2
+NATALINE	nxt3 thql0 laaj0
+NATALIS	nxt3 th@l2 lii2
+NATALIST	nxt3 thql2 lis3
+NATALISTS	nxt3 thql2 lis3
+NATALITIES	nxt3 th@l2 li3 tii2
+NATALITY	nxt3 th@l2 li3 tii2
+NATALLY	nxt3 th@l2 lii2
+NATALS	nee0 thql2
+NATANA	nxx0 thaan0 nqq2
+NATANT	nxx0 thxn3
+NATATION	neet3 thee0 chan2
+NATATIONAL	neet3 thee0 chan2 n@l2
+NATATIONS	neet3 thee0 chan2
+NATES	nxt1
+NATHAN	nq1 thqn2
+NATHAND	nq1 thxxn0
+NATHANIAL	nq1 thxxn0 niial2
+NATHANIEL	nq1 thxxn0 niial2
+NATHANS	nq1 thqn2
+NATHANSON	nq1 thxxn0 san2
+NATHEN	nxt3 then0
+NATHER	nxt3 thqq2
+NATHON	nxt3 th@n2
+NATICA	nxt3 thik3 kqq2
+NATICE	nxt3 thaj3
+NATICK	nxt3 thik1
+NATICO	nxt3 thi1 khoo2
+NATIFORM	nxt3 thi1 f@@m0
+NATINAL	nxt3 thi1 nql2
+NATING	nxt3 thing2
+NATION	nee0 chan2
+NATIONAIR	nee0 chan2 nxx0
+NATIONAL	nxch3 chan2 n@l2
+NATIONALE	nee0 chan2 neel0
+NATIONALES	nxch3 chan2 n@l2 lii2
+NATIONALIS	nxch3 chan2 n@l2 lis3
+NATIONALISATION	nxch3 chan2 n@l2 laj3 see0 chan2
+NATIONALISATIONS	nxch3 chan2 n@l2 laj3 see0 chan2
+NATIONALISED	nxch3 chan2 n@l2 laj3
+NATIONALISER	nxch3 chan2 n@l2 lis3 sqq2
+NATIONALISERS	nxch3 chan2 n@l2 laj3 sqqs2
+NATIONALISES	nxch3 chan2 n@l2 lis3 ses1
+NATIONALISING	nxch3 chan2 n@l2 lis3 sing2
+NATIONALISM	nxch3 chan2 n@l2 lis3 svm2
+NATIONALISMS	nxch3 chan2 n@l2 lis3 svm2
+NATIONALIST	nxch3 chan2 n@l2 lis3
+NATIONALISTA	nxch3 chan2 n@l2 lis3 tqq2
+NATIONALISTES	nxch3 chan2 n@l2 lis3
+NATIONALISTIC	nxch3 chan2 n@l2 lis3 tik1
+NATIONALISTICALLY	nxch3 chan2 n@l2 lis3 ti1 khq1 lii2
+NATIONALISTS	nxch3 chan2 n@l2 lis3
+NATIONALITIES	nxch3 chan2 n@l2 li3 tii2
+NATIONALITY	nxch3 chan2 n@l2 li3 tii2
+NATIONALIZATION	nxch3 chan2 n@l2 laj3 see0 chan2
+NATIONALIZATIONS	nxch3 chan2 n@l2 laj3 see0 chan2
+NATIONALIZE	nxch3 chan2 n@l2 laj3
+NATIONALIZED	nxch3 chan2 n@l2 laj3
+NATIONALIZER	nxch3 chan2 n@l2 laj3 sqq2
+NATIONALIZERS	nxch3 chan2 n@l2 laj3 sqqs2
+NATIONALIZES	nxch3 chan2 n@l2 laaj0 ses1
+NATIONALIZING	nxch3 chan2 n@l2 laj3 sing2
+NATIONALLY	nxch3 chan2 n@l2 lii2
+NATIONALS	nxch3 chan2 n@l2
+NATIONALTIES	nxch3 chan2 n@l2 tii2
+NATIONALTY	nxch3 chan2 n@l2 tii2
+NATIONED	nee0 chan2
+NATIONERS	nee0 chan2 nees1
+NATIONHOOD	nee0 chan2 huut3
+NATIONIST	nee0 chan2 nis3
+NATIONISTIC	nee0 chan2 nis3 tik1
+NATIONLESS	nee0 chan2 n@l2 les1
+NATIONS	nee0 chan2
+NATIONSBANC	nee0 chan2 bxng3
+NATIONSBANK	nee0 chan2 bxng3
+NATIONWIDE	nee0 chan2 waaj0
+NATIONWIDES	nee0 chan2 waaj0 dis1
+NATIONWISE	nee0 chan2 waj3
+NATIVE	nee0 thiif1
+NATIVELY	nee0 thiif1 lii2
+NATIVENESS	nee0 thiif1 nees1
+NATIVER	nee0 thi1 wqq2
+NATIVES	nee0 thiif1
+NATIVISED	nee0 thi1 wis3
+NATIVISM	nee0 thi1 wis3 svm2
+NATIVISMS	nee0 thi1 wis3 svm2
+NATIVIST	nee0 thi1 wis3
+NATIVISTIC	nee0 thi1 wis3 tik1
+NATIVISTS	nee0 thi1 wis3
+NATIVITIES	nee0 thi1 wi3 tii2
+NATIVITY	nee0 thi1 wi3 tii2
+NATO	naa0 too2
+NATONE	nxt3 wan0
+NATRON	nee0 tr@n0
+NATRONS	nee0 tr@n0
+NATTER	nxt3 thqq2
+NATTERED	nxt3 thqq2
+NATTERER	nxt3 thq1 rqq2
+NATTERING	nxt3 thq1 ring2
+NATTERINGS	nxt3 thq1 ring2
+NATTERS	nxt3 thqq2
+NATTERY	nxt3 thq1 rii2
+NATTIE	nxt3 thaaj0
+NATTIER	nxt3 thiia0
+NATTIEST	nxt3 thi1 es1
+NATTILY	nxt3 thil0 lii2
+NATTING	nxt3 ting2
+NATTINGER	nxt3 ting2 ngqq2
+NATTY	nxt3 tii2
+NATURAL	nxch3 chq1 rql2
+NATURALES	nxch3 chq1 rql2
+NATURALIS	nxch3 chq1 rql2 lis3
+NATURALISATION	nxch3 chq1 rql2 laj3 see0 chan2
+NATURALISATIONS	nxch3 chq1 rql2 laj3 see0 chan2
+NATURALISED	nxch3 chq1 rql2 laj3
+NATURALISER	nxch3 chq1 rql2 laj3 sqq2
+NATURALISERS	nxch3 chq1 rql2 laj3 sqq2
+NATURALISES	nxch3 chq1 rql2 lis3 ses1
+NATURALISING	nxch3 chq1 rql2 laj3 sing2
+NATURALISM	nxch3 chq1 rql2 lis3 svm2
+NATURALIST	nxch3 chq1 rql2 lis3
+NATURALISTIC	nxch3 chq1 rql2 lis3 tik1
+NATURALISTICALLY	nxch3 chq1 rql2 lis3 ti1 khq1 lii2
+NATURALISTS	nxch3 chq1 rql2 lis3
+NATURALITE	nxch3 chq1 rql2 laj3
+NATURALITER	nxch3 chq1 rql2 laj3 tqq2
+NATURALIZATION	nxch3 chq1 rql2 laj3 see0 chan2
+NATURALIZATIONS	nxch3 chq1 rql2 laj3 see0 chan2
+NATURALIZE	nxch3 chq1 rql2 laj3
+NATURALIZED	nxch3 chq1 rql2 laj3
+NATURALIZER	nxch3 chq1 rql2 laj3 sqq2
+NATURALIZER	nxch3 chq1 rql2 laj3 sqq2
+NATURALIZERS	nxch3 chq1 rql2 laj3 sqq2
+NATURALIZES	nxch3 chq1 rql2 laaj0 ses1
+NATURALIZING	nxch3 chq1 rql2 laj3 sing2
+NATURALLY	nxch3 chq1 rql2 lii2
+NATURALNESS	nxch3 chq1 rql2 nees1
+NATURALS	nxch3 chq1 rql2
+NATURE	nee0 chqq2
+NATURED	nee0 chqq2
+NATURES	nee0 chqq2
+NATURISE	nee0 chqq0 raj3
+NATURISES	nee0 chqq0 raj3 ses1
+NATURISM	nee0 chqq2 ris3 svm2
+NATURIST	nee0 chqq2 ris3
+NATURISTIC	nee0 chqq0 ris3 tik1
+NATURISTICALLY	nee0 chqq0 ris3 ti1 khq1 lii2
+NATURISTICS	nee0 chqq0 ris3 tik1
+NATURISTS	nee0 chqq2 ris3
+NATURIZE	nee0 chqq0 raj3
+NATURIZES	nee0 chqq0 raj3 ses1
+NATWEST	nxt3 wes3
+NATWICK	nxt3 wik3
+NAUGHT	n@@t3
+NAUGHTIER	n@@t3 thiia0
+NAUGHTIEST	n@@t3 thi1 es1
+NAUGHTILY	n@@t3 thil0 lii2
+NAUGHTINESS	n@@t3 thi1 nees1
+NAUGHTS	n@@t3
+NAUGHTY	n@@t3 thii2
+NAURU	naaw0 ruu0
+NAURUAN	naaw0 ruu0 qn2
+NAURUANS	naaw0 ruu0 qn2
+NAUSEA	n@@0 siia0
+NAUSEAM	n@@0 siiam2
+NAUSEAS	n@@0 siias2
+NAUSEATE	n@@0 si1 eet1
+NAUSEATED	n@@0 si1 eet3 thet1
+NAUSEATES	n@@0 si1 eet1
+NAUSEATING	n@@0 si1 eet3 ting2
+NAUSEATINGLY	n@@0 si1 eet3 ting2 lii2
+NAUSEOUS	n@@0 siias3
+NAUSEOUSNESS	n@@0 siias3 nees1
+NAUTCH	n@@ch3
+NAUTCHES	n@@ch3 ches1
+NAUTIC	n@@0 thik1
+NAUTICA	n@@0 thik3 kqq2
+NAUTICAL	n@@0 thik3 khql2
+NAUTICALITY	n@@0 thik3 khql0 li3 tii2
+NAUTICALLY	n@@0 thik3 khlii2
+NAUTICAS	n@@0 thik3 khqq2
+NAUTICO	n@@0 thi1 khoo2
+NAUTICS	n@@0 thik1
+NAUTICUS	n@@0 thik3 kqq2
+NAUTILUS	n@@0 thil0 lqq2
+NAUTILUSED	n@@0 thil0 lqs3
+NAUTILUSES	n@@0 thil0 lqs2 ses1
+NAVAL	nee0 wql2
+NAVALES	nee0 wql2
+NAVE	neef3
+NAVEED	nee0 wiit3
+NAVEL	nee0 wql2
+NAVELED	nee0 wql2
+NAVELS	nee0 wql2
+NAVES	neef3
+NAVICERT	nee0 wi3 sqqt1
+NAVIES	nee0 wii2
+NAVIGABILITY	nxf3 wi3 khq1 bi1 li3 tii2
+NAVIGABLE	nxf3 wi3 khee0 bql2
+NAVIGABLENESS	nxf3 wi3 khee0 bql2 nees1
+NAVIGATE	nxf3 wi3 kheet1
+NAVIGATED	nxf3 wi3 khee0 thet1
+NAVIGATES	nxf3 wi3 kheet1
+NAVIGATING	nxf3 wi3 keet3 ting2
+NAVIGATION	nxf3 wi3 kee0 chan2
+NAVIGATIONAL	nxf3 wi3 kee0 chan2 n@l2
+NAVIGATIONALLY	nxf3 wi3 kee0 chan2 nql2 lii2
+NAVIGATIONES	nxf3 wi3 kee0 chan2
+NAVIGATIONS	nxf3 wi3 kee0 chan2
+NAVIGATOR	nxf3 wi3 kee0 tqq2
+NAVIGATORS	nxf3 wi3 kee0 tqq2
+NAVIN	nxx0 win2
+NAVINE	nxx0 wiin0
+NAVIS	nxx0 wis3
+NAVISTAR	nxx0 wis3 taa2
+NAVISTAS	nxx0 wis3 tas2
+NAVVIES	nxf3 wii2
+NAVVY	nxf3 wii2
+NAVVYING	nxf3 wii0 ing2
+NAVY	nee0 wii2
+NAWAB	nq1 wap3
+NAWABS	nq1 wap3
+NAWARE	nq1 wxx0
+NAY	nee0
+NAYDEN	nee0 den0
+NAYING	nee0 ing2
+NAYLOR	nee0 lqq2
+NAYLORS	nee0 lqq2
+NAYSAYER	nee0 see0 qq2
+NAYSAYERS	nee0 see0 qq2
+NAZAR	nxs3 sqq2
+NAZARATE	nxs3 sa1 reet1
+NAZARBAYEV	nxs3 sa1 bee0 ef3
+NAZARENE	nxs3 sa1 riin0
+NAZARENES	nxs3 sa1 riin0
+NAZARET	nxs3 sa1 ret1
+NAZARETH	nxs3 sa1 ret1
+NAZARIAN	nxs3 sa1 riian2
+NAZARIN	nxs3 sa1 rin2
+NAZARITE	nxs3 sa1 raj3
+NAZE	nees3
+NAZEING	nees3 sing2
+NAZER	nees3 sqq2
+NAZI	naa0 sii0
+NAZIISM	naa0 sii0 is3 svm2
+NAZIONE	naa0 sii0 oo0 nii2
+NAZIS	naa0 ses1
+NAZISM	naa0 sis3 svm2
+NE	nee0
+NE	nii0
+NEANDER	nii0 xxn0 dqq2
+NEANDERTAL	nii0 xxn0 dq1 taal2
+NEANDERTALS	nii0 xxn0 dq1 taal2
+NEANDERTHAL	nii0 xxn0 dq1 thaal2
+NEANDERTHALER	nii0 xxn0 dq1 thaal0 lqq2
+NEANDERTHALERS	nii0 xxn0 dq1 thaal0 lqq2
+NEANDERTHALS	nii0 xxn0 dq1 thaal2
+NEAP	niip3
+NEAPED	niip3
+NEAPOLITAN	niia0 ph@@l0 li3 thqn2
+NEAPOLITANS	niia0 ph@@l0 li3 thqn2
+NEAPOLITANUM	niia0 ph@@l0 li3 thqq0 nqm2
+NEAPOLITANUS	niia0 ph@@l0 li3 thq1 nees1
+NEAPS	niip3
+NEAR	niia0
+NEARBY	niia0 baaj0
+NEARBYS	niia0 baaj0
+NEARED	niia0
+NEARER	niia0 rqq2
+NEAREST	niia0 ris1
+NEARHOOD	niia0 huut3
+NEARING	niia0 ring2
+NEARLY	niia0 lii2
+NEARNESS	niia0 nees1
+NEARNESSES	niia0 nqs3 ses1
+NEARS	niias2
+NEARSIDE	niia0 saj3
+NEARSIDES	niia0 saj3
+NEARSIGHTED	niia0 saj3 thet1
+NEARSIGHTEDLY	niia0 saj3 thet1 lii2
+NEARSIGHTEDNESS	niia0 saj3 thet1 nees1
+NEAT	niit3
+NEATED	niit3 thet1
+NEATEN	niit3 thqn2
+NEATENED	niit3 thqn2
+NEATENER	niit3 thqn0 nqq2
+NEATENING	niit3 then0 ning2
+NEATENS	niit3 thqn2
+NEATER	niit3 thqq2
+NEATEST	niit3 this1
+NEATH	niit3
+NEATHERD	niit3 thqq2
+NEATHERDS	niit3 thqq2
+NEATLY	niit3 lii2
+NEATNESS	niit3 nees1
+NEATNICK	niit3 nik1
+NEATNIK	niit3 nik1
+NEATNIKS	niit3 nik1
+NEATON	niit3 thqn2
+NEATS	niit3
+NEBRASKA	nee0 braas3 kaa2
+NEBRASKAS	nee0 braas3 kaas2
+NEBULA	nee0 biw0 laa2
+NEBULAE	nee0 biw0 lxx2
+NEBULANCE	nee0 biw0 lxn3
+NEBULAR	nee0 biw0 laa2
+NEBULARIS	nee0 biw0 lxx0 ris1
+NEBULARISATION	nee0 biw0 lq1 raj3 see0 chan2
+NEBULARISE	nee0 biw0 lq1 raj3
+NEBULARISES	nee0 biw0 lq1 raj3 ses1
+NEBULARIZATION	nee0 biw0 lq1 raj3 see0 chan2
+NEBULARIZE	nee0 biw0 lq1 raj3
+NEBULARIZES	nee0 biw0 lq1 raj3 ses1
+NEBULAS	nee0 biw0 laas2
+NEBULATED	nee0 biw0 lee0 thet1
+NEBULATION	nee0 biw0 lee0 chan2
+NEBULISES	nee0 biw0 lis3 ses1
+NEBULITE	nee0 biw0 laj3
+NEBULIZATION	nee0 biw0 laj3 see0 chan2
+NEBULIZATIONS	nee0 biw0 laj3 see0 chan2
+NEBULIZE	nee0 biw0 laj3
+NEBULIZED	nee0 biw0 laj3
+NEBULIZER	nee0 biw0 laj3 sqq2
+NEBULIZERS	nee0 biw0 laj3 sqq2
+NEBULIZES	nee0 biw0 laj3 ses1
+NEBULIZING	nee0 biw0 laj3 sing2
+NEBULOSE	nee0 biw0 luus3
+NEBULOSITIES	nee0 biw0 luus3 si3 tii2
+NEBULOSITY	nee0 biw0 luus3 si3 tii2
+NEBULOUS	nee0 biw0 las2
+NEBULOUSLY	nee0 biw0 las3 lii2
+NEBULOUSNESS	nee0 biw0 las3 nees1
+NECESSAR	nes3 ses3 saa2
+NECESSARIAN	nes3 ses3 saa0 riian2
+NECESSARIES	nes3 ses3 saa0 rii2
+NECESSARILY	nes3 ses3 saa0 ri3 lii2
+NECESSARINESS	nes3 ses3 saa0 ri3 nees1
+NECESSARY	nes3 ses3 saa0 rii2
+NECESSIST	nes3 ses3 sis1
+NECESSITATE	nes3 ses3 sit3 theet1
+NECESSITATED	nes3 ses3 sit3 theet3 thet1
+NECESSITATEDLY	nes3 ses3 sit3 theet3 thet1 lii2
+NECESSITATES	nes3 ses3 sit3 theet1
+NECESSITATING	nes3 ses3 sit3 theet3 ting2
+NECESSITATINGLY	nes3 ses3 sit3 theet3 ting2 lii2
+NECESSITATION	nes3 ses3 sit3 thee0 chan2
+NECESSITATIONS	nes3 ses3 sit3 thee0 chan2
+NECESSITIES	nes3 ses3 sit3 thii2
+NECESSITOUS	nes3 ses3 sit3 tqq2
+NECESSITOUSLY	nes3 ses3 sit3 thqs3 lii2
+NECESSITOUSNESS	nes3 ses3 sit3 thqs3 nees1
+NECESSITUDE	nes3 ses3 si1 cuut1
+NECESSITY	nes3 ses3 si3 tii2
+NECK	nek3
+NECKBAND	nek3 bxxn0
+NECKBANDS	nek3 bxxn0
+NECKCLOTH	nek3 khloot3
+NECKCLOTHS	nek3 khloot3
+NECKED	nek3
+NECKER	nek3 kqq2
+NECKERCHIEF	nek3 khq1 chiif3
+NECKERCHIEFS	nek3 khq1 chiif3
+NECKERS	nek3 kqq2
+NECKING	nek3 king2
+NECKINGER	nek3 king0 ngqq2
+NECKINGS	nek3 king2
+NECKLACE	nek3 lees1
+NECKLACED	nek3 lees1
+NECKLACES	nek3 lees1 ses1
+NECKLACING	nek3 lees3 sing2
+NECKLACINGS	nek3 lees3 sing2
+NECKLESS	nek3 les1
+NECKLET	nek3 let1
+NECKLETS	nek3 let1
+NECKLIKE	nek3 laj3
+NECKLINE	nek3 laaj0
+NECKLINES	nek3 laaj0
+NECKS	nek3
+NECKSTOCK	nek3 sa1 t@k3
+NECKSTRAP	nek3 sa1 trxp3
+NECKTIE	nek3 thaaj0
+NECKTIED	nek3 thaaj0
+NECKTIES	nek3 thaj3
+NECKWARE	nek3 wxx0
+NECKWEAR	nek3 wxx0
+NECKWEARS	nek3 wxxs3
+NECROLOGIES	nek3 khroo0 loo0 cii2
+NECROLOGIST	nek3 khroo0 loo0 cis3
+NECROLOGISTS	nek3 khroo0 loo0 cis3
+NECROLOGY	nek3 khroo0 loo0 cii2
+NECROLYSIS	nek3 khroo0 lis3 sis1
+NECROMANCER	nek3 khroo0 mxxn0 sqq2
+NECROMANCERS	nek3 khroo0 mxxn0 sqq2
+NECROMANCING	nek3 khroo0 mxxn0 sing2
+NECROMANCY	nek3 khroo0 mxxn0 sii2
+NECROMANIA	nek3 khroo0 mee0 niia1
+NECROMANTIC	nek3 khroo0 mxxn0 thik1
+NECROMANTICALLY	nek3 khroo0 mxxn0 thi1 khal0 lii2
+NECRON	nek3 khr@n2
+NECROPATHY	nek3 khroo0 phaa0 thii2
+NECROPOLES	nek3 khroo0 phool0 lis3
+NECROPOLIS	nek3 khroo0 phool0 lis3
+NECROPOLISES	nek3 khroo0 phool0 lis3 ses1
+NECROPOLISTIC	nek3 khroo0 phool0 lis3 tik1
+NECROPSIES	nek3 khr@p3 sii2
+NECROPSY	nek3 khr@p3 sii2
+NECROSANCT	nek3 khr@p3 sxng3
+NECROSIS	nek3 khroo0 sis1
+NECTAR	nek3 thaa2
+NECTARED	nek3 thaa2
+NECTARIAL	nek3 thaa0 riial2
+NECTARIAN	nek3 thaa0 riian2
+NECTARINE	nek3 thaa0 riin0
+NECTARINES	nek3 thaa0 riin0
+NECTARIUM	nek3 thaa0 riiam2
+NECTARIZE	nek3 thaa0 raj3
+NECTARIZES	nek3 thaa0 raj3 ses1
+NECTARS	nek3 taas2
+NECTARS	nek3 taas2
+NECTARY	nek3 taa0 rii2
+NECTIFEROUS	nek3 ti1 fqq0 rqqs2
+NECTIN	nek3 thin0
+NECTOR	nek3 tqq2
+NECTRIA	nek3 triia0
+NED	net1
+NEDDEN	net3 den2
+NEDDICK	net3 dik1
+NEDDIE	net3 dii2
+NEDDIES	net3 dii2
+NEDDLEWOMEN	net3 dql2 wii0 men2
+NEDDY	net3 dii2
+NEDEAU	net3 doo2
+NEDLAND	net3 lxxn0
+NEDLEY	net3 lee2
+NEDLLOYD	net3 l@@j0
+NEDLLOYED	net3 l@@j0
+NEDRICK	net3 drik1
+NEDROW	net3 droo0
+NEE	nee0
+NEED	niit3
+NEEDED	niit3 det1
+NEEDELL	niit3 deel0
+NEEDELMAN	neet3 dql2 mxxn0
+NEEDELS	niit3 dql2
+NEEDER	niit3 dqq2
+NEEDERS	niit3 dqq2
+NEEDES	niit3
+NEEDFUL	niit3 fuul0
+NEEDFULL	niit3 fuul0
+NEEDFULLY	niit3 fuul0 lii2
+NEEDFULNESS	niit3 fuul0 nees1
+NEEDFULS	niit3 fuul0
+NEEDHAM	niit3 hxm2
+NEEDHAMS	niit3 hxm2
+NEEDIER	niit3 di1 qq2
+NEEDIEST	niit3 di1 es1
+NEEDIN	niit3 din2
+NEEDINESS	niit3 di1 nees1
+NEEDING	niit3 ding2
+NEEDLE	niit3 dql2
+NEEDLECRAFT	niit3 dql2 khraaf3
+NEEDLECRAFTS	niit3 dql2 khraaf3
+NEEDLED	niit3 dql2
+NEEDLEFISH	niit3 dql2 fich3
+NEEDLELIKE	niit3 dql2 laj3
+NEEDLEMAKER	niit3 dql2 meek3 kqq2
+NEEDLEMAKING	niit3 dql2 meek3 king2
+NEEDLEMAN	niit3 dql2 mxxn0
+NEEDLEPOINT	niit3 dql2 p@j3
+NEEDLEPOINTED	niit3 dql2 p@j3 thet1
+NEEDLEPOINTERS	niit3 dql2 p@j3 tqq2
+NEEDLEPOINTS	niit3 dql2 p@j3
+NEEDLER	niit3 dq1 lqq2
+NEEDLERS	niit3 dq1 lqq2
+NEEDLES	niit3 dql2
+NEEDLESS	niit3 lees1
+NEEDLESSLY	niit3 lees1 lii2
+NEEDLESSNESS	niit3 lees1 nees1
+NEEDLEST	niit3 dq1 lees1
+NEEDLEWOMAN	niit3 dql2 wuu0 mxn2
+NEEDLEWOMEN	niit3 dql2 wii0 men2
+NEEDLEWOOD	niit3 dql2 wuut3
+NEEDLEWORK	niit3 dql2 wqqk3
+NEEDLEWORKED	niit3 dql2 wqqk3
+NEEDLEWORKER	niit3 dql2 wqqk3 kqq2
+NEEDLEWORKERS	niit3 dql2 wqqk3 kqq2
+NEEDLEWORKS	niit3 dql2 wqqk3
+NEEDLING	niit3 dq1 ling2
+NEEDLINGS	niit3 dq1 ling2
+NEEDS	niit3
+NEEDY	niit3 dii2
+NEELAND	niil0 lxxn0
+NEELEY	niil0 lee2
+NEELEYS	niil0 lees1
+NEEMAN	nii0 mxxn0
+NEEPER	niip3 phqq2
+NEERED	nii0 rit1
+NEEREST	nii0 res3
+NEERING	nii0 ring2
+NEESON	nii0 san2
+NEESONS	nii0 san2
+NEETING	niit3 ting2
+NEFARIOUS	ni3 fxx0 riias3
+NEFARIOUSLY	ni3 fxx0 riias3 lii2
+NEFARIOUSNESS	ni3 fxx0 riias3 nees1
+NEGALE	ni3 keel0
+NEGATE	ni3 keet1
+NEGATED	ni3 kee0 thet1
+NEGATEDNESS	ni3 kee0 thet1 nees1
+NEGATER	ni3 kee0 tqq2
+NEGATERS	ni3 kee0 tqq2
+NEGATES	ni3 kheet1
+NEGATIATING	ni3 kee0 chi3 eet3 ting2
+NEGATING	ni3 keet3 ting2
+NEGATION	ni3 kee0 chan2
+NEGATIONAL	ni3 kee0 chan0 n@l2
+NEGATIONALIST	ni3 kee0 chan0 n@l2 lis3
+NEGATIONS	ni3 kee0 chan2
+NEGATIVE	nek3 ka1 thiif1
+NEGATIVED	nek3 ka1 thiif1
+NEGATIVELY	nek3 ka1 thiif1 lii2
+NEGATIVENESS	nek3 ka1 thiif1 nees1
+NEGATIVER	nek3 ka1 thiif1 wqq2
+NEGATIVES	nek3 ka1 thiif1
+NEGATIVING	nek3 ka1 thiif1 wing2
+NEGATIVISM	nek3 ka1 thiif1 wis3 svm2
+NEGATIVISMS	nek3 ka1 thiif1 wis3 svm2
+NEGATIVIST	nek3 ka1 thiif1 wis3
+NEGATIVISTIC	nek3 ka1 thiif1 wis3 tik1
+NEGATIVISTS	nek3 ka1 thiif1 wis3
+NEGATIVITY	nek3 ka1 thiif1 wi3 tii2
+NEGATOR	ni3 kee0 tqq2
+NEGATORS	ni3 kee0 tqq2
+NEGLECT	ni3 klek1
+NEGLECTA	ni3 klek3 tqq2
+NEGLECTABLE	ni3 klek3 thee0 bql2
+NEGLECTED	ni3 klek3 thet1
+NEGLECTEDLY	ni3 klek3 thet1 lii2
+NEGLECTEDNESS	ni3 klek3 thet1 nees1
+NEGLECTER	ni3 klek3 tqq2
+NEGLECTERS	ni3 klek3 tqq2
+NEGLECTFUL	ni3 klek3 fuul0
+NEGLECTFULLY	ni3 klek3 fuul0 lii2
+NEGLECTFULNESS	ni3 klek3 fuul0 nees1
+NEGLECTING	ni3 klek3 ting2
+NEGLECTINGLY	ni3 klek3 ting0 lii2
+NEGLECTION	ni3 klek3 chan2
+NEGLECTIVE	ni3 klek3 thiif1
+NEGLECTIVELY	ni3 klek3 thiif1 lii2
+NEGLECTOR	ni3 klek3 tqq2
+NEGLECTS	ni3 klek1
+NEGLECTUM	ni3 klek3 tam2
+NEGLIGE	nek3 klic1
+NEGLIGEE	nek3 klic1 cii2
+NEGLIGEES	nek3 klic1 cii2
+NEGLIGENCE	nek3 klic1 cen2
+NEGLIGENCES	nek3 klic1 cen3 ses1
+NEGLIGENCY	nek3 klic1 cen0 sii2
+NEGLIGENT	nek3 klic1 cen2
+NEGLIGENTER	nek3 klic1 cen3 tqq2
+NEGLIGENTLY	nek3 klic1 cen3 lii2
+NEGLIGIBILITY	nek3 klic1 ci1 bil0 li3 tii2
+NEGLIGIBLE	nek3 klic1 ci1 bql2
+NEGLIGIBLENESS	nek3 klic1 ci1 bql2 nees1
+NEGLIGIBLY	nek3 klic1 ci1 blii2
+NEGOTIABILITY	ni3 koo0 chi3 a1 bil0 li3 tii2
+NEGOTIABLE	ni3 koo0 chi3 ee0 bql2
+NEGOTIABLES	ni3 koo0 chi3 ee0 bql2
+NEGOTIATE	ni3 koo0 chi3 eet1
+NEGOTIATED	ni3 koo0 chi3 ee0 tet1
+NEGOTIATER	ni3 koo0 chi3 ee0 tqq2
+NEGOTIATERS	ni3 koo0 chi3 ee0 tqq2
+NEGOTIATES	ni3 koo0 chi3 eet1
+NEGOTIATIATED	ni3 koo0 chi3 ee0 tet1
+NEGOTIATIATING	ni3 koo0 chi3 eet3 ting2
+NEGOTIATIATORS	ni3 koo0 chi3 ee0 tqq2
+NEGOTIATING	ni3 koo0 chi3 eet3 ting2
+NEGOTIATINGS	ni3 koo0 chi3 eet3 ting2
+NEGOTIATION	ni3 koo0 chi3 ee0 chan2
+NEGOTIATIONS	ni3 koo0 chi3 ee0 chan2
+NEGOTIATOR	ni3 koo0 chi3 ee0 tqq2
+NEGOTIATORS	ni3 koo0 chi3 ee0 tqq2
+NEGRESCO	nii0 kres3 khoo2
+NEGRESS	nii0 kres3
+NEGRESSE	nii0 kres3 sii2
+NEGRESSES	nii0 kres3 ses1
+NEGRETTA	nii0 kret3 taa2
+NEGRETTE	nii0 kret1
+NEGRETTI	nii0 kret3 tii2
+NEGRILL	nek3 kril0
+NEGRILLO	nek3 kril0 loo2
+NEGRIN	nek3 krin2
+NEGRINE	nek3 kriin0
+NEGRITA	nek3 krii0 taa2
+NEGRITO	nek3 krii0 too2
+NEGRITOS	nek3 krii0 toos2
+NEGRO	nii0 kroo0
+NEGROES	nii0 kroos3
+NEGROID	nii0 kr@@j0
+NEGROIDAL	nii0 kr@@j0 dql2
+NEGROIDS	nii0 kr@@j0
+NEGROS	nii0 kroos3
+NEGUS	nii0 kas2
+NEGUSES	nii0 kas3 ses1
+NEIGH	nee0
+NEIGHBORED	nee0 bqq2
+NEIGHBORING	nee0 bqq0 ring2
+NEIGHBORINGS	nee0 bqq0 ring2
+NEIGHBOUR	nee0 bqq2
+NEIGHBOURED	nee0 bqq2
+NEIGHBOURHOOD	nee0 bqq2 huut3
+NEIGHBOURHOODS	nee0 bqq2 huus3
+NEIGHBOURING	nee0 bqq0 ring2
+NEIGHBOURINGS	nee0 bqq0 ring2
+NEIGHBOURLINESS	nee0 bqq0 li3 nees1
+NEIGHBOURLY	nee0 bqq0 lii2
+NEIGHBOURS	nee0 bqq2
+NEIGHD	neet1
+NEIGHED	neet1
+NEIGHING	nee0 ing2
+NEIGHS	nee0
+NEIL	niil0
+NEILAND	niil0 lxxn0
+NEILANDS	niil0 lxxn0
+NEILD	niil0
+NEILES	niil0 lis1
+NEILS	niil0
+NEILSEN	niil0 sen2
+NEILSON	niil0 san2
+NEILSONS	niil0 san2
+NEITHER	naaj0 dqq2
+NELIGIBLE	neel0 lic3 ci1 bql2
+NELL	nel0
+NELLA	nel0 laa2
+NELLAS	nel0 laas2
+NELLCOR	nel0 kh@@2
+NELLE	neel0
+NELLEN	nel0 len2
+NELLER	nel0 lqq2
+NELLES	nel0 lis1
+NELLIE	nel0 lii2
+NELLIES	nel0 lii2
+NELLINGEN	nel0 ling0 ngqn2
+NELLINGER	nel0 ling0 ngqq2
+NELLIS	nel0 lis3
+NELLISTON	nel0 lis3 tan2
+NELLY	nel0 lii2
+NELSEN	nel0 sen2
+NELSEY	nel0 sii2
+NELSON	nel0 san2
+NELSONS	nel0 san2
+NELSONVILLE	nel0 san2 wil0
+NEM	nem0
+NEMER	nem0 mqq2
+NEMERE	nem0 miia0
+NEMEROFF	nem0 mqq0 @f3
+NEMEROUS	nem0 mqq0 ras3
+NEMERSON	nem0 mqq0 san2
+NEMERY	nem0 mqq0 rii2
+NEMES	nem0 mes1
+NEMESES	nem0 mee0 ses1
+NEMESIS	nem0 mee0 sis3
+NEMOPHILA	nee0 moo0 fil0 laa2
+NEMORE	nee0 m@@0
+NEMOS	nee0 moos2
+NEMOURS	nee0 maaw0 wqq2
+NENUPHAR	nee0 nuu0 faa0
+NENUPHARS	nee0 nuu0 faas2
+NEOCOLONIAL	nii0 oo0 khol0 loon0 niial2
+NEOCOLONIALISM	nii0 oo0 khol0 loon0 niial2 lis3 svm2
+NEOCOLONIALIST	nii0 oo0 khol0 loon0 niial2 lis3
+NEOCOLONIALISTS	nii0 oo0 khol0 loon0 niial2 lis3
+NEOCOLONIALLY	nii0 oo0 khol0 loon0 niial2 lii2
+NEOCOLORS	nii0 oo0 khal0 lqq2
+NEOCON	nii0 oo0 k@n2
+NEOCONCEPTS	nii0 oo0 kh@n0 sep1
+NEOCONS	nii0 oo0 k@n2
+NEOCONSERVATISM	nii0 oo0 kh@n0 sqq0 wee0 this3 svm2
+NEOCONSERVATIVE	nii0 oo0 kh@n0 sqq0 wee0 thiif1
+NEOCONSERVATIVES	nii0 oo0 kh@n0 sqq0 wee0 thiif1
+NEOCONSERVATIVISM	nii0 oo0 kh@n0 sqq0 wee0 thiif1 wis3 svm2
+NEOLITH	nii0 @@l0 lit3
+NEOLITHIC	nii0 @@l0 lit3 thik1
+NEOLITHS	nii0 @@l0 lit3
+NEOLOGIES	nii0 @@l0 loo0 cii2
+NEOLOGISM	nii0 @@l0 loo0 cis3 svm2
+NEOLOGISMS	nii0 @@l0 loo0 cis3 svm2
+NEOLOGIST	nii0 @@l0 loo0 cis3
+NEOLOGISTIC	nii0 @@l0 loo0 cis3 tik1
+NEOLOGISTICAL	nii0 @@l0 loo0 cis3 tik1 khql2
+NEOLOGIZE	nii0 @@l0 loo0 caaj3
+NEOLOGY	nii0 @@l0 loo0 cii2
+NEON	nii0 @@n0
+NEONATE	nii0 @@n0 neet1
+NEONATES	nii0 @@n0 neet1
+NEONED	nii0 @@n0
+NEONS	nii0 @@n0
+NEOPHYTE	nii0 oo0 faj3
+NEOPHYTES	nii0 oo0 faj3
+NEOPLASM	nii0 oo0 phlaas3 svm2
+NEOPLASMA	nii0 oo0 phlaas3 maa2
+NEOPLASMATA	nii0 oo0 phlaas3 maa0 taa2
+NEOPLASMS	nii0 oo0 phlaas3 svm2
+NEOPLASTIC	nii0 oo0 phlaas3 tik1
+NEOPLASTICISM	nii0 oo0 phlaas3 tik1 sis3 svm2
+NEOPLATONISM	nii0 oo0 phlaas3 too0 nis3 svm2
+NEOTS	niiat3
+NEPAL	nee0 phaal0
+NEPALESE	nee0 phal0 liis3
+NEPALI	nee0 phal0 lii2
+NEPALIS	nee0 phal0 lis3
+NEPENTHE	nee0 phen0 thii2
+NEPENTHES	nee0 phen0 thiis3
+NEPER	nee0 phqq2
+NEPHEW	nef3 fiw2
+NEPHEWS	nef3 fiw2
+NEPHRITE	nef3 fraj3
+NEPHRITES	nef3 fraj3
+NEPHRITIS	nef3 fraj0 this3
+NEPHRITISES	nef3 fraj0 this3 ses1
+NEPOTISM	nee0 phoo0 this3 svm2
+NEPOTISMS	nee0 phoo0 this3 svm2
+NEPOTIST	nee0 phoo0 this3
+NEPOTISTIC	nee0 phoo0 this3 tik1
+NEPOTISTICAL	nee0 phoo0 this3 tik1 khql2
+NEPOTISTICALLY	nee0 phoo0 this3 tik1 kh@l0 lii2
+NEPOTISTS	nee0 phoo0 this3
+NEPTON	nep3 tan2
+NEPTUNA	nep3 thuun0 naa2
+NEPTUNE	nep3 thuun0
+NEPTUNES	nep3 thuun0
+NEPTUNIA	nep3 thuun0 niia0
+NEPTUNIAN	nep3 thuun0 niian2
+NEPTUNIANS	nep3 thuun0 niian2
+NEPTUNIST	nep3 thuun0 nis3
+NEPTUNIUM	nep3 thuun0 niiam2
+NEREID	niia0 ri3 it1
+NEREIDES	niia0 ri3 it1
+NEREIDS	niia0 ri3 it1
+NERVATION	nqq0 wee0 chan2
+NERVATIONS	nqq0 wee0 chan2
+NERVE	nqqf3
+NERVED	nqqf3
+NERVELESS	nqqf3 lees1
+NERVELESSLY	nqqf3 lees3 lii2
+NERVELESSNESS	nqqf3 lees3 nees1
+NERVER	nqqf3 wqq2
+NERVES	nqqf3
+NERVINE	nqqf3 wiin0
+NERVINES	nqqf3 wiin0
+NERVING	nqqf3 wing2
+NERVINGS	nqqf3 wing2
+NERVOUS	nqqf3 wqs1
+NERVOUSED	nqqf3 wqs1
+NERVOUSLY	nqqf3 wqs1 lii2
+NERVOUSNESS	nqqf3 wqs1 nees1
+NERVY	nqqf3 wii2
+NESCIENCE	nes3 siian2
+NESCIENCES	nes3 siian0 ses1
+NESCIENT	nes3 siian0
+NESCIENTS	nes3 siian0
+NESS	nes3
+NESSA	nes3 saa2
+NESSARILY	nes3 saa0 ri3 lii2
+NESSARY	nes3 saa0 rii2
+NESSEL	nes3 sel0
+NESSELER	nes3 sel0 lqq2
+NESSEN	nes3 sen2
+NESSER	nes3 sqq2
+NESSES	nes3 ses1
+NESSLEY	nes3 lee2
+NEST	nes3
+NESTA	nes3 taa2
+NESTABLE	nes3 thee0 bql2
+NESTAGE	nes3 teec1
+NESTAR	nes3 taa2
+NESTE	nes3 thee2
+NESTEC	nes3 thek1
+NESTECTOMIES	nes3 thek1 too0 mii2
+NESTED	nes3 thet1
+NESTEL	nes3 thel0
+NESTELED	nes3 thel0 let1
+NESTER	nes3 thqq2
+NESTERS	nes3 thqq2
+NESTFIELD	nes3 fiil0
+NESTFUL	nes3 fuul0
+NESTFULS	nes3 fuul0
+NESTICO	nes3 tik3 khoo2
+NESTIN	nes3 tin0
+NESTING	nes3 ting2
+NESTINGS	nes3 ting2
+NESTLE	nes3 thql2
+NESTLED	nes3 thql2
+NESTLER	nes3 lqq2
+NESTLERODE	nes3 thql2 root3
+NESTLERS	nes3 lqq2
+NESTLES	nes3 thql2
+NESTLIKE	nes3 laj3
+NESTLING	nes3 ling2
+NESTLINGS	nes3 ling2
+NESTMAN	nes3 mxxn0
+NESTON	nes3 tan2
+NESTOR	nes3 tqq2
+NESTORE	nes3 t@@0
+NESTORIAN	nes3 th@@0 riian2
+NESTORIANISM	nes3 th@@0 riian2 nis3 svm2
+NESTORIANIZE	nes3 th@@0 riian2 naj3
+NESTORIANIZER	nes3 th@@0 riian2 naj3 sqq2
+NESTORIANS	nes3 th@@0 riian2
+NESTORS	nes3 tqq2
+NESTOS	nes3 th@@s3
+NESTRO	nes3 throo0
+NESTROY	nes3 thr@@j0
+NESTS	nes3
+NET	net1
+NETBACK	net3 bxk3
+NETBACKS	net3 bxk3
+NETBALL	net3 b@@l0
+NETHER	net3 dqq2
+NETHERBY	net3 thqq2 bii2
+NETHERCUT	net3 thqq2 khat3
+NETHERLAND	net3 thqq2 lxxn0
+NETHERLANDEN	net3 thqq2 lxxn0 den2
+NETHERLANDER	net3 thqq2 lxxn0 dqq2
+NETHERLANDERS	net3 thqq2 lxxn0 dqq2
+NETHERLANDIC	net3 thqq2 lxxn0 dik1
+NETHERLANDISH	net3 thqq2 lxxn0 dich1
+NETHERLANDS	net3 thqq2 lxxn0
+NETHERLEY	net3 thqq0 lee2
+NETHERMORE	net3 thqq2 m@@0
+NETHERMOST	net3 thqq2 moos3
+NETHERS	net3 thqq2
+NETHERSTOCK	net3 thqq2 sa1 t@k3
+NETHERSTONE	net3 thqq2 sa1 toon0
+NETHERTON	net3 thqq0 tan2
+NETHERWARD	net3 thqq2 wqqt1
+NETHERWARDS	net3 thqq2 wqqt1
+NETHERWOOD	net3 thqq2 wuut3
+NETHERWOODS	net3 thqq2 wuut3
+NETHERWORLD	net3 thqq2 wqql2
+NETHERWORLDLY	net3 thqq2 wqql2 lii2
+NETHERWORLDS	net3 thqq2 wqql2
+NETHERY	net3 thqq0 rii2
+NETLAND	net3 lxxn0
+NETLESS	net3 les1
+NETLEY	net3 lee2
+NETLIKE	net3 laj3
+NETLINE	net3 laaj0
+NETLINES	net3 laaj0
+NETLINK	net3 ling3
+NETS	net3
+NETSCAPE	net3 sa1 kheep1
+NETSKY	net3 sa1 kaaj0
+NETSYS	net0 sii2
+NETT	net3
+NETTABLE	net3 thee0 bql2
+NETTABLY	net3 thee0 blii2
+NETTALK	net3 th@@k3
+NETTAR	net3 thaa2
+NETTED	net3 thet1
+NETTEL	net3 thel0
+NETTELL	net3 thel0
+NETTEN	net3 then0
+NETTER	net3 thqq2
+NETTERS	net3 thqq2
+NETTERVILLE	net3 thqq2 wil0
+NETTIE	net3 thaaj0
+NETTIER	net3 thiia0
+NETTIES	net3 thii2
+NETTING	net3 thing2
+NETTINGS	net3 thing2
+NETTLE	net3 thql2
+NETTLED	net3 thql2
+NETTLEFISH	net3 thql2 fich3
+NETTLEMAN	net3 thql2 mxxn0
+NETTLER	net3 lqq2
+NETTLERASH	net3 thql2 rxxch3
+NETTLERS	net3 lqq2
+NETTLES	net3 thql2
+NETTLESHIP	net3 thql2 chip3
+NETTLESOME	net3 thql2 sam0
+NETTLESWORTH	net3 thql2 wqqt3
+NETTLETON	net3 thql0 tan2
+NETTLETUP	net3 thql2 thap2
+NETTLIEST	net3 thqq0 lii0 es1
+NETTLING	net3 ling2
+NETTO	net3 thoo2
+NETTOS	net3 thoos2
+NETTS	net3
+NETVIEW	net3 wiw0
+NETWARE	net3 wxx0
+NETWAY	net3 wee0
+NETWELL	net3 wel0
+NETWORK	net3 wqqk1
+NETWORKABLE	net3 wqqk3 khee0 bql2
+NETWORKED	net3 wqqk1
+NETWORKER	net3 wqqk3 kqq2
+NETWORKERS	net3 wqqk3 kqq2
+NETWORKING	net3 wqqk3 king2
+NETWORKROOM	net3 wqqk3 ruum0
+NETWORKS	net3 wqqk1
+NETWORKSHOP	net3 wqqk3 ch@p1
+NETWORKSTATION	net3 wqqk1 sa1 tee0 chan2
+NETWORLD	net3 wqql2
+NETWORTH	net3 wqqt3
+NEUMAN	niw0 mxxn0
+NEUMATIC	niw0 mee0 thik1
+NEUME	niw0
+NEURAL	niw0 r@l2
+NEURALGIA	niw0 r@l0 ciia0
+NEURALGIAS	niw0 r@l0 ciias2
+NEURALGIC	niw0 r@l0 cik1
+NEURALLY	niw0 r@l0 lii2
+NEURASTHENIA	niw0 ras3 thii0 niia0
+NEURASTHENIAS	niw0 ras3 thii0 niias3
+NEURASTHENIC	niw0 ras3 then0 nik1
+NEURASTHENICAL	niw0 ras3 then0 nik3 khql2
+NEURASTHENICALLY	niw0 ras3 then0 nik3 khql2 lii2
+NEURASTHENICS	niw0 ras3 then0 nik1
+NEURIC	niw0 rik1
+NEURIN	niw0 rin2
+NEURINGER	niw0 ring0 ngqq2
+NEURISM	niw0 ris3 svm2
+NEURITIS	niw0 ri3 this1
+NEURITISES	niw0 ri3 this3 ses1
+NEURO	niw0 roo0
+NEUROBIOLOGICAL	niw0 roo0 baj0 oo0 loo0 ci1 khql2
+NEUROBIOLOGISTS	niw0 roo0 baj0 oo0 loo0 cis3
+NEUROBIOLOGY	niw0 roo0 baj0 oo0 loo0 cii2
+NEUROCOMPUTING	niw0 roo0 kh@m0 phiw0 ting2
+NEUROFIBRIL	niw0 roo0 faj0 bril0
+NEUROFIBRILLA	niw0 roo0 faj0 bril0 laa2
+NEUROFIBRILLAR	niw0 roo0 faj0 bril0 laa2
+NEUROFILAMENT	niw0 roo0 fil0 laa0 men3
+NEUROFILAMENTS	niw0 roo0 fil0 laa0 men3
+NEUROGRAM	niw0 roo0 krxxm0
+NEUROGRAMS	niw0 roo0 krxxm0
+NEUROLOGIC	niw0 roo0 loo0 cik1
+NEUROLOGICAL	niw0 roo0 loo0 ci1 khql2
+NEUROLOGICALLY	niw0 roo0 loo0 ci1 khql2 lii2
+NEUROLOGIES	niw0 roo0 loo0 cii2
+NEUROLOGIST	niw0 roo0 loo0 cis3
+NEUROLOGISTS	niw0 roo0 loo0 cis3
+NEUROLOGIZE	niw0 roo0 loo0 caaj3
+NEUROLOGIZED	niw0 roo0 loo0 caaj3
+NEUROLOGY	niw0 roo0 loo0 cii2
+NEUROLYSIS	niw0 roo0 laj0 sis1
+NEUROMIMETIC	niw0 roo0 mi3 met3 thik1
+NEUROMOTOR	niw0 roo0 m@@0 tqq2
+NEUROMUSCULAR	niw0 roo0 mas3 khiw0 laa2
+NEUROPATH	niw0 roo0 phaat3
+NEUROPATHOLOGICAL	niw0 roo0 phat3 th@l0 loo0 ci1 khql2
+NEUROPATHOLOGICALLY	niw0 roo0 phat3 th@l0 loo0 ci1 khql2 lii2
+NEUROPATHOLOGIST	niw0 roo0 phat3 th@l0 loo0 cis3
+NEUROPATHOLOGISTS	niw0 roo0 phat3 th@l0 loo0 cis3
+NEUROPATHOLOGY	niw0 roo0 phat3 th@l0 loo0 cii2
+NEUROPATHS	niw0 roo0 phaat3
+NEUROPE	niw0 roop3
+NEUROPHYSICAL	niw0 roo0 fis3 si1 khql2
+NEUROPHYSICIAN	niw0 roo0 fis3 si1 chiian2
+NEUROPHYSIOLOGIC	niw0 roo0 fis3 si1 oo0 loo0 cik1
+NEUROPHYSIOLOGICAL	niw0 roo0 fis3 si1 oo0 loo0 ci1 khql2
+NEUROPHYSIOLOGICALLY	niw0 roo0 fis3 si1 oo0 loo0 ci1 khql2 lii2
+NEUROPHYSIOLOGIST	niw0 roo0 fis3 si1 oo0 loo0 cis3
+NEUROPHYSIOLOGISTS	niw0 roo0 fis3 si1 oo0 loo0 cis3
+NEUROPHYSIOLOGY	niw0 roo0 fis3 si1 oo0 loo0 cii2
+NEUROPSYCHIATRIC	niw0 roo0 saj0 khiia0 trik1
+NEUROPSYCHIATRY	niw0 roo0 saj0 khiia0 trii2
+NEUROPSYCHOLOGY	niw0 roo0 saj0 khoo0 loo0 cii2
+NEUROS	niw0 roos2
+NEUROSCIENCE	niw0 roo0 saaj0 qn2
+NEUROSCIENCES	niw0 roo0 saaj0 qn2 ses1
+NEUROSCIENTIFIC	niw0 roo0 saaj0 qn2 thiif3 fik1
+NEUROSCIENTIST	niw0 roo0 saaj0 qn2 this3
+NEUROSCIENTISTS	niw0 roo0 saaj0 qn2 this3
+NEUROSCLEROSIS	niw0 roo0 sa1 khql0 roo0 sis1
+NEUROSENSORY	niw0 roo0 sen0 s@@0 rii2
+NEUROSES	niw0 roo0 ses1
+NEUROSIS	niw0 roo0 sis1
+NEUROSURGEON	niw0 roo0 sqq0 ciian2
+NEUROSURGEONS	niw0 roo0 sqq0 ciian2
+NEUROSURGERIES	niw0 roo0 sqq0 cqq0 rii2
+NEUROSURGERY	niw0 roo0 sqq0 cqq0 rii2
+NEUROSURGICAL	niw0 roo0 sqq0 ci1 khql2
+NEUROTIC	niw0 roo0 thik1
+NEUROTICA	niw0 roo0 thik3 kaa2
+NEUROTICALLY	niw0 roo0 thik3 khql2 lii2
+NEUROTICISE	niw0 roo0 this3 saj3
+NEUROTICISES	niw0 roo0 this3 saaj0 ses1
+NEUROTICISM	niw0 roo0 this3 sis3 svm2
+NEUROTICIZE	niw0 roo0 this3 saj3
+NEUROTICIZES	niw0 roo0 this3 saaj0 ses1
+NEUROTICS	niw0 roo0 thik1
+NEUROTICUS	niw0 roo0 thik3 kas3
+NEUROTOME	niw0 roo0 thoom0
+NEUROTOMY	niw0 roo0 thoo0 mii2
+NEUROTOXIC	niw0 roo0 th@k3 sik1
+NEUROTOXICITY	niw0 roo0 th@k3 sik1 si3 tii2
+NEUROTOXIN	niw0 roo0 th@k3 sin0
+NEUROTRANSMITTER	niw0 roo0 thraan0 sa1 mit3 tqq2
+NEUROTRANSMITTERS	niw0 roo0 thraan0 sa1 mit3 tqq2
+NEUROVASCULAR	niw0 roo0 wxxs3 khiw0 laa2
+NEUSS	n@@j3
+NEUTER	niw0 thqq2
+NEUTERED	niw0 thqq2
+NEUTERING	niw0 thqq0 ring2
+NEUTERISM	niw0 thqq0 ris3 svm2
+NEUTERLIKE	niw0 thqq0 laj3
+NEUTERS	niw0 thqq2
+NEUTRA	niw0 thraa2
+NEUTRAL	niw0 thr@l2
+NEUTRALISM	niw0 thr@l2 lis3 svm2
+NEUTRALIST	niw0 thr@l2 lis3
+NEUTRALISTIC	niw0 thr@l2 lis3 tik1
+NEUTRALISTS	niw0 thr@l2 lis3
+NEUTRALITIES	niw0 thr@l2 li3 tii2
+NEUTRALITY	niw0 thr@l2 li3 tii2
+NEUTRALIZATION	niw0 thr@l2 laj3 see0 chan2
+NEUTRALIZATIONS	niw0 thr@l2 laj3 see0 chan2
+NEUTRALIZE	niw0 thr@l2 laj3
+NEUTRALIZED	niw0 thr@l2 laj3
+NEUTRALIZER	niw0 thr@l2 laj3 sqq2
+NEUTRALIZERS	niw0 thr@l2 laj3 sqq2
+NEUTRALIZES	niw0 thr@l2 laaj0 ses1
+NEUTRALIZING	niw0 thr@l2 laj3 sing2
+NEUTRALLY	niw0 thr@l0 lii2
+NEUTRALNESS	niw0 thr@l2 nees1
+NEUTRALS	niw0 thr@l2
+NEUTRE	niw0 three2
+NEUTRIENT	niw0 thriian3
+NEUTRON	niw0 tr@n0
+NEUTRONS	niw0 tr@n0
+NEVADA	nee0 waa0 daa2
+NEVADAS	nee0 waa0 daas2
+NEVADO	nee0 waa0 doo2
+NEVADOS	nee0 waa0 doos2
+NEVE	nee0 wee0
+NEVER	nee0 wqq2
+NEVERLAND	nee0 wqq2 lxxn0
+NEVERLESS	nee0 wqq2 lees1
+NEVERMANS	nee0 wqq2 mxxn0
+NEVERMORE	nee0 wqq2 m@@0
+NEVERS	nee0 wqq2
+NEVERTHELESS	nee0 wqq2 dq1 lees3
+NEVES	nee0 wees1
+NEVILLE	nee0 wil0
+NEVILLES	nee0 wil0
+NEW	niw0
+NEWALL	niw0 @@l0
+NEWARK	niw0 aak3
+NEWARKS	niw0 aak3
+NEWART	niw0 aat3
+NEWARTHILL	niw0 aat3 hil0
+NEWBERG	niw0 bqqk1
+NEWBERGER	niw0 bqq0 kqq2
+NEWBERN	niw0 bqqn0
+NEWBERRY	niw0 bqq0 rii2
+NEWBERRYTOWN	niw0 bqq0 rii2 thaaw0
+NEWBIGGIN	niw0 bik3 kin2
+NEWBIGGING	niw0 bik3 king2
+NEWBILL	niw0 bil0
+NEWBOLD	niw0 bool0
+NEWBOLDS	niw0 bool0
+NEWBOLT	niw0 bool3
+NEWBORN	niw0 b@@n0
+NEWBORNE	niw0 b@@n0
+NEWBORNS	niw0 b@@n0
+NEWBRIDGE	niw0 bric1
+NEWBRITAIN	niw0 brit1 theen0
+NEWBURG	niw0 bqqk1
+NEWBURGER	niw0 bqqk3 kqq2
+NEWBURGH	niw0 brqq2
+NEWBURGHS	niw0 brqq2
+NEWBURN	niw0 bqqn0
+NEWBURNSIDE	niw0 bqqn0 saj3
+NEWBURY	niw0 bqq0 rii2
+NEWBURYS	niw0 bqq0 rii2
+NEWCAST	niw0 khaas3
+NEWCASTERS	niw0 khaas3 tqq2
+NEWCASTLE	niw0 khxs3 sql2
+NEWCASTLES	niw0 khxs3 sql2
+NEWCASTS	niw0 khaas3
+NEWCOMB	niw0 khoom0
+NEWCOMBE	niw0 kh@@m0
+NEWCOMBES	niw0 kh@@m0
+NEWCOME	niw0 kham0
+NEWCOMER	niw0 kham0 mqq2
+NEWCOMERS	niw0 kham0 mqq2
+NEWCOMES	niw0 kham0
+NEWCOMING	niw0 kham0 ming2
+NEWCOR	niw0 kh@@0
+NEWEDGE	niw0 eec1
+NEWEL	niw0 ql2
+NEWELL	niw0 el2
+NEWELLS	niw0 el2
+NEWELS	niw0 el2
+NEWER	niw0 qq2
+NEWEST	niw0 ees1
+NEWFANGLE	niw0 fxxng0 kql2
+NEWFANGLED	niw0 fxxng0 kql2
+NEWFANGLEMENT	niw0 fxxng0 kql2 men3
+NEWFASHIONED	niw0 fxx0 chan2
+NEWFIELD	niw0 fiil0
+NEWFIELDS	niw0 fiil0
+NEWFOUND	niw0 faaw0
+NEWFOUNDLAND	niw0 faaw0 lxxn0
+NEWFOUNDLANDAND	niw0 faaw0 lxxn0 dqn2
+NEWFOUNDLANDER	niw0 faaw0 lxxn0 dqq2
+NEWFOUNDLANDERS	niw0 faaw0 lxxn0 dqq2
+NEWFOUNDLANDS	niw0 faaw0 lxxn0
+NEWGATE	niw0 keet1
+NEWGATEWAY	niw0 keet1 wee0
+NEWHALL	niw0 h@@l0
+NEWHALLS	niw0 h@@l0
+NEWHAM	niw0 hxm2
+NEWHARD	niw0 haat3
+NEWHART	niw0 haat3
+NEWHARTFORD	niw0 haat3 f@@t1
+NEWHARTS	niw0 haat3
+NEWHAVEN	niw0 hee0 wen2
+NEWHOUSE	niw0 haw3
+NEWHOUSER	niw0 haw3 sqq2
+NEWHOUSES	niw0 haw3 ses1
+NEWILL	niw0 il2
+NEWING	niw0 ing2
+NEWINGHAM	niw0 ing2 hxm0
+NEWINGS	niw0 ing2
+NEWINGTON	niw0 ing0 tan2
+NEWKIRK	niw0 khqqk3
+NEWKIRKS	niw0 khqqk3
+NEWLAND	niw0 lxxn0
+NEWLANDER	niw0 lxxn0 dqq2
+NEWLANDS	niw0 lxxn0
+NEWLINE	niw0 laaj0
+NEWLINES	niw0 laaj0
+NEWLING	niw0 ling2
+NEWLINSKY	niw0 lin0 sa1 kaaj0
+NEWLONDON	niw0 l@n0 d@n2
+NEWLY	niw0 lii2
+NEWLYWED	niw0 lii2 wet3
+NEWLYWEDS	niw0 lii2 wet3
+NEWMAINS	niw0 men0
+NEWMAN	niw0 mxxn0
+NEWMANCHESTER	niw0 mxxn0 chees3 tqq2
+NEWMANISE	niw0 mxxn0 nis3
+NEWMANISES	niw0 mxxn0 nis3 ses1
+NEWMANISM	niw0 mxxn0 nis3 svm2
+NEWMANN	niw0 mxxn0
+NEWMANS	niw0 mxxn0
+NEWMANSTOWN	niw0 mxxn0 sa1 thaaw0
+NEWMARCH	niw0 maach3
+NEWMARK	niw0 maak3
+NEWMARKET	niw0 maa0 ket3
+NEWMONT	niw0 m@n3
+NEWMOWN	niw0 m@@n0
+NEWNESS	niw0 nees1
+NEWNESSES	niw0 nees3 ses1
+NEWPARK	niw0 phaak3
+NEWPOINT	niw0 ph@j3
+NEWPORT	niw0 ph@@t1
+NEWPORTED	niw0 ph@@t3 thet1
+NEWPORTER	niw0 ph@@t3 thqq2
+NEWPORTERS	niw0 ph@@t3 thqq2
+NEWPORTLAND	niw0 ph@@t1 len3
+NEWPORTS	niw0 ph@@t1
+NEWQUAY	niw0 khwaj0
+NEWQUIST	niw0 kwis3
+NEWRY	niw0 rii2
+NEWS	niw0
+NEWSAGENCIES	niw0 see0 cen0 sii2
+NEWSAGENCY	niw0 see0 cen1 sii2
+NEWSAGENT	niw0 see0 cen2
+NEWSAGENTS	niw0 see0 cen2
+NEWSBOY	niw0 b@@j0
+NEWSBOYS	niw0 b@@j0
+NEWSBREAK	niw0 breek1
+NEWSCAST	niw0 sa1 khaas3
+NEWSCASTER	niw0 sa1 khaas3 tqq2
+NEWSCASTERS	niw0 sa1 khaas3 tqq2
+NEWSCASTING	niw0 sa1 khaas3 ting2
+NEWSCASTLE	niw0 sa1 khaas3 sql2
+NEWSCASTS	niw0 sa1 khaas3
+NEWSCORP	niw0 sa1 kh@@p1
+NEWSDAY	niw0 sa1 dee0
+NEWSDAYS	niw0 sa1 dees1
+NEWSDEALER	niw0 sa1 diil0 lqq2
+NEWSDEALERS	niw0 sa1 diil0 lqq2
+NEWSES	niw0 ses1
+NEWSFLASH	niw0 sa1 flxch1
+NEWSFLASHES	niw0 sa1 flxch3 ches1
+NEWSGIRL	niw0 sa1 kqql2
+NEWSGIRLS	niw0 sa1 kqql2
+NEWSGROUP	niw0 sa1 krup3
+NEWSGROUPS	niw0 sa1 krup3
+NEWSHAM	niw0 chxm2
+NEWSHOUR	niw0 saaw0 qq2
+NEWSIER	niw0 si1 qq2
+NEWSIEST	niw0 sii0 ees1
+NEWSLESS	niw0 sa1 lees1
+NEWSLESSNESS	niw0 sa1 lees3 nees1
+NEWSLETTER	niw0 sa1 let3 tqq2
+NEWSLETTERS	niw0 sa1 let3 thqq2
+NEWSMAGAZINE	niw0 sa1 mxk3 kaa0 siin0
+NEWSMAGAZINES	niw0 sa1 mxk3 kaa0 siin0
+NEWSMAGS	niw0 sa1 mxk3
+NEWSMAKER	niw0 sa1 meek3 kqq2
+NEWSMAKERS	niw0 sa1 meek3 kqq2
+NEWSMAKING	niw0 sa1 meek3 king2
+NEWSMAN	niw0 sa1 mxxn0
+NEWSMEN	niw0 sa1 men0
+NEWSMONGER	niw0 sa1 mang0 kqq2
+NEWSMONGERING	niw0 sa1 mang0 khqq0 ring2
+NEWSMONGERS	niw0 sa1 mang0 kqq2
+NEWSMONGERY	niw0 sa1 mang0 kqq0 rii2
+NEWSOME	niw0 sam0
+NEWSOMES	niw0 sam0
+NEWSON	niw0 san0
+NEWSONS	niw0 san0
+NEWSPACE	niw0 sa1 pees3
+NEWSPAPER	niw0 sa1 pee0 pqq2
+NEWSPAPERES	niw0 sa1 pee0 pqq2
+NEWSPAPERES	niw0 sa1 pee0 pqq2
+NEWSPAPERING	niw0 sa1 pee0 pqq0 ring2
+NEWSPAPERISH	niw0 sa1 pee0 pqq2 rich3
+NEWSPAPERLESS	niw0 sa1 pee0 pqq2 lees1
+NEWSPAPERMAN	niw0 sa1 pee0 pqq2 mxxn0
+NEWSPAPERMEN	niw0 sa1 pee0 pqq2 men0
+NEWSPAPERS	niw0 sa1 pee0 pqq2
+NEWSPAPERWOMAN	niw0 sa1 pee0 pqq2 wuu0 mxn2
+NEWSPAPERWOMEN	niw0 sa1 pee0 pqq2 wii0 men2
+NEWSPAPERY	niw0 sa1 pee0 pqq0 rii2
+NEWSPATER	niw0 sa1 phxt3 tqq2
+NEWSPEAK	niw0 sa1 piik3
+NEWSPEAKS	niw0 sa1 piik3
+NEWSPEOPLE	niw0 sa1 phii0 phql2
+NEWSPRING	niw0 sa1 pring0
+NEWSPRINGFIELD	niw0 sa1 pring0 fiil0
+NEWSPRINT	niw0 sa1 phrin3
+NEWSPRINTER	niw0 sa1 prin0 tqq2
+NEWSPRINTS	niw0 sa1 phrin3
+NEWSREADERS	niw0 sa1 riit3 dqq2
+NEWSREEL	niw0 sa1 riil0
+NEWSREELS	niw0 sa1 riil0
+NEWSROOM	niw0 sa1 ruum0
+NEWSROOMS	niw0 sa1 ruum0
+NEWSSHEET	niw0 sa1 chiit3
+NEWSSHEETS	niw0 sa1 chiit3
+NEWSSTAND	niw0 sa1 txxn0
+NEWSSTANDS	niw0 sa1 txxn0
+NEWSTROM	niw0 sa1 tr@@m0
+NEWSUM	niw0 sam0
+NEWSVENDOR	niw0 sa1 wen0 dqq2
+NEWSVENDORS	niw0 sa1 wen0 dqq2
+NEWSWANGER	niw0 sa1 wxxng0 kqq2
+NEWSWEEK	niw0 sa1 wiik3
+NEWSWEEKLIES	niw0 sa1 wiik3 lii2
+NEWSWEEKLY	niw0 sa1 wiik3 lii2
+NEWSWIRE	niw0 sa1 waaj0 qq2
+NEWSWIRES	niw0 sa1 waaj0 qq2
+NEWSWOMAN	niw0 sa1 wuu0 mxn2
+NEWSWOMEN	niw0 sa1 wii0 men2
+NEWSWORTHINESS	niw0 sa1 wqqt3 di1 nees1
+NEWSWORTHY	niw0 sa1 wqqt3 dii2
+NEWSY	niw0 sii2
+NEWT	niw3
+NEWTER	niw0 thqq2
+NEWTERED	niw0 thqq2
+NEWTERS	niw0 thqq2
+NEWTON	niw0 tan2
+NEWTONE	niw0 thoon0
+NEWTONER	niw0 thoon0 nqq2
+NEWTONIA	niw0 thoo0 niia0
+NEWTONIAN	niw0 thoo0 niian2
+NEWTONIANISM	niw0 thoo0 niian2 nis3 svm2
+NEWTONIANS	niw0 thoo0 niian2
+NEWTONION	niw0 thoo0 niian2
+NEWTONS	niw0 tan2
+NEWTOWN	niw0 thaaw0
+NEWTS	niw3
+NEWVECTOR	niw0 wek3 tqq2
+NEWVILLE	niw0 wil0
+NEWWAVE	niw0 weef3
+NEWWAVERLY	niw0 weef3 wqq0 lii2
+NEXT	nek3
+NEXTDOOR	nek3 d@@0
+NEXTED	nek3
+NEXTEL	nek3 tel0
+NEXTELL	nek3 tel0
+NEXTRAN	nek3 traan0
+NEXTSTAGE	nek3 sa1 teec1
+NEXTSTATION	nek3 sa1 tee0 chan2
+NEXTSTATIONS	nek3 sa1 tee0 chan2
+NEXTSTEP	nek3 sa1 tep1
+NEXTWORD	nek3 wqqt1
+NEXUS	nek3 sas2
+NEXUSES	nek3 sas2 ses1
+NIB	nip3
+NIBBED	nip3 bet1
+NIBBLE	nip3 bql2
+NIBBLED	nip3 bql2
+NIBBLER	nip3 blqq2
+NIBBLERS	nip3 blqq2
+NIBBLES	nip3 bql2
+NIBBLING	nip3 bling2
+NIBBLINGLY	nip3 bling0 lii2
+NIBBLINGS	nip3 bling2
+NIBLACK	nip3 blxk3
+NIBLET	nip3 blet1
+NIBLETS	nip3 blet1
+NIBLETT	nip3 blet1
+NIBLEY	nip3 blee2
+NIBLICK	nip3 blik1
+NIBLICKS	nip3 blik1
+NIBLIT	nip3 blit1
+NIBLOCK	nip3 bl@k3
+NIBS	nip3
+NICARAGUA	ni3 khaa0 raa0 kuua0
+NICARAGUAN	ni3 khaa0 raa0 kuuan2
+NICARAGUANS	ni3 khaa0 raa0 kuuan2
+NICARAGUAS	ni3 khaa0 raa0 kuua0
+NICARANS	ni3 khaa0 rxxn0
+NICATIONS	ni3 khee0 chan2
+NICE	naj3
+NICELY	naj3 sa1 lii2
+NICENESS	naj3 nees1
+NICER	naj3 sqq2
+NICEST	naj3 sees1
+NICETIES	naj3 set3 thii2
+NICETY	naj3 set3 thii2
+NICHE	nich3
+NICHED	nich3
+NICHER	nich3 chqq2
+NICHES	nich3 ches1
+NICHOLA	ni3 khoo0 laa2
+NICHOLAIDES	ni3 khoo0 laaj0 des1
+NICHOLAS	ni3 khoo0 laas3
+NICHOLS	ni3 kh@@l0
+NICHOLSES	ni3 kh@@l0 ses1
+NICHOLSON	ni3 kh@@l0 san2
+NICHOLSOND	ni3 kh@@l0 san2
+NICHOLSONS	ni3 kh@@l0 san2
+NICK	nik3
+NICKED	nik3 khet1
+NICKEL	nik3 khql2
+NICKELED	nik3 khql2
+NICKELING	nik3 kql0 ling2
+NICKELL	nik3 khel0
+NICKELLED	nik3 khel0
+NICKELLING	nik3 khel0 ling2
+NICKELLS	nik3 khel0
+NICKELS	nik3 khql2
+NICKELSBURG	nik3 khql2 sa1 bqqk1
+NICKELSEN	nik3 khql0 sen2
+NICKELSON	nik3 khql0 san2
+NICKER	nik3 kqq2
+NICKERED	nik3 kqq2
+NICKERING	nik3 kqq0 ring2
+NICKERS	nik3 kqq2
+NICKERSON	nik3 khqq0 san2
+NICKERSONS	nik3 khqq0 san2
+NICKEY	nik3 kii2
+NICKIES	nik3 kii2
+NICKING	nik3 king2
+NICKLAS	nik3 khlas3
+NICKLE	nik3 kql2
+NICKLED	nik3 klet1
+NICKLEN	nik3 klen2
+NICKLER	nik3 klqq2
+NICKLES	nik3 kles1
+NICKLESS	nik3 lees1
+NICKLEY	nik3 lee2
+NICKLIN	nik3 klin2
+NICKLOS	nik3 kl@@s3
+NICKLOW	nik3 kloo0
+NICKLOWS	nik3 kloos2
+NICKNACK	nik3 nxk1
+NICKNACKERY	nik3 nxk3 kqq0 rii2
+NICKNACKS	nik3 nxk1
+NICKNAME	nik3 neem0
+NICKNAMED	nik3 neem0
+NICKNAMELESS	nik3 neem0 lees1
+NICKNAMER	nik3 neem0 mqq2
+NICKNAMERS	nik3 neem0 mqq2
+NICKNAMES	nik3 neem0
+NICKNAMESAKE	nik3 neem0 seek3
+NICKNAMING	nik3 neem0 ming2
+NICKS	nik3
+NICKSON	nik3 san2
+NICKSTICK	nik3 sa1 tik3
+NICKSVILLE	nik3 sa1 wil0
+NICKY	nik3 kii2
+NICKYS	nik3 kii2
+NICOLA	ni3 khoo0 laa2
+NICOLAES	ni3 khoo0 lxxs2
+NICOLAIDES	ni3 khoo0 laaj0 des1
+NICOLARY	ni3 khoo0 laa0 rii2
+NICOLAS	ni3 khoo0 laas3
+NICOLE	ni3 khool0
+NICOLES	ni3 khool0
+NICOLI	ni3 khoo0 lii2
+NICOLIER	ni3 khoo0 li1 qq2
+NICOLINA	ni3 khoo0 lii0 naa2
+NICOLINE	ni3 khoo0 laaj0
+NICOLIS	ni3 khoo0 lis3
+NICOLO	ni3 khoo0 loo2
+NICOLOS	ni3 khoo0 loos2
+NICOR	ni3 kh@@0
+NICOTINA	ni3 khoo0 thii0 naa2
+NICOTINE	ni3 khoo0 thiin0
+NICOTINED	ni3 khoo0 thiin0
+NICOTINES	ni3 khoo0 thiin0
+NICOTINISM	ni3 khoo0 thiin0 nis3 svm2
+NICOTISM	ni3 khoo0 this3 svm2
+NIECE	niis3
+NIECES	niis3 ses1
+NIFF	nif3
+NIFFED	nif3
+NIFFER	nif3 fqq2
+NIFFIER	nif3 fi1 qq2
+NIFFIEST	nif3 fii0 ees1
+NIFFS	nif3
+NIFFY	nif3 fii2
+NIFTIER	nif3 thi1 qq2
+NIFTIES	nif3 thii2
+NIFTIEST	nif3 thii0 ees1
+NIFTILY	nif3 thil0 lii2
+NIFTINESS	nif3 thii0 nees1
+NIFTY	nif3 tii2
+NIGEL	naj0 cql2
+NIGELS	naj0 cql2
+NIGER	naj0 cqq2
+NIGERIA	naj0 cii0 riia0
+NIGERIAL	naj0 cii0 riial2
+NIGERIAN	naj0 cii0 riian2
+NIGERIANS	naj0 cii0 riian2
+NIGERIAS	naj0 cii0 riias2
+NIGERIEN	naj0 cii0 riian2
+NIGERIENS	naj0 cii0 riian2
+NIGGARD	nik3 kqqt1
+NIGGARDED	nik3kqqt1 det1
+NIGGARDING	nik3 kqqt1 ding2
+NIGGARDLINESS	nik3 kqqt1 li3 nees1
+NIGGARDLING	nik3 kqqt1 ling2
+NIGGARDLY	nik3 kqqt1 lii2
+NIGGARDS	nik3 kqqt1
+NIGGER	nik3 kqq2
+NIGGERED	nik3 kqq2
+NIGGERISH	nik3 kqq0 rich1
+NIGGERISM	nik3 kqq0 ris3 svm2
+NIGGERS	nik3 kqq2
+NIGGERY	nik3 kqq0 rii2
+NIGGLE	nik3 kql2
+NIGGLED	nik3 kql2
+NIGGLER	nik3 klqq2
+NIGGLERS	nik3 klqq2
+NIGGLES	nik3 kql2
+NIGGLING	nik3 kling2
+NIGGLINGLY	nik3 kling0 lii2
+NIGGLINGS	nik3 kling2
+NIGGLY	nik3 klii2
+NIGH	naaj0
+NIGHED	naaj0
+NIGHER	naaj0 qq2
+NIGHEST	naaj0 ees1
+NIGHING	naaj0 ing2
+NIGHNESS	naaj0 nees1
+NIGHS	naaj0
+NIGHT	naj3
+NIGHTCAP	naj3 khxp3
+NIGHTCAPPED	naj3 khxp3
+NIGHTCAPS	naj3 khxp3
+NIGHTCAT	naj3 khxt3
+NIGHTCATS	naj3 khxt3
+NIGHTCLOTHES	naj3 khloot3
+NIGHTCLUB	naj3 khlap1
+NIGHTCLUBBER	naj3 khlap3 bqq2
+NIGHTCLUBBERS	naj3 khlap3 bqq2
+NIGHTCLUBBING	naj3 khlap3 bing2
+NIGHTCLUBS	naj3 khlap1
+NIGHTCRAWLER	naj3 khr@@l0 lqq2
+NIGHTCRAWLERS	naj3 khr@@l0 lqq2
+NIGHTDRESS	naj3 drees3
+NIGHTDRESSES	naj3 drees3 ses1
+NIGHTED	naj3 thet1
+NIGHTER	naj3 thqq2
+NIGHTERS	naj3 thqq2
+NIGHTFALL	naj3 f@@l0
+NIGHTFALLS	naj3 f@@l0
+NIGHTGOWN	naj3 kaaw0
+NIGHTGOWNED	naj3 kaaw0
+NIGHTGOWNS	naj3 kaaw0
+NIGHTHAWK	naj3 h@@k3
+NIGHTHAWKS	naj3 h@@k3
+NIGHTHOUSE	naj3 haw3
+NIGHTIE	naj3 thii2
+NIGHTIES	naj3 thii2
+NIGHTING	naj3 thing2
+NIGHTINGA	naj0 thing0 kaa2
+NIGHTINGALE	naj0 ting0 kel0
+NIGHTINGALES	naj0 ting0 kel0
+NIGHTINGALIA	naj3 ting0 kel0 liia0
+NIGHTJAR	naj3 caa0
+NIGHTJARS	naj3 caas2
+NIGHTLESS	naj3 lees1
+NIGHTLIFE	naj3 laj3
+NIGHTLIGHT	naj3 laj3
+NIGHTLIGHTS	naj3 laj3
+NIGHTLIKE	naj3 laj3
+NIGHTLINE	naj3 laaj0
+NIGHTLINES	naj3 laaj0
+NIGHTLONG	naj3 l@@ng0
+NIGHTLY	naj3 lii2
+NIGHTMAN	naj3 mxxn0
+NIGHTMARE	naj3 mxx0
+NIGHTMARES	naj3 mxx0
+NIGHTMARISH	naj3 mxx0 rich3
+NIGHTMARISHLY	naj3 mxx0 rich3 lii2
+NIGHTMARISHNESS	naj3 mxx0 rich3 nees1
+NIGHTMARY	naj3 mxx0 rii2
+NIGHTMEN	naj3 men0
+NIGHTON	naj3 tan2
+NIGHTRIDER	naj3 raaj0 dqq2
+NIGHTRIDERS	naj3 raaj0 dqq2
+NIGHTS	naj3
+NIGHTSHADE	naj3 cheet3
+NIGHTSHADES	naj3 cheet3
+NIGHTSHIRT	naj3 chqqt3
+NIGHTSHIRTS	naj3 chqqt3
+NIGHTSPOT	naj3 sa1 p@t1
+NIGHTSPOTS	naj3 sa1 p@t1
+NIGHTSTAGE	naj3 sa1 teec1
+NIGHTSTAND	naj3 sa1 txxn0
+NIGHTSTANDS	naj3 sa1 txxn0
+NIGHTSTICK	naj3 sa1 tik3
+NIGHTSTICKS	naj3 sa1 tik3
+NIGHTSTOOL	naj3 sa1 tuul0
+NIGHTSTOP	naj3 sa1 t@p3
+NIGHTTIME	naj3 thaam0
+NIGHTTIMES	naj3 thaam0
+NIGHTWALKER	naj3 w@@k3 kqq2
+NIGHTWALKERS	naj3 w@@k3 kqq2
+NIGHTWARD	naj3 wqqt1
+NIGHTWARDS	naj3 wqqt1
+NIGHTWATCH	naj3 w@ch3
+NIGHTWATCHMAN	naj3 w@ch3 mxxn0
+NIGHTWATCHMEN	naj3 w@ch3 men0
+NIGHTWEAR	naj3 wxx0
+NIGHTWIND	naj3 win0
+NIGHTWING	naj3 wing0
+NIGHTWORK	naj3 wqqk3
+NIGHTWORKER	naj3 wqqk3 kqq2
+NIGHTWORKERS	naj3 wqqk3 kqq2
+NIHILIFICATION	naaj0 hil0 lif3 fik3 khee0 chan2
+NIHILIFY	naaj0 hil0 li3 faaj0
+NIHILISM	naaj0 hil0 lis3 svm2
+NIHILISMS	naaj0 hil0 lis3 svm2
+NIHILIST	naaj0 hil0 lis3
+NIHILISTIC	naaj0 hil0 lis3 tik1
+NIHILISTICALLY	naaj0 hil0 lis3 tik1 kh@l0 lii2
+NIHILISTICS	naaj0 hil0 lis3 tik1
+NIHILISTS	naaj0 hil0 lis3
+NIHILITIC	naaj0 hil0 li3 thik1
+NIHILITIES	naaj0 hil0 li3 tii2
+NIHILITY	naaj0 hil0 li3 tii2
+NIJMEGEN	naaj0 mek3 kqn2
+NIL	nil0
+NILAND	nil0 lxxn0
+NILES	nil0
+NILESES	nil0 ses1
+NILLED	nil0 let1
+NILLES	nil0 les1
+NILLING	nil0 ling2
+NILLION	nil0 liian2
+NILLY	nil0 lii2
+NILOMETER	naaj0 loo0 mi3 tqq2
+NILOTIC	naaj0 l@t3 thik1
+NILOTICA	naaj0 l@t3 thik1 kaa2
+NILOTICUS	naaj0 l@t3 thik1 khas2
+NILSEN	nil0 sen2
+NILSON	nil0 san2
+NIMBAS	nim0 bas3
+NIMBI	nim0 baj0
+NIMBIES	nim0 bii2
+NIMBLE	nim0 bql2
+NIMBLED	nim0 bql2
+NIMBLENESS	nim0 bql2 nees1
+NIMBLER	nim0 blqq2
+NIMBLER	nim0 blqq2
+NIMBLEST	nim0 bles3
+NIMBLY	nim0 blii2
+NIMBUS	nim0 bas3
+NIMBUSED	nim0 bas3
+NIMBUSES	nim0 bas3 ses1
+NIMICK	ni3 mik1
+NIMROD	nim0 r@t3
+NIMRODIAN	nim0 roo0 diian2
+NIMRODS	nim0 r@t3
+NINCKLEY	ning0 khq1 lii2
+NINCOMPOOP	nin0 kh@m0 puup3
+NINE	naaj0
+NINEFOLD	naaj0 fool0
+NINEPENCE	naaj0 phen3
+NINEPENCES	naaj0 phen3
+NINEPENNY	naaj0 phen0 nii0
+NINEPIN	naaj0 phin0
+NINEPINS	naaj0 phin0
+NINER	naaj0 nqq2
+NINERS	naaj0 nqq2
+NINERS	naaj0 nqq2
+NINES	naaj0
+NINETEEN	naaj0 thiin0
+NINETEENS	naaj0 thiin0
+NINETEENTH	naaj0 thiin3
+NINETEENTHS	naaj0 thiin3
+NINETIES	naaj0 tii2
+NINETIETH	naaj0 thii2 et1
+NINETIETHS	naaj0 thii2 et1
+NINETY	naaj0 tii2
+NINGEN	ning0 ngen2
+NINISH	naaj0 nich1
+NINNIES	nin0 nii2
+NINNINS	nin0 nin2
+NINNY	nin0 nii2
+NINTH	naj3
+NINTHS	naj3
+NIOBE	naaj0 oo0 bii2
+NIOBES	naaj0 oo0 bii2
+NIP	nip3
+NIPPED	nip3
+NIPPER	nip3 phqq2
+NIPPERS	nip3 phqq2
+NIPPERT	nip3 phqqt1
+NIPPIER	nip3 phi1 qq2
+NIPPIES	nip3 phii2
+NIPPIEST	nip3 phii0 es1
+NIPPINESS	nip3 phi3 nees1
+NIPPING	nip3 phing2
+NIPPINGLY	nip3 phing0 lii2
+NIPPLE	nip3 phql2
+NIPPLED	nip3 phql2
+NIPPLES	nip3 phql2
+NIPPON	nip3 ph@n2
+NIPPONESE	nip3 ph@n2 niis3
+NIPPY	nip3 phii2
+NIPS	nip3
+NIRVANA	nqq0 waa0 naa2
+NIRVANAS	nqq0 waa0 naas2
+NISI	naaj0 saaj0
+NISSEN	nis3 sen2
+NISSENBERG	nis3 sen2 bqqk1
+NISSENSON	nis3 sen0 san2
+NIT	nit3
+NITER	naj0 thqq2
+NITERS	naj0 thqq2
+NITKIN	nit3 khin2
+NITKINS	nit3 khin2
+NITPICK	nit3 phik3
+NITPICKED	nit3 phik3
+NITPICKER	nit3 phik3 kqq2
+NITPICKERS	nit3 phik3 kqq2
+NITPICKING	nit3 phik3 king2
+NITPICKINGS	nit3 phik3 king2
+NITPICKS	nit3 phik3
+NITRATE	naj0 threet1
+NITRATED	naj0 threet3 thet1
+NITRATES	naj0 threet3 thees1
+NITRATING	naj0 threet3 ting2
+NITRATION	naj0 three0 chan2
+NITRATIONS	naj0 three0 chan2
+NITRATOR	naj0 three0 thqq2
+NITRATORS	naj0 three0 thqq2
+NITRATUS	naj0 three0 thas2
+NITRE	naj0 tqq2
+NITRES	naj0 tqq2
+NITRIC	naj0 trik1
+NITRIDE	naj0 traj3
+NITRIDING	naj0 traaj0 ding2
+NITRIFICATION	naj0 thri3 fi1 khee0 chan2
+NITRIFIED	naj0 tri1 faaj3
+NITRIFIES	naj0 tri1 faaj3
+NITRIFY	naj0 tri1 faaj0
+NITRIFYING	naj0 tri1 faaj0 ing2
+NITRILE	naj0 thraaj0
+NITRILES	naj0 thraaj0
+NITRITE	naj0 thraj3
+NITRITES	naj0 thraj3
+NITRO	naj0 troo0
+NITROCELLULOSE	naj0 troo0 sel0 luu0 loos3
+NITROCET	naj0 troo0 set1
+NITROCHALK	naj0 troo0 ch@@k3
+NITROGEN	naj0 troo0 cen2
+NITROGENATE	naj0 troo0 cen0 neet1
+NITROGENATED	naj0 troo0 cen0 neet3 thet1
+NITROGENOUS	naj0 troo0 cen0 nas2
+NITROGENS	naj0 troo0 cen2
+NITROGLYCERIN	naj0 troo0 klii0 sqq0 rin0
+NITROGLYCERINE	naj0 troo0 klii0 sqq0 riin0
+NITRON	naj0 tr@n2
+NITROS	naj0 troos2
+NITROTOLUENE	naj0 troo0 th@@l0 luu0 iin0
+NITROUS	naj0 thras3
+NITS	nit3
+NITTEL	nit3 theel0
+NITTER	nit3 thqq2
+NITTIER	nit3 thi1 qq2
+NITWIT	nit3 wit3
+NITWITS	nit3 wit3
+NITWITTED	nit3 wit3 thet1
+NITZEL	nit3 sql2
+NITZER	nit3 sqq2
+NIX	nik3
+NIXED	nik3
+NIXES	nik3 ses1
+NIXIE	nik0 sii2
+NIXIES	nik0 sii2
+NIXING	nik3 sing2
+NIZAM	naj3 sxxm0
+NIZAMS	naj3 sxxm0
+NIZATIONS	naj3 see0 chan2
+NO	noo0
+NOAH	noo0 aa0
+NOB	n@p3
+NOBBED	n@p3
+NOBBER	n@p3 bqq2
+NOBBERY	n@p3 bqq0 rii2
+NOBBIER	n@p3 bi1 qq2
+NOBBING	n@p3 bing2
+NOBBLE	n@p3 bql2
+NOBBLED	n@p3 bql2
+NOBBLER	n@p3 blqq2
+NOBBLERS	n@p3 blqq2
+NOBBLES	n@p3 bql2
+NOBBLING	n@p3 bling2
+NOBBY	n@p3 bii2
+NOBEL	noo0 bel0
+NOBELS	noo0 bel0
+NOBILIARY	noo0 bil0 liia0 rii2
+NOBILIFY	noo0 bil0 li3 faaj0
+NOBILIS	noo0 bil0 lis3
+NOBILITATE	noo0 bil0 li3 theet1
+NOBILITATION	noo0 bil0 li3 thee0 chan2
+NOBILITER	noo0 bil0 li3 thqq2
+NOBILITIES	noo0 bil0 li3 tii2
+NOBILITY	noo0 bil0 li3 tii2
+NOBIS	noo0 bis3
+NOBISES	noo0 bis3 ses1
+NOBLE	noo0 bql2
+NOBLEMAN	noo0 bql2 mxxn0
+NOBLEMANLY	noo0 bql2 mxxn0 lii2
+NOBLEMEN	noo0 bql2 men0
+NOBLEMENT	noo0 bql2 men3
+NOBLENESS	noo0 bql2 nees1
+NOBLER	noo0 blqq2
+NOBLES	noo0 bql2
+NOBLESSE	noo0 blees1
+NOBLESSES	noo0 blees3 ses1
+NOBLEST	noo0 blees3
+NOBLET	noo0 blet1
+NOBLETON	noo0 bql0 tan2
+NOBLEWOMAN	noo0 bql2 wuu0 mxn2
+NOBLEWOMEN	noo0 bql2 wii0 men2
+NOBLIN	noo0 blin2
+NOBLITT	noo0 blit1
+NOBLY	noo0 blii2
+NOBODIES	noo0 b@@0 dii2
+NOBODY	noo0 b@@0 dii2
+NOBODYD	noo0 b@@0 dii2
+NOBODYS	noo0 b@@0 dii2
+NOBRIGA	noo0 brii0 kaa2
+NOBS	n@p3
+NOCKED	n@k3
+NOCKING	n@k3 ing2
+NOCKS	n@k3
+NOCTAMBULANT	n@k3 thxxm0 biw0 lxn3
+NOCTAMBULATION	n@k3 thxxm0 biw0 lee0 chan2
+NOCTAMBULISM	n@k3 thxxm0 biw0 lis3 svm2
+NOCTAMBULIST	n@k3 thxxm0 biw0 lis3
+NOCTAMBULISTIC	n@k3 thxxm0 biw0 lis3 tik1
+NOCTAMBULISTS	n@k3 thxxm0 biw0 lis3
+NOCTAMBULOUS	n@k3 thxxm0 biw0 las2
+NOCTON	n@k3 tan2
+NOCTOR	n@k3 tqq2
+NOCTURN	n@k3 thqqn0
+NOCTURNAL	n@k3 thqq0 n@l2
+NOCTURNALLY	n@k3 thqq0 n@l0 lii2
+NOCTURNALS	n@k3 thqq0 n@l2
+NOCTURNE	n@k3 thqqn0
+NOCTURNES	n@k3 thqqn0
+NOCTURNS	n@k3 thqqn0
+NOCUOUS	n@k3 khiw0 as2
+NOD	n@t3
+NODAL	noo0 dql2
+NODALLY	noo0 dql2 lii2
+NODDED	n@t3 det1
+NODDIES	n@t3 dii2
+NODDING	n@t3 ding2
+NODDINGLY	n@t3 ding0 lii2
+NODDINGS	n@t3 ding2
+NODDLE	n@t3 dql2
+NODDLES	n@t3 dql2
+NODDY	n@t3 dii2
+NODE	noot1
+NODELL	noo0 deel0
+NODES	noot1
+NODS	n@t3
+NODULAR	n@t3 diw0 laa2
+NODULATE	n@t3 diw0 leet1
+NODULATED	n@t3 diw0 leet3 thet1
+NODULATING	n@t3 diw0 leet3 ting2
+NODULATION	n@t3 diw0 lee0 chan2
+NODULE	n@t3 diw0
+NODULED	n@t3 diw0
+NODULES	n@t3 diw0
+NODULOSE	n@t3 diw0 loos3
+NODULOUS	n@t3 diw0 las2
+NODULUM	n@t30 diw0 lam2
+NODULUS	n@t3 diw0 las2
+NOEL	noo0 el0
+NOELLES	noo0 el0 les1
+NOELLING	noo0 el0 ling2
+NOELS	noo0 el0
+NOGGED	n@k3
+NOGGIN	n@k3 kin2
+NOGGING	n@k3 king2
+NOGGINGS	n@k3 king2
+NOGGINS	n@k3 kin2
+NOHOW	noo0 haaw0
+NOIRE	nuua0
+NOIRER	nuua0 rqq2
+NOIRES	nuua0 res1
+NOIRS	nuua0
+NOISE	n@@j3
+NOISED	n@@j3
+NOISELESS	n@@j3 lees1
+NOISELESSLY	n@@j3 lees3 lii2
+NOISELESSNESS	n@@j3 lees1 nees1
+NOISEMAKER	n@@j3 meek3 kqq2
+NOISEMAKERS	n@@j3 meek3 kqq2
+NOISER	n@@j3 sqq2
+NOISES	n@@j3 ses1
+NOISETTE	n@@j3 set1
+NOISETTES	n@@j3 set1
+NOISIER	n@@j3 si1 qq2
+NOISIEST	n@@j3 sii0 es1
+NOISILY	n@@j3 si1 lii2
+NOISINESS	n@@j3 si1 nees1
+NOISING	n@@j3 sing2
+NOISOME	n@@j3 sam2
+NOISOMELY	n@@j3 sam0 lii2
+NOISOMENESS	n@@j3 sam2 nees1
+NOISY	n@@j0 sii2
+NOM	n@@m0
+NOMAD	noo0 mxxt3
+NOMADIC	noo0 mxxt3 dik1
+NOMADICAL	noo0 mxxt3 di1 khql2
+NOMADICALLY	noo0 mxxt3 di1 khql2 lii2
+NOMADISM	noo0 mxxt3 dis3 svm2
+NOMADISMS	noo0 mxxt3 dis3 svm2
+NOMADS	noo0 mxxt3
+NOMENCLATURE	noo0 men0 khlee0 chqq2
+NOMENCLATURES	noo0 men0 khlee0 chqq2
+NOMENTUM	noo0 men0 tam2
+NOMIAL	n@@m0 miial2
+NOMIC	n@@m0 mik1
+NOMICS	n@@m0 mik1
+NOMINABLE	n@@m0 mi3 nee0 bql2
+NOMINAED	n@@m0 mi3 neet1
+NOMINAL	n@@m0 min0 nql2
+NOMINALISM	n@@m0 min0 nql2 lis3 svm2
+NOMINALIST	n@@m0 min0 nql2 lis3
+NOMINALISTIC	n@@m0 min0 nql2 lis3 tik1
+NOMINALITY	n@@m0 mi3 n@l2 li3 tii2
+NOMINALLY	n@@m0 mi3 nql2 lii2
+NOMINALS	n@@m0 min0 nql2
+NOMINATE	n@@m0 mi3 neet1
+NOMINATED	n@@m0 mi3 neet3 thet1
+NOMINATELY	n@@m0 mi3 neet3 lii2
+NOMINATES	n@@m0 mi3 neet1
+NOMINATING	n@@m0 mi3 neet3 ting2
+NOMINATION	n@@m0 mi3 nee0 chan2
+NOMINATIONS	n@@m0 mi3 nee0 chan2
+NOMINATIVE	n@@m0 mi3 nee0 thiif1
+NOMINATIVELY	n@@m0 mi3 nee0 thiif1 lii2
+NOMINATIVES	n@@m0 mi3 nee0 thiif1
+NOMINATON	n@@m0 mi3 nee0 tan2
+NOMINATOR	n@@m0 mi3 nee0 tqq2
+NOMINATORS	n@@m0 mi3 nee0 thqq2
+NOMINEE	n@@m0 mi3 nii2
+NOMINEES	n@@m0 mi3 nii2
+NOMINESS	n@@m0 mi3 nees1
+NOMINI	n@@m0 mi3 naaj0
+NOMINIS	n@@m0 mi3 naj3
+NOMINY	n@@m0 mi3 nii2
+NOMISM	n@@m0 mis3 svm2
+NOMISMS	n@@m0 mis3 svm2
+NOMS	n@@m0
+NON	n@n0
+NONABRASIVE	n@n0 ap1 braas3 siif1
+NONABRASIVELY	n@n0 ap1 braas3 siif1 lii2
+NONABRASIVENESS	n@n0 ap1 braas3 siif1 nees1
+NONABSOLUTE	n@n0 xp3 soo0 luut1
+NONABSOLUTELY	n@n0 xp3 soo0 luut1 lii2
+NONABSOLUTENESS	n@n0 xp3 soo0 luut1 nees1
+NONABSORBABLE	n@n0 xp3 s@@p3 ba1 bql2
+NONABSORBENT	n@n0 xp3 s@@p3 ben2
+NONABSORBENTS	n@n0 xp3 s@@p3 ben2
+NONABSTAINER	n@n0 xp3 sa1 teen0 nqq2
+NONABSTAINERS	n@n0 xp3 sa1 teen0 nqq2
+NONACADEMIC	n@n0 xk3 khaa0 dem0 mik1
+NONACADEMICS	n@n0 xk3 khaa0 dem0 mik1
+NONACCEPTANCE	n@n0 xk3 sep3 txn2
+NONACCOUNTABILITY	n@n0 xk3 khaw3 thxp3 bil0 li3 tii2
+NONACCOUNTABLE	n@n0 xk3 khaw3 thxp3 bql2
+NONACCOUNTANTS	n@n0 xk3 kha3 thxn2
+NONACCREDITED	n@n0 xk3 khret3 dit3 thet1
+NONACCRETION	n@n0 xk3 khrii0 chan2
+NONACCRUING	n@n0 xk3 khruu0 ing2
+NONACID	n@n0 xx0 sit1
+NONACTIVE	n@n0 xk3 thiif1
+NONACTIVES	n@n0 xk3 thiif1
+NONADAPTIVE	n@n0 a1 dxp3 thiif1
+NONADDICTING	n@n0 xt3 dik3 ting2
+NONADDICTIVE	n@n0 xt3 dik3 thiif1
+NONADHESIVE	n@n0 xt3 hii0 siif1
+NONADJACENT	n@n0 xt3 caa0 sen2
+NONADJUSTABLE	n@n0 xt3 cas3 thee0 bql2
+NONADMINISTRATIVE	n@n0 xt3 min0 nis3 tree0 thiif1
+NONADMINISTRATIVELY	n@n0 xt3 min0 nis3 tree0 thiif1 lii2
+NONADMISSION	n@n0 xt3 mich3 chan2
+NONADMISSIONS	n@n0 xt3 mich3 chan2
+NONADULT	n@n0 xt3 dal3
+NONADULTS	n@n0 xt3 dal3
+NONADVANTAGEOUS	n@n0 xt3 wxxn0 theet3 ciias2
+NONADVANTAGEOUSLY	n@n0 xt3 wxxn0 theet3 ciias2 lii2
+NONAFFILIATED	n@n0 xf3 fi3 li3 theet1
+NONAGE	n@n0 eec1
+NONAGED	n@n0 eec1
+NONAGENARIAN	n@n0 eec1 cen0 naa0 riian2
+NONAGENARIANS	n@n0 eec1 cen0 naa0 riian2
+NONAGES	n@n0 eec1 ces1
+NONAGGRESSION	n@n0 xk3 krees3 chan2
+NONAGGRESSIVE	n@n0 xk3 krees3 siif1
+NONAGRARIAN	n@n0 xk3 krxx0 riian2
+NONAGREEMENT	n@n0 a1 krii0 men3
+NONAGREEMENTS	n@n0 a1 krii0 men3
+NONAGRESSION	n@n0 xk3 krees3 chan2
+NONAGRESSIVE	n@n0 xk3 krees3 siif1
+NONAGRICULTURAL	n@n0 xk3 kri1 khal0 chqq0 r@l2
+NONAGRICULTURE	n@n0 xk3 kri1 khal0 chqq2
+NONALCOHOL	n@n0 xxl0 ka1 h@@l0
+NONALCOHOLIC	n@n0 xxl0 ka1 h@@l0 lik1
+NONALCOHOLICS	n@n0 xxl0 ka1 h@@l0 lik1
+NONALIGNED	n@n0 al0 laaj0
+NONALIGNMENT	n@n0 al0 laaj0 men2
+NONALLERGENIC	n@n0 al0 lqq0 cen0 nik1
+NONALLOTMENT	n@n0 al0 l@t3 men3
+NONALLOWABLE	n@n0 al0 laaw0 ee0 bql2
+NONANALYTIC	n@n0 a1 naa0 laj0 thik1
+NONAPPEARANCE	n@n0 xp3 phiia0 rxn3
+NONAPPEARANCES	n@n0 xp3 phiia0 rxn3 ses1
+NONAPPLICABLE	n@n0 xp3 phli3 khee0 bql2
+NONAQUATIC	n@n0 a1 khwaa0 tik1
+NONARY	n@n0 naa0 rii2
+NONASSERTIVE	n@n0 xxs3 sqqt3 thiif1
+NONASSERTIVELY	n@n0 xxs3 sqqt3 thiif1 lii2
+NONASSIMILATION	n@n0 xxs3 sim0 mi3 lee0 chan2
+NONATHLETIC	n@n0 xt3 let3 thik1
+NONATTENDANCE	n@n0 xt3 then0 dxn2
+NONATTRIBUTIVE	n@n0 xt3 thri1 biw3 thiif1
+NONATTRIBUTIVELY	n@n0 xt3 thri1 biw3 thiif1 lii2
+NONAUTHORITATIVE	n@n0 @@0 th@@0 ri3 thee0 thiif1
+NONAUTHORITATIVELY	n@n0 @@0 th@@0 ri3 thee0 thiif1 lii2
+NONAUTO	n@n0 @@0 too2
+NONAUTOMATED	n@n0 @@0 too0 meet3 tet1
+NONAUTOMATIC	n@n0 @@0 too0 mee0 tik1
+NONAUTOMOTIVE	n@n0 @@0 too0 moo0 thiif1
+NONBANK	n@n0 bxng3
+NONBANKABLE	n@n0 bxng3 kee0 bql2
+NONBANKER	n@n0 bxng3 kqq2
+NONBANKERS	n@n0 bxng3 kqq2
+NONBANKING	n@n0 bxng3 king2
+NONBANKRUPT	n@n0 bxng3 rap3
+NONBANKS	n@n0 bxng3
+NONBASIC	n@n0 bee0 sik1
+NONBEING	n@n0 bii0 ing2
+NONBEINGS	n@n0 bii0 ing2
+NONBELIEVER	n@n0 bii0 liif3 wqq2
+NONBELIEVERS	n@n0 bii0 liif3 wqq2
+NONBELIEVING	n@n0 bii0 liif3 wing2
+NONBELLIGERENCE	n@n0 bel0 lic3 cqq0 ren3
+NONBELLIGERENCY	n@n0 bel0 lic3 cqq0 ren0 sii2
+NONBELLIGERENT	n@n0 bel0 lic3 cqq0 ren3
+NONBELLIGERENTS	n@n0 bel0 lic3 cqq0 ren3
+NONBENDING	n@n0 ben0 ding2
+NONBIASED	n@n0 baaj0 xxs1
+NONBINDING	n@n0 baaj0 ding2
+NONBINOMIAL	n@n0 baj0 noo0 miial2
+NONBITING	n@n0 baaj3 ting2
+NONBOARD	n@n0 b@@t1
+NONBOARDING	n@n0 b@@t1 ding2
+NONBORN	n@n0 b@@n0
+NONBREAKABLE	n@n0 breek3 kee0 bql2
+NONBUILDING	n@n0 bil0 ding2
+NONBUSINESS	n@n0 bis3 si3 nees1
+NONBUSINESSMAN	n@n0 bis3 si3 nees1 mxxn0
+NONCALL	n@n0 kh@@l0
+NONCALLABILITY	n@n0 kh@@l0 laa0 bil0 li3 tii2
+NONCALLABLE	n@n0 kh@@l0 lee0 bql2
+NONCALLS	n@n0 kh@@l2
+NONCAMPING	n@n0 khxm3 ping2
+NONCANCEROUS	n@n0 khxxn0 sqq0 ras3
+NONCANONICAL	n@n0 khxxn0 noo0 ni3 khql2
+NONCAPILLARITY	n@n0 khxp3 phil0 laa0 ri3 tii2
+NONCAPILLARY	n@n0 khxp3 phil0 laa0 rii2
+NONCAPITAL	n@n0 khxp3 pi1 t@l2
+NONCAPITALIST	n@n0 khxp3 pi1 t@l2 lis3
+NONCAPITALISTIC	n@n0 khxp3 pi1 t@l2 lis3 tik1
+NONCAPSIZABLE	n@n0 khxp3 saj3 see0 bql2
+NONCAPTIVE	n@n0 khxp3 thiif1
+NONCAPTURE	n@n0 khxp3 chqq2
+NONCAR	n@n0 kaa0
+NONCARBONATED	n@n0 kaa0 b@n0 neet3 thet1
+NONCARD	n@n0 kaat1
+NONCARDIAC	n@n0 khaa0 di1 xk1
+NONCARING	n@n0 khxx0 ring2
+NONCARNIVOROUS	n@n0 khaa0 ni3 wqq0 ras3
+NONCASH	n@n0 khxxch3
+NONCASHMERE	n@n0 khxxch3 miia0
+NONCASUAL	n@n0 khxxch3 chuual2
+NONCAUSAL	n@n0 kh@@s3 sql2
+NONCE	n@n3
+NONCELESTIAL	n@n0 sel0 les3 thiial2
+NONCELLULAR	n@n0 sel0 luu0 laa2
+NONCENSUS	n@n0 sen0 sas2
+NONCENTRAL	n@n0 sen0 thral2
+NONCENTRALLY	n@n0 sen0 thral0 lii2
+NONCES	n@n0 ses1
+NONCHALANCE	n@n0 chaa0 lxn3
+NONCHALANT	n@n0 chaa0 lxn3
+NONCHALANTED	n@n0 chaa0 lxn3 thet1
+NONCHALANTLY	n@n0 chaa0 lxn3 lii2
+NONCHALLENGER	n@n0 chaa0 len0 cqq2
+NONCHARGEABLE	n@n0 chaac3 cee0 bql2
+NONCHASTISEMENT	n@n0 chxs3 taaj3 men3
+NONCIVILIZED	n@n0 sii0 wil2 laj3
+NONCLASSICAL	n@n0 khlxxs3 sik1 khql2
+NONCLASSICALLY	n@n0 khlxxs3 sik1 khql2 lii2
+NONCLERICAL	n@n0 khlee0 ri3 khql2
+NONCLERICALLY	n@n0 khlee0 ri3 khql2 lii2
+NONCLINICAL	n@n0 klin0 nik3 khql2
+NONCLINICALLY	n@n0 klin0 nik3 khql2 lii2
+NONCOAGULATING	n@n0 khoo0 xk3 kiw0 leet3 ting2
+NONCOCK	n@n0 kh@k3
+NONCOGNATE	n@n0 kh@k3 neet1
+NONCOGNITION	n@n0 kh@k3 ni3 chan2
+NONCOGNITIVE	n@n0 kh@k3 ni3 thiif1
+NONCOGNIZANCE	n@n0 kh@k3 nis1 sqn2
+NONCOHERENT	n@n0 khoo0 hiia0 ren3
+NONCOHESIVE	n@n0 khoo0 hii0 siif1
+NONCOHESIVELY	n@n0 khoo0 hii0 siif1 lii2
+NONCOHESIVENESS	n@n0 khoo0 hii0 siif1 nees1
+NONCOLLAPSABLE	n@n0 kh@l0 lxp3 see0 bql2
+NONCOLLAPSIBLE	n@n0 kh@l0 lxp3 si1 bql2
+NONCOLLECTIBLE	n@n0 kh@l0 lek3 thi1 bql2
+NONCOLONIAL	n@n0 kh@l0 loon0 niial2
+NONCOLOR	n@n0 khal0 lqq2
+NONCOLORING	n@n0 khal0 lqq0 ring2
+NONCOLORINGS	n@n0 khal0 lqq0 ring2
+NONCOLORS	n@n0 khal0 lqq2
+NONCOLOURING	n@n0 khal0 lqq0 ring2
+NONCOLOURINGS	n@n0 khal0 lqq0 ring2
+NONCOM	n@n0 kh@m0
+NONCOMBAT	n@n0 kh@m0 bxt1
+NONCOMBATANT	n@n0 kh@m0 bxt3 thxn3
+NONCOMBATANTS	n@n0 kh@m0 bxt3 thxn3
+NONCOMBATIVE	n@n0 kh@m0 bxt3 thiif1
+NONCOMBINING	n@n0 kh@m0 baaj0 ning2
+NONCOMBUSTIBLE	n@n0 kh@m0 bas3 thi1 bql2
+NONCOMBUSTIBLES	n@n0 kh@m0 bas3 thi1 bql2
+NONCOMBUSTION	n@n0 kh@m0 bas3 chan2
+NONCOME	n@n0 kham0
+NONCOMING	n@n0 kham0 ming2
+NONCOMMEMORATION	n@n0 kh@m0 mem0 moo0 ree0 chan2
+NONCOMMENCEMENT	n@n0 kh@m0 men3 men3
+NONCOMMENDABLE	n@n0 kh@m0 men0 dee0 bql2
+NONCOMMENSURABLE	n@n0 kh@m0 men0 chqq0 ree0 bql2
+NONCOMMERCIAL	n@n0 kh@m0 mqq0 chiial2
+NONCOMMERCIALLY	n@n0 kh@m0 mqq0 chiial2 lii2
+NONCOMMERCIALS	n@n0 kh@m0 mqq0 chiial2
+NONCOMMISSION	n@n0 kh@m0 mich3 chan2
+NONCOMMISSIONABLE	n@n0 kh@m0 mich3 chan0 nee0 bql2
+NONCOMMISSIONED	n@n0 kh@m0 mich3 chan2
+NONCOMMITAL	n@n0 kh@m0 mit3 thql2
+NONCOMMITMENT	n@n0 kh@m0 mit3 men3
+NONCOMMITTAL	n@n0 kh@m0 mit3 thql2
+NONCOMMITTALISM	n@n0 kh@m0 mit3 thql2 lis3 svm2
+NONCOMMITTALLY	n@n0 kh@m0 mit3 thal0 lii2
+NONCOMMITTED	n@n0 kh@m0 mit3 thet1
+NONCOMMODITY	n@n0 kh@m0 moo0 di3 tii2
+NONCOMMONWEALTH	n@n0 kh@m0 m@n2 wel3
+NONCOMMUNICABLE	n@n0 kh@m0 miw0 ni3 khee0 bql2
+NONCOMMUNICANT	n@n0 kh@m0 miw0 ni3 khxn3
+NONCOMMUNICATING	n@n0 kh@m0 miw0 ni3 kheet3 ting2
+NONCOMMUNICATION	n@n0 kh@m0 miw0 ni3 khee0 chan2
+NONCOMMUNICATIVE	n@n0 kh@m0 miw0 ni3 khee0 thiif1
+NONCOMMUNICATOR	n@n0 kh@m0 miw0 ni3 khee0 tqq2
+NONCOMMUNION	n@n0 kh@m0 miw0 niian2
+NONCOMMUNIST	n@n0 kh@@m0 miw0 nis3
+NONCOMMUNISTIC	n@n0 kh@@m0 miw0 nis3 tik1
+NONCOMMUNISTS	n@n0 kh@@m0 miw0 nis3
+NONCOMMUTATIVE	n@n0 kh@m0 miw0 thee0 thiif1
+NONCOMMUTER	n@n0 kh@m0 miw0 tqq2
+NONCOMMUTING	n@n0 kh@m0 miw0 ting2
+NONCOMPACT	n@n0 kh@m0 phxk1
+NONCOMPACTNESS	n@n0 kh@m0 phxk3 nees1
+NONCOMPANY	n@n0 kh@m0 phaa0 nii0
+NONCOMPARTMENTAL	n@n0 kh@m0 phaat3 men0 thql2
+NONCOMPATIBILITY	n@n0 kh@m0 phxt3 thi1 bil0 li3 tii2
+NONCOMPATIBLE	n@n0 kh@m0 phxt3 thi1 bql2
+NONCOMPELLING	n@n0 kh@m0 pel0 ling2
+NONCOMPENSATING	n@n0 kh@m0 phen0 seet3 ting2
+NONCOMPENSATION	n@n0 kh@m0 phen0 see0 chan2
+NONCOMPENSATORY	n@n0 kh@m0 phen0 saa0 th@@0 rii2
+NONCOMPETE	n@n0 kh@m0 phiit3
+NONCOMPETING	n@n0 kh@m0 phiit3 ting2
+NONCOMPETITION	n@n0 kh@m0 phet3 thi3 chan2
+NONCOMPETITIVE	n@n0 kh@m0 phet3 thi3 thiif1
+NONCOMPETITIVELY	n@n0 kh@m0 phet3 thi3 thiif1 lii2
+NONCOMPETITIVENESS	n@n0 kh@m0 phet3 thi3 thiif1 nees1
+NONCOMPETITORS	n@n0 kh@m0 phet3 thi3 tqq2
+NONCOMPLACENT	n@n0 kh@m0 phlee0 sen2
+NONCOMPLAISANCE	n@n0 kh@m0 phlee0 sen2
+NONCOMPLETION	n@n0 kh@m0 phiit3 chan2
+NONCOMPLEX	n@n0 kh@m0 phlek1
+NONCOMPLIANCE	n@n0 kh@m0 phlaaj0 xn2
+NONCOMPLIANCES	n@n0 kh@m0 phlaaj0 xn2 ses1
+NONCOMPLIANT	n@n0 kh@m0 phlaaj0 xn2
+NONCOMPLICITY	n@n0 kh@m0 phlis3 si3 tii2
+NONCOMPLIERS	n@n0 kh@m0 phlaaj0 qq2
+NONCOMPLYING	n@n0 kh@m0 phlaaj0 ing2
+NONCOMPOSING	n@n0 kh@m0 phoos3 sing2
+NONCOMPOSITE	n@n0 kh@m0 phoo0 sit1
+NONCOMPOUNDABLE	n@n0 kh@m0 phaaw0 dee0 bql2
+NONCOMPOUNDER	n@n0 kh@m0 phaaw0 dqq2
+NONCOMPREHENSION	n@n0 kh@m0 phrii0 hen0 chan2
+NONCOMPRESSED	n@n0 kh@m0 phrees3
+NONCOMPRESSIBLE	n@n0 kh@m0 phrees3 si1 bql2
+NONCOMPRESSION	n@n0 kh@m0 phees3 chan2
+NONCOMPROMISE	n@n0 kh@@m0 phroo0 maj3
+NONCOMPULSION	n@n0 kh@m0 phal0 chan2
+NONCOMPULSORY	n@n0 kh@m0 phal0 s@@0 rii2
+NONCOMPUTATION	n@n0 kh@@m0 phiw0 thee0 chan2
+NONCOMPUTER	n@n0 kh@m0 phiw0 tqq2
+NONCOMPUTERIZED	n@n0 kh@m0 phiw0 thqq2 raj3
+NONCOMS	n@n0 kh@m0
+NONCON	n@n0 k@n0
+NONCONCAVITY	n@n0 kh@n0 kheep3 wit3 tii2
+NONCONCEALMENT	n@n0 kh@n0 siil0 men3
+NONCONCEIVING	n@n0 kh@n0 siif3 wing2
+NONCONCEPTION	n@n0 kh@n0 sep3 chan2
+NONCONCERN	n@n0 kh@n0 sqqn0
+NONCONCESSION	n@n0 kh@n0 sees3 chan2
+NONCONCILIATING	n@n0 kh@n0 sil0 li3 aa0 ting2
+NONCONCILIATORY	n@n0 kh@n0 sil0 li3 aa0 th@@0 rii2
+NONCONCLUDING	n@n0 kh@n0 khluut3 ding2
+NONCONCLUSION	n@n0 kh@n0 khluu0 chan2
+NONCONCLUSIVE	n@n0 kh@n0 khluu0 siif1
+NONCONCLUSIVELY	n@n0 kh@n0 khluu0 siif1 lii2
+NONCONCLUSIVENESS	n@n0 kh@n0 khluu0 siif1 nees1
+NONCONCORDANT	n@n0 kh@n0 kh@@0 dxn2
+NONCONCUR	n@n0 khan0 khqq2
+NONCONCURRENCE	n@n0 khan0 khqq0 ren3
+NONCONCURRENCY	n@n0 khan0 khqq0 ren0 sii2
+NONCONCURRENT	n@n0 khan0 khqq0 ren3
+NONCONCURRENTLY	n@n0 khan0 khqq0 ren3 lii2
+NONCONCURS	n@n0 khan0 khqq2
+NONCONDENSABLE	n@n0 khan0 den0 see0 bql2
+NONCONDENSATION	n@n0 khan0 den0 see0 chan2
+NONCONDENSIBLE	n@n0 khan0 den0 si3 bql2
+NONCONDENSING	n@n0 khan0 den0 sing2
+NONCONDIMENTAL	n@n0 kh@n0 dim0 men0 thql2
+NONCONDITIONED	n@n0 kh@n0 di1 chan2
+NONCONDUCIVE	n@n0 khan0 diw3 siif1
+NONCONDUCTIBILITY	n@n0 kh@n0 dak3 ti1 bil0 li3 tii2
+NONCONDUCTIBLE	n@n0 kh@n0 dak3 thi1 bql2
+NONCONDUCTING	n@n0 kh@n0 dak3 ting2
+NONCONDUCTION	n@n0 kh@n0 dak3 chan2
+NONCONDUCTIVE	n@n0 kh@n0 dak3 thiif1
+NONCONDUCTOR	n@n0 kh@n0 dak3 tqq2
+NONCONDUCTORS	n@n0 kh@n0 dak3 tqq2
+NONCONFEDERATE	n@n0 kh@n0 fet3 dqq0 reet1
+NONCONFESSION	n@n0 kh@n0 fees3 chan2
+NONCONFIDENCE	n@n0 kh@n0 fi3 den3
+NONCONFIDENT	n@n0 kh@n0 fi3 den3
+NONCONFIDENTIAL	n@n0 kh@n0 fi3 den0 chiial2
+NONCONFINEMENT	n@n0 kh@n0 faaj0 men3
+NONCONFIRMATION	n@n0 kh@n0 fqqm0 mee0 chan2
+NONCONFIRMATIVE	n@n0 kh@n0 fqqm0 mee0 thiif1
+NONCONFISCABLE	n@n0 kh@n0 fis3 khee0 bql2
+NONCONFISCATION	n@n0 kh@n0 fis3 khee0 chan2
+NONCONFISCATORY	n@n0 kh@n0 fis3 khee0 th@@0 rii2
+NONCONFLICTING	n@n0 kh@n0 flik3 ting2
+NONCONFLUENT	n@n0 kh@n0 fluu0 en2
+NONCONFORM	n@n0 kh@n0 f@@m0
+NONCONFORMABLE	n@n0 kh@n0 f@@m0 mee0 bql2
+NONCONFORMABLY	n@n0 kh@n0 f@@m0 mee0 blii2
+NONCONFORMANCE	n@n0 kh@n0 f@@m0 mxn3
+NONCONFORMANCES	n@n0 kh@n0 f@@m0 mxn3 ses1
+NONCONFORMER	n@n0 kh@n0 f@@m0 mqq2
+NONCONFORMING	n@n0 kh@n0 f@@m0 ming2
+NONCONFORMISM	n@n0 kh@n0 f@@m0 mis3 svm2
+NONCONFORMIST	n@n0 kh@n0 f@@m0 mis3
+NONCONFORMISTICAL	n@n0 kh@n0 f@@m0 mis3 tik1 khql2
+NONCONFORMISTICALLY	n@n0 kh@n0 f@@m0 mis3 ti1 khql2 lii2
+NONCONFORMISTS	n@n0 kh@n0 f@@m0 mis3
+NONCONFORMITANT	n@n0 kh@n0 f@@m0 mit3 thxn3
+NONCONFORMITIES	n@n0 kh@n0 f@@m0 mi3 tii2
+NONCONFORMITY	n@n0 kh@n0 f@@m0 mi3 tii2
+NONCONGEALING	n@n0 kh@n0 ciil0 ling2
+NONCONGENITAL	n@n0 kh@n0 cen0 nit3 thql2
+NONCONGESTION	n@n0 kh@n0 ces3 chan2
+NONCONGRATULATORY	n@n0 kh@n0 krxch3 chuu0 leet3 th@@0 rii2
+NONCONICAL	n@n0 khoo0 ni3 khql2
+NONCONJECTURAL	n@n0 kh@n0 cek3 chqq0 r@l2
+NONCONJUNCTION	n@n0 kh@n0 cang0 chan2
+NONCONNECTING	n@n0 kh@n0 nek3 ting2
+NONCONNECTION	n@n0 kh@n0 nek3 chan2
+NONCONNECTIVE	n@n0 kh@n0 nek3 thiif1
+NONCONNIVANCE	n@n0 kh@n0 naj3 wxn3
+NONCONNUBIAL	n@n0 kh@n0 nuu0 biial2
+NONCONSCIOUS	n@n0 kh@n0 chiias2
+NONCONSCIOUSNESS	n@n0 kh@n0 chiias3 nees1
+NONCONSCRIPTED	n@n0 kh@n0 sa1 krip3 thet1
+NONCONSCRIPTION	n@n0 kh@n0 sa1 krip3 chan2
+NONCONSECUTIVE	n@n0 kh@n0 sek3 khiw0 thiif1
+NONCONSECUTIVELY	n@n0 kh@n0 sek3 khiw0 thiif1 lii2
+NONCONSENSUAL	n@n0 kh@n0 sen0 chuual2
+NONCONSENT	n@n0 kh@n0 sen3
+NONCONSENTING	n@n0 kh@n0 sen0 ting2
+NONCONSEQUENCE	n@n0 kh@n0 sii0 khwen3
+NONCONSEQUENT	n@n0 kh@n0 sii0 khwen3
+NONCONSERVATIVE	n@n0 kh@n0 sqq0 wee0 thiif1
+NONCONSERVATIVES	n@n0 kh@n0 sqq0 wee0 thiif1
+NONCONSERVING	n@n0 kh@n0 sqqf3 wing2
+NONCONSIDERATION	n@n0 kh@n0 sit3 dqq0 ree0 chan2
+NONCONSIGNMENT	n@n0 kh@n0 saaj0 men3
+NONCONSISTENCY	n@n0 kh@n0 sis3 ten0 sii2
+NONCONSISTORIAL	n@n0 kh@n0 sis3 th@@0 riial2
+NONCONSOLIDATED	n@n0 kh@n0 s@l0 li3 deet3 thet1
+NONCONSOLIDATING	n@n0 kh@n0 s@l0 li3 deet3 ting2
+NONCONSOLING	n@n0 kh@n0 s@l0 ling2
+NONCONSONANT	n@n0 kh@n0 soo0 nxn3
+NONCONSORTING	n@n0 kh@n0 s@@t3 ting2
+NONCONSPIRATOR	n@n0 kh@n0 sa1 paj0 ree0 tqq2
+NONCONSPIRING	n@n0 kh@n0 sa1 paaj0 ring2
+NONCONSTANCY	n@n0 k@@n0 sa1 txxn0 sii2
+NONCONSTANT	n@n0 k@@n0 sa1 txn3
+NONCONSTITUENT	n@n0 kh@n0 sa1 tit3 chuu0 en2
+NONCONSTITUTIONAL	n@n0 kh@n0 sa1 ti1 thiw3 chan0 n@l2
+NONCONSTITUTIONALLY	n@n0 kh@n0 sa1 ti1 thiw3 chan0 n@l0 lii2
+NONCONSTRAINT	n@n0 kh@n0 sa1 tren3
+NONCONSTRUCTION	n@n0 kh@n0 sa1 trak3 chan2
+NONCONSTRUCTIVE	n@n0 kh@n0 sa1 trak3 thiif1
+NONCONSTRUCTIVELY	n@n0 kh@n0 sa1 trak3 thiif1 lii2
+NONCONSULAR	n@n0 kh@n0 sal0 laa2
+NONCONSULTATIVE	n@n0 kh@n0 sal3 thee0 thiif1
+NONCONSUMABLE	n@n0 kh@n0 sam0 mee0 bql2
+NONCONSUMER	n@n0 kh@n0 suum0 mqq2
+NONCONSUMPTION	n@n0 kh@n0 sam0 chan2
+NONCONSUMPTIVE	n@n0 kh@n0 sam0 thiif1
+NONCONTACT	n@n0 kh@n0 txk1
+NONCONTACTS	n@n0 kh@n0 txk1
+NONCONTAGION	n@n0 kh@n0 thee0 cqn2
+NONCONTAGIONIST	n@n0 kh@n0 thee0 cqn2 nis3
+NONCONTAGIOUS	n@n0 kh@n0 thee0 ciias2
+NONCONTAGIOUSNESS	n@n0 kh@n0 thee0 ciias2 nees1
+NONCONTAINER	n@n0 kh@n0 theen0 nqq2
+NONCONTAMINATION	n@n0 kh@n0 thxm0 mi3 nee0 chan2
+NONCONTEMPLATIVE	n@n0 kh@n0 them0 phlee0 thiif1
+NONCONTEMPORARY	n@n0 kh@n0 them0 phoo0 raa0 rii2
+NONCONTENDER	n@n0 kh@n0 then0 dqq2
+NONCONTENDERS	n@n0 kh@n0 then0 dqq2
+NONCONTENDING	n@n0 kh@n0 then0 ding2
+NONCONTENT	n@n0 kh@n0 then3
+NONCONTENTION	n@n0 kh@n0 then0 chan2
+NONCONTENTIOUS	n@n0 kh@n0 then0 chiias2
+NONCONTENTIOUSLY	n@n0 kh@n0 then0 chiias2 lii2
+NONCONTESTABLE	n@n0 kh@n0 thees3 thep3 bql2
+NONCONTEXT	n@n0 kh@n0 thek1
+NONCONTIGUITY	n@n0 kh@n0 ti1 kiw0 it1 tii2
+NONCONTIGUOUS	n@n0 kh@n0 ti1 kiw0 as2
+NONCONTIGUOUSLY	n@n0 kh@n0 ti1 kiw0 as3 lii2
+NONCONTINENTAL	n@n0 kh@n0 ti1 nen0 tql2
+NONCONTINGENT	n@n0 kh@n0 thin0 cen2
+NONCONTINOUS	n@n0 kh@n0 thi3 nas2
+NONCONTINUANCE	n@n0 kh@n0 thi3 niw0 xn2
+NONCONTINUATION	n@n0 kh@n0 thi3 niw0 ee0 chan2
+NONCONTINUITY	n@n0 kh@n0 thi3 niw0 i1 tii2
+NONCONTINUOUS	n@n0 kh@n0 thi3 niw0 as2
+NONCONTRABAND	n@n0 kh@n0 thraa0 bxxn0
+NONCONTRABANDS	n@n0 kh@n0 thraa0 bxxn0
+NONCONTRACT	n@n0 kh@n0 thrxk1
+NONCONTRACTING	n@n0 kh@n0 thrxk3 ting2
+NONCONTRACTION	n@n0 kh@n0 thrxk3 chan2
+NONCONTRACTUAL	n@n0 kh@n0 thrxk3 chuual2
+NONCONTRADICTION	n@n0 kh@n0 thraa0 dik3 chan2
+NONCONTRADICTORY	n@n0 kh@n0 thraa0 dik3 th@@0 rii2
+NONCONTRAST	n@n0 kh@n0 thraas3
+NONCONTRASTABLE	n@n0 kh@n0 thraas3 thep3 bql2
+NONCONTRIBUTING	n@n0 kh@n0 thri1 biw3 ting2
+NONCONTRIBUTION	n@n0 kh@n0 thri1 biw3 chan2
+NONCONTRIBUTOR	n@n0 kh@n0 thri1 biw3 tqq2
+NONCONTRIBUTORS	n@n0 kh@n0 thri1 biw3 tqq2
+NONCONTRIBUTORY	n@n0 kh@n0 thri1 biw3 th@@0 rii2
+NONCONTRIVANCE	n@n0 kh@n0 thraj0 wxn3
+NONCONTROL	n@n0 kh@n0 throol0
+NONCONTROLLABLE	n@n0 kh@n0 throol0 lee0 bql2
+NONCONTROLLABLY	n@n0 kh@n0 throol0 lee0 blii2
+NONCONTROLLED	n@n0 kh@n0 throol0
+NONCONTROLLING	n@n0 kh@n0 throol0 ling2
+NONCONTROVERSIAL	n@n0 kh@n0 throo0 wqq0 chiial2
+NONCONTROVERSIALLY	n@n0 kh@n0 throo0 wqq0 chiial0 lii2
+NONCONVECTIVE	n@n0 kh@n0 wek3 thiif1
+NONCONVENTION	n@n0 kh@n0 wen0 chan2
+NONCONVENTIONAL	n@n0 kh@n0 wen0 chan0 n@l2
+NONCONVERGENCE	n@n0 kh@n0 wqq0 cen3
+NONCONVERGENT	n@n0 kh@n0 wqq0 cen3
+NONCONVERSABLE	n@n0 kh@n0 wqqs3 see0 bql2
+NONCONVERSANT	n@n0 kh@n0 wqq0 sqn2
+NONCONVERSION	n@n0 kh@n0 wqq0 chan2
+NONCONVERTIBILITY	n@n0 kh@n0 wqqt3 thi1 bil0 li3 tii2
+NONCONVERTIBLE	n@n0 kh@n0 wqqt3 thi1 bql2
+NONCONVEX	n@n0 kh@n0 wek1
+NONCONVEYANCE	n@n0 kh@n0 wee0 qn2
+NONCONVICTION	n@n0 kh@n0 wik3 chan2
+NONCONVIVIAL	n@n0 kh@n0 wif3 wql2
+NONCOOPERATION	n@n0 khoo0 @p3 pqq0 ree0 chan2
+NONCOOPERATIVE	n@n0 khoo0 @p3 pqq0 ree0 thiif1
+NONCORE	n@n0 kh@@0
+NONCORING	n@n0 kh@@0 ring2
+NONCORPORATE	n@n0 kh@@0 pqq0 reet1
+NONCORPORATIONS	n@n0 kh@@0 pqq0 ree0 chan2
+NONCORPUSCULAR	n@n0 kh@@0 pas3 khiw0 laa2
+NONCORRECTION	n@n0 kh@@0 rek3 chan2
+NONCORRECTIVE	n@n0 kh@@0 rek3 thiif1
+NONCORROBORATION	n@n0 kh@@0 r@p3 bqq0 ree0 chan2
+NONCORROBORATIVE	n@n0 kh@@0 r@p3 bqq0 ree0 thiif1
+NONCORRODIBLE	n@n0 kh@@0 r@t3 di1 bql2
+NONCORRODING	n@n0 kh@@0 r@t3 ding2
+NONCORROSIVE	n@n0 kh@@0 roo0 siif1
+NONCORRUPTION	n@n0 kh@@0 rap3 chan2
+NONCREATIVE	n@n0 khrii0 ee0 thiif1
+NONCREDIBILITY	n@n0 khret3 di1 bil0 li3 tii2
+NONCREDIBLE	n@n0 khret3 di1 bql2
+NONCREDIT	n@n0 khree0 det1
+NONCREDITOR	n@n0 khree0 dit3 tqq2
+NONCREDITWORTHY	n@n0 khree0 dit1 wqqt3 dii2
+NONCREEPING	n@n0 khriip3 ping2
+NONCRENATE	n@n0 khrii0 neet1
+NONCRIMINAL	n@n0 khrim0 min0 n@l2
+NONCRIMINALITY	n@n0 khrim0 min0 n@l2 li3 tii2
+NONCRIMINALS	n@n0 khrim0 min0 n@l2
+NONCRITICAL	n@n0 khri3 ti1 kh@l2
+NONCRITICALLY	n@n0 khri3 ti1 kh@l0 lii2
+NONCROSSING	n@n0 khr@@s3 sing2
+NONCRUSHABILITY	n@n0 krach3 chq1 bil0 li3 tii2
+NONCRUSHABLE	n@n0 krach3 chee0 bql2
+NONCRUSTACEOUS	n@n0 kras3 tee0 ciias2
+NONCRYSTALLINE	n@n0 kris3 tal2 laaj0
+NONCULMINATION	n@n0 khal0 min0 nee0 chan2
+NONCULPABLE	n@n0 khal0 phee0 bql2
+NONCULTIVATION	n@n0 khal0 ti1 wee0 chan2
+NONCULTURE	n@n0 khal0 chqq2
+NONCUMULATIVE	n@n0 khiw0 miw0 lee0 thiif1
+NONCURRENCY	n@n0 khqq0 ren0 sii2
+NONCURRENT	n@n0 khqq0 ren3
+NONCURTAILMENT	n@n0 khqq0 thel0 men3
+NONCYCLICAL	n@n0 saj0 khli3 khql2
+NONDAIRY	n@n0 dxx0 rii2
+NONDANCE	n@n0 dan3
+NONDANCER	n@n0 dan3 sqq2
+NONDANCERS	n@n0 dan3 sqq2
+NONDAS	n@n0 dxxs3
+NONDECEIVABLE	n@n0 dii0 siif3 wee0 bql2
+NONDECEPTION	n@n0 dii0 sep3 chan2
+NONDECEPTIVE	n@n0 dii0 sep3 thiif1
+NONDECIDUOUS	n@n0 dii0 sit3 diw0 as2
+NONDECISION	n@n0 dii0 sit3 chan2
+NONDECLARER	n@n0 di1 khlxx0 rqq2
+NONDECREASING	n@n0 dii0 khriis3 sing2
+NONDEDUCTIBILITY	n@n0 dii0 dak3 ti1 bil0 li3 tii2
+NONDEDUCTIBLE	n@n0 dii0 dak3 thi1 bql2
+NONDEDUCTION	n@n0 dii0 dak3 chan2
+NONDEFAMATORY	n@n0 dii0 feem0 mee0 th@@0 rii2
+NONDEFAULTING	n@n0 dii0 f@l3 ting2
+NONDEFECTION	n@n0 dii0 fek3 chan2
+NONDEFECTIVE	n@n0 dii0 fek3 thiif1
+NONDEFENCE	n@n0 dii0 fen3
+NONDEFENCES	n@n0 dii0 fen3 ses1
+NONDEFENDANT	n@n0 dii0 fen0 dxn3
+NONDEFENSE	n@n0 dii0 fen3
+NONDEFENSES	n@n0 dii0 fen3 ses1
+NONDEFENSIVE	n@n0 dii0 fen0 siif1
+NONDEFENSIVELY	n@n0 dii0 fen0 siif1 lii2
+NONDEFERRED	n@n0 dii0 fqq2
+NONDEFIANCE	n@n0 dii0 faaj0 qn2
+NONDEFILEMENT	n@n0 dii0 faaj0 men3
+NONDEFINING	n@n0 dii0 faaj0 ning2
+NONDEFINITION	n@n0 def3 fi3 nit3 chan2
+NONDEFINITIVE	n@n0 def3 fi3 nit3 thiif1
+NONDEFORESTATION	n@n0 dii0 f@@0 res3 tee0 chan2
+NONDEFORMING	n@n0 dii0 f@@m0 ming2
+NONDELEGATION	n@n0 del0 li3 kee0 chan2
+NONDELIBERATE	n@n0 di1 lip3 bqq0 reet1
+NONDELIBERATION	n@n0 di1 lip3 bqq0 ree0 chan2
+NONDELINEATION	n@n0 di1 lin0 ni3 ee0 chan2
+NONDELINQUENT	n@n0 di1 ling0 khwen3
+NONDELIRIOUS	n@n0 dil0 lqq0 riias2
+NONDELIVERABLE	n@n0 di1 li3 wqq0 ree0 bql2
+NONDELIVERANCE	n@n0 di1 li3 wqq0 rxn3
+NONDELIVERIES	n@n0 di1 li3 wqq0 rii2
+NONDELIVERY	n@n0 di1 li3 wqq0 rii2
+NONDEMAND	n@n0 dii0 maan0
+NONDEMANDING	n@n0 dii0 maan0 ding2
+NONDEMENTED	n@n0 di1 men3 thet1
+NONDEMISE	n@n0 di1 maj3
+NONDEMOBILISATION	n@n0 dii0 moo0 bil0 laj3 see0 chan2
+NONDEMOBILIZATION	n@n0 dii0 moo0 bil0 laj3 see0 chan2
+NONDEMOCRATIC	n@n0 dem0 moo0 khrxt3 thik1
+NONDEMONSTRABLE	n@n0 dem0 m@n0 sa1 tree0 bql2
+NONDEMONSTRATION	n@n0 dem0 m@n0 sa1 tree0 chan2
+NONDENIAL	n@n0 dii0 naaj0 ql2
+NONDENOMINATED	n@n0 dii0 n@m0 mi3 neet3 thet1
+NONDENOMINATION	n@n0 dii0 n@m0 mi3 nee0 chan2
+NONDENOMINATIONAL	n@n0 dii0 n@m0 mi3 nee0 chan0 n@l2
+NONDENOMINATIONALISM	n@n0 dii0 n@m0 mi3 nee0 chan0 n@l2 lis3 svm2
+NONDENUNCIATION	n@n0 dii0 nan0 si1 ee0 chan2
+NONDEPARTMENT	n@n0 dii0 phaat3 men3
+NONDEPARTMENTAL	n@n0 dii0 phaat3 men0 thql2
+NONDEPARTURE	n@n0 dii0 phaat3 chqq2
+NONDEPENDENCE	n@n0 dii0 phen0 den3
+NONDEPENDENT	n@n0 dii0 phen0 den3
+NONDEPLETION	n@n0 dii0 phliit3 chan2
+NONDEPLOYED	n@n0 dii0 phl@@j0
+NONDEPORTATION	n@n0 dii0 ph@@t3 thee0 chan2
+NONDEPORTED	n@n0 dii0 ph@@t3 thet1
+NONDEPOSIT	n@n0 dep3 phoo0 sit1
+NONDEPOSITOR	n@n0 dep3 phoo0 sit3 tqq2
+NONDEPOSITORY	n@n0 dep3 phoo0 sit3 th@@0 rii2
+NONDEPRAVITY	n@n0 dii0 phreep3 wit3 tii2
+NONDEPRECIABLE	n@n0 dii0 phrii0 chiia0 bql2
+NONDEPRECIATING	n@n0 dii0 phrii0 chi3 eet3 ting2
+NONDEPRECIATION	n@n0 dii0 phrii0 chi3 ee0 chan2
+NONDEPRESSED	n@n0 dii0 phrees3
+NONDEPRESSION	n@n0 dii0 phrees3 chan2
+NONDESCRIPT	n@n0 des3 sa1 krip3
+NONDESCRIPTIVE	n@n0 des3 sa1 krip3 thiif1
+NONDESCRIPTS	n@n0 des3 sa1 krip3
+NONDESERT	n@n0 des3 sqqt1
+NONDESERVING	n@n0 dii0 sqqf3 wing2
+NONDESIGNED	n@n0 dii0 saaj0
+NONDESIRE	n@n0 dii0 saaj0 qq2
+NONDESIROUS	n@n0 dii0 saaj0 rqqs2
+NONDESISTING	n@n0 dii0 sis3 ting2
+NONDESPOTIC	n@n0 dis3 ph@t3 thik1
+NONDESTRUCTION	n@n0 dis3 trak3 chan2
+NONDESTRUCTIVE	n@n0 dis3 trak3 thiif1
+NONDESTRUCTIVELY	n@n0 dis3 trak3 thiif1 lii2
+NONDESTRUCTIVENESS	n@n0 dis3 trak3 thiif1 nees1
+NONDETACHABLE	n@n0 di1 thxch3 chee0 bql2
+NONDETAILED	n@n0 dii0 theel0
+NONDETECTABLE	n@n0 dii0 thek3 thee0 bql2
+NONDETECTS	n@n0 dii0 thek1
+NONDETENTION	n@n0 dii0 then0 chan2
+NONDETERGENT	n@n0 dii0 thqq0 cen2
+NONDETERMINACY	n@n0 dii0 thqq0 mi3 nee0 sii2
+NONDETERMINATE	n@n0 dii0 thqq0 mi3 neet1
+NONDETERMINATELY	n@n0 dii0 thqq0 mi3 neet1 lii2
+NONDETERMINATION	n@n0 dii0 thqq0 mi3 nee0 chan2
+NONDETERMINISM	n@n0 dii0 thqq0 mi3 nis3 svm2
+NONDETERMINIST	n@n0 dii0 thqq0 mi3 nis3
+NONDETERMINISTIC	n@n0 dii0 thqq0 mi3 nis3 tik1
+NONDETERMINISTICALLY	n@n0 dii0 thqq0 mi3 nis3 tik1 khql2 lii2
+NONDETERRENT	n@n0 dii0 thqq0 ren3
+NONDETEST	n@n0 dii0 thees3
+NONDEVELOPABLE	n@n0 di1 wel0 l@p1 phee0 bql2
+NONDEVELOPMENT	n@n0 di1 wel0 l@p1 men3
+NONDEVELOPMENTAL	n@n0 di1 wel0 l@p1 men3 thql2
+NONDEVICE	n@n0 dii0 waj3
+NONDEVOTIONAL	n@n0 dii0 woot3 chan0 n@l2
+NONDIABETIC	n@n0 daj0 a1 bet3 thik1
+NONDIAGRAMMATIC	n@n0 daj0 a1 krxm0 mxt3 thik1
+NONDIALECTAL	n@n0 daj0 a1 lek3 thql2
+NONDIALECTICAL	n@n0 daj0 a1 lek3 thik1 khql2
+NONDIASTATIC	n@n0 daj0 xs3 thxt3 tik1
+NONDIDACTIC	n@n0 daj0 dxt3 tik1
+NONDIFFERENTIATION	n@n0 dif3 fqq0 ren0 chi3 ee0 chan2
+NONDIPLOMATIC	n@n0 dip3 pl@m0 mxt3 thik1
+NONDIRECT	n@n0 daj0 rek3
+NONDIRECTED	n@n0 daj0 rek3 thet1
+NONDIRECTIONAL	n@n0 daj0 rek3 chan0 n@l2
+NONDIRECTIVE	n@n0 daj0 rek3 thiif1
+NONDIRECTORY	n@n0 daj0 rek3 th@@0 rii2
+NONDISABILITY	n@n0 dis3 a1 bil0 li3 tii2
+NONDISABLED	n@n0 dis3 see0 bql2
+NONDISAGREEMENT	n@n0 dis3 a1 krii0 men2
+NONDISAPPEARING	n@n0 dis3 xp3 phiia0 ring2
+NONDISARMAMENT	n@n0 dis3 saa0 maa0 men3
+NONDISBURSED	n@n0 dis3 bqqs3
+NONDISCERNMENT	n@n0 dis3 sqqn0 men3
+NONDISCHARGEABLE	n@n0 dis3 chaac3 cee0 bql2
+NONDISCHARGING	n@n0 dis3 chaac3 cing2
+NONDISCIPLINARY	n@n0 dis3 sip3 phliin0 nqq0 rii2
+NONDISCLAIM	n@n0 dis3 khleem0
+NONDISCLOSURE	n@n0 dis3 khloos3 chqq2
+NONDISCLOSURES	n@n0 dis3 khloos3 chqq2
+NONDISCONTINUANCE	n@n0 dis3 kh@n0 thi3 niw0 xn2
+NONDISCORDANT	n@n0 dis3 kh@@t3 dxn2
+NONDISCOUNT	n@n0 dis3 khaw3
+NONDISCOUNTABLE	n@n0 dis3 khaw3 thee0 bql2
+NONDISCOUNTED	n@n0 dis3 khaw3 thet1
+NONDISCOVERY	n@n0 dis3 kh@@f3 wqq0 rii2
+NONDISCRETE	n@n0 dis3 khriit3
+NONDISCRETIONARY	n@n0 dis3 khret3 chan0 nqq0 rii2
+NONDISCRIMINATING	n@n0 dis3 khrim0 mi3 neet3 ting2
+NONDISCRIMINATION	n@n0 dis3 khrim0 mi3 nee0 chan2
+NONDISCRIMINATORY	n@n0 dis3 khrim0 mi3 neet1 th@@0 rii2
+NONDISCUSSION	n@n0 dis3 kas3 chan2
+NONDISESTABLISHMENT	n@n0 dis3 es3 thxxp3 blich1 men3
+NONDISFIGUREMENT	n@n0 dis3 fik3 kqq2 men3
+NONDISFRANCHISED	n@n0 dis3 frxxn0 chaaj3
+NONDISINGENUOUS	n@n0 dis3 in0 cen0 niw0 as2
+NONDISINTEGRATION	n@n0 dis3 in0 tii0 kree0 chan2
+NONDISINTERESTED	n@n0 dis3 in0 thqq0 rees3 thet1
+NONDISJUNCT	n@n0 dis3 cang3
+NONDISJUNCTION	n@n0 dis3 cang3 chan2
+NONDISJUNCTIONAL	n@n0 dis3 cang3 chan0 n@l2
+NONDISJUNCTIVE	n@n0 dis3 cang3 thiif1
+NONDISMEMBERMENT	n@n0 dis3 mem0 bqq2 men3
+NONDISMISSAL	n@n0 dis3 mis3 sql2
+NONDISPARAGING	n@n0 dis3 phaa0 reet1 cing2
+NONDISPARATE	n@n0 dis3 phaa0 reet1
+NONDISPENSATION	n@n0 dis3 phen0 see0 chan2
+NONDISPERSAL	n@n0 dis3 phqq0 sql2
+NONDISPERSION	n@n0 dis3 phqq0 chan2
+NONDISPLACED	n@n0 dis3 phlees3
+NONDISPLAY	n@n0 dis3 phlee0
+NONDISPLAYABLE	n@n0 di1 sa1 plee0ee0 bql2
+NONDISPOSABLE	n@n0 dis3 phoos3 see0 bql2
+NONDISPOSAL	n@n0 dis3 phoos3 sql2
+NONDISQUALIFYING	n@n0 dis3 khwaa0 li3 faaj0 ing2
+NONDISRUPTIVE	n@n0 dis3 rap3 thiif1
+NONDISSENTING	n@n0 dis3 sen0 ting2
+NONDISSIDENT	n@n0 dis3 sit3 den3
+NONDISSIPATIVITY	n@n0 dis3 si1 pheet3 thiif3 wi3 tii2
+NONDISSOLUTION	n@n0 dis3 soo0 luu0 chan2
+NONDISSONANT	n@n0 dis3 soo0 nxn3
+NONDISTANT	n@n0 dis3 thxn3
+NONDISTINCT	n@n0 dis3 thing3
+NONDISTINCTION	n@n0 dis3 thing3 chan2
+NONDISTINCTIVE	n@n0 dis3 thing3 thiif1
+NONDISTORTION	n@n0 dis3 th@@ch3 chan2
+NONDISTRACTING	n@n0 dis3 thrxk3 ting2
+NONDISTRIBUTABLE	n@n0 dis3 thri1 biw3 thee0 bql2
+NONDISTRIBUTION	n@n0 dis3 thri3 biw3 chan2
+NONDISTRIBUTIVE	n@n0 dis3 thri3 biw3 thiif1
+NONDISTURBANCE	n@n0 dis3 thqqp3 bqn2
+NONDIVERGENCE	n@n0 daj0 wqq0 cen3
+NONDIVERGENT	n@n0 daj0 wqq0 cen3
+NONDIVERSE	n@n0 daj0 wqqs3
+NONDIVERSIFICATION	n@n0 daj0 wqqs3 si3 fi1 khee0 chan2
+NONDIVERSIFIED	n@n0 daj0 wqqs3 si1 faaj0
+NONDIVIDED	n@n0 dii0 waaj0 det1
+NONDIVIDEND	n@n0 dii0 waaj0 den2
+NONDIVINITY	n@n0 dii0 win0 ni3 tii2
+NONDIVISIBLE	n@n0 di1 wis3 si1 bql2
+NONDIVISION	n@n0 di1 wi3 chan2
+NONDIVISIONAL	n@n0 di1 wi3 chan0 n@l2
+NONDIVISIVE	n@n0 di1 waj3 siif1
+NONDIVORCE	n@n0 dii0 w@@s3
+NONDOCTRINAIRE	n@n0 d@k3 thrin0 nxx0
+NONDOCTRINAL	n@n0 d@k3 thrin0 nal2
+NONDOLLAR	n@n0 d@l0 laa2
+NONDOMESTICATED	n@n0 doo0 mees3 tik1 kheet3 thet1
+NONDRAMATIC	n@n0 draa0 maa0 tik1
+NONDRINKER	n@n0 dring2 kqq2
+NONDRINKERS	n@n0 dring2 kqq2
+NONDRYING	n@n0 draaj0 ing2
+NONDURABLE	n@n0 diw0 ree0 bql2
+NONDURABLES	n@n0 diw0 ree0 bql2
+NONDUTIABLE	n@n0 diw0 thi3 ee0 bql2
+NONDUTY	n@n0 diw0 tii2
+NONE	nan0
+NONE	n@n0
+NONECONOMIC	n@n0 ii0 khoo0 n@m0 mik1
+NONECONOMICS	n@n0 ii0 khoo0 n@m0 mik1
+NONEDUCABLE	n@n0 et3 duu0 khee0 bql2
+NONEDUCATIONAL	n@n0 et3 duu0 khee0 chan0 n@l2
+NONEFFECTIVE	n@n0 ef3 fek3 thiif1
+NONEFFERVESCENT	n@n0 ef3 fqq2 wes3 sen3
+NONEFFERVESCENTLY	n@n0 ef3 fqq2 wes3 sen3 lii2
+NONEGO	n@n0 ii0 koo2
+NONEGOS	n@n0 ii0 koos2
+NONELASTIC	n@n0 ii0 laas3 tik1
+NONELASTICITY	n@n0 ii0 laas3 tik1 si3 tii2
+NONELECT	n@n0 ii0 lek3
+NONELECTED	n@n0 ii0 lek3 thet1
+NONELECTION	n@n0 ii0 lek3 chan2
+NONELECTIVE	n@n0 ii0 lek3 thiif1
+NONELECTOR	n@n0 ii0 lek3 tqq2
+NONELECTRIC	n@n0 ii0 lek3 thrik1
+NONELECTRICAL	n@n0 ii0 lek3 thrik1 khql2
+NONELECTRICALLY	n@n0 ii0 lek3 thrik1 khql2 lii2
+NONELECTRIFICATION	n@n0 ii0 lek3 thri3 fi3 khee0 chan2
+NONELECTRIFIED	n@n0 ii0 lek3 thri3 faaj0
+NONELECTROCUTION	n@n0 ii0 lek3 throo0 khiw0 chan2
+NONELECTROLYTE	n@n0 ii0 lek3 throo0 laj3
+NONELECTROLYTES	n@n0 ii0 lek3 throo0 laj3
+NONELECTRONIC	n@n0 ii0 lek3 throo0 nik1
+NONELECTRONICALLY	n@n0 ii0 lek3 throo0 nik3 khql2 lii2
+NONELIGIBLE	n@n0 i1 lic3 ci1 bql2
+NONEMBELLISHMENT	n@n0 em0 bel0 lich3 men3
+NONEMBEZZLEMENT	n@n0 em0 bes3 sql2 men3
+NONEMBRYONIC	n@n0 em0 bri3 oo0 nik1
+NONEMERGENCIES	n@n0 em0 mqq0 cen0 sii2
+NONEMERGENCY	n@n0 em0 mqq0 cen0 sii2
+NONEMERGENT	n@n0 em0 mqq0 cen3
+NONEMERGING	n@n0 em0 mqqt30 cing2
+NONEMOTIONAL	n@n0 ii0 moo0 chan0 n@l2
+NONEMOTIONALLY	n@n0 ii0 moo0 chan0 n@l0 lii2
+NONEMPIRICAL	n@n0 em0 phi3 ri3 khql2
+NONEMPIRICALLY	n@n0 em0 phi3 ri3 khql2 lii2
+NONEMPLOYED	n@n0 em0 phl@@j0
+NONEMPLOYEE	n@n0 em0 phl@@j0 jii2
+NONEMPLOYEES	n@n0 em0 phl@@j0 jii2
+NONEMPLOYING	n@n0 em0 phl@@j0 jing2
+NONEMPLOYMENT	n@n0 em0 phl@@j0 men3
+NONEMPTY	n@n0 em0 tii2
+NONENDEMIC	n@n0 en0 dee0 mik1
+NONENDING	n@n0 en0 ding2
+NONENDORSEMENT	n@n0 en0 d@@s3 men3
+NONENDURANCE	n@n0 en0 diw0 rxn3
+NONENDURING	n@n0 en0 diw0 ring2
+NONENFORCEABILITY	n@n0 en0 f@@s3 sa1 bil0 li3 tii2
+NONENFORCEABLE	n@n0 en0 f@@s3 see0 bql2
+NONENFORCEMENT	n@n0 en0 f@@s3 men3
+NONENTAILED	n@n0 en0 thel0
+NONENTANGLEMENT	n@n0 en0 thxxng0 kql2 men3
+NONENTERTAINMENT	n@n0 en0 tqq0 theen0 men3
+NONENTITATIVE	n@n0 en0 thi3 thee0 thiif1
+NONENTITIES	n@n0 en0 thi3 tii2
+NONENTITIVE	n@n0 en0 thi3 thiif1
+NONENTITY	n@n0 en0 thi3 tii2
+NONENTRANT	n@n0 en0 thrxn3
+NONENTREPRENEUR	n@n0 en0 thqq0 phrii0 niia1
+NONENTRES	n@n0 en0 thrii2
+NONENTRY	n@n0 en0 thrii2
+NONENVIOUS	n@n0 en0 wiias2
+NONENVIRONMENTAL	n@n0 en0 waj0 rqn0 men03 thql2
+NONENVIRONMENTALIST	n@n0 en0 waj0 rqn0 men03 thql2 lis3
+NONEQUAL	n@n0 ii0 khw@@l2
+NONEQUALS	n@n0 ii0 khw@@l2
+NONEQUIVALENT	n@n0 i1 khwi3 waa0 len3
+NONEQUIVALENTS	n@n0 i1 khwi3 waa0 len3
+NONES	n@n0
+NONESSENTIAL	n@n0 ees3 sen0 chiial2
+NONESSENTIALS	n@n0 ees3 sen0 chiial2
+NONESUCH	nan0 sach3
+NONESUCHES	nan0 sach3 ches1
+NONETHICAL	n@n0 et3 thi3 khql2
+NONETHICALLY	n@n0 et3 thi3 khql2 lii2
+NONETHICALNESS	n@n0 et3 thi3 khql2 nees1
+NONEVENT	n@n0 ii0 wen3
+NONEVENTFUL	n@n0 ii0 wen3 fuul0
+NONEVENTS	n@n0 ii0 wen3
+NONEXCAVATION	n@n0 ek3 kheef3 wee0 chan2
+NONEXCEPTED	n@n0 ek1 sep3 thet1
+NONEXCESSIVE	n@n0 ek3 sees3 siif1
+NONEXCHANGE	n@n0 ek3 cheen3
+NONEXCHANGEABILITY	n@n0 ek3 cheen3 cq1 bil0 li3 tii2
+NONEXCHANGEABLE	n@n0 ek3 cheen3 ciia0 bql2
+NONEXCHANGES	n@n0 ek3 cheen3 ces1
+NONEXCITING	n@n0 ek3 saj3 ting2
+NONEXCLAMATORY	n@n0 ek3 khlxxm0 mee0 th@@0 rii2
+NONEXCLUSION	n@n0 ek3 khluu0 chan2
+NONEXCLUSIVE	n@n0 ek3 khluu0 siif1
+NONEXCLUSIVELY	n@n0 ek3 khluu0 siif1 lii2
+NONEXCULPATION	n@n0 ek3 khal0 pee0 chan2
+NONEXCUSABLE	n@n0 ek1 khiw3 see0 bql2
+NONEXECUTIVE	n@n0 ek1 sek3 khiw0 thiif1
+NONEXECUTIVES	n@n0 ek1 sek3 khiw0 thiif1
+NONEXEMPLARY	n@n0 ek3 sem0 phlee0 rii2
+NONEXEMPT	n@n0 ek3 sem3
+NONEXEMPTS	n@n0 ek3 sem3
+NONEXERTION	n@n0 ek3 sqqt3 chan2
+NONEXHAUSTIVE	n@n0 ek1 s@@t3 thiif1
+NONEXISTANT	n@n0 ek1 sis3 txn2
+NONEXISTENCE	n@n0 ek1 sis3 ten2
+NONEXISTENT	n@n0 ek1 sis3 ten2
+NONEXISTENTIAL	n@n0 ek1 sis3 ten0 chiial2
+NONEXISTING	n@n0 ek1 sis3 ting2
+NONEXPENDABLE	n@n0 ek3 phen0 dee0 bql2
+NONEXPLOSIVE	n@n0 ek3 ploo0 siif1
+NONEXPLOSIVES	n@n0 ek3 phloo0 siif1
+NONEXPORTABLE	n@n0 ek3 ph@@t1 thee0 bql2
+NONEXTANT	n@n0 ek3 thxn3
+NONEXTRADITABLE	n@n0 ek3 thraa0 dit3 thee0 bql2
+NONFACTUAL	n@n0 fxk3 chuual2
+NONFACTUALLY	n@n0 fxk3 chuual0 lii2
+NONFARM	n@n0 faam0
+NONFARMER	n@n0 faam0 mqq2
+NONFARMERS	n@n0 faam0 mqq2
+NONFASCIST	n@n0 faas3 sis3
+NONFASCISTS	n@n0 faas3 sis3
+NONFAT	n@n0 fxt3
+NONFATAL	n@n0 fee0 thql2
+NONFATALISTIC	n@n0 fee0 thql2 lis3 tik1
+NONFATALLY	n@n0 fee0 thql2 lii2
+NONFAVOURITE	n@n0 fep3 wqq0 rit1
+NONFAVOURITES	n@n0 fep3 wqq0 rit1
+NONFEDERAL	n@n0 fet3 dqq0 r@l2
+NONFEDERALLY	n@n0 fet3 dqq0 r@l0 lii2
+NONFEDERATED	n@n0 fet3 dqq0 reet3 thet1
+NONFELONY	n@n0 fel0 l@n0 nii2
+NONFERROUS	n@n0 fqq0 rqqs2
+NONFESTIVE	n@n0 fees3 thiif1
+NONFICTION	n@n0 fik3 chan2
+NONFICTIONAL	n@n0 fik3 chan0 n@l2
+NONFIGHT	n@n0 faj3
+NONFIGHTER	n@n0 faj3 tqq2
+NONFILTERABLE	n@n0 fil0 thqq0 ree0 bql2
+NONFINANCE	n@n0 faj0 nxn3
+NONFINANCIAL	n@n0 faj0 nxn0 chiial2
+NONFINANCIALS	n@n0 faj0 nxn0 chiial2
+NONFINDING	n@n0 faaj0 ding2
+NONFINDINGS	n@n0 faaj0 ding2
+NONFINITE	n@n0 faj0 naj3
+NONFLAKY	n@n0 fleek3 kii2
+NONFLAMMABLE	n@n0 fleem0 mee0 bql2
+NONFLASHY	n@n0 flxch3 chii2
+NONFLEXIBLE	n@n0 flek3 si1 bql2
+NONFLIER	n@n0 flaaj0 qq2
+NONFLIGHT	n@n0 flaj3
+NONFLOATATION	n@n0 floot3 thee0 chan2
+NONFLOATING	n@n0 floot3 ting2
+NONFLOWERING	n@n0 flaaw0 wqq0 ring2
+NONFLOWERY	n@n0 flaaw0 wqq0 rii2
+NONFLOWING	n@n0 floo0 wing2
+NONFLUCTUATING	n@n0 flak3 chu3 eet3 ting2
+NONFLUENT	n@n0 fluu0 qn2
+NONFLUORESCENT	n@n0 fluu0 @@0 rees3 sen3
+NONFLUSH	n@n0 flach1
+NONFOOD	n@n0 fuut3
+NONFOODS	n@n0 fuut3
+NONFORFEITABLE	n@n0 f@@0 fiit3 thee0 bql2
+NONFORFEITURE	n@n0 f@@0 fiit3 chqq2
+NONFORFEITURES	n@n0 f@@0 fiit3 chqq2
+NONFORMATION	n@n0 f@@m0 mee0 chan2
+NONFRAGMENTING	n@n0 frxk3 men3 ting2
+NONFRANCHISE	n@n0 frxxn0 chaaj0
+NONFRANCHISED	n@n0 frxxn0 chaaj0
+NONFRANCHISERS	n@n0 frxxn0 chaaj0 sqq2
+NONFRANCHISES	n@n0 frxxn0 chaaj0 ses1
+NONFRATERNAL	n@n0 frxt3 thqq0 n@l2
+NONFRATERNITY	n@n0 frxt3 thqq0 ni3 tii2
+NONFREE	n@n0 frii0
+NONFREEDOM	n@n0 frii0 d@m2
+NONFREEMAN	n@n0 frii0 mxxn0
+NONFREEZE	n@n0 friis3
+NONFREEZING	n@n0 friis3 sing2
+NONFRICATIVE	n@n0 fri3 khee0 thiif1
+NONFRICTION	n@n0 frik3 chan2
+NONFRIENDS	n@n0 freen0
+NONFRINGE	n@n0 frin3
+NONFRIVOLOUS	n@n0 fri3 wqq0 las2
+NONFROZEN	n@n0 froos3 sen2
+NONFUNCTIONAL	n@n0 fang0 chan0 n@l2
+NONGASEOUS	n@n0 kxxs3 siias2
+NONGOVERNMENT	n@n0 k@f3 wqqn0 men3
+NONGOVERNMENTAL	n@n0 k@f3 wqqn0 men3 thql2
+NONGRAIN	n@n0 kreen0
+NONGRAY	n@n0 kree0
+NONGREASY	n@n0 kriis3 sii2
+NONGREEK	n@n0 kriik3
+NONGREEN	n@n0 kriin0
+NONGREGARIOUS	n@n0 kri1 kxx0 riias2
+NONGREY	n@n0 kree0
+NONGROCERY	n@n0 kr@@s3 sqq0 rii2
+NONGROOMING	n@n0 kruum0 ming2
+NONGROUP	n@n0 krup3
+NONGROWTH	n@n0 kroot3
+NONHABITABLE	n@n0 hxp3 bit1 thee0 bql2
+NONHABITUAL	n@n0 hxp3 bit1 chuual2
+NONHABITUATING	n@n0 hxp3 bit3 chuu0 eet3 ting2
+NONHAZARDOUS	n@n0 haa0 saat1 das2
+NONHEREDITARY	n@n0 hi1 ret3 di1 thaa0 bql2
+NONHERO	n@n0 hii0 roo2
+NONHEROES	n@n0 hii0 roos2
+NONHISTORIC	n@n0 his3 th@@0 rik1
+NONHOMOGENEOUS	n@n0 hoo0 moo0 cii0 niias2
+NONHUMAN	n@n0 hiw0 mxn2
+NONHUMANE	n@n0 hiw0 men0
+NONHUMANIST	n@n0 hiw0 mxn2 nis3
+NONHUMANITARIAN	n@n0 hiw0 mxxn0 ni3 thxx0 riian2
+NONHUMANS	n@n0 hiw0 mxn2
+NONHUMOROUS	n@n0 hiw0 mqq0 rqqs2
+NONHUMUS	n@n0 hiw0 mas2
+NONIDENTICAL	n@n0 aj0 den0 thi1 khql2
+NONIDENTITIES	n@n0 aj0 den0 ti1 tii2
+NONIDENTITY	n@n0 aj0 den0 ti1 tii2
+NONIDEOLOGICAL	n@n0 aj0 dii0 oo0 loo0 ci1 khql2
+NONIDIOMATIC	n@n0 aj0 dii0 oo0 mxt3 thik1
+NONILLION	n@n0 il0 liian2
+NONIMMUNITIES	n@n0 im0 muun0 ni3 tii2
+NONIMMUNITY	n@n0 im0 muun0 ni3 tii2
+NONINCANDESCENT	n@n0 in0 khxxn0 des3 sen3
+NONINCARNATED	n@n0 in0 khaa0 neet3 thet1
+NONINCLINATION	n@n0 in0 khlin0 nee0 chan2
+NONINCLUSION	n@n0 in0 khluu0 chan2
+NONINCLUSIVE	n@n0 in0 khluu0 siif1
+NONINCREASE	n@n0 in0 khrii2
+NONINCREASING	n@n0 in0 khriis3 sing2
+NONINCREMENTAL	n@n0 in0 khrii0 men0 thql2
+NONINCRIMINATING	n@n0 in0 khri3 mi3 neet3 ting2
+NONINCRUSTING	n@n0 in0 khras3 ting2
+NONINCUMBENT	n@n0 in0 kham0 ben3
+NONINCUMBENTS	n@n0 in0 kham0 ben3
+NONINDEPENDENCE	n@n0 in0 di1 phen0 den3
+NONINDEPENDENT	n@n0 in0 di1 phen0 den3
+NONINDEX	n@n0 in0 dek1
+NONINDIAN	n@n0 in0 diian2
+NONINDICTABLE	n@n0 in0 dik3 thee0 bql2
+NONINDICTMENT	n@n0 in0 dik3 men3
+NONINDIGENOUS	n@n0 in0 di1 cii0 nas2
+NONINDIGENT	n@n0 in0 di1 cen3
+NONINDIVIDUAL	n@n0 in0 di1 wi3 duual2
+NONINDIVIDUALIST	n@n0 in0 di1 wi3 duual2 lis3
+NONINDIVIDUALISTIC	n@n0 in0 di1 wi3 duual2 lis3 tik1
+NONINDUCTIVE	n@n0 in0 dak3 thiif1
+NONINDUCTIVELY	n@n0 in0 dak3 thiif1 lii2
+NONINDUCTIVITY	n@n0 in0 dak3 thi1 wi3 tii2
+NONINDULGENCE	n@n0 in0 dal0 cen3
+NONINDURATED	n@n0 in0 diw0 reet3 thet1
+NONINDUSTRIAL	n@n0 in0 das3 triial2
+NONINDUSTRY	n@n0 in0 das3 trii2
+NONINFALLIBILIST	n@n0 in0 f@l0 li3 bil0 lis3
+NONINFALLIBLE	n@n0 in0 f@l0 li3 bql2
+NONINFANTRY	n@n0 in0 fxn3 thrii2
+NONINFECTED	n@n0 in0 fek3 thet1
+NONINFECTING	n@n0 in0 fek3 ting2
+NONINFECTION	n@n0 in0 fek3 chan2
+NONINFECTIOUS	n@n0 in0 fek3 chiias2
+NONINFINITE	n@n0 in0 fi3 nit1
+NONINFINITELY	n@n0 in0 fi3 nit1 lii2
+NONINFLAMMABILITY	n@n0 in0 fleem0 mee0 bil0 li3 tii2
+NONINFLAMMABLE	n@n0 in0 fleem0 mee0 bql2
+NONINFLAMMATORY	n@n0 in0 fleem0 mee0 th@@0 rii2
+NONINFLATIONARY	n@n0 in0 flxt3 chan0 naa0 rii2
+NONINFLECTED	n@n0 in0 flek3 thet1
+NONINFLECTIONAL	n@n0 in0 flek3 chan0 n@l2
+NONINFLUENCE	n@n0 in0 fluu0 en3
+NONINFORMATION	n@n0 in0 f@@m0 mee0 chan2
+NONINFORMATIVE	n@n0 in0 f@@m0 mee0 thiif1
+NONINFORMATIVELY	n@n0 in0 f@@m0 mee0 thiif1 lii2
+NONINFORMED	n@n0 in0 f@@m0
+NONINFRACTION	n@n0 in0 frxk3 chan2
+NONINHABITABLE	n@n0 in0 hxp3 bit1 thee0 bql2
+NONINHABITANT	n@n0 in0 hxp3 bit1 thxn3
+NONINHABITED	n@n0 in0 hxp3 bit3 thet1
+NONINHALERS	n@n0 in0 heel0 lqq2
+NONINHERITABLE	n@n0 in0 hqq0 ri3 thee0 bql2
+NONINHERITED	n@n0 in0 hqq0 rit3 thet1
+NONINJECTABLE	n@n0 in0 cek3 thee0 bql2
+NONINJURED	n@n0 in0 cqq2
+NONINJURIOUS	n@n0 in0 cuua0 riias2
+NONINJURIOUSLY	n@n0 in0 cuua0 riias3 lii2
+NONINJURIOUSNESS	n@n0 in0 cuua0 riias3 nees1
+NONINJURY	n@n0 in0 cqq0 rii2
+NONINSECT	n@n0 in0 sek1
+NONINSERTION	n@n0 in0 sqqt3 chan2
+NONINSIDER	n@n0 in0 saaj0 dqq2
+NONINSIDERS	n@n0 in0 saaj0 dqq2
+NONINSKI	n@n0 in0 sa1 kii2
+NONINSTINCTIVE	n@n0 in0 sa1 ting3 thiif1
+NONINSTITUTION	n@n0 in0 sa1 ti1 tiw3 chan2
+NONINSTITUTIONAL	n@n0 in0 sa1 ti1 tiw3 chan0 n@l2
+NONINSTITUTIONALIZED	n@n0 in0 sa1 ti1 tiw3 chan0 n@l2 laj3
+NONINSTRUCTION	n@n0 in0 sa1 trak3 chan2
+NONINSTRUCTIONAL	n@n0 in0 sa1 trak3 chan2 n@l2
+NONINSTRUCTRESS	n@n0 in0 sa1 trak3 threes1
+NONINSTRUMENT	n@n0 in0 sa1 truu0 men3
+NONINSTRUMENTAL	n@n0 in0 sa1 truu0 men0 thql2
+NONINSURANCE	n@n0 in0 chuua0 rxn3
+NONINSURED	n@n0 in0 chuua0
+NONINSURERS	n@n0 in0 chuua0 rqq2
+NONINTEGER	n@n0 in0 thi1 cqq2
+NONINTEGERS	n@n0 in0 thi1 cqq2
+NONINTEGRABLE	n@n0 in0 thi1 kree0 bql2
+NONINTEGRAL	n@n0 in0 thi1 kr@l2
+NONINTEGRATED	n@n0 in0 thi1 kreet3 thet1
+NONINTEGRITY	n@n0 in0 thi3 kri1 tii2
+NONINTELLECTUAL	n@n0 in0 thel0 lek3 chuual2
+NONINTELLECTUALLY	n@n0 in0 thel0 lek3 chuual0 lii2
+NONINTELLECTUALS	n@n0 in0 thel0 lek3 chuual2
+NONINTELLIGENCE	n@n0 in0 thel0 li3 cen3
+NONINTELLIGENT	n@n0 in0 thel0 li3 cen3
+NONINTENT	n@n0 in0 then3
+NONINTENTION	n@n0 in0 then0 chan2
+NONINTERACTING	n@n0 in0 thqq0 rxk3 ting2
+NONINTERACTIVE	n@n0 in0 thqq0 rxk3 thiif1
+NONINTERCHANGEABILITY	n@n0 in0 thqq0 cheen3 cq1 bil0 li3 tii2
+NONINTERCHANGEABLE	n@n0 in0 thqq0 cheen3 cee0 bql2
+NONINTERCOURSE	n@n0 in0 thqq0 kh@@s3
+NONINTEREST	n@n0 in0 thqq0 rees3
+NONINTERFACED	n@n0 in0 thqq0 fees1
+NONINTERFERENCE	n@n0 in0 thqq0 fiia0 ren3
+NONINTERFERER	n@n0 in0 thqq0 fiia0 rqq2
+NONINTERFERING	n@n0 in0 thqq0 fiia0 ring2
+NONINTERLACED	n@n0 in0 thqq0 lees1
+NONINTERLEAVED	n@n0 in0 thqq0 liif3
+NONINTERMITTENT	n@n0 in0 thqq0 mit3 then3
+NONINTERNATIONAL	n@n0 in0 thqq0 nxch3 chan0 n@l2
+NONINTERPOLATION	n@n0 in0 thqq0 pha1 lee0 chan2
+NONINTERPOSITION	n@n0 in0 thqq0 phoos3 si3 chan2
+NONINTERRUPTED	n@n0 in0 thqq0 rap3 thet1
+NONINTERRUPTIBLE	n@n0 in0 thqq0 rap3 thi1 bql2
+NONINTERSECTING	n@n0 in0 thqq0 sek3 ting2
+NONINTERSECTION	n@n0 in0 thqq0 sek3 chan2
+NONINTERSECTOR	n@n0 in0 thqq0 sek3 tqq2
+NONINTERSTATE	n@n0 in0 thqq0 sa1 teet1
+NONINTERVENTION	n@n0 in0 thqq0 wen0 chan2
+NONINTERVENTIONAL	n@n0 in0 thqq0 wen0 chan0 n@l2
+NONINTERVENTIONALIST	n@n0 in0 thqq0 wen0 chan0 n@l2 lis3
+NONINTERVIEW	n@n0 in0 thqq0 wiw0
+NONINTIMATE	n@n0 in0 thi1 meet1
+NONINTOXICANT	n@n0 in0 th@k3 si1 khxn3
+NONINTOXICANTS	n@n0 in0 th@k3 si1 khxn3
+NONINTOXICATING	n@n0 in0 th@k3 si1 kheet3 ting2
+NONINTRAVENOUS	n@n0 in0 thraa0 wii0 nas2
+NONINTRINSIC	n@n0 in0 thrin0 sik1
+NONINTROSPECTIVE	n@n0 in0 throo0 sa1 pek3 thiif1
+NONINTROSPECTIVELY	n@n0 in0 throo0 sa1 pek3 thiif1 lii2
+NONINTRUSION	n@n0 in0 thruuch3 chan2
+NONINTRUSIONISM	n@n0 in0 thruuch3 chan2 nis3 svm2
+NONINTRUSIONIST	n@n0 in0 thruuch3 chan2 nis3
+NONINTRUSIVE	n@n0 in0 thruus3 siif1
+NONINTUITIVE	n@n0 in0 thiw0 it3 thiif1
+NONINTUITIVELY	n@n0 in0 thiw0 it3 thiif1 lii2
+NONINVARIANCE	n@n0 in0 wxx0 riian2
+NONINVASIVE	n@n0 in0 wee0 siif1
+NONINVASIVELY	n@n0 in0 wee0 siif1 lii2
+NONINVENTORY	n@n0 in0 wen3 th@@0 rii2
+NONINVERTED	n@n0 in0 wqqt3 thet1
+NONINVERTIBILITY	n@n0 in0 wqqt3 thi1 bil0 li3 tii2
+NONINVERTIBLE	n@n0 in0 wqqt3 thi1 bql2
+NONINVERTING	n@n0 in0 wqqt3 ting2
+NONINVESTING	n@n0 in0 wees3 ting2
+NONINVESTMENT	n@n0 in0 wees3 men3
+NONINVESTORS	n@n0 in0 wees3 tqq2
+NONINVIDIOUS	n@n0 in0 wi3 diias2
+NONINVINCIBILITY	n@n0 in0 win3 si1 bil0 li3 tii2
+NONINVOLVEMENT	n@n0 in0 woof3 men3
+NONIRRITANT	n@n0 qq0 ri3 thxn3
+NONIRRITATING	n@n0 qq0 ri3 theet3 ting2
+NONITORED	n@n0 nit3 thqq2
+NONITS	n@n0 nit1
+NONJETS	n@n0 cet3
+NONJUDICIAL	n@n0 cuu0 dich3 khql2
+NONJURING	n@n0 cuua0 ring2
+NONJUROR	n@n0 cuua0 rqq2
+NONJURORS	n@n0 cuua0 rqq2
+NONKOSHER	n@n0 kh@@0 chqq2
+NONLEGAL	n@n0 lii0 kql2
+NONLETHAL	n@n0 lii0 thql2
+NONLIFE	n@n0 laj3
+NONLIMITATION	n@n0 li3 mit1 thee0 chan2
+NONLIMITING	n@n0 li3 mit1 ting2
+NONLINEAR	n@n0 lin0 niia1
+NONLINEARLY	n@n0 lin0 niia0 lii2
+NONLINGUISTIC	n@n0 ling0 kwis3 tik1
+NONLINWOOD	n@n0 lin0 wuut3
+NONLITERARY	n@n0 lit3 thqq0 raa0 rii2
+NONLITURGICAL	n@n0 lit3 thqq0 ci1 khql2
+NONLITURGICALLY	n@n0 lit3 thqq0 ci1 khql2 lii2
+NONLIVING	n@n0 liif3 wing2
+NONLOCALS	n@n0 loo0 khql2
+NONLOGICAL	n@n0 l@t3 ci1 khql2
+NONLUMINOUS	n@n0 luu0 mi3 nas3
+NONMAGNETIC	n@n0 mxk3 nee0 thik1
+NONMALICIOUS	n@n0 mal0 lich3 chiias2
+NONMALICIOUSLY	n@n0 mal0 lich3 chiias3 lii2
+NONMALIGNANT	n@n0 mal0 lik3 nxn3
+NONMAN	n@n0 mxxn0
+NONMANAGEMENT	n@n0 mxxn0 neec1 men3
+NONMANAGERIAL	n@n0 mxxn0 neec3 cqq0 riial2
+NONMANAGERS	n@n0 mxxn0 nee0 cqq2
+NONMANDATED	n@n0 mxxn0 deet3 thet1
+NONMANDATORY	n@n0 mxxn0 dee0 th@@0 rii2
+NONMANIFEST	n@n0 mxxn0 ni3 fees3
+NONMANIFESTATION	n@n0 mxxn0 ni3 fees3 thee0 chan2
+NONMANUAL	n@n0 mxxn0 nuual2
+NONMANUFACTURE	n@n0 mxxn0 nuu0 fxk3 chqq2
+NONMANUFACTURED	n@n0 mxxn0 nuu0 fxk3 chqq2
+NONMANUFACTURERS	n@n0 mxxn0 nuu0 fxk3 chqq0 rqq2
+NONMANUFACTURING	n@n0 mxxn0 nuu0 fxk3 chqq2 ring2
+NONMARIJUANA	n@n0 mxx0 ri3 waan0 naa2
+NONMARITAL	n@n0 mxx0 rit3 thql2
+NONMARKETABLE	n@n0 maa0 ket3 thee0 bql2
+NONMARRIAGE	n@n0 mxx0 ri3 ic1
+NONMARRIAGEABLE	n@n0 mxx0 ric3 cee0 bql2
+NONMARRIED	n@n0 mxx0 rii2
+NONMARRYING	n@n0 mxx0 rii0 ing2
+NONMATCHES	n@n0 mxch3 ches1
+NONMATCHING	n@n0 mxch3 ching2
+NONMATERIAL	n@n0 mxt3 thii0 riial2
+NONMATERIALISTIC	n@n0 mxt3 thii0 riial2 lis3 tik1
+NONMATHEMATICAL	n@n0 mxt3 thqm0 mxt3 thi1 khql2
+NONMEASURABLE	n@n0 met3 chqq0 ree0 bql2
+NONMECHANICAL	n@n0 mek1 khxxn0 ni3 khql2
+NONMECHANICALLY	n@n0 mek1 khxxn0 ni3 khql2 lii2
+NONMECHANISTIC	n@n0 mek1 khxxn0 nis3 tik1
+NONMEMBER	n@n0 mem0 bqq2
+NONMEMBERS	n@n0 mem0 bqq2
+NONMEMBERSHIP	n@n0 mem0 bqq2 chip3
+NONMEMORY	n@n0 mem0 mqq0 rii2
+NONMEN	n@n0 men0
+NONMENTAL	n@n0 men0 thql2
+NONMENTHOL	n@n0 men0 th@l2
+NONMERITORIOUS	n@n0 mqq0 ri3 th@@0 riias2
+NONMET	n@n0 met3
+NONMETAL	n@n0 met3 thql2
+NONMETALLIC	n@n0 met3 thxl0 lik1
+NONMETALLIFEROUS	n@n0 met3 thxl0 li3 fqq0 rqqs2
+NONMETALLURGICAL	n@n0 met3 thxl0 lqq0 ci1 khql2
+NONMETALS	n@n0 met3 thql2
+NONMETAMORPHIC	n@n0 met3 ta1 m@@0 fik1
+NONMETAPHYSICAL	n@n0 met3 ta1 fis3 sik1 khql2
+NONMETEORIC	n@n0 mii0 thii0 @@0 rik1
+NONMETRIC	n@n0 met3 thrik1
+NONMETRO	n@n0 mee0 throo0
+NONMETROPOLITAN	n@n0 mee0 throo0 phoo0 li3 thqn2
+NONMIGRATORY	n@n0 maj0 kraa0 th@@0 rii2
+NONMILITANT	n@n0 mil0 li3 thxn3
+NONMILITANTLY	n@n0 mil0 li3 thxn3 lii2
+NONMILITANTS	n@n0 mil0 li3 thxn3
+NONMILITARILY	n@n0 mil0 li3 thaa0 ril0 lii2
+NONMILITARY	n@n0 mil0 li3 thaa0 rii2
+NONMILITIA	n@n0 mil0 lich3 chiia0
+NONMILLIONAIRE	n@n0 mil0 liian0 nxx0
+NONMISCHIEVOUS	n@n0 mis3 chiif3 was2
+NONMISLEADING	n@n0 mis3 liit3 ding2
+NONMODELS	n@n0 moo0 del0
+NONMODERN	n@n0 moo0 dqn2
+NONMODIFIED	n@n0 moo0 di1 faaj0
+NONMODULAR	n@n0 moo0 dul0 laa2
+NONMORAL	n@n0 m@@0 rql2
+NONMORALISTIC	n@n0 m@@0 rql2 lis3 tik1
+NONMYSTICAL	n@n0 mis3 tik1 khql2
+NONMYSTICALLY	n@n0 mis3 tik1 khql2 lii2
+NONMYTHICAL	n@n0 mis3 thik1 khql2
+NONMYTHICALLY	n@n0 mis3 thik3 khql2 lii2
+NONNATIVE	n@n0 nee0 thiif1
+NONNATIVES	n@n0 nee0 thiif1
+NONNATURAL	n@n0 nxch3 chqq0 r@l2
+NONNAVIGABLE	n@n0 nxf3 wi3 kee0 bql2
+NONNEGATIVE	n@n0 nek3 ka1 thiif1
+NONNEGLIGIBLE	n@n0 nek3 lic3 ci1 bql2
+NONNEGOTIABLE	n@n0 nek3 koo0 chi3 ee0 bql2
+NONNITROGENOUS	n@n0 naj0 troo0 cen0 nas2
+NONNUCLEAR	n@n0 niw0 khliia0
+NONNUMERIC	n@n0 niw0 mqq0 rik1
+NONNUTRITIOUS	n@n0 niw0 thrich3 chiias2
+NONOBEDIENCE	n@n0 oo0 bii0 diian2
+NONOBJECTION	n@n0 @p1 cek3 chan2
+NONOBJECTIVE	n@n0 @p1 cek3 thiif1
+NONOBJECTIVISM	n@n0 @p3 cek1 thi3 wis3 svm2
+NONOBJECTIVIST	n@n0 @p3 cek1 thi1 wis3
+NONOBJECTIVITY	n@n0 @p3 cek1 thi3 wi3 tii2
+NONOBLIGATORY	n@n0 @p3 bli3 kee0 th@@0 rii2
+NONOBSERVABLE	n@n0 @p1 sqqf3 wee0 bql2
+NONOBSERVANCE	n@n0 @p1 sqqf3 wqn2
+NONOBSERVANT	n@n0 @p3 sqqf3 wxn2
+NONOBSTETRICAL	n@n0 @p3 sa1 tet3 thri3 khql2
+NONOBSTRUCTIVE	n@n0 @p3 sa1 trak3 thiif1
+NONOCCURRENCE	n@n0 @k3 khqq0 ren3
+NONODOROUS	n@n0 oo0 dqq0 rqqs2
+NONOFFICIAL	n@n0 @f3 fi3 chiial2
+NONOFFICIALLY	n@n0 @f3 fi3 chiial0 lii2
+NONOPERABLE	n@n0 @p3 phq1 ree0 bql2
+NONOPERATED	n@n0 @p3 phq1 reet3 thet1
+NONOPERATING	n@n0 @p3 phq1 reet1 ting2
+NONOPERATIVE	n@n0 @p3 phq1 ree0 thiif1
+NONOPERATOR	n@n0 oo0 phq1 ree0 tqq2
+NONORGANIC	n@n0 @@0 kxx0 nik1
+NONORTHODOX	n@n0 @@0 thoo0 d@k3
+NONOWNER	n@n0 oon0 nqq2
+NONOWNERS	n@n0 oon0 nqq2
+NONPACIFIC	n@n0 pxx0 si3 fik1
+NONPACIFICATION	n@n0 pxx0 si3 fik1 khee0 chan2
+NONPACIFIST	n@n0 pxx0 si3 fit3
+NONPACIFISTS	n@n0 pxx0 si3 fis3
+NONPACKAGED	n@n0 pxk3 keec1
+NONPACKAGING	n@n0 pxk3 keec1 cing2
+NONPARALLEL	n@n0 phaa0 raa0 lel2
+NONPARALYTIC	n@n0 phaa0 raa0 li3 thik1
+NONPARAMETRIC	n@n0 phaa0 raa0 met3 thrik1
+NONPARAMETRICAL	n@n0 phaa0 raa0 met3 thri1 khql2
+NONPARAMETRICALLY	n@n0 phaa0 raa0 met3 thri1 khql2 lii2
+NONPARAMETRICS	n@n0 phaa0 raa0 met3 thrik1
+NONPARASITIC	n@n0 phaa0 raa0 sit3 tik1
+NONPARASITISM	n@n0 phaa0 raa0 sit1 this3 svm2
+NONPAREIL	n@n0 phqq0 rel0
+NONPAREILS	n@n0 phqq0 rel0
+NONPARENTAL	n@n0 phaa0 ren0 thql2
+NONPARISHIONER	n@n0 phaa0 rich3 chan0 nqq2
+NONPARLIAMENTARY	n@n0 phaa0 liia0 men0 thaa0 rii2
+NONPARLOR	n@n0 phaa0 lqq2
+NONPARLORS	n@n0 phaa0 lqq2
+NONPARLOUR	n@n0 phaa0 lqq2
+NONPARLOURS	n@n0 phaa0 lqq2
+NONPAROCHIAL	n@n0 phaa0 roo0 chiial2
+NONPAROLE	n@n0 phaa0 rool0
+NONPAROUS	n@n0 phaa0 rqqs2
+NONPARTIAL	n@n0 phaa0 chiial2
+NONPARTICIPANT	n@n0 phaa0 this3 si1 phxn3
+NONPARTICIPATING	n@n0 phaa0 this3 si1 pheet3 ting2
+NONPARTICIPATION	n@n0 phaa0 this3 si1 phee0 chan2
+NONPARTISAN	n@n0 phaa0 this3 san0
+NONPARTISANS	n@n0 phaa0 this3 san0
+NONPARTNER	n@n0 phaat3 nqq2
+NONPARTNERS	n@n0 phaat3 nqq2
+NONPARTNERSHIP	n@n0 phaat3 nqq2 chip3
+NONPARTY	n@n0 phaa0 thii2
+NONPASSERINE	n@n0 phxxs3 sqq0 riin0
+NONPATENTED	n@n0 phee0 then3 thet1
+NONPATIENT	n@n0 phee0 chiian2
+NONPATIENTS	n@n0 phee0 chiian2
+NONPAYING	n@n0 phee0 ing2
+NONPAYMENT	n@n0 phee0 men3
+NONPAYMENTS	n@n0 phee0 men3
+NONPERFECT	n@n0 phqq0 fek1
+NONPERFECTION	n@n0 phqq0 fek3 chan2
+NONPERFORATE	n@n0 phqq0 f@@0 reet1
+NONPERFORATED	n@n0 phqq0 f@@0 reet3 thet1
+NONPERFORATING	n@n0 phqq0 f@@0 reet1 ting2
+NONPERFORMANCE	n@n0 phqq0 f@@m0 mxn3
+NONPERFORMER	n@n0 phqq0 f@@m0 mqq2
+NONPERFORMERS	n@n0 phqq0 f@@m0 mqq2
+NONPERFORMING	n@n0 phqq0 f@@m0 ming2
+NONPERFORMINGS	n@n0 phqq0 f@@m0 ming2
+NONPERIODIC	n@n0 phiia0 ri3 @@0 dik1
+NONPERISHABLE	n@n0 phqq0 rich3 chee0 bql2
+NONPERISHABLES	n@n0 phqq0 rich3 chee0 bql2
+NONPERMANENT	n@n0 phqq0 maa0 nen3
+NONPERMEABLE	n@n0 phqq0 miia0 bql2
+NONPERSISTENT	n@n0 phqq0 sis3 ten3
+NONPERTINENCE	n@n0 phqq0 thi1 nen3
+NONPERTINENT	n@n0 phqq0 thi1 nen3
+NONPHYSICAL	n@n0 fis3 si1 khql2
+NONPHYSICALLY	n@n0 fis3 si1 khql2 lii2
+NONPHYSIOLOGICAL	n@n0 fis3 si1 @@0 loo0 ci1 khql2
+NONPHYSIOLOGICALLY	n@n0 fis3 si1 @@0 loo0 ci1 khql2 lii2
+NONPIGMENTED	n@n0 phik3 men3 thet1
+NONPLACE	n@n0 phlees3
+NONPLACET	n@n0 phlees3 set1
+NONPLAIN	n@n0 phleen0
+NONPLANE	n@n0 phleen0
+NONPLASTIC	n@n0 phlxs3 tik1
+NONPLATE	n@n0 phleet1
+NONPLAYER	n@n0 phlee0 jqq2
+NONPLAYERS	n@n0 phlee0 jqq2
+NONPLAYING	n@n0 phlee0 ing2
+NONPLAYINGEST	n@n0 phlee0 ing2 nges1
+NONPLAYOFF	n@n0 phlee0 @f3
+NONPLUS	n@n0 phlas3
+NONPLUSED	n@n0 phlas3
+NONPLUSES	n@n0 phlas3 ses1
+NONPLUSHED	n@n0 phlach3
+NONPLUSING	n@n0 phlas3 sing2
+NONPLUSSED	n@n0 phlas3
+NONPLUSSES	n@n0 phlas3 ses1
+NONPLUSSING	n@n0 phlas3 sing2
+NONPOETIC	n@n0 phoo0 et3 thik1
+NONPOINT	n@n0 ph@j3
+NONPOISONOUS	n@n0 ph@j3 san0 nas2
+NONPOISONS	n@n0 ph@j3 san2
+NONPOLICE	n@n0 phoo0 lis3
+NONPOLITICAL	n@n0 phoo0 li3 thi1 khql2
+NONPOLITICALLY	n@n0 phoo0 li3 thi1 kh@l2 lii2
+NONPOLITICS	n@n0 phoo0 li3 thik1
+NONPOLLUTING	n@n0 phoo0 luut3 ting2
+NONPOROUS	n@n0 ph@@0 rqqs2
+NONPOSSESSION	n@n0 phoos3 sees3 chan2
+NONPOSSESSIVE	n@n0 phoos3 sees3 siif1
+NONPOSSESSIVELY	n@n0 phoos3 sees3 siif1 lii2
+NONPOSSESSIVENESS	n@n0 phoos3 sees3 siif1 nees1
+NONPRACTICAL	n@n0 phrxk3 ti1 khql2
+NONPRACTICE	n@n0 phrxk3 thiis3
+NONPRACTICING	n@n0 phrxk3 this3 sing2
+NONPRACTISING	n@n0 phrxk3 this3 sing2
+NONPRACTITIONERS	n@n0 phrxk3 ti1 chan0 nqq2
+NONPRAGMATIC	n@n0 phrxk3 mxx0 tik1
+NONPRECEDENTIAL	n@n0 phres3 si1 den0 chiial2
+NONPRECIOUS	n@n0 phrii0 chiias2
+NONPRECIPITATION	n@n0 phrii0 sip3 phi3 thee0 chan2
+NONPREDATORY	n@n0 phrii0 dee0 th@@0 rii2
+NONPREDESTINATION	n@n0 phrii0 des3 ti1 nee0 chan2
+NONPREDICATIVE	n@n0 phret3 di1 khee0 thiif1
+NONPREDICTABLE	n@n0 phrii0 dik3 thee0 bql2
+NONPREFERRED	n@n0 phrii0 fqq2
+NONPREFORMED	n@n0 phrii0 f@@m0
+NONPREGNANT	n@n0 phrek3 nxn3
+NONPREJUDICIAL	n@n0 phrec3 cuu0 dich3 chiial2
+NONPREJUDICIALLY	n@n0 phrec3 cuu0 dich3 chiial0 lii2
+NONPREPARATION	n@n0 phrii0 phxx0 ree0 chan2
+NONPRESCRIBED	n@n0 phres3 khraj3
+NONPRESCRIPTION	n@n0 phres3 khrip3 chan2
+NONPRESCRIPTIVE	n@n0 phres3 khrip3 thiif1
+NONPRESENTATION	n@n0 phrii0 sen0 thee0 chan2
+NONPRESERVABLE	n@n0 phrii0 sqqf3 wee0 bql2
+NONPRESERVATION	n@n0 phrii0 sqqf3 wee0 chan2
+NONPREVENTABLE	n@n0 phrii0 wen3 thee0 bql2
+NONPRIMITIVE	n@n0 phri3 mi3 thiif1
+NONPRINCIPLED	n@n0 phrin3 si1 phql2
+NONPRINT	n@n0 phrin3
+NONPRINTED	n@n0 phrin3 thet1
+NONPRINTING	n@n0 phrin3 ting2
+NONPROBABLE	n@n0 phr@p3 bee0 bql2
+NONPROCEDURAL	n@n0 phroo0 siic3 cq1 rql2
+NONPROCEDURALLY	n@n0 phroo0 siic3 cq1 rql2 lii2
+NONPROCREATION	n@n0 phroo0 khrii0 ee0 chan2
+NONPROCUREMENT	n@n0 phroo0 khiiaw0 men3
+NONPRODUCER	n@n0 phroo0 diw3 sqq2
+NONPRODUCERS	n@n0 phroo0 diw3 sqq2
+NONPRODUCING	n@n0 phroo0 diw3 sing2
+NONPRODUCTION	n@n0 phroo0 dak3 chan2
+NONPRODUCTIVE	n@n0 phroo0 dak3 thiif1
+NONPRODUCTIVELY	n@n0 phroo0 dak3 thiif1 lii2
+NONPRODUCTIVENESS	n@n0 phroo0 dak3 thiif1 nees1
+NONPRODUCTIVITY	n@n0 phroo0 dak3 thiif1 wi3 tii2
+NONPROFANE	n@n0 phroo0 feen0
+NONPROFANELY	n@n0 phroo0 feen0 lii2
+NONPROFESSED	n@n0 phroo0 fees3
+NONPROFESSING	n@n0 phroo0 fees3 sing2
+NONPROFESSION	n@n0 phroo0 fees3 chan2
+NONPROFESSIONAL	n@n0 phroo0 fees3 chan0 n@l2
+NONPROFESSIONALISM	n@n0 phroo0 fees3 chan0 n@l2 lis3 svm2
+NONPROFESSIONALLY	n@n0 phroo0 fees3 chan0 n@l0 lii2
+NONPROFESSIONALS	n@n0 phroo0 fees3 chan0 n@l2
+NONPROFIT	n@n0 phroo0 fit1
+NONPROFITABILITY	n@n0 phroo0 fit3 thq1 bil0 li3 tii2
+NONPROFITABLE	n@n0 phroo0 fit3 thee0 bql2
+NONPROFITEERING	n@n0 phroo0 fit3 thiia0 ring2
+NONPROFITS	n@n0 phroo0 fit1
+NONPROGRESSIVE	n@n0 phroo0 krees3 siif1
+NONPROGRESSORS	n@n0 phroo0 krees3 sqqs1
+NONPROHIBITABLE	n@n0 phroo0 hip3 bit1 thee0 bql2
+NONPROHIBITION	n@n0 phroo0 hip3 bich1 chan2
+NONPROHIBITIVE	n@n0 phroo0 hip3 bi1 thiif1
+NONPROJECT	n@n0 phroo0 cek1
+NONPROJECTION	n@n0 phroo0 cek3 chan2
+NONPROJECTIVE	n@n0 phroo0 cek3 thiif1
+NONPROJECTIVELY	n@n0 phroo0 cek3 thiif1 lii2
+NONPROLIFERATING	n@n0 phroo0 lif3 fqq0 reet3 ting2
+NONPROLIFERATION	n@n0 phroo0 lif3 fqq0 ree0 chan2
+NONPROLIFEROUS	n@n0 phroo0 lif3 fqq0 rqqs2
+NONPROLIFIC	n@n0 phroo0 lif3 fik1
+NONPROMISCUOUS	n@n0 phroo0 mis3 khiw0 as2
+NONPROMISES	n@n0 phr@m0 mis3 ses1
+NONPROMISSORY	n@n0 phr@m0 mis3 sqq0 rii2
+NONPROMOTION	n@n0 phroo0 moo0 chan2
+NONPROMOTIONAL	n@n0 phroo0 moo0 chan0 n@l2
+NONPRONUNCIATION	n@n0 phroo0 nan0 si1 ee0 chan2
+NONPROPAGATION	n@n0 phr@p3 phq1 kee0 chan2
+NONPROPER	n@n0 phr@p3 phqq2
+NONPROPERTIED	n@n0 phr@p3 phqq0 tii2
+NONPROPHETIC	n@n0 phrq1 fet3 thik1
+NONPROPITIATION	n@n0 phrq1 phich3 chi3 ee0 chan2
+NONPROPORTIONAL	n@n0 phrq1 ph@@0 chan0 n@l2
+NONPROPORTIONALLY	n@n0 phrq1 ph@@0 chan0 n@l0 lii2
+NONPROPRIETARIES	n@n0 phrq1 phraj0 it1 thxx0 rii2
+NONPROPRIETARY	n@n0 phrq1 phraj0 it1 thxx0 rii2
+NONPROPRIETOR	n@n0 phrq1 phraj0 it1 tqq2
+NONPROSECUTION	n@n0 phr@s3 sek1 khiw3 chan2
+NONPROSELYTIZING	n@n0 phr@s3 sel0 li3 thaj3 sing2
+NONPROSPECT	n@n0 phr@s3 pek1
+NONPROTECTED	n@n0 phroo0 thek3 thet1
+NONPROTECTION	n@n0 phroo0 thek3 chan2
+NONPROTECTIVE	n@n0 phroo0 thek3 thiif1
+NONPROTECTIVELY	n@n0 phroo0 thek3 thiif1 lii2
+NONPROTRACTILE	n@n0 phroo0 thrxk3 thaaj0
+NONPROVEN	n@n0 phruuf3 wen2
+NONPROVIDED	n@n0 phroo0 waaj0 det1
+NONPROVOCATION	n@n0 phr@p3 wqq0 khee0 chan2
+NONPUBLIC	n@n0 phap3 lik1
+NONPUBLICATION	n@n0 phap3 li1 khee0 chan2
+NONPUBLICITY	n@n0 phap3 lik1 si3 tii2
+NONPUBLICLY	n@n0 phap3 lik1 lii2
+NONPUBLISHED	n@n0 phap3 lich1
+NONPUBLISHING	n@n0 phap3 lich3 ching2
+NONPUNCTUAL	n@n0 phang3 chuual2
+NONPUNCTUATION	n@n0 phang3 chuu0 ee0 chan2
+NONPUNISHABLE	n@n0 phan0 nich3 chee0 bql2
+NONPUNISHING	n@n0 phan0 nich3 ching2
+NONPUNISHMENT	n@n0 phan0 nich3 men3
+NONQUALIFICATION	n@n0 khw@l0 lif3 fik3 khee0 chan2
+NONQUALIFIED	n@n0 khw@l0 li3 faaj0
+NONQUALIFIER	n@n0 khw@l0 li3 faaj0 qq2
+NONQUALIFIERS	n@n0 khw@l0 li3 faaj0 qq2
+NONQUALIFYING	n@n0 khw@l0 li3 faaj0 ing2
+NONQUALITY	n@n0 khw@l0 li3 tii2
+NONQUANTIFIABLE	n@n0 khw@n0 thi1 faaj0 ee0 bql2
+NONQUANTITATIVE	n@n0 khw@n0 thi3 thee0 thiif1
+NONQUANTUM	n@n0 khw@n0 tam2
+NONRACIAL	n@n0 ree0 chiial2
+NONRACIALISM	n@n0 ree0 chiial2 lis3 svm2
+NONRADICAL	n@n0 rxt3 di1 khql2
+NONRADIOACTIVE	n@n0 ree0 di1 oo0 xk3 thiif1
+NONRAIL	n@n0 reel0
+NONRAILROAD	n@n0 rel0 root3
+NONRAILROADER	n@n0 rel0 root3 dqq2
+NONRATABILITY	n@n0 ret3 thxp1 bil0 li3 tii2
+NONRATABLE	n@n0 ret3 thee0 bql2
+NONRATED	n@n0 reet3 thet1
+NONRATIONAL	n@n0 rxt3 chan0 n@l2
+NONRATIONALLY	n@n0 rxt3 chan0 n@l0 lii2
+NONREACTIVE	n@n0 rii0 xk3 thiif1
+NONREACTOR	n@n0 rii0 xk3 tqq2
+NONREADER	n@n0 riit3 dqq2
+NONREADERS	n@n0 riit3 dqq2
+NONREALISTIC	n@n0 riial0 lis3 tik1
+NONREALITY	n@n0 riial0 li3 tii2
+NONRECEIPT	n@n0 rii0 siit3
+NONRECEIVED	n@n0 rii0 siip3
+NONRECEIVING	n@n0 rii0 siif3 wing2
+NONRECEPTION	n@n0 rii0 sep3 chan2
+NONRECESS	n@n0 rii0 sees3
+NONRECESSION	n@n0 rii0 sees3 chan2
+NONRECESSIONARY	n@n0 rii0 sees3 chan0 naa0 rii2
+NONRECIPIENT	n@n0 rii0 sip3 phiian2
+NONRECIPROCAL	n@n0 rii0 sip3 rq1 khql2
+NONRECIPROCALLY	n@n0 rii0 sip3 rq1 khql2 lii2
+NONRECIPROCALS	n@n0 rii0 sip3 rq1 kql2
+NONRECIPROCATING	n@n0 rii0 sip3 rq1 keet3 ting2
+NONRECITAL	n@n0 rii0 saj0 thql2
+NONRECLUSE	n@n0 rek3 luus3
+NONRECOGNITION	n@n0 rek3 kh@k3 ni3 chan2
+NONRECOIL	n@n0 rii0 k@@j0
+NONRECORDING	n@n0 rii0 kh@@t3 ding2
+NONRECOURSE	n@n0 rii0 kh@@s3
+NONRECOVERABLE	n@n0 rii0 kh@f3 wqq0 ree0 bql2
+NONRECOVERY	n@n0 rii0 kh@f3 wqq0 rii2
+NONRECRUITMENT	n@n0 rii0 khruut3 men3
+NONRECUPERATION	n@n0 rii0 khiw0 phqq0 ree0 chan2
+NONRECURRENT	n@n0 rii0 khqq0 ren3
+NONRECURRING	n@n0 rii0 khqq0 ring2
+NONRECURSIVE	n@n0 rii0 khqqs3 siif1
+NONREDEEMABLE	n@n0 ri3 diim0 mee0 bql2
+NONREDEMPTION	n@n0 ri3 dem0 chan2
+NONREDEMPTIVE	n@n0 ri3 dem0 thiif1
+NONREDRESSING	n@n0 ri3 drees3 sing2
+NONREDUCED	n@n0 ri3 diw3
+NONREDUCING	n@n0 ri3 diw3 sing2
+NONREDUCTIVE	n@n0 ri3 dak3 thiif1
+NONREDUNDANT	n@n0 ri3 dan0 dxn2
+NONREFILLABLE	n@n0 rii0 fil0 lee0 bql2
+NONREFLECTIVE	n@n0 rii0 flek3 thiif1
+NONREFLECTOR	n@n0 rii0 flek3 tqq2
+NONREFORMULATED	n@n0 ri3 f@@m0 miw0 leet3 thet1
+NONREFRIGERANT	n@n0 rii0 fric3 cq1 rxn3
+NONREFUNDABILITY	n@n0 rii0 fan0 dq1 bil0 li3 tii2
+NONREFUNDABLE	n@n0 rii0 fan0 dee0 bql2
+NONREFUNDABLES	n@n0 rii0 fan0 dee0 bql2
+NONREFUSABLE	n@n0 rii0 fiw3 see0 bql2
+NONREGENERATING	n@n0 rii0 cen0 nqq0 reet1 ting2
+NONREGIMENTED	n@n0 rec3 ci1 men3 thet1
+NONREGISTERED	n@n0 rec3 cis3 tqq2
+NONREGISTRABILITY	n@n0 rec3 cis3 thrq1 bil0 li3 tii2
+NONREGISTRABLE	n@n0 rec3 cis3 three0 bql2
+NONREGISTRATION	n@n0 rec3 cis3 tree0 chan2
+NONREGULAR	n@n0 rek3 kiw0 laa2
+NONREGULATED	n@n0 rek3 kiw0 leet3 thet1
+NONREGULATING	n@n0 rek3 kiw0 leet3 ting2
+NONREGULATION	n@n0 rek3 kiw0 lee0 chan2
+NONREGULATORY	n@n0 rek3 kiw0 lee0 th@@0 rii2
+NONREIMBURSED	n@n0 rii0 im0 bqq2
+NONREIMBURSEMENT	n@n0 rii0 im0 bqqs3 men3
+NONREINFORCEMENT	n@n0 rii0 in0 f@@s3 men3
+NONREINSTATEMENT	n@n0 rii0 in0 sa1 teet1 men3
+NONRELAPSED	n@n0 rii0 lxp3
+NONRELATED	n@n0 rii0 leet3 thet1
+NONRELATION	n@n0 rii0 lee0 chan2
+NONRELATIONAL	n@n0 rii0 lee0 chan0 n@l2
+NONRELATIONSHIP	n@n0 rii0 lee0 chan2 chip3
+NONRELEASE	n@n0 rii0 lii2
+NONRELIANCE	n@n0 rii0 laaj0 xn3
+NONRELIGION	n@n0 rii0 lic3 ciian2
+NONRELIGIOUS	n@n0 rii0 lic3 ciias2
+NONRELIGIOUSNESS	n@n0 rii0 lic3 ciias3 nees1
+NONRELINQUISHMENT	n@n0 rii0 ling0 kwich3 men3
+NONREMEMBRANCE	n@n0 rii0 mem0 brxn3
+NONREMONSTRANCE	n@n0 rii0 m@n0 sa1 traan2
+NONREMUNERATIVE	n@n0 rii0 miw0 nqq0 ree0 thiif1
+NONRENAL	n@n0 rii0 nql2
+NONRENEWABLE	n@n0 rii0 niw0 wee0 bql2
+NONRENEWAL	n@n0 rii0 niw0 wql2
+NONRENEWALS	n@n0 rii0 niw0 wql2
+NONREPAIR	n@n0 rii0 phxx0
+NONREPARATION	n@n0 rii0 phxx0 ree0 chan2
+NONREPENTANCE	n@n0 rii0 phen0 thxn3
+NONREPLACEMENT	n@n0 rii0 phlees3 men3
+NONREPLICABLE	n@n0 rep3 phli3 khee0 bql2
+NONREPLICATE	n@n0 rep3 phli3 kheet1
+NONREPLICATED	n@n0 rep3 phli3 kheet3 thet1
+NONREPRESENTATION	n@n0 rep3 phrii0 sen0 thee0 chan2
+NONREPRESENTATIONAL	n@n0 rep3 phrii0 sen0 thee0 chan2 n@l2
+NONREPRESENTATIVE	n@n0 rep3 phrii0 sen0 thee0 thiif1
+NONREPRODUCTIVE	n@n0 rii0 phroo0 dak3 thiif1
+NONRESEMBLANCE	n@n0 rii0 sem0 blxn3
+NONRESERVATION	n@n0 res3 sqqf3 wee0 chan2
+NONRESERVATIONS	n@n0 res3 sqqf3 wee0 chan2
+NONRESERVE	n@n0 rii0 sqqf1
+NONRESIDENCE	n@n0 res3 sit3 den3
+NONRESIDENCY	n@n0 res3 sit3 den0 sii2
+NONRESIDENT	n@n0 res3 sit3 den3
+NONRESIDENTER	n@n0 res3 sit3 den3 tqq2
+NONRESIDENTIAL	n@n0 res3 sit3 den3 chiial2
+NONRESIDENTIARY	n@n0 res3 sit3 den3 chiia0 rii2
+NONRESIDENTS	n@n0 res3 sit3 den3
+NONRESIDUAL	n@n0 rii0 sit3 duual2
+NONRESIDUE	n@n0 res3 si3 diw0
+NONRESIDUES	n@n0 res3 si3 diw0
+NONRESIGNATION	n@n0 rii0 si1 nee0 chan2
+NONRESIN	n@n0 ree0 sin2
+NONRESISTANT	n@n0 rii0 sis3 txn3
+NONRESISTANTS	n@n0 rii0 sis3 txn3
+NONRESOLUTION	n@n0 res3 soo0 luu0 chan2
+NONRESONANT	n@n0 ree0 soo0 nxn3
+NONRESPONDENT	n@n0 res3 ph@n0 den3
+NONRESPONDENTS	n@n0 res3 ph@n0 den3
+NONRESTRICTED	n@n0 rii0 sa1 trik3 thet1
+NONRESTRICTION	n@n0 rii0 sa1 trik3 chan2
+NONRESTRICTIVE	n@n0 rii0 sa1 trik3 thiif1
+NONRESURRECTION	n@n0 rii0 sqq0 rek3 chan2
+NONRETIREMENT	n@n0 rii0 thaaj0 men3
+NONRETRENCHMENT	n@n0 rii0 thren3 men3
+NONRETURNABLE	n@n0 rii0 thqqn0 nee0 bql2
+NONREVERSIBLE	n@n0 rii0 wqqs3 si1 bql2
+NONRHYTHMIC	n@n0 rit3 mik1
+NONRIGID	n@n0 ri3 cit1
+NONROMAN	n@n0 roo0 man0
+NONRULING	n@n0 ruul0 ling2
+NONSACCHARINE	n@n0 sxk3 khaa0 riin0
+NONSACRAMENTAL	n@n0 sxk3 khraa0 men0 thql2
+NONSACRIFICE	n@n0 sxk3 khri3 faaj0
+NONSACRIFICIAL	n@n0 sxk3 krif3 fi3 chiial2
+NONSALABLE	n@n0 see0 la3 bql2
+NONSALARIED	n@n0 sxl0 la3 rii2
+NONSANCTIFICATION	n@n0 sxng3 thi3 fi3 khee0 chan2
+NONSANCTION	n@n0 sxng3 chan2
+NONSANCTIONED	n@n0 sxng3 chan2
+NONSANCTITY	n@n0 sxng3 thi1 tii2
+NONSANGUINE	n@n0 sxng3 kwin2
+NONSANGUINEOUS	n@n0 sxng3 kwin0 niias3
+NONSANITY	n@n0 sxxn0 ni3 thii2
+NONSATISFACTION	n@n0 sxt3 this3 fxk3 chan2
+NONSATURATED	n@n0 sxt3 chqq0 reet3 thet1
+NONSATURATION	n@n0 sxt3 chqq0 ree0 chan2
+NONSCHEDULED	n@n0 chet3 duul2
+NONSCHOLASTIC	n@n0 sa1 kh@@0 lxs3 tik1
+NONSCIENCES	n@n0 saaj0 en2 ses1
+NONSCIENTIFIC	n@n0 saaj0 en2 thiif3 fik1
+NONSEASONAL	n@n0 sii0 san0 n@l2
+NONSECLUSION	n@n0 sii0 khluu0 chan2
+NONSECRET	n@n0 sii0 khret1
+NONSECRETARIAL	n@n0 sii0 khret3 thxx0 riial2
+NONSECRETION	n@n0 sii0 khret3 chan2
+NONSECRETLY	n@n0 sii0 khret3 lii2
+NONSECTARIAN	n@n0 sek3 thxx0 riian2
+NONSECTIONAL	n@n0 sek3 chan0 n@l2
+NONSECTORIAL	n@n0 sek3 th@@0 riial2
+NONSECULAR	n@n0 sek3 khiw0 laa2
+NONSECURED	n@n0 sek3 khiw0
+NONSECURITIES	n@n0 sek3 khiw0 ri3 tii2
+NONSEGREGATED	n@n0 sek3 krq1 kheet3 thet1
+NONSELECTED	n@n0 sii0 lek3 thet1
+NONSELECTION	n@n0 sii0 lek3 chan2
+NONSELECTIVE	n@n0 sii0 lek3 thiif1
+NONSELECTIVELY	n@n0 sii0 lek3 thiif1 lii2
+NONSELF	n@n0 sel3
+NONSENSE	n@n0 sen3
+NONSENSED	n@n0 sen3
+NONSENSES	n@n0 sen3 ses1
+NONSENSIBLE	n@n0 sen3 si1 bql2
+NONSENSIC	n@n0 sen3 sik1
+NONSENSICAL	n@n0 sen3 si1 khql2
+NONSENSICALLY	n@n0 sen3 si1 khql2 lii2
+NONSENSICALNESS	n@n0 sen3 si1 khql2 nees1
+NONSENSIFICATION	n@n0 sen3 siif1 fi1 khee0 chan2
+NONSENSIFY	n@n0 sen3 si1 faaj0
+NONSENSITISED	n@n0 sen3 si1 thaj3
+NONSENSITIVE	n@n0 sen3 si1 thiif1
+NONSENSITIVENESS	n@n0 sen3 si1 thiif1 nees1
+NONSENSITIZED	n@n0 sen3 si1 thaj3
+NONSENSORIAL	n@n0 sen0 s@@0 riial2
+NONSENSUOUS	n@n0 sen0 chuuas2
+NONSENTENCE	n@n0 sen0 then3
+NONSENTIENT	n@n0 sen0 chiian2
+NONSENTRATION	n@n0 sen0 three0 chan2
+NONSEPARABILITY	n@n0 sep3 phqq0 ree0 bil0 li3 tii2
+NONSEPARABLE	n@n0 sep3 phqq0 ree0 bql2
+NONSEPARATION	n@n0 sep3 phqq0 ree0 chan2
+NONSEPARATISTS	n@n0 sep3 phqq0 ree0 this3
+NONSEPTIC	n@n0 sep3 thik1
+NONSEQUENTIAL	n@n0 sii0 khwen0 chiial2
+NONSEQUENTIALLY	n@n0 sii0 khwen0 chiial0 lii2
+NONSEQUESTRATION	n@n0 sii0 khwes3 tree0 chan2
+NONSEQUITERS	n@n0 sii0 khwit3 thqq2
+NONSEQUITURS	n@n0 sii0 khwit3 thqq2
+NONSERIF	n@n0 see0 rif3
+NONSETTER	n@n0 set3 thqq2
+NONSETTING	n@n0 set3 ting2
+NONSETTLED	n@n0 set3 thql2
+NONSETTLEMENT	n@n0 set3 thql2 men3
+NONSETTLING	n@n0 set3 thql0 ling2
+NONSEVERABLE	n@n0 sef3 wqq0 ree0 bql2
+NONSEX	n@n0 sek3
+NONSEXED	n@n0 sek3
+NONSEXIST	n@n0 sek3 ses1
+NONSEXISTS	n@n0 sek3 ses1
+NONSEXUAL	n@n0 sek3 chuual2
+NONSEXUALLY	n@n0 sek3 chuual0 lii2
+NONSEXY	n@n0 sek0 sii2
+NONSIGNIFICANT	n@n0 sik3 ni3 fik1 khxn3
+NONSINE	n@n0 saaj0
+NONSINGULAR	n@n0 sing0 kiw0 laa2
+NONSINKABLE	n@n0 sing3 khee0 bql2
+NONSKID	n@n0 sa1 khit3
+NONSKIDDING	n@n0 sa1 kit3 ding2
+NONSKILLED	n@n0 sa1 kil0
+NONSKIN	n@n0 sa1 kin0
+NONSKIPPING	n@n0 sa1 khip3 ping2
+NONSLIP	n@n0 sa1 lip3
+NONSMOKE	n@n0 sa1 mook3
+NONSMOKER	n@n0 sa1 mook3 kqq2
+NONSMOKERS	n@n0 sa1 mook3 kqq2
+NONSMOKING	n@n0 sa1 mook3 king2
+NONSOCIAL	n@n0 soo0 chiial2
+NONSPARING	n@n0 sa1 pxx0 ring2
+NONSPEAKER	n@n0 sa1 piik3 kqq2
+NONSPEAKING	n@n0 sa1 piik3 king2
+NONSPECIAL	n@n0 sa1 pee0 chiial2
+NONSPECIALISED	n@n0 sa1 pee0 chiial2 laj3
+NONSPECIALIST	n@n0 sa1 pee0 chiial2 lis3
+NONSPECIALISTS	n@n0 sa1 pee0 chiial2 lis3
+NONSPECIALIZED	n@n0 sa1 pee0 chiial2 laj3
+NONSPECIALTY	n@n0 sa1 pee0 chiial0 tii2
+NONSPECIFIC	n@n0 sa1 pee0 si1 fik1
+NONSPECIFICATION	n@n0 sa1 pee0 si3 fi1 khee0 chan2
+NONSPECIFICITY	n@n0 sa1 pee0 si1 fis3 si3 tii2
+NONSPECIFIED	n@n0 sa1 pes3 si1 faaj0
+NONSPECTACULAR	n@n0 sa1 pek3 thxx0 khiw0 laa2
+NONSPECTRAL	n@n0 sa1 pek3 thr@l2
+NONSPECULATION	n@n0 sa1 pek3 khiw0 lee0 chan2
+NONSPECULATIVE	n@n0 sa1 pek3 khiw0 lee0 thiif1
+NONSPECULATORS	n@n0 sa1 pek3 khiw0 lee0 tqq2
+NONSPEEDING	n@n0 sa1 piit1 ding2
+NONSPENDING	n@n0 sa1 phen0 ding2
+NONSPILLABLE	n@n0 sa1 pil0 lee0 bql2
+NONSPINNING	n@n0 sa1 pin0 ning2
+NONSPIRAL	n@n0 sa1 paj0 r@l2
+NONSPIRIT	n@n0 sa1 pii0 rit1
+NONSPIRITUAL	n@n0 sa1 pii0 rich3 chuual2
+NONSPIRITUOUS	n@n0 sa1 pii0 rit3 chqq2
+NONSPORED	n@n0 sa1 p@@0
+NONSPORT	n@n0 sa1 p@@t1
+NONSPORTING	n@n0 sa1 p@@t1 ting2
+NONSPORTS	n@n0 sa1 p@@t1
+NONSPROUTING	n@n0 sa1 praw3 ting2
+NONSTABLE	n@n0 sa1 tee0 bql2
+NONSTAFF	n@n0 sa1 taaf3
+NONSTAINABLE	n@n0 sa1 teen0 nee0 bql2
+NONSTAINING	n@n0 sa1 teen0 ning2
+NONSTANDARD	n@n0 sa1 txxn0 daat1
+NONSTANDARDISED	n@n0 sa1 txxn0 daat1 daj3
+NONSTANDARDIZED	n@n0 sa1 txxn0 daat1 daj3
+NONSTANDING	n@n0 sa1 txxn0 ding2
+NONSTAPLE	n@n0 sa1 tee0 phql2
+NONSTARCH	n@n0 sa1 taach3
+NONSTARDOM	n@n0 sa1 taa0 d@m2
+NONSTARRING	n@n0 sa1 taa0 ring2
+NONSTARTER	n@n0 sa1 taat3 tqq2
+NONSTARTERS	n@n0 sa1 taat3 tqq2
+NONSTARTING	n@n0 sa1 taat3 ting2
+NONSTATE	n@n0 sa1 teet1
+NONSTATEMENT	n@n0 sa1 teet1 men3
+NONSTATIONARY	n@n0 sa1 tee0 chan0 nqq0 rii2
+NONSTATISTICAL	n@n0 sa1 txx0 this3 ti1 khql2
+NONSTEEL	n@n0 sa1 tiil0
+NONSTELLAR	n@n0 sa1 tel0 laa2
+NONSTEREOTYPICAL	n@n0 sa1 tee0 rii0 oo0 thip3 phi3 khql2
+NONSTERILE	n@n0 sa1 tee0 raaj0
+NONSTICK	n@n0 sa1 tik3
+NONSTICKY	n@n0 sa1 tik3 kii2
+NONSTIFF	n@n0 sa1 tif3
+NONSTIGMATIZING	n@n0 sa1 tik3 maa0 thaj3 sing2
+NONSTIMULANT	n@n0 sa1 ti1 miw0 lxn3
+NONSTIMULATING	n@n0 sa1 ti1 miw0 leet3 ting2
+NONSTIPULATION	n@n0 sa1 ti1 phiw0 lee0 chan2
+NONSTOCK	n@n0 sa1 t@k3
+NONSTOOPING	n@n0 sa1 tuup3 ping2
+NONSTOP	n@n0 sa1 t@p3
+NONSTOPPING	n@n0 sa1 t@p3 ping2
+NONSTOPS	n@n0 sa1 t@p3
+NONSTORE	n@n0 sa1 too0
+NONSTORM	n@n0 sa1 t@@m0
+NONSTORY	n@n0 sa1 t@@0 rii2
+NONSTRATEGIC	n@n0 sa1 trxt3 thii0 cik1
+NONSTRATEGY	n@n0 sa1 trxt3 thii0 cii2
+NONSTRATIFIED	n@n0 sa1 trxt3 thi1 faaj0
+NONSTRESS	n@n0 sa1 trees3
+NONSTRIATED	n@n0 sa1 traj0 eet3 thet1
+NONSTRIKE	n@n0 sa1 traj3
+NONSTRIKER	n@n0 sa1 traj3 kqq2
+NONSTRIKERS	n@n0 sa1 traj3 kqq2
+NONSTRIKING	n@n0 sa1 traj3 king2
+NONSTRIPED	n@n0 sa1 traj3
+NONSTRUCTURAL	n@n0 sa1 trak3 chqq0 r@l2
+NONSTRUCTURALLY	n@n0 sa1 trak3 chqq0 r@l0 lii2
+NONSTRUCTURED	n@n0 sa1 trak3 chqq2
+NONSUBJECT	n@n0 sap3 cek1
+NONSUBJECTIVE	n@n0 sap1 cek3 thiif1
+NONSUBJECTS	n@n0 sap3 cek1
+NONSUBMISSION	n@n0 sap3 mich3 chan2
+NONSUBMISSIVE	n@n0 sap3 mis3 siif1
+NONSUBMISSIVELY	n@n0 sap3 mis3 siif1 lii2
+NONSUBMISSIVENESS	n@n0 sap3 mis3 siif1 nees1
+NONSUBORDINATION	n@n0 sap3 b@@0 di1 nee0 chan2
+NONSUBSCRIBER	n@n0 sap1 sa1 kraj3 bqq2
+NONSUBSCRIBERS	n@n0 sap1 sa1 kraj3 bqq2
+NONSUBSCRIBING	n@n0 sap1 sa1 kraj3 bing2
+NONSUBSCRIPTED	n@n0 sap1 sa1 krip3 thet1
+NONSUBSCRIPTION	n@n0 sap1 sa1 krip3 chan2
+NONSUBSIDING	n@n0 sap1 saaj0 ding2
+NONSUBSIDIZED	n@n0 sap3 si1 daj3
+NONSUBSIDY	n@n0 sap3 si1 dii2
+NONSUBSISTENCE	n@n0 sap1 sis3 ten2
+NONSUBSTANTIAL	n@n0 sap1 sa1 txxn0 chiial2
+NONSUBSTANTIALISM	n@n0 sap1 sa1 txxn0 chiial2 lis3 svm2
+NONSUBSTANTIALIST	n@n0 sap1 sa1 txxn0 chiial2 lis3
+NONSUBSTANTIALITY	n@n0 sap1 sa1 txxn0 chiial2 li3 tii2
+NONSUBSTANTIATION	n@n0 sap1 sa1 txxn0 chi3 ee0 chan2
+NONSUBSTANTIVE	n@n0 sap3 sa1 txxn0 thiif1
+NONSUBSTITUTION	n@n0 sap3 sa1 ti1 tiw0 chan2
+NONSUCCESS	n@n0 sak3 sees3
+NONSUCCESSFUL	n@n0 sak3 sees3 fuul0
+NONSUCCESSION	n@n0 sak3 sees3 chan2
+NONSUCCESSIVE	n@n0 sak3 sees3 siif1
+NONSUCCESSIVELY	n@n0 sak3 sees3 siif1 lii2
+NONSUCCESSIVENESS	n@n0 sak3 sees3 siif1 nees1
+NONSUCH	n@n0 sach3
+NONSUCHES	n@n0 sach3 ches1
+NONSUIT	n@n0 suut3
+NONSUITED	n@n0 suut3 thet1
+NONSUITING	n@n0 suut3 ting2
+NONSUPPORT	n@n0 sap3 ph@@t1
+NONSUPPORTING	n@n0 sap3 ph@@t1 ting2
+NONSUPPRESSION	n@n0 sap1 phrees3 chan2
+NONSUPRESSION	n@n0 sap1 phrees3 chan2
+NONSURGICAL	n@n0 sqq0 ci1 khql2
+NONSUSCEPTIBILITY	n@n0 sas1 sep3 thi1 bil0 li3 tii2
+NONSUSCEPTIBLE	n@n0 sas1 sep3 thi1 bql2
+NONSUSTAINING	n@n0 sas3 teen0 ning2
+NONSYMBOLIC	n@n0 sim0 b@l0 lik1
+NONSYMMETRICAL	n@n0 sim0 met3 thri1 khql2
+NONSYSTEMATIC	n@n0 sis3 tem0 mxt3 thik1
+NONTACTICAL	n@n0 thxk3 ti1 khql2
+NONTAN	n@n0 thxxn0
+NONTANGENTIAL	n@n0 thxxn0 cen0 chiial2
+NONTANNIC	n@n0 thxxn0 nik1
+NONTANNIN	n@n0 thxxn0 nin0
+NONTAX	n@n0 thxk1
+NONTAXABILITY	n@n0 thxk3 sa1 bil0 li3 tii2
+NONTAXABLE	n@n0 thxk3 see0 bql2
+NONTAXPAYING	n@n0 thxk1 phee0 ing2
+NONTECH	n@n0 thek1
+NONTECHIES	n@n0 thek1 chii2
+NONTECHNICAL	n@n0 thek3 ni1 khql2
+NONTECHNICALLY	n@n0 thek3 ni1 khql2 lii2
+NONTECHNICIANS	n@n0 thek3 ni3 chiian2
+NONTECHNOLOGICAL	n@n0 thek3 noo0 loo0 ci1 khql2
+NONTECHNOLOGY	n@n0 thek3 noo0 loo0 cii2
+NONTELEGENIC	n@n0 thee0 lee0 cen0 nik1
+NONTELEGRAPHIC	n@n0 thee0 lee0 kraaf3 fik1
+NONTELEOLOGICAL	n@n0 thee0 lee0 oo0 loo0 ci1 khql2
+NONTELEPHONE	n@n0 thee0 lee0 phoon0
+NONTELEPHONIC	n@n0 thee0 lee0 phoo0 nik1
+NONTEMPORAL	n@n0 them0 phqq0 rql2
+NONTEMPORALLY	n@n0 them0 phqq0 rql2 lii2
+NONTEMPORISING	n@n0 them0 phqq0 raj3 sing2
+NONTEMPORISINGS	n@n0 them0 phqq0 raj3 sing2
+NONTEMPORIZING	n@n0 them0 phqq0 raj3 sing2
+NONTEMPORIZINGS	n@n0 them0 phqq0 raj3 sing2
+NONTENANT	n@n0 then0 nxn3
+NONTENANTS	n@n0 then0 nxn3
+NONTENDERED	n@n0 then0 dqq2
+NONTENURE	n@n0 then0 niw0 qq2
+NONTENURED	n@n0 then0 niw0 qq2
+NONTERMINAL	n@n0 thqq0 min0 n@l2
+NONTERMINALS	n@n0 thqq0 min0 n@l2
+NONTERRESTRIAL	n@n0 thqq0 res3 triial2
+NONTERRITORIAL	n@n0 thqq0 ri3 th@@0 riial2
+NONTERRORISM	n@n0 thqq0 roo0 ris3 svm2
+NONTERRORIST	n@n0 thqq0 r@@0 ris3
+NONTESTABLE	n@n0 thees3 thee0 bql2
+NONTESTAMENTARY	n@n0 thees3 thee0 men0 thxx0 rii2
+NONTESTED	n@n0 thees3 tet1
+NONTEXT	n@n0 thek1
+NONTEXTBOOK	n@n0 thek1 buk3
+NONTEXTILE	n@n0 thek3 taaj0
+NONTEXTUAL	n@n0 thek3 chuual2
+NONTHEATRICAL	n@n0 thii0 xt3 tri1 khql2
+NONTHINKING	n@n0 ting3 king2
+NONTOXIC	n@n0 th@k3 sik1
+NONTRACTION	n@n0 thrxk3 chan2
+NONTRADABLE	n@n0 threet3 dee0 bql2
+NONTRADE	n@n0 threet1
+NONTRADEABLE	n@n0 threet3 diia0 bql2
+NONTRADED	n@n0 threet3 det1
+NONTRADER	n@n0 threet3 dqq2
+NONTRADES	n@n0 threet1
+NONTRADING	n@n0 threet3 ding2
+NONTRADITIONAL	n@n0 threet3 dich3 chan0 n@l2
+NONTRADITIONALIST	n@n0 threet3 dich3 chan0 n@l2 lis3
+NONTRADITIONALISTS	n@n0 threet3 dich3 chan0 n@l2 lis3
+NONTRADITIONALLY	n@n0 threet3 dich3 chan0 n@l2 lii2
+NONTRAGIC	n@n0 thrxx0 cik1
+NONTRAILING	n@n0 threl0 ling2
+NONTRAINED	n@n0 threen0
+NONTRAMP	n@n0 thrxm3
+NONTRANSFERABILITY	n@n0 thrxxn0 sa1 fqq0 rq1 bil0 li3 tii2
+NONTRANSFERABLE	n@n0 thrxxn0 sa1 fqq0 ree0 bql2
+NONTRANSGRESSION	n@n0 thrxxn0 sa1 krees3 chan2
+NONTRANSIENT	n@n0 thrxxn0 siian2
+NONTRANSITIONAL	n@n0 thrxxn0 si3 chan0 n@l2
+NONTRANSITIVE	n@n0 thrxxn0 si1 thiif1
+NONTRANSITIVITY	n@n0 thrxxn0 si1 thiif3 wi3 tii2
+NONTRANSMISSION	n@n0 thrxxn0 sa1 mich3 chan2
+NONTRANSPARENCY	n@n0 thrxxn0 sa1 phxx0 ren0 sii2
+NONTRANSPARENT	n@n0 thrxxn0 sa1 phxx0 ren3
+NONTRANSPORTATION	n@n0 thrxxn0 sa1 p@@t1 thee0 chan2
+NONTRANSPOSING	n@n0 thrxxn0 sa1 poos3 sing2
+NONTRANSPOSITION	n@n0 thrxxn0 sa1 phoo0 si3 chan2
+NONTRAVEL	n@n0 thrxf3 wel2
+NONTRAVELER	n@n0 thrxf3 wel0 lqq2
+NONTRAVELING	n@n0 thrxf3 wel0 ling2
+NONTREASONABLE	n@n0 rii0 san0 nee0 bql2
+NONTREATED	n@n0 thriit3 thet1
+NONTREATERS	n@n0 thriit3 thqq2
+NONTREATMENT	n@n0 thriit3 men3
+NONTREATY	n@n0 thriit3 tii2
+NONTRENDY	n@n0 thren0 dii2
+NONTRESPASS	n@n0 thres3 pqs1
+NONTRIBAL	n@n0 thraj0 bql2
+NONTRIBUTARY	n@n0 thri1 biw3 thxx0 rii2
+NONTRIER	n@n0 thraj0 qq2
+NONTRIGONOMETRICAL	n@n0 thraj0 koo0 n@m0 met3 tri1 khql2
+NONTRIVIAL	n@n0 thrif3 wiial2
+NONTRIVIALITY	n@n0 thrif3 wiial0 li3 tii2
+NONTRON	n@n0 thr@n0
+NONTROPICAL	n@n0 thr@p3 phik1 khql2
+NONTRUNKED	n@n0 thrang3
+NONTRUTH	n@n0 thruut3
+NONTRUTHS	n@n0 thruut3
+NONTYPICAL	n@n0 thip3 phik1 khql2
+NONTYPICALLY	n@n0 thip3 phik1 khql2 lii2
+NONUNIFIED	n@n0 juu0 ni3 faaj0
+NONUNIFORM	n@n0 juu0 ni3 f@@m0
+NONUNIFORMED	n@n0 juu0 ni3 f@@m0
+NONUNIFORMIST	n@n0 juu0 ni3 f@@m0 mis3
+NONUNIFORMITIES	n@n0 juu0 ni3 f@@m0 mi3 tii2
+NONUNIFORMITY	n@n0 juu0 ni3 f@@m0 mi3 tii2
+NONUNIFORMLY	n@n0 juu0 ni3 f@@m0 lii2
+NONUNION	n@n0 juu0 niian2
+NONUNIONISM	n@n0 juu0 niian2 nis3 svm2
+NONUNIONIST	n@n0 juu0 niian2 nis3
+NONUNIONS	n@n0 juu0 niian2
+NONUNIQUE	n@n0 juu0 niik3
+NONUNIQUENESS	n@n0 juu0 niik3 nees1
+NONUNISON	n@n0 juu0 ni3 san2
+NONUNIT	n@n0 juu0 nit1
+NONUNITED	n@n0 juu0 naj0 tet1
+NONUNITS	n@n0 juu0 nit1
+NONUNIVERSAL	n@n0 juu0 ni3 wqq0 sql2
+NONUNIVERSITY	n@n0 juu0 ni3 wqqs3 si3 tii2
+NONUSER	n@n0 juus3 sqq2
+NONUSERS	n@n0 juus3 sqq2
+NONUTILISED	n@n0 juu0 thil0 laj3
+NONUTILITARIAN	n@n0 juu0 thil0 lit3 thxx0 riian2
+NONUTILITIES	n@n0 juu0 thil0 li3 tii2
+NONUTILITY	n@n0 juu0 thil0 li3 tii2
+NONUTILIZED	n@n0 juu0 thil0 laj3
+NONVASCULAR	n@n0 wxxs3 sa1 khiw0 laa2
+NONVASCULARLY	n@n0 wxxs3 sa1 khiw0 laa0 lii2
+NONVENOMOUS	n@n0 wen0 n@m0 mas2
+NONVERBAL	n@n0 wqq0 bql2
+NONVIABLE	n@n0 waj0 ee0 bql2
+NONVIOLATION	n@n0 waj0 oo0 lee0 chan2
+NONVIOLENCE	n@n0 waj0 oo0 len3
+NONVIOLENT	n@n0 waj0 oo0 len3
+NONVIOLENTLY	n@n0 waj0 oo0 len3 lii2
+NONVIRULENT	n@n0 wqq0 rul0 len3
+NONVISIBLE	n@n0 wi3 si1 bql2
+NONVISUAL	n@n0 wi3 chuual2
+NONVISUALLY	n@n0 wi3 chuual0 lii2
+NONVOCAL	n@n0 woo0 khql2
+NONVOCALIC	n@n0 woo0 khql0 lik1
+NONVOCATIONAL	n@n0 woo0 khee0 chan0 n@l2
+NONVOLATILE	n@n0 w@l0 lqt3 thaaj0
+NONVOLATILISED	n@n0 w@l0 lqt3 thil0 laj3
+NONVOLATILIZED	n@n0 w@l0 lqt3 thil0 laj3
+NONVOLCANIC	n@n0 w@l0 khxxn0 nik1
+NONVOLUNTARY	n@n0 w@l0 lqn0 thxx0 rii2
+NONVOTER	n@n0 woot3 thqq2
+NONVOTERS	n@n0 woot3 thqq2
+NONVOTING	n@n0 woot3 ting2
+NONWHITE	n@n0 waj3
+NONWHITES	n@n0 waj3
+NONWORD	n@n0 wqqt1
+NONWORDS	n@n0 wqqs1
+NONWORKER	n@n0 wqqk3 kqq2
+NONWORKERS	n@n0 wqqk3 kqq2
+NONWORKING	n@n0 wqqk3 king2
+NONWOVEN	n@n0 woof3 wen2
+NONWOVENS	n@n0 woof3 wen2
+NONYIELDING	n@n0 jiiw0 ding2
+NONZEBRA	n@n0 sii0 braa2
+NONZERO	n@n0 sii0 roo2
+NOODED	nuut3 det1
+NOODLE	nuut3 dql2
+NOODLED	nuut3 dql2
+NOODLEMAN	nuut3 dql2 mxxn0
+NOODLER	nuut3 dql0 lqq2
+NOODLERS	nuut3 dql0 lqq2
+NOODLES	nuut3 dql2
+NOODLING	nuut3 ling2
+NOODLINGS	nuut3 ling2
+NOOK	nuk3
+NOOKED	nuk3
+NOOKES	nuk3
+NOOKIES	nuk3 kii2
+NOOKING	nuk3 king2
+NOOKS	nuk3
+NOON	nuun0
+NOONDAY	nuun0 dee0
+NOONDAYS	nuun0 dees1
+NOONER	nuun0 nqq2
+NOONERS	nuun0 nqq2
+NOONES	noo0 wan0
+NOONING	nuun0 ning2
+NOONINGS	nuun0 ning2
+NOONS	nuun0
+NOONTIDE	nuun0 taaj0
+NOONTIDES	nuun0 taaj0
+NOONTIME	nuun0 thaam0
+NOONTIMES	nuun0 thaam0
+NOOSE	nuus3
+NOOSED	nuus3
+NOOSER	nuus3 sqq2
+NOOSERS	nuus3 sqq2
+NOOSES	nuus3 ses1
+NOOSING	nuus3 sing2
+NOPE	noop3
+NOR	n@@0
+NORA	n@@0 raa2
+NORBECK	n@@0 bek3
+NORBECKER	n@@0 bek3 kqq2
+NORBERG	n@@0 bqqk1
+NORBERT	n@@0 bqqt1
+NORBERTA	n@@0 bqq0 taa2
+NORBET	n@@0 bet1
+NORBIT	n@@0 bit1
+NORBURN	n@@0 bqqn0
+NORBURY	n@@0 biw0 rii2
+NORCROFT	n@@0 khr@f3
+NORCROSS	n@@0 khr@@s3
+NORDAN	n@@0 dxxn0
+NORDELL	n@@0 del0
+NORDEN	n@@0 den0
+NORDENBROOK	n@@0 den0 bruuk3
+NORDIC	n@@0 dik1
+NORDICK	n@@0 dik3
+NORDICS	n@@0 dik1
+NORDICTRAC	n@@0 dik3 thrxk1
+NORDICTRACK	n@@0 dik3 thrxk1
+NORDICTRACKS	n@@0 dik3 thrxk1
+NORDICUM	n@@0 dik3 kham2
+NORDIE	n@@0 dii2
+NORDIES	n@@0 dii2
+NORDIN	n@@0 din2
+NORDINE	n@@0 daaj0
+NORDING	n@@0 ding2
+NORDIQUES	n@@0 diik3
+NORDISK	n@@0 dis3
+NORDON	n@@0 d@n2
+NORDYKE	n@@0 daj3
+NORED	n@@0
+NORELL	n@@0 rel0
+NORELLE	n@@0 rel0
+NORELLI	n@@0 rel0 laj0
+NORFIELD	n@@0 fiil0
+NORFIN	n@@0 fin0
+NORFLEET	n@@0 fliit3
+NORFOLK	n@@0 f@@k3
+NORFOLKS	n@@0 f@@k3
+NORFORD	n@@0 f@@t1
+NORGROVE	n@@0 kroof3
+NORING	n@@0 ing2
+NORING	n@@0 ring2
+NORINS	n@@0 rin2
+NORINSKY	n@@0 rin0 sa1 kii2
+NORKIN	n@@0 kin2
+NORLAND	n@@0 lxxn0
+NORLANDER	n@@0 lxxn0 dqq2
+NORLANDERS	n@@0 lxxn0 dqq2
+NORLANDS	n@@0 lxxn0
+NORLEY	n@@0 lee2
+NORLING	n@@0 ling2
+NORM	n@@m0
+NORMAL	n@@0 m@l2
+NORMALCY	n@@0 m@l2 sii2
+NORMALE	n@@0 mel0
+NORMALES	n@@0 mel0
+NORMALINDA	n@@0 m@l2 lin0 daa0
+NORMALISABLE	n@@0 m@l2 lis3 see0 bql2
+NORMALISM	n@@0 m@l2 lis3 svm2
+NORMALIST	n@@0 m@l2 lis3
+NORMALISTRIBUTION	n@@0 m@l2 lis3 thri3 biw3 chan2
+NORMALITIES	n@@0 m@l2 li3 tii2
+NORMALITY	n@@0 m@l2 li3 tii2
+NORMALIZABLE	n@@0 m@l2 laj3 see0 bql2
+NORMALIZATION	n@@0 m@l2 laj3 see0 chan2
+NORMALIZATIONS	n@@0 m@l2 laj3 see0 chan2
+NORMALIZE	n@@0 m@l2 laj3
+NORMALIZED	n@@0 m@l2 laj3
+NORMALIZER	n@@0 m@l2 laj3 sqq2
+NORMALIZERS	n@@0 m@l2 laj3 sqqs1
+NORMALIZES	n@@0 m@l2 laj0 ses1
+NORMALIZING	n@@0 m@l2 laj3 sing2
+NORMALLY	n@@0 m@l2 lii2
+NORMALS	n@@0 m@l2
+NORMAN	n@@0 mxxn0
+NORMAND	n@@0 mxxn0
+NORMANDALE	n@@0 mxxn0 del0
+NORMANDEAU	n@@0 mxxn0 doo2
+NORMANDES	n@@0 mxxn0 des1
+NORMANDIN	n@@0 mxxn0 din2
+NORMANDY	n@@0 mxxn0 dii2
+NORMANESQUE	n@@0 mxxn0 nes3
+NORMANISE	n@@0 mxxn0 naj3
+NORMANISED	n@@0 mxxn0 naj3
+NORMANISER	n@@0 mxxn0 naj3 sqq2
+NORMANISERS	n@@0 mxxn0 naj3 sqq2
+NORMANISES	n@@0 mxxn0 naj3 ses1
+NORMANISH	n@@0 mxxn0 nich3
+NORMANISM	n@@0 mxxn0 nis3 svm2
+NORMANIST	n@@0 mxxn0 nis3
+NORMANIZATION	n@@0 mxxn0 naj3 see0 chan2
+NORMANIZE	n@@0 mxxn0 naj3
+NORMANIZER	n@@0 mxxn0 naj3 sqq2
+NORMANIZERS	n@@0 mxxn0 naj3 sqq2
+NORMANIZES	n@@0 mxxn0 naj3 ses1
+NORMANLY	n@@0 mxxn0 lii2
+NORMANN	n@@0 mxxn0
+NORMANS	n@@0 mxxn0
+NORMANT	n@@0 mxn3
+NORMANTAS	n@@0 mxxn0 thqq2
+NORMANTON	n@@0 mxxn0 tan2
+NORMANTOWN	n@@0 mxxn0 thaaw0
+NORMANY	n@@0 mxxn0 nii2
+NORMAT	n@@0 mxt1
+NORMATED	n@@0 meet3 thet1
+NORMATIVE	n@@0 mee0 thiif1
+NORMATIVELY	n@@0 mee0 thiif1 lii2
+NORMATIVENESS	n@@0 mee0 thiif1 nees1
+NORMATIVES	n@@0 mee0 thiif1
+NORMATIVISM	n@@0 mee0 thiif1 wis3 svm2
+NORMATIVIST	n@@0 mee0 thiif1 wis3
+NORMED	n@@m0
+NORMES	n@@m0
+NORMICK	n@@0 mik1
+NORMILE	n@@0 maaj0
+NORMING	n@@0 ming2
+NORMINGTON	n@@0 ming0 tan2
+NORMINTON	n@@0 min0 tan2
+NORMOUS	n@@0 mas2
+NORMOUSLY	n@@0 mas3 lii2
+NORMS	n@@m0
+NORPLANT	n@@0 phlxn3
+NORPLANTS	n@@0 phlxn3
+NORQUIP	n@@0 khwip3
+NORQUIST	n@@0 khwis3
+NORRED	n@@0
+NORRING	n@@0 ring2
+NORRINGTON	n@@0 ring0 tan2
+NORRISES	n@@0 raj3 ses1
+NORROD	n@@0 r@t1
+NORSAD	n@@0 sxt3
+NORSAL	n@@0 s@l2
+NORSE	n@@s3
+NORSEMAN	n@@s3 mxxn0
+NORSEMEN	n@@s3 men0
+NORSEN	n@@s3 sen2
+NORSKY	n@@0 sa1 kii2
+NORSONS	n@@0 san2
+NORSTAN	n@@0 sa1 tan2
+NORSTAR	n@@0 sa1 taa0
+NORSTEN	n@@0 sa1 ten2
+NORSTRAND	n@@0 sa1 trxxn0
+NORSTROM	n@@0 sa1 tr@@m0
+NORSWELL	n@@0 sa1 wel0
+NORTEC	n@@0 thek1
+NORTECH	n@@0 thek1
+NORTEL	n@@0 thel0
+NORTEN	n@@0 then0
+NORTEST	n@@0 thees3
+NORTEX	n@@0 thek1
+NORTH	n@@t3
+NORTHALLERTON	n@@t3 thxl0 lqq0 tan2
+NORTHAM	n@@t3 thxm2
+NORTHAMPSHIRE	n@@t3 thxm0 chiia0
+NORTHAMPTOM	n@@t3 thxm0 tam2
+NORTHAMPTON	n@@t3 thxm0 tan2
+NORTHAMPTONSHIRE	n@@t3 thxm0 tan2 chiia0
+NORTHBOUND	n@@t3 baaw0
+NORTHBROOK	n@@t3 bruuk3
+NORTHBROOKFIELD	n@@t3 bruuk3 fiil0
+NORTHBROOKS	n@@t3 bruuk3
+NORTHCLIFF	n@@t3 khlif3
+NORTHCLIFFE	n@@t3 khlif3
+NORTHCOTE	n@@t3 khoot3
+NORTHCRAFT	n@@t3 khraaf3
+NORTHEAST	n@@t3 iis3
+NORTHEASTER	n@@t3 iis3 tqq2
+NORTHEASTERLY	n@@t3 iis3 tqq0 lii2
+NORTHEASTERN	n@@t3 iis3 thqn2
+NORTHEASTERNER	n@@t3 iis3 thqn0 nqq2
+NORTHEASTERNERS	n@@t3 iis3 thqn0 nqq2
+NORTHEASTERNMOST	n@@t3 iis3 thqn2 moos3
+NORTHEASTERNS	n@@t3 iis3 thqn2
+NORTHEASTERS	n@@t3 iis3 tqq2
+NORTHEASTHAM	n@@t3 iis3 thxm2
+NORTHEASTLY	n@@t3 iis3 lii2
+NORTHEASTON	n@@t3 iis3 tan2
+NORTHEASTWARD	n@@t3 iis3 wqqt1
+NORTHEASTWARDLY	n@@t3 iis3 wqqt1 lii2
+NORTHEASTWARDS	n@@t3 iis3 wqqt1
+NORTHEN	n@@t3 then2
+NORTHEND	n@@t3 then0
+NORTHENER	n@@t3 then0 nqq2
+NORTHENERS	n@@t3 then0 nqq2
+NORTHER	n@@t3 thqq2
+NORTHERLEY	n@@t3 thqq0 lii2
+NORTHERLINESS	n@@t3 thql0 li3 nees1
+NORTHERLY	n@@t3 thqq0 lii2
+NORTHERN	n@@t3 thqn2
+NORTHERNER	n@@t3 thqn0 nqq2
+NORTHERNERS	n@@t3 thqn0 nqq2
+NORTHERNMOST	n@@t3 thqn0 moos3
+NORTHERNS	n@@t3 thqn0
+NORTHERS	n@@t3 thqq2
+NORTHEST	n@@t3 thees1
+NORTHEY	n@@t3 thee2
+NORTHFIELD	n@@t3 fiil0
+NORTHFIELDS	n@@t3 fiil0
+NORTHGATE	n@@t3 keet1
+NORTHING	n@@t3 thing2
+NORTHINGS	n@@t3 thing2
+NORTHINGTON	n@@t3 thing0 tan2
+NORTHLAND	n@@t3 lxxn0
+NORTHLANDS	n@@t3 lxxn0
+NORTHMAN	n@@t3 mxxn0
+NORTHMANCHESTER	n@@t3 mxxn0 chees3 tqq2
+NORTHMEN	n@@t3 men0
+NORTHMORE	n@@t3 m@@0
+NORTHRIDGE	n@@t3 ric1
+NORTHRIVER	n@@t3 ri3 wqq2
+NORTHRUN	n@@t3 ran0
+NORTHS	n@@t3
+NORTHSTAR	n@@t3 sa1 taa0
+NORTHSTARS	n@@t3 sa1 taa0
+NORTHUMBER	n@@t3 tham0 bqq2
+NORTHUMBERLAND	n@@t3 tham0 bqq2 lxxn0
+NORTHUMBERLANDERS	n@@t3 tham0 bqq2 lxxn0 dqq2
+NORTHUMBERLANDS	n@@t3 tham0 bqq2 lxxn0
+NORTHUMBIAN	n@@t3 tham0 biian2
+NORTHUMBRIA	n@@t3 tham0 briia0
+NORTHUMBRIAN	n@@t3 tham0 briian2
+NORTHUMBRIANS	n@@t3 tham0 briian2
+NORTHUPS	n@@t3 thap3
+NORTHVALE	n@@t3 wel0
+NORTHVIEW	n@@t3 wiw0
+NORTHWARD	n@@t3 wqqt1
+NORTHWARDLY	n@@t3 wqqt1 lii2
+NORTHWARDS	n@@t3 wqqt1
+NORTHWAY	n@@t3 wee0
+NORTHWEST	n@@t3 wees3
+NORTHWESTCHESTER	n@@t3 wees3 chees3 tqq2
+NORTHWESTEL	n@@t3 wees3 thel0
+NORTHWESTEN	n@@t3 wees3 then2
+NORTHWESTER	n@@t3 wees3 thqq2
+NORTHWESTERLIES	n@@t3 wees3 thqq0 lii2
+NORTHWESTERLY	n@@t3 wees3 thqq0 lii2
+NORTHWESTERN	n@@t3 wees3 thqn2
+NORTHWESTERNER	n@@t3 wees3 thqn0 nqq2
+NORTHWESTERNERS	n@@t3 wees3 thqn0 nqq2
+NORTHWESTERNMOST	n@@t3 wees3 thqn2 moos3
+NORTHWESTERNS	n@@t3 wees3 thqn2
+NORTHWESTERS	n@@t3 wees3 thqq2
+NORTHWESTLY	n@@t3 wees3 lii2
+NORTHWESTNET	n@@t3 wees3 net1
+NORTHWESTWARD	n@@t3 wees3 wqqt1
+NORTHWESTWARDLY	n@@t3 wees3 wqqt1 lii2
+NORTHWESTWARDS	n@@t3 wees3 wqqt1
+NORTHWICH	n@@t3 wich3
+NORTHWICK	n@@t3 wik1
+NORTHWOOD	n@@t3 wuut3
+NORTHWOODS	n@@t3 wuus3
+NORTHWOODSTOCK	n@@t3 wuut3 sa1 t@k3
+NORTIE	n@@0 thaaj0
+NORTIER	n@@0 thiia0
+NORTIN	n@@0 thin0
+NORTON	n@@0 tan2
+NORTONS	n@@0 tan2
+NORTONVILLE	n@@0 tan2 wil0
+NORVAC	n@@0 wxk1
+NORVAN	n@@0 wxxn0
+NORVIL	n@@0 wil0
+NORVILL	n@@0 wil0
+NORVILLE	n@@0 wil0
+NORWALK	n@@0 w@@k3
+NORWARD	n@@0 wqqt1
+NORWARDS	n@@0 wqqt1
+NORWAY	n@@0 wee0
+NORWAYS	n@@0 wee0
+NORWEB	n@@0 wep3
+NORWEGIAN	n@@0 wii0 ciian2
+NORWEGIANS	n@@0 wii0 ciian2
+NORWELL	n@@0 wel0
+NORWEST	n@@0 wees3
+NORWESTER	n@@0 wees3 tqq2
+NORWESTWARD	n@@0 wees3 wqqt1
+NORWICH	n@@0 wich3
+NORWICK	n@@0 wik1
+NORWIN	n@@0 win2
+NORWIND	n@@0 win0
+NORWOOD	n@@0 wuut3
+NORWOODS	n@@0 wuus3
+NOS	n@@s3
+NOSAIR	n@@s3 xx0
+NOSAIRS	n@@s3 xx0
+NOSE	noos3
+NOSEBAG	noos3 bxxk3
+NOSEBAGS	noos3 bxxk3
+NOSEBANDS	noos3 bxxn0
+NOSEBLEED	noos3 bliit3
+NOSEBLEEDING	noos3 bliit3 ding2
+NOSEBLEEDS	noos3 bliit3
+NOSECONE	noos3 khoon0
+NOSECONES	noos3 khoon0
+NOSED	noos3
+NOSEDIVE	noos3 daj3
+NOSEDIVED	noos3 daj3
+NOSEDIVES	noos3 daj3
+NOSEDIVING	noos3 daj3 wing2
+NOSEGAY	noos3 kee0
+NOSEGAYS	noos3 kees1
+NOSEPIECE	noos3 phiis3
+NOSERING	noos3 ring0
+NOSERINGS	noos3 ring0
+NOSES	noos3 ses1
+NOSEWORTHY	noos3 wqqt3 dii2
+NOSEY	noos3 sii2
+NOSEYED	noos3 sii2
+NOSH	n@ch3
+NOSHED	n@ch3
+NOSHER	n@ch3 chqq2
+NOSHERS	n@ch3 chqq2
+NOSHES	n@ch3 ches1
+NOSHING	n@ch3 ching2
+NOSIER	noos3 si1 qq2
+NOSIEST	noos3 si1 ees1
+NOSINESS	noos3 si1 nees1
+NOSING	noos3 sing2
+NOSINGS	noos3 sing2
+NOSOLOGY	noos3 soo0 loo0 cii2
+NOSTALGIA	n@s3 thxl0 ciia0
+NOSTALGIAS	n@s3 thxl0 ciias2
+NOSTALGIC	n@s3 thxl0 cik1
+NOSTALGICALLY	n@s3 thxl0 cik1 khql2 lii2
+NOSTALGICS	n@s3 thxl0 cik1
+NOSTELL	n@s3 thel0
+NOSTER	n@s3 thqq2
+NOSTERN	n@s3 thqn2
+NOSTIC	n@s3 thik1
+NOSTICS	n@s3 thik1
+NOSTIL	n@s3 thil0
+NOSTILS	n@s3 thil0
+NOSTRA	n@s3 traa2
+NOSTRAND	n@s3 trxxn0
+NOSTRAS	n@s3 traas2
+NOSTRATIC	n@s3 trxx0 tik1
+NOSTRI	n@s3 trii2
+NOSTRIFICATE	n@s3 trif3 fik3 kheet1
+NOSTRIFICATION	n@s3 trif3 fik3 khee0 chan2
+NOSTRIKE	n@s3 traj3
+NOSTRIL	n@s3 thril2
+NOSTRILED	n@s3 thril2
+NOSTRILS	n@s3 thril2
+NOSTRIS	n@s3 thris3
+NOSTRO	n@s3 troo0
+NOSTROS	n@s3 troos2
+NOSTRUM	n@s3 tram2
+NOSTRUMS	n@s3 tram2
+NOSY	noos3 sii2
+NOT	n@t3
+NOTA	n@t3 taa2
+NOTABILE	noo0 thee0 baaj0
+NOTABILIS	noo0 thee0 bil0 lis3
+NOTABILITIES	noo0 thee0 bil0 li3 tii2
+NOTABILITY	noo0 thee0 bil0 li3 tii2
+NOTABLE	noo0 thee0 bql2
+NOTABLENESS	noo0 thee0 bql2 nees1
+NOTABLES	noo0 thee0 bql2
+NOTABLY	noo0 thee0 blii2
+NOTARE	noo0 thxx0
+NOTARIAL	noo0 thee0 riial2
+NOTARIALLY	noo0 thee0 riial0 lii2
+NOTARIES	noo0 thee0 rii2
+NOTARISATION	noo0 thee0 raj3 see0 chan2
+NOTARISATIONS	noo0 thee0 raj3 see0 chan2
+NOTARISE	noo0 thee0 raj3
+NOTARISED	noo0 thee0 raj3
+NOTARISES	noo0 thee0 raj0 ses1
+NOTARISING	noo0 thee0 raj3 sing2
+NOTARO	noo0 thaa0 roo2
+NOTARY	noo0 thee0 rii2
+NOTARYSHIP	noo0 thee0 rii2 chip3
+NOTATE	noo0 theet1
+NOTATED	noo0 theet3 thet1
+NOTATES	noo0 theet1
+NOTATING	noo0 theet3 ting2
+NOTATION	noo0 thee0 chan2
+NOTATIONAL	noo0 thee0 chan0 n@l2
+NOTATIONALLY	noo0 thee0 chan0 n@l0 lii2
+NOTATIONS	noo0 thee0 chan2
+NOTATIVE	noo0 thee0 thiif1
+NOTATOR	noo0 thee0 thqq2
+NOTCH	n@ch3
+NOTCHED	n@ch3
+NOTCHER	n@ch3 chqq2
+NOTCHERS	n@ch3 chqq2
+NOTCHES	n@ch3 ches1
+NOTCHING	n@ch3 ching2
+NOTE	noot3
+NOTEBOOK	noot3 buk3
+NOTEBOOKS	noot3 buk3
+NOTEBOOM	noot3 buum0
+NOTECASE	noot3 khees3
+NOTECASES	noot3 khees3 ses1
+NOTED	noot3 thet1
+NOTEDLY	noot3 thet1 lii2
+NOTEDNESS	noot3 thet1 nees1
+NOTEHOLDER	noot3 hool0 dqq2
+NOTEHOLDERS	noot3 hool0 dqq2
+NOTEPAD	noot3 phxt1
+NOTEPADS	noot3 phxt1
+NOTEPAPER	noot3 pee0 pqq2
+NOTEPAPERS	noot3 pee0 pqq2
+NOTER	noot3 thqq2
+NOTERS	noot3 thqq2
+NOTES	noot3
+NOTESTATION	noot3 sa1 tee0 chan2
+NOTESTATIONS	noot3 sa1 tee0 chan2
+NOTESTINE	noot3 sa1 thaaj0
+NOTEWARE	noot3 wxx0
+NOTEWORTHILY	noot3 wqqt3 dil0 lii2
+NOTEWORTHINESS	noot3 wqqt3 di1 nees1
+NOTEWORTHY	noot3 wqqt3 dii2
+NOTHING	n@t3 ting2
+NOTHINGMAN	n@t3 ting2 mxxn0
+NOTHINGNESS	n@t3 ting2 nees1
+NOTHINGS	n@t3 ting2
+NOTHINGTON	n@t3 thing0 tan2
+NOTHINK	n@t3 ting3
+NOTICABLE	noo0 this3 ee0 bql2
+NOTICABLY	noo0 this3 ee0 blii2
+NOTICE	noo0 this3
+NOTICEABILITY	noo0 this3 sa1 bil0 li3 tii2
+NOTICEABLE	noo0 this3 sa1 bql2
+NOTICEABLY	noo0 this3 sa1 blii2
+NOTICED	noo0 this3
+NOTICER	noo0 this3 sqq2
+NOTICES	noo0 this3 ses1
+NOTICING	noo0 this3 sing2
+NOTIFIABLE	noo0 thiif3 faaj0 ee0 bql2
+NOTIFICATION	noo0 thiif3 fik3 khee0 chan2
+NOTIFICATIONS	noo0 thiif3 fik3 khee0 chan2
+NOTIFICE	noo0 thi1 fis3
+NOTIFICTION	noo0 thiif3 fik3 chan2
+NOTIFIED	noo0 thiif3 faaj0
+NOTIFIER	noo0 thiif3 faaj0 qq2
+NOTIFIERS	noo0 thiif3 faaj0 qq2
+NOTIFIES	noo0 thiif3 faaj0
+NOTIFY	noo0 thiif3 faaj0
+NOTIFYING	noo0 thiif3 faaj0 ing2
+NOTIMEX	noo0 thim0 mek1
+NOTING	n@t3 ting2
+NOTION	noo0 chan2
+NOTIONABLE	noo0 chan0 nee0 bql2
+NOTIONAL	noo0 chan0 n@l2
+NOTIONALIST	noo0 chan0 n@l2 lis3
+NOTIONALLY	noo0 chan0 n@l0 lii2
+NOTIONATE	noo0 chan2 neet1
+NOTIONED	noo0 chan2
+NOTIONLESS	noo0 chan2 lees1
+NOTIONS	noo0 chan2
+NOTIS	noo0 this3
+NOTORATE	noo0 thoo0 reet1
+NOTORIETIES	noo0 thoo0 raj0 et1 tii2
+NOTORIETY	noo0 thoo0 raj0 et1 tii2
+NOTORIOUS	noo0 thoo0 riias2
+NOTORIOUSLY	noo0 thoo0 riias3 lii2
+NOTORIOUSNESS	noo0 thoo0 riias3 nees1
+NOTTAGE	n@t3 theec1
+NOTTAGES	n@t3 theec3 ces1
+NOTTER	n@t3 thqq2
+NOTTIEST	n@t3 thi3 ees1
+NOTTING	n@t3 ting2
+NOTTINGHAM	n@t3 ting2 hxm0
+NOTTINGHAMS	n@t3 ting2 hxm0
+NOTTINGHAMSHIRE	n@t3 ting2 hxm0 chiia0
+NOTTINGHILL	n@t3 ting2 hil0
+NOTTINGLEY	n@t3 ting0 lii2
+NOTTS	n@t3
+NOTWITHSTANDING	n@t3 wit3 sa1 txxn0 ding2
+NOUGAT	nuu0 kat1
+NOUGATS	nuu0 kat1
+NOUGHT	n@@t3
+NOUGHTS	n@@t3
+NOUN	naaw0
+NOUNALLY	naaw0 n@l0 lii2
+NOUNCE	naw3
+NOUNCED	naw3
+NOUNCEMENT	naw3 men3
+NOUNCES	naw3 ses1
+NOUNCING	naw3 sing2
+NOUNED	naaw0
+NOUNS	naaw0
+NOURISH	nuu0 rich3
+NOURISHABLE	nuu0 rich3 chee0 bql2
+NOURISHED	nuu0 rich3
+NOURISHER	nuu0 rich3 chqq2
+NOURISHERS	nuu0 rich3 chqq2
+NOURISHES	nuu0 rich3 ches1
+NOURISHING	nuu0 rich3 ching2
+NOURISHINGLY	nuu0 rich3 ching2 lii2
+NOURISHMENT	nuu0 rich3 men3
+NOURISHMENTS	nuu0 rich3 men3
+NOUS	nuus3
+NOUVEAU	nuu0 woo0
+NOUVEAUS	nuu0 woo0
+NOUVEAUX	nuu0 woo0
+NOV	nof3
+NOVA	noo0 waa2
+NOVACARE	noo0 waa0 khxx0
+NOVACK	noo0 wxk1
+NOVACKS	noo0 wxk1
+NOVACOR	noo0 waa0 kh@@0
+NOVACORP	noo0 waa0 kh@@p1
+NOVAE	noo0 wxx0
+NOVAES	noo0 wxxs3
+NOVAMETRIX	noo0 waa0 met3 thrik1
+NOVARA	noo0 waa0 raa2
+NOVAS	noo0 waas2
+NOVATOR	noo0 waa0 thqq2
+NOVEL	noo0 wql2
+NOVELETTE	noo0 wql0 let1
+NOVELETTER	noo0 wql0 let3 tqq2
+NOVELETTES	noo0 wql0 let1
+NOVELETTISH	noo0 wql0 let3 thich3
+NOVELETTIST	noo0 wql0 let3 this3
+NOVELISES	noo0 wql0 laj3 ses1
+NOVELISING	noo0 wql0 laj3 sing2
+NOVELIST	noo0 wql0 lis3
+NOVELISTIC	noo0 wql0 lis3 tik1
+NOVELISTICALLY	noo0 wql0 lis3 tik1 khql2 lii2
+NOVELISTS	noo0 wql0 lis3
+NOVELL	noo0 wel0
+NOVELLAS	noo0 wel0 laas2
+NOVELLI	noo0 wel0 laaj0
+NOVELLO	noo0 wel0 loo2
+NOVELLONE	noo0 wel0 loon0
+NOVELLUS	noo0 wel0 las2
+NOVELS	noo0 wql2
+NOVELTIES	noo0 wel0 tii2
+NOVELTY	noo0 wel0 tii2
+NOVEMBER	n@@0 wem0 bqq2
+NOVEMBERISH	n@@0 wem0 bqq2 rich3
+NOVEMBERS	n@@0 wem0 bqq2
+NOVEMBRE	n@@0 wem0 bqq2
+NOVICE	n@@0 wis3
+NOVICES	n@@0 wis3 ses1
+NOVICIATE	n@@0 wis3 chi3 eet1
+NOVICIATES	n@@0 wis3 chi3 eet1
+NOVINGER	n@@0 win0 cqq2
+NOVINS	n@@0 win2
+NOVINSKI	n@@0 win0 sa1 kii2
+NOVINSKY	n@@0 win0 sa1 kii2
+NOVITIATE	noo0 wit3 chi3 eet1
+NOVITIATES	noo0 wit3 chi3 eet1 thes1
+NOVITIATION	noo0 wit3 chi3 ee0 chan2
+NOVOKUZNETSK	noo0 wqq0 khus3 sqn2 net1
+NOVOSIBIRSK	noo0 wqs3 si1 biias3
+NOW	naaw0
+NOWACK	noo0 wxk1
+NOWADAY	naaw0 a1 dee0
+NOWADAYS	naaw0 a1 dees1
+NOWAYS	noo0 wee0
+NOWELL	noo0 wel0
+NOWHERE	noo0 wxx0
+NOWHERES	noo0 wxxs2
+NOWINSKI	naaw0 win0 sa1 kii2
+NOWINSOLVENT	naaw0 win0 sool0 wen2
+NOWISE	noo0 waj3
+NOWLAND	naaw0 lxxn0
+NOWLESS	naaw0 lees1
+NOWLING	naaw0 ling2
+NOXIOUS	n@k3 chiias2
+NOXIOUSLY	n@k3 chiias3 lii2
+NOXIOUSNESS	n@k3 chqqs2 nees1
+NOYAU	noo0 joo0
+NOZZLE	n@s3 sql2
+NOZZLED	n@s3 sql2
+NOZZLER	n@s3 lqq2
+NOZZLES	n@s3 sql2
+NUANCE	niw0 xn2
+NUANCED	niw0 xn2
+NUANCES	niw0 xn2 ses1
+NUANCING	niw0 xn2 sing2
+NUB	nap3
+NUBBED	nap3
+NUBBIER	nap3 bi1 qq2
+NUBBIEST	nap2 bi1 ees1
+NUBBIN	nap3 bin2
+NUBBING	nap3 bing2
+NUBBINS	nap3 bin2
+NUBBLE	nap3 bql2
+NUBBLED	nap3 bql2
+NUBBLES	nap3 bql2
+NUBBLIER	nap3 bli1 qq2
+NUBBLING	nap3 bling2
+NUBBLY	nap3 blii2
+NUBER	nap2 bqq2
+NUBERS	nap2 bqq2
+NUBIAN	niw0 biian2
+NUBIANS	niw0 biian2
+NUBIFORM	niw0 bi1 f@@m0
+NUBILE	niw0 baaj0
+NUBILES	niw0 baaj0
+NUBS	nap3
+NUCLEAL	niw0 khlii0 ql2
+NUCLEAR	niw0 khliia0
+NUCLEARES	niw0 khliias2
+NUCLEARS	niw0 khliias2
+NUCLEI	niw0 khlii0 aaj0
+NUCLEIC	niw0 khlii0 ik1
+NUCLEID	niw0 khlii0 it1
+NUCLEIDES	niw0 khlii0 it1 des1
+NUCLEIDS	niw0 khlii0 it1
+NUCLEUS	niw0 khliias2
+NUCLEUSES	niw0 khliias3 ses1
+NUCLIDES	niw0 khlaaj0
+NUDE	nuut3
+NUDELL	nuut3 del0
+NUDENESS	nuut3 nees1
+NUDER	nuut3 dqq2
+NUDES	nuut3
+NUDGE	nac1
+NUDGED	nac1
+NUDGER	nac3 cqq2
+NUDGERS	nac3 cqq2
+NUDGES	nac3 ces1
+NUDGING	nac3 cing2
+NUDGINGS	nac3 cing2
+NUDIES	nuut3 dii2
+NUDING	nuut3 ding2
+NUDISH	nuut3 dich1
+NUDISM	nuut3 dis3 svm2
+NUDISMS	nuut3 dis3 svm2
+NUDIST	nuut3 dis1
+NUDISTS	nuut3 dis1
+NUDITIES	nuut3 di1 tii2
+NUDITY	nuut3 di1 tii2
+NUGATORY	niw0 kee0 th@@0 rii2
+NUGGET	nak3 ket1
+NUGGETED	nak3 ket3 thet1
+NUGGETS	nak3 ket1
+NUGGING	nak3 king2
+NUISANCE	niw0 sxn3
+NUISANCER	niw0 sxn3 sqq2
+NUISANCES	niw0 sxn3 ses1
+NULL	nal0
+NULLAH	nal0 laa2
+NULLED	nal0
+NULLIFICATION	nal0 lif3 fik3 khee0 chan2
+NULLIFICATIONIST	nal0 lif3 fik3 khee0 chan2 nis3
+NULLIFICATIONS	nal0 lif3 fik3 khee0 chan2
+NULLIFICATOR	nal0 lif3 fik3 khee0 tqq2
+NULLIFIED	nal0 li3 faaj0
+NULLIFIER	nal0 li3 faaj0 qq2
+NULLIFIERS	nal0 li3 faaj0 qq2
+NULLIFIES	nal0 li3 faaj3
+NULLIFY	nal0 li3 faaj0
+NULLIFYING	nal0 li3 faaj0 ing2
+NULLING	nal0 ling2
+NULLITIES	nal0 li3 tii2
+NULLITY	nal0 li3 tii2
+NULLS	nal0
+NUMB	nam0
+NUMBED	nam0
+NUMBER	nam0 bqq2
+NUMBERABLE	nam0 bqq0 ree0 bql2
+NUMBERD	nam0 bqq2
+NUMBERED	nam0 bqq2
+NUMBERER	nam0 bqq0 rqq2
+NUMBERERED	nam0 bqq0 rqq2
+NUMBERERS	nam0 bqq0 rqq2
+NUMBERG	nam0 bqqk1
+NUMBERING	nam0 bqq0 ring2
+NUMBERINGS	nam0 bqq0 ring2
+NUMBERISH	nam0 bqq0 rich3
+NUMBERLESS	nam0 bqq2 lees3
+NUMBEROUS	nam0 bqq0 rqqs2
+NUMBERPLATE	nam0 bqq2 phleet1
+NUMBERPLATES	nam0 bqq2 phleet1
+NUMBERS	nam0 bqq2
+NUMBERSOME	nam0 bqq0 sam2
+NUMBERT	nam0 bqqt1
+NUMBES	nam0
+NUMBEST	nam0 bes1
+NUMBING	nam0 bing2
+NUMBLY	nam0 lii2
+NUMBNESS	nam0 nees1
+NUMBS	nam0
+NUMBSKULL	nam0 sa1 khal2
+NUMERABILITY	niw0 mqq0 rq1 bil0 li3 tii2
+NUMERABLE	niw0 mqq0 ree0 bql2
+NUMERABLENESS	niw0 mqq0 ree0 bql2 nees1
+NUMERABLY	niw0 mqq0 ree0 blii2
+NUMERACY	niw0 mqq0 ree0 sii2
+NUMERAL	niw0 mqq0 rql2
+NUMERALLY	niw0 mqq0 rql2 lii2
+NUMERALS	niw0 mqq0 rql2
+NUMERANT	niw0 mqq0 rxn3
+NUMERARY	niw0 mqq0 ree0 rii2
+NUMERATE	niw0 mqq0 reet1
+NUMERATED	niw0 mqq0 reet3 thet1
+NUMERATES	niw0 mqq0 reet1
+NUMERATING	niw0 mqq0 reet3 ting2
+NUMERATION	niw0 mqq0 ree0 chan2
+NUMERATIONS	niw0 mqq0 ree0 chan2
+NUMERATIVE	niw0 mqq0 ree0 thiif1
+NUMERATOR	niw0 mqq0 ree0 tqq2
+NUMERATORS	niw0 mqq0 ree0 tqq2
+NUMERI	niw0 mqq0 raaj0
+NUMERIAN	niw0 mqq0 riian2
+NUMERIC	niw0 mqq0 rik1
+NUMERICA	niw0 mqq0 rik3 kaa2
+NUMERICAL	niw0 mqq0 rik3 khql2
+NUMERICALLY	niw0 mqq0 rik3 khql2 lii2
+NUMERICALNESS	niw0 mqq0 rik3 khql2 nees1
+NUMERICS	niw0 mqq0 rik1
+NUMERIS	niw0 mqq0 ris3
+NUMERIST	niw0 mqq0 ris3
+NUMEROUS	niw0 mqq0 rqqs2
+NUMEROUSLY	niw0 mqq0 ras3 lii2
+NUMEROUSNESS	niw0 mqq0 ras3 nees1
+NUMERS	niw0 mqq2
+NUMERUS	niw0 mqq0 rqqs2
+NUMIDIAN	niw0 mi3 diian2
+NUMIDIANS	niw0 mi3 diian2
+NUMINE	niw0 miin0
+NUMING	niw0 ming2
+NUMINOUS	niw0 min0 nas2
+NUMINOUSLY	niw0 min0 nas3 lii2
+NUMISMATIC	niw0 mis3 mxt3 thik1
+NUMISMATICA	niw0 mis3 mxt3 thik1 kaa2
+NUMISMATICAL	niw0 mis3 mxt3 thik1 khql2
+NUMISMATICALLY	niw0 mis3 mxt3 thik1 khql2 lii2
+NUMISMATICS	niw0 mis3 mxt3 thik1
+NUMISMATIST	niw0 mis3 mxt3 this3
+NUMISMATISTS	niw0 mis3 mxt3 this3
+NUMSKULL	nam2 sa1 kal0
+NUMSKULLED	nam2 sa1 kal0
+NUMSKULLS	nam2 sa1 kal0
+NUN	nan0
+NUNCIATE	nan0 chi1 eet1
+NUNCIATION	nan0 chi1 ee0 chan2
+NUNCIATIVE	nan0 chi3 ee0 thiif1
+NUNCIATORY	nan0 chi3 ee0 th@@0 rii2
+NUNCIO	nan0 sii0 oo2
+NUNCIOS	nan0 sii0 oos2
+NUNEATON	nan0 niia0 tan2
+NUNES	nan0
+NUNKEY	nan0 kii2
+NUNLEY	nan0 lee2
+NUNLIKE	nan0 laj3
+NUNNED	nan0
+NUNNELLEY	nan0 nel0 lee2
+NUNNELLY	nan0 nel0 lii2
+NUNNERIES	nan0 nqq0 rii2
+NUNNERY	nan0 nqq0 rii2
+NUNS	nan0
+NUNSENSE	nan0 sen3
+NUNSENSES	nan0 sen3 ses1
+NUPTIAL	nap3 chiial2
+NUPTIALS	nap3 chiial2
+NURENBERG	niw0 ren0 bqqk1
+NURENBURG	niw0 ren0 bqqk1
+NURSE	nqqs3
+NURSED	nqqs3
+NURSELET	nqqs3 let1
+NURSELING	nqqs3 ling2
+NURSELINGS	nqqs3 ling2
+NURSEMAID	nqqs3 meet1
+NURSEMAIDING	nqqs3 meet1 ding2
+NURSEMAIDS	nqqs3 meet1
+NURSER	nqqs3 sqq2
+NURSERIES	nqqs3 sqq0 rii2
+NURSERS	nqqs3 sqq2
+NURSERS	nqqs3 sqq2
+NURSERY	nqqs3 sqq0 rii2
+NURSERYMAID	nqqs3 sqq0 rii2 meet1
+NURSERYMAIDS	nqqs3 sqq0 rii2 meet1
+NURSERYMAN	nqqs3 sqq0 rii2 mxxn0
+NURSERYMEN	nqqs3 sqq0 rii2 men0
+NURSERYS	nqqs3 sqq0 rii2
+NURSES	nqqs3 ses1
+NURSING	nqqs3 sing2
+NURSINGLY	nqqs3 sing0 lii2
+NURSINGS	nqqs3 sing2
+NURSLING	nqqs3 ling2
+NURSLINGS	nqqs3 ling2
+NURTURE	nqq0 chqq2
+NURTURED	nqq0 chqq2
+NURTURER	nqq0 chqq0 rqq2
+NURTURERS	nqq0 chqq0 rqq2
+NURTURES	nqq0 chqq2
+NURTURING	nqq0 chqq0 ring2
+NUT	nat3
+NUTANS	niw0 thxxn0
+NUTANT	niw0 thxn3
+NUTATE	niw0 theet1
+NUTATED	niw0 theet3 thet1
+NUTATES	niw0 theet1
+NUTATION	niw0 thee0 chan2
+NUTATIONAL	niw0 thee0 chan0 n@l2
+NUTATIONS	niw0 thee0 chan2
+NUTCRACK	nat3 khrxk3
+NUTCRACKER	nat3 khrxk3 kqq2
+NUTCRACKERS	nat3 khrxk3 kqq2
+NUTCRACKERY	nat3 khrxk3 kqq0 rii2
+NUTGRASSES	nat3 krxxs3 ses1
+NUTHATCH	nat3 hxch3
+NUTHATCHES	nat3 hxch3 ches1
+NUTHOUSE	nat3 haw3
+NUTHOUSES	nat3 haw3 ses1
+NUTLET	nat3 let1
+NUTLETS	nat3 let1
+NUTLEY	nat3 lee2
+NUTLIKE	nat3 laj3
+NUTMEAT	nat3 miit3
+NUTMEATS	nat3 miit3
+NUTMEG	nat3 mek3
+NUTMEGS	nat3 mek3
+NUTONE	nat3 wan0
+NUTONER	nat3 wan0 nqq2
+NUTPICK	nat3 phik3
+NUTPICKS	nat3 phik3
+NUTRIA	niw0 thriia0
+NUTRIAS	niw0 thriias2
+NUTRIEN	niw0 thriian2
+NUTRIENT	niw0 thriian3
+NUTRIENTS	niw0 thriian3
+NUTRIFIC	niw0 thrif3 fik1
+NUTRIFY	niw0 thri3 faaj0
+NUTRIMENT	niw0 thri3 men3
+NUTRIMENTAL	niw0 thri3 men0 thql2
+NUTRIMENTS	niw0 thri3 men3
+NUTRITION	niw0 thri3 chan2
+NUTRITIONAL	niw0 thrich3 chan0 n@l2
+NUTRITIONALISTS	niw0 thri3 chan2 nxxl0 lis3
+NUTRITIONALLY	niw0 thri3 chan2 n@l2 lii2
+NUTRITIONALS	niw0 thrich3 chqq0 nql2
+NUTRITIONS	niw0 thri3 chan2
+NUTRITIOUS	niw0 thrich3 chiias2
+NUTRITIOUSLY	niw0 thrich3 chiias3 lii2
+NUTRITIOUSNESS	niw0 thrich3 chiias3 nees1
+NUTRITIVE	niw0 thri3 thiif1
+NUTRITIVELY	niw0 thri3 thiif1 lii2
+NUTRITIVENESS	niw0 thri3 thiif1 nees1
+NUTS	nat3
+NUTSHELL	nat3 chel0
+NUTSHELLS	nat3 chel0
+NUTTALL	nat3 th@@l0
+NUTTED	nat3 thet1
+NUTTER	nat3 thqq2
+NUTTERFIELD	nat3 thqq2 fiil0
+NUTTERS	nat3 thqq2
+NUTTERWORTH	nat3 thqq2 wqqt3
+NUTTIER	nat3 thi1 qq2
+NUTTIES	nat3 tii2
+NUTTIEST	nat3 thi1 ees1
+NUTTINESS	nat3 thi1 nees1
+NUTTING	nat3 ting2
+NUTTY	nat3 tii2
+NUZZLE	nas3 sql2
+NUZZLED	nas3 sql2
+NUZZLER	nas3 sql0 lqq2
+NUZZLERS	nas3 sql0 lqq2
+NUZZLES	nas3 sql2
+NUZZLING	nas3 sql0 ling2
+NYLON	naj0 l@n2
+NYLONED	naj0 l@n2
+NYLONS	naj0 l@n2
+NYMPH	nim3
+NYMPHAL	nim3 fql2
+NYMPHALINE	nim3 fql0 laaj0
+NYMPHET	nim3 fet1
+NYMPHETS	nim3 fet1
+NYMPHO	nim3 foo2
+NYMPHOLEPSIES	nim3 foo0 lep3 sii2
+NYMPHOLEPTIC	nim3 foo0 lep3 tik1
+NYMPHOMANE	nim3 foo0 men0
+NYMPHOMANIA	nim3 foo0 mee0 niia1
+NYMPHOMANIAC	nim3 foo0 mee0 ni3 xk1
+NYMPHOMANIACAL	nim3 foo0 mee0 ni3 xk3 khql2
+NYMPHOMANIACS	nim3 foo0 mee0 ni3 xk1
+NYMPHOS	nim3 foos2
+NYMPHS	nim3
+NYSTADT	nis3 sa1 txt1
+NYSTAGMUS	nis3 sa1 txk3 mas2
+NYSTED	nis3 tet1
+NACOGDOCHES	nq1 khaak3 dq1 chqq2
+NAJIBULLAHS	nx1 cq1 bul0 lqs2
+NAPHTHALENE	nxf3 thq1 liin0
+NASOPHARYNX	nq1 saaf3 fqq1 ring2
+NATURALISTIC	nx1 chqq1 rql0 lis3 tik1
+NEANDERTHAL	nii0 xn1 dqq1 th@@l0
+NEGLIGENTLY	nek3 li1 cqn1 lii2
+NEOCLASSICAL	nii0 oo0 khlxs3 sik3 khql2
+NERVOUSNESS	nqq1 wqs3 nees1
+NEURASTHENIA	niw0 rxs3 thii0 niia2
+NEWMEXICANS	niw0 mek3 si1 kqn2
+NEWSPAPERMAN	niw0 sa1 pee0 pqq1 mxn0
+NICKELODEON	nik3 kql0 loo0 diian2
+NIEDERHAUSER	nii0 dqq1 haas3 sqq2
+NIKOLAIVICH	ni1 khoo0 laaj0 wich3
+NITROCELLULOSE	naaj0 troo0 sel0 luu0 loos2
+NOMENCLATORIAL	noo0 mqn1 khlq1 t@@0 riial2
+NONBELIEVER	naan0 bq1 liif3 fqq2
+NONSECTARIAN	naan0 sek3 thxx0 riian2
+NORINCHUKIN	n@@0 rqn1 chuu0 kqn2
+NOSTRADAMUS	n@@s3 trq1 dx1 mqs2
+NOVOSIBIRSK	noo0 wq1 si1 bqqk1
+NULLIFICATION	nal0 lq1 fq1 khee0 chan2
+NUTRITIONAL	nuu0 tri1 chqn1 n@l2

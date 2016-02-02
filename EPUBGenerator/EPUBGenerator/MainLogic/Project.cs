@@ -14,6 +14,7 @@ using Path = System.IO.Path;
 
 namespace EPUBGenerator.MainLogic
 {
+    enum Statuses : int { None, Create, Edit };
     class Project
     {
         public static String ProjectPath { get; private set; }
@@ -21,6 +22,7 @@ namespace EPUBGenerator.MainLogic
         public static String EpubPath { get; private set; }
         public static BackgroundWorker Worker { get; private set; }
         public static DoWorkEventArgs DoWorkEvent { get; private set; }
+        public static int Status;
 
         private static Epub EpubReader { get; set; }
         private static List<NavPoint> NavPoints { get; set; }
@@ -43,9 +45,11 @@ namespace EPUBGenerator.MainLogic
 
         public static void Create(String epubPath, String projPath, BackgroundWorker bw, DoWorkEventArgs e) 
         {
+            // Initial
             SetTools(); // Set TTS Tools
             SetSubdirectories(projPath); // Create Subdirectories
 
+            Status = (int)Statuses.Create;
             Worker = bw;
             DoWorkEvent = e;
 
@@ -77,6 +81,9 @@ namespace EPUBGenerator.MainLogic
                     break;
                 }
             }
+
+            // Final
+            Status = (int)Statuses.None;
         }
 
         private static void SaveContent(Content content)

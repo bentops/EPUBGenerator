@@ -38,14 +38,26 @@ namespace ChulaTTS.G2PConverter.G2P
             }
         }
 
-        public List<List<string>> GenTranscripts(string input, int type)
+        public List<KeyValuePair<string, string>> GenTranscriptList(string input, int type)
         {
             switch (Map[type])
             {
-                case 1: return ThG2P.GenTranscripts(input);
-                case 2: return EnG2P.GenTranscripts(input);
-                case 3: return NumG2P.GenTranscripts(input);
-                case 4: return SymG2P.GenTranscripts(input);
+                case 1: return ThG2P.GenTranscriptList(input);
+                case 2: return EnG2P.GenTranscriptList(input);
+                case 3: return NumG2P.GenTranscriptList(input);
+                case 4: return SymG2P.GenTranscriptList(input);
+                default: return new List<KeyValuePair<string, string>>() { new KeyValuePair<string, string>(input, input) };
+            }
+        }
+
+        public List<List<string>> GenPronunciationAndTranscriptList(string input, int type)
+        {
+            switch (Map[type])
+            {
+                case 1: return ThG2P.GenPronunciationAndTranscriptList(input);
+                case 2: return EnG2P.GenPronunciationAndTranscriptList(input);
+                case 3: return NumG2P.GenPronunciationAndTranscriptList(input);
+                case 4: return SymG2P.GenPronunciationAndTranscriptList(input);
                 default: return new List<List<string>>() { new List<string>() { input, input, input } };
             }
         }

@@ -1,0 +1,8 @@
+sil_sil-sil+th=o/A:0_0-0+3=3
+sil_sil-th+o=t^/A:0_0-3+3=3
+sil_th-o+t^=s/A:0_3-3+3=1
+th_o-t^+s=@@/A:3_3-3+1=1
+o_t^-s+@@=p^/A:3_3-1+1=1
+t^_s-@@+p^=sil/A:3_1-1+1=0
+s_@@-p^+sil=sil/A:1_1-1+0=0
+@@_p^-sil+sil=sil/A:1_1-0+0=0

@@ -1,0 +1,6622 @@
+LA	laa2
+LAAGER	laa0 kqq2
+LAAGERS	laa0 kqq2
+LAB	lxp1
+LABAND	lxx0 bxxn0
+LABANT	lxx0 bxxn3
+LABARE	lxx0 baa2
+LABATE	lxx0 beet1
+LABBER	lxx0 bqq2
+LABEAU	lxx0 boo2
+LABEL	lee0 bql2
+LABELED	lee0 bql2
+LABELER	lee0 bql2 lqq2
+LABELERS	lee0 bql2 lqq2
+LABELING	lee0 bql2 ling2
+LABELINGS	lee0 bql2 ling2
+LABELL	lee0 beel0
+LABELLA	lee0 beel0 lqq2
+LABELLABLE	lee0 beel0 lee0 bql2
+LABELLE	lee0 beel0
+LABELLED	lee0 bql2
+LABELLER	lee0 beel0 lqq2
+LABELLERS	lee0 beel0 lqq2
+LABELLING	lee0 beel0 ling2
+LABELLINGS	lee0 beel0 ling2
+LABELS	lee0 bql2
+LABENE	lee0 been0 nee0
+LABENSKI	lee0 been0 sa1 kii2
+LABENSKY	lee0 been0 sa1 kaaj0
+LABENT	lee0 been3
+LABER	lee0 bqq2
+LABIA	lee0 biia0
+LABIAL	lee0 biial2
+LABIALISATION	lee0 biial2 laj3 see0 chan2
+LABIALISED	lee0 biial2 laj3
+LABIALIZATION	lee0 biial2 laj3 see0 chan2
+LABIALIZE	lee0 biial2 laj3
+LABIALIZED	lee0 biial2 laj3
+LABIALIZES	lee0 biial2 laj3 ses1
+LABIALIZING	lee0 biial2 laj3 sing2
+LABIALLY	lee0 biial2 lii2
+LABIALS	lee0 biial2
+LABIODENDAL	lee0 bii0 oo0 deen0 dql2
+LABIODENTAL	lee0 bii0 oo0 deen0 thql2
+LABLANCA	lee0 blxxng3 kqq2
+LABLES	lee0 bql2
+LABORAGE	lxxp3 b@@0 reec1
+LABORAL	lxxp3 b@@0 rql2
+LABORATORIA	lxxp3 b@@0 rq1 th@@0 riia0
+LABORATORIAL	lxxp3 b@@0 rq1 th@@0 riial2
+LABORATORIALLY	lxxp3 b@@0 rq1 th@@0 riial2 lii2
+LABORATORIAN	lxxp3 b@@0 rq1 th@@0 riian2
+LABORATORIES	lxxp3 b@@0 rq1 th@@0 ris1
+LABORATORIO	lxxp3 b@@0 rq1 th@@0 rii0 oo2
+LABORATORIOS	lxxp3 b@@0 rq1 th@@0 rii0 @@s3
+LABORATORIUM	lxxp3 b@@0 rq1 th@@0 riiam2
+LABORATORY	lxxp3 b@@0 rq1 thq1 rii2
+LABORATORYS	lxxp3 b@@0 rq1 thq1 rii2
+LABORE	lxx0 b@@0
+LABORED	lxx0 b@@t3
+LABORER	lxx0 b@@0 rqq2
+LABORERS	lxx0 b@@0 rqq2
+LABORIEL	lxx0 b@@0 riial2
+LABORING	lxx0 b@@0 ring2
+LABORINGLY	lxx0 b@@0 ring2 lii2
+LABORINGS	lxx0 b@@0 ring2
+LABORIOUS	lxx0 b@@0 riias2
+LABORIOUSLY	lxx0 b@@0 riias2 lii2
+LABORIOUSNESS	lxx0 b@@0 riias2 nees1
+LABOUR	lee0 bqq2
+LABOURD	lee0 bqt1
+LABOURED	lee0 bqt1
+LABOUREDS	lee0 bqt1
+LABOURER	lee0 bqq0 rqq2
+LABOURERS	lee0 bqq0 rqq2
+LABOURHOOD	lee0 bqq0 huut2
+LABOURHOODS	lee0 bqq0 huut2
+LABOURING	lee0 bqq0 ring2
+LABOURINGLY	lee0 bqq0 ring2 lii2
+LABOURINGS	lee0 bqq0 ring2
+LABOURITE	lee0 bqq0 raj3
+LABOURITES	lee0 bqq0 raj3
+LABOURS	lee0 bqq2
+LABRADOR	lxx0 brq1 d@@0
+LABRADOREAN	lxx0 brq1 d@@0 riian2
+LABRADORES	lxx0 brq1 d@@0
+LABRADORIAN	lxx0 brq1 d@@0 riian2
+LABRADORS	lxx0 brq1 d@@0
+LABRAKE	lxx0 breek1
+LABRAL	lxx0 brql2
+LABRANCH	lxx0 braan3
+LABRANT	lxx0 brxxn3
+LABRAS	lxx0 brqq2
+LABRATORY	lxx0 brqt1 thq1 rii2
+LABRECK	lxx0 brek1
+LABROKE	lxx0 br@@k3
+LABROKES	lxx0 br@@k3
+LABROSE	lxx0 broos2
+LABROSSE	lxx0 br@s2
+LABRUM	lxx0 bram2
+LABS	lxp1
+LABURNHAM	lq1 bqq0 hxxm0
+LABURNUM	lq1 bqq0 nam2
+LABURNUMS	lq1 bqq0 nam2
+LABUS	lq1 bas2
+LABYRINTH	lxxp3 bq2 rin2
+LABYRINTHAL	lxxp3 bq2 rin2 thxxl2
+LABYRINTHE	lxxp3 bq2 rin2
+LABYRINTHIAN	lxxp3 bq2 rin2 thiian2
+LABYRINTHINE	lxxp3 bq2 rin2 thaaj0
+LABYRINTHS	lxxp3 bq2 rin2
+LAC	lxk3
+LACANA	lx1 kaan0 nqq2
+LACANNES	lx1 kxxn0
+LACE	lees3
+LACED	lees3
+LACEDAEMONIAN	lxs3 sa1 dim0 moo0 niian2
+LACEDAEMONIANS	lxs3 sa1 dim0 moo0 niian2
+LACEFIELD	lees3 fiil0
+LACEMAKER	lees3 meek3 kqq2
+LACEMAKERS	lees3 meek3 kqq2
+LACEMAKING	lees3 meek3 king2
+LACEMAN	lees3 mxxn0
+LACER	lees3 sqq2
+LACERA	lxs3 sa1 rqq2
+LACERABILITY	lxs3 sa1 rq1 bi1 li3 tii2
+LACERABLE	lxs3 sa1 ree0 bql2
+LACERANT	lxs3 sa1 ren3
+LACERATE	lxs3 sa1 reet1
+LACERATE	lxs3 sa1 reet1
+LACERATED	lxs3 sa1 reet3 thet1
+LACERATELY	lxs3 sa1 reet1 lii2
+LACERATES	lxs3 sa1 reet1
+LACERATING	lxs3 sa1 reet3 ting2
+LACERATINGLY	lxs3 sa1 reet3 ting2 lii2
+LACERATION	lxs3 sa1 ree0 chan2
+LACERATIONS	lxs3 sa1 ree0 chan2
+LACERS	lees3 sqq2
+LACERY	lxs3 sa1 rii2
+LACES	lees3 ses1
+LACEWELL	lees3 weel0
+LACEWING	lees3 wing2
+LACEWINGS	lees3 wing2
+LACEWORK	lees3 wqqk3
+LACEWORKS	lees3 wqqk3
+LACHEN	lxs3 heen0
+LACHENS	lxs3 heen0
+LACHER	lxs2 hqq2
+LACHES	lee0 ches1
+LACHRYMAL	lxxk3 rq1 mql2
+LACHRYMALS	lxxk3 rq1 mql2
+LACHRYMATOR	lxxk3 rq1 mee0 tqq2
+LACHRYMATORY	lxxk3 rq1 mee0 thq1 rii2
+LACHRYMOSA	lxxk3 rq1 m@@0 sqq2
+LACHRYMOSE	lxxk3 rq1 moos2
+LACIER	lee3 si2 qq2
+LACIEST	lee3 si2 es1
+LACINDY	lee0 sin0 dii2
+LACINESS	lee0 si1 nees1
+LACING	lee0 sing2
+LACINGS	lee0 sing2
+LACK	lxxk3
+LACKADAISIC	lxxk3 khq1 dee0 sik3
+LACKADAISICAL	lxxk3 khq1 dee0 si1 kh@l2
+LACKADAISICALITY	lxxk3 khq1 dee0 si1 kh@l2 li3 tii2
+LACKADAISICALLY	lxxk3 khq1 dee0 si1 kh@l2 lii2
+LACKADAISICALNESS	lxxk3 khq1 dee0 si3 kh@l2 nees1
+LACKADAISY	lxxk3 khq1 dee0 sii2
+LACKADAY	lxxk3 khq1 dee0
+LACKED	lxxk3
+LACKER	lxxk3 kqq2
+LACKERS	lxxk31 kqq2
+LACKERY	lxxk3 kqq0 rii2
+LACKEY	lxxk3 kii2
+LACKEYED	lxxk3 kii0
+LACKEYING	lxxk3 kii0 ing2
+LACKEYS	lxxk3 kii2
+LACKFORD	lxxk3 f@@t1
+LACKHAM	lxxk3 hxxm2
+LACKIN	lxxk3 kin2
+LACKING	lxxk3 king2
+LACKINGER	lxxk3 king0 ngqq2
+LACKINGS	lxxk3 king2
+LACKLAND	lxxk3 lxxn0
+LACKLUSTER	lxxk3 las3 tqq2
+LACKLUSTERNESS	lxxk3 las3 tqq0 nees1
+LACKLUSTRE	lxxk3 las3 tqq2
+LACKLUSTROUS	lxxk3 las3 tras3
+LACKMAN	lxxk3 mxxn0
+LACKMANN	lxxk3 mxxn0
+LACKNEY	lxxk3 nii2
+LACKS	lxxk3
+LACLAIR	lx1 khlxx0
+LACOMA	lq1 kh@@m0 mqq2
+LACOMB	lq1 kh@@m0
+LACONIAN	lq1 k@@0 niian2
+LACONIC	lq1 khoo0 nik1
+LACONICA	lq1 khoo0 ni3 kqq2
+LACONICALLY	lq1 khoo0 ni3 khql2 lii2
+LACONICALNESS	lq1 khoo0 ni3 khql2 nees1
+LACONICISM	lq1 khoo0 nis1 sis3 svm2
+LACONICISMS	lq1 khoo0 nis1 sis3 svm2
+LACONICS	lq1 khoo0 nik1
+LACONISES	lx1 khqn0 nis1 ses1
+LACONISM	lx1 khqn0 nis3 svm2
+LACONISMS	lx1 khqn0 nis3 svm2
+LACOUR	lx1 kaaw0 wqq2
+LACOURS	lx1 kaaw0 wqq2
+LACQUER	lx1 kqq2
+LACQUERED	lx1 kqt1
+LACQUERER	lx1 kqq0 rqq2
+LACQUERERS	lx1 kqq0 rqq2
+LACQUERING	lx1 kqq0 ring2
+LACQUERS	lx1 kqq2
+LACQUEY	lx1 kii2
+LACROSS	lq1 khr@s3
+LACROSSE	lq1 khr@s3
+LACROSSER	lq1 khr@s3 sqq2
+LACROSSES	lq1 khr@s3 ses1
+LACTANT	lxxk3 thxxn3
+LACTATE	lxxk3 theet1
+LACTATED	lxxk3 thee0 thet1
+LACTATES	lxxk3 theet1
+LACTATING	lxxk3 theet3 ting2
+LACTATION	lxxk3 thee0 chan2
+LACTATIONAL	lxxk3 thee0 chan2 n@l2
+LACTATIONALLY	lxxk3 thee0 chan2 n@l2 lii2
+LACTATIONS	lxxk3 thee0 chan2
+LACTEAL	lxxk3 thiial2
+LACTEALS	lxxk3 thiial2
+LACTER	lxxk3 tqq2
+LACTIC	lxxk3 tik1
+LACTICOLA	lxxk3 ti1 koo0 lqq2
+LACTICOLOR	lxxk3 ti1 kan0 lqq2
+LACTICUM	lxxk3 ti1 khqm2
+LACTIFEROUS	lxxk3 ti1 fq1 rqqs2
+LACTIFEROUSNESS	lxxk3 ti1 fq1 ras3 nees1
+LACTIFIC	lxxk3 ti1 fik1
+LACTIFICAL	lxxk3 ti1 fi3 kh@l2
+LACTIFICATION	lxxk3 ti1 fi3 khee0 chan2
+LACTIFORM	lxxk3 ti1 f@@m0
+LACTIFY	lxxk3 ti1 faaj0
+LACTIM	lxxk3 tim2
+LACTINATE	lxxk3 ti1 neet1
+LACTIS	lxxk3 tis1
+LACTOMETER	lxxk3 th@@0 mi3 tqq2
+LACTONE	lxxk3 th@@n0
+LACTONES	lxxk3 th@@n0
+LACTONIC	lxxk3 th@@0 nik1
+LACTOR	lxxk3 tqq2
+LACTOS	lxxk3 toos2
+LACTOSE	lxxk3 toos2
+LACTOSES	lxxk3 thoos2 ses1
+LACTYL	lxxk3 til2
+LACUNA	lq1 khiw0 nqq2
+LACUNAE	lq1 khiw0 nii2
+LACUNAL	lq1 khiw0 nql2
+LACUNAR	lq1 khiw0 nqq0 rqq2
+LACUNAS	lq1 khiw0 nqq2
+LACUSTRAL	lq1 kas3 thriial2
+LACUSTRE	lq1 kas3 tqq2
+LACUSTRIAN	lq1 kas3 thriian2
+LACUSTRINE	lq1 kas3 thraaj0
+LACUSTRIS	lq1 kas3 thrii2
+LACY	lee0 sii2
+LAD	lxxt3
+LADBROKE	lxxt3 br@@k3
+LADBROKES	lxxt3 br@@k3
+LADBURY	lxxt3 bq1 rii2
+LADDEN	lxxt3 dqn2
+LADDER	lxxt3 dqq2
+LADDERED	lxxt3 dqt1
+LADDERING	lxxt3 dqq0 ring2
+LADDERS	lxxt3 dqq2
+LADDIE	lxxt3 dii2
+LADDIES	lxxt3 dis1
+LADDING	lxxt3 ding2
+LADDISH	lxxt3 dich1
+LADDISHNESS	lxxt3 dich3 nees1
+LADE	leet3
+LADED	lxxt3 det1
+LADEN	leet3 dqn2
+LADENBERG	leet3 dqn2 bqqk1
+LADENBURGER	leet3 dqn2 bqqk1 kqq2
+LADENED	leet3 den3
+LADENING	leet3 ning2
+LADENS	leet3 dqn2
+LADER	leet3 dqq2
+LADERS	leet3 dqq2
+LADES	leet3
+LADEWIG	leet3 wik3
+LADIES	lee0 dis1
+LADING	lee0 ding2
+LADINGS	lee0 ding2
+LADLE	lee0 dql2
+LADLED	lee0 dql2
+LADLEFUL	lee0 dql2 fuul0
+LADLEFULS	lee0 dql2 fuul0
+LADLER	lee0 dql2 rqq2
+LADLERS	lee0 dql2 lqq2
+LADLES	lee0 dql2
+LADLEY	lee0 dql2 lee2
+LADLING	lee0 dql2 ling2
+LADRON	lxx0 drqn2
+LADRONE	lxx0 drqn2
+LADRONISM	lxx0 drq1 nis3 svm2
+LADRONIZE	lxx0 drq1 naj3
+LADRONS	lxx0 drqn2
+LADS	lxxt3
+LADSON	lxxt3 san2
+LADSTONE	lxxt3 sa1 ten3
+LADWIG	lxxt3 wik3
+LADY	lee0 dii2
+LADYBIRD	lee0 dii2 bqqt1
+LADYBIRDS	lee0 dii2 bqqt1
+LADYBUG	lee0 dii2 bak3
+LADYBUGS	lee0 dii2 bak3
+LADYES	lee0 dii2
+LADYFINGER	lee0 dii2 fing0 kqq2
+LADYFINGERS	lee0 dii2 fing0 kqq2
+LADYKIN	lee0 dii2 kin2
+LADYLAND	lee0 dii2 lxxn0
+LADYLIKE	lee0 dii2 laj3
+LADYLIKELY	lee0 dii2 laj3 lii2
+LADYLIKENESS	lee0 dii2 laj3 nees1
+LADYLOVE	lee0 dii2 lqqf3
+LADYLOVES	lee0 dii2 lqqf3
+LADYSHIP	lee0 dii2 chip3
+LADYSHIPS	lee0 dii2 chip3
+LAENDER	leen0 dqq2
+LAENDERBANK	leen0 dqq0 bxxng3
+LAENDLER	leen0 dql2 rqq2
+LAG	lxxk3
+LAGACE	lx1 kees1
+LAGANA	lx1 kaan0 nqq2
+LAGANAS	lx1 kaa0 nqq2
+LAGER	laa0 kqq2
+LAGERED	laa0 kqt1
+LAGERED	laa0 kqt1
+LAGERQUIST	laa0 khq1 kwis3
+LAGERS	laa0 kqq2
+LAGERSTROM	laa0 kq2 sa1 tr@m0
+LAGESSE	lx1 kes3 sii2
+LAGEST	lx1 kis2
+LAGGARD	lx1 kqt1
+LAGGARDLY	lx1 khqt1 lii2
+LAGGARDNESS	lx1 khqt1 nees1
+LAGGARDS	lx1 kqt1
+LAGGED	lxxk3
+LAGGER	lx1 kqq2
+LAGGERS	lx1 kqq2
+LAGGIN	lx1 kin2
+LAGGING	lx1 king2
+LAGGINGS	lx1 king2
+LAGLER	lx1 klqq2
+LAGOON	lq1 kuun0
+LAGOONS	lq1 kuun0
+LAGOS	lee0 kh@s3
+LAGRACE	lx1 krees1
+LAGRANGE	lx1 kreen3
+LAGRANGEA	lx1 kreen3 cqq2
+LAGRAVE	lx1 kreef3
+LAGROW	lx1 kroo0
+LAGS	lxk3
+LAH	laa2
+LAHAYE	laa0 aaj0
+LAHING	laa0 ing2
+LAHMAN	laa0 mxxn0
+LAHMANN	laa0 mxxn0
+LAHOMA	lq1 h@@m0 mqq2
+LAHORE	lq1 hoo2
+LAIC	lee0 ik1
+LAICAL	lee0 i1 kh@l2
+LAICALLY	lee0 i1 khql2 lii2
+LAICISATION	lee0 i1 saj3 see0 chan2
+LAICISATIONS	lee0 i1 saj3 see0 chan2
+LAICISE	lee0 i1 saj3
+LAICISED	lee0 i1 saj3
+LAICISES	lee0 i1 saj3 ses1
+LAICISMS	lee0 i1 sis3 svm2
+LAICIZATION	lee0 i1 saj3 see0 chan2
+LAICIZATIONS	lee0 i1 saj3 see0 chan2
+LAICIZE	lee0 i1 saj3
+LAICIZED	lee0 i1 saj3
+LAICIZER	lee0 i1 saj3 sqq2
+LAICIZES	lee0 i1 saj3 ses1
+LAICIZING	lee0 i1 saj3 sing2
+LAID	leet3
+LAIDED	leet3 det1
+LAIDLAW	leet3 l@@0
+LAIDLAWS	leet3 l@@s2
+LAIDLEY	leet3 lee2
+LAIN	leen0
+LAINE	leen0
+LAINER	leen0 nqq2
+LAINES	leen0
+LAING	laa0 ing2
+LAINGS	laa0 ing2
+LAINHART	leen0 haat3
+LAINTON	leen0 tan2
+LAINTS	leen0
+LAIR	lxx0
+LAIRD	lxxt3
+LAIRDS	lxxt3
+LAIRDSHIP	lxxt3 chip3
+LAIRED	lxxt3
+LAIRES	lxxs2
+LAIRING	lxx0 ing2
+LAIRMAN	lxx0 mxxn0
+LAIRMORE	lxx0 m@@0
+LAIRS	lxxs2
+LAIRSON	lxx0 san2
+LAITIES	lee0 i1 tii2
+LAITY	lee0 i1 tii2
+LAKE	leek3
+LAKED	leek3
+LAKEFRONT	leek3 fr@t3
+LAKEFRONTS	leek3 fr@t3
+LAKELAND	leek3 lxxn0
+LAKELANDER	leek3 lxxn0 dqq2
+LAKELANDS	leek3 lxxn0
+LAKELESS	leek3 les1
+LAKELIKE	leek3 laj3
+LAKEMAN	leek3 mxxn0
+LAKEMANSHIP	leek3 mxxn0 chip3
+LAKEMORE	leek3 m@@0
+LAKENHEATH	leek3 hiit3
+LAKEPORT	leek3 p@@t1
+LAKEPORTS	leek3 p@@t1
+LAKER	leek3 kqq2
+LAKERS	leek3 kqq2
+LAKES	leek3
+LAKESHORE	leek3 ch@@0
+LAKESHORES	leek3 ch@@s2
+LAKESIDE	leek3 saj3
+LAKESIDER	leek3 saj3 dqq2
+LAKESIDES	leek3 saj3
+LAKEVIEW	leek3 wiw0
+LAKEWAY	leek3 wee0
+LAKEWOOD	leek3 wuut3
+LAKEWOODS	leek3 wuut3
+LAKH	laak3
+LAKHS	laak3
+LAKIER	lee0 kiia0
+LAKIEST	lee0 kes1
+LAKING	lee0 king2
+LAKINGS	lee0 king2
+LAKINGTON	lee0 king0 ten3
+LAKY	lee0 kii2
+LAM	lxxm0
+LAMA	laam0 mqq2
+LAMAISM	laam0 mq1 is3 svm2
+LAMAIST	laam0 mq1 is3
+LAMAISTIC	laam0 mq1 is3 tik1
+LAMAISTRE	laam0 mq1 is3 tqq2
+LAMALIE	laam0 mql2 laaj0
+LAMANNA	lxx0 mxxn0 nqq2
+LAMANNO	lxx0 mxxn0 noo2
+LAMANOVA	laam0 mq1 noo0 wqq2
+LAMAR	laam0 maa2
+LAMARGUE	lxxm0 maa0 kiw0
+LAMARK	lxxm0 maak3
+LAMARKIAN	lxxm0 maa0 kiian2
+LAMARS	laam0 maas2
+LAMARTHE	laam0 mq1 thii2
+LAMARTINA	laam0 mq1 thii0 nqq2
+LAMARTINE	laam0 mq1 taaj0
+LAMAS	laam0 mqq2
+LAMASERIES	laam0 mqs2 sa1 ris1
+LAMASERY	laam0 mqs2 sa1 rii2
+LAMASTER	lxxm0 mxs3 tqq2
+LAMASTERY	lxxm0 mxs3 tq1 rii2
+LAMB	lxxm0
+LAMBACHER	lxxm0 meek3 kqq2
+LAMBADO	lxxm0 bee0 doo2
+LAMBALE	lxxm0 baal0
+LAMBARE	lxxm0 bxx0
+LAMBARI	lxxm0 baa0 rii2
+LAMBART	lxxm0 baat3
+LAMBAST	lxxm0 bxxs3
+LAMBASTE	lxxm0 bees1
+LAMBASTED	lxxm0 bee0 sa1 thet1
+LAMBASTER	lxxm0 bee0 sa1 tqq2
+LAMBASTES	lxxm0 bees1 tis2
+LAMBASTING	lxxm0 bees3 ting2
+LAMBASTS	lxxm0 bxs3
+LAMBDA	lxxm0 dqq2
+LAMBDACISM	lxxm0 dqq0 sis3 svm2
+LAMBDAS	lxxm0 dqq2
+LAMBDIN	lxxm0 din2
+LAMBE	lxxm0 bii2
+LAMBEAU	lxxm0 boo2
+LAMBEAUS	lxxm0 b@@s2
+LAMBECK	lxxm0 bek3
+LAMBED	lxxm0
+LAMBEL	lxxm0 beel0
+LAMBENCIES	lxxm0 bqn2 ses1
+LAMBENCY	lxxm0 bqn2 sii2
+LAMBENT	lxxm0 ben3
+LAMBENTLY	lxxm0 ben3 lii2
+LAMBER	lxxm0 bqq2
+LAMBERG	lxxm0 bqqk1
+LAMBERGS	lxxm0 bqqk1
+LAMBERJACK	lxxm0 bq1 cxk3
+LAMBERS	lxxm0 bqq2
+LAMBERS	lxxm0 bqq2
+LAMBERSON	lxxm0 bqs2 san2
+LAMBERSTON	lxxm0 bqq0 sa1 tan2
+LAMBERT	lxxm0 bqqt1
+LAMBERTH	lxxm0 bqqt3
+LAMBERTON	lxxm0 bq1 than2
+LAMBERTS	lxxm0 bqqt1
+LAMBERTSEN	lxxm0 bqqt1 sen2
+LAMBERTSON	lxxm0 bqqt1 san2
+LAMBERTVILLE	lxxm0 bqqt1 wil0
+LAMBETH	lxxm0 bet1
+LAMBETHS	lxxm0 bet1
+LAMBIA	lxxm0 biia0
+LAMBIASI	lxxm0 baaj0 qs3 saaj0
+LAMBIC	lxxm0 bik1
+LAMBIE	lxxm0 bii2
+LAMBIES	lxxm0 bis3
+LAMBING	lxxm0 bing2
+LAMBINGS	lxxm0 bing2
+LAMBKIN	lxxm0 kin2
+LAMBKINS	lxxm0 kin2
+LAMBLIKE	lxxm0 laj3
+LAMBOK	lxxm0 b@k3
+LAMBON	lxxm0 b@@n0
+LAMBOO	lxxm0 buu0
+LAMBOR	lxxm0 b@@0
+LAMBORN	lxxm0 b@@n0
+LAMBOS	lxxm0 b@@s2
+LAMBOURNE	lxxm0 b@@n0 nee2
+LAMBOY	lxxm0 b@@j0
+LAMBOYS	lxxm0 b@@j0
+LAMBRATE	lxxm0 reet1
+LAMBRECHTS	lxxm0 brek1
+LAMBREQUIN	lxxm0 bqq0 kin2
+LAMBRIC	lxxm0 brik1
+LAMBRIDGE	lxxm0 bric1
+LAMBRIGHT	lxxm0 braj3
+LAMBROOK	lxxm0 bruuk3
+LAMBROS	lxxm0 br@s2
+LAMBROSES	lxxm0 br@@s3 ses1
+LAMBS	lxxm0
+LAMBSKIN	lxxm0 sa1 kin0
+LAMBSKINS	lxxm0 sa1 kin0
+LAMBSON	lxxm0 san2
+LAMBURGERS	lxxm0 bqqk1 cqq2
+LAME	leem0
+LAMEBRAIN	leem0 breen0
+LAMEBRAINS	leem0 breen0
+LAMED	leem0
+LAMEDS	leem0
+LAMEES	leem0 mii2
+LAMELL	leem0 meel0
+LAMELLA	lqm2 meel0 lqq2
+LAMELLAE	lqm2 meel0 lii2
+LAMELLAR	lqm2 meel0 lqq2
+LAMELLAS	lqm2 meel0 lqq2
+LAMELLIFEROUS	leem0 meel0 li3 fq1 rqq2
+LAMELY	leem0 lii2
+LAMENESS	leem0 nees1
+LAMENT	lqm2 meen3
+LAMENTABLE	lxxm0 mqn2 thee0 bql2
+LAMENTABLENESS	lxxm0 mqn2 thee0 bql2 nees1
+LAMENTABLY	lxxm0 mqn2 thee0 blii2
+LAMENTATION	lxxm0 men0 thee0 chan2
+LAMENTATIONAL	lxxm0 men0 thee0 chan2 n@l2
+LAMENTATIONES	lxxm0 men0 thee0 chan2
+LAMENTATIONS	lxxm0 men0 thee0 chan2
+LAMENTATORY	lxxm0 men0 tq1 th@@0 rii2
+LAMENTED	lqm2 men0 thet1
+LAMENTEDLY	lqm2 men0 thet1 lii2
+LAMENTER	lqm2 men0 tqq2
+LAMENTERS	lqm2 men0 tqq2
+LAMENTFUL	lqm2 men0 fuul0
+LAMENTI	lqm2 men0 tii2
+LAMENTIN	lqm2 men0 thin0
+LAMENTING	lqm2 men0 ting2
+LAMENTINGLY	lqm2 men0 ting2 lii2
+LAMENTIVE	lqm2 men0 thiif1
+LAMENTO	lqm2 men0 too2
+LAMENTS	lqm2 meen3
+LAMER	leem0 mqq2
+LAMERE	lxxm0 mxx0
+LAMERS	leem0 mqq2
+LAMERS	leem0 mqq2
+LAMES	leem0
+LAMEST	leem0 mis3
+LAMESTER	leem0 mis3 tqq2
+LAMESTERY	leem0 mis3 tq1 rii2
+LAMINA	lxx0 mi3 nqq2
+LAMINABILITY	lxx0 mi3 nq1 bi1 li3 tii2
+LAMINABLE	lxx0 mi3 nee0 bql2
+LAMINAE	lxx0 mi3 nii2
+LAMINAL	lxx0 mi3 nql2
+LAMINAR	lxx0 mi3 nqq2
+LAMINARIAN	lxx0 mi3 nq1 riian2
+LAMINARY	lxx0 mi3 nqq0 rii2
+LAMINAS	lxx0 mi3 nqq2
+LAMINATE	lxx0 mi3 neet1
+LAMINATED	lxx0 mi3 neet3 thet1
+LAMINATES	lxx0 mi3 neet1
+LAMINATING	lxx0 mi3 neet3 ting2
+LAMINATION	lxx0 mi3 nee0 chan2
+LAMINATIONS	lxx0 mi3 nee0 chan2
+LAMINATOR	lxx0 mi3 nee0 tqq2
+LAMINATORS	lxx0 mi3 nee0 tqq2
+LAMING	leem0 ming2
+LAMINGER	leem0 ming0 cqq2
+LAMINGTON	leem0 ming0 tan2
+LAMINGTONS	leem0 ming0 tan2
+LAMINI	lxx0 mi3 nii2
+LAMITAN	lxx0 mi3 thqn2
+LAMKIN	lxxm0 kin2
+LAMKINS	lxxm0 kin2
+LAMLEY	lxxm0 lee2
+LAMMAR	lxxm0 mqq2
+LAMMAS	lxxm0 mqq2
+LAMMASES	lxxm0 mqs2 ses1
+LAMMASTIDE	lxxm0 mqs3 taaj3
+LAMME	lxxm0
+LAMMED	lxxm0
+LAMMER	lxxm0 mqq2
+LAMMERGEIER	lxxm0 mq1 kaaj0 rqq2
+LAMMERS	lxxm0 mqq2
+LAMMES	lxxm0
+LAMMING	lxxm0 ming2
+LAMMOCK	lxxm0 m@@k3
+LAMMON	lxxm0 mqn2
+LAMMOND	lxxm0 mqn2
+LAMMONS	lxxm0 mqn2
+LAMMOTH	lxxm0 mqt3
+LAMORE	lxxm0 m@@0
+LAMOUR	lxxm0 maaw0 wqq2
+LAMOURS	lxxm0 maaw0 wqq2
+LAMP	lxxp3
+LAMPACK	lxxp3 phxk3
+LAMPAD	lxxp3 phxxt2
+LAMPAL	lxxp3 phxxl0
+LAMPAN	lxxp3 phxxn0
+LAMPANI	lxxp3 pqn0 nii2
+LAMPART	lxxp3 paat3
+LAMPARTER	lxxp3 paat3 tqq2
+LAMPAS	lxxp3 pqs1
+LAMPASS	lxxp3 paas3
+LAMPBLACK	lxxp3 blxk3
+LAMPED	lxxp3
+LAMPEL	lxxp3 pheel0
+LAMPELL	lxxp3 pheel0
+LAMPEN	lxxp3 pheen0
+LAMPER	lxxp3 pqq2
+LAMPERS	lxxp3 pqs1
+LAMPERT	lxxp3 pqqt1
+LAMPERTS	lxxp3 pqqt1
+LAMPES	lxxp3 pes1
+LAMPHEAR	lxxp3 hiia0
+LAMPHERE	lxxp3 hiia0
+LAMPI	lxxp3 pii2
+LAMPIE	lxxp3 paaj0
+LAMPING	lxxp3 ping2
+LAMPION	lxxp3 piian2
+LAMPIS	lxxp3 pii2
+LAMPKIN	lxxp3 kin2
+LAMPKINS	lxxp3 kin2
+LAMPLAND	lxxp3 lxxn0
+LAMPLE	lxxp3 pql2
+LAMPLET	lxxp3 let1
+LAMPLEY	lxxp3 lee2
+LAMPLIGHT	lxxp3 laj3
+LAMPLIGHTED	lxxp3 laj3 thet1
+LAMPLIGHTER	lxxp3 laj3 tqq2
+LAMPLIGHTERS	lxxp3 laj3 tqq2
+LAMPLIGHTING	lxxp3 laj3 ting2
+LAMPLIT	lxxp3 lit1
+LAMPMAN	lxxp3 mxxn0
+LAMPO	lxxp3 poo2
+LAMPON	lxxp3 p@@n0
+LAMPONE	lxxp3 p@@n0
+LAMPONG	lxxp3 p@@ng1
+LAMPOO	lxxp3 puu0
+LAMPOON	lxxp3 puun0
+LAMPOONED	lxxp3 puun0
+LAMPOONER	lxxp3 puu0 nqq2
+LAMPOONERS	lxxp3 puu0 nqq2
+LAMPOONERY	lxxp3 puu0 nq1 rii2
+LAMPOONING	lxxp3 puu0 ning2
+LAMPOONIST	lxxp3 puu0 nis3
+LAMPOONISTS	lxxp3 puu0 nis3
+LAMPOONS	lxxp3 puun0
+LAMPORT	lxxp3 p@@t1
+LAMPORTS	lxxp3 p@@t1
+LAMPPOST	lxxp3 poos2
+LAMPPOSTS	lxxp3 poos2
+LAMPRE	lxxp3 prii2
+LAMPREY	lxxp3 rii2
+LAMPREYS	lxxp3 ris1
+LAMPRON	lxxp3 r@@n2
+LAMPROS	lxxp3 roos2
+LAMPS	lxxm3
+LAMPSHADE	lxxp3 cheet3
+LAMPSHADES	lxxp3 cheet3
+LAMPSHIRE	lxxp3 chqq2
+LAMPSON	lxxp3 san2
+LAMPTON	lxxp3 tan2
+LAMPUS	lxxp3 pas2
+LAMS	lxxm0
+LAMSON	lxxm0 san2
+LAMSTEIN	lxxm0 sa1 taaj0
+LAMSTER	lxxm0 sa1 tqq2
+LAMSTON	lxxm0 sa1 tan2
+LANALYZER	lxxn0 nq1 laj3 sqq2
+LANARK	lxxn0 nqk3
+LANCAS	lxxng0 kqq2
+LANCASHIRE	lxxng0 khq1 chqq2
+LANCASHIRE	lxxng0 khq1 chqq2
+LANCASTER	lxxng0 kxs3 tqq2
+LANCASTERIAN	lxxng0 kxs3 tq1 riian2
+LANCASTERS	lxxng0 kxs3 tqq2
+LANCASTON	lxxng0 kxs3 ten3
+LANCASTRIA	lxxng0 kxs3 triia0
+LANCASTRIAN	lxxng0 kxs3 thriian2
+LANCASTRIANS	lxxng0 kxs3 thriian2
+LANCE	laan3
+LANCED	laan3
+LANCELET	laan3 let1
+LANCELETS	laan3 let1
+LANCELIKE	laan3 laj3
+LANCELOT	laan3 l@t3
+LANCEMAN	laan3 mxxn0
+LANCER	laan3 sqq2
+LANCERS	laan3 sqq2
+LANCES	laan3 ses1
+LANCET	laan3 sit1
+LANCETED	laan3 sit3 thet1
+LANCETS	laan3 sit1
+LANCHANG	lxxn0 chxxng0
+LANCHESTER	lxxn0 ches3 tqq2
+LANCHOW	lxxn0 chaaw0
+LANCIFEROUS	laan0 si1 fq1 riias2
+LANCIFORM	laan0 si1 f@@m0
+LANCIFORMIS	laan0 si1 f@@0 mis3
+LANCINATE	laan0 si1 neet1
+LANCINATED	laan0 si1 nee0 thet1
+LANCINATES	laan0 si1 neet1
+LANCINATING	laan0 si1 neet3 ting2
+LANCINATION	laan0 si1 nee0 chan2
+LANCINATIONS	laan0 si1 nee0 chan2
+LANCING	laan0 sing2
+LANCIT	laan0 sit1
+LANCITY	laan0 si3 tii2
+LANCOUR	lxxng0 kqq2
+LAND	lxxn0
+LANDA	lxxn0 dqq2
+LANDAIR	lxxn0 dxx0
+LANDAK	lxxn0 daak3
+LANDAL	lxxn0 dql2
+LANDALES	lxxn0 deel0
+LANDAN	lxxn0 dqn2
+LANDAR	lxxn0 dqq2
+LANDAS	lxxn0 dqq2
+LANDAU	lxxn0 doo2
+LANDAUER	lxxn0 doo0 rqq2
+LANDAUR	lxxn0 doo0 rqq2
+LANDAUS	lxxn0 doos2
+LANDAY	lxxn0 dee0
+LANDBANK	lxxn0 bxxng3
+LANDBANKING	lxxn0 bxxng3 king2
+LANDBANKS	lxxn0 bxxng3
+LANDBERG	lxxn0 bqqk1
+LANDBOOK	lxxn0 buk3
+LANDBORNE	lxxn0 b@@n0
+LANDBRIDGE	lxxn0 bric1
+LANDECK	lxxn0 dek3
+LANDECKER	lxxn0 dek3 kqq2
+LANDED	lxxn0 det1
+LANDEL	lxxn0 dql2
+LANDELL	lxxn0 deel0
+LANDELLS	lxxn0 deel0
+LANDELS	lxxn0 dql2
+LANDENBERG	lxxn0 deen0 bqqk1
+LANDENBERGER	lxxn0 deen0 bqqk1 kqq2
+LANDENBURG	lxxn0 deen0 bqqk1
+LANDER	lxxn0 dqq2
+LANDERBANK	lxxn0 dqq0 bxxng3
+LANDERER	lxxn0 dqq0 rqq2
+LANDERMAN	lxxn0 dq1 mxxn0
+LANDERS	lxxn0 dqq2
+LANDERS	lxxn0 dqq2
+LANDERSES	lxxn0 dqq0 ses1
+LANDES	lxxn0 dis1
+LANDESBANK	lxxn0 dis1 bxxng3
+LANDESBANKEN	lxxn0 dis1 bxxng3 keen0
+LANDESBANKS	lxxn0 dis1 bxxng3
+LANDESMAN	lxxn0 dis1 mxxn0
+LANDESMANN	lxxn0 dis1 mxxn0
+LANDESS	lxxn0 des1
+LANDETA	lxxn0 di3 tqq2
+LANDEX	lxxn0 dek3
+LANDFAIR	lxxn0 fxx0
+LANDFALL	lxxn0 f@@l0
+LANDFALLS	lxxn0 f@@l0
+LANDFIELD	lxxn0 fiil0
+LANDFILL	lxxn0 fil0
+LANDFILLED	lxxn0 fil0
+LANDFILLING	lxxn0 fil0 ling2
+LANDFILLS	lxxn0 fil0
+LANDFISH	lxxn0 fich3
+LANDFORD	lxxn0 f@@t1
+LANDFORM	lxxn0 f@@m0
+LANDFORMS	lxxn0 f@@m0
+LANDFRIED	lxxn0 fraj3
+LANDFUL	lxxn0 fuul0
+LANDGRABBER	lxxn0 krxxp3 bqq2
+LANDGRABBING	lxxn0 krxxp3 bing2
+LANDGRAVATE	lxxn0 kreef3 weet1
+LANDGRAVE	lxxn0 kreef3
+LANDGRAVES	lxxn0 kreef3 wes1
+LANDGRAVINE	lxxn0 kreef3 wiin0
+LANDGREBE	lxxn0 kriip3
+LANDGROVE	lxxn0 kr@@f3
+LANDHI	lxxn0 hii0
+LANDHOLD	lxxn0 hool0
+LANDHOLDER	lxxn0 hool0 dqq2
+LANDHOLDERS	lxxn0 hool0 dqq2
+LANDHOLDERSHIP	lxxn0 hool0 dq1 chip3
+LANDHOLDING	lxxn0 hool0 ding2
+LANDHOLDINGS	lxxn0 hool0 ding2
+LANDHURST	lxxn0 hqqs3
+LANDI	lxxn0 dii2
+LANDIA	lxxn0 diia0
+LANDID	lxxn0 det1
+LANDIE	lxxn0 daaj0
+LANDIER	lxxn0 daaj0 qq2
+LANDIES	lxxn0 dis1
+LANDIN	lxxn0 din2
+LANDING	lxxn0 ding2
+LANDINGHAM	lxxn0 ding2 hxxm0
+LANDINGS	lxxn0 ding2
+LANDIS	lxxn0 dis1
+LANDLADIES	lxxn0 lee0 dis1
+LANDLADY	lxxn0 lee0 dii2
+LANDLADYSHIP	lxxn0 lee0 dich3 chip3
+LANDLE	lxxn0 dql2
+LANDLER	lxxn0 lqq2
+LANDLESS	lxxn0 les1
+LANDLESSNESS	lxxn0 les2 nees1
+LANDLIKE	lxxn0 laj3
+LANDLIN	lxxn0 lin2
+LANDLINE	lxxn0 laaj0
+LANDLINES	lxxn0 laaj0
+LANDLOCK	lxxn0 l@k3
+LANDLOCKED	lxxn0 l@k3
+LANDLOCKING	lxxn0 l@k3 king2
+LANDLOCKS	lxxn0 l@k3
+LANDLORD	lxxn0 l@@t1
+LANDLORDING	lxxn0 l@@t1 ding2
+LANDLORDISM	lxxn0 l@@t1 is3 svm2
+LANDLORDLY	lxxn0 l@@t1 lii2
+LANDLORDS	lxxn0 l@@t1
+LANDLORDSHIP	lxxn0 l@@t1 chip3
+LANDLUBBER	lxxn0 lap3 bqq2
+LANDLUBBERLY	lxxn0 lap3 bqq2 lii2
+LANDLUBBERS	lxxn0 lap3 bqq2
+LANDLUBBING	lxxn0 lap3 bing2
+LANDMAN	lxxn0 mqn2
+LANDMANN	lxxn0 mxxn0
+LANDMARK	lxxn0 maak3
+LANDMARKED	lxxn0 maak3
+LANDMARKER	lxxn0 maak3 kqq2
+LANDMARKET	lxxn0 maa0 ket1
+LANDMARKING	lxxn0 maak3 king2
+LANDMARKS	lxxn0 maak3
+LANDMASS	lxxn0 mxs3
+LANDMASSES	lxxn0 mxs3 ses1
+LANDMEN	lxxn0 mqn2
+LANDMESSER	lxxn0 mes3 sqq2
+LANDMINE	lxxn0 maaj0
+LANDMINES	lxxn0 maaj0
+LANDO	lxxn0 doo2
+LANDOLF	lxxn0 d@@f3
+LANDOLL	lxxn0 d@@l0
+LANDON	lxxn0 dqn2
+LANDONE	lxxn0 dqn0
+LANDONS	lxxn0 dqn2
+LANDOR	lxxn0 d@@0
+LANDOVER	lxxn0 d@@0 wqq2
+LANDOW	lxxn0 daaw0
+LANDOWNER	lxxn0 daaw0 nqq2
+LANDOWNERS	lxxn0 daaw0 nqq2
+LANDOWNERSHIP	lxxn0 daaw0 nq1 chip3
+LANDOWNING	lxxn0 daaw0 ning2
+LANDOWSKI	lxxn0 daaw0 sa1 kii2
+LANDOWSKY	lxxn0 daaw0 sa1 kaaj0
+LANDPOINT	lxxn0 p@@j3
+LANDRA	lxxn0 drqq2
+LANDRAIL	lxxn0 dreel0
+LANDRAKER	lxxn0 dree0 kqq2
+LANDRAT	lxxn0 drxt3
+LANDRATE	lxxn0 dreet1
+LANDRES	lxxn0 drii2
+LANDRESS	lxxn0 dres3
+LANDREW	lxxn0 druu0
+LANDREY	lxxn0 drii2
+LANDRIGHT	lxxn0 draj3
+LANDRO	lxxn0 droo2
+LANDRON	lxxn0 drqn2
+LANDROVE	lxxn0 dr@@f3
+LANDROVER	lxxn0 dr@@0 wqq2
+LANDROVERS	lxxn0 dr@@0 wqq2
+LANDRUM	lxxn0 drqm2
+LANDRUMS	lxxn0 drqm0
+LANDRUT	lxxn0 drat1
+LANDRY	lxxn0 drii2
+LANDRYS	lxxn0 drii2
+LANDS	lxxn0
+LANDSAT	lxxn0 sxt3
+LANDSATS	lxxn0 sxt3
+LANDSBANK	lxxn0 sa1 bxxng3
+LANDSBERG	lxxn0 sa1 bqqk1
+LANDSBERGER	lxxn0 sa1 bqqk1 kqq2
+LANDSBERRY	lxxn0 sa1 bee0 rii2
+LANDSBOROUGH	lxxn0 sa1 bq1 rqq2
+LANDSCAPE	lxxn0 sa1 keep1
+LANDSCAPED	lxxn0 sa1 keep1
+LANDSCAPER	lxxn0 sa1 keep1 pqq2
+LANDSCAPERS	lxxn0 sa1 keep1 pqq2
+LANDSCAPES	lxxn0 sa1 keep1
+LANDSCAPING	lxxn0 sa1 keep1 ping2
+LANDSCAPIST	lxxn0 sa1 keep1 his1
+LANDSEND	lxxn0 sen3
+LANDSET	lxxn0 set1
+LANDSIDE	lxxn0 saj3
+LANDSIDES	lxxn0 saj3
+LANDSING	lxxn0 sing2
+LANDSKIPS	lxxn0 sa1 kip3
+LANDSLID	lxxn0 sa1 lit3
+LANDSLIDE	lxxn0 sa1 laj3
+LANDSLIDES	lxxn0 sa1 laj3
+LANDSLIDING	lxxn0 sa1 laj3 ding2
+LANDSLIP	lxxn0 sa1 lip3
+LANDSLIPPING	lxxn0 sa1 lip3 ping2
+LANDSLIPS	lxxn0 sa1 lip3
+LANDSMAL	lxxn0 sa1 mql2
+LANDSMAN	lxxn0 sa1 mqn2
+LANDSMEN	lxxn0 sa1 mqn2
+LANDSTAR	lxxn0 sa1 taa0
+LANDSTONE	lxxn0 sa1 toon0
+LANDSTORM	lxxn0 sa1 t@@m0
+LANDSTREET	lxxn0 sa1 triit1
+LANDSTROM	lxxn0 sa1 tr@m0
+LANDSURFACE	lxxn0 sqq0 fees3
+LANDSURFACES	lxxn0 sqq0 fees3 ses1
+LANDSURFER	lxxn0 sqq0 fqq2
+LANDSURFING	lxxn0 sqq0 fing2
+LANDUDNO	lxxn0 dit1 noo2
+LANDUSKY	lxxn0 das3 kii2
+LANDWARD	lxxn0 wqt1
+LANDWARDS	lxxn0 wqt1
+LANDWAYS	lxxn0 wee0
+LANDWEHR	lxxn0 wee0 rqq2
+LANDWIND	lxxn0 win0
+LANDWORKERS	lxxn0 wqqk3 kqq2
+LANDY	lxxn0 dii2
+LANE	leen0
+LANEHART	leen0 haat3
+LANERS	leen0 nqq2
+LANES	leen0
+LANG	lxxng0
+LANGBOURNE	lxxng0 b@@n0
+LANGDALE	lxxng0 deel0
+LANGDALES	lxxng0 deel0
+LANGDON	lxxng0 d@@n2
+LANGELAND	lxxng0 ngii0 lxxn0
+LANGEN	lxxng0 ngqn2
+LANGENBACHER	lxxng0 ngqn2 bxc3 chqq2
+LANGENBERG	lxxng0 ngqn2 bqqk1
+LANGENBERGER	lxxng0 ngqn2 bqqk1 kqq2
+LANGENBURG	lxxng0 ngqn2 bqqk1
+LANGENDRIES	lxxng0 ngqn2 draj3
+LANGENES	lxxng0 ngqn2
+LANGENFELD	lxxng0 ngqn2 feel0
+LANGENHAGEN	lxxng0 ngqn2 haa0 khqn2
+LANGENHORN	lxxng0 ngqn2 h@@n0
+LANGENKAMP	lxxng0 ngqn2 kxxp3
+LANGER	lxxng0 ngqq2
+LANGERMAN	lxxng0 ngqq2 mxxn0
+LANGERMANN	lxxng0 ngqq2 mxxn0
+LANGERS	lxxng0 ngqq2
+LANGES	lxxng0
+LANGEVIN	lxxng0 ngi1 win2
+LANGEVINS	lxxng0 ngi1 win2
+LANGFELDER	lxxng0 feel0 dqq2
+LANGFELDT	lxxng0 feel0
+LANGFORD	lxxng0 f@@t1
+LANGHAM	lxxng0 hxxm2
+LANGHAMMER	lxxng0 hxxm0 mqq2
+LANGHART	lxxng0 haat3
+LANGHORN	lxxng0 h@@n0
+LANGILL	lxxng0 ngil0
+LANGLADE	lxxng0 leet1
+LANGLAND	lxxng0 lxxn0
+LANGLANDS	lxxng0 lxxn0
+LANGLEY	lxxng0 lee0
+LANGLEYS	lxxng0 lees1
+LANGLOIS	lxxng0 l@@0 is2
+LANGLOW	lxxng0 loo2
+LANGMAN	lxxng0 mxxn0
+LANGMANN	lxxng0 mxxn0
+LANGONE	lxxng0 wan0
+LANGOROUS	lxxng0 ngq1 rqqs2
+LANGOROUSLY	lxxng0 ngq1 ras3 lii2
+LANGOUR	lxxng0 ngaaw0 wqq2
+LANGRIDGE	lxxng0 ric1
+LANGRILL	lxxng0 ril0
+LANGSAM	lxxng0 sxxm0
+LANGSAMER	lxxng0 sxxm0 mqq2
+LANGST	lxxng0
+LANGSTAFF	lxxng0 sa1 taaf3
+LANGSTON	lxxng0 sa1 ten3
+LANGSTONE	lxxng0 sa1 toon0
+LANGSTONS	lxxng0 sa1 ten3
+LANGSYNE	lxxng0 saaj0
+LANGSYNES	lxxng0 saaj0 nees1
+LANGTON	lxxng0 tan2
+LANGTONS	lxxng0 tan2
+LANGUA	lxxng0 kwqq2
+LANGUAGE	lxxng0 kweec1
+LANGUAGED	lxxng0 kweec1
+LANGUAGES	lxxng0 kweec1 cis1
+LANGUAR	lxxng0 kwqq0 rqq2
+LANGUARD	lxxng0 kwqqt1
+LANGUID	lxxng0 kwit3
+LANGUIDLY	lxxng0 kwit3 lii2
+LANGUIDNESS	lxxng0 kwit3 nees1
+LANGUISH	lxxng0 kwich3
+LANGUISHED	lxxng0 kwich3
+LANGUISHER	lxxng0 kwit3 chqq2
+LANGUISHERS	lxxng0 kwit3 chqq2
+LANGUISHES	lxxng0 kwit3 ches1
+LANGUISHING	lxxng0 kwit3 ching2
+LANGUISHINGLY	lxxng0 kwit3 ching2 lii2
+LANGUISHMENT	lxxng0 kwich3 men3
+LANGUOR	lxxng0 kqq2
+LANGUOROUS	lxxng0 kqq0 rqqs2
+LANGUOROUSLY	lxxng0 kqq0 ras2 lii2
+LANGUOROUSNESS	lxxng0 kqq0 ras2 nees1
+LANGUORS	lxxng0 kqq2
+LANGUR	lxxng0 kuua2
+LANGURS	lxxng0 kuuas2
+LANGUS	lxxng0 kqq2
+LANGWELL	lxxng0 weel0
+LANGWORTH	lxxng0 wqqt1
+LANGWORTHY	lxxng0 wqqt3 dii2
+LANICE	lxxn0 naj3
+LANIFEROUS	lxxn0 ni3 fq1 rqqs2
+LANIFIC	lxxn0 ni3 fik1
+LANIFORM	lxxn0 ni3 f@@m0
+LANK	lxxng0
+LANKA	lxxn0 kqq2
+LANKAN	lxxn0 kqn2
+LANKANS	lxxn0 kqn2
+LANKAS	lxxn0 kqq2
+LANKED	lxxng0
+LANKER	lxxng0 kqq2
+LANKES	lxxng0 kes1
+LANKEST	lxxng0 kis2
+LANKET	lxxng0 ket1
+LANKFORD	lxxng0 f@@t1
+LANKFORDS	lxxng0 f@@t1
+LANKIER	lxxng0 kiia0
+LANKIEST	lxxng0 ki2 es1
+LANKISH	lxxng0 kich3
+LANKLER	lxxng0 klqq2
+LANKLY	lxxng0 klii2
+LANKNESS	lxxng0 nees1
+LANKSTER	lxxng0 sa1 tqq2
+LANKSTON	lxxng0 sa1 tan2
+LANKTON	lxxng0 tan2
+LANKTREE	lxxng0 thrii0
+LANKY	lxxng0 kii2
+LANMAN	lxxn0 mxxn0
+LANNA	lxxn0 nqq2
+LANNAMAN	lxxn0 nq1 mxxn0
+LANNAMANN	lxxn0 nq1 mxxn0
+LANNAN	lxxn0 nqn2
+LANNAR	lxxn0 naa0
+LANNER	lxxn0 nqq2
+LANNERS	lxxn0 nqq2
+LANNIN	lxxn0 nin0
+LANNING	lxxn0 ning2
+LANNOCK	lxxn0 nqk3
+LANOLIN	lxxn0 nql2 lin2
+LANOLINE	lxxn0 nql2 liin0
+LANOLINES	lxxn0 nql2 liin0
+LANOLINS	lxxn0 nql2 lin2
+LANSBERG	lxxn0 sa1 bqqk1
+LANSBERGEN	lxxn0 sa1 bqqk1 khqn2
+LANSBERGER	lxxn0 sa1 bqqk1 kqq2
+LANSBERRY	lxxn0 sa1 bee0 rii2
+LANSBURG	lxxn0 sa1 bqqk1
+LANSBURY	lxxn0 sa1 bqq0 rii2
+LANSBURYS	lxxn0 sa1 bqq0 rii2
+LANSDALE	lxxn0 sa1 deel0
+LANSDOWN	lxxn0 sa1 daaw0
+LANSFORD	lxxn0 sa1 f@@t1
+LANSFORDS	lxxn0 sa1 f@@t1
+LANSKI	lxxn0 sa1 kii2
+LANSKY	lxxn0 sa1 kaaj0
+LANSLEY	lxxn0 sa1 lee2
+LANSTON	lxxn0 sa1 tan2
+LANTAIN	lxxn0 theen0
+LANTANA	lxxn0 thaan2 nqq2
+LANTANAS	lxxn0 thxx0 nqq2
+LANTASTIC	lxxn0 thxs3 tik1
+LANTEAU	lxxn0 thoo2
+LANTEL	lxxn0 thql2
+LANTEN	lxxn0 thqn2
+LANTER	lxxn0 thqq2
+LANTERMAN	lxxn0 thq1 mxxn0
+LANTERMANN	lxxn0 thq1 mxxn0
+LANTERN	lxxn0 thqn2
+LANTERNS	lxxn0 thqn2
+LANTERS	lxxn0 thqq2
+LANTHAM	lxxn0 thxxm2
+LANTIC	lxxn0 thik1
+LANTIE	lxxn0 thaaj0
+LANTIER	lxxn0 thiia0
+LANTIGUA	lxxn0 thi1 kqq2
+LANTIN	lxxn0 thin0
+LANTING	lxxn0 thing2
+LANTINGA	lxxn0 thing2 kqq2
+LANTIS	lxxn0 thii2
+LANTON	lxxn0 than2
+LANTONMENT	lxxn0 than0 men3
+LANTOR	lxxn0 tqq2
+LANTOS	lxxn0 thoos2
+LANTOW	lxxn0 thoo2
+LANTRA	lxxn0 thrqq2
+LANTRIP	lxxn0 thrip3
+LANTRY	lxxn0 thrii0
+LANTUM	lxxn0 tham2
+LANYAN	lxxn0 jiian2
+LANYARD	lxxn0 jaat3
+LANYARDS	lxxn0 jaat3
+LANYON	lxxn0 jiian2
+LAO	laaw0
+LAODICE	laaw0 dis1
+LAODICEAN	laaw0 dis3 siian2
+LAOS	laaw0
+LAOSES	laaw0 ses1
+LAOTIAN	laaw0 chiian2
+LAOTIANS	laaw0 chiian2
+LAP	lxp3
+LAPAGE	lxp3 pheec1
+LAPALMA	lxp3 phxxl0 mqq2
+LAPBOARD	lxp3 b@@t3
+LAPBOARDS	lxp3 b@@t3
+LAPDOG	lxp3 d@k3
+LAPDOGS	lxp3 d@k3
+LAPEL	lq1 pheel0
+LAPELED	lq1 pheel0
+LAPELLED	lq1 pheel0
+LAPELS	lq1 pheel0
+LAPENNA	lq1 pheen0 nqq2
+LAPENSKY	lxp3 pheen0 sa1 kaaj0
+LAPENTA	lxp3 pheen0 tqq2
+LAPERA	lxp3 phiia0 rqq2
+LAPHAM	lxp3 phxxm2
+LAPIDARIES	lxp3 phi1 dqq0 ris1
+LAPIDARIS	lxp3 phi1 dqq0 ris1
+LAPIDARIST	lxp3 phi1 dqq0 ris3
+LAPIDARY	lxp3 phi1 dqq0 rii2
+LAPIDATE	lxp3 phi1 deet1
+LAPIDATED	lxp3 phi1 dee0 thet1
+LAPIDATES	lxp3 phi1 deet1
+LAPIDATING	lxp3 phi1 deet1 ting2
+LAPIDATION	lxp3 phi1 dee0 chan2
+LAPIDATOR	lxp3 phi1 dee0 tqq2
+LAPIDES	lxp3 phaj3
+LAPIDIFIC	lxp3 phi1 dif3 fik1
+LAPIDIFICATION	lxp3 phi1 dif3 fik3 khee3 chan2
+LAPIDIFY	lxp3 phi1 dif3 faaj0
+LAPIDIST	lxp3 phi1 dis1
+LAPIDISTS	lxp3 phi1 dis1
+LAPIDITY	lxp3 phi1 di3 tii2
+LAPILLUS	lxp3 phil0 lqq2
+LAPIN	lxp3 phin0
+LAPINS	lxp3 phin0
+LAPINSKI	lxp3 phin0 sa1 kii2
+LAPINSKY	lxp3 phin0 sa1 kaaj0
+LAPIS	lxp3 phis1
+LAPISES	lxp3 phis3 ses1
+LAPITAN	lxp3 phi1 thqn2
+LAPLACE	lxp3 phee2
+LAPLAND	lxp3 phxxn0
+LAPLANDER	lxp3 phxxn0 dqq2
+LAPLANDERS	lxp3 phxxn0 dqq2
+LAPLANDIAN	lxp3 phxxn0 diian2
+LAPLANDS	lxp3 phxxn0
+LAPLANTE	lxp3 phxxn0 thii2
+LAPLAUD	lxp3 phoot1
+LAPPED	lxp3
+LAPPEN	lxp3 pheen0
+LAPPER	lxp3 pqq2
+LAPPERING	lxp3 pq1 ring2
+LAPPERS	lxp3 pqq2
+LAPPERT	lxp3 pqqt1
+LAPPERTS	lxp3 pqqt1
+LAPPET	lxp3 phet1
+LAPPETED	lxp3 phi1 thet1
+LAPPETS	lxp3 phet1
+LAPPIN	lxp3 phin0
+LAPPING	lxp3 ping2
+LAPPINGS	lxp3 ping2
+LAPPISH	lxp3 phich3
+LAPRE	lxp3 phrii2
+LAPRES	lxp3 phrii2
+LAPRISE	lxp3 praj3
+LAPS	lxp3
+LAPSABILITY	lxp3 sa1 bi1 li3 tii2
+LAPSABLE	lxp3 see0 bql2
+LAPSARIAN	lxp3 sxx0 riian2
+LAPSE	lxp3
+LAPSED	lxp3
+LAPSER	lxp3 sqq2
+LAPSERS	lxp3 sqq2
+LAPSES	lxp3 ses1
+LAPSING	lxp3 sing2
+LAPSINGLY	lxp3 sing2 lii2
+LAPSIT	lxp3 sit1
+LAPSLEY	lxp3 sa1 lee2
+LAPSON	lxp3 san2
+LAPSTER	lxp3 sa1 tqq2
+LAPSTONE	lxp3 sa1 toon0
+LAPTES	lxp3 tes1
+LAPTOP	lxp3 t@p3
+LAPTOPS	lxp3 t@p3
+LAPUTAN	lq1 piw0 thqn2
+LAPUTANS	lq1 piw0 thqn2
+LAPWING	lxp3 wing2
+LAPWINGS	lxp3 wing2
+LAR	laa2
+LARABELL	laa0 q1 beel0
+LARAWAY	laa0 q1 wee0
+LARBOARD	laa0 bqt1
+LARBOARDS	laa0 bqt1
+LARCENCY	laa0 sqn2 sii2
+LARCENIES	laa0 sqn2 nees1
+LARCENOUS	laa0 si1 nqq2
+LARCENOUSLY	laa0 si1 nqs1 lii2
+LARCENY	laa0 sqn2 nii2
+LARCH	laach3
+LARCHER	laa0 chqq2
+LARCHES	laa0 ches1
+LARCHMONT	laach3 m@@n3
+LARCOS	laa0 kh@s3
+LARD	laat1
+LARDEAU	laa0 doo2
+LARDED	laa0 det1
+LARDENT	laa0 deen3
+LARDER	laat3 dqq2
+LARDERS	laat3 dqq2
+LARDIE	laa0 daaj0
+LARDIER	laa0 daaj0 qq2
+LARDIEST	laa0 des1
+LARDIN	laa0 din2
+LARDINESS	laa0 di1 nees1
+LARDING	laa0 ding2
+LARDON	laa0 d@@n2
+LARDONS	laa0 d@@n2
+LARDS	laat1
+LAREAU	laa0 oo2
+LARES	lxx0 rii2
+LARESE	lxx0 rii2
+LAREST	laa0 res1
+LARGE	laac3
+LARGED	laac3
+LARGEHEARTED	laac3 haat3 thet1
+LARGEISH	laac3 cich1
+LARGELY	laac3 lii2
+LARGEN	laac3 ceen2
+LARGENED	laac3 ceet1
+LARGENESS	laac3 nees1
+LARGENT	laac3 ceen0
+LARGENTS	laac3 ceen0
+LARGER	laac3 cqq2
+LARGES	laac3 cis1
+LARGESS	laa0 ces1
+LARGESSE	laa0 ces1
+LARGESSES	laa0 ces3 ses1
+LARGEST	laac3 cis3
+LARGET	laa0 ket1
+LARGETS	laa0 ket1
+LARGHETTO	laa0 khet3 thoo2
+LARGISH	laa0 cich3
+LARGO	laa0 khoo2
+LARGOS	laa0 kh@@s3
+LARGS	laak3
+LARIAN	laa0 riian2
+LARIAT	lxx0 riiat1
+LARIATED	lxx0 riia0 thet1
+LARIATING	lxx0 riia0 ting2
+LARIATS	lxx0 riiat1
+LARING	laa0 ring2
+LARION	laa0 riian2
+LARIOT	lxx0 riiat1
+LARK	laak3
+LARKED	laak3
+LARKER	laak3 kqq2
+LARKERS	laak3 kqq2
+LARKEY	laa0 kii2
+LARKHALL	laak3 h@@l0
+LARKHAM	laak3 hxxm2
+LARKHILL	laak3 hil0
+LARKIER	laa0 kiia0
+LARKIN	laa0 kin2
+LARKINESS	laa0 ki1 nees1
+LARKING	laa0 king2
+LARKINGLY	laa0 king2 lii2
+LARKINGTON	laa0 king0 tan2
+LARKINS	laa0 kin2
+LARKLAND	laak3 lxxn0
+LARKLIKE	laak3 laj3
+LARKLING	laak3 ling2
+LARKMAN	laak3 mxxn0
+LARKS	laak3
+LARKSOME	laak3 svm2
+LARKSPUR	laak3 sa1 pqq2
+LARKSPURS	laak3 sa1 pqq2
+LARKWOOD	laak3 wuut3
+LARKY	laa0 kii2
+LARMAN	laam0 mxxn0
+LARMAR	laam0 maa0
+LARMER	laam0 mqq2
+LARMES	laam0
+LARMING	laam0 ming2
+LARMORE	laam0 m@@0
+LARN	laan0
+LARNARD	laa0 naat1
+LARNE	laan0
+LARNED	lxxn3
+LARNELL	laa0 neel0
+LARNELLE	laa0 neel0
+LARNER	laa0 nqq2
+LARNERD	laa0 nqt1
+LARNEY	laa0 nii2
+LARNING	laa0 ning2
+LARNS	laan0
+LARNSTEIN	laan0 sa1 taaj0
+LAROUCHES	laa0 r@@ch3 ches1
+LARRAN	laa0 rxxn0
+LARRANCE	laa0 rxxn0
+LARRICK	lxx0 rik1
+LARRIE	lxx0 rii2
+LARRIER	lxx0 ri1 qq2
+LARRIKIN	lxx0 ri1 kin2
+LARRIKINESS	lxx0 ri1 kin2 nees1
+LARRIKINS	lxx0 ri1 kin2
+LARRIS	lxx0 ris1
+LARRISON	lxx0 ri3 sqn2
+LARRISTON	lxx0 ris3 tan2
+LARROQUETTE	laa0 r@@0 ket1
+LARROW	laa0 roo0
+LARRY	lxx0 rii2
+LARRYS	lxx0 rii2
+LARSEN	laa0 sen2
+LARSENS	laa0 sen2
+LARSON	laa0 san2
+LARSONS	laa0 san2
+LARUM	lxx0 rqm2
+LARUMS	lxx0 rqm0
+LARVA	laa0 wqq2
+LARVAE	laa0 wii2
+LARVAL	laa0 wql2
+LARVAS	laa0 wqq2
+LARVIS	laa0 wis3
+LARYNGAL	laa0 ring3 cql2
+LARYNGEAL	laa0 ring3 ciial0
+LARYNGEALTONE	laa0 ring3 ciial2 th@@n0
+LARYNGEAN	laa0 ring3 ciian2
+LARYNGECTOMIES	laa0 ring2 cek3 tq1 mis3
+LARYNGECTOMIZE	laa0 ring2 cek3 tq1 maaj3
+LARYNGECTOMIZED	laa0 ring2 cek3 tq1 maaj3
+LARYNGECTOMY	laa0 ring2 cek3 tq1 mii2
+LARYNGITIC	laa0 ring2 ci3 thik1
+LARYNGITIS	laa0 ring2 caaj3 tis1
+LARYNGOLOGIST	laa0 ring2 koo0 lq1 cis3
+LARYNGOLOGISTS	laa0 ring2 koo0 lq1 cis3
+LARYNGOLOGY	laa0 ring2 koo0 lq1 cii2
+LARYNGOSCOPE	lq1 ring0 khq1 sa1 khoop1
+LARYNGOSCOPES	lq1 ring0 khq1 sa1 khoop1
+LARYNGOSCOPIC	lq1 ring0 khq1 sa1 khoo0 pik1
+LARYNGOSCOPICAL	lq1 ring0 khq1 sa1 khoo0 pi3 kh@l2
+LARYNGOSCOPIST	lxx0 ring0 kh@s3 khq1 phis1
+LARYNGOSCOPY	lxx0 ring0 kh@s3 kq1 phii2
+LARYNX	lxx0 ring3
+LARYNXES	lxx0 ring2 ses1
+LAS	lxs3
+LASAGNA	lxs3 sxk3 nqq2
+LASAGNAS	lxs3 sxk3 nees1
+LASAGNES	lxs3 sxk3 nees1
+LASCA	lxs3 kqq2
+LASCAR	lxs3 kqq2
+LASCARS	lxs3 kaas2
+LASCIVIOUS	lqs3 si1 wiias2
+LASCIVIOUSLY	lqs3 si1 wiias2 lii2
+LASCIVIOUSNESS	lqs3 si1 wiias2 nees1
+LASCO	lxs3 khoo2
+LASCOLA	lxs3 koo0 lqq2
+LASCOMBES	lxs3 kh@@m0
+LASED	lxs3
+LASER	lee0 sqq2
+LASERDISK	lee0 sa1 dis3
+LASERDISKS	lee0 sa1 dis3
+LASERED	lee0 sqt1
+LASERING	lee0 sa1 ring2
+LASERING	lee0 sa1 ring2
+LASERJET	lee0 sa1 cet3
+LASERS	lee0 sqq2
+LASERSONIC	lee0 sqs1 soo0 nik1
+LASERSONICS	lee0 sqs1 soo0 nik1
+LASES	lxs3 ses1
+LASEST	lxs3 ses1
+LASH	lxch3
+LASHBACK	lxch3 bxk3
+LASHBROOK	lxch3 bruuk3
+LASHED	lxch3
+LASHEN	lxs3 shen0
+LASHER	lxch3 chqq2
+LASHERS	lxch3 chqq2
+LASHES	lxch3 ches1
+LASHING	lxch3 ching2
+LASHINGLY	lxch3 ching2 lii2
+LASHINGS	lxch3 ching2
+LASHLEE	lxch3 lii2
+LASHLESS	lxch3 les1
+LASHLEY	lxch3 lee2
+LASHLY	lxch3 lii2
+LASHON	lxs3 h@@n0
+LASHWAY	lxch3 wee0
+LASING	lxs3 sing2
+LASKA	lxs3 kaa2
+LASKAR	lxs3 kaa2
+LASKEN	lxs3 ken2
+LASKEY	lxs3 kii2
+LASKILL	lxs3 kil0
+LASKIN	lxs3 kin2
+LASKINE	lxs3 kaaj0
+LASLEY	lxs3 lee2
+LASLOS	lxs3 loos2
+LASLOW	lxs3 loo0
+LASLOWS	lxs3 loos2
+LASMAN	lxs3 mxxn0
+LASORE	lxs3 s@@0
+LASPING	lxs3 ping2
+LASS	lxs3
+LASSASSIN	lxs3 sxs3 sin2
+LASSBERG	lxs3 bqqk1
+LASSELL	lxs3 seel0
+LASSEN	lxs3 sen2
+LASSER	lxs3 sqq2
+LASSERS	lxs3 sqq2
+LASSES	lxs3 ses1
+LASSET	lxs3 set1
+LASSETTER	lxs3 set3 tqq2
+LASSIC	lxs3 sik1
+LASSICK	lxs3 sik3
+LASSIE	lxs3 sii2
+LASSIES	lxs3 ses1
+LASSIN	lxs3 sin2
+LASSITUDE	lxs3 si1 cuut1
+LASSITUDES	lxs3 si1 cuut1
+LASSMAN	lxs3 mxxn0
+LASSO	lxs3 soo2
+LASSOED	lxs3 soo2
+LASSOER	lxs3 soo2 qq2
+LASSOERS	lxs3 soo2 qs2
+LASSOES	lxs3 soos2
+LASSOING	lxs3 soo0 ing2
+LASSON	lxs3 san2
+LASSOS	lxs3 soos2
+LASSWELL	lxs3 weel0
+LASSWELLIAN	lxs3 weel0 liian2
+LASSWELLS	lxs3 weel0
+LAST	laas3
+LASTABILITY	laas3 tq1 bi1 li3 tii2
+LASTABLE	laas3 tee0 bql2
+LASTAGE	laas3 teec1
+LASTEC	laas3 tek1
+LASTED	laas3 thet1
+LASTELIC	laas3 teel0 lik1
+LASTELLA	laas3 teel0 lqq2
+LASTER	laas3 tqq2
+LASTERDAY	laas3 tq1 dee0
+LASTERS	laas3 tqq2
+LASTES	laas3 tes1
+LASTEST	lxs3 tis3
+LASTIMA	laas3 ti1 mqq2
+LASTING	laas3 ting2
+LASTINGER	laas3 ting2 cqq2
+LASTINGHAM	laas3 ting2 hqm2
+LASTINGLY	laas3 ting2 lii2
+LASTINGNESS	laas3 ting2 nees1
+LASTINGS	laas3 ting2
+LASTLINE	laas3 laaj0
+LASTLY	laas3 lii2
+LASTNESS	lxs3 nees1
+LASTRA	lxs3 traa2
+LASTRANGE	lxs3 treen0
+LASTRAP	lxs3 trxp3
+LASTRAPES	lxs3 trxp3
+LASTRELLA	lxs3 treel0 laa2
+LASTS	laas3
+LASWELL	laas3 weel0
+LAT	lxt3
+LATAKIA	lxt3 thq1 kiia0
+LATCH	lxch3
+LATCHAW	lxt3 ch@@0
+LATCHED	lxch3
+LATCHES	lxch3 ches1
+LATCHET	lxch3 chit3
+LATCHETS	lxch3 chit3
+LATCHFORD	lxch3 f@@t1
+LATCHING	lxch3 ching2
+LATCHINGS	lxch3 ching2
+LATCHKEY	lxch3 kii2
+LATCHKEYS	lxch3 kii2
+LATCHS	lxch3 ches1
+LATCHSTRING	lxch3 sa1 tring0
+LATCHSTRINGS	lxch3 sa1 tring0
+LATE	leet1
+LATECOME	leet1 kam0
+LATECOMER	leet1 kam0 mqq2
+LATECOMERS	leet1 kam0 mqq2
+LATECOMING	leet1 kam0 ming2
+LATED	lee0 thet1
+LATEEN	lqt3 thiin0
+LATEENS	lqt3 thiin0
+LATELIER	lxt3 theel0 liia0
+LATELL	lxt3 theel0
+LATELLA	lxt3 theel0 lqq2
+LATELLO	lxt3 theel0 loo2
+LATELY	leet1 lii2
+LATELYS	leet1 lii2
+LATEN	leet1 thqn2
+LATENCE	leet1 thqn2
+LATENCY	leet1 then0 sii2
+LATENDRESSE	leet1 then3 dres3 sii2
+LATENED	leet1 neet1
+LATENESS	leet1 nees1
+LATENESSES	leet1 nes3 ses1
+LATENING	leet1 thqn1 ning2
+LATENS	leet1 thqn2
+LATENT	leet1 thqn2
+LATENTLY	leet1 thqn2 thlii2
+LATENTS	leet1 thqn2
+LATER	leet1 tqq2
+LATER	leet1 tqq2
+LATERA	lxt3 thq1 rqq2
+LATERAD	lee0 thrxxt1
+LATERAL	lxt3 thq1 rql2
+LATERALED	lxt3 thq1 rql2
+LATERALING	lxt3 thq1 rq1 ling2
+LATERALIS	lxt3 thq1 rq1 lis3
+LATERALISATION	lxt3 thq1 rq1 laj3 see0 chan2
+LATERALISED	lxt3 thq1 rq1 laj3
+LATERALISES	lxt3 thrql2 lis3 ses1
+LATERALITIES	lxt3 thqq0 r@l2 li3 tii2
+LATERALITY	lxt3 thqq0 r@l2 li3 tii2
+LATERALIZATION	lxt3 thq1 rq1 laj3 see0 chan2
+LATERALIZE	lxt3 thq1 rq1 laj3
+LATERALIZED	lxt3 thq1 rq1 laj3
+LATERALIZES	lxt3 thq1 rq1 laj3 ses1
+LATERALLY	lxt3 thq1 rql2 li2
+LATERALS	lxt3 thq1 rql2
+LATERAN	lxt3 thq1 rqn2
+LATERISATION	lxt3 thq1 raj3 see0 chan2
+LATERITE	lxt3 thq1 raj3
+LATERITES	lxt3 thq1 raj3
+LATERIZATION	lxt3 thq1 raj3 see0 chan2
+LATERS	leet1 thqq2
+LATEST	leet1 this2
+LATESTS	leet1 this2
+LATEX	leet1 thek1
+LATEXES	leet1 thek3 ses1
+LATH	laat3
+LATHAM	lxt3 thxm2
+LATHAMS	lxt3 thxm2
+LATHE	leet3
+LATHED	laat3
+LATHEM	lxt3 them2
+LATHER	lat3 dqq2
+LATHERABILITY	lat3 dqq2 ree0 bi1 li3 tii2
+LATHERABLE	lat3 dqq2 ree0 bql2
+LATHERED	lat3 dqt1
+LATHERER	lat3 dqq0 rqq2
+LATHERERS	lat3 dqq0 rqq2
+LATHERHAM	lat3 dqq0 hxxm2
+LATHERIN	lat3 dqq0 rin2
+LATHERING	lat3 dqq0 ring2
+LATHERS	lat3 dqq2
+LATHES	leet3
+LATHI	laat3 tii2
+LATHIER	laat3 thii2 rqq2
+LATHING	laa0 ting2
+LATHINGS	laa0 ting2
+LATHIS	laa0 tii2
+LATHON	lxt3 th@n2
+LATHOURIS	lxt3 thuua0 ris3
+LATHS	lat3
+LATHWORK	lat3 wqqk3
+LATHWORKS	lat3 wqqk3
+LATHY	laa0 tii2
+LATICES	lxt3 thaaj0 ses1
+LATICEWORK	lxt3 this3 wqqk3
+LATICS	lxt3 thik1
+LATIN	lxt3 thin0
+LATINAS	lxt3 thi1 nqq2
+LATINATE	lxt3 thi1 neet1
+LATINES	lxt3 thin2
+LATINETTE	lxt3 thi1 net1
+LATINIAN	lxt3 thi1 niian2
+LATINIC	lxt3 thi1 nik1
+LATINICALLY	lxt3 thi1 ni3 khq1 lii2
+LATINIFORM	lxt3 thi1 ni3 f@@m0
+LATINISE	lxt3 thi1 nees1
+LATINISED	lxt3 thi1 nis3
+LATINISER	lxt3 thi1 nis1 sqq2
+LATINISERS	lxt3 thi1 nis1 sqq2
+LATINISES	lxt3 thi1 nis1 ses1
+LATINISING	lxt3 thi1 naj3 sing2
+LATINISM	lxt3 thi1 nis3 svm2
+LATINISMS	lxt3 thi1 nis3 svm2
+LATINISSIMO	lxt3 thi1 nis1 si1 m@@0
+LATINIST	lxt3 thi1 nis3
+LATINISTIC	lxt3 thi1 nis3 tik1
+LATINISTICAL	lxt3 thi1 nis3 ti1 kh@l2
+LATINISTS	lxt3 thi1 nis3
+LATINITY	lxt3 thi1 ni3 tii2
+LATINIZATION	lxt3 thi1 naj3 see0 chan2
+LATINIZE	lxt3 thi1 naj3
+LATINIZED	lxt3 thi1 naj3
+LATINIZER	lxt3 thi1 naj3 sqq2
+LATINIZERS	lxt3 thi1 naj3 sqq2
+LATINIZES	lxt3 thi1 naaj0 ses1
+LATINIZING	lxt3 thi1 naj3 sing2
+LATINOS	lxt3 thi1 n@@s2
+LATINS	lxt3 thin0
+LATION	lee0 chan2
+LATIONS	lee0 chan2
+LATIONSHIP	lee0 chan2 chip3
+LATISH	lee0 thich3
+LATITATION	lxt3 thi1 thee0 chan2
+LATITUDE	lxt3 thi1 cuut1
+LATITUDES	lxt3 thi1 cuut1
+LATITUDINAL	lxt3 thi1 cuut3 di1 nql2
+LATITUDINALLY	lxt3 thi1 cuut3 di1 nql2 lii2
+LATITUDINARIAN	lxt3 thi1 cuut3 di1 nxx0 riian2
+LATITUDINARIANISM	lxt3 thi1 cuut3 di1 nxx0 riian0 nis3 svm2
+LATITUDINARIANS	lxt3 thi1 cuut3 di1 nxx0 riian2
+LATITUDINARY	lxt3 thi1 cuut3 di1 nxx0 rii2
+LATITUDINOUS	lxt3 thi1 cuut3 di1 nas2
+LATITUTE	lxt3 thi1 cuut1
+LATONE	lxt3 than0
+LATORE	lxt3 th@@0
+LATOUR	lxt3 thuua0
+LATRIA	lqt3 raaj0 rqq2
+LATRICE	lqt3 thris1
+LATRICIA	lq1 thri1 siia0
+LATRINA	lq1 thrii0 naa2
+LATRINE	lq1 thriin2
+LATRINES	lq1 thriin2
+LATROBE	lxt3 thr@@p3
+LATRONE	lxt3 thr@@n0
+LATSHAW	lxt3 ch@@0
+LATSHAWS	lxt3 ch@@s2
+LATSON	lxt3 san2
+LATTA	lxt3 thqq2
+LATTAS	lxt3 thqq2
+LATTEN	lxt3 then3
+LATTER	lxt3 tqq2
+LATTERDAY	lxt3 thq1 dee0
+LATTERLY	lxt3 thq1 lii2
+LATTERS	lxt3 thqq2
+LATTERY	lxt3 thq1 rii2
+LATTEST	lxt3 this2
+LATTICE	lxt3 thii2
+LATTICED	lxt3 this2
+LATTICES	lxt3 this3 ses1
+LATTICEWORK	lxt3 this3 wqqk3
+LATTICEWORKS	lxt3 this3 wqqk3
+LATTICING	lxt3 this3 sing2
+LATTIMER	lxt3 thaam0 mqq2
+LATTIN	lxt3 thin0
+LATTING	lxt3 ting2
+LATTINGTOWN	lxt3 ting2 thaaw0
+LATTIS	lxt3 tii2
+LATTITUDE	lxt3 thi1 cuut1
+LATTITUDES	lxt3 thi1 cuut1
+LATTON	lxt3 tan2
+LATVIA	lxt3 wiia0
+LATVIAN	lxt3 wiian2
+LATVIANS	lxt3 wiian2
+LAUD	l@@t3
+LAUDABILITY	l@@t3 dq1 bi1 li3 tii2
+LAUDABLE	l@@t3 dee0 bql2
+LAUDABLENESS	l@@t3 dee0 bql2 nees1
+LAUDABLY	l@@t3 dee0 blii2
+LAUDAN	l@@t3 dqn2
+LAUDANUM	l@@t3 dq1 nqm2
+LAUDANUMS	l@@t3 dq1 nqm2
+LAUDATOR	l@@t3 dq1 tqq2
+LAUDATORILY	l@@t3 dq1 thq1 ri3 lii2
+LAUDATORS	l@@t3 dq1 thqq2
+LAUDATORY	l@@t3 dq1 thq1 rii2
+LAUDE	loot1
+LAUDED	l@@0 det1
+LAUDER	l@@t3 dqq2
+LAUDERBACK	l@@t3 dqq0 bxk3
+LAUDERDALE	l@@t3 dq1 deel0
+LAUDERING	l@@t3 dq1 ring2
+LAUDERS	l@@t3 dqq2
+LAUDES	loot1
+LAUDIAN	l@@0 diian2
+LAUDIANISM	l@@0 diian2 nis3 svm2
+LAUDIANS	l@@0 diian2
+LAUDIE	l@@0 dii2
+LAUDING	l@@0 ding2
+LAUDIO	l@@0 dii0 oo2
+LAUDONE	l@@0 dan2
+LAUDS	l@@t3
+LAUGH	laaf3
+LAUGHABLE	laaf3 fee0 bql2
+LAUGHABLENESS	laaf3 fee0 bql2 nees1
+LAUGHABLY	laaf3 fee0 blii2
+LAUGHD	laaf3
+LAUGHED	laaf3
+LAUGHER	laaf3 fqq2
+LAUGHERS	laaf3 fqq2
+LAUGHING	laaf3 fing2
+LAUGHINGHOUSE	laaf3 fing0 haaw3
+LAUGHINGLY	laaf3 fing2 lii2
+LAUGHINGS	laaf3 fing2
+LAUGHINGSTOCK	laaf3 fing0 sa1 t@k3
+LAUGHINGSTOCKS	laaf3 fing0 sa1 t@k3
+LAUGHLAND	laaf3 lxxn0
+LAUGHLINES	laaf3 laaj0
+LAUGHMAN	laaf3 mxxn0
+LAUGHRIDGE	laaf3 ric1
+LAUGHS	laaf3
+LAUGHTER	laaf3 tqq2
+LAUGHTERS	laaf3 tqq2
+LAUGHTON	laaf3 tan2
+LAUNCH	l@@n3
+LAUNCHABLE	l@@n3 chee0 bql2
+LAUNCHD	l@@n3
+LAUNCHED	l@@n3
+LAUNCHER	l@@n3 chqq2
+LAUNCHERS	l@@n3 chqq2
+LAUNCHES	l@@n3 ches1
+LAUNCHING	l@@n3 ching2
+LAUNCHINGS	l@@n3 ching2
+LAUNCHS	l@@n3 ches1
+LAUNDER	l@@n3 dqq2
+LAUNDERABLE	l@@n3 dq1 ree0 bql2
+LAUNDERED	l@@n3 dqt1
+LAUNDERER	l@@n3 dqq0 rqq2
+LAUNDERERS	l@@n3 dqq0 rqq2
+LAUNDERETTE	l@@n3 dqq0 dret1
+LAUNDERETTES	l@@n3 dqq0 dret1
+LAUNDERIES	l@@n3 dqq0 ris1
+LAUNDERING	l@@n3 dqq0 ring2
+LAUNDERINGS	l@@n3 dqq0 ring2
+LAUNDERLAND	l@@n3 dql2 lxxn0
+LAUNDERS	l@@n3 dqq2
+LAUNDERY	l@@n3 dqq0 rii2
+LAUNDRESS	l@@n3 dres1
+LAUNDRESSES	l@@n3 dres3 ses1
+LAUNDRIES	l@@n3 dris1
+LAUNDRY	l@@n3 drii2
+LAUNDRYMAID	l@@n3 dri3 meet1
+LAUNDRYMAN	l@@n3 dri3 mxxn0
+LAUNDRYMEN	l@@n3 dri3 men0
+LAUNDRYWOMAN	l@@n3 dri3 wuu3 mxxn2
+LAUNDRYWOMEN	l@@n3 dri3 wii3 men2
+LAUNDY	l@@n3 dii2
+LAURA	l@@0 raa2
+LAURAL	l@@0 rql2
+LAURALEE	l@@0 rq1 lii2
+LAURAS	l@@0 rqqs2
+LAUREATE	l@@0 ri3 eet1
+LAUREATED	l@@0 ri3 eet3 thet1
+LAUREATES	l@@0 ri3 eet2
+LAUREATESHIP	l@@0 ri3 eet1 chip3
+LAUREATESHIPS	l@@0 ri3 eet1 chip3
+LAUREL	l@@0 rql2
+LAURELED	l@@0 rql2
+LAURELES	l@@0 rql2
+LAURELIN	l@@0 rq1 lin2
+LAURELING	l@@0 rq1 ling2
+LAURELLED	l@@0 rql2
+LAURELLING	l@@0 rq1 ling2
+LAURELS	l@@0 rql2
+LAUREN	l@@0 rqn2
+LAURENCE	l@@0 rqn2
+LAURENDINE	l@@0 rqn2 daaj0
+LAURENS	l@@0 rqn2
+LAURENSEN	l@@0 rqn2 sen2
+LAURENSON	l@@0 rqn2 san2
+LAURENTE	l@@0 ren3 te2
+LAURENTI	l@@0 ren3 tii2
+LAURENTIAN	l@@0 ren3 tiian2
+LAURENTIANS	l@@0 ren3 tiian2
+LAURENTIDE	l@@0 ren3 thaj3
+LAURENTINA	l@@0 ren3 ti1 nqq2
+LAURENTINE	l@@0 ren0 thaaj0
+LAURENTINO	l@@0 ren3 ti1 noo2
+LAURENTIS	l@@0 ren3 tis2
+LAURENTS	l@@0 ren3
+LAURUS	l@@0 rqqs2
+LAURUSTINE	l@@0 ras2 sa1 taaj0
+LAURUSTINES	l@@0 ras2 sa1 taaj0
+LAURUSTINUS	l@@0 ras2 sa1 thi1 nus2
+LAUSANNA	l@@0 sxxn0 nqq2
+LAUSANNE	l@@0 sxxn2
+LAV	lxf3
+LAVA	laa0 waa0
+LAVABO	lq1 waa0 boo2
+LAVABOES	lq1 waa0 b@@s2
+LAVAGE	lq1 waac3
+LAVAGES	lq1 waac3 cis1
+LAVALAS	lq1 wq1 lxs3
+LAVALAVA	laa0 wq1 laa0 wqq2
+LAVALAVAS	laa0 wq1 laa0 wqq2
+LAVALE	lq1 weel0
+LAVALES	lq1 weel0
+LAVALIER	laa0 wq1 liia0
+LAVALIERES	laa0 wq1 laaj0 rii2
+LAVALIERS	laa0 wq1 liias2
+LAVALL	lq1 w@@l0
+LAVALLE	lq1 w@l2 lii2
+LAVALLEY	lq1 w@l2 lii2
+LAVANT	lq1 wxxn3
+LAVAS	laa0 waas2
+LAVATER	laa0 wq1 tqq2
+LAVATORIES	laa0 wq1 thq1 ris1
+LAVATORY	lq1 wqt1 thq1 rii2
+LAVE	leef3
+LAVED	leef3
+LAVELL	lx1 weel0
+LAVELLED	lx1 weel0
+LAVELLES	lx1 weel0
+LAVELLI	lx1 weel0 li1
+LAVELY	leef3 lii2
+LAVEMENT	leef3 men3
+LAVENBERG	lx1 wqn2 bqqk1
+LAVENBURG	lx1 wqn2 bqqk1
+LAVENDAR	lx1 wqn2 dqq2
+LAVENDER	laa0 wen0 dqq2
+LAVENDERED	lx1 wqn2 dqt1
+LAVENDERING	lx1 wqn2 dqq0 ring2
+LAVENDERS	lx1 wqn2 dqq2
+LAVENDERY	lx1 wqn2 dq1 rii2
+LAVENSTEIN	lx1 ween0 sa1 taaj0
+LAVER	lee0 wqq2
+LAVERAN	lee0 wq1 rxxn0
+LAVERE	lx1 wxx0
+LAVERICK	lee0 wq1 rik1
+LAVERING	lee0 wq1 ring2
+LAVERNE	lx1 wqqn0
+LAVERS	lee0 wqq2
+LAVERSE	lx1 wqqs3
+LAVERSTOCK	lee0 wq1 sa1 t@k3
+LAVERTON	lee0 wqq0 than2
+LAVERTY	lee0 wq1 tii2
+LAVERY	lee0 wq1 rii2
+LAVERYS	lee0 wq1 rii2
+LAVES	leef3
+LAVEY	lee0 wii2
+LAVIES	lee0 wis3
+LAVIGNON	lee0 wing2 j@@n2
+LAVIN	lee0 win2
+LAVINE	lee0 waaj0
+LAVING	lee0 wing2
+LAVINGTON	lee0 wing2 tan2
+LAVINIA	lq1 win0 niia0
+LAVINIAN	lq1 win0 niian2
+LAVINIUM	lq1 win0 niiam2
+LAVISH	lx1 wich3
+LAVISHED	lx1 wich3
+LAVISHER	lx1 wi3 chqq2
+LAVISHERS	lx1 wi3 chqq2
+LAVISHES	lx1 wi3 ches1
+LAVISHEST	lx1 wi3 chis3
+LAVISHING	lx1 wi3 ching2
+LAVISHINGLY	lx1 wi3 ching2 lii2
+LAVISHLY	lx1 wich3 lii2
+LAVISHMENT	lx1 wich3 men3
+LAVISHMENTS	lx1 wich3 men3
+LAVISHNESS	lx1 wich3 nees1
+LAW	l@@0
+LAWALL	l@@0 @@l0
+LAWARE	l@@0 aa0
+LAWBOOK	l@@0 buk3
+LAWBREAK	l@@0 breek1
+LAWBREAKER	l@@0 breek3 kqq2
+LAWBREAKER	l@@0 breek3 kqq2
+LAWBREAKERS	l@@0 breek3 kqq2
+LAWBREAKING	l@@0 breek3 king2
+LAWCOURT	l@@0 k@@t1
+LAWED	loot1
+LAWES	loos2
+LAWFORD	l@@0 f@@t1
+LAWFORDS	l@@0 f@@t1
+LAWFUL	l@@0 fuul0
+LAWFULL	l@@0 fuul0
+LAWFULLY	l@@0 ful2 lii2
+LAWFULNESS	l@@0 ful2 nees1
+LAWGIVE	l@@0 kif3
+LAWGIVER	l@@0 kif3 wqq2
+LAWGIVERS	l@@0 kif3 wqq2
+LAWGIVING	l@@0 kif3 wing2
+LAWHEAD	l@@0 heet3
+LAWHEADS	l@@0 heet3
+LAWHON	l@@0 h@@n0
+LAWHORN	l@@0 h@@n0
+LAWING	l@@0 ing2
+LAWINGS	l@@0 ing2
+LAWKS	l@@k3
+LAWLER	l@@0 lqq2
+LAWLESS	l@@0 les1
+LAWLESSLY	l@@0 les2 lii2
+LAWLESSNESS	l@@0 les2 nees1
+LAWLEY	l@@0 lee2
+LAWLEYS	l@@0 lee2
+LAWLOR	l@@0 lqq2
+LAWMAKE	l@@0 meek3
+LAWMAKER	l@@0 meek3 kqq2
+LAWMAKERS	l@@0 meek3 kqq2
+LAWMAKES	l@@0 meek3
+LAWMAKING	l@@0 meek3 king2
+LAWMAN	l@@0 mxxn0
+LAWMEN	l@@0 men0
+LAWMENS	l@@0 men0
+LAWN	l@@n0
+LAWNED	l@@n0
+LAWNER	l@@n0 nqq2
+LAWNMOWER	l@@n0 m@@0 wqq2
+LAWNMOWERS	l@@n0 m@@0 wqq2
+LAWNS	l@@n0
+LAWNSDALE	l@@n0 sa1 deel0
+LAWPLAN	l@@0 plxxn0
+LAWRANCE	l@@0 rxxn3
+LAWRENCE	l@@0 ren3
+LAWRENCEBURG	l@@0 ren3 bqqk1
+LAWRENCES	l@@0 ren3 ses1
+LAWRENCEVILLE	l@@0 ren3 wil0
+LAWRENCY	l@@0 ren0 sii2
+LAWRY	l@@0 rii2
+LAWRYS	l@@0 rii2
+LAWS	l@@s2
+LAWSHE	l@@0 chii2
+LAWSON	l@@0 san2
+LAWSONS	l@@0 san2
+LAWSONVILLE	l@@0 san2 wil0
+LAWSUIT	l@@0 suut3
+LAWSUITING	l@@0 suut3 ting2
+LAWSUITS	l@@0 suut3
+LAWTER	l@@0 tqq2
+LAWTON	l@@0 than2
+LAWTONS	l@@0 than2
+LAWYER	l@@0 jqq2
+LAWYERED	l@@0 jqq2
+LAWYERESS	l@@0 jqq0 rees1
+LAWYERESSES	l@@0 jqq0 rees3 ses1
+LAWYERING	l@@0 jqq0 ring2
+LAWYERISM	l@@0 jqq0 ris3 svm2
+LAWYERLIKE	l@@0 jqq2 laj3
+LAWYERS	l@@0 jqq2
+LAX	lxk3
+LAXALT	lxk3 sxxl3
+LAXALTS	lxk3 sxxl3
+LAXATION	lxk3 see0 chan2
+LAXATIVE	lxk3 see0 thiif1
+LAXATIVELY	lxk3 see0 thiif1 lii2
+LAXATIVENESS	lxk3 see0 thiif1 nees1
+LAXATIVES	lxk3 see0 thiif1
+LAXER	lxk3 sqq2
+LAXEST	lxk3 ses1
+LAXING	lxk3 sing2
+LAXITIES	lxk3 si1 tii2
+LAXITIVES	lxk3 si1 thiif1
+LAXITY	lxk3 si1 tii2
+LAXLEY	lxk3 lee2
+LAXLY	lxk3 lii2
+LAXNESS	lxk3 nees1
+LAXNESSES	lxk3 nees3 ses1
+LAXSON	lxk3 san2
+LAXTER	lxk3 sa1 tqq2
+LAXTON	lxk3 sa1 tan2
+LAXTONS	lxk3 sa1 tan2
+LAY	lee0
+LAYABOUT	lee0 a1 baaw3
+LAYABOUTS	lee0 a1 baaw3
+LAYAWAY	lee0 a1 wee0
+LAYAWAYS	lee0 a1 wees1
+LAYBACK	lee0 bxk3
+LAYBACKED	lee0 bxk3
+LAYBACKING	lee0 bxk3 king2
+LAYBACKS	lee0 bxk3
+LAYBORNE	lee0 b@@n0
+LAYBOURNE	lee0 b@@n0
+LAYBOY	lee0 b@@j0
+LAYBURN	lee0 bqqn0
+LAYBY	lee0 baaj0
+LAYBYS	lee0 baaj0
+LAYCOCK	lee0 kh@k3
+LAYDEN	lee0 den2
+LAYDON	lee0 d@n2
+LAYED	leet2
+LAYER	lee0 jqq2
+LAYERED	lee0 jqq2
+LAYERING	lee0 jqq0 ring2
+LAYERINGS	lee0 jqq0 ring2
+LAYERS	lee0 jqq2
+LAYETTE	lee0 jeet3
+LAYETTES	lee0 jeet3
+LAYFIELD	lee0 fiil0
+LAYING	lee0 ing2
+LAYINGS	lee0 ing2
+LAYLAND	lee0 lxxn0
+LAYMAN	lee0 mxxn0
+LAYMANCE	lee0 mxxn3
+LAYMANS	lee0 mxxn0
+LAYMANSHIP	lee0 mxxn0 chip3
+LAYMEN	lee0 men0
+LAYMENS	lee0 men0
+LAYMORE	lee0 m@@0
+LAYOFF	lee0 @@f3
+LAYOFFS	lee0 @@f3
+LAYOUT	lee0 aaw3
+LAYOUTS	lee0 aaw3
+LAYOVER	lee0 oo0 wqq2
+LAYOVERS	lee0 oo0 wqq2
+LAYS	lees1
+LAYSON	lee0 san2
+LAYTER	lee0 tqq2
+LAYTON	lee0 tan2
+LAYTONVILLE	lee0 tan2 wil0
+LAYUP	lee0 ap2
+LAYUPS	lee0 ap2
+LAYWOMAN	lee0 wuu3 mxxn2
+LAYWOMEN	lee0 wii3 meen2
+LAZAR	laa0 saa2
+LAZARD	laa0 saat1
+LAZARDS	laa0 saat1
+LAZARENE	lxx0 saa0 riin0
+LAZARES	laa0 saa0 res1
+LAZARET	laa0 saa0 ret1
+LAZARETH	laa0 saa0 ret3
+LAZARETS	laa0 saa0 ret1
+LAZARETTE	laa0 saa0 ret3
+LAZARETTES	laa0 saa0 ret3
+LAZARETTO	laa0 saa0 ret3 thoo2
+LAZARETTOS	laa0 saa0 ret3 thoos2
+LAZARITE	laa0 saa0 raj3
+LAZARIZED	laa0 saa0 raj3
+LAZAROFF	laa0 saa0 r@@f3
+LAZARONI	laa0 saa0 roo0 nii2
+LAZAROS	laa0 saa0 roos2
+LAZARS	laa0 saas2
+LAZARSKI	laa0 saa0 sa1 kii2
+LAZARSKY	laa0 saa0 sa1 kaaj0
+LAZARSON	laa0 saa0 san2
+LAZARUS	laa0 saa0 ras3
+LAZARUSES	laa0 saa0 ras3 ses1
+LAZE	lees3
+LAZED	lees3
+LAZER	lee0 sqq2
+LAZERS	lee0 sqq2
+LAZES	lees3 ses1
+LAZIER	lee0 si1 qq2
+LAZIEST	lee0 si1 es1
+LAZILY	lee0 si1 lii2
+LAZINESS	lee0 si1 nees1
+LAZING	lee0 sing2
+LAZULI	lxxs3 suu0 lii2
+LAZULIS	lxxs3 suu0 lis3
+LAZULITE	lxxs3 suu0 laj3
+LAZY	lee0 sii2
+LAZYBONES	lee0 sii2 boon0
+LAZYING	lee0 sii0 ing2
+LE	lqq2
+LE	lii0
+LEA	lii0
+LEACH	liich3
+LEACHABLE	liich3 chee0 bql2
+LEACHED	liich3
+LEACHER	liich3 chqq2
+LEACHERS	liich3 chqq2
+LEACHES	liich3 ches1
+LEACHING	liich3 ching2
+LEACHMAN	liich3 mxxn0
+LEACOCK	lii0 kh@k3
+LEACOCKS	lii0 kh@k3
+LEAD	leet3
+LEAD	liit1
+LEADABLE	leet3 dee0 bql2
+LEADABLENESS	liit3 dee0 bql2 nees1
+LEADBETTER	leet3 bet3 tqq2
+LEADBETTERS	leet3 bet3 tqq2
+LEADED	leet3 det1
+LEADEN	leet3 den2
+LEADENHALL	leet3 den2 h@@l0
+LEADENHEARTED	leet3 den2 haat3 thet1
+LEADENHEARTEDNESS	leet3 den2 haat3 thet1 nees1
+LEADENING	leet3 den0 ning2
+LEADENNESS	leet3 den2 nees1
+LEADER	liit3 dqq2
+LEADERESS	liit3 dqq0 res1
+LEADERETTE	liit3 dqq0 ret1
+LEADERLESS	liit3 dqq0 lees1
+LEADERLESSNESS	liit3 dqq0 lees3 nees1
+LEADERLY	liit3 dqq0 lii2
+LEADERMAN	liit3 dqq2 mxxn0
+LEADERS	liit3 dqq2
+LEADERSHIP	liit3 dqq2 chip3
+LEADERSHIPS	liit3 dqq2 chip3
+LEADERSING	liit3 dqq0 sing2
+LEADES	leet3
+LEADES	liit1
+LEADIN	liit3 din2
+LEADIND	liit3 din0
+LEADINESS	leet3 di1 nees1
+LEADING	leet3 ding2
+LEADING	liit3 ding2
+LEADINGEST	leet3 ding2 nges1
+LEADINGEST	liit3 ding2 nges1
+LEADINGHAM	leet3 ding2 hxxm0
+LEADINGLY	leet3 ding2 lii2
+LEADINGS	leet3 ding2
+LEADINGS	liit3 ding2
+LEADOFF	liit3 d@@f3
+LEADOFFS	liit3 d@@f3
+LEADS	leet3
+LEADS	liit3
+LEADVILLE	liit3 wil0
+LEADWAY	leet3 wee0
+LEADWOOD	leet3 wuut3
+LEADWORK	leet3 wqqk3
+LEADWORKS	leet3 wqqk3
+LEADY	leet3 dii2
+LEAF	liif3
+LEAFAGE	liif3 feec1
+LEAFED	liif3
+LEAFHOPPER	liif3 h@p3 pqq2
+LEAFHOPPERS	liif3 h@p3 pqq2
+LEAFIER	liif3 fi1 qq2
+LEAFIEST	liif3 fi1 es1
+LEAFING	liif3 fing2
+LEAFLESS	liif3 lees1
+LEAFLESSNESS	liif3 lees3 nees1
+LEAFLET	liif3 let1
+LEAFLETED	liif3 let3 thet1
+LEAFLETEER	liif3 li3 thiia0
+LEAFLETEERS	liif3 li3 thiias2
+LEAFLETING	liif3 let3 ting2
+LEAFLETS	liif3 let1
+LEAFLIKE	liif3 laj3
+LEAFORD	liif3 f@@t1
+LEAFS	liif3
+LEAFSTALK	liif3 sa1 t@@k3
+LEAFSTALKS	liif3 sa1 t@@k3
+LEAFWORM	liif3 wqqm0
+LEAFWORMS	liif3 wqqm0
+LEAFY	liif3 fii2
+LEAGUE	liik1
+LEAGUED	liik1
+LEAGUER	liik3 kqq2
+LEAGUERED	liik3 kqq2
+LEAGUERING	liik3 kqq0 ring2
+LEAGUERS	liik3 kqq2
+LEAGUES	liik3
+LEAGUING	liik3 king2
+LEAHEY	lii0 hee0
+LEAING	lii0 ing2
+LEAK	liik3
+LEAKAGE	liik3 keec1
+LEAKAGES	liik3 keec3 ces1
+LEAKED	liik3
+LEAKER	liik3 kqq2
+LEAKERS	liik3 kqq2
+LEAKES	liik3
+LEAKEY	liik3 kii2
+LEAKEYS	liik3 kii2
+LEAKIER	liik3 ki1 qq2
+LEAKIEST	liik3 ki1 es1
+LEAKINESS	liik3 ki1 nees1
+LEAKING	liik3 king2
+LEAKINGS	liik3 king2
+LEAKS	liik3
+LEAKY	liik3 kii2
+LEAL	liil0
+LEALAND	lii0 lxxn0
+LEALIE	lii0 laaj0
+LEAMAN	lii0 mxxn0
+LEAMER	lii0 mqq2
+LEAMING	leem0 ming2
+LEAMINGS	leem0 ming2
+LEAMINGTON	leem0 ming0 tan2
+LEAMY	lii0 mii2
+LEAN	liin0
+LEANDRA	liin0 draa2
+LEANDRAS	liin0 draas2
+LEANDREWS	liin0 druus2
+LEANDRIA	liin0 driia0
+LEANDRO	liin0 droo0
+LEANDROS	liin0 droos2
+LEANED	liin0
+LEANER	liin0 nqq2
+LEANERS	liin0 nqq2
+LEANESS	liin0 nees1
+LEANEST	liin0 nees1
+LEANING	liin0 ning2
+LEANINGS	liin0 ning2
+LEANLY	liin0 lii2
+LEANNESS	liin0 nees1
+LEANS	liin0
+LEANT	leen3
+LEAP	liip3
+LEAPED	liip3
+LEAPER	liip3 pqq2
+LEAPERS	liip3 pqq2
+LEAPFROG	liip3 fr@k3
+LEAPFROGGED	liip3 fr@k3
+LEAPFROGGING	liip3 fr@k3 king2
+LEAPFROGS	liip3 fr@k3
+LEAPHART	liip3 haat3
+LEAPING	liip3 ping2
+LEAPINGLY	liip3 ping2 lii2
+LEAPLEY	liip3 lee2
+LEAPS	liip3
+LEAPT	leep3
+LEARED	liiat2
+LEARING	liia0 ring2
+LEARN	lqqn0
+LEARNABLE	lqqn0 nee0 bql2
+LEARND	lqqn0
+LEARNED	lqqn0
+LEARNEDLY	lqqn0 lii2
+LEARNEDNESS	lqqn0 nees1
+LEARNER	lqqn0 nqq2
+LEARNERS	lqqn0 nqq2
+LEARNING	lqqn0 ning2
+LEARNINGS	lqqn0 ning2
+LEARNS	lqqn0
+LEARNT	lqen3
+LEAS	lii2
+LEASABLE	lii0 see0 bql2
+LEASE	liis3
+LEASEBACK	liis3 bxk3
+LEASEBACKS	liis3 bxk3
+LEASED	liis3
+LEASEES	liis3 ses1
+LEASEHOLD	liis3 hool0
+LEASEHOLDER	liis3 hool0 dqq2
+LEASEHOLDERS	liis3 hool0 dqq2
+LEASEHOLDING	liis3 hool0 ding2
+LEASEHOLDS	liis3 hool0
+LEASELESS	liis3 lees1
+LEASER	liis3 sqq2
+LEASERS	liis3 sqq2
+LEASES	liis3 ses1
+LEASEWAY	liis3 wee0
+LEASH	liich3
+LEASHED	liich3
+LEASHES	liich3 ches1
+LEASHING	liich3 ching2
+LEASING	liis3 sing2
+LEASINGS	liis3 sing2
+LEASON	lii3 san2
+LEAST	liis3
+LEASTER	liis3 tqq2
+LEASTERN	liis3 thqqn0
+LEASTEST	liis3 thes1
+LEASTING	liis3 ting2
+LEASTLY	liis3 lii2
+LEASTS	liis3
+LEASTWAYS	liis3 wees1
+LEASTWISE	liis3 waaj3
+LEASURE	lii0 chqq2
+LEATHEM	lii0 dem2
+LEATHER	leet3 dqq2
+LEATHERBACK	leet3 dqq2 bxk3
+LEATHERBACKS	leet3 dqq2 bxk3
+LEATHERBEE	leet3 dqq2 bii0
+LEATHERBERRY	leet3 dqq2 bee0 rii2
+LEATHERBOARD	leet3 dqq2 b@@t1
+LEATHERBURY	leet3 dqq2 bee0 rii2
+LEATHERBY	leet3 dqq0 bii2
+LEATHERED	leet3 dqq2
+LEATHERER	leet3 dqq0 rqq2
+LEATHERETTE	leet3 dqq2 ret1
+LEATHERHEAD	leet3 dqq2 heet3
+LEATHERHEADS	leet3 dqq2 heet3
+LEATHERING	leet3 dqq0 ring2
+LEATHERMAN	leet3 dqq2 mxxn0
+LEATHERN	leet3 dqqn2
+LEATHERNECK	leet3 dqq2 nek3
+LEATHERNECKING	leet3 dqq2 nek3 king2
+LEATHERNECKS	leet3 dqq2 nek3
+LEATHERS	leet3 dqq2
+LEATHERWOOD	leet3 dqq2 wuut3
+LEATHERWOODS	leet3 dqq2 wuut3
+LEATHERWORK	leet3 dqq2 wqqk3
+LEATHERWORKER	leet3 dqq2 wqqk3 kqq2
+LEATHERWORKERS	leet3 dqq2 wqqk3 kqq2
+LEATHERWORKING	leet3 dqq2 wqqk3 king2
+LEATHERWORLD	leet3 dqq2 wqql2
+LEATHERY	leet3 dqq0 rii2
+LEATON	lii3 than2
+LEATRICE	lii0 thraj3
+LEAVE	liif3
+LEAVED	liif3
+LEAVELESS	liif3 lees1
+LEAVEN	lee3 wen2
+LEAVENED	lee3 wen2
+LEAVENER	lee3 wen2 nqq2
+LEAVENERS	lee3 wen2 nqq2
+LEAVENGOOD	lee3 wen2 kuut3
+LEAVENING	lee3 wen0 ning2
+LEAVENINGS	lee3 wen0 ning2
+LEAVENISH	lee3 wen0 nich3
+LEAVENS	lee3 wen2
+LEAVENWORT	lee3 wen2 wqqt1
+LEAVENWORTH	lee3 wen2 wqqt3
+LEAVER	lii3 wqq2
+LEAVERS	lii3 wqq2
+LEAVERTON	lii3 wqq0 than2
+LEAVERY	lii3 wqq0 rii2
+LEAVES	liif3
+LEAVING	liif3 wing2
+LEAVINGS	liif3 wing2
+LEBANESE	lee0 baa0 niis3
+LEBANESES	lee0 baa0 niis3 ses1
+LEBANISATION	lee0 baa0 naj3 see0 chan2
+LEBANIZATION	lee0 baa0 naj3 see0 chan2
+LEBANIZE	lee0 baa0 naj3
+LEBANON	lee0 baa0 n@n2
+LEBANONISATION	lee0 baa0 n@n0 naj3 see0 chan2
+LEBANONIZATION	lee0 baa0 n@n0 naj3 see0 chan2
+LEBANONIZED	lee0 baa0 n@n0 naj3
+LEBANONS	lee0 baa0 n@n2
+LEBANS	lee0 bqn2
+LEBRITY	lee0 bri1 tii2
+LEBROCK	lee0 br@k3
+LEBRON	lee0 br@n2
+LEBRUN	lee0 bran2
+LEBRUNS	lee0 bran2
+LECHER	lech3 chqq2
+LECHERED	lech3 chqq2
+LECHERIES	lech3 chqq2 rii2
+LECHERING	lech3 chqq0 ring2
+LECHEROUS	lech3 chq1 rqqs2
+LECHEROUSLY	lech3 chq1 ras3 lii2
+LECHEROUSNESS	lech3 chq1 ras3 nees1
+LECHERS	lech3 chqq2
+LECHERY	lech3 chqq2 rii2
+LECTER	lek3 tqq2
+LECTERN	lek3 thqqn2
+LECTERNS	lek3 thqqn2
+LECTICAL	lek3 ti1 kh@l2
+LECTIN	lek3 thin2
+LECTINS	lek3 thin2
+LECTION	lek3 chan2
+LECTIONARY	lek3 chan2 naa0 rii2
+LECTIONS	lek3 chan2
+LECTOR	lek3 tqq2
+LECTORATE	lek3 th@@0 reet1
+LECTORES	lek3 th@@s2
+LECTORIAL	lek3 th@@0 riial2
+LECTORIS	lek3 thq1 ris3
+LECTORS	lek3 tqq2
+LECTORSHIP	lek3 thqq2 chip3
+LECTRA	lek3 thraa2
+LECTRESS	lek3 thres1
+LECTRIC	lek3 thrik1
+LECTRO	lek3 throo0
+LECTROMEDICS	lek3 throo0 mee0 dik1
+LECTRON	lek3 tr@@n2
+LECTRONIC	lek3 thr@@0 nik1
+LECTRONICS	lek3 thr@@0 nik1
+LECTUAL	lek3 chuual2
+LECTUALS	lek3 chuual2
+LECTUM	lek3 tam2
+LECTURE	lek3 chqq2
+LECTURED	lek3 chqq2
+LECTURER	lek3 chqq0 rqq2
+LECTURERS	lek3 chqq0 rqq2
+LECTURES	lek3 chqq2
+LECTURESHIP	lek3 chqq0 chip3
+LECTURESHIPS	lek3 chqq0 chip3
+LECTURING	lek3 chqq2 ring2
+LED	leet3
+LEDBETTER	leet3 bet3 thqq2
+LEDBETTERS	leet3 bet3 thqq2
+LEDDEN	leet3 den2
+LEDDICK	leet3 dik1
+LEDDIE	leet3 daaj0
+LEDDIN	leet3 din2
+LEDDING	leet3 ding2
+LEDDINGTON	leet3 ding0 tan2
+LEDER	leet3 dqq2
+LEDERER	leet3 dqq0 rqq2
+LEDERERS	leet3 dqq0 rqq2
+LEDERMAN	leet3 dqq2 mxxn0
+LEDERMANN	leet3 dqq0 maan0
+LEDERMANS	leet3 dqq2 mxxn0
+LEDERS	leet3 dqq2
+LEDFORD	leet3 f@@t1
+LEDGE	leec3
+LEDGED	leec3
+LEDGELESS	leec3 cq1 lees1
+LEDGER	leec3 cqq2
+LEDGERED	leec3 cqq2
+LEDGERING	leec3 cqq0 ring2
+LEDGERS	leec3 cqq2
+LEDGERWOOD	leec3 cqq2 wuut3
+LEDGES	leec3 ces1
+LEDGING	leec3 cing2
+LEDING	leet3 ding2
+LEDINGHAM	leet3 ding2 hxxm0
+LEDINGTON	leet3 ding0 tan2
+LEDLEY	leet3 lee2
+LEDLOW	leet3 loo0
+LEDWARD	leet3 w@@t1
+LEDWELL	leet3 weel0
+LEDWICK	leet3 wik1
+LEDWIG	leet3 wik3
+LEDWITH	leet3 wit3
+LEDYARD	leet3 jaat3
+LEE	lii0
+LEEBOARD	lii0 b@@t1
+LEEBOARDS	lii0 b@@t1
+LEECH	liich3
+LEECHED	liich3
+LEECHES	liich3 ches1
+LEECHING	liich3 ching2
+LEEDER	liit3 dqq2
+LEEDERS	liit3 dqq2
+LEEDES	liit3 des1
+LEEDING	liit3 ding2
+LEEDS	liit1
+LEEDY	liit3 dii2
+LEEK	liik3
+LEEKER	liik3 kqq2
+LEEKES	liik3
+LEEKS	liik3
+LEEMAN	lii0 mxxn0
+LEEMANN	lii0 mxxn0
+LEEMANS	lii0 mxxn0
+LEEPER	lii0 pqq2
+LEEPING	liip3 ping2
+LEER	liia0
+LEERED	liiat2
+LEERIEST	liia0 ri1 es1
+LEERINESS	liia0 ri3 nees1
+LEERING	liia0 ring2
+LEERINGLY	liia0 ring2 lii2
+LEERS	liias2
+LEES	lii2
+LEESBURG	lii0 sa1 bqqk1
+LEESER	liis3 sqq2
+LEESON	liis3 san2
+LEESONS	liis3 san2
+LEET	liit3
+LEETING	liit3 ting2
+LEETLE	liit3 thql2
+LEETON	liit3 tan2
+LEEWARD	lii0 wqqt1
+LEEWARDLY	lii0 wqqt1 lii2
+LEEWARDNESS	lii0 wqqt1 nees1
+LEEWARDS	lii0 wqqt1
+LEEWAY	lii0 wee0
+LEEWAYS	lii0 wees1
+LEFT	lef3
+LEFTER	lef3 tqq2
+LEFTERS	lef3 tqq2
+LEFTEST	lef3 thes1
+LEFTIES	lef3 tii2
+LEFTISH	lef3 tich3
+LEFTISHNESS	lef3 tich3 nees1
+LEFTISM	lef3 tis3 svm2
+LEFTISMS	lef3 tis3 svm2
+LEFTIST	lef3 this3
+LEFTISTS	lef3 this3
+LEFTNESS	lef3 nees1
+LEFTON	lef3 tan2
+LEFTOVER	lef3 thoo0 wqq2
+LEFTOVERS	lef3 thoo0 wqq2
+LEFTRIDGE	lef3 thric1
+LEFTS	lef3
+LEFTWARD	lef3 wqqt1
+LEFTWARDLY	lef3 wqqt1 lii2
+LEFTWARDS	lef3 wqqt1
+LEFTWICH	lef3 wich3
+LEFTWING	lef3 wing0
+LEFTY	lef3 tii2
+LEG	lek3
+LEGACIES	lek3 kq1 sii2
+LEGACY	lek3 kq1 sii2
+LEGACYS	lek3 kq1 sii2
+LEGAL	lii0 k@l2
+LEGALES	lii0 keel2
+LEGALESES	lii0 keel2 ses1
+LEGALINE	lii0 kq1 laaj0
+LEGALISATION	lii0 kq1 laj3 see0 chan2
+LEGALISATIONS	lii0 kq1 laj3 see0 chan2
+LEGALISED	lii0 kq1 laj3
+LEGALISES	lii0 kq1 laj3 ses1
+LEGALISING	lii0 kq1 laj3 sing2
+LEGALISM	lii0 kq1 lis3 svm2
+LEGALISMS	lii0 kq1 lis3 svm2
+LEGALIST	lii0 kq1 lis3
+LEGALISTIC	lii0 kq1 lis3 tik1
+LEGALISTICALLY	lii0 kq1 lis3 ti1 khq1 lii2
+LEGALISTS	lii0 kq1 lis3
+LEGALITIES	lii0 k@l2 li3 tii2
+LEGALITY	lii0 k@l2 li3 tii2
+LEGALIZATION	lii0 kql2 laj3 see0 chan2
+LEGALIZATIONS	lii0 kql2 laj3 see0 chan2
+LEGALIZE	lii0 kq1 laj3
+LEGALIZED	lii0 kq1 laj3
+LEGALIZERS	lii0 kq1 laj3 sqq2
+LEGALIZES	lii0 kq1 laj3 ses1
+LEGALIZING	lii0 kq1 laj3 sing2
+LEGALLY	lii0 k@l2 lii2
+LEGALNESS	lii0 k@l2 nees1
+LEGALS	lii0 k@l2
+LEGANY	lek3 kee0 nii2
+LEGARE	lii0 kaa2
+LEGATE	lii0 keet1
+LEGATED	lii0 keet3 thet1
+LEGATEE	lek3 kq1 tii2
+LEGATEES	lek3 kq1 tii2
+LEGATES	lii0 keet1
+LEGATESHIP	lii0 keet1 chip3
+LEGATESHIPS	lii0 keet1 chip3
+LEGATINE	lek3 kq1 thaaj0
+LEGATION	lii0 kee0 chan2
+LEGATIONARY	lii0 kee0 chan2 nq1 rii2
+LEGATIONS	lii0 kee0 chan2
+LEGATISSIMO	lek3 kaa0 this3 si1 m@@0
+LEGATIVE	lek3 kq1 thiif1
+LEGATO	lek3 kaa0 too2
+LEGATOR	lek3 kee0 tqq2
+LEGATORS	lek3 kee0 thqq2
+LEGATOS	lek3 kaa0 toos2
+LEGEND	lii0 cen2
+LEGENDARIAN	lii0 cen2 dxx0 riian2
+LEGENDARILY	lii0 cen2 dxx0 ri1 lii2
+LEGENDARY	lii0 cen2 dxx0 rii2
+LEGENDES	lii0 cen2
+LEGENDS	lii0 cen2
+LEGENT	lii0 cen3
+LEGENY	lee3 cq1 nii2
+LEGER	lee0 cqq2
+LEGERDEMAIN	lec3 cq1 dq1 men0
+LEGERE	lee0 cxx0
+LEGERED	lee0 cqq2
+LEGERES	lee0 cqq2
+LEGERING	lee0 cq1 ring2
+LEGERS	lee0 cqq2
+LEGERTON	lee0 cq1 tan2
+LEGGED	lek3 ket1
+LEGGEDLY	lek3 ket1 lii2
+LEGGEDNESS	lek3 ket1 nees1
+LEGGEDS	lek3 ket1
+LEGGER	lek3 kqq2
+LEGGERS	lek3 kqq2
+LEGGET	lek3 ket1
+LEGGING	lek3 king2
+LEGGINGED	lek3 king2
+LEGGINGS	lek3 king2
+LEGGINS	lek3 kin2
+LEGGY	lek3 kii2
+LEGGYS	lek3 kii2
+LEGHORN	lek3 h@@n0
+LEGHORNS	lek3 h@@n0
+LEGIBILITIES	lec3 ci1 bi1 li3 tii2
+LEGIBILITY	lec3 ci1 bi1 li3 tii2
+LEGIBLE	lec3 ci1 bql2
+LEGIBLENESS	lec3 ci1 bql2 nees1
+LEGIBLY	lec3 ci1 blii2
+LEGION	lii0 ciian2
+LEGIONARIA	lii0 ciian0 naa0 riia0
+LEGIONARIES	lii0 ciian0 naa0 rii2
+LEGIONARY	lii0 ciian0 naa0 rii2
+LEGIONED	lii0 ciian2
+LEGIONES	lii0 ciian2
+LEGIONNAIRE	lii0 ciian2 nxx0
+LEGIONNAIRES	lii0 ciian2 nxxs2
+LEGIONS	lii0 ciian2
+LEGISLATE	lii0 cis3 leet1
+LEGISLATED	lii0 cis3 leet3 thet1
+LEGISLATES	lii0 cis3 leet1
+LEGISLATING	lii0 cis3 leet3 ting2
+LEGISLATION	lii0 cis3 lee0 chan2
+LEGISLATIONAL	lii0 cis3 lee0 chan2 n@l2
+LEGISLATIONS	lii0 cis3 lee0 chan2
+LEGISLATIVE	lii0 cis3 lee0 thiif1
+LEGISLATIVELY	lii0 cis3 lee0 thiif1 lii2
+LEGISLATIVES	lii0 cis3 lee0 thiif1
+LEGISLATOR	lii0 cis3 lee0 tqq2
+LEGISLATORS	lii0 cis3 lee0 tqq2
+LEGISLATORSHIP	lii0 cis3 lee0 tqq2 chip3
+LEGISLATURE	lii0 cis3 lee0 chqq2
+LEGISLATURES	lii0 cis3 lee0 chqq2
+LEGIST	lii0 cis3
+LEGISTS	lii0 cis3
+LEGIT	lii0 cit3
+LEGITIMACIES	lii0 cit3 thi1 mee0 sii2
+LEGITIMACY	lii0 cit3 thi1 mee0 sii2
+LEGITIMATE	lii0 cit3 thi1 meet1
+LEGITIMATED	lii0 cit3 thi1 meet3 thet1
+LEGITIMATELY	lii0 cit3 thi1 meet3 lii2
+LEGITIMATENESS	lii0 cit3 thi1 meet3 nees1
+LEGITIMATES	lii0 cit3 thi1 meet1
+LEGITIMATING	lii0 cit3 thi1 meet3 ting2
+LEGITIMATION	lii0 cit3 thi1 mee0 chan2
+LEGITIMATIONS	lii0 cit3 thi1 mee0 chan2
+LEGITIMATIZATION	lii0 cit3 thi1 mee0 thaj3 see0 chan2
+LEGITIMATIZE	lii0 cit3 thi1 mee0 thaj3
+LEGITIMATIZED	lii0 cit3 thi1 mee0 thaj3
+LEGITIMATIZES	lii0 cit3 thi1 mee0 thaj3 ses1
+LEGITIMATIZING	lii0 cit3 thi1 mee0 thaj3 sing2
+LEGITIMATOR	lii0 cit3 thi1 mee0 tqq2
+LEGITIMISE	lii0 cit3 thi1 maaj3
+LEGITIMISED	lii0 cit3 thi1 maaj3
+LEGITIMISER	lii0 cit3 thi1 maaj3 sqq2
+LEGITIMISES	lii0 cit3 thi1 maaj3 ses1
+LEGITIMISING	lii0 cit3 thi1 maaj3 sing2
+LEGITIMISM	lii0 cit3 thi1 mis3 svm2
+LEGITIMIST	lii0 cit3 thi1 mis3
+LEGITIMISTIC	lii0 cit3 thi1 mis3 tik1
+LEGITIMITY	lii0 cit3 thi1 mi3 tii2
+LEGITIMIZATION	lii0 cit3 thi1 maaj3 see0 chan2
+LEGITIMIZATIONS	lii0 cit3 thi1 maaj3 see0 chan2
+LEGITIMIZE	lii0 cit3 thi1 maaj3
+LEGITIMIZED	lii0 cit3 thi1 maaj3
+LEGITIMIZER	lii0 cit3 thi1 maaj3 sqq2
+LEGITIMIZES	lii0 cit3 thi1 maaj3 ses1
+LEGITIMIZING	lii0 cit3 thi1 maaj3 sing2
+LEGITIMO	lii0 cit3 thi1 m@@0
+LEGITIMUM	lii0 cit3 thi1 mam2
+LEGITIMUS	lii0 cit3 thi1 mas3
+LEGITS	lii0 kit1
+LEGLER	lek3 lqq2
+LEGLESS	lek3 lees1
+LEGLESSLY	lek3 lees1 lii2
+LEGLESSNESS	lek3 lees1 nees1
+LEGMAN	lek3 mxxn0
+LEGMEN	lek3 men0
+LEGOMENA	lee0 koo0 mi1 naa2
+LEGOMENON	lee0 koo0 mi1 n@n2
+LEGORE	lee0 k@@0
+LEGRAND	lee0 krxxn0
+LEGRANGE	lee0 kreen3
+LEGROOM	lee0 kruum0
+LEGROOMS	lee0 kruum0
+LEGROPE	lee0 kroop3
+LEGROVE	lee0 kroof3
+LEGROW	lee0 kroo0
+LEGS	lek3
+LEGUME	lek3 kuum0
+LEGUMEN	lek3 kuum0 men2
+LEGUMES	lek3 kuum0
+LEGUMIERS	li3 kuum0 miias2
+LEGUMIN	li3 kuum0 min2
+LEGUMINIFORM	li3 kuum0 mi3 ni3 f@@m0
+LEGUMINOSE	li3 kuum0 mi3 n@@s3
+LEGUMINOUS	li3 kuum0 mi3 nqq2
+LEGUMINS	li3 kuum0 min2
+LEGWORK	lek3 wqqk3
+LEGWORKS	lek3 wqqk3
+LEI	lee0 ii2
+LEIBEL	lee0 i1 beel0
+LEIBENTHAL	lee0 i1 ben0 thxxl2
+LEIBERT	lee0 i1 bqqt1
+LEIBINGER	lee0 i1 bin0 cqq2
+LEIBOLD	lee0 i1 bool0
+LEIBOLT	lee0 i1 bool3
+LEIBRAND	lee0 i1 brxxn0
+LEIBROCK	lee0 i1 br@k3
+LEICESTER	les3 tqq2
+LEICESTERFIELDS	les3 tqq2 fiil0
+LEICESTERSHIRE	les3 tqq0 chqq2
+LEIDEN	laaj0 den2
+LEIDIG	lee0 i1 dik1
+LEIDING	lee0 i1 ding2
+LEIDINGER	lee0 i1 ding0 ngqq2
+LEIER	lee0 i1 qq2
+LEIGH	lii0
+LEIGHS	lii2
+LEIGHTEN	lii0 then2
+LEIGHTON	lii0 than2
+LEIKEN	lee0 i1 khen2
+LEIMAN	lee0 i1 mxxn0
+LEININGEN	lee0 i1 ning0 ngen2
+LEININGER	lee0 i1 ning0 ngqq2
+LEINSTER	lee0 in0 sa1 tqq2
+LEIPER	lee0 i1 pqq2
+LEIPZIG	laaj0 sik3
+LEIPZIGER	laaj0 sik3 kqq2
+LEIPZIGERS	laaj0 sik3 kqq2
+LEIS	lee0 ii2
+LEISENRING	lee0 i1 sen0 ring2
+LEISER	lee0 i1 sqq2
+LEISING	lee0 i1 sing2
+LEISINGER	lee0 i1 sing0 ngqq2
+LEISTER	lii0 sa1 tqq2
+LEISTERER	lii0 sa1 tqq0 rqq2
+LEISTON	lii0 sa1 tan2
+LEISURABLE	lee0 chqq2 ree0 bql2
+LEISURABLY	lee0 chqq2 ree0 blii2
+LEISURE	lee0 chqq2
+LEISURED	lee0 chqq2
+LEISURELESS	lee0 chqq0 lees1
+LEISURELY	lee0 chqq2 lii2
+LEISURES	lee0 chqq2
+LEITER	laaj3 tqq2
+LEITERMAN	lee0 i3 thqq2 mxxn0
+LEITERS	laaj0 tqq2
+LEITMOTIF	laaj0 moo0 thif1
+LEITMOTIFS	laaj0 moo0 thif1
+LEITMOTIVES	laaj0 moo0 thif1
+LEITRE	lit3 tqq2
+LEITRICK	liit3 thrik1
+LEITRIM	lii0 thrim0
+LEIX	liich3
+LEMAN	lee0 mxxn2
+LEMANS	lee0 maan0
+LEMANSES	lee0 maan0 ses1
+LEMANSKI	lee0 maan0 sa1 kii2
+LEMEN	lee0 meen2
+LEMENS	lee0 meen2
+LEMERY	lee0 mqq0 rii2
+LEMING	leem0 ming2
+LEMINGTON	lee0 ming0 tan2
+LEMMA	leem0 maa2
+LEMMAS	leem0 maas2
+LEMMATA	leem0 mq1 thaa2
+LEMMATISATION	leem0 mq1 thaj3 see0 chan2
+LEMMATISED	leem0 mq1 thaj3
+LEMMING	leem0 ming2
+LEMMINGS	leem0 ming2
+LEMMINGSWORTH	leem0 ming2 sa1 wqqt1
+LEMMINGTON	leem0 ming0 tan2
+LEMON	lee0 m@n2
+LEMONADE	lee0 mq1 neet1
+LEMONADES	lee0 mq1 neet1
+LEMOND	lee0 m@n0
+LEMONDS	lee0 m@n0
+LEMONED	lee0 m@n2
+LEMONEDES	lee0 m@n2
+LEMONISH	lee0 mq1 nich3
+LEMONS	lee0 m@n2
+LEMONTIER	lee0 m@n2 thiia0
+LEMONY	lee0 mq1 nii2
+LEMUR	lii0 mqq2
+LEMURES	lii0 mqq2
+LEMURS	lii0 mqq2
+LEN	len0
+LENART	lee0 naat1
+LENCHES	len0 ches1
+LEND	leen3
+LENDABLE	leen3 dee0 bql2
+LENDAL	len0 d@l2
+LENDAS	len0 daas3
+LENDED	len3 det1
+LENDEE	len0 dii2
+LENDER	len3 dqq2
+LENDERERS	len3 dqq0 rqq2
+LENDERMAN	len3 dqq2 mxxn0
+LENDERMEN	len3 dqq2 men0
+LENDERS	len3 dqq2
+LENDES	len3
+LENDIG	len0 dik1
+LENDING	len3 ding2
+LENDINGS	len3 ding2
+LENDLE	len0 dql2
+LENDMAN	len3 mxxn0
+LENDMARK	len3 maak3
+LENDON	len0 d@@n2
+LENDOR	len0 dqq2
+LENDORS	len0 dqq2
+LENDRUM	len0 dram2
+LENDS	len3
+LENES	len0 nees1
+LENGEL	len0 ceel2
+LENGELING	len0 ceel0 ling2
+LENGER	len0 cqq2
+LENGHTHEN	leeng3 then2
+LENGHTHENED	leeng3 then2
+LENGHTHY	leeng3 thii2
+LENGTH	leeng3
+LENGTHEN	leng3 then2
+LENGTHENED	leng3 then2
+LENGTHENER	leng3 then0 nqq2
+LENGTHENERS	leng3 then0 nqq2
+LENGTHENING	leng3 then0 ning2
+LENGTHENS	leng3 then2
+LENGTHIER	leng3 thi1 qq2
+LENGTHIEST	leng3 thi1 es1
+LENGTHILY	leng3 thi1 lii2
+LENGTHS	leng3
+LENGTHWAYS	leng3 wees1
+LENGTHWISE	leng3 waaj3
+LENGTHY	leng3 thii2
+LENHARD	leen0 haat3
+LENHART	leen0 haat3
+LENIENCE	lii0 niian3
+LENIENCIES	lii0 niian0 sii2
+LENIENCY	lii0 niian0 sii2
+LENIENT	lii0 niian3
+LENIENTLY	lii0 niian3 lii2
+LENIN	lee0 nin0
+LENING	lee0 ning2
+LENINGER	lee0 ning0 ngqq2
+LENINGR	lee0 ning0 ngqq2
+LENINGTON	lee0 ning0 tan2
+LENINISM	lee0 nin0 nis3 svm2
+LENINIST	lee0 nin0 nis3
+LENINISTA	lee0 nin0 nis3 taa2
+LENINISTAS	lee0 nin0 nis3 taas2
+LENINISTIC	lee0 nin0 nis3 tik1
+LENINISTS	lee0 nin0 nis3
+LENINSK	lee0 nin0 sa1 kq1
+LENINSKI	lee0 nin0 sa1 kii2
+LENINSKY	lee0 nin0 sa1 kaaj0
+LENINST	lee0 nin0
+LENIS	lee0 nis3
+LENIST	lee0 nis3
+LENITIC	lee0 ni3 thik1
+LENITIES	lee0 ni3 tii2
+LENITIVE	lee0 ni1 thiif1
+LENITIVELY	lee0 ni1 thiif3 lii2
+LENITIVENESS	lee0 ni1 thiif3 nees1
+LENITUDE	lee0 ni1 cuut1
+LENITY	lee0 ni3 tii2
+LENIUS	lii0 niias2
+LENKIN	leen0 kin2
+LENNARD	leen0 naat1
+LENNARDS	leen0 naat1
+LENNICE	leen0 niis3
+LENNICK	leen0 nik3
+LENNIGER	leen0 nii0 chqq2
+LENNING	leen0 ning2
+LENNINGTON	leen0 ning0 tan2
+LENNIX	leen0 nik1
+LENNON	leen0 n@@n2
+LENNONS	leen0 n@@n2
+LENNY	leen0 nii2
+LENO	lii0 noo2
+LENORE	leen0 n@@0
+LENORMAND	leen0 n@@0 mxxn2
+LENOS	lii0 n@@s3
+LENS	leen0
+LENS	l@@ng0
+LENSBURY	leen0 sa1 bee0 rii2
+LENSCRAFTER	leen0 sa1 khraaf3 fqq2
+LENSCRAFTERS	leen0 sa1 khraaf3 fqq2
+LENSE	leen3
+LENSED	leen3
+LENSER	leen0 sqq2
+LENSER	l@@ng0 sqq2
+LENSERS	leen0 sqq2
+LENSERS	l@@ng0 sqq2
+LENSES	leen3 ses1
+LENSING	leen0 sing2
+LENSING	l@@ng0 sing2
+LENSINK	leen0 sing3
+LENSKI	leen0 sa1 kii2
+LENSKY	leen0 sa1 kii2
+LENSMAN	leen0 sa1 mxxn0
+LENSON	leen0 san2
+LENSSEN	leen3 sen2
+LENT	leen3
+LENTAL	leen3 th@l2
+LENTANDO	leen0 thxxn0 doo2
+LENTAS	leen0 thaas2
+LENTELL	leen0 theel0
+LENTEN	leen0 then2
+LENTER	leen0 tqq2
+LENTERMAN	leen0 tq1 mxxn0
+LENTEX	leen0 thek1
+LENTIA	leen0 chiia0
+LENTIC	leen0 tik1
+LENTICES	leen0 thaj3 ses1
+LENTICLE	leen0 thi1 khql2
+LENTICULA	leen0 thi1 khiw0 laa2
+LENTICULAR	leen0 thi1 khiw0 laa2
+LENTICULARIS	leen0 thi1 khiw0 lxx0 ris3
+LENTICULARITY	leen0 thi1 khiw0 lxx0 ri3 tii2
+LENTICULARLY	leen0 thi1 khiw0 laa0 lii2
+LENTICULATE	leen0 thi1 khiw0 leet1
+LENTICULATED	leen0 thi1 khiw0 leet3 thet1
+LENTICULATION	leen0 thi1 khiw0 lee0 chan2
+LENTICULE	leen0 thi1 khiw0
+LENTICULES	leen0 thi1 khiw0
+LENTIER	leen0 thi1 qq2
+LENTIFORM	leen0 thi1 f@@m0
+LENTIL	leen0 thil2
+LENTILLA	leen0 thil0 laa2
+LENTILLES	leen0 thil0 les1
+LENTILLY	leen0 thil0 lii2
+LENTILS	leen0 thil2
+LENTIN	leen0 thin0
+LENTINE	leen0 thaaj0
+LENTING	leen3 ting2
+LENTIS	leen0 tis3
+LENTISSIMO	leen0 tis3 si1 moo2
+LENTNER	leen3 nqq2
+LENTO	leen0 too2
+LENTON	leen0 tan2
+LENTONS	leen0 tan2
+LENTOR	leen0 tqq2
+LENTOS	leen0 toos2
+LENTOUS	leen0 tqq2
+LENTS	leen3
+LENTUCKY	leen0 tak3 kii2
+LENTUM	leen0 tam2
+LENZEN	leen0 sen2
+LENZENS	leen0 sen2
+LENZIE	leen0 sii2
+LENZING	leen0 sing2
+LEO	lii0 oo0
+LEOMINISTER	lii0 oo0 mi3 nis3 tqq2
+LEOMINSTER	lii0 oo0 min0 sa1 tqq2
+LEON	lii0 @@n0
+LEONARD	lii0 oo0 naat1
+LEONARDS	lii0 oo0 naat1
+LEONARDWOOD	lii0 oo0 naat1 wuut3
+LEONE	lii0 @@ng0
+LEONELLE	lii0 @@n0 neel0
+LEONELLIS	lii0 qn0 neel0 lis3
+LEONELLO	lii0 @@n0 neel0 loo2
+LEONES	lii0 @@ng0
+LEONETTO	lii0 @@n0 net3 too2
+LEONHARD	lii0 @@n0 haat3
+LEONHART	lii0 qn0 haat3
+LEONIA	lii0 oo0 niia0
+LEONIAN	lii0 oo0 niian2
+LEONIANS	lii0 oo0 niian2
+LEONIDA	lii0 oo0 naaj0 daa2
+LEONIDAS	lii0 oo0 naaj0 daas2
+LEONIDES	lii0 oo0 naj3
+LEONINE	lii0 oo0 naaj0
+LEONINES	lii0 oo0 naaj0
+LEONORA	lii0 oo0 noo0 raa2
+LEONORAS	lii0 oo0 noo0 raas2
+LEONORE	lii0 oo0 n@@0
+LEONTE	lii0 an0 tee2
+LEONTES	lii0 an0 tees1
+LEONTI	lii0 an0 tii2
+LEONTINA	lii0 an0 thii0 naa2
+LEONTINE	lii0 an0 taaj0
+LEONTINI	lii0 an0 thi1 nii2
+LEONTIS	lii0 an0 this3
+LEONTYNE	lii0 an0 thaaj0
+LEOPARD	lep3 phqqt1
+LEOPARDESS	lep3 phqqt1 des1
+LEOPARDESSES	lep3 phqqt1 des3 ses1
+LEOPARDS	lep3 phqqt1
+LEPER	lep3 phqq2
+LEPERED	lep3 phqq2
+LEPERER	lep3 phq1 rqq2
+LEPERS	lep3 phqq2
+LEPIDOPTER	lep3 phi1 d@p3 thqq2
+LEPIDOPTERA	lep3 phi1 d@p3 thq1 raa2
+LEPIDOPTERAL	lep3 phi1 d@p3 thq1 r@l2
+LEPIDOPTERAN	lep3 phi1 d@p3 thq1 rxn2
+LEPIDOPTEROLOGIST	lep3 phi1 d@p3 thqq0 r@@0 lq1 cis3
+LEPIDOPTEROLOGY	lep3 phi1 d@p3 thqq0 r@@0 lq1 cii2
+LEPIDOPTEROUS	lep3 phi1 d@p3 thq1 rqq2
+LEPIDOPTERY	lep3 phi1 d@p3 thq1 rii2
+LEPIDOTIC	lep3 phi1 d@t3 thik1
+LEPPO	lep3 poo2
+LEPRECHAUN	lep3 rq1 kh@@n0
+LEPRECHAUNS	lep3 rq1 kh@@n0
+LEPRIC	lep3 rik1
+LEPRINCE	lep3 rin3
+LEPROSY	lep3 rq1 sii2
+LEPROUS	lep3 rqq2
+LEPROUSLY	lep3 ras3 lii2
+LEPROUSNESS	lep3 ras3 nees1
+LEPTA	lep3 taa2
+LEPTIC	lep3 tik1
+LEPTICH	lep3 tik1
+LEPTOMETER	lep3 thoo0 mi3 tqq2
+LEPTON	lep3 t@n2
+LEPTONIC	lep3 thoo0 nik1
+LEPTONS	lep3 t@n2
+LEPTUM	lep3 tam2
+LEPTUS	lep3 tas3
+LERWICK	lqq0 wik1
+LES	les1
+LESAGE	les3 seec1
+LESBIAN	les3 biian2
+LESBIANISM	les3 biian2 nis3 svm2
+LESBIANS	les3 biian2
+LESE	lees3
+LESER	les3 sqq2
+LESHER	lech3 chqq2
+LESING	les3 sing2
+LESION	lii0 chan2
+LESIONED	lii0 chan2
+LESIONING	lii0 chan2 ning2
+LESIONS	lii0 chan2
+LESKIN	les3 kin2
+LESLAW	les3 l@@0
+LESLEA	les3 lii2
+LESLEE	les3 lii2
+LESLEY	les3 lii2
+LESLIE	les3 lii2
+LESLIES	les3 lii2
+LESNICK	les3 nik1
+LESOTHO	les3 soo0 thoo2
+LESS	lees1
+LESSAN	les3 sxxn2
+LESSEE	les3 sii2
+LESSEES	les3 sii2
+LESSELLS	les3 seel2
+LESSEN	les3 sen2
+LESSENBERRY	les3 sen2 bee0 rii2
+LESSENED	les3 sen2
+LESSENING	les3 sen0 ning2
+LESSENS	les3 sen2
+LESSER	les3 sqq2
+LESSERS	les3 sqq2
+LESSES	les3 ses1
+LESSICK	les3 sik3
+LESSIN	les3 sin2
+LESSING	les3 sing2
+LESSINGER	les3 sing2 ngqq2
+LESSINGHAM	les3 sing2 hxxm0
+LESSINS	les3 sin2
+LESSLEY	les3 lee2
+LESSLY	les3 sa1 laaj0
+LESSMAN	les3 mxxn0
+LESSNESS	les3 nees1
+LESSON	les3 san2
+LESSONED	les3 san2
+LESSONING	les3 san0 ning2
+LESSONS	les3 san2
+LESSOR	les3 sqq2
+LESSORS	les3 sqq2
+LEST	les3
+LESTAT	les3 txt1
+LESTELLE	les3 theel0
+LESTER	les3 tqq2
+LESTERS	les3 tqq2
+LESTERVILLE	les3 tqq2 wil0
+LESTINA	les3 thi1 naa2
+LESTOR	les3 tqq2
+LESTRAD	les3 trxxt1
+LESTRADE	les3 raat1
+LESTRANGE	les3 reen3
+LESTRANGES	les3 reen3 ces1
+LET	let1
+LETCHER	lech3 chqq2
+LETCHWORTH	lech3 wqqt1
+LETDOWN	let3 daaw0
+LETDOWNS	let3 daaw0
+LETHAL	lii0 th@l2
+LETHALS	lii0 th@l2
+LETHARGIC	li3 thaa0 cik1
+LETHARGICAL	li3 thaa0 ci1 kh@l2
+LETHARGICALLY	li3 thaa0 ci1 khq1 lii2
+LETHARGICALNESS	li3 thaa0 ci1 kh@l2 nees1
+LETHARGY	li3 thaa0 cii2
+LETHE	liit3
+LETHER	lii3 thqq2
+LETHERS	lii3 thqq2
+LETHES	liit3
+LETOUR	let3 thaaw0 qq2
+LETS	let3
+LETSINGER	let3 sing0 ngqq2
+LETSON	let3 san2
+LETTABLE	let3 thee0 bql2
+LETTAU	let3 thaaw0
+LETTED	let3 thet1
+LETTEN	let3 then2
+LETTER	let3 thqq2
+LETTERD	let3 thqqt1
+LETTERED	let3 thqq2
+LETTERER	let3 thqq2 rqq2
+LETTERERS	let3 thqq2 rqq2
+LETTERHEAD	let3 thqq2 heet3
+LETTERHEADING	let3 thqq2 heet3 ding2
+LETTERHEADINGS	let3 thqq2 heet3 ding2
+LETTERHEADS	let3 thqq2 heet3
+LETTERI	let3 thqq0 ri1
+LETTERING	let3 thqq0 ring2
+LETTERINGS	let3 thqq0 ring2
+LETTERIS	let3 thqq0 ris3
+LETTERKENNY	let3 thqq2 khen0 nii2
+LETTERMAN	let3 thqq2 mxxn0
+LETTERMANS	let3 thqq2 mxxn0
+LETTERMEN	let3 thqq2 men0
+LETTERMORE	let3 thqq2 m@@0
+LETTERPLATE	let3 thqq2 phleet1
+LETTERPRESS	let3 thqq2 phres3
+LETTERPRESSES	let3 thqq2 phres3 ses1
+LETTERS	let3 thqq2
+LETTICE	let3 thaj3
+LETTIE	let3 thaaj0
+LETTIER	let3 ti1 qq2
+LETTIN	le1 thin2
+LETTING	let3 ting2
+LETTINGA	let3 thing0 kaa2
+LETTINGLY	let3 ting2 lii2
+LETTINGS	let3 ting2
+LETTINGTON	let3 ting0 tan2
+LETTIS	let3 this3
+LETTISH	let3 thich3
+LETTONIAN	let3 thoo0 niian2
+LETTRES	let3 trqq2
+LETTUCE	let3 this3
+LETTUCES	let3 this3 ses1
+LETUP	let3 thap2
+LETUPS	let3 thap2
+LEUCOCYTE	luu0 kha1 saj3
+LEUCOCYTES	luu0 kha1 saj3
+LEUCOCYTOLOGY	luu0 kha1 saj3 thoo0 lq1 cii2
+LEUCOPATHY	luu0 kha1 pha1 tii2
+LEUCOUS	luu0 khqq2
+LEUKAEMIA	luu0 khii0 miia0
+LEUKAEMIAS	luu0 khii0 miias2
+LEVAN	lee0 wxxn2
+LEVANCE	lee0 wxxn3
+LEVANDER	lee0 wxxn0 dqq2
+LEVANDUSKY	lee0 wxxn0 das3 kii2
+LEVANS	lee0 wxxn2
+LEVANSON	lee0 wxxn0 san2
+LEVANT	lee0 wxxn3
+LEVANTED	lee0 wxxn0 thet1
+LEVANTER	lee0 wxxn0 tqq2
+LEVANTI	lq1 wxxn0 ti1
+LEVANTINE	lq1 wxxn0 thaaj0
+LEVANTINES	lq1 wxxn0 thaaj0
+LEVANTING	lq1 wxxn0 ting2
+LEVANTS	lq1 wxxn3
+LEVEE	lee0 wii2
+LEVEED	lee0 wiit3
+LEVEEING	lee0 wii0 ing2
+LEVEES	lee0 wii2
+LEVEL	lee0 wel2
+LEVELD	lee0 wel2
+LEVELED	lee0 wel2
+LEVELER	lee0 wel0 lqq2
+LEVELERS	lee0 wel2 lqq2
+LEVELEST	lee0 wel2 les1
+LEVELHEADED	lee0 wel2 heet3 det1
+LEVELHEADEDNESS	lee0 wel2 heet3 det1 nees1
+LEVELING	lee0 wel0 ling2
+LEVELLED	lee0 weel0
+LEVELLER	lee0 wel0 lqq2
+LEVELLERS	lee0 wel0 lqq2
+LEVELLEST	lee0 wel0 les1
+LEVELLING	lee0 wel0 ling2
+LEVELLINGS	lee0 wel0 ling2
+LEVELLS	lee0 weel0
+LEVELNESS	lee0 wel2 nees1
+LEVELS	lee0 wel2
+LEVEN	lee3 wen2
+LEVENBERG	lee0 wen0 bqqk1
+LEVENBERGS	lee0 wen0 bqqk1
+LEVENDUSKY	lee3 wen0 das3 kii2
+LEVENGOOD	lee0 wen2 kuut3
+LEVENHAGEN	lee0 wen2 haa0 ken2
+LEVENISH	lee0 wen0 nich3
+LEVENS	lee3 wen2
+LEVENSON	lee0 wen0 san2
+LEVENSTEIN	lee0 wen2 sa1 taaj0
+LEVENSTON	lee0 wen0 sa1 tan2
+LEVENSWORTH	lee0 wen0 sa1 wqqt1
+LEVENTHORPE	lee0 wen0 th@@p3
+LEVENTHORPES	lee0 wen0 th@@p3
+LEVENWORTH	lee0 wen2 wqqt1
+LEVER	lii0 wqq2
+LEVERAGE	lii3 wq1 reec1
+LEVERAGED	lii3 wq1 reec1
+LEVERAGES	lii3 wq1 reec3 ces1
+LEVERAGING	lii3 wq1 reec3 cing2
+LEVERED	lii0 wqq2
+LEVERER	lii0 wqq0 rqq2
+LEVERET	lee0 wqq2 ret1
+LEVERETS	lee0 wqq2 ret1
+LEVERGOOD	lii0 wqq2 kuut3
+LEVERING	lii0 wqq0 ring2
+LEVERINGHAM	lii0 wqq2 ring0 hxxm2
+LEVERINGTON	lii0 wqq2 ring0 tan2
+LEVERKUSEN	lee0 wqq0 khuu0 sen2
+LEVERONE	lii0 wqq2 wan0
+LEVERS	lii0 wqq2
+LEVERSEE	lii0 wqq2 sii0
+LEVERSON	lii0 wqq0 san2
+LEVERSONS	lii0 wqq0 san2
+LEVERTIS	lii0 wqq0 tis3
+LEVERTON	lii0 wqq0 than2
+LEVERWOOD	lii0 wqq2 wuut3
+LEVIABLE	lee0 wiia0 bql2
+LEVIATHAN	lii0 waj0 q1 than2
+LEVIATHANS	lii0 waj0 q1 than2
+LEVIED	lee0 wii2
+LEVIER	lee0 wi1 qq2
+LEVIERS	lee0 wi1 qq2
+LEVIES	lee0 wii2
+LEVIN	lee0 win2
+LEVINER	lee0 wi1 nqq2
+LEVINERS	lee0 wi1 nqq2
+LEVINES	lef3 win2
+LEVING	lef3 wing2
+LEVINGER	lef3 wing0 ngqq2
+LEVINGS	lef3 wing2
+LEVINGSTON	lef3 wing0 sa1 tan2
+LEVINGTON	lef3 wing0 tan2
+LEVINIA	lef3 wi1 niia0
+LEVINING	lef3 win0 ning2
+LEVINS	lef3 win2
+LEVINSKI	lef3 win0 sa1 kii2
+LEVINSKY	lef3 win0 sa1 kii2
+LEVINSON	lef3 win0 san2
+LEVINSTEIN	lef3 win0 sa1 taaj0
+LEVINSTONE	lef3 win2 sa1 toon0
+LEVINTON	lef3 win0 tan2
+LEVIRATE	li1 wi1 reet1
+LEVIS	lii0 waaj0
+LEVISTON	lii0 waaj3 sa1 tan2
+LEVIT	lee0 wit3
+LEVITANT	lee0 wi1 thxxn3
+LEVITATE	lee0 wi3 theet1
+LEVITATED	lee0 wi1 theet3 thet1
+LEVITATES	lee0 wi3 theet1
+LEVITATING	lee0 wi1 theet3 ting2
+LEVITATION	lee0 wi3 thee0 chan2
+LEVITATIONAL	lee0 wi3 thee0 chan2 n@l2
+LEVITATIONS	lee0 wi3 thee0 chan2
+LEVITATIOUS	lee0 wi3 thee0 chqq2
+LEVITATOR	lee0 wi3 thee0 tqq2
+LEVITATORS	lee0 wi3 thee0 tqq2
+LEVITE	lii0 waaj3
+LEVITES	lii0 waaj3
+LEVITIC	lii0 wi3 thik1
+LEVITICAL	lii0 wi3 thi1 kh@l2
+LEVITICALISM	lii0 wi3 thi1 kh@l2 lis3 svm2
+LEVITICALITY	lii0 wi3 thi1 kh@l2 li3 tii2
+LEVITICALLY	lii0 wi3 thi1 khq1 lii2
+LEVITICALNESS	lii0 wi3 thi1 kh@l2 nees1
+LEVITICISM	lii0 wi3 thi1 sis3 svm2
+LEVITICUS	lii0 wi3 thi1 khas3
+LEVITIES	lee0 wi3 tii2
+LEVITISM	lii0 wi3 this3 svm2
+LEVITOR	lee0 wi3 tqq2
+LEVITRON	lee0 wi3 thr@@n0
+LEVITSKI	lee0 wit3 sa1 kii2
+LEVITSKY	lee0 wit3 sa1 kii2
+LEVITTOWN	lee0 wit3 thaaw0
+LEVITTOWNERS	lee0 wit3 thaaw0 nqq2
+LEVITTOWNS	lee0 wit3 thaaw0
+LEVITY	lee0 wi3 tii2
+LEVY	lee0 wii2
+LEVYING	lee0 wii0 ing2
+LEWD	liw0
+LEWDER	liw0 dqq2
+LEWDEST	liw0 des1
+LEWDLY	liw0 lii2
+LEWDNESS	liw0 nees1
+LEWES	luu0 wes1
+LEWING	luu0 wing2
+LEWINGTON	luu0 wing0 tan2
+LEWIS	luu0 wis3
+LEWISBERG	luu0 wis3 bqqk1
+LEWISBURG	luu0 wis3 bqqk1
+LEWISBURN	luu0 wis3 bqqn0
+LEWISES	luu0 wis3 ses1
+LEWISH	luu0 wich3
+LEWISHAM	luu0 wich3 chxm2
+LEWISTON	luu0 wis3 tan2
+LEWISTOWN	luu0 wis3 thaaw0
+LEXIAS	lek3 siias2
+LEXICAL	lek3 si1 kh@l2
+LEXICALLY	lek3 si1 kh@l2 lii2
+LEXICO	lek3 si1 khoo2
+LEXICOGRAPHER	lek3 si1 khoo0 kraaf3 fqq2
+LEXICOGRAPHERS	lek3 si1 khoo0 kraaf3 fqq2
+LEXICOGRAPHIC	lek3 si1 khoo0 kraaf3 fik1
+LEXICOGRAPHICAL	lek3 si1 khoo0 kraaf3 fi1 kh@l2
+LEXICOGRAPHICALLY	lek3 si1 khoo0 kraaf3 fi3 khq1 lii2
+LEXICOGRAPHY	lek3 si1 khoo0 kraaf3 fii2
+LEXICOLOGIST	lek3 si1 khoo0 loo0 cis3
+LEXICOLOGY	lek3 si1 khoo0 loo0 cii2
+LEXICON	lek3 si1 kh@n0
+LEXICONISES	lek3 si1 kh@@0 nis3 ses1
+LEXICONIST	lek3 si1 kh@@0 nis3
+LEXICONS	lek3 si1 kh@n0
+LEXICOR	lek3 si1 kh@@2
+LEXIER	lek3 si1 qq2
+LEXIS	lek3 sis3
+LEXUS	lek3 sas2
+LEXUSES	lek3 sas3 ses1
+LEY	lee0
+LEYDEN	lee0 den2
+LEYDON	lee0 d@@n2
+LEYING	lee0 ing2
+LEYLAN	lee0 lxn2
+LEYLAND	lee0 lxxn0
+LEYLANDS	lee0 lxxn0
+LEYS	lees1
+LEYSEN	lee0 sen2
+LEYSING	lee0 sing2
+LI	lii0
+LIABILIES	laaj0 a1 bi1 lii2
+LIABILITIES	laaj0 a1 bi1 li3 tii2
+LIABILITY	laaj0 a1 bi1 li3 tii2
+LIABILY	laaj0 a1 bi1 lii2
+LIABLE	laaj0 a1 bql2
+LIABLENESS	laaj0 a1 bql2 nees1
+LIAISE	lii0 ees1
+LIAISED	lii0 eet2
+LIAISES	lii0 ees3 ses1
+LIAISING	lii0 ee0 sing2
+LIAISON	lii0 ee0 s@ng0
+LIAISONS	lii0 ee0 s@ng0
+LIANA	lii0 a1 naa2
+LIANAS	lii0 a1 naas2
+LIANG	lii0 xxng0
+LIAR	laaj0 qq2
+LIARS	laaj0 qq2
+LIASSIC	laaj0 xs3 sik1
+LIB	lip3
+LIBATE	laaj0 beet1
+LIBATION	laaj0 bee0 chan2
+LIBATIONARY	laaj0 bee0 chan2 na1 rii2
+LIBATIONER	laaj0 bee0 chan2 nqq2
+LIBATIONS	laaj0 bee0 chan2
+LIBBED	lip3 beet3
+LIBBER	lip3 bqq2
+LIBBERS	lip3 bqq2
+LIBBEY	lip3 bee0
+LIBBING	lip3 bing2
+LIBEL	laaj0 bel2
+LIBELANT	laaj0 bq1 lxxn3
+LIBELANTS	laaj0 bq1 lxxn3
+LIBELED	laaj0 bel2
+LIBELER	laaj0 bq1 lqq2
+LIBELERS	laaj0 bq1 lqq2
+LIBELING	laaj0 bq1 ling2
+LIBELLED	laaj0 bel2
+LIBELLEE	laaj0 bel0 lii2
+LIBELLEES	laaj0 bel0 lii2
+LIBELLER	laaj0 bel0 lqq2
+LIBELLERS	laaj0 bel0 lqq2
+LIBELLING	laaj0 bel0 ling2
+LIBELLOUS	laaj0 bel0 lqq2
+LIBELLOUSLY	laaj0 bel0 lqs3 lii2
+LIBELS	laaj0 bel2
+LIBER	li3 bqq2
+LIBERACE	li3 bqq0 rees3
+LIBERAL	li3 bqq0 r@l2
+LIBERALING	li3 bqq0 rq1 ling2
+LIBERALIS	li3 bqq0 rq1 lis3
+LIBERALISATION	li3 bqq0 rq1 laj3 see0 chan2
+LIBERALISATIONS	li3 bqq0 rq1 laj3 see0 chan2
+LIBERALISED	li3 bqq0 rq1 laj3
+LIBERALISER	li3 bqq0 rq1 laj3 sqq2
+LIBERALISERS	li3 bqq0 rq1 laj3 sqq2
+LIBERALISES	li3 bqq0 rq1 laj3 ses1
+LIBERALISING	li3 bqq0 rq1 laj3 sing2
+LIBERALISM	li3 bqq0 rq1 lis3 svm2
+LIBERALIST	li3 bqq0 r@l2 lis3
+LIBERALISTIC	li3 bqq0 rq1 lis3 tik1
+LIBERALITIES	li3 bqq0 r@l2 li3 tii2
+LIBERALITY	li3 bqq0 r@l2 li3 tii2
+LIBERALIZATION	li3 bqq0 rq1 laj3 see0 chan2
+LIBERALIZATIONS	li3 bqq0 rq1 laj3 see0 chan2
+LIBERALIZE	li3 bqq0 rq1 laj3
+LIBERALIZED	li3 bqq0 rq1 laj3
+LIBERALIZER	li3 bqq0 rq1 laj3 sqq2
+LIBERALIZERS	li3 bqq0 rq1 laj3 sqq2
+LIBERALIZES	li3 bqq0 rq1 laj3 ses1
+LIBERALIZING	li3 bqq0 rq1 laj3 sing2
+LIBERALLY	li3 bqq0 r@l2 lii2
+LIBERALNESS	li3 bqq0 r@l2 nees1
+LIBERALS	li3 bqq0 r@l2
+LIBERANS	li3 bqq0 rxxn2
+LIBERATE	li3 bqq0 reet1
+LIBERATED	li3 bqq0 reet3 thet1
+LIBERATES	li3 bqq0 reet1
+LIBERATING	li3 bqq0 reet3 ting2
+LIBERATINGLY	li3 bqq0 reet3 ting2 lii2
+LIBERATIO	li3 bqq0 ree0 chii0 oo2
+LIBERATION	li3 bqq0 ree0 chan2
+LIBERATIONAL	li3 bqq0 ree0 chan2 n@l2
+LIBERATIONALISTS	li3 bqq0 ree0 chan2 n@l2 lis3
+LIBERATIONISM	li3 bqq0 ree0 chan2 nis3 svm2
+LIBERATIONIST	li3 bqq0 ree0 chan2 nis3
+LIBERATIONISTS	li3 bqq0 ree0 chan2 nis3
+LIBERATIONS	li3 bqq0 ree0 chan2
+LIBERATIVE	li3 bqq0 ree0 thiif1
+LIBERATOR	li3 bqq0 ree0 tqq2
+LIBERATORS	li3 bqq0 ree0 tqq2
+LIBERATORY	li3 bqq0 rqt1 thq1 rii2
+LIBERATRESS	li3 bqq0 ree0 thres1
+LIBERATRIX	li3 bqq0 ree0 thrik1
+LIBERE	li3 bxx0
+LIBERIA	laaj0 bii0 riia0
+LIBERIAN	laaj0 bii0 riian2
+LIBERIANS	laaj0 bii0 riian2
+LIBERMAN	li3 bqq2 mxxn0
+LIBERMANISM	li3 bqq2 mxxn0 nis3 svm2
+LIBERS	li3 bqq2
+LIBERTES	li3 bqq0 thii2
+LIBERTIES	li3 bqq0 tii2
+LIBERTINA	li3 bqq0 thii0 naa2
+LIBERTINAGE	li3 bqq0 thi1 neec1
+LIBERTINE	li3 bqq0 thiin0
+LIBERTINES	li3 bqq0 thiin0
+LIBERTINI	li3 bqq0 thi1 nii2
+LIBERTINISM	li3 bqq0 thi1 nis3 svm2
+LIBERTINISMS	li3 bqq0 thi1 nis3 svm2
+LIBERTIS	li3 bqq0 tis3
+LIBERTY	li3 bqq0 tii2
+LIBERTYES	li3 bqq0 tis2
+LIBERTYS	li3 bqq0 tis2
+LIBIDINAL	li3 bi1 di1 n@l2
+LIBIDINALLY	li3 bi1 di1 n@l2 lii2
+LIBIDINIZATION	li3 bi1 di1 naj3 see0 chan2
+LIBIDINIZED	li3 bi1 di1 naj3
+LIBIDINIZING	li3 bi1 di1 naj3 sing2
+LIBIDINOUS	li3 bi1 di1 nqq2
+LIBIDINOUSLY	li3 bi1 di1 nqs3 lii2
+LIBIDINOUSNESS	li3 bi1 di1 nqs3 nees1
+LIBIDO	li3 bi1 doo2
+LIBIDOS	li3 bi1 doos2
+LIBITUM	li3 bi1 tham2
+LIBMAN	lip3 mxxn0
+LIBRA	li3 braa2
+LIBRAE	laaj0 bree2
+LIBRARIA	laaj3 brxx0 riia0
+LIBRARIAN	laaj3 brxx0 riian2
+LIBRARIANS	laaj3 brxx0 riian2
+LIBRARIANSHIP	laaj3 brxx0 riian2 chip3
+LIBRARIES	laaj3 brq1 rii2
+LIBRARY	laaj3 brq1 rii2
+LIBRAS	lii0 braas2
+LIBRATE	laaj0 breet1
+LIBRATED	laaj0 breet3 thet1
+LIBRATES	laaj0 breet1
+LIBRATING	laaj0 breet3 ting2
+LIBRATION	laaj0 bree0 chan2
+LIBRATIONAL	laaj0 bree0 chan2 n@l2
+LIBRATIONS	laaj0 bree0 chan2
+LIBRATORY	laaj0 brq1 th@@0 rii2
+LIBRE	li3 bqq2
+LIBRES	li3 bqq2
+LIBRETTI	li3 bret1 tii2
+LIBRETTIST	li3 bret1 tis3
+LIBRETTISTS	li3 bret1 tis3
+LIBRETTO	li3 bret1 too2
+LIBRETTOS	li3 bret1 toos2
+LIBREVILLE	li3 bqq2 wil0
+LIBYA	li3 biia0
+LIBYAN	li3 biian2
+LIBYANS	li3 biian2
+LIBYAS	li3 biias2
+LIBYES	li3 bi1 es3
+LICE	laaj3
+LICENCE	laaj0 sen2
+LICENCEABLE	laaj0 sen3 see0 bql2
+LICENCED	laaj0 sen2
+LICENCED	laaj0 sen2
+LICENCEES	laaj0 sen0 sii2
+LICENCER	laaj0 sen3 sqq2
+LICENCERS	laaj0 sen3 sqq2
+LICENCES	laaj0 sen3 ses1
+LICENCING	laaj0 sen3 sing2
+LICENSE	laaj0 sen2
+LICENSED	laaj0 sen2
+LICENSEE	laaj0 sen0 sii2
+LICENSEES	laaj0 sen0 sii2
+LICENSELESS	laaj0 sen3 lees1
+LICENSER	laaj0 sen3 sqq2
+LICENSERS	laaj0 sen3 sqq2
+LICENSES	laaj0 sen3 ses1
+LICENSESES	laaj0 sen3 ses3 ses1
+LICENSING	laaj0 sen3 sing2
+LICENSINGS	laaj0 sen3 sing2
+LICENSIVED	laaj0 sen3 siif1
+LICENTIA	laaj0 sen0 chiia0
+LICENTIATE	laaj0 sen0 chii0 eet1
+LICENTIATES	laaj0 sen0 chii0 eet1
+LICENTIATION	laaj0 sen0 chi3 ee0 chan2
+LICENTIOUS	laaj0 sen0 chiias2
+LICENTIOUSLY	laaj0 sen0 chiias3 lii2
+LICENTIOUSNESS	laaj0 sen0 chiias3 nees1
+LICHEE	laaj0 chii2
+LICHEES	laaj0 chii2
+LICHEN	laaj0 khen2
+LICHENED	laaj0 khen2
+LICHENES	laaj0 khen2
+LICHENING	laaj0 khen0 ning2
+LICHENINS	laaj0 khen0 nin0
+LICHENISM	laaj0 khen0 nis3 svm2
+LICHENOUS	laaj0 khq1 nees1
+LICHENS	laaj0 khen2
+LICHENSTEIN	laaj0 khen2 sa1 taaj0
+LICHFIELD	lich3 fiil0
+LICHGATE	lich3 keet1
+LICHGATES	lich3 keet1
+LICHI	laaj0 chi1
+LICHIS	laaj0 chis3
+LICINIAN	laaj0 si1 niian2
+LICIT	lis3 sit1
+LICITATION	lis3 sit1 thee0 chan2
+LICITLY	lis3 sit1 lii2
+LICITNESS	lis3 sit1 nees1
+LICK	lik3
+LICKABLE	lik3 khee0 bql2
+LICKED	lik3
+LICKER	lik3 kqq2
+LICKERS	lik3 kqq2
+LICKIN	lik3 kin2
+LICKING	lik3 king2
+LICKINGS	lik3 king2
+LICKINS	lik3 kin2
+LICKLE	lik3 khql2
+LICKLESS	lik3 lees1
+LICKLEY	lik3 lee2
+LICKLY	lik3 lii2
+LICKS	lik3
+LICKSTEIN	lik3 sa1 taaj0
+LICON	li3 kh@n2
+LICONIX	li3 kh@@0 nik1
+LICONTINUE	li3 kh@n0 thi1 niw0
+LICORICE	li3 kh@@0 ris3
+LICORICES	li3 kh@@0 ris3 ses1
+LICTOR	lik3 tqq2
+LICTORIA	lik3 th@@0 riia0
+LICTORIAN	lik3 th@@0 riian2
+LICTORS	lik3 tqq2
+LID	lit3
+LIDDELL	lit3 deel2
+LIDDEN	lit3 den2
+LIDDICK	lit3 dik1
+LIDDICOTT	lit3 di1 kh@t1
+LIDDING	lit3 ding2
+LIDDINGTON	lit3 ding0 tan2
+LIDDON	lit3 d@n2
+LIDLESS	lit3 lees1
+LIDO	li3 doo2
+LIDOS	li3 doos2
+LIDS	lit3
+LIE	laaj0
+LIEBECK	laaj0 bek3
+LIEBEL	laaj0 bel2
+LIEBELER	laaj0 beel0 lqq2
+LIEBELSON	laaj0 beel0 san2
+LIEBELT	laaj0 beel3
+LIEBERMAN	laaj0 bqq2 mxxn0
+LIEBERMANN	laaj0 bqq2 maan0
+LIEBERMANS	laaj0 bqq2 mxxn0
+LIEBERT	laaj0 bqqt1
+LIEBERTHAL	laaj0 bqq0 thxxl2
+LIEBERTS	laaj0 bqqt1
+LIEBIG	laaj0 bik3
+LIECHTENSTEIN	lik3 then2 sa1 taaj0
+LIECHTENSTEINER	lik3 then2 sa1 thaaj0 nqq2
+LIECHTENSTEINERS	lik3 then2 sa1 thaaj0 nqq2
+LIECHTENSTEINS	lik3 then2 sa1 taaj0
+LIED	laaj0
+LIED	lii2
+LIEDER	lii0 dqq2
+LIEDERMAN	lii0 dqq2 mxxn0
+LIEDERMANN	lii0 dqq2 maan0
+LIEDERMANS	lii0 dqq2 mxxn0
+LIEF	liif3
+LIEFER	liif3 fqq2
+LIEFEST	liif3 fes1
+LIEFLY	laaj0 flaaj0
+LIEGE	liic3
+LIEGEMAN	liic3 mxxn0
+LIEGEMEN	liic3 men0
+LIEGER	liic3 cqq2
+LIEGES	liic3 ces1
+LIEING	laaj0 ing2
+LIEN	liian0
+LIENABLE	liian0 nee0 bql2
+LIENEE	laaj0 nee2
+LIENER	liian0 nqq2
+LIENERS	liian0 nqq2
+LIENHARD	liian0 haat3
+LIENHARDS	liian0 haat3
+LIENHART	liian0 haat3
+LIENHOLDER	liian0 hool0 dqq2
+LIENING	liian0 ning2
+LIENOR	laaj0 nqq2
+LIENS	liian0
+LIERES	laaj0 res1
+LIES	laaj0
+LIESER	laaj3 sqq2
+LIEU	luu0
+LIEURANCE	luu0 rxxn3
+LIEUTENANCIES	luu0 then0 nen0 sii2
+LIEUTENANCY	luu0 then0 nen0 sii2
+LIEUTENANT	luu0 then0 nen3
+LIEUTENANTRY	luu0 then0 nqn0 thrii0
+LIEUTENANTS	luu0 then0 nen3
+LIEUTENANTSHIP	luu0 then0 nen3 chip3
+LIEUTENENT	luu0 then0 nen3
+LIEUTENT	luu0 then2
+LIEUTENTANT	luu0 then0 then3
+LIEUTENTANTS	luu0 then0 then3
+LIFE	laj3
+LIFEBELT	laj3 beel3
+LIFEBELTS	laj3 beel3
+LIFEBLOOD	laj3 blat1
+LIFEBOAT	laj3 boot3
+LIFEBOATED	laj3 boot3 thet1
+LIFEBOATHOUSE	laj3 boot3 haaw3
+LIFEBOATMAN	laj3 boot3 mxxn0
+LIFEBOATMEN	laj3 boot3 neen0
+LIFEBOATS	laj3 boot3
+LIFEBUOY	laj3 b@@j0
+LIFEBUOYS	laj3 b@@j3
+LIFEGUARD	laj3 kaat1
+LIFEGUARDING	laj3 kaat3 ding2
+LIFEGUARDS	laj3 kaat1
+LIFELESS	laj3 lees1
+LIFELESSLY	laj3 lees3 lii2
+LIFELESSNESS	laj3 lees3 nees1
+LIFELIKE	laj3 laj3
+LIFELIKENESS	laj3 laj3 nees1
+LIFELINE	laj3 laaj0
+LIFELINES	laj3 laaj0
+LIFELONG	laj3 l@@ng0
+LIFER	laj3 fqq2
+LIFERS	laj3 fqq2
+LIFES	laj3
+LIFESAVER	laj3 seef3 wqq2
+LIFESAVERS	laj3 seef3 wqq2
+LIFESAVING	laj3 seef3 wing2
+LIFESPAN	laj3 sa1 pxxn0
+LIFESPANS	laj3 sa1 pxxn0
+LIFESTYLE	laj3 sa1 taaj0
+LIFESTYLER	laj3 sa1 taaj0 lqq2
+LIFESTYLERS	laj3 sa1 taaj0 lqq2
+LIFESTYLES	laj3 sa1 taaj0
+LIFETIME	laj3 thaam0
+LIFETIMES	laj3 thaam0
+LIFEWAY	laj3 wee0
+LIFEWORK	laj3 wqqk3
+LIFEWORKS	laj3 wqqk3
+LIFORD	laaj0 f@@t1
+LIFT	lif3
+LIFTABLE	lif3 thee0 bql2
+LIFTED	lif3 thet1
+LIFTER	lif3 tqq2
+LIFTERS	lif3 tqq2
+LIFTIN	lif3 thin2
+LIFTING	lif3 ting2
+LIFTINGS	lif3 ting2
+LIFTLESS	lif3 lees1
+LIFTMAN	lif3 mxxn0
+LIFTMASTER	lif3 maas3 tqq2
+LIFTMEN	lif3 men0
+LIFTOFF	lif3 th@@f3
+LIFTOFFS	lif3 th@@f3
+LIFTS	lif3
+LIGABLE	li3 kee0 bql2
+LIGAMENT	li3 kq1 men3
+LIGAMENTAL	li3 kq1 men0 th@l2
+LIGAMENTARY	li3 kq1 men0 tha1 rii2
+LIGAMENTED	li3 kq1 men3 thet1
+LIGAMENTOUS	li3 kq1 men0 tqq2
+LIGAMENTOUSLY	li3 kq1 men0 tqs3 lii2
+LIGAMENTS	li3 kq1 men3
+LIGAND	li3 kxn2
+LIGANDED	li3 kxn0 det1
+LIGANDING	li3 kxn0 ding2
+LIGANDS	li3 kxn2
+LIGATE	li3 keet1
+LIGATED	li3 keet3 thet1
+LIGATES	li3 keet1
+LIGATING	li3 keet3 ting2
+LIGATION	li3 kee0 chan2
+LIGATIONS	li3 kee0 chan2
+LIGATO	li3 kee0 too2
+LIGATOR	li3 kee0 tqq2
+LIGATURE	li3 kee0 chqq2
+LIGATURED	li3 kee0 chqq2
+LIGATURES	li3 kee0 chqq2
+LIGER	laj0 kqq2
+LIGERS	laj0 kqq2
+LIGHT	laj3
+LIGHTABLE	laj3 thee0 bql2
+LIGHTBULB	laj3 bal3
+LIGHTBULBS	laj3 bal3
+LIGHTCAP	laj3 khxp3
+LIGHTED	laj3 thet1
+LIGHTEN	laj3 then2
+LIGHTENED	laj3 then2
+LIGHTENER	laj3 then0 nqq2
+LIGHTENERS	laj3 then0 nees1
+LIGHTENING	laj3 then0 ning2
+LIGHTENINGS	laj3 then0 ning2
+LIGHTENS	laj3 then2
+LIGHTER	laj3 tqq2
+LIGHTERAGE	laj3 thq1 reec1
+LIGHTERED	laj3 tqq2
+LIGHTERING	laj3 thqq0 ring2
+LIGHTERMAN	laj3 thqq2 mxxn0
+LIGHTERMEN	laj3 thqq2 men0
+LIGHTERS	laj3 tqq2
+LIGHTEST	laj3 thes1
+LIGHTFACE	laj3 fees3
+LIGHTFACED	laj3 fees3
+LIGHTFALL	laj3 f@@l0
+LIGHTFAST	laj3 faas3
+LIGHTFASTNESS	laj3 faas3 nees1
+LIGHTFINGERED	laj3 fing0 kqq2
+LIGHTFITTING	laj3 fit3 ting2
+LIGHTFOOT	laj3 fut3
+LIGHTFOOTED	laj3 fut3 thet1
+LIGHTFOOTEDLY	laj3 fut3 thet1 lii2
+LIGHTFOOTEDNESS	laj3 fut3 thet1 nees1
+LIGHTFUL	laj3 fuul0
+LIGHTFULNESS	laj3 fuul0 nees1
+LIGHTHALL	laj3 h@@l0
+LIGHTHAWK	laj3 h@@k3
+LIGHTHEAD	laj3 heet3
+LIGHTHEADED	laj3 heet3 det1
+LIGHTHEADEDLY	laj3 heet3 det1 lii2
+LIGHTHEADEDNESS	laj3 heet3 det1 nees1
+LIGHTHEART	laj3 haat3
+LIGHTHEARTED	laj3 haat3 thet1
+LIGHTHEARTEDLY	laj3 haat3 thet1 lii2
+LIGHTHEARTEDNESS	laj3 haat3 thet1 nees1
+LIGHTHOUSE	laj3 haaw3
+LIGHTHOUSEKEEPER	laj3 haaw3 khiip3 pqq2
+LIGHTHOUSEKEEPING	laj3 haaw3 khiip3 ping2
+LIGHTHOUSES	laj3 haaw3 ses1
+LIGHTING	laj3 ting2
+LIGHTINGS	laj3 ting2
+LIGHTISH	laj3 thich3
+LIGHTLESS	laj3 lees1
+LIGHTLIFE	laj3 laj3
+LIGHTLY	laj3 lii2
+LIGHTMAN	laj3 mxxn0
+LIGHTMINDED	laj3 maaj0 det1
+LIGHTMINDEDNESS	laj3 maaj0 det1 nees1
+LIGHTNESS	laj3 nees1
+LIGHTNESSES	laj3 nees3 ses1
+LIGHTNET	laj3 net1
+LIGHTNING	laj3 ning2
+LIGHTNINGED	laj3 ning2
+LIGHTNINGS	laj3 ning2
+LIGHTS	laj3
+LIGHTSHIP	laj3 chip3
+LIGHTSHIPS	laj3 chip3
+LIGHTSMAN	laj3 sa1 mxxn0
+LIGHTSOME	laj3 sam0
+LIGHTSOMELY	laj3 sam0 lii2
+LIGHTSOMENESS	laj3 sam0 nees1
+LIGHTSON	laj3 san2
+LIGHTSTICK	laj3 sa1 tik3
+LIGHTSTICKS	laj3 sa1 tik3
+LIGHTSTONE	laj3 sa1 toon0
+LIGHTSTREAM	laj3 sa1 triim0
+LIGHTSTREET	laj3 sa1 triit1
+LIGHTSTRING	laj3 sa1 tring0
+LIGHTSTRUCK	laj3 sa1 trak3
+LIGHTWARDS	laj3 w@@t1
+LIGHTWEIGHT	laj3 weet1
+LIGHTWEIGHTEDNESS	laj3 weet3 thet1 nees1
+LIGHTWEIGHTING	laj3 weet3 ting2
+LIGHTWEIGHTS	laj3 weet1
+LIGHTWELL	laj3 weel0
+LIGHTWELTERWEIGHT	laj3 weel0 thq1 weet1
+LIGHTWING	laj3 wing0
+LIGHTWORK	laj3 wqqk3
+LIGHTWORKS	laj3 wqqk3
+LIGHTY	laj3 tii2
+LIGHTYEARS	laj3 jiia0
+LIGNELL	lik3 neel0
+LIGNEOUS	lik3 niias2
+LIGNIFEROUS	lik3 ni3 fqq0 rqq2
+LIGNIFICATION	lik3 ni3 fi1 khee0 chan2
+LIGNIFICATIONS	lik3 ni3 fi1 khee0 chan2
+LIGNIFIED	lik3 ni1 faaj0
+LIGNIFIES	lik3 ni1 faaj0
+LIGNIFORM	lik3 ni1 f@@m0
+LIGNIFY	lik3 ni1 faaj0
+LIGNIFYING	lik3 ni1 faaj0 ing2
+LIGNITE	lik3 naj3
+LIGNITES	lik3 naj3
+LIGNITING	lik3 naj0 ting2
+LIGNON	lik3 n@n2
+LIGNUM	lik3 nam2
+LIGNUMS	lik3 nam2
+LIGURIA	li3 juu0 riia0
+LIGURIAE	li3 juu0 ri3 ee2
+LIGURIAN	li3 juu0 riian2
+LIGURIANS	li3 juu0 riian2
+LIKABILITY	laj3 khq1 bi1 li3 tii2
+LIKABLE	laj3 khee0 bql2
+LIKABLENESS	laj3 khee0 bql2 nees1
+LIKABLY	laj3 khee0 blii2
+LIKE	laj3
+LIKEABLE	laj3 khee0 bql2
+LIKEABLY	laj3 khee0 blii2
+LIKED	laj3
+LIKELIER	laj3 li1 qq2
+LIKELIEST	laj3 li1 es1
+LIKELIHOOD	laj3 lii2 huut3
+LIKELIHOODS	laj3 lii2 huut3
+LIKELIKE	laj3 laj3
+LIKELY	laj3 lii2
+LIKELYHOOD	laj3 lii2 huut3
+LIKEMINDED	laj3 maaj0 det1
+LIKEN	laj3 khen2
+LIKENED	laj3 khen2
+LIKENESS	laj3 nees1
+LIKENESSES	laj3 nees3 ses1
+LIKENING	laj3 khen0 ning2
+LIKENS	laj3 khen2
+LIKER	laj3 kqq2
+LIKERS	laj3 kqq2
+LIKES	laj3
+LIKEWISE	laj3 waj3
+LIKING	laj3 king2
+LIKINGS	laj3 king2
+LILAC	laj0 lxk1
+LILACS	laj0 lxk1
+LILIACEOUS	li3 liia0 chiias2
+LILIAN	li3 liian0
+LILICA	li3 li1 khaa2
+LILICO	li3 li1 khoo2
+LILIES	li3 lii2
+LILLE	liil0
+LILLEHAMER	liil0 hxx0 mqq2
+LILLEHAMMER	liil0 hxxm0 mqq2
+LILLER	liil0 lqq2
+LILLES	liil0
+LILLI	lil0 lii2
+LILLIAN	lil0 liian2
+LILLIANA	lil0 liia0 naa2
+LILLIANS	lil0 liian2
+LILLIBET	lil0 li1 bet1
+LILLIBRIDGE	lil0 li1 bric1
+LILLICROP	lil0 li1 khr@p3
+LILLIES	lil0 lii2
+LILLING	lil0 ling2
+LILLINGSTONE	lil0 ling2 sa1 toon0
+LILLINGTON	lil0 ling0 tan2
+LILLIPUT	lil0 li1 phat3
+LILLIPUTANS	lil0 li1 phiw0 thxn2
+LILLIPUTIAN	lil0 li1 phiw0 chiian2
+LILLIPUTIANS	lil0 li1 phiw0 chiian2
+LILLIPUTS	lil0 li1 phat3
+LILLIS	lil0 lii2
+LILLISTON	lil0 lis3 tan2
+LILT	lil3
+LILTED	lil3 thet1
+LILTING	lil3 ting2
+LILTINGLY	lil3 ting2 lii2
+LILTS	lil3
+LILY	lil0 lii2
+LILYBELL	lil0 lii2 beel0
+LIMA	li3 maa2
+LIMACONS	li3 mq1 kh@n2
+LIMAN	li3 mxxn0
+LIMANS	li3 mxxn0
+LIMAS	li3 maas2
+LIMB	lim3
+LIMBACHER	lim3 meek3 kqq2
+LIMBED	lim3
+LIMBER	lim0 bqq2
+LIMBERED	lim0 bqq2
+LIMBERER	lim0 bqq0 rqq2
+LIMBEREST	lim0 bqq0 res1
+LIMBERG	lim0 bqqk1
+LIMBERGER	lim0 bqq0 kqq2
+LIMBERING	lim0 bqq0 ring2
+LIMBERLY	lim0 bqq2 lii2
+LIMBERNESS	lim0 bqq2 nees1
+LIMBERS	lim0 bqq2
+LIMBING	lim3 ming2
+LIMBLESS	lim3 lees1
+LIMBO	lim0 boo2
+LIMBOED	lim0 boot2
+LIMBOING	lim0 boo0 ing2
+LIMBOS	lim0 boos2
+LIMBRICK	lim0 brik1
+LIMBS	lim3
+LIMBURGER	lim0 bqq0 cqq2
+LIME	laam0
+LIMED	laam0
+LIMEHOUSE	laam0 haaw3
+LIMEJUICE	laam0 cuus3
+LIMEKILN	laam0 kiin2
+LIMEKILNS	laam0 kiin2
+LIMELESS	laam0 lees1
+LIMELIGHT	laam0 laj3
+LIMELIGHTER	laam0 laj3 tqq2
+LIMELIGHTERS	laam0 laj3 tqq2
+LIMELIGHTS	laam0 laj3
+LIMELIKE	laam0 laj3
+LIMELITE	laam0 laj3
+LIMERICK	li3 mq1 rik1
+LIMERICKS	li3 mq1 rik1
+LIMES	laam0
+LIMESCALE	laam0 sa1 kheel0
+LIMESTONE	laam0 sa1 toon0
+LIMESTONES	laam0 sa1 toon0
+LIMEWASH	laam0 w@ch3
+LIMEWASHED	laam0 w@ch3
+LIMEWASHING	laam0 w@ch3 ching2
+LIMEWATER	laam0 w@@0 thqq2
+LIMEWORKS	laam0 wqqk3
+LIMEY	laaj0 mii2
+LIMEYS	laaj0 mii2
+LIMIER	laaj0 mi1 qq2
+LIMIEST	laaj0 mi1 es1
+LIMINAL	laaj0 mi1 n@l2
+LIMINALITY	laaj0 mi1 n@l2 li3 tii2
+LIMINARY	laaj0 mi1 nqq0 rii2
+LIMINATE	laaj0 mi1 neet1
+LIMINESS	laaj0 mi1 nees1
+LIMING	laaj0 ming2
+LIMINGTON	laaj0 ming0 tan2
+LIMIT	li3 mit1
+LIMITABILITY	li3 mit3 thq1 bi1 li3 tii2
+LIMITABLE	li3 mit3 thee0 bql2
+LIMITABLENESS	li3 mit3 thee0 bql2 nees1
+LIMITABLY	li3 mit3 thee0 blii2
+LIMITAL	li3 mit3 th@l2
+LIMITAN	li3 mit3 than2
+LIMITATE	li3 mit3 theet1
+LIMITATION	li3 mit3 thee0 chan2
+LIMITATIONAL	li3 mit3 thee0 chan2 n@l2
+LIMITATIONS	li3 mit3 thee0 chan2
+LIMITATIVE	li3 mit3 thee0 thiif1
+LIMITATIVELY	li3 mit3 thee0 thiif1 lii2
+LIMITED	li3 mi3 thet1
+LIMITEDLY	li3 mi3 thet1 lii2
+LIMITEDNESS	li3 mi3 thet1 nees1
+LIMITEDS	li3 mi3 thet1
+LIMITER	li3 mi3 thqq2
+LIMITERS	li3 mi3 thqq2
+LIMITES	li3 mit1
+LIMITIES	li3 mit3 tii2
+LIMITING	li3 mit3 ting2
+LIMITIVE	li3 mi3 thiif1
+LIMITLESS	li3 mit1 lees1
+LIMITLESSLY	li3 mit1 lees3 lii2
+LIMITLESSNESS	li3 mit1 lees3 nees1
+LIMITLESSNESSES	li3 mit1 lees3 nees3 ses1
+LIMITROPHE	li3 mi3 throof3
+LIMITS	li3 mit1
+LIMN	lim0
+LIMNED	lim0
+LIMNER	lim0 nqq2
+LIMNERS	lim0 nqq2
+LIMNING	lim0 ming2
+LIMNOLOGIST	lim0 noo0 lq1 cis3
+LIMNOLOGISTS	lim0 noo0 lq1 cis3
+LIMNOLOGY	lim0 noo0 lq1 cii2
+LIMNS	lim0
+LIMOGES	lim0 m@@c3
+LIMOS	lim0 moos2
+LIMOUS	lim0 moos2
+LIMOUSINE	lim0 mq1 siin0
+LIMOUSINED	lim0 mq1 siin0
+LIMOUSINES	lim0 mq1 siin0
+LIMP	lim3
+LIMPED	lim3
+LIMPER	lim3 phqq2
+LIMPERS	lim3 phqq2
+LIMPERT	lim3 phqqt1
+LIMPEST	lim3 phes1
+LIMPET	lim3 phet1
+LIMPETS	lim3 phet1
+LIMPIAS	lim3 phi1 xs3
+LIMPID	lim0 phit1
+LIMPIDITY	lim0 phi3 di1 tii2
+LIMPIDLY	lim0 phit3 lii2
+LIMPIDNESS	lim0 phit3 nees1
+LIMPIDS	lim0 phit1
+LIMPIE	lim0 phaaj0
+LIMPILY	lim0 phi1 lii2
+LIMPINESS	lim0 phi1 nees1
+LIMPING	lim0 phing2
+LIMPINGLY	lim0 phing2 lii2
+LIMPISH	lim0 phich1
+LIMPIT	lim0 phit1
+LIMPKIN	lim3 kin2
+LIMPLEY	lim3 lee2
+LIMPLY	lim3 lii2
+LIMPNESS	lim3 nees1
+LIMPS	lim3
+LIMY	laaj0 mii2
+LINABLE	laaj0 nee0 bql2
+LINAGE	laaj0 neec1
+LINAGES	laaj0 neec3 ces1
+LINCH	lin3
+LINCHFIELD	lin3 fiil0
+LINCHPIN	lin3 phin0
+LINCHPINNED	lin3 phin0
+LINCHPINS	lin3 phin0
+LINCOLN	ling0 khqn2
+LINCOLNS	ling0 khqn2
+LINCOLNSHIRE	ling0 khqn2 chqq2
+LINDA	lin0 daa2
+LINDALE	lin0 deel0
+LINDAMAN	lin0 dq1 mxxn0
+LINDAMOOD	lin0 dq1 muut3
+LINDAN	lin0 dan2
+LINDANE	lin0 deen0
+LINDANES	lin0 deen0
+LINDAR	lin0 daa2
+LINDARD	lin0 daat1
+LINDARS	lin0 daas2
+LINDAS	lin0 daas2
+LINDELL	lin0 deel0
+LINDEM	lin0 dem2
+LINDEMAN	lin0 dq1 mxxn0
+LINDEMANN	lin0 dq1 maan0
+LINDEMANS	lin0 dq1 mxxn0
+LINDEN	lin0 den2
+LINDENBERG	lin0 den0 bqqk1
+LINDENBERGER	lin0 den2 bqq0 kqq2
+LINDENBURG	lin0 den0 bqqk1
+LINDENS	lin0 den2
+LINDER	lin0 dqq2
+LINDERA	lin0 dq1 raa2
+LINDERMAN	lin0 dqq2 mxxn0
+LINDERS	lin0 dqq2
+LINDEX	lin0 dek1
+LINDHOLM	lin0 hoom0
+LINDHURST	lin0 hqqs3
+LINDIA	lin0 diia0
+LINDIE	lin0 daaj0
+LINDIES	lin0 dii2
+LINDIG	lin0 dik1
+LINDIGO	lin0 dik3 khoo2
+LINDLAND	lin0 lxxn0
+LINDLE	lin0 dql2
+LINDLER	lin0 dlqq2
+LINDLEY	lin0 lee2
+LINDLEYS	lin0 lees1
+LINDON	lin0 d@n2
+LINDOS	lin0 duus3
+LINDOW	lin0 doo2
+LINDRA	lin0 draa2
+LINDREN	lin0 dren2
+LINDRICK	lin0 drik1
+LINDROP	lin0 dr@p1
+LINDROS	lin0 dr@@s3
+LINDROSES	lin0 dr@@s3 ses1
+LINDSLEY	lin0 sa1 lee2
+LINDSLEYS	lin0 sa1 lees1
+LINDUS	lin0 duus3
+LINDY	lin0 dii2
+LINDYED	lin0 dii2
+LINE	laaj0
+LINEABLE	laaj0 nee0 bql2
+LINEAGE	lin0 neec1
+LINEAGED	lin0 neec1
+LINEAGES	lin0 neec3 ces1
+LINEAL	li1 niial2
+LINEALLY	li1 niial2 lii2
+LINEAMENT	li1 niia0 men3
+LINEAMENTED	li1 niia0 men3 thet1
+LINEAMENTS	li1 niia0 men3
+LINEAR	li1 niia0
+LINEARISED	laaj0 nqq0 raj3
+LINEARLY	li1 niial2 lii2
+LINEAS	li1 niias2
+LINEATE	li1 ni3 eet1
+LINEATED	li1 ni3 eet3 thet1
+LINEATION	li1 ni3 ee0 chan2
+LINEBACK	laaj0 bxk3
+LINEBACKED	laaj0 bxk3
+LINEBACKER	laaj0 bxk3 kqq2
+LINEBACKERS	laaj0 bxk3 kqq2
+LINEBACKING	laaj0 bxk3 king2
+LINEBACKS	laaj0 bxk3
+LINEBARGER	laaj0 baa0 cqq2
+LINEBERG	laaj0 bqqk1
+LINEBERGER	laaj0 bqq0 kqq2
+LINEBERRY	laaj0 bee0 rii2
+LINECUT	laaj0 khat3
+LINED	laaj0
+LINEFEED	laaj0 fiit1
+LINELESS	laaj0 lees1
+LINEMAKER	laaj0 meek3 kqq2
+LINEMAN	laaj0 mxxn0
+LINEMEN	laaj0 men0
+LINEMENT	laaj0 men3
+LINEN	li1 nin0
+LINENBERG	li1 nin0 bqqk1
+LINENBERGER	li1 nin0 bqq0 kqq2
+LINENS	li1 nin0
+LINER	laaj0 nqq2
+LINERBOARD	laaj0 nqq2 b@@t1
+LINERS	laaj0 nqq2
+LINES	laaj0
+LINESMAN	laaj0 sa1 mxxn0
+LINESMANS	laaj0 sa1 mxxn0
+LINESMEN	laaj0 sa1 men0
+LINEUPS	laaj0 nap2
+LINEWEAVER	laaj0 wiif3 wqq2
+LING	ling0
+LINGAD	ling0 kqt1
+LINGAM	ling0 kqm2
+LINGAMS	ling0 kqm2
+LINGARD	ling0 kaat1
+LINGARY	ling0 kq1 rii2
+LINGAS	ling0 kaas2
+LINGBECK	ling0 bek3
+LINGBIRD	ling0 bqqt3
+LINGEN	ling0 ngen2
+LINGENBERRY	ling0 ngen0 bee0 rii2
+LINGENFELTER	ling0 ngen0 feel0 tqq2
+LINGENS	ling0 ngen2
+LINGER	ling0 kqq2
+LINGERED	ling0 kqq2
+LINGERER	ling0 kqq0 rqq2
+LINGERERS	ling0 kqq0 rqq2
+LINGERFELT	ling0 kqq2 feel3
+LINGERFELTS	ling0 kqq2 feel3
+LINGERIE	lin0 cqq0 rii2
+LINGERIES	lin0 cqq0 rii2
+LINGERING	ling0 kqq0 ring2
+LINGERINGLY	ling0 kqq0 ring2 lii2
+LINGERS	ling0 kqq2
+LINGHAM	ling0 hxxm2
+LINGHAMS	ling0 hxxm2
+LINGISTICIAN	ling0 kwis3 ti1 chiian2
+LINGLEY	ling0 lee2
+LINGLING	ling0 ling2
+LINGMAN	ling0 mxxn0
+LINGMANN	ling0 maan0
+LINGO	ling0 koo2
+LINGOES	ling0 koos2
+LINGOISM	ling0 koo2 is3 svm2
+LINGOISTS	ling0 koo0 is3
+LINGOLA	ling0 koo0 laa2
+LINGS	ling0
+LINGUA	ling0 kwuua2
+LINGUAL	ling0 kwuual2
+LINGUALISM	ling0 kwuual2 lis3 svm2
+LINGUALS	ling0 kwuual2
+LINGUAPHONE	ling0 kwuua2 foon0
+LINGUINE	ling0 kwin2
+LINGUINES	ling0 kwin2
+LINGUINIS	ling0 kwin0 nis3
+LINGUIST	ling0 kwis3
+LINGUISTER	ling0 kwis3 tqq2
+LINGUISTIC	ling0 kwis3 tik1
+LINGUISTICA	ling0 kwis3 ti1 kaa2
+LINGUISTICAL	ling0 kwis3 ti1 kh@l2
+LINGUISTICALLY	ling0 kwis3 ti1 khq1 lii2
+LINGUISTICIAN	ling0 kwis3 ti1 chiian2
+LINGUISTICIANS	ling0 kwis3 ti1 chiian2
+LINGUISTICO	ling0 kwis3 ti1 koo2
+LINGUISTICS	ling0 kwis3 tik1
+LINGUISTIQUE	ling0 kwis3 tiik1
+LINGUISTIQUES	ling0 kwis3 tiik1
+LINGUISTRY	ling0 kwis3 thrii2
+LINGUISTS	ling0 kwis3
+LINGULA	ling0 kiw0 laa2
+LINGULATE	ling0 kiw0 leet1
+LINGULATED	ling0 kiw0 leet3 thet1
+LINGULID	ling0 kiw0 lit1
+LINGWOOD	ling0 wuut3
+LINICK	li1 nik1
+LINIMENT	li1 ni3 men3
+LINIMENTS	li1 ni3 men3
+LINING	laaj0 ning2
+LININGER	laaj0 ning0 ngqq2
+LININGLESS	laaj0 ning2 lees1
+LININGS	laaj0 ning2
+LININGTON	laaj0 ning0 tan2
+LINK	ling3
+LINKABLE	ling3 khee0 bql2
+LINKAGE	ling3 kheec1
+LINKAGES	ling3 kheec3 ces1
+LINKBOY	ling3 b@@j0
+LINKBOYS	ling3 b@@j3
+LINKED	ling3
+LINKER	ling0 kqq2
+LINKERS	ling0 kqq2
+LINKHORN	ling3 h@@n0
+LINKING	ling3 king2
+LINKINGS	ling3 king2
+LINKINS	ling3 kin2
+LINKMAN	ling3 mxxn0
+LINKMEN	ling3 men0
+LINKS	ling3
+LINKSMAN	ling3 sa1 mxxn0
+LINKSMITH	ling3 sa1 mit3
+LINKSTER	ling3 sa1 tqq2
+LINKUP	ling3 khap2
+LINKUPS	ling3 khap2
+LINKY	ling3 kii2
+LINLEY	lin0 lee2
+LINLEYS	lin0 lees1
+LINLITHGOW	lin0 lit3 koo2
+LINNER	lin0 nqq2
+LINNET	lin0 net1
+LINNETS	lin0 net1
+LINNIES	lin0 nii2
+LINNING	lin0 ning2
+LINO	laaj0 noo2
+LINOCUT	laaj0 noo0 khat3
+LINOCUTS	laaj0 noo0 khat3
+LINOLEUM	lin0 noo0 liiam2
+LINOLEUMED	lin0 noo0 liiam2
+LINOLEUMS	lin0 noo0 liiam2
+LINOMETER	laaj0 noo0 mi3 tqq2
+LINOS	laaj0 noos2
+LINOTYPE	laaj0 noo2 thaj3
+LINOTYPER	laaj0 noo2 thaj3 pqq2
+LINOTYPES	laaj0 noo2 thaj3
+LINOTYPIST	laaj0 noo2 thaj3 phis1
+LINSCO	lin0 sa1 koo2
+LINSCOTT	lin0 sa1 k@t3
+LINSE	lin3
+LINSEED	lin0 siit1
+LINSEEDS	lin0 siit1
+LINSEY	lin0 sii2
+LINSEYS	lin0 sii2
+LINSIDER	lin0 saj3 dqq2
+LINSKY	lin0 sa1 kii2
+LINSLADE	lin0 sa1 leet1
+LINSLEY	lin0 sa1 lee2
+LINSON	lin0 san2
+LINSTAD	lin0 sa1 txt1
+LINSTADT	lin0 sa1 txt1
+LINSTEAD	lin0 sa1 teet3
+LINSTEIN	lin0 sa1 taaj0
+LINSTOCK	lin0 sa1 t@k3
+LINSTONE	lin0 sa1 toon0
+LINSTRAND	lin0 sa1 trxxn0
+LINSTROM	lin0 sa1 tr@@m0
+LINSTROTH	lin0 sa1 tr@@t3
+LINSTRUM	lin0 sa1 tram2
+LINSTRUTH	lin0 sa1 thruut3
+LINT	lin3
+LINTANG	lin0 thxxng0
+LINTEC	lin0 thek1
+LINTECH	lin0 thek1
+LINTEL	lin0 thel2
+LINTELED	lin0 thel2
+LINTELING	lin0 thel2 ling2
+LINTELS	lin0 thel2
+LINTEN	lin0 then2
+LINTER	lin0 tqq2
+LINTERN	lin0 thqqn2
+LINTERS	lin0 tqq2
+LINTHAL	lin0 thxxl2
+LINTIER	lin0 thi1 qq2
+LINTIEST	lin0 thi1 es1
+LINTING	lin0 ting2
+LINTLESS	lin3 lees1
+LINTNER	lin3 nqq2
+LINTNERS	lin3 nqq2
+LINTOM	lin0 th@m2
+LINTON	lin0 tan2
+LINTONS	lin0 tan2
+LINTS	lin3
+LINTY	lin0 tii2
+LINTZ	lin3
+LINWICK	lin0 wik1
+LINWOOD	lin0 wuut3
+LINZ	lin3
+LINZELL	lin0 seel2
+LINZER	lin3 sqq2
+LINZERS	lin3 sqq2
+LION	laaj0 @n2
+LIONBERGER	laaj0 @n2 bqq0 kqq2
+LIONEL	laaj0 q1 nel2
+LIONELL	laaj0 q1 neel0
+LIONES	laaj0 @n2
+LIONESQUE	laaj0 q1 nes3
+LIONESS	laaj0 @n2 nees1
+LIONESSES	laaj0 @n2 nees3 ses1
+LIONHART	laaj0 @n2 haat3
+LIONHEAD	laaj0 @n2 heet3
+LIONHEADS	laaj0 @n2 heet3
+LIONHEART	laaj0 @n2 haat3
+LIONHEARTED	laaj0 @n2 haat3 thet1
+LIONHEARTEDNESS	laaj0 @n2 haat3 thet1 nees1
+LIONHOOD	laaj0 @n2 huut3
+LIONISABLE	laaj0 @n2 nis1 sa1 bql2
+LIONISABLES	laaj0 @n2 nis1 sa1 bql2
+LIONISATION	laaj0 @n2 naj3 see0 chan2
+LIONISED	laaj0 @n2 naj3
+LIONISER	laaj0 @n2 naj3 sqq2
+LIONISERS	laaj0 @n2 naj3 sqq2
+LIONISING	laaj0 @n2 naj3 sing2
+LIONIZABLE	laaj0 @n2 naj3 sa1 bql2
+LIONIZABLES	laaj0 @n2 naj3 sa1 bql2
+LIONIZATION	laaj0 @n2 naj3 see0 chan2
+LIONIZE	laaj0 @n2 naj3
+LIONIZED	laaj0 @n2 naj3
+LIONIZER	laaj0 @n2 naj3 sqq2
+LIONIZERS	laaj0 @n2 naj3 sqq2
+LIONIZES	laaj0 @n2 naj3 ses1
+LIONIZING	laaj0 @n2 naj3 sing2
+LIONS	laaj0 @n2
+LIP	lip3
+LIPARI	li3 phxx0 rii2
+LIPARID	li3 phxx0 rit3
+LIPARIS	li3 phxx0 ris3
+LIPECTOMIES	li3 phek3 thq1 mii2
+LIPFORD	lip3 f@@t1
+LIPHAM	lip3 phxxm2
+LIPID	li3 phit1
+LIPIDS	li3 phit1
+LIPINCOTT	li3 phin0 kh@t3
+LIPING	lip3 ping2
+LIPINSKI	lip3 phin0 sa1 kii2
+LIPINSKY	lip3 phin0 sa1 kii2
+LIPKENS	lip3 khen2
+LIPKIN	lip3 kin2
+LIPKIND	lip3 khaaj0
+LIPLESS	lip3 lees1
+LIPMAN	lip3 mxxn0
+LIPMANN	lip3 maan0
+LIPNICK	lip3 nik1
+LIPNICKS	lip3 nik1
+LIPOCERE	li3 phoo0 siia0
+LIPOGRAM	li3 phoo0 krxxm0
+LIPOGRAMMATISM	li3 phoo0 krxxm0 mq1 this3 svm2
+LIPOGRAMMATIST	li3 phoo0 krxxm0 mq1 this3
+LIPOGRAMS	li3 phoo0 krxxm0
+LIPPA	lip3 paa2
+LIPPARD	lip3 phaat1
+LIPPED	lip3
+LIPPEN	lip3 phen2
+LIPPENS	lip3 phen2
+LIPPER	lip3 phqq2
+LIPPERS	lip3 phqq2
+LIPPERT	lip3 phqqt1
+LIPPERTS	lip3 phqqt1
+LIPPI	lip3 phii2
+LIPPIE	lip3 phii2
+LIPPIER	lip3 phi1 qq2
+LIPPIEST	lip3 phi1 es1
+LIPPIN	lip3 phin2
+LIPPINCOTT	lip3 phin2 kh@t3
+LIPPINCOTTS	lip3 phin2 kh@t3
+LIPPINESS	lip3 phi1 nees1
+LIPPING	lip3 ping2
+LIPPINGS	lip3 ping2
+LIPPITS	lip3 phit1
+LIPPITTS	lip3 phit3
+LIPPITUDE	lip3 phi1 cuut1
+LIPPITUDO	lip3 phi1 thuu0 doo2
+LIPPY	lip3 pii2
+LIPREADING	lip3 riit3 ding2
+LIPS	lip3
+LIPSCOMB	lip3 sa1 kh@@m0
+LIPSEN	lip3 sen2
+LIPSERVICE	lip3 sqq0 wis1
+LIPSETT	lip3 set1
+LIPSHIE	lip3 shaaj0
+LIPSKI	lip3 sa1 kii2
+LIPSKIN	lip3 sa1 kin0
+LIPSKY	lip3 sa1 kii2
+LIPSMACK	lip3 sa1 mxk3
+LIPSON	lip3 san2
+LIPSTEIN	lip3 sa1 taaj0
+LIPSTER	lip3 sa1 tqq2
+LIPSTICK	lip3 sa1 tik1
+LIPSTICKED	lip3 sa1 tik1
+LIPSTICKING	lip3 sa1 tik3 king2
+LIPSTICKS	lip3 sa1 tik1
+LIPSTICKY	lip3 sa1 tik3 kii2
+LIPSTONE	lip3 sa1 toon0
+LIPTAY	lip3 thee0
+LIPTON	lip3 tan2
+LIPTONS	lip3 tan2
+LIQUATE	li3 khweet1
+LIQUATED	li3 khweet3 thet1
+LIQUATES	li3 khweet1
+LIQUATING	li3 khweet3 ting2
+LIQUATION	li3 khwee0 chan2
+LIQUATIONS	li3 khwee0 chan2
+LIQUEFACTION	li3 khwi1 fxk3 chan2
+LIQUEFACTIONS	li3 khwi1 fxk3 chan2
+LIQUEFACTIVE	li3 khwi1 fxk3 thiif1
+LIQUEFIABLE	li3 khwi1 faaj0 ee0 bql2
+LIQUEFIED	li3 khwi1 faaj0
+LIQUEFIER	li3 khwi1 faaj0 qq2
+LIQUEFIERS	li3 khwi1 faaj0 qq2
+LIQUEFIES	li3 khwi1 faaj0
+LIQUEFY	li3 khwi1 faaj0
+LIQUEFYING	li3 khwi1 faaj0 ing2
+LIQUESCE	li3 khwes3
+LIQUESCENCE	li3 khwes1 sen3
+LIQUESCENCY	li3 khwes1 sen0 sii2
+LIQUESCENT	li3 khwes1 sen3
+LIQUEUR	lik3 khqq2
+LIQUEURS	lik3 khqq2
+LIQUID	li3 khwit1
+LIQUIDATE	li3 khwi1 deet1
+LIQUIDATED	li3 khwi1 deet3 thet1
+LIQUIDATES	li3 khwi1 deet1
+LIQUIDATING	li3 khwi1 deet3 ting2
+LIQUIDATION	li3 khwi1 dee0 chan2
+LIQUIDATIONISM	li3 khwi1 dee0 chan2 nis3 svm2
+LIQUIDATIONS	li3 khwi1 dee0 chan2
+LIQUIDATOR	li3 khwi1 dee0 tqq2
+LIQUIDATORS	li3 khwi1 dee0 tqq2
+LIQUIDATORSHIP	li3 khwi1 dee0 tqq2 chip3
+LIQUIDIATE	li1 khwi3 di1 eet1
+LIQUIDIATED	li1 khwi3 di1 eet3 thet1
+LIQUIDIATING	li1 khwi3 di1 eet3 ting2
+LIQUIDIATION	li1 khwi3 di1 ee0 chan2
+LIQUIDITIES	li1 khwi3 di1 tii2
+LIQUIDITY	li1 khwi3 di1 tii2
+LIQUIDIZE	li3 khwit1 daaj3
+LIQUIDIZED	li3 khwit1 daaj3
+LIQUIDIZER	li3 khwit1 daaj3 sqq2
+LIQUIDIZERS	li3 khwit1 daaj3 sqq2
+LIQUIDIZES	li3 khwit1 daaj3 ses1
+LIQUIDIZING	li3 khwit1 daaj3 sing2
+LIQUIDLESS	li3 khwit1 lees1
+LIQUIDLY	li3 khwit1 lii2
+LIQUIDS	li3 khwit1
+LIQUISTIC	li1 khwis3 tik1
+LIQUITY	li1 khwit3 tii2
+LIQUOR	lik3 khqq2
+LIQUORED	lik3 khqq2
+LIQUORICE	lik3 khq1 ris3
+LIQUORICES	lik3 khq1 ris3 ses1
+LIQUORING	lik3 khq1 ring2
+LIQUORING	lik3 khq1 ring2
+LIQUORIST	lik3 khq1 ris3
+LIQUORS	lik3 khqq2
+LIRA	liia0 raa2
+LIRAE	liia0 ree2
+LIRAS	liia0 raas2
+LIRE	liia0 rqq2
+LISA	li3 saa2
+LISABET	li3 sa1 bet1
+LISANDO	li3 sxxn0 doo2
+LISANDRA	li3 sxxn0 draa2
+LISANDRO	li3 sxxn0 droo2
+LISANTI	li3 sxxn0 tii2
+LISBON	lis3 b@n2
+LISBONITES	lis3 bq1 naj3
+LISKEARD	lis3 kaat1
+LISKER	lis3 kqq2
+LISKEY	lis3 kii2
+LISKIN	lis3 kin2
+LISLE	laaj3
+LISLES	laaj3
+LISP	lis3
+LISPED	lis3
+LISPER	lis3 pqq2
+LISPERS	lis3 pqq2
+LISPING	lis3 ping2
+LISPINGLY	lis3 ping2 lii2
+LISPINGS	lis3 ping2
+LISPS	lis3
+LISSA	lis3 saa2
+LISSADE	lis3 seet2
+LISSER	lis3 sqq2
+LISSOM	lis3 sam2
+LISSOME	lis3 sam0
+LISSOMELY	lis3 sam0 lii2
+LISSOMENESS	lis3 sam0 nees1
+LISSOMNESS	lis3 sam2 nees1
+LIST	lis3
+LISTABLE	lis3 thee0 bql2
+LISTALL	lis3 th@l2
+LISTAS	lis3 taas3
+LISTED	lis3 thet1
+LISTEDNESS	lis3 thet1 nees1
+LISTEES	lis3 tii2
+LISTEL	lis3 teel0
+LISTEN	lis3 sqn2
+LISTENED	lis3 sqn2
+LISTENER	lis3 sqn2 nqq2
+LISTENERS	lis3 sqn2 nqq2
+LISTENING	lis3 sqn2 ning2
+LISTENINGS	lis3 sqn2 ning2
+LISTENS	lis3 sqn2
+LISTER	lis3 tqq2
+LISTERA	lis3 thq1 raa2
+LISTERI	lis3 thq1 rii2
+LISTERIA	lis3 thqq0 riia0
+LISTERIAN	lis3 thqq0 riian2
+LISTERINE	lis3 thqq0 riin0
+LISTERINES	lis3 thqq0 riin0
+LISTERISE	lis3 thq1 raj3
+LISTERISES	lis3 thq1 raj3 ses1
+LISTERISM	lis3 thq1 ris3 svm2
+LISTERIZE	lis3 thq1 raj3
+LISTERIZES	lis3 thq1 raj3 ses1
+LISTERNERS	lis3 thqq0 nees1
+LISTERS	lis3 tqq2
+LISTICA	lis3 ti1 khaa2
+LISTIN	lis3 tin2
+LISTINE	lis3 taaj0
+LISTING	lis3 ting2
+LISTINGS	lis3 ting2
+LISTINTS	lis3 tin3
+LISTLESS	lis3 lees1
+LISTLESSLY	lis3 lees3 lii2
+LISTLESSNESS	lis3 lees3 nees1
+LISTLIKE	lis3 laj3
+LISTMAN	lis3 mxxn0
+LISTMENT	lis3 men3
+LISTON	lis3 tan2
+LISTOS	lis3 th@s3
+LISTRAC	lis3 thrxk3
+LISTRED	lis3 threet1
+LISTREL	lis3 thrql2
+LISTRESS	lis3 thres1
+LISTRI	lis3 thrii2
+LISTRIC	lis3 thrik1
+LISTROM	lis3 thr@m0
+LISTS	lis3
+LISTSELLER	lis3 seel0 lqq2
+LISTWORK	lis3 wqqk3
+LISTWORLD	lis3 wqql2
+LIT	lit3
+LITALIEN	lit3 thee0 liian2
+LITAN	li3 than2
+LITANIES	li3 thq1 nii2
+LITANY	li3 thq1 nii2
+LITARATI	li3 thq1 ra1 ti1
+LITATION	li3 thee0 chan2
+LITCHEE	laaj0 chii2
+LITCHEES	laaj0 chii2
+LITCHI	laaj0 chi3
+LITCHIS	laaj0 chis3
+LITER	lit3 tqq2
+LITERACIES	lit3 thq1 ree0 sii2
+LITERACY	lit3 thq1 ree0 sii2
+LITERAL	lit3 thq1 r@l2
+LITERALISATION	lit3 thq1 r@l2 laj3 see0 chan2
+LITERALISED	lit3 thq1 r@l2 laj3
+LITERALISER	lit3 thq1 r@l2 laj3 sqq2
+LITERALISERS	lit3 thq1 r@l2 laj3 sqq2
+LITERALISES	lit3 thq1 r@l2 laj3 ses1
+LITERALISING	lit3 thq1 r@l2 laj3 sing2
+LITERALISM	lit3 thq1 r@l2 lis3 svm2
+LITERALIST	lit3 thq1 r@l2 lis3
+LITERALISTIC	lit3 thq1 r@l2 lis3 tik1
+LITERALISTICALLY	lit3 thq1 r@l2 lis3 ti1 khq1 lii2
+LITERALISTS	lit3 thq1 r@l2 lis3
+LITERALITY	lit3 thq1 r@l2 li3 tii2
+LITERALIZATION	lit3 thq1 r@l2 laj3 see0 chan2
+LITERALIZE	lit3 thq1 r@l2 laj3
+LITERALIZED	lit3 thq1 r@l2 laj3
+LITERALIZER	lit3 thq1 r@l2 laj3 sqq2
+LITERALIZERS	lit3 thq1 r@l2 laj3 sqq2
+LITERALIZES	lit3 thq1 r@l2 laj3 ses1
+LITERALIZING	lit3 thq1 r@l2 laj3 sing2
+LITERALLY	lit3 thq1 r@l2 lii2
+LITERALNESS	lit3 thq1 r@l2 nees1
+LITERALS	lit3 thq1 r@l2
+LITERARILY	lit3 thqq0 ra1 ri3 lii2
+LITERARINESS	lit3 thqq0 ra1 ri3 nees1
+LITERARY	lit3 thq1 raa0 rii2
+LITERAS	lit3 thq1 raas2
+LITERATE	lit3 thq1 reet1
+LITERATELY	lit3 thq1 reet3 lii2
+LITERATENESS	lit3 thq1 reet3 nees1
+LITERATES	lit3 thq1 reet1
+LITERATI	lit3 thq1 raa0 ti1
+LITERATIM	lit3 thq1 raa0 thim2
+LITERATION	lit3 thq1 ree0 chan2
+LITERATOR	lit3 thq1 ree0 tqq2
+LITERATURE	lit3 thq1 ree0 chqq2
+LITERATURES	lit3 thq1 ree0 chqq2
+LITERS	lit3 tqq2
+LITES	lit3
+LITHARGE	lit3 thaac3
+LITHE	laaj3
+LITHELY	laaj3 lii2
+LITHENESS	laaj3 nees1
+LITHER	li3 dqq2
+LITHERLAND	li3 dqq2 lxxn0
+LITHESOME	laaj3 sam2
+LITHESOMENESS	laaj3 sam2 nees1
+LITHGOW	lit3 koo0
+LITHGOWS	lit3 koos2
+LITHIA	li3 thiia0
+LITHIAS	li3 thiias2
+LITHIC	li3 thik1
+LITHICALLY	li3 thi1 khq1 lii2
+LITHIUM	li3 thiiam2
+LITHIUMS	li3 thiiam2
+LITHO	laaj3 thoo2
+LITHOCHROMATIC	li3 thq1 khroo0 mxt3 thik1
+LITHOCHROMATICS	li3 thq1 khroo0 mxt3 thik1
+LITHOCHROMATOGRAPHIC	li3 thq1 khroo0 mxt3 thoo0 kraaf3 fik1
+LITHOGRAPH	li3 thq1 kraaf3
+LITHOGRAPHED	li3 thq1 kraaf3
+LITHOGRAPHER	li3 thoo0 kraaf3 fqq2
+LITHOGRAPHERS	li3 thoo0 kraaf3 fqq2
+LITHOGRAPHIC	li3 thq1 kraaf3 fik1
+LITHOGRAPHICAL	li3 thq1 kraaf3 fi1 kh@l2
+LITHOGRAPHICALLY	li3 thq1 kraaf3 fi3 khq1 lii2
+LITHOGRAPHICS	li3 thq1 kraaf3 fik1
+LITHOGRAPHING	li3 thq1 kraaf3 fing2
+LITHOGRAPHS	li3 thq1 kraaf3
+LITHOGRAPHY	li3 thoo0 kraaf3 fii2
+LITHOGRAVURE	laaj3 thoo0 kraa0 wuua0
+LITHOLOGIC	laaj3 thoo0 loo0 cik1
+LITHOPRINT	li3 thoo0 phrin3
+LITHOS	laaj3 thoos2
+LITHOSPHERE	li3 thoo0 sa1 fiia0
+LITHOTOME	laaj3 thoo0 thoom0
+LITHOTRIPTER	laaj3 thoo0 thrip3 tqq2
+LITHOTRIPTERS	laaj3 thoo0 thrip3 tqq2
+LITHOTRIPTOR	laaj3 thoo0 thrip3 tqq2
+LITHOTRIPTORS	laaj3 thoo0 thrip3 tqq2
+LITHOTYPE	li3 thoo0 thaj3
+LITHOTYPER	li3 thoo0 thaj3 pqq2
+LITHOTYPY	li3 too0 thaj3 pii2
+LITHUANIAN	li3 thuua0 niian2
+LITHUANIANS	li3 thuua0 niian2
+LITIGABLE	li1 thi3 kee0 bql2
+LITIGANT	li1 thi3 kxxn3
+LITIGANTS	li1 thi3 kxxn3
+LITIGATE	li3 thi1 keet1
+LITIGATED	li3 thi1 keet3 thet1
+LITIGATES	li3 thi1 keet1
+LITIGATING	li3 thi1 keet3 ting2
+LITIGATION	li3 thi1 kee0 chan2
+LITIGATIONS	li3 thi1 kee0 chan2
+LITIGATIVE	li3 thi1 kee0 thiif1
+LITIGATOR	li3 thi1 kee0 tqq2
+LITIGATORS	li3 thi1 kee0 tqq2
+LITIGATORY	li3 thi1 kee0 thq1 rii2
+LITIGION	li3 thi1 ciian2
+LITIGIOUS	li3 thi1 ciias2
+LITIGIOUSLY	li3 thi1 ciias2 lii2
+LITIGIOUSNESS	li3 thi1 ciias2 nees1
+LITMAN	lit3 mxxn0
+LITMUS	lit3 mas3
+LITMUSES	lit3 mas3 ses1
+LITORAL	lit3 thq1 r@l2
+LITOTES	laaj3 thq1 thii2
+LITRE	lit3 tqq2
+LITRES	lit3 tqq2
+LITSKY	lit3 sa1 kaaj0
+LITTAIN	lit3 theen2
+LITTAU	lit3 thaaw0
+LITTAUR	lit3 thaaw0 wqq2
+LITTEL	lit3 thel2
+LITTELL	lit3 theel0
+LITTEN	lit3 then2
+LITTENBERG	lit3 then0 bqqk1
+LITTER	lit3 tqq2
+LITTERAL	lit3 thq1 r@l2
+LITTERARY	lit3 thq1 raa0 rii2
+LITTERATURE	lit3 thq1 ree0 chqq2
+LITTERBIN	lit3 tqq2 bin0
+LITTERBINS	lit3 tqq2 bin0
+LITTERBOX	lit3 tqq2 b@k3
+LITTERBUG	lit3 tqq2 bak3
+LITTERBUGS	lit3 tqq2 bak3
+LITTERED	lit3 tqq2
+LITTERER	lit3 thq1 rqq2
+LITTERERS	lit3 thq1 rqq2
+LITTEREST	lit3 thq1 res3
+LITTERING	lit3 thq1 ring2
+LITTERIS	lit3 thq1 ris3
+LITTERLESS	lit3 thqq2 lees1
+LITTERMAN	lit3 thqq2 mxxn0
+LITTERS	lit3 thqq2
+LITTERY	lit3 thq1 rii2
+LITTIG	lit3 thik1
+LITTIGS	lit3 thik1
+LITTIN	lit3 thin2
+LITTLE	lit3 tql2
+LITTLEBOY	lit3 tql2 b@@j0
+LITTLECHILD	lit3 tql2 chaaj0
+LITTLED	lit3 tql2
+LITTLEFIELD	lit3 tql2 fiil0
+LITTLEFORD	lit3 tql2 f@@t1
+LITTLEHAM	lit3 tql2 hxxm0
+LITTLEHAMPTON	lit3 tql2 hxxm0 tan2
+LITTLEJOHN	lit3 tql2 c@@n0
+LITTLEJOHNS	lit3 tql2 c@@n0
+LITTLEMAN	lit3 tql2 mxxn0
+LITTLENECK	lit3 tql2 nek3
+LITTLENECKS	lit3 tql2 nek3
+LITTLENESS	lit3 tql2 nees1
+LITTLEPAGE	lit3 tql2 pheec1
+LITTLER	lit3 tq1 lqq2
+LITTLES	lit3 tql2
+LITTLEST	lit3 tql2 les1
+LITTLETOE	lit3 tql2 thoo0
+LITTLETON	lit3 tql0 tan2
+LITTLETONS	lit3 tql0 tan2
+LITTLETOWN	lit3 tql2 thaaw0
+LITTLEWOOD	lit3 tql2 wuut3
+LITTLEWOODS	lit3 tql2 wuut3
+LITTLEWORTH	lit3 tql2 wqqt1
+LITTLING	lit3 tql2 ling2
+LITTON	lit3 tan2
+LITTORAL	lit3 thq1 r@l2
+LITTORALE	lit3 thq1 reel2
+LITTORALES	lit3 thq1 reel2
+LITTORALIS	lit3 thq1 ra1 lis3
+LITTORALS	lit3 thq1 r@l2
+LITTORINA	lit3 thq1 rii0 naa2
+LITTRESS	lit3 thres1
+LITTS	lit3
+LITURGIC	li3 thqq0 cik1
+LITURGICAL	li3 thqq0 ci1 kh@l2
+LITURGICALLY	li3 thqq0 ci1 khq1 lii2
+LITURGICS	li3 thqq0 cik1
+LITURGIES	li3 thqq0 cii2
+LITURGIST	li3 thqq0 cis3
+LITURGISTIC	li3 thqq0 cis3 tik1
+LITURGISTICAL	li3 thqq0 cis3 ti1 kh@l2
+LITURGISTS	li3 thqq0 cis3
+LITURGY	li3 thqq0 cii2
+LITUUS	li3 thuus2
+LITWILLER	lit3 wil0 lqq2
+LITWIN	lit3 win2
+LITWINSKI	lit3 win0 sa1 kii2
+LITZENBERG	lit3 sen0 bqqk1
+LITZENBERGER	lit3 sen0 bqq0 kqq2
+LITZINGER	lit3 sing2 ngqq2
+LIVABILITY	li3 wq1 bi1 li3 tii2
+LIVABLE	li3 wee0 bql2
+LIVABLENESS	li3 wee0 bql2 nees1
+LIVABLY	li3 wee0 blii2
+LIVANT	li3 wxxn3
+LIVANTA	li3 wxxn0 taa2
+LIVE	laj3
+LIVE	lif3
+LIVEABILITY	laj3 wq1 bi1 li3 tii2
+LIVEABLE	lif3 wee0 bql2
+LIVED	lif3
+LIVELIER	laj3 li1 qq2
+LIVELIEST	laj3 li1 es1
+LIVELIHOOD	laj3 lii2 huut3
+LIVELIHOODS	laj3 lii2 huut3
+LIVELILY	laj3 li1 lii2
+LIVELINES	laj3 laaj0
+LIVELINESS	laj3 li1 nees1
+LIVELONG	lif3 l@@ng0
+LIVELY	laj3 lii2
+LIVELYS	laj3 lii2
+LIVEN	laj3 wen2
+LIVENED	laj3 wen2
+LIVENER	laj3 wq1 nqq2
+LIVENERS	laj3 wq1 nqq2
+LIVENESS	laj3 nees1
+LIVENGOOD	laj3 wen2 kuut3
+LIVENGOODS	laj3 wen2 kuut3
+LIVENING	laj3 wq1 ning2
+LIVENS	laj3 wen2
+LIVER	li3 wqq2
+LIVERANCE	laaj3 rxxn3
+LIVERED	li3 wqq2
+LIVERGOOD	li3 wqq2 kuut3
+LIVERIE	li3 wqq0 rii2
+LIVERIED	li3 wqq0 rii2
+LIVERIES	li3 wqq0 rii2
+LIVERISH	li3 wqq0 rich1
+LIVERISHLY	li3 wqq0 rich3 lii2
+LIVERISHNESS	li3 wqq0 rich3 nees1
+LIVERMAN	li3 wqq2 mxxn0
+LIVERMORE	li3 wqq2 m@@0
+LIVERPOOL	li3 wqq2 phuul0
+LIVERPOOLS	li3 wqq2 phuul0
+LIVERPUDLIAN	li3 wqq2 phat3 liian2
+LIVERPUDLIANS	li3 wqq2 phat3 liian2
+LIVERS	li3 wqq2
+LIVERTON	li3 wqq0 tan2
+LIVERWORT	li3 wqq2 wqqt1
+LIVERWORTS	li3 wqq2 wqqt1
+LIVERWURST	li3 wqq2 wqqs3
+LIVERWURSTS	li3 wqq2 wqqs3
+LIVERY	li3 wqq0 rii2
+LIVERYMAN	li3 wqq0 rii2 mxxn0
+LIVERYMEN	li3 wqq0 rii2 men0
+LIVES	laj3
+LIVES	lif3
+LIVESAY	laj3 see2
+LIVESTOCK	laj3 sa1 t@k3
+LIVESTOCKS	laj3 sa1 t@k3
+LIVETRAP	laj3 thrxp3
+LIVETRAPS	laj3 thrxp3
+LIVIA	li3 wiia0
+LIVIAN	li3 wiian2
+LIVID	li3 wit1
+LIVIDITIES	li1 wi3 di1 tii2
+LIVIDITY	li1 wi3 di3 tii2
+LIVIDLY	li3 wit1 lii2
+LIVIDNESS	li3 wit1 nees1
+LIVING	lif3 wing2
+LIVINGLESS	lif3 wing2 lees1
+LIVINGLY	lif3 wing2 lii2
+LIVINGS	lif3 wing2
+LIVINGSON	lif3 wing0 san2
+LIVINGSTON	lif3 wing0 sa1 tan2
+LIVINGSTONE	lif3 wing2 sa1 toon0
+LIVINGSTONES	lif3 wing2 sa1 toon0
+LIVINGSTONS	lif3 wing0 sa1 tan2
+LIVINGTON	lif3 wing0 tan2
+LIVINGWELL	lif3 wing2 weel0
+LIVINSTON	lif3 win0 sa1 tan2
+LIVONIAN	li3 woo0 niian2
+LIVONIANS	li3 woo0 niian2
+LIVORNO	li3 w@@0 noo2
+LIXING	lik3 sing2
+LIXIVE	lik3 siif1
+LIXIVIATE	lik3 si1 wi3 eet1
+LIXIVIATED	lik3 si1 wi3 eet3 thet1
+LIXIVIATES	lik3 si1 wi3 eet1
+LIXIVIATING	lik3 si1 wi3 eet3 ting2
+LIXIVIATION	lik3 si1 wi3 ee0 chan2
+LIXIVIATOR	lik3 si1 wi3 ee0 tqq2
+LIZ	lis3
+LIZA	li3 saa2
+LIZARD	lis3 saat1
+LIZARDLY	lis3 saat1 lii2
+LIZARDS	lis3 saat1
+LIZZARD	lis3 saat1
+LIZZY	lis3 sii2
+LJUBLJANA	liw0 blq1 jaa0 naa2
+LLAMA	laa0 maa2
+LLAMAS	laa0 maas2
+LLANDOFF	lxxn0 d@@f3
+LLANDOW	lxxn0 daaw0
+LLANDUDNO	lxxn0 dqt1 noo2
+LLANDULAS	lxxn0 duu0 laas2
+LLANELLI	lxxn0 nel0 lii2
+LLANGOLLEN	lxxn0 k@@l0 len2
+LLANOS	lxxn0 noos2
+LLANTHONY	lxxn0 thq1 nii2
+LLANTO	lxxn0 thoo2
+LLANTRISANT	lxxn0 thris1 sxn3
+LLANTWIT	lxxn3 wit1
+LLOYD	l@@j0
+LLOYDS	l@@j0
+LO	loo0
+LOAD	loot1
+LOADABLE	loot3 dee0 bql2
+LOADED	loot3 det1
+LOADER	loot3 dqq2
+LOADERS	loot3 dqq2
+LOADES	loot1
+LOADHOLT	loot1 hool3
+LOADING	loot1 ding2
+LOADINGS	loot1 ding2
+LOADMAN	loot1 mxxn0
+LOADMASTER	loot1 maas3 tqq2
+LOADMASTERS	loot1 maas3 tqq2
+LOADS	loot1
+LOADSTAR	loot1 sa1 taa0
+LOADSTARS	loot1 sa1 taas2
+LOADSTONE	loot1 sa1 toon0
+LOADSTONES	loot1 sa1 toon0
+LOAF	loof3
+LOAFED	loof3
+LOAFER	loof3 fqq2
+LOAFERED	loof3 fqq2
+LOAFERS	loof3 fqq2
+LOAFING	loof3 fing2
+LOAFINGLY	loof3 fing2 lii2
+LOAFS	loof3
+LOAM	loom0
+LOAMED	loom0
+LOAMIER	loom0 mi1 qq2
+LOAMIEST	loom0 mi1 es1
+LOAMING	loom0 ming2
+LOAMS	loom0
+LOAMY	loom0 mii2
+LOAN	loon0
+LOANABLE	loon0 nee0 bql2
+LOANED	loon0
+LOANER	loon0 nqq2
+LOANERS	loon0 nqq2
+LOANHEAD	loon0 heet3
+LOANING	loon0 ning2
+LOANINGS	loon0 ning2
+LOANLOSS	loon0 l@@s3
+LOANS	loon0
+LOANSHARK	loon0 chaak3
+LOANSHARKING	loon0 chaak3 king2
+LOANWORD	loon0 wqqt1
+LOANWORDS	loon0 wqqt1
+LOATH	loot1
+LOATHE	loot1
+LOATHED	loot3 det1
+LOATHER	loot3 dqq2
+LOATHERS	loot3 dqq2
+LOATHES	loot1
+LOATHING	loot3 ding2
+LOATHINGLY	loot3 ding2 lii2
+LOATHINGS	loot3 ding2
+LOATHLIER	loot3 li1 qq2
+LOATHLIEST	loot3 li1 es1
+LOATHLY	loot3 lii2
+LOATHNESS	loot3 nees1
+LOATHS	loot1
+LOATHSOME	loot3 sam2
+LOATHSOMELY	loot3 sam2 lii2
+LOATHSOMENESS	loot3 sam2 nees1
+LOATHSOMEST	loot3 sam2 mes1
+LOAVES	loof3
+LOB	l@@p3
+LOBATE	loo0 beet1
+LOBATED	loo0 beet3 thet1
+LOBBAN	l@@p3 bxn2
+LOBBED	l@@p3
+LOBBER	l@@p3 bqq2
+LOBBERS	l@@p3 bqq2
+LOBBEST	l@@p3 bes1
+LOBBIED	l@@p3 bii2
+LOBBIES	l@@p3 bii2
+LOBBING	l@@p3 bing2
+LOBBISH	l@@p3 bich1
+LOBBY	l@@p3 bii2
+LOBBYED	l@@p3 bii2
+LOBBYER	l@@p3 bii0 qq2
+LOBBYERS	l@@p3 bii0 qq2
+LOBBYING	l@@p3 bii0 ing2
+LOBBYISM	l@@p3 bii2 is3 svm2
+LOBBYISMS	l@@p3 bii2 is3 svm2
+LOBBYIST	l@@p3 bii0 is3
+LOBBYISTS	l@@p3 bii0 is3
+LOBDELL	l@@p3 deel0
+LOBE	l@@p3
+LOBED	l@@p3
+LOBEFIN	loop3 fin2
+LOBEL	loo0 beel2
+LOBELIA	loo0 bq1 liia0
+LOBELIAS	loo0 bq1 liias2
+LOBELINE	loop3 laaj0
+LOBELL	loo0 beel0
+LOBELLO	loo0 beel0 loo2
+LOBELVILLE	loo0 beel2 wil0
+LOBER	loo0 bqq2
+LOBERG	loo0 bqqk1
+LOBES	loop3
+LOBING	loop3 bing2
+LOBINSKI	loo0 bin0 sa1 kii2
+LOBLAW	l@p3 l@@0
+LOBLAWS	l@p3 l@@s2
+LOBLEY	l@p3 lee2
+LOBOS	loo0 boos2
+LOBS	l@@p3
+LOBSTEIN	l@@p3 sa1 taaj0
+LOBSTER	l@@p3 sa1 tqq2
+LOBSTERING	l@@p3 sa1 tqq0 ring2
+LOBSTERISH	l@@p3 sa1 tqq2 rich3
+LOBSTERMAN	l@@p3 sa1 tqq2 mxxn0
+LOBSTERMEN	l@@p3 sa1 tqq2 men0
+LOBSTERPROOF	l@@p3 sa1 tqq2 phruuf3
+LOBSTERS	l@@p3 sa1 tqq2
+LOBULA	loo0 biw0 laa2
+LOBULAR	loo0 biw0 laa2
+LOBULARITY	loo0 biw0 lxx0 ri3 tii2
+LOBULARLY	loo0 biw0 laa0 lii2
+LOBULATE	loo0 biw0 leet1
+LOBULATED	loo0 biw0 leet3 thet1
+LOBULATION	loo0 biw0 lee0 chan2
+LOBULATUM	loo0 biw0 lee0 tham2
+LOBULE	loo0 buul0
+LOBULES	loo0 buul0
+LOC	l@k3
+LOCAL	loo0 kh@l2
+LOCALE	loo0 kheel0
+LOCALES	loo0 kheel0
+LOCALISABLE	loo0 kh@l2 laj3 sa1 bql2
+LOCALISABLES	loo0 kh@l2 laj3 sa1 bql2
+LOCALISATION	loo0 kh@l2 laj3 see0 chan2
+LOCALISATIONS	loo0 kh@l2 laj3 see0 chan2
+LOCALISED	loo0 kh@l2 laj3
+LOCALISER	loo0 kh@l2 laj3 sqq2
+LOCALISERS	loo0 kh@l2 laj3 sqq2
+LOCALISES	loo0 kh@l2 laj3 ses1
+LOCALISING	loo0 kh@l2 laj3 sing2
+LOCALISM	loo0 kh@l2 lis3 svm2
+LOCALISMS	loo0 kh@l2 lis3 svm2
+LOCALIST	loo0 kh@l2 lis3
+LOCALISTIC	loo0 kh@l2 lis3 tik1
+LOCALISTS	loo0 kh@l2 lis3
+LOCALITIES	loo0 kh@l2 li3 tii2
+LOCALITY	loo0 kh@l2 li3 tii2
+LOCALIZABLE	loo0 kh@l2 laj3 sa1 bql2
+LOCALIZABLES	loo0 kh@l2 laj3 sa1 bql2
+LOCALIZATION	loo0 kh@l2 laj3 see0 chan2
+LOCALIZATIONS	loo0 kh@l2 laj3 see0 chan2
+LOCALIZE	loo0 kh@l2 laj3
+LOCALIZED	loo0 kh@l2 laj3
+LOCALIZER	loo0 kh@l2 laj3 sqq2
+LOCALIZER	loo0 kh@l2 laj3 sqq2
+LOCALIZERS	loo0 kh@l2 laj3 sqq2
+LOCALIZES	loo0 kh@l2 laj3 ses1
+LOCALIZING	loo0 kh@l2 laj3 sing2
+LOCALLY	loo0 kh@l2 lii2
+LOCALS	loo0 kh@l2
+LOCASTRO	loo0 khxs3 troo2
+LOCATE	loo0 kheet1
+LOCATED	loo0 kheet3 thet1
+LOCATER	loo0 khee0 tqq2
+LOCATERS	loo0 kee0 tqq2
+LOCATES	loo0 kheet1
+LOCATING	loo0 kheet3 ting2
+LOCATION	loo0 khee0 chan2
+LOCATIONAL	loo0 khee0 chan2 n@l2
+LOCATIONALLY	loo0 khee0 chan2 n@l2 lii2
+LOCATIONS	loo0 khee0 chan2
+LOCATIVE	l@k3 khq1 thiif1
+LOCATIVES	l@k3 khq1 thiif1
+LOCATOR	loo0 khee0 tqq2
+LOCATORS	loo0 khee0 tqq2
+LOCH	l@@k3
+LOCHER	l@@k3 kqq2
+LOCHES	l@@k3
+LOCHGELLY	l@@k3 keel0 lii2
+LOCHHEAD	l@@k3 heet3
+LOCHRIDGE	l@@k3 ric1
+LOCHS	l@@k3
+LOCI	loo0 saaj0
+LOCK	l@@k3
+LOCKABLE	l@@k3 khee0 bql2
+LOCKAGE	l@@k3 kheec1
+LOCKAGES	l@@k3 kheec3 ces1
+LOCKAMY	l@@k3 khq1 mii2
+LOCKART	l@@k3 kaat3
+LOCKBOX	l@@k3 b@k3
+LOCKBOXES	l@@k3 b@k3 ses1
+LOCKED	l@@k3
+LOCKEN	l@@k3 khen2
+LOCKER	l@@k3 kqq2
+LOCKERD	l@@k3 kqqt1
+LOCKERED	l@@k3 kqq2
+LOCKERMAN	l@@k3 kqq2 mxxn0
+LOCKERMANS	l@@k3 kqq2 mxxn0
+LOCKERMEN	l@@k3 kqq2 men0
+LOCKERS	l@@k3 kqq2
+LOCKES	l@@k3
+LOCKET	l@@k3 ket1
+LOCKETS	l@@k3 ket1
+LOCKEY	l@@k3 khii0
+LOCKGATE	l@@k3 keet1
+LOCKGATES	l@@k3 keet1
+LOCKHART	l@@k3 haat3
+LOCKHARTS	l@@k3 haat3
+LOCKHEAD	l@@k3 heet3
+LOCKHEED	l@@k3 hiit3
+LOCKHEEDS	l@@k3 hiit3
+LOCKHOLD	l@@k3 hool0
+LOCKHOLE	l@@k3 hool0
+LOCKHOLES	l@@k3 hool0
+LOCKHOLM	l@@k3 hoom0
+LOCKHORN	l@@k3 h@@n0
+LOCKING	l@@k3 king2
+LOCKINGS	l@@k3 king2
+LOCKINGTON	l@@k3 king0 tan2
+LOCKJAW	l@@k3 c@@0
+LOCKJAWED	l@@k3 c@@t2
+LOCKJAWS	l@@k3 c@@s2
+LOCKLAIR	l@@k3 lxx0
+LOCKLAND	l@@k3 lxxn0
+LOCKLAR	l@@k3 laa2
+LOCKLEES	l@@k3 lii2
+LOCKLER	l@@k3 klqq2
+LOCKLESS	l@@k3 lees1
+LOCKLEVEN	l@@k3 le3 wen2
+LOCKLEY	l@@k3 lee2
+LOCKLEYS	l@@k3 lee2
+LOCKLIN	l@@k3 klin2
+LOCKMAN	l@@k3 mxxn0
+LOCKMANN	l@@k3 maan0
+LOCKMILLER	l@@k3 mil0 lqq2
+LOCKNEY	l@@k3 nii2
+LOCKNUT	l@@k3 nat3
+LOCKNUTS	l@@k3 nat3
+LOCKOUT	l@@k3 kaaw3
+LOCKOUTS	l@@k3 kaaw3
+LOCKRIDGE	l@@k3 kric1
+LOCKRIDGES	l@@k3 kric3 ces1
+LOCKS	l@@k3
+LOCKSMAN	l@@k3 sa1 mxxn0
+LOCKSMITH	l@@k3 sa1 mit3
+LOCKSMITHERY	l@@k3 sa1 mit3 dq1 rii2
+LOCKSMITHING	l@@k3 sa1 mit3 ting2
+LOCKSMITHS	l@@k3 sa1 mit3
+LOCKSTEP	l@@k3 sa1 tep1
+LOCKSTEPS	l@@k3 sa1 tep1
+LOCKSTITCH	l@@k3 sa1 tich3
+LOCKSTITCHES	l@@k3 sa1 tich3 ches1
+LOCKSTITCHING	l@@k3 sa1 tich3 ching2
+LOCKSTONE	l@@k3 sa1 toon0
+LOCKUP	l@@k3 khap2
+LOCKUPS	l@@k3 khap2
+LOCKWELL	l@@k3 weel0
+LOCKWOOD	l@@k3 wuut3
+LOCKWOODS	l@@k3 wuut3
+LOCKWORK	l@@k3 wqqk3
+LOCO	loo0 khoo2
+LOCOCO	l@k3 khoo0 khoo2
+LOCOED	loo0 khoot2
+LOCOES	loo0 khoos2
+LOCOING	loo0 khoo0 ing2
+LOCOISM	loo0 khoo2 is3 svm2
+LOCOISMS	loo0 khoo2 is3 svm2
+LOCOMOTE	loo0 khoo0 moot1
+LOCOMOTED	loo0 khoo0 moot3 thet1
+LOCOMOTES	loo0 khoo0 moot1
+LOCOMOTIF	loo0 khoo0 moo0 thif1
+LOCOMOTING	loo0 khoo0 moo0 ting2
+LOCOMOTION	loo0 khqm0 moo0 chan2
+LOCOMOTIONS	loo0 khqm0 moo0 chan2
+LOCOMOTIVE	loo0 khqm0 moo0 thiif1
+LOCOMOTIVELY	loo0 khqm0 moo0 thiif3 lii2
+LOCOMOTIVENESS	loo0 khqm0 moo0 thiif3 nees1
+LOCOMOTIVES	loo0 khqm0 moo0 thiif1
+LOCOMOTIVITY	loo0 khqm0 moo0 thi3 wi1 tii2
+LOCOMOTOR	loo0 khqm0 m@@0 tqq2
+LOCOMOTORY	loo0 khqm0 moo0 thq1 rii2
+LOCOS	loo0 khoos2
+LOCOUM	loo0 khqqm2
+LOCOWEED	loo0 khoo2 wiit3
+LOCOWEEDS	loo0 khoo2 wiit3
+LOCRIAN	loo0 khriian2
+LOCRIANS	loo0 khriian2
+LOCRINE	loo0 khraaj0
+LOCSIN	l@k3 sin2
+LOCTED	l@k3 thet1
+LOCUM	loo0 kham2
+LOCUMS	loo0 kham2
+LOCUS	loo0 khas3
+LOCUSES	loo0 khas3 ses1
+LOCUST	loo0 khas3
+LOCUSTING	loo0 khas3 ting2
+LOCUSTS	loo0 khas3
+LOCUTION	lq1 khiw3 chan2
+LOCUTIONARY	lq1 khiw3 chan2 nq1 rii2
+LOCUTIONS	lq1 khiw3 chan2
+LOCUTOR	loo0 khiw3 tqq2
+LOCUTORSHIP	loo0 khiw3 tqq2 chip3
+LOCUTORY	loo0 khiw3 thq1 rii2
+LODE	loot1
+LODEN	loo0 den2
+LODER	loo0 dqq2
+LODES	loot1
+LODESTAR	loot1 sa1 taa0
+LODESTARS	loot1 sa1 taa0
+LODESTONE	loot1 sa1 toon0
+LODESTONES	loot1 sa1 toon0
+LODGE	l@@c3
+LODGEABLE	l@@c3 cee0 bql2
+LODGED	l@@c3
+LODGEING	l@@c3 cing2
+LODGEMENT	l@@c3 men3
+LODGEMENTS	l@@c3 men3
+LODGEPOLE	l@@c3 phool0
+LODGEPOLES	l@@c3 phool0
+LODGER	l@@c3 cqq2
+LODGERS	l@@c3 cqq2
+LODGES	l@@c3 ces1
+LODGING	l@@c3 cing2
+LODGINGHOUSE	l@@c3 cing2 haaw3
+LODGINGS	l@@c3 cing2
+LODGMENT	l@@c3 men3
+LODGMENTS	l@@c3 men3
+LODZ	l@@t3
+LOESS	loo0 es3
+LOESSES	loo0 es3 ses1
+LOFT	l@f3
+LOFTED	l@f3 thet1
+LOFTER	l@f3 tqq2
+LOFTERS	l@f3 tqq2
+LOFTHOUSE	l@f3 haaw3
+LOFTHOUSES	l@f3 haaw3 ses1
+LOFTIE	l@f3 tii2
+LOFTIER	l@f3 thi1 qq2
+LOFTIEST	l@f3 thi1 es1
+LOFTILY	l@f3 thi1 lii2
+LOFTIN	l@f3 tin2
+LOFTINESS	l@f3 ti1 nees1
+LOFTING	l@f3 ting2
+LOFTINS	l@f3 tin2
+LOFTIS	l@f3 tis3
+LOFTLESS	l@f3 lees1
+LOFTNESS	l@f3 nees1
+LOFTS	l@f3
+LOFTSMAN	l@f3 sa1 mxxn0
+LOFTUS	l@f3 tas3
+LOFTY	l@f3 tii2
+LOG	l@@k3
+LOGAN	loo0 kxxn2
+LOGANBERRIES	loo0 kxxn0 bqq0 rii2
+LOGANBERRY	loo0 kxxn0 bqq0 rii2
+LOGANS	loo0 kxxn0
+LOGARES	loo0 khaas3
+LOGARITHM	l@k3 kaa0 ri3 tham2
+LOGARITHMATIC	l@k3 kaa0 rit3 mxx0 tik1
+LOGARITHMETIC	l@k3 kaa0 rit3 mee0 tik1
+LOGARITHMETICAL	l@k3 kaa0 rit3 mee0 thi1 kh@l2
+LOGARITHMETICALLY	l@k3 kaa0 rit3 mee0 thi1 khq1 lii2
+LOGARITHMIC	l@k3 kaa0 rit3 mik1
+LOGARITHMIC	l@k3 kaa0 rit3 mik1
+LOGARITHMICAL	l@k3 kaa0 rit3 mi1 kh@l2
+LOGARITHMICALLY	l@k3 kaa0 rit3 mi1 khq1 lii2
+LOGARITHMS	l@k3 kaa0 ri3 tham2
+LOGBOOK	l@k3 buk3
+LOGBOOKS	l@k3 buk3
+LOGES	l@@k3
+LOGFILE	l@@k3 faaj0
+LOGGED	l@@k3
+LOGGER	l@@k3 kqq2
+LOGGERHEAD	l@@k3 kqq2 heet3
+LOGGERHEADED	l@@k3 kqq2 heet3 det1
+LOGGERHEADS	l@@k3 kqq2 heet3
+LOGGERS	l@@k3 kqq2
+LOGGIA	l@@k3 ciia0
+LOGGIAS	l@@k3 ciias2
+LOGGIN	l@@k3 kin2
+LOGGING	l@@k3 king2
+LOGGINGS	l@@k3 king2
+LOGGINS	l@@k3 kin2
+LOGGY	l@@k3 kii2
+LOGIC	l@@0 cik1
+LOGICAL	l@@0 ci1 kh@l2
+LOGICALITY	l@@0 ci1 kh@l2 li3 tii2
+LOGICALLY	l@@0 ci1 kh@l2 lii2
+LOGICALNESS	l@@0 ci1 kh@l2 nees1
+LOGICALS	l@@0 ci1 k@l2
+LOGICIAN	l@@0 ci1 chiian2
+LOGICIANS	l@@0 ci1 chiian2
+LOGICON	l@@0 cq1 kh@n0
+LOGICS	l@@0 cik1
+LOGIST	l@@0 cis3
+LOGISTIC	l@@0 cis3 tik1
+LOGISTICAL	l@@0 cis3 ti1 kh@l2
+LOGISTICALLY	l@@0 cis3 ti1 khq1 lii2
+LOGISTICIAN	l@@0 cis3 ti1 chiian2
+LOGISTICIANS	l@@0 cis3 ti1 chiian2
+LOGISTICON	l@@0 cis3 ti1 kh@n2
+LOGISTICS	l@@0 cis3 tik1
+LOGJAM	l@@k3 cxxm0
+LOGJAMMED	l@@k3 cxxm0
+LOGJAMS	l@@k3 cxxm0
+LOGLIKELIHOOD	l@@k3 laj3 li3 huut3
+LOGNORMAL	l@@k3 n@@0 m@l2
+LOGOES	loo0 koos2
+LOGOGRAM	loo0 koo0 krxxm0
+LOGOGRAMME	loo0 koo0 krxxm0
+LOGOGRAMMES	loo0 koo0 krxxm0
+LOGOGRAMS	loo0 koo0 krxxm0
+LOGOGRAPH	loo0 koo0 kraaf3
+LOGOGRAPHIC	loo0 koo0 kraaf3 fik1
+LOGOGRAPHICAL	loo0 koo0 kraaf3 fi1 kh@l2
+LOGOGRAPHICALLY	loo0 koo0 kraaf3 fi3 khq1 lii2
+LOGOMACH	loo0 koo2 mak3
+LOGOMACHER	loo0 koo2 mak3 kqq2
+LOGOMACHIST	loo0 koo2 ma1 khis3
+LOGOMACHY	loo0 koo2 mq1 kii2
+LOGOPAEDIC	loo0 koo0 phii0 dik1
+LOGOPAEDICS	loo0 koo0 phii0 dik1
+LOGOTYPE	loo0 koo0 thaj3
+LOGOTYPES	loo0 koo0 thaj3
+LOGOTYPY	loo0 koo0 thaj3 pii2
+LOGRAM	l@@k3 rxxm0
+LOGROLL	l@@k3 rool0
+LOGROLLED	l@@k3 rool0
+LOGROLLING	l@@k3 rool0 ling2
+LOGROLLS	l@@k3 rool0
+LOGS	l@@k3
+LOGSDON	l@@k3 sa1 d@n2
+LOGSDONS	l@@k3 sa1 d@n2
+LOGSTON	l@@k3 sa1 tan2
+LOGUE	l@@k1
+LOGWAY	l@@k3 wee0
+LOGWAYS	l@@k3 wees1
+LOGWOOD	l@@k3 wuut3
+LOGWOODS	l@@k3 wuut3
+LOIN	l@@j0
+LOINCLOTH	l@@j0 khloot3
+LOINCLOTHED	l@@j0 khloot3
+LOINCLOTHS	l@@j0 khloot3
+LOINED	l@@j0
+LOINES	l@@j0
+LOINS	l@@j0
+LOIS	l@@0 is2
+LOISEAU	l@@0 i1 s@@0
+LOISES	l@@0 i1 ses1
+LOITER	l@@j0 tqq2
+LOITERED	l@@j0 tqq2
+LOITERER	l@@j0 thq1 rqq2
+LOITERERS	l@@j0 thq1 rqq2
+LOITERING	l@@j0 thq1 ring2
+LOITERINGLY	l@@j0 thq1 ring2 lii2
+LOITERINGNESS	l@@j0 thq1 ring2 nees1
+LOITERINGS	l@@j0 thq1 ring2
+LOITERS	l@@j0 tqq2
+LOLL	lool0
+LOLLAND	lool0 lxxn0
+LOLLANDS	lool0 lxxn0
+LOLLAR	lool0 laa2
+LOLLARD	lool0 laat1
+LOLLARDS	lool0 laat1
+LOLLED	lool0
+LOLLER	lool0 lqq2
+LOLLERS	lool0 lqq2
+LOLLIES	lool0 lii2
+LOLLING	lool0 ling2
+LOLLINGLY	lool0 ling2 lii2
+LOLLIPOP	l@@l0 lii2 ph@p3
+LOLLIPOPPING	l@@l0 lii2 ph@p3 ping2
+LOLLIPOPS	l@@l0 lii2 ph@p3
+LOLLOP	l@@l0 l@p1
+LOLLOPED	l@@l0 l@p1
+LOLLOPER	l@@l0 l@p3 pqq2
+LOLLOPING	l@@l0 l@p3 ping2
+LOLLOPS	l@@l0 l@p1
+LOLLS	l@@l0
+LOLLY	l@@l0 lii2
+LOLLYGAG	l@@l0 lii2 kxk3
+LOLLYGAGS	l@@l0 lii2 kxk3
+LOLLYPOP	l@@l0 lii2 ph@p3
+LOLLYPOPS	l@@l0 lii2 ph@p3
+LOMBA	l@@m0 baa2
+LOMBAR	l@@m0 baa2
+LOMBARD	l@@m0 bqqt1
+LOMBARDIAN	l@@m0 baa0 diian2
+LOMBARDS	l@@m0 bqqt1
+LOMBOY	l@@m0 b@@j0
+LOMBRA	l@@m0 braa2
+LOMBROSIAN	l@@m0 br@@s3 siian2
+LOMBROSO	l@@m0 br@@s3 soo2
+LONDAS	l@n0 daas2
+LONDER	l@n0 dqq2
+LONDERVILLE	l@n0 dqq2 wil0
+LONDON	l@n0 d@n2
+LONDOND	l@n0 d@n0
+LONDONDERRY	l@n0 d@n0 dqq0 rii2
+LONDONER	l@n0 d@n0 nqq2
+LONDONERS	l@n0 dq1 nqq2
+LONDONIAN	l@n0 dq1 niian2
+LONDONISES	l@n0 dq1 naj3 ses1
+LONDONISH	l@n0 d@n0 nich1
+LONDONISM	l@n0 d@n0 nis3 svm2
+LONDONS	l@n0 d@n2
+LONDONY	l@n0 dq1 nii2
+LONDRA	l@n0 draa2
+LONE	loon0
+LONELIER	loon0 nq1 li1 qq2
+LONELIEST	loon0 nq1 li1 es1
+LONELILY	loon0 li3 lii2
+LONELINESS	loon0 li3 nees1
+LONELINESSES	loon0 li3 nees3 ses1
+LONELY	loon0 lii2
+LONENESS	loon0 nees1
+LONER	loon0 nqq2
+LONERS	loon0 nqq2
+LONES	loon0
+LONESOME	loon0 sam2
+LONESOMELY	loon0 sam2 lii2
+LONESOMENESS	loon0 sam2 nees1
+LONESOMES	loon0 sam2
+LONETREE	loon0 thrii0
+LONEY	loo0 nii2
+LONG	l@@ng0
+LONGACRE	l@@ng0 ngee0 kqq2
+LONGACRES	l@@ng0 ngee0 kqq2
+LONGBOAT	l@@ng0 boot3
+LONGBOATS	l@@ng0 boot3
+LONGBONES	l@@ng0 boon0
+LONGBOW	l@@ng0 boo0
+LONGBOWS	l@@ng0 boos2
+LONGBOX	l@@ng0 b@k3
+LONGBRAKE	l@@ng0 breek1
+LONGCOR	l@@ng0 kh@@0
+LONGCORE	l@@ng0 kh@@0
+LONGDEN	l@@ng0 den2
+LONGDENS	l@@ng0 den2
+LONGED	l@@ng0
+LONGER	l@@ng0 ngqq2
+LONGERBEAM	l@@ng0 kqq2 biim0
+LONGERON	l@@n0 cqq0 r@n2
+LONGERONS	l@@n0 cqq0 r@n2
+LONGERS	l@@ng0 ngqq2
+LONGERS	l@@ng0 kqq2
+LONGES	l@@ng0
+LONGEST	l@@ng0 kes1
+LONGESTABLISHED	l@@ng0 kes3 thxxp3 blich1
+LONGEVAL	l@@n0 cii0 w@l2
+LONGEVITIES	l@@n0 ce1 wi3 tii2
+LONGEVITY	l@@n0 ce1 wi3 tii2
+LONGFELDER	l@@ng0 feel0 dqq2
+LONGFELLOW	l@@ng0 feel0 loo2
+LONGFELLOWS	l@@ng0 feel0 loos2
+LONGFELT	l@@ng0 feel0
+LONGFIELD	l@@ng0 fiil0
+LONGFUL	l@@ng0 fuul0
+LONGHAIR	l@@ng0 hxx0
+LONGHAIRED	l@@ng0 hxxt2
+LONGHAIRS	l@@ng0 hxxs2
+LONGHAM	l@@ng0 hxxm0
+LONGHAND	l@@ng0 hxxn0
+LONGHANDED	l@@ng0 hxxn0 det1
+LONGHANDLED	l@@ng0 hxxn0 dql2
+LONGHANDS	l@@ng0 hxxn0
+LONGHEAD	l@@ng0 heet3
+LONGHEADED	l@@ng0 heet3 det1
+LONGHEADEDLY	l@@ng0 heet3 det1 lii2
+LONGHEADEDNESS	l@@ng0 heet3 det1 nees1
+LONGHORN	l@@ng0 h@@n0
+LONGHORNED	l@@ng0 h@@n0
+LONGHORNS	l@@ng0 h@@n0
+LONGHOUSE	l@@ng0 haaw3
+LONGHOUSES	l@@ng0 haaw3 ses1
+LONGHURST	l@@ng0 hqqs3
+LONGING	l@@ng0 nging2
+LONGINGLY	l@@ng0 nging2 lii2
+LONGINGS	l@@ng0 nging2
+LONGISH	l@@ng0 ngich1
+LONGITUDE	l@@ng0 ci1 cuut1
+LONGITUDES	l@@ng0 ci1 cuut1
+LONGITUDINAL	l@@ng0 ci1 thuut3 di1 n@l2
+LONGITUDINALLY	l@@ng0 ci1 thuut3 di1 n@l2 lii2
+LONGITUDINALS	l@@ng0 ci1 thuut3 di1 n@l2
+LONGLEAF	l@@ng0 liif3
+LONGLEGGED	l@@ng0 lek3 khet1
+LONGLEGS	l@@ng0 lek3
+LONGLEY	l@@ng0 lee2
+LONGLINE	l@@ng0 laaj0
+LONGLINER	l@@ng0 laaj0 nqq2
+LONGLINERS	l@@ng0 laaj0 nqq2
+LONGLINES	l@@ng0 laaj0
+LONGLINING	l@@ng0 laaj0 ning2
+LONGLY	l@@ng0 lii2
+LONGMAN	l@@ng0 mxxn0
+LONGMANS	l@@ng0 mxxn0
+LONGMIRE	l@@ng0 maaj0 qq2
+LONGMIRES	l@@ng0 maaj0 qq2
+LONGMONT	l@@ng0 m@@n3
+LONGMORE	l@@ng0 m@@0
+LONGNECK	l@@ng0 nek3
+LONGNECKED	l@@ng0 nek3
+LONGNECKER	l@@ng0 nek3 kqq2
+LONGNECKS	l@@ng0 nek3
+LONGNESS	l@@ng0 nees1
+LONGRANGE	l@@ng0 reen3
+LONGRANGER	l@@ng0 reen3 cqq2
+LONGRANGERS	l@@ng0 reen3 cqq2
+LONGRIDGE	l@@ng0 ric1
+LONGRUN	l@@ng0 ran0
+LONGS	l@@ng0
+LONGSHAW	l@@ng0 ch@@0
+LONGSHIP	l@@ng0 chip3
+LONGSHIPS	l@@ng0 chip3
+LONGSHORE	l@@ng0 ch@@0
+LONGSHOREMAN	l@@ng0 ch@@0 mxxn0
+LONGSHOREMEN	l@@ng0 ch@@0 men0
+LONGSHOREMENS	l@@ng0 ch@@0 men0
+LONGSHORING	l@@ng0 ch@@0 ring2
+LONGSHORMEN	l@@ng0 ch@@0 men0
+LONGSHOT	l@@ng0 ch@t1
+LONGSHOTS	l@@ng0 ch@t1
+LONGSPAN	l@@ng0 sa1 pxxn0
+LONGSPUR	l@@ng0 sa1 pqq2
+LONGSPURS	l@@ng0 sa1 pqq2
+LONGSTAFF	l@@ng0 sa1 taaf3
+LONGSTANDING	l@@ng0 sa1 txxn0 ding2
+LONGSTANDINGLY	l@@ng0 sa1 txxn0 ding2 lii2
+LONGSTON	l@@ng0 sa1 tan2
+LONGSTONE	l@@ng0 sa1 toon0
+LONGSTRAINED	l@@ng0 sa1 treen0
+LONGSTREET	l@@ng0 sa1 triit1
+LONGSTRETCH	l@@ng0 sa1 trech3
+LONGSTRIP	l@@ng0 sa1 trip3
+LONGSTROM	l@@ng0 sa1 tr@@m0
+LONGSTROTH	l@@ng0 sa1 tr@@t3
+LONGSUFFERING	l@@ng0 saf3 fqq0 ring2
+LONGSWORTH	l@@ng0 sa1 wqqt1
+LONGTERM	l@@ng0 thqqm0
+LONGTIME	l@@ng0 thaam0
+LONGTIMER	l@@ng0 thaam0 mqq2
+LONGTIMERS	l@@ng0 thaam0 mqq2
+LONGTIN	l@@ng0 thin2
+LONGTON	l@@ng0 tan2
+LONGUE	l@@ng0
+LONGUES	l@@ng0
+LONGVIEW	l@@ng0 wiw0
+LONGWAY	l@@ng0 wee0
+LONGWAYS	l@@ng0 wees1
+LONGWELL	l@@ng0 weel0
+LONGWISE	l@@ng0 waaj3
+LONGWOOD	l@@ng0 wuut3
+LONGWOODS	l@@ng0 wuut3
+LONGWORM	l@@ng0 wqqm0
+LONGWORMS	l@@ng0 wqqm0
+LONGWORTH	l@@ng0 wqqt1
+LOO	luu0
+LOOART	luu0 aat3
+LOOBY	luu0 bii2
+LOOBYING	luu0 bii0 ing2
+LOOFA	luu0 faa2
+LOOFAH	luu0 faa2
+LOOFAHED	luu0 faat2
+LOOFAHS	luu0 faas2
+LOOFAS	luu0 faas2
+LOOFNESS	luuf3 nees1
+LOOING	luu0 ing2
+LOOK	luk3
+LOOKAHEAD	luk3 kha1 heet3
+LOOKAHEADS	luk3 kha1 heet3
+LOOKALIKE	luk3 kha1 laj3
+LOOKALIKES	luk3 kha1 laj3
+LOOKBACK	luk3 bxk3
+LOOKED	luk3
+LOOKER	luk3 kqq2
+LOOKERS	luk3 kqq2
+LOOKING	luk3 king2
+LOOKINGBILL	luk3 king2 bil0
+LOOKINGS	luk3 king2
+LOOKOUT	luk3 khaaw3
+LOOKOUTS	luk3 khaaw3
+LOOKS	luk3
+LOOKSTEIN	luk3 sa1 taaj0
+LOOKUP	luk3 khap2
+LOOKUPS	luk3 khap2
+LOOM	luum0
+LOOMAN	luum0 mxxn0
+LOOMANS	luum0 mxxn0
+LOOMED	luum0
+LOOMER	luum0 mqq2
+LOOMES	luum0
+LOOMING	luum0 ming2
+LOOMS	luum0
+LOON	luun0
+LOONIER	luun0 ni1 qq2
+LOONIES	luun0 nii2
+LOONIEST	luun0 ni1 es1
+LOONING	luun0 ning2
+LOONS	luun0
+LOONY	luun0 nii2
+LOONYBIN	luun0 nii2 bin0
+LOONYBINS	luun0 nii2 bin0
+LOOP	luup3
+LOOPED	luup3
+LOOPER	luup3 pqq2
+LOOPERS	luup3 pqq2
+LOOPHOLE	luup3 hool0
+LOOPHOLED	luup3 hool0
+LOOPHOLES	luup3 hool0
+LOOPHOLING	luup3 hool0 ling2
+LOOPIER	luup3 phi1 qq2
+LOOPING	luup3 ping2
+LOOPS	luup3
+LOOPY	luup3 pii2
+LOOS	luus3
+LOOSE	luus3
+LOOSED	luus3
+LOOSELY	luus3 lii2
+LOOSEN	luus3 sen2
+LOOSENED	luus3 sen2
+LOOSENER	luus3 sen2 nqq2
+LOOSENERS	luus3 sen2 nqq2
+LOOSENESS	luus3 nees1
+LOOSENING	luus3 sen0 ning2
+LOOSENINGLY	luus3 sen0 ning2 lii2
+LOOSENINGS	luus3 sen0 ning2
+LOOSENS	luus3 sen2
+LOOSER	luus3 sqq2
+LOOSES	luus3 ses1
+LOOSEST	luus3 ses1
+LOOSESTRIFE	luus3 sa1 traj3
+LOOSESTRIFES	luus3 sa1 traj3
+LOOSING	luus3 sing2
+LOOT	luut3
+LOOTED	luut3 thet1
+LOOTEN	luut3 then2
+LOOTENS	luut3 then2
+LOOTER	luut3 tqq2
+LOOTERS	luut3 tqq2
+LOOTIE	luut3 thaaj0
+LOOTING	luut3 ting2
+LOOTINGS	luut3 ting2
+LOOTS	luut3
+LOP	l@p3
+LOPE	loop3
+LOPED	loop3
+LOPEMAN	loop3 mxxn0
+LOPER	l@p3 pqq2
+LOPERS	l@p3 pqq2
+LOPES	loop3
+LOPIAN	loo0 piian2
+LOPING	l@p3 ping2
+LOPINTO	loo0 pin0 too2
+LOPPED	l@p3 pet1
+LOPPER	l@p3 pqq2
+LOPPERS	l@p3 pqq2
+LOPPERT	l@p3 pqq2
+LOPPIER	l@p3 pi1 qq2
+LOPPING	l@p3 ping2
+LOPPY	l@p3 pii2
+LOPRESSOR	loo0 phres3 sqq2
+LOPRESTE	loo0 phres3
+LOPRESTI	loo0 phres3 tii2
+LOPRESTO	loo0 phres3 too2
+LOPS	l@p3
+LOPSIDED	l@p3 saaj0 det1
+LOPSIDEDLY	l@p3 saaj0 det1 lii2
+LOPSIDEDNESS	l@p3 saaj0 det1 nees1
+LOPSIDELY	l@p3 saaj0 lii2
+LOPSTICK	l@p3 sa1 tik3
+LOQUACIOUS	lq1 khwee0 chiias2
+LOQUACIOUSLY	lq1 khwee0 chiias3 lii2
+LOQUACIOUSNESS	lq1 khwee0 chiias3 nees1
+LOQUACITY	lq1 khwxs3 si3 tii2
+LOQUAT	loo0 khwaat3
+LOQUATS	loo0 khwaat3
+LOR	l@@0
+LORAND	loo0 rxn2
+LORANGER	loo0 rxxng0 kqq2
+LORANN	loo0 rxxn0
+LORANNA	loo0 rxxn0 naa2
+LORANTHI	loo0 rxxn0 thaaj0
+LORANTHUS	loo0 rxxn0 thas2
+LORATE	loo0 reet1
+LORCHA	l@@0 chaa2
+LORD	l@@t1
+LORDAN	l@@0 dxxn2
+LORDED	l@@t3 det1
+LORDEN	l@@0 den2
+LORDES	l@@t1
+LORDIN	l@@0 din2
+LORDING	l@@0 ding2
+LORDINGES	l@@0 ding2
+LORDINGS	l@@0 ding2
+LORDLESS	l@@t3 lees1
+LORDLIER	l@@t3 li1 qq2
+LORDLIEST	l@@t3 li1 es1
+LORDLIKE	l@@t1 laj3
+LORDLINESS	l@@t3 li1 nees1
+LORDLING	l@@t3 ling2
+LORDLINGS	l@@t3 ling2
+LORDLY	l@@t3 lii2
+LORDS	l@@t1
+LORDSHIP	l@@t1 chip3
+LORDSHIPS	l@@t1 chip3
+LORDSTOWN	l@@t1 sa1 thaaw0
+LORDWOOD	l@@t1 wuut3
+LORE	l@@0
+LORELEI	l@@0 lee0 ii2
+LORELIE	l@@0 laaj0
+LORENC	l@@0 reen3
+LORENZA	l@@0 reen0 saa2
+LORENZE	l@@0 reen0 sii2
+LORENZY	l@@0 reen0 sii2
+LORES	l@@s2
+LORESTAN	l@@0 sa1 txxn0
+LORGNETTE	l@@0 net3
+LORGNETTES	l@@0 net3
+LORIAN	l@@0 riian2
+LORICE	l@@0 raj3
+LORIDA	l@@0 raaj0 daa2
+LORIMER	l@@0 ri3 mqq2
+LORIMERS	l@@0 ri3 mqq2
+LORIMOR	l@@0 ri3 mqq2
+LORING	l@@0 ring2
+LORION	l@@0 rii0 an2
+LORIS	l@@0 ris3
+LORISES	l@@0 ris3 ses1
+LORISTIC	l@@0 ris3 tik1
+LORISTON	l@@0 ris3 tan2
+LORMAN	l@@0 mxxn0
+LORMAND	l@@0 maan0
+LORMANS	l@@0 mxxn0
+LORN	l@@n0
+LORNA	l@@n0 nqq2
+LORNES	l@@n0
+LORNNESS	l@@n0 nees1
+LORRAIN	l@@0 reen0
+LORRAINE	l@@0 reen0
+LORRAINER	l@@0 reen0 nqq2
+LORRAINES	l@@0 reen0
+LORRAINS	l@@0 reen0
+LORRIES	l@@0 rii2
+LORRIN	l@@0 rin2
+LORRIS	l@@0 ris3
+LORRISON	l@@0 ri3 san2
+LORRY	l@@0 rii2
+LORSON	l@@0 san2
+LORTEL	l@@0 theel0
+LORTELS	l@@0 theel0
+LORTIE	l@@0 thaaj0
+LORTON	l@@0 tan2
+LORY	l@@0 rii2
+LOS	l@@s3
+LOSABLE	l@@s3 sa1 bql2
+LOSABLENESS	l@@s3 sa1 bql2 nees1
+LOSADA	loo0 see0 daa2
+LOSADO	loo0 see0 duu2
+LOSE	luus3
+LOSEKE	luus3 siik1
+LOSER	luus3 sqq2
+LOSERS	luus3 sqq2
+LOSES	luus3 ses1
+LOSING	luus3 sing2
+LOSINGEST	luus3 sing2 nges1
+LOSINGLY	luus3 sing2 lii2
+LOSINGS	luus3 sing2
+LOSS	l@@s3
+LOSSED	l@@s3
+LOSSER	l@@s3 sqq2
+LOSSES	l@@s3 ses1
+LOSSIEMOUTH	l@@s3 sii2 mat3
+LOSSIER	l@@s3 si1 qq2
+LOSSIEST	l@@s3 si1 es1
+LOSSING	l@@s3 sing2
+LOSSLESS	l@@s3 lees1
+LOSSLESSLY	l@@s3 lees1 lii2
+LOSSY	l@@s3 sii2
+LOST	l@@s3
+LOSTED	l@@s3 thet1
+LOSTER	l@@s3 tqq2
+LOSTING	l@@s3 ting2
+LOSTNESS	l@@s3 nees1
+LOSTOCK	l@@s3 t@k3
+LOSTON	l@@s3 tan2
+LOT	l@t3
+LOTH	l@@t3
+LOTHAR	l@@t3 thraa2
+LOTHARS	l@@t3 thaas2
+LOTHER	l@@t3 thqq2
+LOTHIAN	l@@t3 diian2
+LOTHIANS	l@@t3 diian2
+LOTHIER	l@@t3 di1 qq2
+LOTHSOME	l@@t3 sam2
+LOTHSON	l@@t3 san2
+LOTHSTEIN	l@@t3 sa1 taaj0
+LOTION	loo0 chan2
+LOTIONED	loo0 chan2
+LOTIONS	loo0 chan2
+LOTS	l@t3
+LOTTA	l@t3 taa2
+LOTTE	l@t3
+LOTTED	l@t3 thet1
+LOTTER	l@t3 tqq2
+LOTTERER	l@t3 thqq0 rqq2
+LOTTERIES	l@t3 thqq0 rii2
+LOTTERING	l@t3 thqq0 ring2
+LOTTERMAN	l@t3 thqq2 mxxn0
+LOTTERS	l@t3 thqq2
+LOTTERY	l@t3 tqq0 rii2
+LOTTES	l@t3
+LOTTIE	l@t3 thaaj0
+LOTTING	l@t3 ting2
+LOTTIS	loo0 tis3
+LOTTO	l@t3 too2
+LOTTOR	loo0 tqq2
+LOTTOS	l@t3 toos2
+LOTUS	loo0 tas3
+LOTUSES	loo0 tas3 ses1
+LOUD	laaw0
+LOUDBREATH	laaw0 bret3
+LOUDED	laaw0 det1
+LOUDER	laaw0 dqq2
+LOUDERBACK	laaw0 dqq2 bxk3
+LOUDERING	laaw0 dqq0 ring2
+LOUDERMILK	laaw0 dqq2 mil3
+LOUDEST	laaw0 des1
+LOUDESTER	laaw0 des2 tqq2
+LOUDLY	laaw0 lii2
+LOUDMOUTH	laaw0 maw3
+LOUDMOUTHED	laaw0 maw3
+LOUDMOUTHS	laaw0 maw3
+LOUDNESS	laaw0 nees1
+LOUDSPEAK	laaw0 sa1 piik3
+LOUDSPEAKER	laaw0 sa1 piik3 kqq2
+LOUDSPEAKERED	laaw0 sa1 piik3 kqq2
+LOUDSPEAKERING	laaw0 sa1 piik3 kqq0 ring2
+LOUDSPEAKERS	laaw0 sa1 piik3 kqq2
+LOUDSPEAKING	laaw0 sa1 piik3 king2
+LOUGH	l@@k3
+LOUGHBOROUGH	laf3 bq1 roo2
+LOUGHMAN	l@@k3 mxxn0
+LOUGHMANS	l@@k3 mxxn0
+LOUGHMILLER	l@@k3 mil0 lqq2
+LOUGHRAN	l@@k3 rxn0
+LOUGHRIDGE	l@@k3 ric1
+LOUGHS	l@@k3
+LOUIS	luu0 iis3
+LOUISE	luu0 iis3
+LOUISES	luu0 iis3 ses1
+LOUISIANA	luu0 iis3 siia0 naa2
+LOUISIANNA	luu0 iis3 siia0 naa2
+LOUISVILLE	luu0 iis3 wil0
+LOUNDER	laaw0 dqq2
+LOUNDERER	laaw0 dqq0 rqq2
+LOUNDES	laaw0
+LOUNDS	laaw0
+LOUNGE	laaw3
+LOUNGED	laaw3
+LOUNGER	laaw3 cqq2
+LOUNGERS	laaw3 cqq2
+LOUNGES	laaw3 ces1
+LOUNGING	laaw3 cing2
+LOUR	laaw0 qq2
+LOURDES	laaw0 qq2 des1
+LOURED	laaw0 qq2
+LOURES	laaw0 qq2
+LOURING	laaw0 qq0 ring2
+LOURINGLY	laaw0 qq0 ring2 lii2
+LOURS	laaw0 qq2
+LOURY	laaw0 qq0 rii2
+LOUSE	laaw3
+LOUSED	laaw3
+LOUSES	laaw3 ses1
+LOUSIER	laaw3 si1 qq2
+LOUSIEST	laaw3 si1 es1
+LOUSY	laaw0 sii2
+LOUT	laaw3
+LOUTED	laaw3 thet1
+LOUTH	laaw3
+LOUTING	laaw3 ting2
+LOUTISH	laaw3 thich1
+LOUTISHLY	laaw3 thich3 lii2
+LOUTISHNESS	laaw3 thich3 nees1
+LOUTS	laaw3
+LOUTSIDE	laaw3 saj3
+LOUTSKY	laaw3 sa1 kaaj0
+LOUVER	luu0 wqq2
+LOUVERED	luu0 wqq2
+LOUVERING	luu0 wqq0 ring2
+LOUVERS	luu0 wqq2
+LOUVRE	luu0 wqq2
+LOUVRED	luu0 wqq2
+LOUVRES	luu0 wqq2
+LOVABILITY	lqqf3 wq1 bi1 li3 tii2
+LOVABLE	lqqf3 wee0 bql2
+LOVABLENESS	lqqf3 wee0 bql2 nees1
+LOVABLES	lqqf3 wee0 bql2
+LOVABLY	lqqf3 wee0 blii2
+LOVE	lqqf3
+LOVEABLE	lqqf3 wee0 bql2
+LOVEABLES	lqqf3 wee0 bql2
+LOVEABLY	lqqf3 wee0 blii2
+LOVEALL	lqqf3 w@@l0
+LOVEBIRD	lqqf3 bqqt3
+LOVEBIRDS	lqqf3 bqqt3
+LOVED	lqqf3
+LOVEDAY	lqqf3 dee0
+LOVEDAYS	lqqf3 dees1
+LOVEDS	lqqf3
+LOVEGROVE	lqqf3 kroof3
+LOVEGROVES	lqqf3 kroof3
+LOVEING	lqqf3 wing2
+LOVEJOY	lqqf3 c@@j0
+LOVELACE	lqqf3 lees3
+LOVELACES	lqqf3 lees3 ses1
+LOVELAND	lqqf3 lxxn0
+LOVELESS	lqqf3 lees1
+LOVELESSLY	lqqf3 lees1 lii2
+LOVELESSNESS	lqqf3 lees1 nees1
+LOVELIER	lqqf3 li1 qq2
+LOVELIES	lqqf3 lii2
+LOVELIEST	lqqf3 li1 es1
+LOVELILY	lqqf3 li3 lii2
+LOVELIN	lqqf3 lin2
+LOVELINE	lqqf3 laaj0
+LOVELINES	lqqf3 laaj0
+LOVELINESS	lqqf3 li3 nees1
+LOVELING	lqqf3 ling2
+LOVELORN	lqqf3 l@@n0
+LOVELORNNESS	lqqf3 l@@n0 nees1
+LOVELORNS	lqqf3 l@@n0
+LOVELY	lqqf3 lii2
+LOVEMAKE	lqqf3 meek3
+LOVEMAKERS	lqqf3 meek3 kqq2
+LOVEMAKING	lqqf3 meek3 king2
+LOVENEST	lqqf3 nees1
+LOVER	lqqf3 wqq2
+LOVERD	lqqf3 wqq2
+LOVERED	lqqf3 wqq2
+LOVERIDGE	lqqf3 ric1
+LOVERIN	lqqf3 wq1 rin2
+LOVERING	lqqf3 wqq0 ring2
+LOVERINGS	lqqf3 wqq0 ring2
+LOVERLESS	lqqf3 wqq2 lees1
+LOVERLIKE	lqqf3 wqq2 laj3
+LOVERLY	lqqf3 wq1 lii2
+LOVERMAN	lqqf3 wqq2 mxxn0
+LOVERS	lqqf3 wqq2
+LOVES	lqqf3
+LOVESICK	lqqf3 sik3
+LOVESICKNESS	lqqf3 sik3 nees1
+LOVEVINES	lqqf3 waaj0
+LOVEWELL	lqqf3 weel0
+LOVING	lqqf3 wing2
+LOVINGER	lqqf3 wing0 ngqq2
+LOVINGLY	lqqf3 wing2 lii2
+LOVINGS	lqqf3 wing2
+LOVINGSTON	lqqf3 wing2 sa1 tan2
+LOVINGTON	lqqf3 wing0 tan2
+LOW	loo0
+LOWBORN	loo0 b@@n0
+LOWBOY	loo0 b@@j0
+LOWBOYS	loo0 b@@j0
+LOWBRED	loo0 breet1
+LOWBROW	loo0 braaw0
+LOWBROWS	loo0 braaw3
+LOWDEN	loo0 den2
+LOWDENS	loo0 den2
+LOWDOWN	loo0 daaw0
+LOWDOWNS	loo0 daaw0
+LOWED	loot2
+LOWELL	loo0 weel0
+LOWELLS	loo0 weel0
+LOWEND	loo0 wen0
+LOWENSON	loo0 wen0 san2
+LOWENSTEIN	loo0 wen0 sa1 taaj0
+LOWENSTERN	loo0 wen0 sa1 tqqn0
+LOWER	loo0 wqq2
+LOWERCASE	loo0 wqq2 khees3
+LOWERCLASSMAN	loo0 wqq2 khlaas3 mxxn0
+LOWERED	loo0 wqq2
+LOWERICK	loo0 wqq0 rik1
+LOWERINCOME	loo0 wqq2 ing0 kham0
+LOWERING	loo0 wqq2 ring2
+LOWERINGLY	loo0 wqq0 ring2 lii2
+LOWERINGNESS	loo0 wqq0 ring2 nees1
+LOWERINGS	loo0 wqq2 ring2
+LOWERINGS	loo0 wqq2 ring2
+LOWERMOST	loo0 wqq2 moos3
+LOWERS	loo0 wqq2
+LOWERY	loo0 wq1 rii2
+LOWES	loos2
+LOWEST	loo0 wes1
+LOWESTOCK	loo0 sa1 t@k3
+LOWESTOFT	loo0 sa1 t@f3
+LOWING	loo0 wing2
+LOWINGS	loo0 wing2
+LOWISH	loo0 wich1
+LOWLAND	loo0 lxxn0
+LOWLANDER	loo0 lxxn0 dqq2
+LOWLANDERS	loo0 lxxn0 dqq2
+LOWLANDS	loo0 lxxn0
+LOWLIER	loo0 li1 qq2
+LOWLIEST	loo0 li1 es1
+LOWLIFE	loo0 laj3
+LOWLIFES	loo0 laj3
+LOWLINESS	loo0 li1 nees1
+LOWLY	loo0 lii2
+LOWLYING	loo0 lii0 ing2
+LOWMAN	loo0 mxxn0
+LOWMEN	loo0 men0
+LOWNESS	loo0 nees1
+LOWNESSES	loo0 nees3 ses1
+LOWPASS	loo0 phaas3
+LOWRANCE	loo0 rxxn3
+LOWS	loos2
+LOYAL	loo0 j@l2
+LOYALER	loo0 j@l2 lqq2
+LOYALEST	loo0 j@l2 les1
+LOYALISES	loo0 j@l2 laj3 ses1
+LOYALISM	loo0 j@l2 lis3 svm2
+LOYALISMS	loo0 j@l2 lis3 svm2
+LOYALIST	loo0 j@l2 lis3
+LOYALISTS	loo0 j@l2 lis3
+LOYALISTUS	loo0 j@l2 lis3 tas3
+LOYALLER	loo0 j@l2 lqq2
+LOYALLEST	loo0 j@l2 les1
+LOYALLY	loo0 j@l2 lii2
+LOYALNESS	loo0 j@l2 nees1
+LOYALS	loo0 j@l2
+LOYALTIES	loo0 j@l0 tii2
+LOYALTY	loo0 j@l0 tii2
+LOYANG	loo0 jaang0
+LOYER	loo0 jqq2
+LOZENGE	l@@c3 sin3
+LOZENGED	l@@c3 sin3
+LOZENGER	l@@c3 sin0 cqq2
+LOZENGES	l@@c3 sin3 ces1
+LUBBER	lap3 bqq2
+LUBBERLAND	lap3 bqq2 lxxn0
+LUBBERLANDERS	lap3 bqq2 lxxn0 dqq2
+LUBBERLY	lap3 bqq0 lii2
+LUBBERS	lap3 bqq2
+LUBECK	luu0 bek3
+LUBRIC	luu0 brik1
+LUBRICAL	luu0 bri1 kh@l2
+LUBRICANT	luu0 bri1 khxn3
+LUBRICANTES	luu0 bri1 khxn3
+LUBRICANTS	luu0 bri1 khxn3
+LUBRICATE	luu0 bri1 kheet1
+LUBRICATED	luu0 bri1 kheet3 thet1
+LUBRICATES	luu0 bri1 kheet1
+LUBRICATING	luu0 bri1 kheet3 ting2
+LUBRICATION	luu0 bri1 khee0 chan2
+LUBRICATIONAL	luu0 bri1 khee0 chan2 n@l2
+LUBRICATIONS	luu0 bri1 khee0 chan2
+LUBRICATIVE	luu0 bri1 khee0 thiif1
+LUBRICATOR	luu0 bri1 khee0 tqq2
+LUBRICATORS	luu0 bri1 khee0 tqq2
+LUBRICITATE	luu0 bri3 si1 theet1
+LUBRICITIES	luu0 bri3 si1 tii2
+LUBRICITY	luu0 bri3 si1 tii2
+LUBRIFACTION	luu0 bri1 fxk3 chan2
+LUBRIFICATION	luu0 bri1 fi3 khee0 chan2
+LUBRIFY	luu0 bri1 faaj0
+LUCARNE	luu0 khaan0
+LUCENCE	luu0 sen3
+LUCENCIES	luu0 sen0 sii2
+LUCENCY	luu0 sen0 sii2
+LUCENT	luu0 sen3
+LUCENTE	luu0 sen0 tee2
+LUCENTI	luu0 sen0 tii2
+LUCERN	luu0 sqqn0
+LUCERNE	luu0 sqqn0
+LUCIBLE	luu0 si1 bql2
+LUCID	luu0 sit1
+LUCIDITIES	luu0 si1 di3 tii2
+LUCIDITY	luu0 si1 di3 tii2
+LUCIDLY	luu0 sit1 lii2
+LUCIDNESS	luu0 sit1 nees1
+LUCIFER	luu0 si1 fqq2
+LUCIFEROUS	luu0 si3 fq1 rqqs2
+LUCIFEROUSLY	luu0 si3 fq1 ras3 lii2
+LUCIFEROUSNESS	luu0 si3 fq1 ras3 nees1
+LUCIFERS	luu0 si1 fqq2
+LUCIFIC	luu0 si3 fik1
+LUCIFORM	luu0 si1 f@@m0
+LUCK	lak3
+LUCKED	lak3
+LUCKER	lak3 kqq2
+LUCKES	lak3
+LUCKIER	lak3 ki1 qq2
+LUCKIES	lak3 kii2
+LUCKIEST	lak3 ki1 es1
+LUCKILY	lak3 ki1 lii2
+LUCKING	lak3 king2
+LUCKINGS	lak3 king2
+LUCKINGTON	lak3 king0 tan2
+LUCKLESS	lak3 lees1
+LUCKLESSLY	lak3 lees1 lii2
+LUCKLESSNESS	lak3 lees1 nees1
+LUCKMAN	lak3 mxxn0
+LUCKMANN	lak3 maan0
+LUCKNOW	lak3 naaw0
+LUCKS	lak3
+LUCKY	lak3 kii2
+LUCKYS	lak3 kii2
+LUCRATIVE	luu0 khrq1 thiif1
+LUCRATIVELY	luu0 khrq1 thiif3 lii2
+LUCRATIVENESS	luu0 khrq1 thiif3 nees1
+LUCRE	luu0 kqq2
+LUCRES	luu0 kqq2
+LUCUBRATE	luu0 khiw0 breet1
+LUCUBRATED	luu0 khiw0 breet3 thet1
+LUCUBRATES	luu0 khiw0 breet1
+LUCUBRATING	luu0 khiw0 breet3 ting2
+LUCUBRATION	luu0 khiw0 bree0 chan2
+LUCUBRATIONS	luu0 khiw0 bree0 chan2
+LUCUBRATOR	luu0 khiw0 bree0 tqq2
+LUCY	luu0 sii2
+LUDDITE	lat3 daaj3
+LUDDITES	lat3 daaj3
+LUDICK	luu0 dik1
+LUDICROUS	luu0 di1 khras2
+LUDICROUSLY	luu0 di1 khras3 lii2
+LUDICROUSNESS	luu0 di1 khras3 nees1
+LUDING	luut3 ding2
+LUDINGTON	luut3 ding0 tan2
+LUDISM	luu0 dis3 svm2
+LUDLAND	lat3 lxxn0
+LUDLOW	lat3 loo0
+LUDLOWS	lat3 loos2
+LUDO	luu0 doo2
+LUDWIGS	lat3 wik1
+LUDWIGSBURG	lat3 wik3 sa1 bqqk1
+LUDWIGSBURGER	lat3 wik3 sa1 bqq0 kqq2
+LUDWIGSHAFEN	lat3 wik3 sa1 haa0 fen2
+LUDWIGSHAVEN	lat3 wik3 sa1 hee0 wen2
+LUFF	laf3
+LUFFED	laf3
+LUFFING	laf3 fing2
+LUFFMAN	laf3 mxxn0
+LUFFNESS	laf3 nees1
+LUFFS	laf3
+LUG	lak3
+LUGE	luuc3
+LUGER	lak3 kqq2
+LUGERMAN	lak3 kqq2 mxxn0
+LUGERS	lak3 kqq2
+LUGES	luuc3 ces1
+LUGGAGE	lak3 keec1
+LUGGAGED	lak3 keec1
+LUGGAGES	lak3 keec3 ces1
+LUGGED	lak3
+LUGGER	lak3 kqq2
+LUGGERS	lak3 kqq2
+LUGGIES	lak3 khii2
+LUGGING	lak3 king2
+LUGGISHLY	lak3 kich1 lii2
+LUGING	lak3 king2
+LUGS	lak3
+LUGSAIL	lak3 seel0
+LUGSAILS	lak3 seel0
+LUGUBRIOUS	lq1 kuu0 briias2
+LUGUBRIOUSLY	lq1 kuu0 briias3 lii2
+LUGUBRIOUSNESS	lq1 kuu0 briias3 nees1
+LUGWORM	lak3 wqqm0
+LUGWORMS	lak3 wqqm0
+LUKE	luk3
+LUKEHART	luk3 haat3
+LUKEN	luu0 khen2
+LUKENBILL	luu0 khen2 bil0
+LUKENESS	luk3 nees1
+LUKENS	luu0 khen2
+LUKER	luu0 kqq2
+LUKERS	luu0 kqq2
+LUKES	luk3
+LUKESES	luk3 ses1
+LUKEWARM	luk3 w@@m0
+LUKEWARMISH	luk3 w@@m0 mich3
+LUKEWARMLY	luk3 w@@m0 lii2
+LUKEWARMNESS	luk3 w@@m0 nees1
+LUKEWARMTH	luk3 w@@m3
+LULL	lal0
+LULLABIES	lal0 la1 baaj0
+LULLABY	lal0 la1 baaj0
+LULLABYES	lal0 la1 baaj0
+LULLABYING	lal0 la1 baaj0 ing2
+LULLABYS	lal0 la1 baaj0
+LULLED	lal0
+LULLING	lal0 ling2
+LULLINGLY	lal0 ling2 lii2
+LULLINGSTON	lal0 ling0 sa1 ten3
+LULLINGSTONE	lal0 ling2 sa1 toon0
+LULLS	lal0
+LUMBAGO	lam0 bee0 koo2
+LUMBAGOS	lam0 bee0 koos2
+LUMBAR	lam0 baa2
+LUMBARD	lam0 baat3
+LUMBARS	lam0 baas2
+LUMBEE	lam0 bii2
+LUMBEES	lam0 bii2
+LUMBER	lam0 bqq2
+LUMBERED	lam0 bqq2
+LUMBERER	lam0 bqq0 rqq2
+LUMBERERS	lam0 bqq0 rqq2
+LUMBERG	lam0 bqqk1
+LUMBERING	lam0 bqq0 ring2
+LUMBERINGLY	lam0 bqq0 ring2 lii2
+LUMBERINGNESS	lam0 bqq0 ring2 nees1
+LUMBERINGS	lam0 bqq0 ring2
+LUMBERJACK	lam0 bqq2 cxk3
+LUMBERJACKET	lam0 bqq2 cxk3 ket1
+LUMBERJACKING	lam0 bqq2 cxk3 king2
+LUMBERJACKS	lam0 bqq2 cxk3
+LUMBERLESS	lam0 bqq2 lees1
+LUMBERLY	lam0 bqq0 lii2
+LUMBERMAN	lam0 bqq2 mxxn0
+LUMBERMEN	lam0 bqq2 men0
+LUMBERMENS	lam0 bqq2 men0
+LUMBERROOM	lam0 bqq2 ruum0
+LUMBERROOMS	lam0 bqq2 ruum0
+LUMBERS	lam0 bqq2
+LUMBERSOME	lam0 bqq2 sam0
+LUMBERT	lam0 bqqt1
+LUMBERTON	lam0 bqq0 tan2
+LUMBERYARD	lam0 bqq2 jaat3
+LUMBERYARDS	lam0 bqq2 jaat3
+LUMBIA	lam0 biia0
+LUMBIAN	lam0 biian2
+LUMBIER	lam0 bi1 qq2
+LUMBLEY	lam3 lee2
+LUMBLY	lam3 lii2
+LUMBRA	lam0 braa2
+LUMBROUS	lam0 bras2
+LUMINA	luu0 mi3 naa2
+LUMINAL	luu0 mi3 n@l2
+LUMINALLY	luu0 mi3 n@l2 lii2
+LUMINANCE	luu0 mi3 nxxn3
+LUMINANT	luu0 mi3 nxxn3
+LUMINARIES	luu0 mi3 nqq0 rii2
+LUMINARISM	luu0 mi3 nqq0 ris3 svm2
+LUMINARIST	luu0 mi3 nqq0 ris3
+LUMINARY	luu0 mi3 nqq0 rii2
+LUMINAS	luu0 mi3 naas2
+LUMINATE	luu0 mi3 neet1
+LUMINATION	luu0 mi3 nee0 chan2
+LUMINATIVE	luu0 mi3 nee0 thiif1
+LUMINATOR	luu0 mi3 nee0 tqq2
+LUMINE	luu0 miin0
+LUMINESCENT	luu0 mi1 nes3 sen2
+LUMING	luum0 ming2
+LUMINIFEROUS	luu0 mi1 ni3 fqq0 rqqs2
+LUMINIFICENT	luu0 mi1 ni3 fi1 sen2
+LUMINISM	luu0 mi1 nis3 svm2
+LUMINIST	luu0 mi1 nis3
+LUMINISTS	luu0 mi1 nis3
+LUMINO	luu0 mi1 noo2
+LUMINOL	luu0 mi1 n@@l0
+LUMINOLOGIST	luu0 mi1 noo0 lq1 cis3
+LUMINOS	luu0 mi1 noos2
+LUMINOSCOPE	luu0 mi1 noo0 sa1 khoop1
+LUMINOSITIES	luu0 mi1 noo0 si3 tii2
+LUMINOSITY	luu0 mi1 noo0 si3 tii2
+LUMINOUS	luu0 mi1 nqq2
+LUMINOUSLY	luu0 mi3 nqs2 lii2
+LUMINOUSNESS	luu0 mi3 nqs2 nees1
+LUMLEY	lam0 lee2
+LUMLEYS	lam0 lee2
+LUMME	lam0 mii2
+LUMMER	lam0 mqq2
+LUMMOCK	lam0 m@k3
+LUMMOX	lam0 m@k3
+LUMMOXES	lam0 m@k3 ses1
+LUMMY	lam0 mii2
+LUMP	lam3
+LUMPECTOMIES	lam0 pek3 thq1 mii2
+LUMPECTOMY	lam0 pek3 thq1 mii2
+LUMPED	lam3
+LUMPEN	lam0 phen2
+LUMPENS	lam0 phen2
+LUMPER	lam0 pqq2
+LUMPERS	lam0 pqq2
+LUMPET	lam0 pet1
+LUMPFISH	lam3 fich3
+LUMPIER	lam3 pi1 qq2
+LUMPIEST	lam3 pi1 es1
+LUMPILY	lam3 pi1 lii2
+LUMPINESS	lam3 pi1 nees1
+LUMPING	lam3 ping2
+LUMPINGLY	lam3 ping2 lii2
+LUMPISH	lam3 pich1
+LUMPISHLY	lam3 pich3 lii2
+LUMPISHNESS	lam3 pich3 nees1
+LUMPKIN	lam3 kin2
+LUMPKINS	lam3 kin2
+LUMPS	lam3
+LUMPUS	lam0 phas3
+LUMPY	lam0 pii23
+LUNACIES	luu0 na1 sii2
+LUNACY	luu0 na1 sii2
+LUNAR	luu0 naa2
+LUNARD	luu0 neet1
+LUNARD	luu0 nqqt1
+LUNARIAN	luu0 nqq0 riian2
+LUNARIANS	luu0 nqq0 riian2
+LUNARS	luu0 naa2
+LUNARS	luu0 naas2
+LUNATE	luu0 neet1
+LUNATED	luu0 neet3 thet1
+LUNATIC	luu0 nq1 thik1
+LUNATICALLY	luu0 naa0 thi1 kh@l2 lii2
+LUNATICO	luu0 naa0 thi1 khoo2
+LUNATICS	luu0 naa0 thik1
+LUNATION	luu0 nee0 chan2
+LUNATIONS	luu0 nee0 chan2
+LUNCH	lan3
+LUNCHABLE	lan3 chee0 bql2
+LUNCHABLES	lan3 chee0 bql2
+LUNCHED	lan3
+LUNCHEON	lan3 chan2
+LUNCHEONS	lan3 chan2
+LUNCHER	lan3 chqq2
+LUNCHERS	lan3 chqq2
+LUNCHES	lan3 ches1
+LUNCHING	lan3 ching2
+LUNCHROOM	lan3 ruum0
+LUNCHROOMS	lan3 ruum0
+LUNCHTIME	lan3 thaam0
+LUNCHTIMES	lan3 thaam0
+LUNE	luun0
+LUNES	luun0
+LUNET	luu0 net1
+LUNETS	luu0 net1
+LUNETTE	luu0 net3
+LUNETTEN	luu0 net3 then2
+LUNETTES	luu0 net3
+LUNG	lang3
+LUNGE	lan3
+LUNGED	lan3
+LUNGED	lang3
+LUNGEE	lan3 cii2
+LUNGEING	lan3 cing2
+LUNGEN	lan3 ceen0
+LUNGER	lan3 cqq2
+LUNGERS	lan3 cqq2
+LUNGFISH	lang3 fich3
+LUNGFISHES	lang3 fich3 ches1
+LUNGINE	lan3 cin2
+LUNGING	lan3 cing2
+LUNGS	lang3
+LUNULA	luu0 niw0 laa2
+LUNULAE	luu0 niw0 lii2
+LUNULAR	luu0 niw0 laa2
+LUNULATE	luu0 niw0 leet1
+LUNULATED	luu0 niw0 leet3 thet1
+LUNULATUS	luu0 niw0 lee0 thas2
+LUNULE	luu0 nuul0
+LUPIN	luu0 phin2
+LUPINE	luu0 phaaj0
+LUPINE	luu0 phaaj0
+LUPINES	luu0 phaaj0
+LUPING	luup3 ping2
+LUPINS	luu0 phin2
+LUPINSKI	luu0 phin0 sa1 kii2
+LUPINSKY	luu0 phin0 sa1 kii2
+LUPULIN	luu0 phiw0 lin2
+LUPULINIC	luu0 phiw0 li1 nik1
+LUPUS	luu0 phas3
+LUPUSES	luu0 phas2 ses1
+LURCH	lqqch3
+LURCHED	lqqch3
+LURCHER	lqqch3 chqq2
+LURCHERS	lqqch3 chqq2
+LURCHES	lqqch3 ches1
+LURCHING	lqqch3 ching2
+LURCHINGLY	lqqch3 ching2 lii2
+LURE	liw0 qq2
+LURED	liw0 qq2
+LURER	liw0 q1 rqq2
+LURERS	liw0 q1 rqq2
+LURES	liw0 qq2
+LURID	luu0 rit1
+LURIDA	luu0 ri3 daa2
+LURIDITY	luu0 ri3 di1 tii2
+LURIDLY	luu0 rit3 lii2
+LURIDNESS	luu0 rit3 nees1
+LURING	liw0 q1 ring2
+LURINGLY	liw0 q1 ring2 lii2
+LURK	lqqk3
+LURKED	lqqk3
+LURKER	lqqk3 kqq2
+LURKERS	lqqk3 kqq2
+LURKING	lqqk3 king2
+LURKINGLY	lqqk3 king2 lii2
+LURKS	lqqk3
+LUSATIAN	luus3 sa1 chiian2
+LUSCIOUS	las3 chiias2
+LUSCIOUSLY	las3 chiias2 lii2
+LUSCIOUSNESS	las3 chiias2 nees1
+LUSH	lach3
+LUSHED	lach3
+LUSHER	lach3 chqq2
+LUSHES	lach3 ches1
+LUSHEST	lach3 ches1
+LUSHING	lach3 ching2
+LUSHINGTON	lach3 ching0 tan2
+LUSHNESS	lach3 nees1
+LUST	las3
+LUSTED	las3 thet1
+LUSTER	las3 tqq2
+LUSTERED	las3 tqq2
+LUSTERER	las3 thqq0 rqq2
+LUSTERING	las3 thqq0 ring2
+LUSTERLESS	las3 thqq2 lees1
+LUSTERMAN	las3 thqq2 mxxn0
+LUSTERS	las3 tqq2
+LUSTFUL	lus3 fuul0
+LUSTFULLY	las3 fuul0 lii2
+LUSTFULNESS	las3 fuul0 nees1
+LUSTGARTEN	las3 kaa0 den2
+LUSTIC	las3 tik1
+LUSTICK	las3 tik3
+LUSTIER	las3 ti1 qq2
+LUSTIEST	las3 ti1 es1
+LUSTIG	las2 tik3
+LUSTIGER	las3 thi1 kqq2
+LUSTIGMAN	las3 tik3 mxxn0
+LUSTILY	las3 thi1 lii2
+LUSTINESS	las3 thi1 nees1
+LUSTING	las3 ting2
+LUSTLESS	las3 lees1
+LUSTLEY	las3 lee2
+LUSTMAN	las3 mxxn0
+LUSTMANN	las3 maan0
+LUSTRA	las3 thraa2
+LUSTRAL	las3 thr@l2
+LUSTRANT	las3 thrxn3
+LUSTRATE	las3 threet1
+LUSTRATED	las3 threet3 thet1
+LUSTRATES	las3 threet1
+LUSTRATING	las3 threet3 ting2
+LUSTRATION	las3 three0 chan2
+LUSTRATIONS	las3 three0 chan2
+LUSTRATIVE	las3 three0 thiif1
+LUSTRATORY	las3 three0 thq1 rii2
+LUSTRE	las3 tqq2
+LUSTRED	las3 tqq2
+LUSTREL	las3 trel2
+LUSTRES	las3 tqq2
+LUSTRIA	las3 thriia0
+LUSTRIAN	las3 thriian2
+LUSTRICA	las3 thri1 kaa2
+LUSTRICAL	las3 thri1 kh@l2
+LUSTRIFICATION	las3 thri1 fi3 khee0 chan2
+LUSTRIFY	las3 thri1 faaj0
+LUSTRIL	las3 thril2
+LUSTRINE	las3 thraaj0
+LUSTRING	las3 thring0
+LUSTRIOUS	las3 thriias2
+LUSTROUS	las3 thras2
+LUSTROUSLY	las3 thras2 lii2
+LUSTROUSNESS	las3 thras2 nees1
+LUSTRUM	las3 tram0
+LUSTS	las3
+LUSTUS	las3 thas3
+LUSTWORTHY	las3 wqqt3 dii2
+LUSTY	las3 tii2
+LUTA	luu0 taa2
+LUTANIST	luu0 taa0 nis3
+LUTANISTS	luu0 taa0 nis3
+LUTANY	luu0 thq1 nii2
+LUTE	luut3
+LUTED	luut3 thet1
+LUTELY	luut3 lii2
+LUTEN	luut3 then2
+LUTENIST	luut3 nis3
+LUTENISTS	luut3 nis3
+LUTER	luu0 thqq2
+LUTERMAN	luu0 thqq2 mxxn0
+LUTES	luut3
+LUTESES	luut3 ses1
+LUTHERAN	luu0 thq1 rxn2
+LUTHERANISM	luu0 thq1 rxn0 nis3 svm2
+LUTHERANS	luu0 thq1 rxn2
+LUTHERISM	luu0 thq1 ris3 svm2
+LUTHOR	luu0 thqq2
+LUTING	luut3 ting2
+LUTINGS	luut3 ting2
+LUTIST	luu0 this3
+LUTISTS	luu0 this3
+LUTON	luu0 than2
+LUX	lak3
+LUXE	lak3
+LUXE	luk3
+LUXEMBERG	lak3 sem0 bqqk1
+LUXEMBOURG	lak3 sem0 bqqk1
+LUXEMBOURGER	lak3 sem0 bqq0 kqq2
+LUXEMBOURGERS	lak3 sem0 bqq0 kqq2
+LUXEMBOURGS	lak3 sem0 bqqk1
+LUXEMBURG	lak3 sem0 bqqk1
+LUXEMBURGER	lak3 sem0 bqq0 kqq2
+LUXEMBURGERS	lak3 sem0 bqq0 kqq2
+LUXEMBURGS	lak3 sem0 bqqk1
+LUXES	lak3 ses1
+LUXTON	lak3 sa1 tan2
+LUXURIA	lak3 chuua0 riia0
+LUXURIANCE	lak3 chuua0 riian2
+LUXURIANS	lak3 chuua0 riian2
+LUXURIANT	lak3 chuua0 riian3
+LUXURIANTLY	lak3 chuua0 riian3 lii2
+LUXURIANTNESS	lak3 chuua0 riian3 nees1
+LUXURIATE	lak3 chuua0 ri3 eet1
+LUXURIATED	lak3 chuua0 ri3 eet3 thet1
+LUXURIATES	lak3 chuua0 ri3 eet1
+LUXURIATING	lak3 chuua0 ri3 eet3 ting2
+LUXURIATION	lak3 chuua0 ri3 ee0 chan2
+LUXURIES	lak3 chqq0 rii2
+LUXURIOUS	lak3 chuua0 riias2
+LUXURIOUSLY	lak3 chuua0 riias2 lii2
+LUXURIOUSNESS	lak3 chuua0 riias2 nees1
+LUXURY	lak3 chqq2 rii2
+LVOV	lq1 w@f3
+LYALLPUR	laj0 ql0 phqq2
+LYCEE	li3 sii0
+LYCEES	li0 sii2
+LYCEUM	laj0 siiam2
+LYCEUMS	laj0 siiam2
+LYCHEE	laj0 chii0
+LYCHEES	laj0 chii2
+LYCHGATE	lich3 keet1
+LYCHGATES	lich3 keet1
+LYCHNIC	lich3 nik1
+LYCHNIS	lich3 nees1
+LYCIAN	lis3 siian2
+LYCIANS	lis3 siian2
+LYCOPODE	laj0 khq1 phoot1
+LYCOPODIUM	laj0 khq1 phoo0 diiam2
+LYDDITE	lit3 daaj3
+LYDIA	li3 diia0
+LYDIAN	li3 diian2
+LYDIANS	li3 diian2
+LYDIAS	li3 diias2
+LYDNEY	lit3 nii2
+LYE	laaj0
+LYES	laaj0
+LYING	laaj0 ing2
+LYINGLY	laaj0 ing2 lii2
+LYINGS	laaj0 ing2
+LYMINGTON	li3 ming0 tan2
+LYMM	lim0
+LYMPH	lim3
+LYMPH	lim3
+LYMPHATIC	lim0 fxx0 thik1
+LYMPHATICAL	lim0 fxx0 thi1 kh@l2
+LYMPHATICALLY	lim0 fxx0 thi1 khq1 lii2
+LYMPHATICS	lim0 fxx0 thik1
+LYMPHO	lim0 foo0
+LYMPHOMANIAC	lim0 fq1 mee0 ni3 xk1
+LYMPHOSARCOMA	lim0 f@@s3 saa0 khoo0 maa2
+LYMPHOSARCOMAS	lim0 f@@s3 saa0 khoo0 maas2
+LYMPHOUS	lim0 fqq2
+LYMPHS	lim3
+LYMPICS	lim0 pik1
+LYNCH	lin3
+LYNCHBERG	lin3 bqqk1
+LYNCHBURG	lin3 bqqk1
+LYNCHED	lin3
+LYNCHER	lin3 chqq2
+LYNCHERS	lin3 chqq2
+LYNCHES	lin3 ches1
+LYNCHING	lin3 ching2
+LYNCHINGS	lin3 ching2
+LYNCHPIN	lin3 phin0
+LYNCHPINS	lin3 phin0
+LYNCHS	lin3 ches1
+LYNN	li3
+LYNNE	li3
+LYNNER	lin0 nqq2
+LYNNES	lin0
+LYNTON	lin0 tan2
+LYNX	ling3
+LYNXES	ling3 ses1
+LYONS	laaj0 qn0
+LYONSES	laaj0 qn0 ses1
+LYRATE	laaj0 reet1
+LYRATED	laaj0 reet3 thet1
+LYRE	laaj0 qq2
+LYREBIRD	laaj0 bqqt3
+LYREBIRDS	laaj0 bqqt3
+LYRES	laaj0 rqq2
+LYRIC	li3 rik1
+LYRICAL	li3 ri1 kh@l2
+LYRICALLY	li3 ri3 khq1 lii2
+LYRICALNESS	li3 ri3 khq1 nees1
+LYRICISE	li3 ris3 saj3
+LYRICISED	li3 ris3 saj3
+LYRICISES	li3 ris3 saj3 ses1
+LYRICISM	li3 ris3 sis3 svm2
+LYRICISMS	li3 ris3 sis3 svm2
+LYRICIST	li3 ris3 ses1
+LYRICISTS	li3 ris3 ses1
+LYRICIZE	li3 ris3 saj3
+LYRICIZED	li3 ris3 saj3
+LYRICIZES	li3 ris3 saj3 ses1
+LYRICIZING	li3 ris3 saj3 sing2
+LYRICK	li3 rik1
+LYRICS	li3 rik1
+LYRIFORM	li3 ri1 f@@m0
+LYRINX	li3 ring3
+LYRIST	laaj0 ris3
+LYRISTS	laaj0 ris3
+LYSOL	laaj0 s@@l0
+LYTHAM	li3 dqm2
+LABORATOIRES	lq1 b@@0 rq1 tuua0
+LABORIOUSLY	lqp3 b@@0 riias3 lii2
+LAENDERBANK	lxn1 dqq1 bxng3
+LAKSHAMANAN	lxk3 chq1 maan0 nqn2
+LAMBORGHINI	lxm1 bqq1 kii0 nii2
+LAMPLIGHTERS	lxm1 laaj0 tqq2
+LANDSBERGER	lxn1 bqq1 kqq2
+LAPAROSCOPIC	lx1 phqq1 raas3 kq1 pik1
+LARROQUETTE	laa0 roo0 ket1
+LASERSONICS	lee0 sqq1 saa0 nik1
+LATITUDINAL	lxt3 thq1 thuu0 dq1 n@l2
+LAUGHINGHOUSE	lxf3 fing0 haaw3
+LAWBREAKERS	l@@0 breek3 kqq2
+LEADERSHIPS	liit3 dqq1 chip3
+LEAPFROGGED	liip3 fr@@k1
+LECHTENBERG	lek3 thqn1 bqqk1
+LEFFINGWELL	lef3 fing0 weel0
+LEGISLATURE	le1 cqs3 lee0 chqq2
+LENGTHENING	le1 thqn1 ning2
+LESZCZYNSKI	lech3 chin0 sa1 kii2
+LEWANDOWSKI	luu0 wqn1 d@@f3 sa1 kii2
+LEYENDECKER	laa0 jqn1 dik3 kqq2
+LICHTENBERG	lik3 thqn1 bqqk1
+LIGHTFASTNESS	laaj3 fxs3 nees1
+LILLEHAMERS	lil0 lii0 hxm2 mqq2
+LINCOLNSHIRE	li1 khqn1 chqq2
+LIND	lin0
+LINGUISTICALLY	ling0 kwis3 tik3 khql2 lii2
+LIQUEFACTION	li3 khwqq0 fxk3 chan2
+LITCHFIELDS	lich3 fiil0
+LIVELIHOODS	laj3 lii2 huut3
+LOCALIZATION	loo0 khql0 lq1 see0 chan2
+LOCOMOTIVES	loo0 khq1 moo0 thiif1
+LOGOGRAPHIC	loo0 koo0 krxf3 fik1
+LONGITUDINAL	laan0 cq1 thuu0 dq1 n@l2
+LOUDENSLAGER	laaw0 dqn1 sa1 lee0 kqq2
+LOUTZENHISER	laas3 sqn2 haaj3 sqq2
+LUBAVITCHER	luu0 bq1 wich3 chqq2
+LUCKENBAUGH	lqk3 khen0 b@@0
+LUKASIEWICZ	lq1 kaas3 sa1 wich3
+LYMPHADENOPATHY	lim0 fq1 den0 nq1 phx1 thii2

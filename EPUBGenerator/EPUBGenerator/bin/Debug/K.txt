@@ -1,0 +1,1918 @@
+KAFFIR	khxf3 fqq2
+KAFFIRS	khxf3 fqq2
+KAIL	kheel0
+KAILASH	kheel0 lxch3
+KAILYARD	kheel0 jaat3
+KAILZIE	kheel0 sii2
+KAISER	khaj0 sqq2
+KAISERMAN	khaj0 sqq2 mxxn0
+KAISERS	khaj0 sqq2
+KAISERTECH	khaj0 sqq0 thek1
+KAKEMONO	khaa0 ki1 moo0 noo0
+KAKEMONOS	khaa0 ki1 moo0 noos3
+KALE	khel0
+KALEIDA	khaa0 laj0 daa2
+KALEIDOPHONE	khaa0 laj0 doo0 foon0
+KALEIDOSCOPE	khaa0 laj0 doo0 sa1 khoop1
+KALEIDOSCOPED	khaa0 laj0 doo0 sa1 khoop1
+KALEIDOSCOPES	khaa0 laj0 doo0 sa1 khoop1
+KALEIDOSCOPIC	khaa0 laj0 doo0 sa1 khoo0 pic1
+KALEIDOSCOPICALLY	khaa0 laj0 doo0 sa1 khoo0 pic1 c@@l0 lii2
+KALEN	khxx0 len0
+KALEND	khxx0 len0
+KALENDA	khxx0 len0 dqq2
+KALENDAR	khxx0 len0 daa2
+KALENDARIAN	khxx0 len0 da1 riian2
+KALENDE	khxx0 len0
+KALENDER	khxx0 len0 dqq2
+KALENDRA	khxx0 len0 draa2
+KALENDS	khxx0 len0
+KALENIC	khxx0 len0 nik1
+KALENIN	khxx0 len0 nin0
+KALER	khel0 lqq2
+KALER	khel0 lqq2
+KALES	khel0
+KALEYARDS	khel0 jaat3
+KALGAN	khaal0 kaan0
+KAMA	khaa0 maa0
+KAMAING	khaa0 maa0 ing2
+KAMIC	khaa0 mik1
+KAMPA	khxxm0 paa2
+KAMPANA	khxxm3 paa0 naa2
+KAMPAR	khxxm0 paa2
+KAMPAS	khxxm0 pas3
+KAMPEN	khxxm0 phen2
+KAMPER	khxxm0 phqq2
+KAMPERS	khxxm0 phqqs1
+KAMPERT	khxxm0 pqqt1
+KAMPGROUND	khxxm3 kraaw0
+KAMPGROUNDS	khxxm3 kraaw0
+KAMPIS	khxxm0 piis3
+KAMPMAN	khxxm3 mxxn0
+KAMPMANN	khxxm3 mxxn0
+KAMPONG	khxxm3 p@@ng2
+KAMPONGS	khxxm3 p@@ng2
+KAMPOT	khxxm3 ph@t1
+KAMPS	khxxm3 ph@t1
+KAMPUCHEA	khxxm3 puu0 chiia0
+KAMPUCHEAN	khxxm3 puu0 chiian2
+KAMPUCHEANS	khxxm3 puu0 chiian2
+KANABAR	khxx0 naa0 baa2
+KANADA	khxx0 naa0 daa2
+KANADAY	khxx0 naa0 dee0
+KANARESE	khxx0 naa0 riis3
+KANELLI	khxx0 nel0 lii2
+KANER	khxx0 nqq2
+KANGAROO	khxxng0 kaa0 ruu0
+KANGAROOING	khxxng0 kaa0 ruu0 ing2
+KANGAROOS	khxxng0 kaa0 ruu0
+KANGAS	khxxng0 kaas3
+KANPUR	khaan0 pqq2
+KANPUR	khaan0 pqq2
+KANSANS	khxxn0 saan0
+KANSAS	khxxn0 sqs3
+KANSKEY	khxxn0 sa1 kii2
+KANTALA	khxxn0 taa0 laa2
+KANTAM	khxxn0 tam2
+KANTANA	khxxn0 thaa0 naa2
+KANTAR	khxxn0 thaa2
+KANTATE	khxxn0 thet1
+KANTEN	khxxn0 then0
+KANTER	khxxn0 tqq2
+KANTERES	khxxn0 tqq2
+KANTERS	khxxn0 tqq2
+KANTIAN	khxxn0 chiian2
+KANTIANISM	khxxn0 chiian2 nis3 svm2
+KANTIANS	khxxn0 chiian2
+KANTISM	khxxn0 this3 svm2
+KANTIST	khxxn0 this3
+KANTNER	khxxn3 nqq2
+KANTON	khxxn0 tan2
+KANTONAL	khxxn0 thoo0 nql2
+KANTONE	khxxn0 thoon0
+KANTONS	khxxn0 tan2
+KANTOR	khxxn0 tqq2
+KANTORIAN	khxxn0 thoo0 riian2
+KANTRA	khxxn0 thraa2
+KANTROS	khxxn0 throos3
+KANTROY	khxxn0 thr@@j0
+KANTUA	khxxn0 tuua0
+KAOHSIUNG	khaaw3 sing0
+KAOLIN	khee0 q1 lin2
+KAOLINATE	khee0 q1 li3 net1
+KAOLINIC	khee0 q1 li3 nik1
+KAOLINISE	khee0 q1 li3 naj3
+KAOLINISED	khee0 q1 li3 naj3
+KAOLINISES	khee0 q1 li3 naj3 ses1
+KAOLINITE	khee0 q1 li3 naj3
+KAOLINIZATION	khee0 q1 li3 naj3 see0 chan2
+KAOLINIZE	khee0 q1 li3 naj3
+KAOLINIZES	khee0 q1 li3 naj3 ses1
+KAPOK	khee0 ph@k3
+KAPOKS	khee0 ph@k3
+KAPUT	khq1 phut3
+KAPUTNIK	khq1 phut3 nik1
+KARACHI	khq1 raa0 chii2
+KARACHIS	khq1 raa0 chii2
+KARAGAN	khaa0 rq1 khan2
+KARAGANDA	khaa0 rq1 kan0 daa2
+KARANI	khaa0 raa0 nii2
+KARANS	khaa0 ran0
+KARAS	khaa0 raas2
+KARAT	khaa0 rat1
+KARATE	khaa0 raa0 te2
+KARATES	khaa0 raa0 tes1
+KARATS	khaa0 rat1
+KAREL	khaa0 rel0
+KARELIAN	khaa0 rq1 liian2
+KARELIANS	khaa0 rq1 liian2
+KARELIN	khaa0 rq1 lin0
+KARELS	khaa0 rel0
+KAREN	khaa0 ren0
+KARENS	khaa0 ren0
+KARETH	khaa0 ret1
+KARLBERG	khaal0 bqqk1
+KARLIN	khaa0 lin0
+KARLINER	khaa0 laaj0 nqq2
+KARLING	khaa0 ling2
+KARLINGER	khaa0 ling0 ngqq2
+KARLINS	khaa0 lin2
+KARLINSKY	khaa0 lin0 sa1 kii2
+KARLS	khaal0
+KARLSBAD	khaal0 sa1 bxxt3
+KARLSBERG	khaal0 sa1 bqqk1
+KARLSEN	khaal0 sen2
+KARLSON	khaal0 san2
+KARLSRUHE	khaal0 ruua0
+KARLSSON	khaal0 san2
+KARLSTEIN	khaal0 sa1 taaj0
+KARLSTEN	khaal0 sa1 then2
+KARLTON	khaal0 tan2
+KARMA	khaa0 maa0
+KARMAS	khaa0 maas2
+KARMEL	khaa0 mel0
+KARMELO	khaa0 mee0 loo2
+KARMEN	khaa0 men0
+KARMOUTH	khaa0 maw3
+KARROO	khaa0 ruu0
+KARROS	khaa0 r@@s3
+KASHMAN	khxxch3 mxxn0
+KASHMERE	khxxch3 miia0
+KASHMIR	khxxch3 miia0
+KASHMIRI	khxxch3 mii0 rii2
+KASHMIRIR	khxxch3 mii0 riia0
+KASHMIRIS	khxxch3 mii0 ris3
+KASHMIRS	khxxch3 miias3
+KASHMORE	khxxch3 m@@0
+KASSAL	khxs3 sql2
+KASSAR	khxs3 saa2
+KASSEL	khxs3 sel0
+KASSELMAN	khxs3 sel0 mxxn0
+KASSER	khxs3 sqq2
+KASSERINE	khxs3 sqq0 riin0
+KASSES	khxs3 ses1
+KATE	khet3
+KATER	khet3 tqq2
+KATES	khet3
+KATH	khxt3
+KATHARINE	khxt3 thaa0 riin0
+KATHARSES	khxt3 thaa0 ses1
+KATHARSIS	khxt3 thaa0 sis1
+KATHCART	khxt3 kaat3
+KATHEREIN	khxt3 thq1 riin0
+KATHERIN	khxt3 thq1 rin0
+KATHERINE	khxt3 thq1 riin0
+KATHERINES	khxt3 thq1 riin2
+KATHLINE	khxt3 laaj0
+KATHMAN	khxt3 mxxn0
+KATHMANN	khxt3 maan0
+KATHOLICOS	khxt3 thql0 li3 kh@@s3
+KATHY	khxx0 thii2
+KATHYS	khxx0 thii2
+KATIE	khee0 thii2
+KATIES	khee0 thii2
+KATOWICE	khaa0 thoo0 wis1
+KATRINA	khxt3 thrii0 naa2
+KATRINAS	khxt3 thrii0 naas2
+KATRINE	khxt3 thriin0
+KATRIS	khxt3 thris3
+KATYDID	khee0 thii0 det1
+KATYDIDS	khee0 thii0 det1
+KAVA	khaa0 waa2
+KAY	khee0
+KAYAK	khaa0 jak3
+KAYAKED	khaa0 jak3
+KAYAKER	khaa0 jak3 kqq2
+KAYAKERS	khaa0 jak3 kqq2
+KAYAKING	khaa0 jak3 king2
+KAYAKS	khaa0 jak3
+KAYDEN	khee0 den0
+KAYDON	khee0 d@n2
+KAYES	khee0 jes1
+KAYLEY	khee0 lii2
+KAYLIE	khee0 laaj0
+KAYLOR	khee0 lqq2
+KAYOES	khee0 oos3
+KAYPRO	khee0 phroo0
+KAYPROS	khee0 phroos3
+KAZAN	khaa0 san0
+KAZANS	khaa0 san0
+KAZANSKY	khaa0 san0 sa1 kii2
+KEA	khii0 a1
+KEAHEY	khii0 hee2
+KEALEY	khii0 lii2
+KEALING	khii0 ling2
+KEARING	khiia0 ring2
+KEASLING	khiis3 ling2
+KEATHING	khiit3 thing2
+KEATING	khiit3 ting2
+KEATINGS	khiit3 ting2
+KEATON	khii0 tan2
+KEATONS	khii0 tan2
+KEATOR	khii0 tqq2
+KEAYES	khii0 jes1
+KEBAB	khq1 bap1
+KEBABED	khq1 bap1
+KEBABS	khq1 bap1
+KEDGE	khec3
+KEDGED	khec3
+KEDGER	khec3 cqq2
+KEDGERE	khec3 cqq0 rii2
+KEELER	khiil0 lqq2
+KEELHAUL	khiil0 hool0
+KEELHAULED	khiil0 hool0
+KEELHAULING	khiil0 hool0 ling2
+KEELHAULS	khiil0 hool0
+KEELING	khiil0 ling2
+KEELLESS	khiil0 les1
+KEELS	khiil0
+KEELSON	khel0 san2
+KEEN	khiin0
+KEENED	khiin0
+KEENELAND	khiin0 lxxn0
+KEENER	khii0 nqq2
+KEENERS	khii0 nqq2
+KEENES	khiin0
+KEENESS	khii0 nees1
+KEENEST	khii0 nes3
+KEENEYED	khii0 nii2
+KEENING	khiin0 ning2
+KEENINGS	khiin0 ning2
+KEENLY	khiin0 lii2
+KEENNESS	khiin0 nees1
+KEENS	khiin0
+KEENSBURG	khiin0 bqqk1
+KEEP	khiip3
+KEEPABLE	khiip3 ee0 bql2
+KEEPED	khiip3
+KEEPEN	khiip3 phen2
+KEEPER	khiip3 phqq2
+KEEPERING	khiip3 phqq0 ring2
+KEEPERS	khiip3 phqq2
+KEEPES	khiip3 pes1
+KEEPIN	khiip3 phin2
+KEEPING	khiip3 ping2
+KEEPINGS	khiip3 phing2
+KEEEPINR	khiip3 phin0 nqq2
+KEEPINR	khiip3 phin0 nqq2
+KEEPS	khiip3
+KEEPSAKE	khiip3 seek3
+KEEPSAKES	khiip3 seek3
+KEG	khek3
+KEGGIN	khek3 kin2
+KEGLER	khek3 lqq2
+KEGLERS	khek3 lqq2
+KEGLEY	khek3 lii2
+KEGS	khek3
+KEIGHLEY	khiic3 lii2
+KEITH	khiit3
+KEITHLEY	khiit3 lii2
+KEITHR	khiit3 thqq2
+KEITHS	khiit3
+KELLES	khel0 les1
+KELLS	khel0
+KELP	khel3
+KELPED	khel3
+KELPER	khel3 pqq2
+KELPIE	khel0 phii2
+KELPIES	khel0 phii2
+KELPING	khel0 phing2
+KELPS	khel3
+KELSAY	khel0 see0
+KELSEA	khel0 sii0
+KELSEN	khel0 sen2
+KELSER	khel0 sqq2
+KELSEY	khel0 sii2
+KELSIE	khel0 sii2
+KELSO	khel0 soo2
+KELSON	khel0 san2
+KELSTEIN	khel0 sa1 taaj0
+KELSTON	khel0 sa1 tan2
+KELSTROM	khel0 sa1 tr@m0
+KELT	khel3
+KELTEC	khel0 thek1
+KELTECH	khel0 thek1
+KELTER	khel0 thqq2
+KELTIC	khel0 thik1
+KELTICS	khel0 thik1
+KELTING	khel0 thing2
+KELTON	khel0 tan2
+KELTS	khel3
+KELTY	khel0 thii2
+KEMP	khem3
+KEMPEN	khem0 phen2
+KEMPER	khem0 phqq2
+KEMPERS	khem0 phqq2
+KEMPES	khem0 phes1
+KEMPIAN	khem0 piian2
+KEMPIS	khem0 pis3
+KEMPLE	khem0 pql2
+KEMPLER	khem3 lqq2
+KEMPLEY	khem3 lii2
+KEMPLIN	khem3 lin2
+KEMPLINS	khem3 lin2
+KEMPSELL	khem3 sel0
+KEMPSKI	khem3 sa1 kii2
+KEMPSON	khem3 san2
+KEMPSTER	khem3 sa1 tqq2
+KEMPSTON	khem3 sa1 tan2
+KEMPT	khem3
+KEMPTER	khem3 tqq2
+KEMPTON	khem3 tan2
+KEMSING	khem0 sing2
+KEN	khen0
+KENDAL	khen0 dql2
+KENDALL	khen0 d@@l0
+KENDALLS	khen0 d@@l0
+KENDALS	khen0 dql2
+KENDATA	khen0 daa0 taa2
+KENDATE	khen0 det3
+KENDAVIS	khen0 dee0 wis3
+KENDELL	khen0 del0
+KENDEM	khen0 dem2
+KENDER	khen0 dqq2
+KENDERTON	khen0 dq1 tan2
+KENDIG	khen0 dik1
+KENDINGER	khen0 ding0 ngqq2
+KENDIS	khen0 dis1
+KENDIX	khen0 dik1
+KENDLE	khen0 dql2
+KENDLER	khen0 dq1 lqq2
+KENDLETON	khen0 dq1 tan2
+KENDLEY	khen0 dq1 lii2
+KENDO	khen0 doo2
+KENDON	khen0 d@n2
+KENDONS	khen0 d@n2
+KENDOR	khen0 dqq2
+KENDOS	khen0 d@@s3
+KENDRA	khen0 draa2
+KENDRAY	khen0 dre2
+KENDREW	khen0 druu0
+KENDRIC	khen0 drik1
+KENDRICK	khen0 drik1
+KENDRICKS	khen0 drik1
+KENFIELD	khen0 fiil0
+KENFORD	khen0 f@@t1
+KENILWORTH	khen0 nil0 wqt3
+KENING	khen0 ning2
+KENINS	khen0 nin2
+KENITE	khee0 naj3
+KENITES	khee0 naj3
+KENKEN	khen0 ken0
+KENLEY	khen0 lii2
+KENLOW	khen0 loo0
+KENMAR	khen0 maa0
+KENMARE	khen0 mxx0
+KENMARK	khen0 maak3
+KENMORE	khen0 m@@0
+KENMORES	khen0 m@@0 res3
+KENNAMER	khen0 nem0 mqq2
+KENNARD	khen0 naat1
+KENNED	khen0
+KENNEL	khen0 nel0
+KENNELED	khen0 nel0
+KENNELING	khen0 nq1 ling2
+KENNELL	khen0 nel0
+KENNELLED	khen0 nel0
+KENNELLING	khen0 nel0 ling2
+KENNELLY	khen0 nel0 lii2
+KENNELS	khen0 nel0
+KENNEMER	khen0 nee0 mqq2
+KENNEMORE	khen0 nee0 m@@2
+KENNET	khen0 net1
+KENNETH	khen0 net1
+KENNETHS	khen0 net1
+KENNETT	khen0 net1
+KENNETTS	khen0 net1
+KENNING	khen0 ning2
+KENNINGS	khen0 ning2
+KENNINGTON	khen0 ning0 tan2
+KENNIS	khen0 nees1
+KENNISON	khen0 ni3 san2
+KENNISTON	khen0 nis3 tan2
+KENNON	khen0 n@n2
+KENNONS	khen0 n@n2
+KENNY	khen0 nii2
+KENNYS	khen0 niis3
+KENOYER	khen0 noo0 jqq2
+KENRAC	khen0 rxk1
+KENRAD	khen0 raat1
+KENRIC	khen0 rik1
+KENRICK	khen0 rik1
+KENRICKS	khen0 rik1
+KENS	khen0
+KENSIC	khen0 sik3
+KENSICO	khen0 si3 khoo2
+KENSINGER	khen0 sing0 ngqq2
+KENSINGTON	khen0 sing0 tan2
+KENSKI	khen0 sa1 kii2
+KENSKOFF	khen0 sa1 kh@@f3
+KENSTON	khen0 sa1 tan2
+KENT	khen3
+KENTAN	khen0 tan2
+KENTANA	khen0 thaa0 naa2
+KENTE	khen0 tee2
+KENTER	khen0 tqq2
+KENTERA	khen0 tee0 raa2
+KENTES	khen3 tes1
+KENTFORD	khen3 f@@t1
+KENTICISM	khen0 ti1 sis3 svm2
+KENTIE	khen0 thii2
+KENTILE	khen0 taaj0
+KENTIN	khen0 thin0
+KENTING	khen0 ting2
+KENTISH	khen0 tich3
+KENTISHMAN	khen0 tich3 mxxn0
+KENTISHMEN	khen0 tich3 men0
+KENTLAND	khen3 lxxn0
+KENTLANDS	khen3 lxxn0
+KENTLEY	khen3 lii2
+KENTNER	khen3 nqq2
+KENTOFF	khen3 @f3
+KENTON	khen0 tan2
+KENTONES	khen0 tan2
+KENTRA	khen0 thraa2
+KENTRAIL	khen0 threl0
+KENTRIDGE	khen0 thric1
+KENTRON	khen0 thr@n2
+KENTRONICS	khen0 thr@@0 nik1
+KENTUCK	khen0 tak3
+KENTUCKIAN	khen0 tak3 kiian2
+KENTUCKIANS	khen0 tak3 kiian2
+KENTUCKY	khen0 tak3 kii2
+KENTUCKYS	khen0 tak3 kii2
+KENTUNG	khen0 tang2
+KENTWELL	khen3 wel0
+KENTWOOD	khen3 wuut3
+KENWARD	khen0 w@@t1
+KENWARDS	khen0 w@@t1
+KENWAY	khen0 wee0
+KENWICK	khen0 wik1
+KENWOOD	khen0 wuut3
+KENWORTH	khen0 wqqt1
+KENWORTHY	khen0 wqqt3 dii2
+KENYA	khen0 jaa2
+KENYAN	khen0 jan2
+KENYANS	khen0 jan2
+KENYON	khen0 j@n2
+KENYONS	khen0 j@n2
+KEPI	khee0 phii2
+KEPIS	khee0 phii2
+KEPT	khep3
+KERB	kqqp3
+KERBED	kqqp3
+KERBER	kqqp3 bqq2
+KERBING	kqqp3 bing2
+KERBS	kqqp3
+KERBSIDE	kqqp3 saj3
+KERBSIDES	kqqp3 saj3
+KERBSTONE	kqqp3 sa1 toon0
+KERBSTONES	kqqp3 sa1 toon0
+KERCHIEF	kqq0 chiif3
+KERCHIEFED	kqq0 chiif3
+KERCHIEFS	kqq0 chiif3
+KERMES	kqq0 mes3
+KERMIS	kqq0 mis3
+KERMIT	kqq0 mit3
+KERN	kqqn0
+KERNDON	kqqn0 d@n2
+KERNED	kqqn0
+KERNEL	kqq0 nel0
+KERNELED	kqq0 nel0
+KERNELING	kqq0 nel0 ling2
+KERNELL	kqq0 nel0
+KERNELLED	kqq0 nel0
+KERNELLING	kqq0 nel0 ling2
+KERNELLY	kqq0 nel0 lii2
+KERNELS	kqq0 nel2
+KERNER	kqq0 nqq2
+KERNERS	kqq0 nqq2
+KERNES	kqqn0
+KERNICK	kqq0 nik1
+KERNING	kqq0 ning2
+KERNS	kqqn0
+KEROSENE	khqq0 roo0 siin0
+KEROSENES	khqq0 roo0 siin0
+KERRIE	khqq0 rii2
+KERRIER	khqq0 ri1 qq2
+KERRIES	khqq0 rii2
+KERRY	khqq0 rii2
+KERRYMAN	khqq0 rii2 mxxn0
+KERSEY	kqq0 sii2
+KERSEYMERE	kqq0 sii0 miia0
+KERSEYMERES	kqq0 sii0 miias3
+KERSEYS	kqq0 sii2
+KESTEL	khes3 thel0
+KESTELL	khes3 thel0
+KESTELLI	khes3 thel0 laj0
+KESTELMAN	khes3 thel0 mxxn0
+KESTEN	khes3 ten0
+KESTENS	khes3 ten0
+KESTERS	khes3 tqq2
+KESTERSON	khes3 tqq0 san2
+KESTERTON	khes3 tqq0 tan2
+KESTIN	khes3 tin0
+KESTING	khes3 ting2
+KESTON	khes3 tan2
+KESTOS	khes3 t@@s3
+KESTREL	khes3 trql2
+KESTRELS	khes3 trql2
+KETCH	khech3
+KETCHER	khech3 chqq2
+KETCHERSIDE	khech3 chqq0 saj3
+KETCHES	khech3 ches1
+KETCHING	khech3 ching2
+KETCHLEDGE	khech3 lec1
+KETCHUP	khech3 chap1
+KETCHUPS	khech3 chap1
+KETTER	khet3 thqq2
+KETTERER	khet3 thqq0 rqq2
+KETTERING	khet3 thqq0 ring2
+KETTERINGHAM	khet3 thqq0 ring2 hxm0
+KETTERINGS	khet3 thqq0 ring2
+KETTERLING	khet3 thqq0 ling2
+KETTERMAN	khet3 thqq2 mxxn0
+KETTERSON	khet3 thqq0 san2
+KETTLE	khet3 thql2
+KETTLED	khet3 thql2
+KETTLEDRUM	khet3 thql2 dram0
+KETTLEDRUMMER	khet3 thql2 dram0 mqq2
+KETTLEDRUMS	khet3 thql2 dram0
+KETTLEHOLDER	khet3 thql2 hool0 dqq2
+KETTLEMAN	khet3 thql2 mxxn0
+KETTLER	khet3 thq1 lqq2
+KETTLES	khet3 thql2
+KETTLESON	khet3 thql0 san2
+KETTLEWELL	khet3 thql2 wel0
+KEVILL	khee0 wil0
+KEVILLE	khee0 wil0
+KEVIN	khee0 win2
+KEVINR	khee0 win0 nqq2
+KEVINS	khee0 win2
+KEY	khii0
+KEYAGE	khii0 eec1
+KEYBOARD	khii0 b@@t1
+KEYBOARDED	khii0 b@@t1 det1
+KEYBOARDER	khii0 b@@t1 dqq2
+KEYBOARDERS	khii0 b@@t1 dqq2
+KEYBOARDING	khii0 b@@t1 ding2
+KEYBOARDIST	khii0 b@@t1 dis1
+KEYBOARDISTS	khii0 b@@t1 dis1
+KEYBOARDS	khii0 b@@t1
+KEYCORP	khii0 kh@@p3
+KEYCORPS	khii0 kh@@p3
+KEYED	khii0
+KEYES	khiis3
+KEYHOLD	khii0 hool0
+KEYHOLDER	khii0 hool0 dqq2
+KEYHOLDERS	khii0 hool0 dqq2
+KEYHOLE	khii0 hool0
+KEYHOLES	khii0 hool0
+KEYING	khii0 ing2
+KEYINGS	khii0 ing2
+KEYLESS	khii0 lees1
+KEYMAN	khii0 mxxn0
+KEYNES	khiin0
+KEYNESES	khii0 nes1 ses1
+KEYNESIAN	khii0 nee0 siian2
+KEYNESIANS	khii0 nee0 siian2
+KEYNOTE	khii0 noot3
+KEYNOTED	khii0 noot3 thet1
+KEYNOTER	khii0 noot3 thqq2
+KEYNOTERS	khii0 noot3 thqq2
+KEYNOTERS	khii0 noot3 thqq2
+KEYNOTES	khii0 noot3
+KEYNOTING	khii0 noot3 ting2
+KEYNSHAM	khiin0 chxm2
+KEYPAD	khii0 phxt1
+KEYPADS	khii0 phxt1
+KEYPUNCH	khii0 phan3
+KEYPUNCHED	khii0 phan3
+KEYPUNCHER	khii0 phan3 chqq2
+KEYPUNCHERS	khii0 phan3 chqq2
+KEYPUNCHES	khii0 phan3 ches1
+KEYPUNCHING	khii0 phan3 ching2
+KEYRING	khii0 ring0
+KEYRINGS	khii0 ring0
+KEYS	khiis3
+KEYSER	khii0 sqq2
+KEYSERS	khii0 sqq2
+KEYSET	khii0 set3
+KEYSETS	khii0 set3
+KEYSTER	khii0 sa1 tqq2
+KEYSTERS	khii0 sa1 tqq2
+KEYSTOKES	khii0 sa1 took3
+KEYSTONE	khii0 sa1 toon0
+KEYSTONED	khii0 sa1 toon0
+KEYSTONER	khii0 sa1 toon0 nqq2
+KEYSTONERS	khii0 sa1 toon0 nqq2
+KEYSTONES	khii0 sa1 toon0
+KEYSTOR	khii0 sa1 tqq2
+KEYSTROKE	khii0 sa1 trook1
+KEYSTROKES	khii0 sa1 trook1
+KEYTON	khii0 tan2
+KEYTONES	khii0 thoon0
+KEYWAY	khii0 wee0
+KEYWAYS	khii0 wees3
+KEYWORD	khii0 wqqt1
+KEYWORDING	khii0 wqqt3 ding2
+KEYWORDS	khii0 wqqt1
+KEYWORTH	khii0 wqqt3
+KHAKI	khaa0 kii0
+KHAKIED	khaa0 kii0
+KHAKIS	khaa0 kiis3
+KHALED	kheel0 lit1
+KHALEL	khaal0 lel0
+KHALIF	khaa0 liif3
+KHALIFA	khaa0 li3 faa0
+KHALIFAS	khaa0 li3 faas3
+KHALIFS	khaa0 lif3
+KHALKA	khaal0 kaa2
+KHALKALI	khaal0 khaa0 laj0
+KHAN	khaan0
+KHANATE	khaa0 neet1
+KHANATES	khaa0 neet1
+KHANS	khaan0
+KHARKOV	khaa0 k@@f3
+KHARTOUM	khaa0 thuum0
+KHEDIVA	khee0 dii0 wqq2
+KHEDIVAL	khee0 dii0 wql2
+KHEDIVE	khee0 daj3
+KHEDIVES	khee0 daj3
+KHEDIVIAL	khee0 dii0 wiial2
+KHIDMATGAR	khit3 mxt3 kaa2
+KHMER	khq1 mxx0
+KHMERS	khq1 mxx0
+KIBBUTZ	khip3 but3
+KIBBUTZES	khip3 but3 ses1
+KIBBUTZIM	khip3 but3 sim2
+KIBBUTZING	khip3 but3 sing2
+KIBBUTZNIK	khip3 but3 nik1
+KIBBUTZNIKS	khip3 but3 nik1
+KIBE	khaaj3
+KIBOSH	khaj0 b@@ch3
+KIBOSHED	khaj0 b@@ch3
+KIBOSHES	khaj0 b@@ch3 ches1
+KIBOSHING	khaj0 b@@ch3 ching2
+KICK	khik3
+KICKBACK	khik3 bxk3
+KICKBACKS	khik3 bxk3
+KICKBALL	khik3 b@@l0
+KICKBALLS	khik3 b@@l0
+KICKBOARD	khik3 b@@t1
+KICKBOARDS	khik3 b@@t1
+KICKED	khik3
+KICKER	khik3 kqq2
+KICKERS	khik3 kqq2
+KICKIEST	khik3 ki1 es1
+KICKIN	khik3 kin2
+KICKING	khik3 king2
+KICKINGS	khik3 king2
+KICKISH	khik3 kich1
+KICKLE	khik3 kql2
+KICKLESS	khik3 lees1
+KICKLIGHTER	khik3 laj3 tqq2
+KICKOFF	khik3 @f3
+KICKOFFS	khik3 @f3
+KICKS	khik3
+KICKSHAW	khik3 ch@@0
+KICKSHAWS	khik3 ch@@s3
+KICKSTAND	khik3 sa1 txxn0
+KICKSTANDS	khik3 sa1 txxn0
+KICKUP	khik3 ap2
+KICKUPS	khik3 ap2
+KID	khit3
+KIDDED	khit3 det1
+KIDDER	khit3 dqq2
+KIDDERMINSTER	khit3 dqq0 min0 sa1 tqq2
+KIDDERS	khit3 dqq2
+KIDDIE	khit3 dii2
+KIDDIER	khit3 di1 qq2
+KIDDIES	khit3 dii2
+KIDDING	khit3 ding2
+KIDDINGLY	khit3 ding0 lii2
+KIDDISH	khit3 dich1
+KIDDLE	khit3 dql2
+KIDDOES	khit3 daas3
+KIDDOS	khit3 d@@s3
+KIDDY	khit3 dii2
+KIDLAND	khit3 lxxn0
+KIDLESS	khit3 lees1
+KIDLING	khit3 ling2
+KIDLINGTON	khit3 ling0 tan2
+KIDLINK	khit3 ling3
+KIDMAN	khit3 mxxn0
+KIDMORE	khit3 m@@0
+KIDNAP	khit3 nxp3
+KIDNAPED	khit3 nxp3
+KIDNAPER	khit3 nxp3 pqq2
+KIDNAPERS	khit3 nxp3 pqq2
+KIDNAPING	khit3 nxp3 ping2
+KIDNAPINGS	khit3 nxp3 ping2
+KIDNAPPED	khit3 nxp3
+KIDNAPPER	khit3 nxp3 pqq2
+KIDNAPPERS	khit3 nxp3 pqq2
+KIDNAPPING	khit3 nxp3 ping2
+KIDNAPPINGS	khit3 nxp3 ping2
+KIDNAPS	khit3 nxp3
+KIDNEY	khit3 nii2
+KIDNEYS	khit3 nii2
+KIDS	khis3
+KIDSGROVE	khis3 kroof3
+KIDSKIN	khis3 kin2
+KIDSKINS	khis3 kin2
+KIDSON	khit3 san2
+KIDSONS	khit3 san2
+KIDSTAR	khis3 thaa2
+KIDSTOCK	khit3 sa1 t@k3
+KIDSTON	khis3 tan2
+KIDSTUFF	khit3 sa1 taf3
+KIDWELL	khit3 wel0
+KIDWILL	khit3 wil0
+KIER	khiia0
+KIERES	khiia0 ris1
+KIERSKI	khiia0 sa1 kii2
+KIERSTEAD	khiia0 sa1 teet3
+KIERSTENSON	khiia0 sa1 ten0 san2
+KIEV	khiif3
+KIEVES	khiif3
+KIKWIT	khik3 wit3
+KILBERRY	khil0 bqq0 rii2
+KILBERT	khil0 bqqt1
+KILBIRNIE	khil0 bqqn0 nii2
+KILBRIDE	khil0 braaj0
+KILBRIDGE	khil0 bric1
+KILBRIDLE	khil0 brit1 dql2
+KILBURG	khil0 bqqk1
+KILBURN	khil0 bqqn0
+KILBURY	khil0 biw0 rii2
+KILBY	khil0 bii2
+KILDARE	khil0 dxx0
+KILDARES	khil0 dxxs3
+KILDAY	khil0 dee0
+KILDER	khil0 dqq2
+KILDERKIN	khil0 dqq0 kin2
+KILDERKINS	khil0 dqq01 kin2
+KILDIN	khil0 din2
+KILKENNY	khil0 ken0 nii2
+KILKER	khil0 kqq2
+KILL	khil0
+KILLABLE	khil0 ee0 bql2
+KILLARNEY	khil0 laa0 nii2
+KILLDER	khil0 dqq2
+KILLDERS	khil0 dqq2
+KILLED	khil0
+KILLER	khil0 lqq2
+KILLERS	khil0 lqq2
+KILLES	khil0 lis1
+KILLGORE	khil0 k@@0
+KILLIAN	khil0 liian2
+KILLIANS	khil0 liian2
+KILLIES	khil0 lii2
+KILLIN	khil0 lin2
+KILLING	khil0 ling2
+KILLINGBECK	khil0 ling2 bek3
+KILLINGBIRD	khil0 ling2 bqqt3
+KILLINGER	khil0 ling0 ngqq2
+KILLINGLY	khil0 ling0 lii2
+KILLINGNESS	khil0 ling2 nees1
+KILLINGS	khil0 ling2
+KILLINGSWORTH	khil0 ling2 wqqt3
+KILLINGTON	khil0 ling0 tan2
+KILLINGWORTH	khil0 ling2 wqqt3
+KILLINITE	khil0 lin0 naj3
+KILLINS	khil0 lin2
+KILLION	khil0 liian2
+KILLIONS	khil0 liian2
+KILLIP	khil0 lip1
+KILLIPS	khil0 lip1
+KILLJOY	khil0 c@@j0
+KILLJOYS	khil0 c@@j0
+KILLMAN	khil0 mxxn0
+KILLMARTIN	khil0 maa0 thin0
+KILLMARTINS	khil0 maa0 thin0
+KILLMEN	khil0 men0
+KILLPACK	khil0 pxk3
+KILLPOWER	khil0 paaw0 wqq2
+KILLS	khil0
+KILMARNOCK	khil0 maa0 n@k3
+KILMARTIN	khil0 maa0 thin0
+KILMER	khil0 mqq2
+KILMINGTON	khil0 ming0 tan2
+KILMORE	khil0 m@@0
+KILN	khil0
+KILNED	khil0
+KILNER	khil0 nqq2
+KILNESS	khil0 nees1
+KILNING	khil0 ning2
+KILNS	khil0
+KILO	khii0 loo0
+KILO	khii0 loo0
+KILOBAR	khii0 loo0 baa0
+KILOBIT	khii0 loo0 bit1
+KILOBITS	khii0 loo0 bit1
+KILOCYCLE	khii0 loo0 saj0 khql2
+KILOCYCLES	khii0 loo0 saj0 khql2
+KILOGRAM	khii0 loo0 krxxm0
+KILOGRAMME	khii0 loo0 krxxm0
+KILOGRAMMER	khii0 loo0 krxxm0 mqq2
+KILOGRAMMERS	khii0 loo0 krxxm0 mqq2
+KILOGRAMMES	khii0 loo0 krxxm0
+KILOGRAMS	khii0 loo0 krxxm0
+KILOHERTZ	khii0 loo0 hqqs3
+KILOLITER	khii0 loo0 lit3 thqq2
+KILOLITERS	khii0 loo0 lit3 thqq2
+KILOLITRE	khii0 loo0 lit3 thqq2
+KILOLITRES	khii0 loo0 lit3 thqq2
+KILOLITTERS	khii0 loo0 lit3 thqq2
+KILOMETER	khii0 loo0 mii0 thqq2
+KILOMETERS	khii0 loo0 mii0 thqq2
+KILOMETRE	khii0 loo0 mii0 thqq2
+KILOMETRER	khii0 loo0 mii0 thqq0 rqq2
+KILOMETRES	khii0 loo0 mii0 thqq0 res1
+KILOMETRIC	khii0 loo0 met3 thrik1
+KILOMETRICAL	khii0 loo0 met3 thrik1 khql2
+KILORAD	khii0 loo0 rxxt1
+KILORADS	khii0 loo0 rxxt1
+KILOS	khii0 loos3
+KILOTON	khii0 loo0 than0
+KILOTONNES	khii0 loo0 than0
+KILOTONS	khii0 loo0 than0
+KILOVOLT	khii0 loo0 wool3
+KILOVOLTS	khii0 loo0 wool3
+KILOWATT	khii0 loo0 wat1
+KILOWATTERS	khii0 loo0 wat3 thqq2
+KILOWATTS	khii0 loo0 wat1
+KILSYTH	khil0 sit3
+KILT	khil3
+KILTED	khil3 thet1
+KILTER	khil3 thqq2
+KILTERS	khil3 thqq2
+KILTIES	khil3 thii2
+KILTING	khil3 thing2
+KILTON	khil3 tan2
+KILTONS	khil3 tan2
+KILTS	khil3
+KILWINNING	khil0 win0 ning2
+KIMBA	khim0 baa2
+KIMBAL	khim0 bql2
+KIMBALL	khim0 b@@l0
+KIMBALLS	khim0 b@@l0
+KIMBANG	khim0 bxxng0
+KIMBARK	khim0 baak3
+KIMBEL	khim0 bql2
+KIMBER	khim0 bqq2
+KIMBERG	khim0 bqqk1
+KIMBERLAIN	khim0 bqq0 leen0
+KIMBERLE	khim0 bqq0 lee2
+KIMBERLEY	khim0 bqq0 lii2
+KIMBERLEYS	khim0 bqq0 lii2
+KIMBERLIN	khim0 bqq0 lin2
+KIMBERLING	khim0 bqq0 ling2
+KIMBERLY	khim0 bqq0 lii2
+KIMBERLYS	khim0 bqq0 lii2
+KIMBERTON	khim0 bqq0 tan2
+KIMBIES	khim0 bii2
+KIMBIN	khim0 bin2
+KIMBLE	khim0 bql2
+KIMBLER	khim0 blqq2
+KIMBLES	khim0 bql2
+KIMBLY	khim0 blii2
+KIMBOS	khim0 b@@s3
+KIMBRA	khim0 braa2
+KIMBREL	khim0 brql2
+KIMBRIDGE	khim0 bric1
+KIMMER	khim0 mqq2
+KIMMERLING	khim0 mqq0 ling2
+KIMMERLY	khim0 mqq0 lii2
+KIMMONS	khim0 m@n2
+KIMONA	khim0 moo0 naa2
+KIMONO	khim0 moo0 noo0
+KIMONOED	khim0 moo0 noo0
+KIMONOS	khim0 moo0 n@@s3
+KIN	khin0
+KINAESTHESIA	khaj0 nxxs3 tee0 siia0
+KINAESTHESIAS	khaj0 nxxs3 tee0 siias3
+KINAESTHESIS	khaj0 nxxs3 tee0 sis1
+KINAESTHETIC	khaj0 nxxs3 tee0 tik1
+KINAESTHETICALLY	khaj0 nxxs3 tee0 tik3 cal0 lii2
+KINAESTHETICS	khaj0 nxxs3 tee0 tik1
+KINARK	khin0 naak1
+KINBERG	khin0 bqqk1
+KINBURN	khin0 bqqn0
+KINCADE	khin0 khet1
+KINCANNON	khin0 kxxn0 n@n2
+KINCH	khin3
+KINCOB	khin0 kh@p1
+KIND	khaaj0
+KINDA	khaaj0 da1
+KINDALL	khaaj0 d@@l0
+KINDAND	khaaj0 dxn2
+KINDELL	khin0 del0
+KINDEM	khaaj0 dem2
+KINDEN	khaaj0 den2
+KINDER	khin0 dqq2
+KINDERGARDEN	khin0 dqq0 kaa0 den2
+KINDERGARDENS	khin0 dqq0 kaa0 den2
+KINDERGARTEN	khin0 dqq0 kaa0 then2
+KINDERGARTENING	khin0 dqq0 kaa0 then0 ning2
+KINDERGARTENS	khin0 dqq0 kaa0 then2
+KINDERGARTNER	khin0 dqq0 kaat3 nqq2
+KINDERGARTNERS	khin0 dqq0 kaat3 nqq2
+KINDERHILL	khaaj0 dqq0 hil0
+KINDERLAND	khaaj0 dqq0 lxxn0
+KINDERMA	khin0 dqq0 maa2
+KINDERMAN	khaaj0 dqq0 mxxn0
+KINDERMANN	khaaj0 dqq0 mxxn0
+KINDERMANS	khaaj0 dqq0 mxxn0
+KINDERPRINT	khaaj0 dqq0 phrin3
+KINDERWATER	khaaj0 dqq0 w@@0 thqq2
+KINDES	khaaj0 dis1
+KINDESS	khaaj0 dees1
+KINDEST	khaaj0 dees1
+KINDESTIN	khin0 des3 thin0
+KINDHEARTED	khaaj0 haat3 thet1
+KINDHEARTEDLY	khaaj0 haat3 thet1 lii2
+KINDHEARTEDNESS	khaaj0 haat3 thet1 nees1
+KINDIA	khin0 diia0
+KINDIG	khin0 dik1
+KINDINGER	khin0 ding0 ngqq2
+KINDLAND	khaaj0 lxxn0
+KINDLE	khin0 dql2
+KINDLEBERGER	khin0 dql2 bqq0 kqq2
+KINDLED	khin0 dql2
+KINDLER	khin0 dq1 lqq2
+KINDLERS	khin0 dq1 lqq2
+KINDLES	khin0 dql2
+KINDLESS	khaaj0 lees1
+KINDLESSLY	khaaj0 lees3 lii2
+KINDLEY	khaaj0 lii2
+KINDLIER	khaaj0 li3 qq2
+KINDLIEST	khaaj0 li3 ees1
+KINDLINESS	khaaj0 li3 nees1
+KINDLING	khaaj0 ling2
+KINDLINGS	khaaj0 ling2
+KINDLY	khaaj0 lii2
+KINDMAN	khaaj0 mxxn0
+KINDNESS	khaaj0 nees1
+KINDNESSES	khaaj0 nees3 ses1
+KINDOM	khin0 d@m2
+KINDON	khin0 d@n2
+KINDRA	khin0 draa2
+KINDRAN	khaaj0 drxxn0
+KINDRED	khin0 drit1
+KINDREDLESS	khin0 drit1 lees1
+KINDREDNESS	khin0 drit1 nees1
+KINDREDS	khin0 drit1
+KINDREDSHIP	khin0 dret1 chip3
+KINDRICH	khin0 drich1
+KINDRICK	khin0 drik1
+KINDRICKS	khin0 drik1
+KINDRON	khin0 dr@n2
+KINDS	khaaj0
+KINE	khaaj0
+KINEMA	khaj0 ni3 maa2
+KINEMAS	khaj0 ni3 maas2
+KINEMATIC	khaj0 ni3 mxt3 thik1
+KINEMATICAL	khaj0 ni3 mxt3 thi1 khql2
+KINEMATICALLY	khaj0 ni3 mxt3 thik3 khql2 lii2
+KINEMATICS	khaj0 ni3 mxt3 thik1
+KINEMATOGRAPH	khaj0 ni3 mxt3 thoo0 kraaf3
+KINEMOMETER	khaj0 ni3 moo0 mi3 tqq2
+KINER	khaaj0 nqq2
+KINERS	khaaj0 nqq2
+KINES	khaaj0
+KINESCOPE	khaj0 sa1 khoop1
+KINESCOPES	khaj0 sa1 khoop1
+KINESES	khaj0 nee0 ses1
+KINESIC	khaj0 nee0 sik1
+KINESICS	khaj0 nee0 sik1
+KINESIS	khaj0 nes3 sis1
+KINESTHESIS	khaj0 nes3 thee0 sis1
+KINESTHETIC	khaj0 nes3 thee0 tik1
+KINESTHETICALLY	khaj0 nes3 thee0 tik1 khql2 lii2
+KINESTHETICS	khaj0 nes3 thee0 tik1
+KINETIC	khaj0 net3 tik1
+KINETICA	khaj0 net3 thi1 khaa2
+KINETICAL	khaj0 net3 thi1 khql2
+KINETICALLY	khaj0 net3 thik1 khql2 lii2
+KINETICISM	khaj0 net3 thik1 sis3 svm2
+KINETICIST	khaj0 net3 thi1 sis3
+KINETICO	khaj0 net3 thi1 khoo2
+KINETICS	khaj0 net3 thik1
+KINETIN	khaj0 net3 thin0
+KINETINS	khaj0 net3 thin0
+KINFOLK	khin0 fook3
+KINFOLKS	khin0 fook3
+KING	king0
+KINGBIRD	khing0 bqqt3
+KINGBIRDS	khing0 bqqt3
+KINGBOARD	khing0 b@@t1
+KINGCRAFT	khing0 kraaf3
+KINGCUP	khing0 khap2
+KINGCUPS	khing0 khap2
+KINGDOM	khing0 d@m2
+KINGDOME	khing0 d@m2
+KINGDOMED	khing0 doom0
+KINGDOMES	khing0 doom0
+KINGDOMS	khing0 d@m2
+KINGDON	khing0 dqn2
+KINGED	khing3
+KINGE	khing3
+KINGEN	khing0 cen2
+KINGER	khing0 ngqq2
+KINGES	khing3
+KINGFIELD	khing0 fiil0
+KINGFISH	khing0 fich3
+KINGFISHER	khing0 fich3 chqq2
+KINGFISHERIES	khing0 fich3 chqq0 rii2
+KINGFISHERMEN	khing0 fich3 chqq2 men0
+KINGFISHERS	khing0 fich3 chqq2
+KINGFISHES	khing0 fich3 ches1
+KINGFORD	khing0 f@@t1
+KINGHAM	khing0 hxm0
+KINGHILL	khing0 hil0
+KINGHOODS	khing0 huus3
+KINGHORN	khing0 h@@n0
+KINGHOUSE	khing0 haaw3
+KINGING	khing0 nging2
+KINGISM	khing0 ngis3 svm2
+KINGLESS	khing0 lees1
+KINGLESSNESS	khing0 lees1 nees1
+KINGLET	khing0 let1
+KINGLETS	khing0 let1
+KINGLEY	khing0 lee2
+KINGLIKE	khing0 laj3
+KINGLY	khing0 lii2
+KINGMAKER	khing0 meek3 kqq2
+KINGMAKERS	khing0 meek3 kqq2
+KINGMAKING	khing0 meek3 king2
+KINGMAN	khing0 mxxn0
+KINGPIN	khing0 phin0
+KINGPINS	khing0 phin0
+KINGPORT	khing0 p@@t1
+KINGREY	khing0 kree0
+KINGS	khing0
+KINGSBOROUGH	khing0 boo0 roo2
+KINGSBRIDGE	khing0 bric1
+KINGSBURY	khing0 biw0 rii2
+KINGSFORD	khing0 f@@t1
+KINGSHIP	khing0 chip3
+KINGSHIPS	khing0 chip3
+KINGSIDE	khing0 saj3
+KINGSLAND	khing0 sa1 lxxn0
+KINGSLEY	khing0 sa1 lee2
+KINGSLEYS	khing0 sa1 lees1
+KINGSLY	khing0 sa1 lii2
+KINGSOLVER	khing0 soof3 wqq2
+KINGSON	khing0 san2
+KINGSPORT	khing0 sa1 p@@t1
+KINGSTANDING	khing0 sa1 txxn0 ding2
+KINGSTEIGNTON	khing0 sa1 teen0 tan2
+KINGSTON	khing0 sa1 tan2
+KINGSTONE	khing0 sa1 toon0
+KINGSTONS	khing0 sa1 tan2
+KINGSVILLE	khing0 sa1 wil0
+KINGSWELL	khing0 sa1 wel0
+KINGSWELLS	khing0 sa1 wel0
+KINGTON	khing0 tan2
+KINGWOOD	khing0 wuut3
+KINICH	khi3 nik1
+KINIMA	khi3 ni3 maa2
+KININS	khi3 nin0
+KINION	khi3 niian2
+KINK	khing3
+KINKABLE	khin0 khee0 bql2
+KINKAJOU	khin0 khee0 cuu0
+KINKAJOUS	khin0 khee0 cuus3
+KINKED	khing3
+KINKER	khing0 kqq2
+KINKERS	khing0 kqq2
+KINKIER	khing0 ki1 qq2
+KINKIES	khing0 kii2
+KINKIEST	khing0 kii0 ees3
+KINKING	khing0 king2
+KINKLE	khing0 khql2
+KINKLED	khing0 let1
+KINKLEY	khing0 lee2
+KINKLY	khing0 khii2
+KINKS	khing3
+KINKSTER	khing0 sa1 tqq2
+KINKY	khing0 kii2
+KINLAN	khin0 lxxn0
+KINLAW	khin0 l@@0
+KINLAY	khin0 lee0
+KINLESS	khin0 lees1
+KINLET	khin0 let1
+KINLEY	khin0 lee2
+KINLIN	khin0 lin2
+KINLOCH	khin0 l@k3
+KINLOW	khin0 loo0
+KINMAN	khin0 mxxn0
+KINMONT	khin0 m@n3
+KINNARD	khin0 naat1
+KINNARDS	khin0 naat1
+KINNEAR	khin0 niia0
+KINNEARD	khin0 niiat1
+KINNE	khin0 nee0
+KINNELL	khin0 nel0
+KINNER	khin0 nqq2
+KINNETT	khin0 net1
+KINNICK	khin0 nik1
+KINNINGER	khin0 ning2 ngqq2
+KINNOCH	khin0 n@k3
+KINNOCKS	khin0 n@k3
+KINNON	khin0 n@n2
+KINO	khii0 noo2
+KINSCO	khin0 sa1 khoo2
+KINSEL	khin0 sql2
+KINSELL	khin0 sel0
+KINSELLA	khin0 sel0 laa2
+KINSELLAS	khin0 sel0 laas2
+KINSERS	khin0 sqq2
+KINSEY	khin0 sii2
+KINSEYS	khin0 sii2
+KINSFOLK	khin0 fook3
+KINSHASA	khin0 chaa0 saas2
+KINSHIP	khin0 chip3
+KINSHIPS	khin0 chip3
+KINSINGER	khin0 sing0 ngqq2
+KINSKI	khin0 sa1 kii2
+KINSKY	khin0 sa1 kaaj0
+KINSKYS	khin0 sa1 kaaj0
+KINSLOW	khin0 sa1 loo0
+KINSMAN	khin0 sa1 mxxn0
+KINSMANSHIP	khin0 sa1 mxxn0 chip3
+KINSMEN	khin0 sa1 men0
+KINSOLVER	khin0 soof3 wqq2
+KINSOLVING	khin0 soof3 wing2
+KINSON	khin0 san2
+KINST	khin03
+KINSTING	khin0 sa1 ting2
+KINSTLEY	khin3 sa1 lee2
+KINSTON	khin0 sa1 tan2
+KINSTONIAN	khin0 sa1 too0 niian2
+KINSTRY	khin0 sa1 trii2
+KINSWOMAN	khin0 sa1 wuu0 mxn2
+KINSWOMEN	khin0 sa1 wii0 men2
+KINTAIL	khin0 thel0
+KINTANAR	khin0 thaa0 naa2
+KINTANARS	khin0 thaa0 naas2
+KINTAR	khin0 thaa2
+KINTARO	khin0 thaa0 roo2
+KINTEL	khin0 thel0
+KINTER	khin0 thqq2
+KINTEX	khin0 thek1
+KINTNER	khin3 nqq2
+KINTOM	khin0 th@m2
+KINTON	khin0 tan2
+KINTOUR	khin0 thuua0
+KINTRA	khin0 thraa2
+KINTYRE	khin0 taaj0
+KINTZ	khin3
+KINTZINGER	khin3 sing0 ngqq2
+KINYON	khin0 j@n2
+KIOSK	khii0 @@s3
+KIOSKS	khii0 @@s3
+KIP	khip3
+KIPER	khip3 pqq2
+KIPLEY	khip3 lee2
+KIPLINER	khip3 ling0 ngqq2
+KIPLING	khip3 ling2
+KIPLINGER	khip3 ling0 ngqq2
+KIPLINGERS	khip3 ling0 ngqq2
+KIPLINGS	khip3 ling2
+KIPPAX	khip3 phxk3
+KIPPED	khip3
+KIPPEN	khip3 phen0
+KIPPER	khip3 phqq2
+KIPPERED	khip3 phqq2
+KIPPERER	khip3 phqq0 rqq2
+KIPPERERS	khip3 phqq0 rqq2
+KIPPERING	khip3 phqq0 ring2
+KIPPERMAN	khip3 phqq2 mxxn0
+KIPPERS	khip3 phqq2
+KIPPIN	khip3 phin2
+KIPPING	khip3 phing2
+KIPPIS	khip3 pis2
+KIPS	khip3
+KIPSKIN	khip3 sa1 kin2
+KIPSKINS	khip3 sa1 kin2
+KIRIN	khi3 rin2
+KIRK	kqqk3
+KIRKBRIDE	kqqk3 braaj0
+KIRKBRIDGE	kqqk3 bric1
+KIRKBRIGHT	kqqk3 braj3
+KIRKBY	kqqk3 bii2
+KIRKCALDY	khqqk3 c@@l0 dii2
+KIRKENDALL	khqq0 khen2 d@@l0
+KIRKENDOLL	khqq0 khen2 d@@l0
+KIRKER	khqqk3 kqq2
+KIRKES	khqqk3 kis1
+KIRKHAM	khqqk3 hxm2
+KIRKHART	khqqk3 haat3
+KIRKHILL	khqqk3 hil0
+KIRKING	khqqk3 king2
+KIRKINTILLOCH	khqqk3 kin0 thil0 l@k3
+KIRKLAND	khqqk3 lxxn0
+KIRKLANDS	khqqk3 lxxn0
+KIRKLES	khqqk3 les1
+KIRKLEY	khqqk3 lee2
+KIRKLEYS	khqqk3 lee2
+KIRKLIN	khqqk3 lin2
+KIRKLINGTON	khqqk3 ling0 tan2
+KIRKLINTON	khqqk3 lin0 tan2
+KIRKMAN	khqqk3 mxxn0
+KIRKMANS	khqqk3 mxxn0
+KIRKMEN	khqqk3 men0
+KIRKPATRICK	khqqk3 phxt3 thrik1
+KIRKPATRICKS	khqqk3 phxt3 thrik1
+KIRKS	khqqk3
+KIRKSEN	khqqk3 sen2
+KIRKWALL	khqqk3 w@@l0
+KIRKWOOD	khqqk3 wuut3
+KIRKWOODS	khqqk3 wuut3
+KIRSCH	khqqch3
+KIRSCHBERG	khqqch3 bqqk1
+KIRSCHENMAN	khqqs3 chen2 mxxn0
+KIRSCHES	khqqs3 ches1
+KIRSCHMAN	khqqch3 mxxn0
+KIRTLE	khqqt3 thql2
+KIRTLED	khqqt3 thql2
+KIRTLES	khqqt3 thql2
+KIRTLEY	khqqt3 lee2
+KIRTS	khqqt3
+KISMET	khis3 met1
+KISMETIC	khis3 mee0 tik1
+KISMETS	khis3 met1
+KISS	khis3
+KISSABLE	khis3 ee0 bql2
+KISSABLY	khis3 ee0 blii2
+KISSACK	khis3 sxk3
+KISSED	khis3
+KISSELL	khis3 sel0
+KISSELMAN	khis3 sel0 mxxn0
+KISSER	khis3 sqq2
+KISSERS	khis3 sqq2
+KISSES	khis3 ses1
+KISSING	khis3 sing2
+KISSINGER	khis3 sing0 ngqq2
+KISSINGERS	khis3 sing0 ngqq2
+KISSINGLY	khis3 sing0 lii2
+KISSINGS	khis3 sing2
+KISSLING	khis3 ling2
+KIT	khit3
+KITAKYUSHU	khi3 ta1 khiw0 chuu0
+KITALE	khit3 thel0
+KITALI	khit3 thaa0 lii2
+KITBAG	khit3 bxxk3
+KITBAGS	khit3 bxxk3
+KITCAT	khit3 khxt3
+KITCHEN	khit3 chen2
+KITCHENAID	khit3 chen2 neet1
+KITCHENER	khit3 chen2 nqq2
+KITCHENERS	khit3 chen2 nqq2
+KITCHENET	khit3 chen2 net1
+KITCHENETTE	khit3 chen2 net1
+KITCHENETTES	khit3 chen2 net1
+KITCHENS	khit3 chen2
+KITCHENWARE	khit3 chen2 wxx0
+KITCHENWARES	khit3 chen2 wxxs3
+KITCHES	khit3 ches1
+KITCHIN	khit3 chin2
+KITCHING	khit3 ching2
+KITCHINGS	khit3 ching2
+KITE	khaj3
+KITED	khaj3 thet1
+KITER	khaj3 thqq2
+KITERS	khaj3 thqq2
+KITES	khaj3
+KITH	khit3
+KITHCART	khit3 khaat3
+KITHING	khit3 thing2
+KITHS	khit3
+KITING	khit3 thing2
+KITLING	khit3 ling2
+KITLINGS	khit3 ling2
+KITS	khis3
+KITSCH	khich3
+KITSCHES	khich3 ches1
+KITSON	khit3 san2
+KITSONS	khit3 san2
+KITTED	khit3 thet1
+KITTEL	khit3 thql2
+KITTELL	khit3 thql2
+KITTELSON	khit3 thel0 san2
+KITTEN	khit3 then2
+KITTENED	khit3 then2
+KITTENING	khit3 then0 ning2
+KITTENISH	khit3 then2 nich1
+KITTENISHLY	khit3 then2 nich3 lii2
+KITTENISHNESS	khit3 then2 nich3 nees1
+KITTENS	khit3 then2
+KITTER	khit3 thqq2
+KITTERING	khit3 thqq0 ring2
+KITTERMAN	khit3 thqq2 mxxn0
+KITTERY	khit3 thqq0 rii2
+KITTIES	khit3 thii2
+KITTING	khit3 thing2
+KITTINGER	khit3 thing0 ngqq2
+KITTIWAKE	khit3 thi1 week3
+KITTIWAKES	khit3 thi1 week3
+KITTLE	khit3 thql2
+KITTLED	khit3 thql2
+KITTLEMAN	khit3 thql2 mxxn0
+KITTLEMANN	khit3 thql2 mxxn0
+KITTLER	khit3 thq1 lqq2
+KITTLES	khit3 thql2
+KITTLESON	khit3 thql0 san2
+KITTLING	khit3 thq1 ling2
+KITTY	khit3 tii2
+KITZING	khit3 sing2
+KITZINGER	khit3 sing0 ngqq2
+KIWI	khii0 wii2
+KIWIS	khii0 wii2
+KLAXON	khlxk3 san2
+KLAXONING	khlxk3 san0 ning2
+KLAXONS	khlxk3 san2
+KLAXTON	khlxk3 tan2
+KLEN	khlen0
+KLENER	khlen0 nqq2
+KLENEX	khlen0 nek1
+KLENEXES	khlen0 nek3 ses1
+KLES	khql2
+KLEPER	khlep3 pqq2
+KLEPTIC	khlep3 tik1
+KLEPTISTIC	khlep3 tis3 tik1
+KLEPTOMANIA	khlep3 too0 mee0 niia1
+KLEPTOMANIAC	khlep3 too0 mee0 nii0 xk1
+KLEPTOMANIACS	khlep3 too0 mee0 nii0 xk1
+KLEPTOR	khlep3 tqq2
+KNACK	nxk1
+KNACKED	nxk1
+KNACKER	nxk3 khqq2
+KNACKERED	nxk3 khqq2
+KNACKERIES	nxk3 khqq0 rii2
+KNACKERING	nxk3 khqq0 ring2
+KNACKERS	nxk3 khqq2
+KNACKERY	nxk3 khqq0 rii2
+KNACKING	nxk3 khing2
+KNACKS	nxk1
+KNAG	nxk1
+KNAGGED	nxk1
+KNAGGY	nxk3 kii2
+KNAP	nxp3
+KNAPER	nxp3 phqq2
+KNAPPAN	nxp3 phxn2
+KNAPPED	nxp3
+KNAPPEN	nxp3 phen2
+KNAPPENBERGER	nxp3 phen2 bqqk3 kqq2
+KNAPPER	nxp3 phqq2
+KNAPPERS	nxp3 phqq2
+KNAPPING	nxp3 ping2
+KNAPPISH	nxp3 phich1
+KNAPPISHLY	nxp3 phich1 lii2
+KNAPPS	nxp3
+KNAPS	nxp3
+KNAPSACK	nxp3 sxk3
+KNAPSACKED	nxp3 sxk3
+KNAPSACKING	nxp3 sxk3 king2
+KNAPSACKS	nxp3 sxk3
+KNAPTON	nxp3 tan2
+KNAPWEDS	nxp3 wet3
+KNAR	naa0
+KNARESBOROUGH	nxx0 sa1 boo0 roo2
+KNARRED	nxx0
+KNAVE	neef3
+KNAVERIES	nee0 wqq0 rii2
+KNAVERY	nee0 wqq0 rii2
+KNAVES	neef3
+KNAVISH	nee0 wich3
+KNAVISHLY	nee0 wich3 lii2
+KNAVISHNESS	nee0 wich3 nees1
+KNEAD	niit3
+KNEADABILITY	niit3 dq1 bil0 li3 tii2
+KNEADABLE	niit3 dee0 bql2
+KNEADED	niit3 det1
+KNEADER	niit3 dqq2
+KNEADERS	niit3 dqq2
+KNEADING	niit3 ding2
+KNEADINGLY	niit3 ding0 lii2
+KNEADS	niit3
+KNE	nii0
+KNEBONE	nii0 boon0
+KNECAP	nii0 khxp3
+KNECAPPED	nii0 khxp3
+KNECAPPER	nii0 khxp3 pqq2
+KNECAPPING	nii0 khxp3 ping2
+KNECAPPINGS	nii0 kxp3 ping2
+KNECAPS	nii0 khxp3
+KNED	net3
+KNEDLER	net3 lqq2
+KNEHOLE	nii0 hool0
+KNEHOLES	nii0 hool0
+KNEING	nii0 ing2
+KNEL	nel0
+KNELAND	nel0 lxxn0
+KNELED	nel0
+KNELER	nel0 lqq2
+KNELERS	nel0 lqq2
+KNELING	nel0 ling2
+KNELINGLY	nel0 ling0 lii2
+KNELS	nel0
+KNEPAD	nii0 phxt1
+KNEPADS	nii0 phxt1
+KNEPAN	nii0 phxxn0
+KNER	nqq2
+KNES	nees1
+KNELL	nel0
+KNELLED	nel0
+KNELLER	nel0 lqq2
+KNELLES	nel0 les1
+KNELLING	nel0 ling2
+KNELLS	nel0
+KNELSEN	nel0 sen2
+KNELT	nel3
+KNESS	nees1
+KNESSET	nees3 set1
+KNESSETS	nees3 set1
+KNEW	niw0
+KNEWED	niw0
+KNICK	nik3
+KNICKED	nik3
+KNICKER	nik3 kqq2
+KNICKERBOCKER	nik3 kqq2 b@k3 kqq2
+KNICKERBOCKERED	nik3 kqq2 b@k3 kqq2
+KNICKERBOCKERS	nik3 kqq2 b@k3 kqq2
+KNICKERBOX	nik3 kqq2 b@k3
+KNICKERBOXES	nik3 kqq2 b@k3 ses1
+KNICKERED	nik3 kqq2
+KNICKERS	nik3 kqq2
+KNICKING	nik3 king2
+KNICKKNACK	nik3 nxk1
+KNICKKNACKED	nik3 nxk1
+KNICKKNACKERY	nik3 nxk1 khqq0 rii2
+KNICKKNACKS	nik3 nxk1
+KNICKLE	nik3 kql2
+KNICKNACK	nik3 nxk1
+KNICKNACKS	nik3 nxk1
+KNICKNAME	nik3 neem0
+KNICKNAMED	nik3 neem0
+KNICKS	nik3
+KNIFE	naj3
+KNIFED	naj3
+KNIFELESS	naj3 lees1
+KNIFELIKE	naj3 laj3
+KNIFER	naj3 fqq2
+KNIFERS	naj3 fqq2
+KNIFES	naj3
+KNIFING	naj3 fing2
+KNIFINGS	naj3 fing2
+KNIGHT	naj3
+KNIGHTAGE	naj3 theec1
+KNIGHTED	naj3 thet1
+KNIGHTHEAD	naj3 theet3
+KNIGHTHOOD	naj3 huut3
+KNIGHTHOODS	naj3 huus3
+KNIGHTING	naj3 ting2
+KNIGHTINGALE	naj0 ting0 kel0
+KNIGHTLESS	naj3 lees1
+KNIGHTLIKE	naj3 laj3
+KNIGHTLINESS	naj3 li3 nees1
+KNIGHTLING	naj3 ling2
+KNIGHTLY	naj3 lii2
+KNIGHTMARE	naj3 mxx0
+KNIGHTON	naj3 tan2
+KNIGHTONS	naj3 tan2
+KNIGHTS	naj3
+KNIGHTSON	naj3 san2
+KNIGHTSTONE	naj3 sa1 toon0
+KNIT	nit3
+KNITS	nis3
+KNITTED	nit3 thet1
+KNITTEDNESS	nit3 thet1 nees1
+KNITTEDS	nit3 thet1
+KNITTEL	nit3 thql2
+KNITTER	nit3 thqq2
+KNITTERS	nit3 thqq2
+KNITTERY	nit3 thqq0 rii2
+KNITTING	nit3 ting2
+KNITTINGS	nit3 ting2
+KNITWEAR	nit3 wxx0
+KNITWEARS	nit3 wxxs3
+KNITZER	nit3 sqq2
+KNIVED	naj3
+KNIVES	naj3
+KNOB	n@p3
+KNOBBED	nop3 bet1
+KNOBBER	nop3 bqq2
+KNOBBIER	nop3 biia0
+KNOBBLE	nop3 bql2
+KNOBBLED	nop3 bql2
+KNOBBLER	nop3 blqq2
+KNOBBLES	nop3 bql2
+KNOBBLIER	nop3 bli1 qq2
+KNOBBLIEST	nop3 bli1 es1
+KNOBBLING	nop3 bling2
+KNOBBLY	nop3 blii2
+KNOBBY	nop3 bii2
+KNOBKERRIE	nop3 khqq0 rii2
+KNOBKERRIES	nop3 khqq0 rii2
+KNOBKERRY	nop3 khqq0 rii2
+KNOBLOCH	nop3 l@ch3
+KNOBLOCK	nop3 l@k3
+KNOBS	nop3
+KNOCH	n@ch3
+KNOCK	n@k3
+KNOCKABOUT	n@k3 q1 baw3
+KNOCKABOUTS	n@k3 q1 baw3
+KNOCKDOWN	n@k3 daaw0
+KNOCKDOWNS	n@k3 daaw0
+KNOCKED	n@k3
+KNOCKER	n@k3 kqq2
+KNOCKERS	n@k3 kqq2
+KNOCKING	n@k3 king2
+KNOCKINGS	n@k3 king2
+KNOCKOFF	n@k3 @f3
+KNOCKOFFS	n@k3 @f3
+KNOCKOUT	n@k3 aw3
+KNOCKOUTS	n@k3 aw3
+KNOCKS	n@k3
+KNOCKSTONE	n@k3 sa1 toon0
+KNOLES	nool0
+KNOLL	nool0
+KNOLLED	nool0
+KNOLLER	nool0 lqq2
+KNOLLES	nool0
+KNOLLS	nool0
+KNOP	n@p3
+KNOT	n@t3
+KNOTHEAD	n@t3 heet3
+KNOTHEADEDNESS	n@t3 heet3 det1 nees1
+KNOTHEADS	n@t3 heet3
+KNOTHOLE	n@t3 hool0
+KNOTHOLES	n@t3 hool0
+KNOTS	n@s3
+KNOTTED	n@t3 thet1
+KNOTTEDNESS	n@t3 thet1 nees1
+KNOTTER	n@t3 thqq2
+KNOTTERS	n@t3 thqq2
+KNOTTIER	n@t3 thiia0
+KNOTTIEST	n@t3 thi1 ees1
+KNOTTING	n@t3 thing2
+KNOTTINGLEY	n@t3 thing2 lii2
+KNOTTY	n@t3 thii2
+KNOTWED	n@t3 wet3
+KNOTWEDS	n@t3 wet3
+KNOUT	naw3
+KNOUTED	naw3 thet1
+KNOUTING	naw3 thing2
+KNOUTS	naw3
+KNOW	noo0
+KNOWABLE	noo0 ee0 bql2
+KNOWABLENESS	noo0 ee0 bql2 nees1
+KNOWABLY	noo0 ee0 blii2
+KNOWED	noo0
+KNOWER	noo0 qq2
+KNOWERS	noo0 qq2
+KNOWES	noos3
+KNOWEST	noo0 es1
+KNOWHOW	noo0 haaw0
+KNOWHOWS	noo0 haaw0
+KNOWING	noo0 ing2
+KNOWINGER	noo0 ing2 ngqq2
+KNOWINGEST	noo0 ing2 nges1
+KNOWINGLY	noo0 ing2 lii2
+KNOWINGNESS	noo0 ing2 nees1
+KNOWINGS	noo0 ing2
+KNOWLEDGE	n@@l0 lic1
+KNOWLEDGEABILITY	n@@l0 lic1 cq1 bi1 li3 tii2
+KNOWLEDGEABLE	n@@l0 lic1 cee0 bql2
+KNOWLEDGEABLENESS	n@@l0 lic1 cee0 bql2 nees1
+KNOWLEDGEABLY	n@@l0 lic1 cee0 blii2
+KNOWLEDGED	n@@l0 lic1
+KNOWLEDGELESS	n@@l0 lic1 cq1 lees1
+KNOWLEDGEMENT	n@@l0 lic1 men3
+KNOWLEDGES	n@@l0 lic1 cis1
+KNOWLEDGEWARE	n@@l0 lic1 wxx0
+KNOWLEDGING	n@@l0 lic1 cing2
+KNOWLES	noo0 les1
+KNOWN	noon0
+KNOWNING	noon0 ning2
+KNOWNS	noon0
+KNOWS	noos3
+KNUCKLE	nak3 khql2
+KNUCKLEBALL	nak3 khql2 b@@l0
+KNUCKLEBONE	nak3 khql2 boon0
+KNUCKLEBONES	nak3 khql2 boon0
+KNUCKLED	nak3 khql2
+KNUCKLEDUSTER	nak3 khql2 das3 tqq2
+KNUCKLEDUSTERS	nak3 khql2 das3 tqq2
+KNUCKLEHEAD	nak3 khql2 heet3
+KNUCKLEHEADS	nak3 khql2 heet3
+KNUCKLER	nak3 lqq2
+KNUCKLERS	nak3 lqq2
+KNUCKLES	nak3 kql2
+KNUCKLEY	nak3 lii2
+KNUCKLIEST	nak3 kli1 es1
+KNUCKLING	nak3 khling2
+KNUR	nqq2
+KNURLED	nqq0 let1
+KNURLIEST	nqq0 li3 es1
+KNURLING	nqq0 ling2
+KNURR	nqq2
+KNUTS	nat3
+KNUTSEN	nat3 sen2
+KNUTSFORD	nas3 f@@t1
+KNUTSON	nat3 san2
+KNUTSONS	nat3 san2
+KNUTTER	nat3 tqq2
+KNUTTY	nat3 tii2
+KOALA	khoo0 aa0 laa2
+KOALAS	khoo0 aa0 laas2
+KOBE	khoo0 bee0
+KOBER	khoo0 bqq2
+KOBERSTEIN	khoo0 bqq2 sa1 taaj0
+KOBES	khoo0 bees3
+KOBLENZ	khoo0 blen3
+KOBO	khoo0 boo0
+KOBOLD	khoo0 bool0
+KOBOLDS	khoo0 bool0
+KOBOS	khoo0 b@@s2
+KODAK	khoo0 dak1
+KODAKR	khoo0 dak3 kqq2
+KODAKS	khoo0 dak3
+KOHATHITE	khoo0 haa0 thaj3
+KOHATHITES	khoo0 haa0 thaj3
+KOHL	khool0
+KOHLBECK	khool0 bek3
+KOHLBECKER	khool0 bek3 kqq2
+KOHLBECKER	khool0 bek3 kqq2
+KOHLBERG	khool0 bqqk1
+KOHLBERGS	khool0 bqqk1
+KOHLBERT	khool0 bqqt1
+KOHLED	khool0
+KOHLER	khool0 lqq2
+KOHLES	khool0
+KOHLMAN	khool0 mxxn0
+KOHLMANN	khool0 mxxn0
+KOHLMAR	khool0 maa0
+KOHLRABI	khool0 raa0 bii2
+KOHLRABIES	khool0 raa0 bii2
+KOHLRABIS	khool0 raa0 bis3
+KOHLS	khool0
+KOINE	khoo0 iin0
+KOINES	khoo0 iin3
+KOLA	khoo0 laa2
+KOLAND	khoo0 lxxn0
+KOLANDER	khoo0 lxxn0 dqq2
+KOLAR	khoo0 laa2
+KOLAS	khoo0 lqq2
+KOLDEN	khool0 den2
+KOLDER	khool0 dqq2
+KOLDING	khool0 ding2
+KOLDINGER	khool0 ding0 ngqq2
+KOLDON	khool0 d@n2
+KOLDYS	khool0 dii2
+KOLN	khool0
+KONG	kh@ng0
+KONGING	kh@ng0 nging2
+KOODOO	khuu0 duu0
+KOODOOS	khuu0 duus3
+KOOKABURRA	khuu0 khaa0 bqq0 raa2
+KOOKABURRAS	khuu0 khaa0 bqq0 raas2
+KOOKER	khuu0 kqq2
+KOOKERS	khuu0 kqq2
+KOOKERY	khuu0 kqq0 rii2
+KOOKY	khuuk3 kii2
+KOPEC	khoo0 phek1
+KOPECK	khoo0 phek1
+KOPECKS	khoo0 phek1
+KOPENHAVER	khoo0 phen0 hxf3 wqq2
+KOPER	khoo0 phqq2
+KOPERSKI	khoo0 phqq0 sa1 kii2
+KOPJE	kh@p3 cii2
+KOPJES	kh@p3 cis1
+KOPPED	kh@p3
+KOPPEL	kh@p3 phql2
+KOPPELL	kh@p3 phel0
+KOPPELMAN	kh@p3 phql2 mxxn0
+KOPPELMANN	kh@p3 phql2 mxxn0
+KOPPELS	kh@p3 phql2
+KOPPEN	kh@p3 phen2
+KOPPENHAVER	kh@p3 phen2 hxxf3 wqq2
+KOPPER	kh@p3 phqq2
+KOPPERS	kh@p3 phqq2
+KOPPIE	kh@p3 phii2
+KOPPIES	kh@p3 phii2
+KORALE	khoo0 reel0
+KORAN	khoo0 raan0
+KORANA	khoo0 raa0 naa2
+KORANDOS	khoo0 raan0 d@@s3
+KORANIC	khoo0 raa0 nik1
+KORANICA	khoo0 raa0 ni3 kaa2
+KORANO	khoo0 raa0 noo2
+KORANS	khoo0 raan0
+KORANSKI	khoo0 ran0 sa1 kii2
+KOREA	khoo0 riia0
+KOREAGATE	khoo0 riia0 keet1
+KOREAN	khoo0 riian0
+KOREANS	khoo0 riian0
+KOREAS	khoo0 riias2
+KORET	khoo0 ret1
+KOSHER	khoo0 chqq2
+KOSHERED	khoo0 chqq2
+KOSHERING	khoo0 chqq0 ring2
+KOSHERS	khoo0 chqq2
+KOTOW	khoo0 thoo0
+KOTOWED	khoo0 thoo0
+KOTOWING	khoo0 thoo0 ing2
+KOTOWS	khoo0 thoos2
+KOTOWSKI	khoo0 thoo0 sa1 kii2
+KOUMIS	khuu0 mis3
+KOUMISS	khuu0 mis3
+KOWTOW	khaw0 thaaw0
+KOWTOWED	khaw0 thaaw0
+KOWTOWER	khaw0 thaaw0 wqq2
+KOWTOWERS	khaw0 thaaw0 wqq2
+KOWTOWING	khaw0 thaaw0 ing2
+KOWTOWS	khaw0 thaaw0
+KRAAL	khraal0
+KRAALS	khraal0
+KRAIT	khraj3
+KRAITS	khraj3
+KRAKEN	khraa0 khen2
+KRAKENS	khraa0 khen2
+KRAKOW	khraa0 k@@f3
+KRAKOWER	khraa0 k@@f3 fqq2
+KRAKOWSKI	khraa0 k@@f3 sa1 kii2
+KRAKOWSKY	khraa0 k@@f3 sa1 kaaj0
+KRASNOYARSK	khrxx0 sqn0 nq1 jaas3
+KREFELD	khref3 fel0
+KREFELT	khref3 fel3
+KREMLIN	khrem0 lin2
+KREMLINISING	khrem0 lin0 naj3 sing2
+KREMLINIZED	khrem0 lin0 naj3
+KREMLINOLOGIST	khrem0 lin0 nool0 lq1 cis3
+KREMLINOLOGISTS	khrem0 lin0 nool0 lq1 cis3
+KREMLINOLOGY	khrem0 lin0 nool0 lq1 cii2
+KREMLINS	khrem0 lin2
+KREUTZER	khr@@j3 sqq2
+KRIEFF	khriif3
+KRIEG	khriik3
+KRIEGER	khrii0 kqq2
+KRIEGERS	khrii0 kqq2
+KRIS	khris3
+KRISANA	khris3 san0 naa2
+KRISANNA	khris3 sxxn0 naa2
+KRISES	khris3 ses1
+KRISHAM	khris3 hxm2
+KRISHER	khris3 chqq2
+KRISKEY	khris3 kii2
+KRISMAN	khris3 mxxn0
+KRISMANN	khris3 mxxn0
+KRISPER	khris3 pqq2
+KRISPIE	khris3 paaj0
+KRISPIES	khris3 paaj3
+KRISPIN	khris3 phin0
+KRISTALL	khris3 t@@l0
+KRISTAN	khris3 thxxn0
+KRISTANG	khris3 thxxng0
+KRISTEL	khris3 tel0
+KRISTELLER	khris3 thel0 lqq2
+KRISTEM	khris3 them2
+KRISTEN	khris3 then2
+KRISTENS	khris3 then2
+KRISTENSEN	khris3 then0 sen2
+KRISTENSON	khris3 then0 san2
+KRISTENSSEN	khris3 then0 sen2
+KRISTER	khris3 thqq2
+KRISTIC	khris3 tik1
+KRISTICH	khris3 tik1
+KRISTIE	khris3 thaaj0
+KRISTIL	khris3 til0
+KRISTIN	khris3 tin0
+KRISTINA	khris3 tii0 naa2
+KRISTINE	khris3 thaaj0
+KRISTOFF	khris3 t@f3
+KRISTOFFER	khris3 t@f3 fqq2
+KRISTOFFERSEN	khris3 t@f3 fqq0 sen2
+KRISTOFFERSON	khris3 t@f3 fqq0 san2
+KRISTOFFERSONS	khris3 t@f3 fqq0 san2
+KRISTON	khris3 tan2
+KRISTOPHER	khris3 too0 fqq2
+KRISTOS	khris3 t@s3
+KRIVOI	khri3 w@@j0
+KROLL	khr@@l0
+KRONA	khroo0 nqq2
+KRONAR	khroo0 naa2
+KRONAS	khroo0 nas2
+KRONE	khroo0 nq2
+KRONEBERGER	khroo0 nq2 bqqk1 kqq2
+KRONER	khroo0 nqq2
+KRONERS	khroo0 nqq2
+KRONES	khroo0 nees1
+KRONINGEN	khroo0 ning0 ngqn2
+KRONINGER	khroo0 ning0 ngqq2
+KRONOR	khroo0 nqq2
+KRONORS	khroo0 nqq2
+KUDOS	khiw0 d@s3
+KULIKOV	khal0 lii0 k@f3
+KULIKOVSKY	khal0 lii0 k@f3 sa1 kaaj0
+KULKER	khal0 kqq2
+KULKIN	khal0 kin2
+KULLA	khal0 lqq2
+KULLANDER	khal0 lxxn0 dqq2
+KULLAR	khal0 laa2
+KULLAS	khal0 las3
+KULLBERG	khal0 bqqk1
+KULLMAN	khal0 mxxn0
+KULLMANN	khal0 mxxn0
+KULTUR	khuul0 thuua0
+KULTURS	khuul0 thuuas2
+KUMARA	khuu0 maa0 rqq2
+KUMARAS	khuu0 maa0 rqqs2
+KUMARATUNGA	khuu0 maa0 rqt3 than0 kaa2
+KUMIS	khuu0 mis3
+KUMISS	khuu0 mis3
+KUNG	khuung0
+KUNMING	khun0 ming1
+KURSAAL	khuua0 saal0
+KUWAIT	khuu0 weet1
+KUWAITI	khuu0 wet3 thii2
+KUWAITING	khuu0 wet3 thing2
+KUWAITIS	khuu0 wet3 thii2
+KUWAITS	khuu0 weet1
+KUYBYSHEV	khuu0 bich1 chef3
+KVASS	khwxs3
+KWACHA	khwxx0 chqq2
+KWACHAS	khwxx0 chqq2
+KWEIYANG	khwee0 jaang0
+KWELA	khwel0 lqq2
+KYLE	khaaj0
+KYLER	khaaj0 lqq2
+KYLES	khaaj0
+KYLIE	khaaj0 lii2
+KYLIES	khaaj0 lii2
+KYLIN	khaaj0 lin2
+KYLITE	khaaj0 laj3
+KYLOE	khaaj0 loo0
+KYMOGRAPH	khaaj0 mq1 kraaf3
+KYMOGRAPHIC	khaaj0 mq1 kraaf3 fik1
+KYOTO	khiiaw0 too0
+KYRIE	khi1 rii2
+KYRIES	khi1 rii2
+KYRILLA	khi1 ril0 lqq2
+KYRILLOS	khi1 ril0 loos2
+KACZMARCZYK	khaach3 mqq1 chik1
+KALASHNIKOV	khq1 lxch3 ni1 k@@f3
+KAMPSCHULTE	khxm2 chul0 tii2
+KAPUSCINSKI	khq1 pq1 chin0 sa1 kii2
+KARTASASMITA	kh@@0 thx1 sqs3 mii0 tqq2
+KATZENBERGS	khxt3 sqn2 bqqk1
+KAYSERSBERG	khaaj3 sqqs3 bqqk1
+KELLENBERGER	khel0 lqn0 bqq1 kqq2
+KENDZIERSKI	kheen0 ciia1 sa1 kii2
+KENNEBUNKPORT	khen0 nq1 ba1 ph@@t3
+KETCHERSIDE	khech3 chqq1 saj3
+KHASBULATOV	khaas3 bq1 laa0 thof3
+KICKLIGHTER	khik3 laaj0 tqq2
+KILIMANJARO	khi1 lii0 mqn1 caa0 roo2
+KINDERGARTEN	khin0 dqq1 kaa0 thqn2
+KIRCHBERGER	khqqch3 bqq1 kqq2
+KIRSCHENBAUM	khqq1 chqn1 baaw0
+KLEINDIENST	khlaaj0 diin0
+KLEINSCHMIDT	khlaaj0 cha1 mit1
+KLOPPENBURG	khlaap3 pqn1 bqqk1
+KNICKERBOCKER	nik3 kqq1 baak3 kqq2
+KOCHANOWSKI	khq1 hqn1 n@@f3 sa1 kii2
+KOLODZIEJSKI	khq1 laac3 cii0 ee0 sa1 kii2
+KOPPENHAVER	khaap3 phqn1 hq1 wqq2
+KORZENIEWSKI	khqq1 sin0 nii0 ef3 sa1 kii2
+KOWALKOWSKI	khaa0 w@@k3 kh@@f3 sa1 kii2
+KRASNOYARSK	khrxs3 n@@0 j@@k1
+KREMLINOLOGIST	khrem0 lq1 naa0 lq1 cqs1
+KROLIKOWSKI	khrq1 li1 k@@f3 sa1 kii2
+KRZYZANOWSKI	khris3 sqn2 n@@f3 sa1 kii2
+KUOMINTANGS	khu1 oom0 min0 thxng3
+KURUMIZOWAS	khu1 ruu0 mii0 soo0 wqs2

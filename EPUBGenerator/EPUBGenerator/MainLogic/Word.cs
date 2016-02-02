@@ -18,16 +18,14 @@ namespace EPUBGenerator.MainLogic
         public double StartTime { get; private set; }
         public double EndTime { get; private set; }
         
-        public Word(int id, int type, String text, String pronunciation, String transcript)
+        public Word(int type, String text, String transcript)
         {
-            ID = id;
             Type = type;
             Text = text;
-            Pronunciation = pronunciation;
             Transcript = transcript;
         }
 
-        public void SetNewPronunciation(String newPronun)
+        public void SetPronunciation(String newPronun)
         {
             Pronunciation = newPronun;
             Transcript = Tools.G2P.GenTranscript(newPronun, Type);

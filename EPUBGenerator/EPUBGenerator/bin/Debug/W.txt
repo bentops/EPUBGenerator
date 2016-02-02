@@ -1,0 +1,5539 @@
+W	dap1 bql2 juu0
+WABBER	w@@p3 bqq2
+WABBLE	w@@p3 bql2
+WABBLED	w@@p3 bql2
+WABBLER	w@@p3 blqq2
+WABBLES	w@@p3 bql2
+WAD	w@@t1
+WADABLE	w@@3 dee0 bql2
+WADDED	w@@t3 det1
+WADDELL	w@@t3 deel0
+WADDELLS	w@@t3 deel0
+WADDIE	w@@t3 daaj0 ii0
+WADDIED	w@@t3 daaj0
+WADDIES	w@@t3 daaj0
+WADDILL	w@@t3 dil2
+WADDING	w@@t3 ding2
+WADDINGLEY	w@@t3 ding0 lee2
+WADDINGS	w@@t3 ding2
+WADDINGTON	w@@t3 ding0 tan2
+WADDINGTONS	w@@t3 ding0 tan2
+WADDLE	w@@t3 dql2
+WADDLED	w@@t3 dql2
+WADDLER	w@@t3 dlqq2
+WADDLERS	w@@t3 dlqq2
+WADDLES	w@@t3 dql2
+WADDLING	w@@t3 dling2
+WADDLINGLY	w@@t3 dling0 lii2
+WADDLY	w@@t3 dqq0 lii2
+WADDY	w@@t3 dii2
+WADDYING	w@@t3 dii0 ing2
+WADDYS	w@@t3 dii2
+WADE	weet1
+WADEABLE	weet3 dee0 bql2
+WADED	weet3 det1
+WADEING	weet3 ding2
+WADER	weet3 dqq2
+WADER	weet3 dqq2
+WADERS	weet3 dqq2
+WADES	weet1
+WADFORD	w@@t3 f@@t1
+WADHAMS	w@@t3 hxxm0
+WADI	w@@t3 dii2
+WADIES	w@@t3 dii2
+WADING	weet3 ding2
+WADINGLY	weet3 ding0 lii2
+WADIS	w@@t3 dis1
+WADKIN	w@@t3 kin2
+WADKINS	w@@t3 kin2
+WADLEIGH	w@@t3 dql2 lii2
+WADLEY	w@@t3 lee2
+WADLING	w@@t3 ling2
+WADLINGER	w@@t3 ling0 kqq2
+WADLINGTON	w@@t3 ling0 tan2
+WADLOW	w@@t3 loo2
+WADMAN	w@@t3 mxxn0
+WADMORE	w@@t3 m@@0
+WADS	w@@t1
+WADSWORTH	w@@t3 sa1 wqqt1
+WAFER	wee0 fqq2
+WAFER	wee0 fqq2
+WAFERED	wee0 fqq2
+WAFERED	wee0 fqq2
+WAFERER	wee0 fq1 rqq2
+WAFERER	wee0 fq1 rqq2
+WAFERER	wee0 fq1 rqq2
+WAFERER	wee0 fq1 rqq2
+WAFERING	wee0 fq1 ring2
+WAFERING	wee0 fq1 ring2
+WAFERS	wee0 fqq2
+WAFERY	wee0 fq1 rii2
+WAFFLE	w@f3 fql2
+WAFFLED	w@f3 fql2
+WAFFLER	w@f3 flqq2
+WAFFLER	w@f3 flqq2
+WAFFLERS	w@f3 flqq2
+WAFFLERS	w@f3 flqq2
+WAFFLES	w@f3 fql2
+WAFFLING	w@f3 fling2
+WAFT	w@f3
+WAFTAGE	w@f3 theec1
+WAFTED	w@f3 thet1
+WAFTER	w@f3 tqq2
+WAFTER	w@f3 tqq2
+WAFTERS	w@f3 tqq2
+WAFTERS	w@f3 tqq2
+WAFTING	w@f3 ting2
+WAFTS	w@f3
+WAG	wxk3
+WAGE	weec1
+WAGED	weec1
+WAGELESS	weec3 les1
+WAGEMAN	weec3 mxxn0
+WAGEMANS	weec3 mxxn0
+WAGENSTEIN	wxk3 keen2 sa1 thaaj0
+WAGER	weec3 cqq2
+WAGER	weec3 cqq2
+WAGERED	weec3 cqq2
+WAGERER	weec3 cq1 rqq2
+WAGERERS	weec3 cq1 rqq2
+WAGERING	weec3 cq1 ring2
+WAGERS	weec3 cqq2
+WAGES	weec3 cis1
+WAGGED	wxk3
+WAGGER	wxk3 kqq2
+WAGGERIES	wxk3 kqq0 rii2
+WAGGERS	wxk3 kqq2
+WAGGERY	wxk3 kqq0 rii2
+WAGGIEST	wxk3 ki1 es1
+WAGGING	wxk3 king2
+WAGGINGS	wxk3 king2
+WAGGISH	wxk3 khich1
+WAGGISHLY	wxk3 kich1 chlii2
+WAGGISHNESS	wxk3 kich3 chan2 nees1
+WAGGLE	wxx0 khql2
+WAGGLED	wxk3 kql2
+WAGGLER	wxk3 lqq2
+WAGGLER	wxk3 lqq2
+WAGGLERS	wxk3 lqq2
+WAGGLES	wxk3 kql2
+WAGGLING	wxk3 ling2
+WAGGLINGLY	wxk3 ling0 lii2
+WAGGLY	wxx0 khq1 lii2
+WAGGON	wxx0 khqn2
+WAGGONED	wxx0 khen3
+WAGGONEER	wxx0 khqn0 niia0
+WAGGONER	wxx0 khqn0 nqq2
+WAGGONER	wxx0 khqn0 nqq2
+WAGGONERS	wxx0 khq1 nees1
+WAGGONETTE	wxx0 khqn0 net1
+WAGGONING	wxx0 khqn0 ning2
+WAGGONS	wxx0 khqn2
+WAGING	weec3 cing2
+WAGLAN	wxk3 lqn2
+WAGLAND	wxk3 lxxn0
+WAGLER	wxk3 lqq2
+WAGLEY	wxk3 lee2
+WAGLIKE	wxk3 laj3
+WAGLING	wxk3 ling2
+WAGMAN	wxk3 mxxn0
+WAGNERIAN	waak3 niia0 riian2
+WAGNERIANISM	waak3 niia0 riian0 nis3 svm2
+WAGNERIANS	waak3 niia0 riian2
+WAGNON	wxk3 n@@n2
+WAGNOR	wxk3 noo2
+WAGON	wxx0 khqn2
+WAGONAGE	wxx0 khqn0 neec1
+WAGONED	wxx0 khen3
+WAGONEER	wxx0 khqn0 niia0
+WAGONEERS	wxx0 khqn0 niias2
+WAGONER	wxx0 khqn0 nqq2
+WAGONERS	wxx0 khq1 nees1
+WAGONESS	wxx0 khqn0 nees1
+WAGONETTE	wxx0 khqn0 net1
+WAGONETTES	wxx0 khqn0 net1
+WAGONING	wxx0 khqn0 ning2
+WAGONS	wxx0 khqn2
+WAGS	wxk3
+WAGSTAFF	wxk3 sa1 taaf3
+WAGSTAFFS	wxk3 sa1 taaf3
+WAGSTER	wxk3 sa1 tqq2
+WAGSTROM	wxk3 sa1 tr@m0
+WAGTAIL	wxk3 theel0
+WAGTAILS	wxk3 theel0
+WAIF	weef3
+WAIFING	weef3 fing2
+WAIFS	weef3
+WAIL	weel0
+WAILED	weel0
+WAILER	weel0 lqq2
+WAILER	weel0 lqq2
+WAILERS	weel0 lqq2
+WAILERS	weel0 lqq2
+WAILES	weel0
+WAILFUL	weel0 fuul0
+WAILFULLY	weel0 fuul0 lii2
+WAILING	weel0 ling2
+WAILINGLY	weel0 ling0 lii2
+WAILINGS	weel0 ling2
+WAILS	weel0
+WAIN	ween2
+WAINED	ween0
+WAINER	ween0 nqq2
+WAINER	ween0 nqq2
+WAINERS	ween0 nqq2
+WAINERS	ween0 nees1
+WAINES	ween2
+WAINMAN	ween0 mxxn0
+WAINRIGHT	ween0 raj3
+WAINS	ween2
+WAINSCOT	ween0 sa1 kqt1
+WAINSCOTED	ween0 sa1 khq1 thet1
+WAINSCOTING	ween0 sa1 kq1 ting2
+WAINSCOTINGS	ween0 sa1 kq1 ting2
+WAINSCOTS	ween0 sa1 kqt1
+WAINSCOTT	ween0 sa1 k@t1
+WAINSCOTTED	ween0 sa1 kq1 theet1
+WAINSCOTTING	ween0 sa1 kq1 ting2
+WAINSTEIN	ween0 sa1 thaaj0
+WAINSTOCK	ween0 sa1 t@k3
+WAINSTONES	ween0 sa1 toon0
+WAINWRIGHT	ween0 raj3
+WAINWRIGHTS	ween0 raj3
+WAIST	wee0
+WAISTBAG	wees3 bxk3
+WAISTBAND	wees3 bxxn0
+WAISTBANDS	wees3 bxxn0
+WAISTCOAT	wees3 kh@@t3
+WAISTCOATED	wees3 kh@@t3 thet1
+WAISTCOATING	wees3 kh@@t3 ting2
+WAISTCOATS	wees3 kh@@t3
+WAISTED	wees3 thet1
+WAISTER	wees3 tqq2
+WAISTER	wees3 tqq2
+WAISTERS	wees3 tqq2
+WAISTERS	wees3 tqq2
+WAISTING	wees3 ting2
+WAISTINGS	wees3 ting2
+WAISTLESS	wees3 lis1
+WAISTLINE	wees3 laaj0
+WAISTLINER	wees3 laaj0 nqq2
+WAISTLINER	wees3 laaj0 nqq2
+WAISTLINES	wees3 laaj0
+WAISTS	wees3
+WAIT	weet3
+WAITE	weet3
+WAITED	weet3 thet1
+WAITER	weet3 tqq2
+WAITER	weet3 tqq2
+WAITERAGE	weet3 thq1 reec1
+WAITERING	weet3 thq1 ring2
+WAITERING	weet3 thq1 ring2
+WAITERS	weet3 tqq2
+WAITES	weet3
+WAITING	weet3 ting2
+WAITINGLY	weet3 ting2 lii2
+WAITINGS	weet3 ting2
+WAITMAN	weet3 mxxn0
+WAITMANN	weet3 mxxn0
+WAITRESS	weet3 thris1
+WAITRESSED	weet3 thris3
+WAITRESSES	weet3 thris3 ses1
+WAITRESSING	weet3 thris3 sing2
+WAITS	weet3
+WAIVE	weef3
+WAIVED	weef3
+WAIVER	weef3 wqq2
+WAIVER	weef3 wqq2
+WAIVERABLE	weef3 wq1 ree0 bql2
+WAIVERANCES	weef3 wq1 rxxn3 ses1
+WAIVERED	weef3 wqq2
+WAIVERED	weef3 wqq2
+WAIVERING	weef3 wq1 ring2
+WAIVERING	weef3 wq1 ring2
+WAIVERS	weef3 wqq2
+WAIVES	weef3
+WAIVING	weef3 wing2
+WAIVINGS	weef3 wing2
+WAKE	week3
+WAKED	week3
+WAKEFIELD	week3 fiil0
+WAKEFIELDS	week3 fiil0
+WAKEFORD	week3 fqqt1
+WAKEFUL	week3 fuul0
+WAKEFULLY	week3 fql2 lii2
+WAKEFULNESS	week3 fql2 nees1
+WAKEHAM	week3 hxxm2
+WAKEING	week3 king2
+WAKELAND	week3 lxxn0
+WAKELESS	week3 les1
+WAKELEY	week3 lee2
+WAKEMAN	week3 mxxn0
+WAKEN	week3 khqn2
+WAKENED	week3 khen3
+WAKENER	week3 khqn0 nqq2
+WAKENER	week3 khqn0 nqq2
+WAKENERS	week3 khqn0 nqq2
+WAKENERS	week3 khq1 nees1
+WAKENING	week3 khqn0 ning2
+WAKENINGS	week3 khqn0 ning2
+WAKENS	week3 khqn2
+WAKER	week3 kqq2
+WAKER	week3 kqq2
+WAKERS	week3 kqq2
+WAKERS	week3 kqq2
+WAKES	week3
+WAKING	week3 king2
+WAKINGLY	week3 king0 lii2
+WAKINGS	week3 king2
+WALDEN	w@@l0 dqn2
+WALDENBERG	w@@l0 dqn2 bqqk1
+WALDENBOOK	w@@l0 dqn2 buk3
+WALDENBOOKS	w@@l0 dqn2 buk3
+WALDENBURG	w@@l0 dqn2 bqqk1
+WALDENS	w@@l0 dqn2
+WALDENSES	w@@l0 dqn2 ses1
+WALDON	w@@l0 dqn2
+WALE	weel0
+WALED	weel0
+WALEED	weel0
+WALER	weel0 lqq2
+WALER	weel0 lqq2
+WALERIAN	weel0 riian2
+WALES	weel0
+WALESES	weel0 ses1
+WALESON	weel0 san2
+WALK	w@@k3
+WALKABLE	w@@k3 khee0 bql2
+WALKABOUT	w@@k3 khq1 baaw3
+WALKABOUTS	w@@k3 khq1 baaw3
+WALKAWAY	w@@k3 khq1 wee0
+WALKAWAYS	w@@k3 khq1 wee0
+WALKED	w@@k3
+WALKER	w@@k3 kqq2
+WALKER	w@@k3 kqq2
+WALKERS	w@@k3 kqq2
+WALKES	w@@k3
+WALKEST	w@@k3 khis2
+WALKIES	w@@k3 kii2
+WALKING	w@@k3 king2
+WALKINGLY	w@@k3 king0 lii2
+WALKINGS	w@@k3 king2
+WALKINGTON	w@@k3 king0 thqn2
+WALKINGTONS	w@@k3 king0 than2
+WALKINSHAW	w@@k3 kin0 ch@@0
+WALKLAND	w@@k3 lxxn0
+WALKLEY	w@@k3 lee2
+WALKMAN	w@@k3 mxxn0
+WALKMANS	w@@k3 mxxn0
+WALKOUT	w@@k3 khaaw3
+WALKOUTS	w@@k3 khaaw3
+WALKOVER	w@@k3 khoo0 wqq2
+WALKOVER	w@@k3 khoo0 wqq2
+WALKOVERS	w@@k3 khoo0 wqq2
+WALKS	w@@k3
+WALKUP	w@@k3 khap2
+WALKUPS	w@@k3 khap2
+WALKWAY	w@@k3 wee0
+WALKWAYED	w@@k3 wee0
+WALKWAYS	w@@k3 wee0
+WALL	w@@l0
+WALLA	w@@l0 lqq2
+WALLABA	w@@l0 lq1 bqq2
+WALLABIES	w@@l0 lq1 bii2
+WALLABY	w@@l0 lq1 bii2
+WALLACE	w@@l0 lees3
+WALLACES	w@@l0 les3 ses1
+WALLACHIAN	w@@l0 lee0 khiian2
+WALLACHIANS	w@@l0 lee0 khiian2
+WALLACK	w@@l0 lxk3
+WALLAH	w@@l0 lqq2
+WALLAHS	w@@l0 lqq2
+WALLAN	w@@l0 lqn2
+WALLAND	w@@l0 lqn2
+WALLANDER	w@@l0 lqn1 nqq2
+WALLANDER	w@@l0 lqn1 nqq2
+WALLANT	w@@l0 lxxn0
+WALLAR	w@@l0 lqq2
+WALLAR	w@@l0 lqq2
+WALLAS	w@@l0 lqq2
+WALLASEA	w@@l0 lqs2 sii0
+WALLASEY	w@@l0 lqs2 sii0
+WALLBACK	w@@l0 bxk3
+WALLBANGER	w@@l0 bxxng0 ngqq2
+WALLBANGERS	w@@l0 bxxng0 ngqq2
+WALLBANK	w@@l0 bxxng3
+WALLBERG	w@@l0 bqqk1
+WALLBOARD	w@@l0 b@@t3
+WALLBOARDS	w@@l0 b@@t3
+WALLED	w@@l0
+WALLEND	w@@l0 leen0
+WALLENGER	w@@l0 leen0 cqq2
+WALLENSTAIN	w@@l0 leen0 sa1 teen0
+WALLENSTEEN	w@@l0 leen0 sa1 tiin0
+WALLENSTEIN	w@@l0 leen0 sa1 taaj0
+WALLENSTEINS	w@@l0 leen0 sa1 taaj0
+WALLENSTROM	w@@l0 leen0 sa1 tr@m0
+WALLER	w@@l0 lqq2
+WALLER	w@@l0 lqq2
+WALLERING	w@@l0 lq1 ring2
+WALLERING	w@@l0 lq1 ring2
+WALLERS	w@@l0 lqq2
+WALLERS	w@@l0 lqq2
+WALLERSTEIN	w@@l0 lqq2 sa1 taaj0
+WALLES	w@@l0
+WALLET	w@@l0 lit1
+WALLETED	w@@l0 lit3 thet1
+WALLETS	w@@l0 lit1
+WALLEYE	w@@l0 aaj0
+WALLEYED	w@@l0 aaj0
+WALLEYES	w@@l0 aaj0
+WALLFLOWER	w@@l0 flaaw0 wqq2
+WALLFLOWER	w@@l0 flaaw0 wqq2
+WALLFLOWERS	w@@l0 flaaw0 wqq2
+WALLING	w@@l0 ling2
+WALLINGER	w@@l0 ling0 ngqq2
+WALLINGER	w@@l0 ling0 ngqq2
+WALLINGFORD	w@@l0 ling0 fqqt1
+WALLINGTON	w@@l0 ling0 tan2
+WALLINGTONS	w@@l0 ling0 tan2
+WALLINS	w@@l0 lin2
+WALLMAN	w@@l0 mxxn0
+WALLMANN	w@@l0 mxxn0
+WALLMARK	w@@l0 maak3
+WALLNESS	w@@l0 nees1
+WALLOON	w@@l0 luun0
+WALLOONS	w@@l0 luun0
+WALLOP	w@@l0 lqp1
+WALLOPED	w@@l0 lqp1
+WALLOPER	w@@l0 lqp1 pqq2
+WALLOPER	w@@l0 lqp1 pqq2
+WALLOPERS	w@@l0 lqp1 pqq2
+WALLOPING	w@@l0 lqp1 ping2
+WALLOPS	w@@l0 lqp1
+WALLOW	w@@l0 loo2
+WALLOWED	w@@l0 loot2
+WALLOWER	w@@l0 loo0 wqq2
+WALLOWER	w@@l0 loo0 wqq2
+WALLOWERS	w@@l0 loo0 wqq2
+WALLOWING	w@@l0 loo0 wing2
+WALLOWINGS	w@@l0 loo0 wing2
+WALLOWISH	w@@l0 loo0 wich1
+WALLOWS	w@@l0 loos2
+WALLPAPER	w@@l0 pee0 pqq2
+WALLPAPER	w@@l0 pee0 pqq2
+WALLPAPERED	w@@l0 pee0 pqq2
+WALLPAPERED	w@@l0 pee0 pqq2
+WALLPAPERING	w@@l0 pee0 pq1 ring2
+WALLPAPERING	w@@l0 pee0 pq1 ring2
+WALLPAPERS	w@@l0 pee0 pqq2
+WALLPAPERS	w@@l0 pee0 pqq2
+WALLS	w@@l0
+WALLSEND	w@@l0 sen3
+WALLSTEIN	w@@l0 sa1 taaj0
+WALLSTEN	w@@l0 sa1 teen0
+WALLSTON	w@@l0 sa1 tan2
+WALLSTREET	w@@l0 sa1 triit1
+WALLSTROM	w@@l0 sa1 tr@m0
+WALLWAY	w@@l0 wee0
+WALLWAYS	w@@l0 wee0
+WALLWOOD	w@@l0 wuut3
+WALLWORK	w@@l0 wqqk3
+WALLWORTH	w@@l0 wqqt1
+WALLY	w@@l0 lii2
+WALLYS	w@@l0 lii2
+WALNUT	w@@l0 nat3
+WALNUTS	w@@l0 nat3
+WALRUS	w@@l0 rqqs2
+WALRUSES	w@@l0 ras3 ses1
+WALSALL	w@@l0 s@@l0
+WALSHAM	w@@l0 chqm2
+WALSTEAD	w@@l0 sa1 thet1
+WALSTED	w@@l0 sa1 thet1
+WALSTRA	w@@l0 sa1 trqq2
+WALSTROM	w@@l0 sa1 tr@m0
+WALSTRON	w@@l0 sa1 trqn2
+WALTEN	w@@l0 thqn2
+WALTENBERG	w@@l0 thqn1 bqqk1
+WALTER	w@@l0 thqq2
+WALTER	w@@l0 thqq2
+WALTERED	w@@l0 thqq2
+WALTERED	w@@l0 thqq2
+WALTERINE	w@@l0 thq1 riin0
+WALTERMAN	w@@l0 thq1 mxxn0
+WALTERMIRE	w@@l0 thq1 maaj0 rqq2
+WALTERS	w@@l0 thqq2
+WALTERS	w@@l0 thqq2
+WALTERSBURG	w@@l0 thq1 bqqk1
+WALTES	w@@l3
+WALTHAM	w@@l0 tham2
+WALTIS	w@@l0 thiis3
+WALTON	w@@l0 thqn2
+WALTONS	w@@l0 thqn2
+WALTONVILLE	w@@l0 thqn2 wil0
+WALTS	w@@l3
+WALTZ	w@@l3
+WALTZED	w@@l3
+WALTZER	w@@l3 sqq2
+WALTZERS	w@@l3 sqq2
+WALTZES	w@@l3 ses1
+WALTZING	w@@l3 sing2
+WALTZMAN	w@@l3 mxxn0
+WALTZS	w@@l3 ses1
+WAMPERS	w@@m3 phqq2
+WAMPUM	w@@m3 phqm2
+WAMPUMS	w@@m3 phqm2
+WAMPUS	w@@m3 phqq2
+WAN	w@@n0
+WAND	w@@n0
+WANDEL	w@@n0 dql2
+WANDELL	w@@n0 deel0
+WANDEN	w@@n0 dqn2
+WANDER	w@@n0 dqq2
+WANDER	w@@n0 dqq2
+WANDERABLE	w@@n0 dqq0 ree0 bql2
+WANDERD	w@@n0 dqq2
+WANDERD	w@@n0 dqq2
+WANDERED	w@@n0 dqq2
+WANDERER	w@@n0 dqq0 rqq2
+WANDERER	w@@n0 dqq0 rqq2
+WANDERERS	w@@n0 dqq0 rqq2
+WANDERING	w@@n0 dqq0 ring2
+WANDERINGLY	w@@n0 dqq0 ring2 lii2
+WANDERINGNESS	w@@n0 dqq0 ring2 nees1
+WANDERINGS	w@@n0 dqq0 ring2
+WANDERLAND	w@@n0 dqq2 lxxn0
+WANDERLANDS	w@@n0 dqq2 lxxn0
+WANDERLEY	w@@n0 dqq2 lee2
+WANDERLUST	w@@n0 dql2 las3
+WANDERLUSTER	w@@n0 dql2 las3 tqq2
+WANDERLUSTER	w@@n0 dql2 las3 tqq2
+WANDERLUSTFUL	w@@n0 dqq2 las3 fuul0
+WANDERLY	w@@n0 dqq2 lii2
+WANDERMAN	w@@n0 dqq2 mxxn0
+WANDERS	w@@n0 dqq2
+WANDERSEE	w@@n0 dqq0 sii2
+WANDERSTOCK	w@@n0 dq1 sa1 t@k3
+WANDERY	w@@n0 dqq0 rii2
+WANDIE	w@@n0 daaj0
+WANDING	w@@n0 ding2
+WANDIRA	w@@n0 diia0 rqq2
+WANDLASS	w@@n0 lxs3
+WANDLER	w@@n0 lqq2
+WANDLESS	w@@n0 les1
+WANDLIKE	w@@n0 laj3
+WANDLING	w@@n0 ling2
+WANDRA	w@@n0 drqq2
+WANDREY	w@@n0 drii2
+WANDRIL	w@@n0 drql2
+WANDRILLE	w@@n0 dril0
+WANDRING	w@@n0 dring2
+WANDROUS	w@@n0 dras2
+WANDRUM	w@@n0 dram2
+WANDRY	w@@n0 draaj0
+WANDS	w@@n0
+WANDSMAN	w@@n0 sa1 mqn2
+WANDSWORTH	w@@n0 sa1 wqt1
+WANE	ween0
+WANED	ween0
+WANER	ween0 nqq2
+WANER	ween0 nqq2
+WANER	w@@n0 nqq2
+WANER	w@@n0 nqq2
+WANES	ween2
+WANGEN	w@@n0 ceen0
+WANGER	wxxng0 kqq2
+WANGERMANN	w@@n0 cqq2 mxxn0
+WANGERS	wxxng0 kqq2
+WANGING	wxxng0 nging2
+WANGLE	wxxng0 kql2
+WANGLED	wxxng0 kql2
+WANGLER	wxxng0 klqq2
+WANGLER	wxxng0 klqq2
+WANGLERS	wxxng0 klqq2
+WANGLES	wxxng0 kql2
+WANGLIES	wxxng0 klii2
+WANGLIN	wxxng0 klin2
+WANGLING	wxxng0 kling2
+WANING	ween0 ning2
+WANINGS	ween0 ning2
+WANK	wxxng3
+WANKABLE	wxxng3 khee0 bql2
+WANKED	wxxng3
+WANKER	wxxng0 kqq2
+WANKER	wxxng0 kqq2
+WANKERS	wxxng0 kqq2
+WANKERS	wxxng0 kqq2
+WANKING	wxxng0 king2
+WANKISH	wxxng0 kich3
+WANKLE	wxxng0 kql2
+WANKLING	wxxng0 kling2
+WANKLY	wxxng3 lii2
+WANKS	wxxng3
+WANLESS	w@@n0 les1
+WANLEY	w@@n0 lii2
+WANLY	w@@n0 lii2
+WANNA	w@@n0 nqq2
+WANNABEE	w@@n0 nq1 bii2
+WANNABEES	w@@n0 nq1 bii2
+WANNAMAKER	w@@n0 nq1 meek3 kqq2
+WANNER	w@@n0 nqq2
+WANNER	w@@n0 nqq2
+WANNESS	w@@n0 nees1
+WANNESSES	w@@n0 nqs1 ses1
+WANNEST	w@@n0 nis3
+WANNING	w@@n0 ning2
+WANNINGER	w@@n0 ning0 ngqq2
+WANNINGER	w@@n0 ning0 ngqq2
+WANT	w@@n3
+WANTAGE	w@@n3 theec1
+WANTAGES	w@@n3 theec1 cis1
+WANTAND	w@@n3 thqn2
+WANTED	w@@n3 thet1
+WANTEDS	w@@n3 thet1
+WANTER	w@@n3 tqq2
+WANTER	w@@n3 tqq2
+WANTERS	w@@n3 tqq2
+WANTERS	w@@n3 tqq2
+WANTIN	w@@n3 thin0
+WANTING	w@@n3 ting2
+WANTINGLY	w@@n3 ting2 lii2
+WANTLAND	w@@n3 lxxn0
+WANTLESS	w@@n3 les1
+WANTLESSNESS	w@@n3 lqs1 nees1
+WANTON	w@@n3 tan2
+WANTOND	w@@n3 tan2
+WANTONED	w@@n3 tan2
+WANTONER	w@@n0 thqq0 nqq2
+WANTONER	w@@n0 thqq0 nqq2
+WANTONERS	w@@n0 thqq0 nqq2
+WANTONERS	w@@n0 tq1 nqq2
+WANTONING	w@@n0 thqq0 ning2
+WANTONLY	w@@n0 tqn2 lii2
+WANTONNESS	w@@n0 tqn2 nees1
+WANTONS	w@@n0 tan2
+WANTS	w@@n3
+WAPENTAKE	wx3 phqn1 theek3
+WAPITI	w@3 phi1 tii2
+WAPITIS	w@3 phi1 tii2
+WAR	w@@0
+WAR	w@@0
+WARBLE	w@@0 bql2
+WARBLED	w@@0 bql2
+WARBLER	w@@0 blqq2
+WARBLER	w@@0 blqq2
+WARBLERS	w@@0 blqq2
+WARBLES	w@@0 bql2
+WARBLING	w@@0 bling2
+WARBLINGLY	w@@0 bling0 lii2
+WARBLINGS	w@@0 bling2
+WARBURG	w@@0 bqqk1
+WARBURGS	w@@0 bqqk1
+WARBURTON	w@@0 bqq0 thqn2
+WARBURTONS	w@@0 bqq0 thqn2
+WARCRAFT	w@@0 khraaf3
+WARCRAFTS	w@@0 khraaf3
+WARD	w@@t1
+WARDAIR	w@@0 dxx0
+WARDANCE	w@@0 daan2
+WARDED	w@@t3 det1
+WARDELL	w@@0 deel0
+WARDEN	w@@0 dqn2
+WARDENBURG	w@@0 dqn1 bqqk1
+WARDENING	w@@0 dqn1 ning2
+WARDENS	w@@0 dqn2
+WARDENSHIP	w@@0 dqn1 chip3
+WARDER	w@@0 dqq2
+WARDER	w@@0 dqq2
+WARDERS	w@@0 dqq2
+WARDERSHIP	w@@0 dqq2 chip3
+WARDIAN	w@@0 diian2
+WARDICK	w@@0 dik3
+WARDING	w@@t3 ding2
+WARDINGLEY	w@@t3 ding0 lee2
+WARDINGTON	w@@t3 ding0 tan2
+WARDLAW	w@@t1 l@@0
+WARDLES	w@@t3 les1
+WARDLESS	w@@t3 les1
+WARDLEY	w@@t3 lee2
+WARDLOW	w@@t3 loo0
+WARDMAN	w@@t1 mxxn0
+WARDRESS	w@@0 dris1
+WARDRESSES	w@@0 dris3 ses1
+WARDRIP	w@@0 drip3
+WARDROBE	w@@t3 droop3
+WARDROBED	w@@t3 droop3
+WARDROBER	w@@t3 droop3 bqq2
+WARDROBER	w@@t3 droop3 bqq2
+WARDROBERS	w@@t3 droop3 bqq2
+WARDROBES	w@@t3 droop3
+WARDROBING	w@@t3 droop3 bing2
+WARDROOM	w@@t1 ruum0
+WARDROOMS	w@@t1 ruum0
+WARDROP	w@@0 dr@p1
+WARDS	w@@t1
+WARDSHIP	w@@t1 chip3
+WARDSHIPS	w@@t1 chip3
+WARDSMAID	w@@t1 sa1 meet1
+WARDSMAN	w@@t1 sa1 mxxn0
+WARDSON	w@@t3 san2
+WARDWELL	w@@t1 weel0
+WARE	wxx0
+WARE	wxx0
+WARED	wxx0
+WAREHOUSE	wxx0 haaw3
+WAREHOUSE	wxx0 haaw3
+WAREHOUSED	wxx0 haaw3
+WAREHOUSED	wxx0 haaw3
+WAREHOUSEFUL	wxx0 haaw3 fuul0
+WAREHOUSEFULS	wxx0 haaw3 fuul0
+WAREHOUSEKEEPER	wxx0 haaw3 sa1 khiip3 pqq2
+WAREHOUSEMAN	wxx0 haaw3 sa1 mqn2
+WAREHOUSEMEN	wxx0 haaw3 sa1 mqn2
+WAREHOUSER	wxx0 haaw3 sqq2
+WAREHOUSER	wxx0 haaw3 sqq2
+WAREHOUSER	wxx0 haaw3 sqq2
+WAREHOUSER	wxx0 haaw3 sqq2
+WAREHOUSERS	wxx0 haaw3 sqq2
+WAREHOUSERS	wxx0 haaw3 sqqs2
+WAREHOUSERS	wxx0 haaw3 sqq2
+WAREHOUSERS	wxx0 haaw3 sqqs2
+WAREHOUSES	wxx0 haaw3 ses1
+WAREHOUSING	wxx0 haaw3 sing2
+WAREING	wxx0 ring2
+WAREING	wxx0 ring2
+WAREROOM	wxx0 ruum0
+WARES	wxx0
+WARFARE	w@@0 fxx0
+WARFARE	w@@0 fxx0
+WARFARER	w@@0 fxx0 rqq2
+WARFARER	w@@0 fxx0 rqq2
+WARFARER	w@@0 fxx0 rqq2
+WARFARER	w@@0 fxx0 rqq2
+WARFARES	w@@0 fxx0
+WARFARES	w@@0 fxx0
+WARFIELD	w@@0 fiil0
+WARFORD	w@@0 f@@t1
+WARHEAD	w@@0 heet3
+WARHEADS	w@@0 heet3
+WARHOLD	w@@0 hool0
+WARHORSE	w@@0 h@@s3
+WARHORSES	w@@0 h@@s3 ses1
+WARHURST	w@@0 hqqs3
+WARIER	wxx0 riia0
+WARIER	wxx0 riia0
+WARIEST	wxx0 ri1 es1
+WARILY	wxx0 ril0 lii2
+WARINESS	wxx0 ri3 nees1
+WARING	wxx0 ring2
+WARINGS	wxx0 ring2
+WARINGTON	wxx0 ring2 tan2
+WARKENTIN	w@@k3 kheen0 thin0
+WARKENTINE	w@@k3 kheen0 thaaj0
+WARLESS	w@@0 les1
+WARLEY	w@@0 lii2
+WARLEYS	w@@0 lii2
+WARLICK	w@@0 lik3
+WARLIKE	w@@0 laj3
+WARLIKELY	w@@0 laj3 lii2
+WARLIKENESS	w@@0 laj3 nees1
+WARLOCK	w@@0 l@k3
+WARLOCKS	w@@0 l@k3
+WARLONG	w@@0 l@@ng0
+WARLORD	w@@0 l@@t1
+WARLORDING	w@@0 l@@t1 ding2
+WARLORDS	w@@0 l@@t1
+WARM	w@@m0
+WARMACK	w@@0 mxk3
+WARMAKER	w@@0 meek3 kqq2
+WARMAKERS	w@@0 meek3 kqq2
+WARMAN	w@@0 mxxn0
+WARMANN	w@@0 mxxn0
+WARMED	w@@m0
+WARMER	w@@m0 mqq2
+WARMER	w@@m0 mqq2
+WARMERS	w@@m0 mqq2
+WARMEST	w@@m0 mis3
+WARMHEARTED	w@@m0 haat3 thet1
+WARMHEARTEDLY	w@@m0 haat3 thet1 lii2
+WARMHEARTEDNESS	w@@m0 haat3 thet1 nees1
+WARMICK	w@@0 mik1
+WARMING	w@@m0 ming2
+WARMINGHAM	w@@m0 ming1 hqm2
+WARMINGLY	w@@m0 ming2 lii2
+WARMINGS	w@@m0 ming2
+WARMINGTON	w@@m0 ming2 tan2
+WARMINISTER	w@@0 mi1 nis3 tqq2
+WARMINSKY	w@@0 miin0 sa1 kaaj0
+WARMINSTER	w@@0 min0 sa1 tqq2
+WARMINSTER	w@@0 min0 sa1 tqq2
+WARMISH	w@@0 mich3
+WARMLEY	w@@m0 lee2
+WARMLY	w@@m0 lii2
+WARMNESS	w@@m0 nees1
+WARMONGER	w@@m0 mang0 kqq2
+WARMONGER	w@@m0 mang0 kqq2
+WARMONGERING	w@@m0 mang0 khq1 ring2
+WARMONGERING	w@@m0 mang0 kqq0 ring2
+WARMONGERS	w@@m0 mang0 kqq2
+WARMOTH	w@@0 m@t3
+WARMS	w@@m0
+WARMTH	w@@m3
+WARMTHS	w@@m3
+WARMUPS	w@@m0 map2
+WARN	w@@n0
+WARNACK	w@@n0 nxk1
+WARNED	w@@n0
+WARNEKE	w@@n0 niik1
+WARNELL	w@@n0 neel0
+WARNER	w@@n0 nqq2
+WARNER	w@@n0 nqq2
+WARNERS	w@@n0 nqq2
+WARNERS	w@@n0 nees1
+WARNES	w@@n0
+WARNICK	w@@0 nik1
+WARNICKS	w@@0 nik1
+WARNING	w@@n0 ning2
+WARNINGLY	w@@n0 ning2 lii2
+WARNINGS	w@@n0 ning2
+WARNINK	w@@n0 ning3
+WARNINKS	w@@n0 ning3
+WARNKEN	w@@n0 kheen0
+WARNS	w@@n0
+WARP	w@@
+WARPAGE	w@@0 peec1
+WARPAINT	w@@0 pheen3
+WARPATH	w@@0 phaat3
+WARPATHS	w@@0 phaat3
+WARPED	w@@p3
+WARPER	w@@p3 phqq2
+WARPER	w@@p3 phqq2
+WARPERS	w@@p3 phqq2
+WARPERS	w@@p3 phqq2
+WARPING	w@@p3 ping2
+WARPLANE	w@@0 phleen0
+WARPLANES	w@@0 phleen0
+WARPOWER	w@@0 phaaw0 wqq2
+WARPOWERS	w@@0 phaaw0 wqq2
+WARPS	w@@p3
+WARPSTONE	w@@p3 sa1 toon0
+WARRAN	w@@0 rxxn0
+WARRAND	w@@0 rqn2
+WARRANT	w@@0 ren3
+WARRANTABLE	w@@0 ren3 thee0 bql2
+WARRANTECH	w@@0 rxxn0 thek1
+WARRANTED	w@@0 rqn1 thet1
+WARRANTEE	w@@0 rqn1 thii2
+WARRANTEED	w@@0 rqn1 thii2
+WARRANTEES	w@@0 rqn1 thii2
+WARRANTER	w@@0 rqn1 tqq2
+WARRANTIED	w@@0 rxxn0 thaaj0
+WARRANTIES	w@@0 rqn1 thii2
+WARRANTING	w@@0 rqn1 ting2
+WARRANTLESS	w@@0 ren3 les1
+WARRANTOR	w@@0 rqn1 tqq2
+WARRANTOR	w@@0 rqn1 tqq2
+WARRANTORS	w@@0 rqn1 tqq2
+WARRANTS	w@@0 ren3
+WARRANTY	w@@0 rqn1 thii0
+WARRED	w@@0
+WARREN	w@@0 rqn2
+WARRENBERG	w@@0 rqn1 bqqk1
+WARRENES	w@@0 rqn2
+WARRENING	w@@0 rqn1 ning2
+WARRENS	w@@0 rqn2
+WARRENSBURG	w@@0 rqn1 sa1 bqqk1
+WARRENT	w@@0 ren3
+WARRENTS	w@@0 ren3
+WARRES	w@@0 rii2
+WARRICK	w@@0 rik1
+WARRICKER	w@@0 rik3 kqq2
+WARRICKER	w@@0 rik3 kqq2
+WARRICKS	w@@0 rik1
+WARRINER	w@@0 rin2 nqq2
+WARRING	w@@0 ring2
+WARRINGS	w@@0 ring2
+WARRINGTON	w@@0 ring0 tan2
+WARRINGTONS	w@@0 ring0 tan2
+WARRIOR	w@@0 riia0
+WARRIOR	w@@0 riia0
+WARRIORS	w@@0 riias2
+WARS	w@@0
+WARSAW	w@@0 s@@0
+WARSAWS	w@@0 s@@0
+WARSAWSKY	w@@0 s@@0 sa1 kaaj0
+WARSHAW	w@@0 ch@@0
+WARSHAWSKI	w@@0 ch@@0 sa1 kii2
+WARSHAWSKY	w@@0 ch@@0 sa1 kaaj0
+WARSHIP	w@@0 chip3
+WARSHIP	w@@0 chip3
+WARSHIPPERS	w@@0 chip3 pqq2
+WARSHIPS	w@@0 chip3
+WARSOP	w@@0 s@p1
+WART	w@@t1
+WARTED	w@@t3 thet1
+WARTER	w@@t3 tqq2
+WARTER	w@@t3 tqq2
+WARTERS	w@@t3 thqq2
+WARTERS	w@@t3 thqq2
+WARTES	w@@t1
+WARTHEN	w@@0 deen2
+WARTHOG	w@@0 th@k1
+WARTHOGS	w@@0 th@k1
+WARTIER	w@@0 thiia0
+WARTIME	w@@0 thaam0
+WARTIMES	w@@0 thaam0
+WARTLET	w@@t3 let1
+WARTLIKE	w@@t3 laj3
+WARTLING	w@@t3 ling2
+WARTMAN	w@@t3 mxxn0
+WARTMANN	w@@t3 mxxn0
+WARTON	w@@0 tan2
+WARTS	w@@t1
+WARTY	w@@0 tii2
+WARTZMAN	w@@t3 sa1 mxxn0
+WARWICK	w@@0 wik1
+WARWICKS	w@@0 wik1
+WARWICKSHIRE	w@@0 wik3 chqq2
+WARWICKSHIRE	w@@0 wik3 chqq2
+WARWORK	w@@0 wqqk3
+WARWORKS	w@@0 wqqk3
+WARWORN	w@@0 w@@n0
+WARY	wxx0 rii2
+WAS	w@@s3
+WAS	w@s3
+WASCOMMITTED	w@s3 khq1 mit3 thet1
+WASDELL	w@s3 deel0
+WASDEN	w@s3 deen2
+WASH	w@ch3
+WASHABILITY	w@ch3 chq1 bi1 li3 tii2
+WASHABLE	w@ch3 chqq0 bql2
+WASHABLENESS	w@ch3 chqq0 bql2 nees1
+WASHABLES	w@ch3 chqq0 bql2
+WASHAM	w@s3 hxxm2
+WASHBASIN	w@ch3 bee0 sqn2
+WASHBASINS	w@ch3 bee0 sqn2
+WASHBOARD	w@ch3 b@@t1
+WASHBOARDS	w@ch3 b@@t1
+WASHBOURNE	w@ch3 b@@n0
+WASHBOWL	w@ch3 bool0
+WASHBOWLS	w@ch3 bool0
+WASHBURN	w@ch3 bqqn0
+WASHCLOTH	w@ch3 khloot3
+WASHCLOTHS	w@ch3 khloot3
+WASHDAY	w@ch3 dee0
+WASHDAYS	w@ch3 dees1
+WASHED	w@ch3
+WASHER	w@ch3 chqq2
+WASHER	w@ch3 chqq2
+WASHERING	w@ch3 chqq2 ring2
+WASHERING	w@ch3 chqq2 ring2
+WASHERS	w@ch3 chqq2
+WASHERWOMAN	w@ch3 chqq2 wuu3 mqn2
+WASHERWOMEN	w@ch3 chqq2 wii3 mqn2
+WASHES	w@ch3 ches1
+WASHING	w@ch3 ching2
+WASHINGLY	w@ch3 ching2 lii2
+WASHINGS	w@ch3 ching2
+WASHINGTON	w@@0 ching0 tan2
+WASHINGTONIA	w@3 ching2 th@@0 niia0
+WASHINGTONIAN	w@@0 ching0 thqq0 niian2
+WASHINGTONIANS	w@ch3 ching0 thqq0 niian2
+WASHINGTONS	w@@0 ching2 tan2
+WASHINGTONVILLE	w@@3 ching2 tqn2 wil0
+WASHOUT	w@ch3 chaaw3
+WASHOUTS	w@ch3 chaaw3
+WASHRAG	w@ch3 rxk3
+WASHRAGS	w@ch3 rxk3
+WASHROOM	w@ch3 ruum0
+WASHROOMS	w@ch3 ruum0
+WASHSTAND	w@ch3 sa1 txxn0
+WASHSTANDS	w@ch3 sa1 txxn0
+WASHTUB	w@ch3 thap3
+WASHTUBS	w@ch3 thap3
+WASHWOMAN	w@ch3 wuu3 mxn2
+WASHWOMEN	w@ch3 wii3 men2
+WASHY	w@ch3 chii2
+WASINGER	w@s3 sin0 cqq2
+WASLEY	w@s3 lee2
+WASMAN	w@s3 mxxn0
+WASP	w@s3
+WASPIER	w@s3 phiia0
+WASPIEST	w@s3 phi1 es1
+WASPISH	w@s3 phich1
+WASPISHLY	w@s3 phich1 lii2
+WASPISHNESS	w@s3 phich1 nees1
+WASPLIKE	w@s3 laj3
+WASPS	w@s3
+WASSAIL	w@s3 seel0
+WASSAILED	w@s3 seel0
+WASSAILER	w@s3 seel0 lqq2
+WASSAILER	w@s3 seel0 lqq2
+WASSAILERS	w@s3 seel0 lqq2
+WASSAILERS	w@s3 seel0 lqq2
+WASSAILING	w@s3 sql2 ling2
+WASSAILS	w@s3 seel0
+WASSELL	w@s3 seel0
+WASSING	w@s3 sing2
+WASSINK	w@s3 sing3
+WASSON	w@s3 san2
+WASSUM	w@s3 sam2
+WAST	w@s3
+WASTABLE	w@s3 thee0 bql2
+WASTAGE	wees3 theec1
+WASTAGES	wees3 theec1 cis1
+WASTE	wee0
+WASTEBASKET	wees3 baas3 ket1
+WASTEBASKETS	wees3 baas3 ket1
+WASTEBIN	wees3 bin0
+WASTEBINS	wees3 bin0
+WASTEBOARD	wees3 b@@t1
+WASTED	wees3 thet1
+WASTEFUL	wees3 fuul0
+WASTEFULLY	wees3 fuul0 lii2
+WASTEFULNESS	wees3 fuul0 nees1
+WASTEL	wees3 thql2
+WASTELAND	wees3 lxxn0
+WASTELANDS	wees3 lxxn0
+WASTELESS	wees3 lqs1
+WASTELL	wees3 thql2
+WASTEPAPER	wees3 phee0 phqq2
+WASTER	wees3 tqq2
+WASTER	wees3 tqq2
+WASTERN	w@s3 thqqn0
+WASTERS	wees3 tqq2
+WASTERVILLE	wees3 tq1 wil0
+WASTERY	wees3 tq1 rii2
+WASTES	wees3
+WASTEWATER	wees3 w@@0 thqq2
+WASTEWATERS	wees3 w@@0 thqq2
+WASTIE	w@s3 thaaj0
+WASTIER	w@s3 thiia0
+WASTIN	wees3 tin0
+WASTING	wees3 ting2
+WASTINGLY	wees3 ting2 lii2
+WASTREL	wees3 thrql2
+WASTRELS	wees3 thrql2
+WASTS	w@s3
+WATCH	w@ch3
+WATCHBAND	w@ch3 bxxn0
+WATCHBANDS	w@ch3 bxxn0
+WATCHD	w@ch3
+WATCHDOG	w@ch3 d@k3
+WATCHDOGS	w@ch3 d@k3
+WATCHED	w@ch3
+WATCHER	w@ch3 chqq2
+WATCHER	w@ch3 chqq2
+WATCHERS	w@ch3 chqq2
+WATCHES	w@ch3 ches1
+WATCHFUL	w@ch3 fuul0
+WATCHFULLY	w@ch3 fql2 lii2
+WATCHFULNESS	w@ch3 fql2 nees1
+WATCHFULNESSES	w@ch3 fql2 nqs3 ses1
+WATCHING	w@ch3 ching2
+WATCHINGLY	w@ch3 ching2 lii2
+WATCHINGS	w@ch3 ching2
+WATCHMAKER	w@ch3 meek3 kqq2
+WATCHMAKER	w@ch3 meek3 kqq2
+WATCHMAKERS	w@ch3 meek3 kqq2
+WATCHMAKING	w@ch3 meek3 king2
+WATCHMAN	w@ch3 mxxn0
+WATCHMEN	w@ch3 men0
+WATCHMENT	w@ch3 men3
+WATCHOUT	w@ch3 chaaw3
+WATCHTOWER	w@ch3 thaaw0 wqq2
+WATCHTOWER	w@ch3 thaaw0 wqq2
+WATCHTOWERS	w@ch3 thaaw0 wqq2
+WATCHWISE	w@ch3 waaj3
+WATCHWOMAN	w@ch3 wuu3 mxn2
+WATCHWOMEN	w@ch3 wii3 men2
+WATCHWORD	w@ch3 wqqt1
+WATCHWORDS	w@ch3 wqqt1
+WATCHWORK	w@ch3 wqqk3
+WATCHWORKERS	w@ch3 wqqk3 kqq2
+WATCHWORKS	w@ch3 wqqk3
+WATER	w@@0 thqq2
+WATER	w@@0 thqq2
+WATERBALLS	w@@0 thqq0 b@@l0
+WATERBEARER	w@@0 thqq0 bxx0 rqq2
+WATERBEARING	w@@0 thqq0 bxx0 ring2
+WATERBED	w@@0 thqq0 beet3
+WATERBEDS	w@@0 thqq0 beet3
+WATERBERG	w@@0 thqq0 bqqk1
+WATERBIRD	w@@0 thqq2 bqqt3
+WATERBIRDS	w@@0 thqq2 bqqt3
+WATERBOARD	w@@0 thqq2 b@@t1
+WATERBORNE	w@@0 thqq2 b@@n0
+WATERBOY	w@@0 thqq0 b@@j0
+WATERBOYS	w@@0 thqq0 b@@j0
+WATERBURY	w@@0 thqq2 bq1 rii2
+WATERCANNON	w@@0 thqq2 khxxn0 niian2
+WATERCANNONS	w@@0 thqq2 khxxn0 niian2
+WATERCARE	w@@0 thqq2 khxx0
+WATERCART	w@@0 thqq2 khaat1
+WATERCHUTE	w@@0 thqq2 chuut3
+WATERCHUTES	w@@0 thqq2 chuut3
+WATERCOLOR	w@@0 thqq2 khal0 lqq2
+WATERCOLORED	w@@0 thqq2 khal0 lqq2
+WATERCOLORING	w@@0 thqq2 khal0 lqq2 ring2
+WATERCOLORS	w@@0 thqq2 khal0 lqq2
+WATERCOLOUR	w@@0 thqq2 khal0 lqq2
+WATERCOLOUR	w@@0 thqq2 khal0 lqq2
+WATERCOLOURED	w@@0 thqq2 khal0 lqq2
+WATERCOLOURED	w@@0 thqq2 khal0 lqq2
+WATERCOLOURING	w@@0 thqq2 khal0 lq1 ring2
+WATERCOLOURING	w@@0 thqq2 khal0 lq1 ring2
+WATERCOLOURIST	w@@0 thqq2 khal0 lq1 ris3
+WATERCOLOURISTS	w@@0 thqq2 khal0 lq1 ris3
+WATERCOLOURS	w@@0 thqq2 khal0 lqq2
+WATERCOURSE	w@@0 thqq2 kh@@s3
+WATERCOURSES	w@@0 thqq2 kh@@s3 ses1
+WATERCRAFT	w@@0 thqq2 khraaf3
+WATERCRATS	w@@0 thqq2 khrxt1
+WATERCRESS	w@@0 thqq2 khres3
+WATERCRESSES	w@@0 thqq2 khres3 ses1
+WATERCREST	w@@0 thqq2 khres3
+WATERCUP	w@@0 thqq2 khap3
+WATERD	w@@0 thqq2
+WATERD	w@@0 thqq2
+WATERED	w@@0 thqq2
+WATERER	w@@0 thqq2 rqq2
+WATERER	w@@0 thqq2 rqq2
+WATERER	w@@0 thqq2 rqq2
+WATERER	w@@0 thqq2 rqq2
+WATERERS	w@@0 thqq2
+WATERERS	w@@0 thqq2
+WATERERS	w@@0 thqq2 rqq2
+WATERERS	w@@0 thqq2 rqq2
+WATERFALL	w@@0 thqq2 f@@l0
+WATERFALLING	w@@0 thqq2 f@@l0 ling2
+WATERFALLS	w@@0 thqq2 f@@l0
+WATERFIELD	w@@0 thqq2 fiil0
+WATERFLOW	w@@0 thqq0 floo0
+WATERFORD	w@@0 thqq2 fqqt1
+WATERFOWL	w@@0 thqq2 faaw0
+WATERFOWLER	w@@0 thqq2 faaw0 lqq2
+WATERFOWLER	w@@0 thqq2 faaw0 lqq2
+WATERFOWLERS	w@@0 thqq0 faaw0 lqq2
+WATERFOWLING	w@@0 thqq2 faaw0 ling2
+WATERFOWLS	w@@0 thqq2 faaw0
+WATERFRONT	w@@0 thqq2 fr@n3
+WATERFRONTAGE	w@@0 thqq0 fr@n3 theec1
+WATERFRONTS	w@@0 thqq2 fr@n3
+WATERGATE	w@@0 thqq0 keet1
+WATERGATES	w@@0 thqq0 keet1
+WATERGLASS	w@@0 thqq2 klaas3
+WATERGROUP	w@@0 thqq0 kruup3
+WATERHEAD	w@@0 thqq2 heet3
+WATERHEADS	w@@0 thqq2 heet3
+WATERHEN	w@@0 thqq2 heen0
+WATERHENS	w@@0 thqq2 heen0
+WATERHOUSE	w@@0 thqq2 haaw3
+WATERHOUSES	w@@0 thqq2 haaw3 ses1
+WATERHYACINTH	w@@0 thqq2 haaj0 qs3 sin3
+WATERHYACINTHS	w@@0 thqq2 haaj0 qs3 sin3
+WATERIER	w@@0 thq1 riia0
+WATERIER	w@@0 thq1 riia0
+WATERIEST	w@@0 thq1 ri1 es1
+WATERINESS	w@@0 thq1 rin2 nees1
+WATERING	w@@0 thqq2 ring2
+WATERINGS	w@@0 thqq2 ring2
+WATERISH	w@@0 thqq2 rich3
+WATERISHNESS	w@@0 thqq2 rich3 nees1
+WATERLAND	w@@0 thql2 lxxn0
+WATERLANDIAN	w@@0 thql2 lxxn0 diian2
+WATERLEAF	w@@0 thqq0 liif3
+WATERLESS	w@@0 thql2 lis1
+WATERLIFE	w@@0 thqq0 laj3
+WATERLIKE	w@@0 thqq0 laj3
+WATERLINE	w@@0 thqq0 laaj0
+WATERLINES	w@@0 thqq0 laaj0
+WATERLOG	w@@0 thql2 l@k3
+WATERLOGGED	w@@0 thql2 l@k3
+WATERLOGGING	w@@0 thqq0 l@k3 king2
+WATERLOGS	w@@0 thql2 l@k3
+WATERLOO	w@@0 thql2 luu0
+WATERLOOS	w@@0 thql2 luu0
+WATERMAIN	w@@0 thqq0 men0
+WATERMAKER	w@@0 thqq0 meek3 kqq2
+WATERMAKERS	w@@0 thqq0 meek3 kqq2
+WATERMAN	w@@0 tham2 mxxn02
+WATERMANN	w@@0 tham2 mxxn0
+WATERMANS	w@@0 tham2 mxxn0
+WATERMANSHIP	w@@0 tham2 mxxn0 chip3
+WATERMARK	w@@0 tham2 maak3
+WATERMARKED	w@@0 tham2 maak3
+WATERMARKING	w@@0 tham2 maak3 king2
+WATERMARKS	w@@0 tham2 maak3
+WATERMASTER	w@@0 tham2 maas3 tqq2
+WATERMELON	w@@0 tham2 mee0 lqn2
+WATERMELONS	w@@0 tham2 mee0 lqn2
+WATERMEN	w@@0 tham2 men0
+WATERMILL	w@@0 thqq2 mil0
+WATERMILLS	w@@0 thqq2 mil0
+WATERMITES	w@@0 thqq0 maaj3
+WATERPIECES	w@@0 thqq2 phiis3 ses1
+WATERPOWER	w@@0 thqq0 phaaw0 wqq2
+WATERPRICE	w@@0 thqq0 phraj3
+WATERPROOF	w@@0 thqq2 phruuf3
+WATERPROOFED	w@@0 thqq2 phruuf3
+WATERPROOFER	w@@0 thqq2 phruuf3 fqq2
+WATERPROOFER	w@@0 thqq2 phruuf3 fqq2
+WATERPROOFERS	w@@0 thqq2 phruuf3 fqq2
+WATERPROOFERS	w@@0 thqq2 phruuf3 fqq2
+WATERPROOFING	w@@0 thqq2 phruuf3 fing2
+WATERPROOFS	w@@0 thqq2 phruuf3
+WATERS	w@@0 tqq2
+WATERSCOPE	w@@0 thqq0 sa1 khoop1
+WATERSHED	w@@0 thqq2 cheet3
+WATERSHEDDINGS	w@@0 thqq2 cheet3 ding2
+WATERSHEDS	w@@0 thqq2 cheet3
+WATERSIDE	w@@0 thqq2 saj3
+WATERSIDES	w@@0 thqq2 saj3
+WATERSKIING	w@@0 thqq0 sa1 kii0 ing2
+WATERSON	w@@0 thqq0 san2
+WATERSONS	w@@0 thqq0 san2
+WATERSPACE	w@@0 thqq0 sa1 pees3
+WATERSPOUT	w@@0 thqq2 sa1 paaw3
+WATERSPOUTS	w@@0 thqq2 sa1 paaw3
+WATERSTATION	w@@0 thqq0 sa1 tee0 chan2
+WATERSTEIN	w@@0 thqq0 sa1 taaj0
+WATERSTOCK	w@@0 thqq0 sa1 t@k3
+WATERSTON	w@@0 thqq2 sa1 tan2
+WATERSTONES	w@@0 thqq0 sa1 toon0
+WATERSTREET	w@@0 thqq0 sa1 triit1
+WATERTABLE	w@@0 thqq2 thee0 bql2
+WATERTABLES	w@@0 thqq2 thee0 bql2
+WATERTIGHT	w@@0 thqq2 thaj3
+WATERTON	w@@0 thqq0 tan2
+WATERTOWN	w@@0 thqq0 thaaw0
+WATERWARD	w@@0 thqq2 wqt1
+WATERWARDS	w@@0 thqq2 wqt1
+WATERWAVE	w@@0 thqq2 weef3
+WATERWAY	w@@0 thqq2 wee0
+WATERWAYS	w@@0 thqq2 wee0
+WATERWEAR	w@@0 thqq2 wxx0
+WATERWEIGHT	w@@0 thqq2 weet1
+WATERWHEEL	w@@0 thqq0 wiil0
+WATERWOOD	w@@0 thqq0 wuut3
+WATERWORK	w@@0 thqq2 wqqk3
+WATERWORKED	w@@0 thqq0 wqqk3
+WATERWORKER	w@@0 thqq2 wqqk3 kqq2
+WATERWORKINGS	w@@0 thqq0 wqqk3 king2
+WATERWORKS	w@@0 thqq2 wqqk3
+WATERWORLD	w@@0 thqq2 wqql2
+WATERWORLDS	w@@0 thqq2 wqql2
+WATERWORTH	w@@0 thqq0 wqqt1
+WATERWORTHY	w@@0 thqq0 wqqt3 dii2
+WATERY	w@@0 thqq2 rii2
+WATFORD	w@t3 fqqt1
+WATT	w@t3
+WATTAGE	w@t3 thic1
+WATTAGES	w@t3 thi1 cis1
+WATTERS	w@t3 tqq2
+WATTEST	w@t3 this2
+WATTHOUR	w@t1 haaw0 qq2
+WATTHOURS	w@t1 haaw0 qq2
+WATTLE	w@t3 thql2
+WATTLED	w@t3 thql2
+WATTLES	w@t3 thql2
+WATTLETON	w@t3 thql2 tan2
+WATTLING	w@t3 thql2 ling2
+WATTMETER	w@t3 mii3 tqq2
+WATTS	w@t3
+WAUGHT	w@@t1
+WAUL	w@@l0
+WAULS	w@@l0
+WAVE	weef3
+WAVEBAND	weef3 bxxn0
+WAVEBANDS	weef3 bxxn0
+WAVED	weef3
+WAVEFORM	weef3 f@@m0
+WAVEFORMS	weef3 f@@m0
+WAVEFRONT	weef3 fr@n3
+WAVELENGTH	weef3 leeng3
+WAVELENGTHS	weef3 leeng3
+WAVELESS	weef3 les1
+WAVELET	weef3 lit1
+WAVELETS	weef3 lit1
+WAVELIKE	weef3 laj3
+WAVEOFF	weef3 @@f3
+WAVEOFFS	weef3 @@f3
+WAVER	weef3 wqq2
+WAVER	weef3 wqq2
+WAVERABLE	weef3 wqq2 ree0 bql2
+WAVERED	weef3 wqq2
+WAVERER	weef3 wqq0 rqq2
+WAVERER	weef3 wqq0 rqq2
+WAVERERS	weef3 wqq0 rqqs2
+WAVERING	weef3 wqq0 ring2
+WAVERINGLY	weef3 wqq0 ring2 lii2
+WAVERINGS	weef3 wqq0 ring2
+WAVERLEY	weef3 wq1 lee2
+WAVERLY	weef3 wq1 lii2
+WAVERS	weef3 wqq2
+WAVES	weef3
+WAVESHAPE	weef3 cheep3
+WAVIER	weef3 wi1 qq2
+WAVIER	weef3 wi1 qq2
+WAVIEST	weef3 wi1 es1
+WAVING	weef3 wing2
+WAVINGLY	weef3 wing2 lii2
+WAVINGS	weef3 wing2
+WAVY	wee3 wii2
+WAX	wxk3
+WAXBILL	wxk3 bil0
+WAXED	wxk3
+WAXEN	wxk3 sqn2
+WAXER	wxk3 sqq2
+WAXER	wxk3 sqq2
+WAXERS	wxk3 sqq2
+WAXERS	wxk3 sqq2
+WAXES	wxk3 ses1
+WAXIER	wxk3 si1 qq2
+WAXIER	wxk3 si1 qq2
+WAXIEST	wxk3 si1 es1
+WAXING	wxk3 sing2
+WAXINGLY	wxk3 sing2 lii2
+WAXINGS	wxk3 sing2
+WAXLESS	wxk3 les1
+WAXMAN	wxk3 mxxn0
+WAXMANN	wxk3 mxxn0
+WAXMANS	wxk3 mxxn0
+WAXWING	wxk3 wing0
+WAXWINGS	wxk3 wing0
+WAXWORK	wxk3 wqqk3
+WAXWORKS	wxk3 wqqk3
+WAXY	wxk0 sii2
+WAY	wee0
+WAYBILL	wee0 bil0
+WAYBILLS	wee0 bil0
+WAYBRIGHT	wee0 braj3
+WAYCASTER	wee0 khaas3 tqq2
+WAYEST	wee0 is3
+WAYFARER	wee0 fxx0 rqq2
+WAYFARER	wee0 fxx0 rqq2
+WAYFARERS	wee0 fxx0 rqqs2
+WAYFARING	wee0 fxx0 ring2
+WAYFARINGS	wee0 fxx0 ring2
+WAYING	wee0 ing2
+WAYLAID	wee0 leet1
+WAYLAND	wee0 lxxn0
+WAYLANDER	wee0 lxxn0 dqq2
+WAYLANDER	wee0 lxxn0 dqq2
+WAYLANDS	wee0 lxxn0
+WAYLAY	wee0 lee0
+WAYLAYER	wee0 lee0 rqq2
+WAYLAYERS	wee0 lee0 qq2
+WAYLAYING	wee0 lee0 ing2
+WAYLAYS	wee0 lee2
+WAYLEN	wee0 leen0
+WAYLESS	wee0 les1
+WAYLOCK	wee0 l@k3
+WAYMAN	wee0 mxxn0
+WAYMANN	wee0 mxxn0
+WAYMIRE	wee0 maaj0 rqq2
+WAYNE	ween2
+WAYNER	ween0 nqq2
+WAYNER	ween0 nqq2
+WAYNES	ween2
+WAYNESBURG	ween0 sa1 bqqk1
+WAYNESVILLE	ween0 sa1 wil0
+WAYNICK	ween0 nik1
+WAYS	wee0
+WAYSIDE	wee0 saj3
+WAYSIDER	wee0 saj3 dqq2
+WAYSIDER	wee0 saj3 dqq2
+WAYSIDERS	wee0 saj3 dqq2
+WAYSIDERS	wee0 saj3 dqq2
+WAYSIDES	wee0 saj3
+WAYSON	wee0 san2
+WAYWARD	wee0 wqt1
+WAYWARDLY	wee0 wqt1 lii2
+WAYWARDNESS	wee0 wqt1 nees1
+WAYWORN	wee0 w@@n0
+WE	wii0
+WEAK	wiik3
+WEAKED	wiik3
+WEAKEN	wiik3 khqn2
+WEAKEND	wiik3 khqn2
+WEAKENED	wiik3 khqn2
+WEAKENER	wiik3 khqn2 nqq2
+WEAKENER	wiik3 khqn2 nqq2
+WEAKENERS	wiik3 khqn2 nqq2
+WEAKENERS	wiik3 khqn2 nees1
+WEAKENING	wiik3 khqn2 ning2
+WEAKENING	wiik3 khqn2 ning2
+WEAKENS	wiik3 khqn2
+WEAKER	wiik3 kqq2
+WEAKER	wiik3 kqq2
+WEAKEST	wiik3 kis1
+WEAKFISH	wiik3 fich3
+WEAKFISHES	wiik3 fich3 ches1
+WEAKHEARTED	wiik3 haat3 thet1
+WEAKING	wiik3 king2
+WEAKISH	wiik3 khich3
+WEAKISHLY	wiik3 khich3 lii2
+WEAKISHNESS	wiik3 khich3 chan2 nees1
+WEAKLAND	wiik3 lxxn0
+WEAKLEY	wiik3 lee2
+WEAKLIER	wiik3 li1 qq2
+WEAKLIER	wiik3 li1 qq2
+WEAKLIEST	wiik3 li1 es1
+WEAKLING	wiik3 kling2
+WEAKLINGS	wiik3 kling2
+WEAKLY	wiik3 lii2
+WEAKNESS	wiik3 nees1
+WEAKNESSES	wiik3 nqs3 ses1
+WEAKPHONEMES	wiik3 foo0 niim0
+WEAKS	wiik3
+WEAL	wiil0
+WEALD	wiil0
+WEALDEN	wiil0 dqn2
+WEALDS	wiil0
+WEALS	wiil0
+WEALTH	weel3
+WEALTHEST	weel3 this1
+WEALTHIER	weel3 thi1 qq2
+WEALTHIER	weel3 thi1 qq2
+WEALTHIEST	weel3 thi1 es1
+WEALTHILY	weel3 thi1 lii2
+WEALTHINESS	weel3 thi1 nees1
+WEALTHS	weel3
+WEALTHY	weel3 thii2
+WEAN	wiin0
+WEANED	wiin0
+WEANER	wiin0 nqq2
+WEANER	wiin0 nqq2
+WEANERS	wiin0 nqq2
+WEANERS	wiin0 nqq2
+WEANING	wiin0 ning2
+WEANLING	wiin0 ling2
+WEANLINGS	wiin0 ling2
+WEANS	wiin0
+WEANTED	wiin0 thet1
+WEAPON	wee3 phqn2
+WEAPONED	wee3 phqn2
+WEAPONING	wee3 phqn2 ning2
+WEAPONLESS	wee3 phqn2 lqs1
+WEAPONS	wee3 phqn2
+WEAR	wxx0
+WEAR	wxx0
+WEAR	wiia0
+WEAR	wiia0
+WEARABLE	wxx0 ree0 bql2
+WEARABLES	wxx0 ree0 bql2
+WEARER	wxx0 rqq2
+WEARER	wxx0 rqq2
+WEARERS	wxx0 rqq2
+WEARES	wxx0
+WEARES	wxx0
+WEARES	wiia0
+WEARES	wiia0
+WEAREST	wxx0 ris3
+WEAREST	wxx0 ris3
+WEAREST	wiia0 ris3
+WEAREST	wiia0 ris3
+WEAREVER	wxx0 re3 wqq2
+WEARHOUSE	wxx0 haaw3
+WEARIED	wiia0 rit1
+WEARIER	wiia0 ri1 qq2
+WEARIER	wiia0 ri1 qq2
+WEARIES	wiia0 rii2
+WEARIEST	wiia0 ri1 es1
+WEARILY	wiia0 ri1 lii2
+WEARINESS	wiia0 ri3 nees1
+WEARINESSES	wiia0 ri1 nqs3 ses1
+WEARING	wxx0 ring2
+WEARINGLY	wxx0 ring2 lii2
+WEARINGS	wxx0 ring2
+WEARISOME	wiia0 ris3 svm2
+WEARISOMELY	wiia0 ris3 sqm2 lii2
+WEARISOMENESS	wiia0 ris3 sqm2 nees1
+WEARS	wxx0
+WEARY	wiia0 rii2
+WEARYING	wiia0 rii2 ing2
+WEASAND	wii0 sqn2
+WEASANDS	wii0 sqn2
+WEASEL	wii0 sql2
+WEASELED	wii0 sql2
+WEASELING	wii0 sql2 ling2
+WEASELLIKE	wii0 sql2 laj3
+WEASELS	wii0 sql2
+WEATHER	wet3 dqq2
+WEATHER	wet3 dqq2
+WEATHERABILITY	wet3 dqq0 rq1 bi1 li3 tii2
+WEATHERALL	wet3 dqq0 r@@l0
+WEATHERALLS	wet3 dqq0 r@@l0
+WEATHERBEE	wet3 dqq0 bii2
+WEATHERBOARD	wet3 dqq2 b@@t1
+WEATHERBOARDING	wet3 dqq2 b@@t1 ding2
+WEATHERBOARDS	wet3 dqq2 b@@t1
+WEATHERBOUND	wet3 dqq0 baaw0
+WEATHERBURY	wet3 dqq0 biw0 rii2
+WEATHERBY	wet3 dqq2 bii2
+WEATHERBYS	wet3 dqq2 bii2
+WEATHERCOCK	wet3 dqq2 kh@k3
+WEATHERCOCKS	wet3 dqq2 kh@k3
+WEATHERED	wet3 dqq2
+WEATHERFORD	wet3 dqq0 f@@t1
+WEATHERFORDS	wet3 dqq0 f@@t1
+WEATHERGLASS	wet3 dqq0 klaas3
+WEATHERGLASSES	wet3 dqq0 klaas3 ses1
+WEATHERHEAD	wet3 dqq2 heet3
+WEATHERHEADED	wet3 dqq0 heet3 det1
+WEATHERHOLT	wet3 dqq0 hool3
+WEATHERHOOD	wet3 dqq0 huut3
+WEATHERING	wet3 dqq0 ring2
+WEATHERINGTON	wet3 dqq0 ring0 tan2
+WEATHERLESS	wet3 dql2 lqs1
+WEATHERLINESS	wet3 dql2 li3 nees1
+WEATHERLY	wet3 dqq0 lii2
+WEATHERMAN	wet3 dqq2 mxxn0
+WEATHERMATIC	wet3 dqq2 mxt3 thik1
+WEATHERMEASURE	wet3 dqq0 mee3 chqq2
+WEATHERMEN	wet3 dqq2 men0
+WEATHERPERSON	wet3 dqq0 phqq3 sqn2
+WEATHERPROOF	wet3 dqq2 phruuf3
+WEATHERPROOFED	wet3 dqq2 phruuf3
+WEATHERPROOFING	wet3 dqq2 phruuf3 fing2
+WEATHERPROOFS	wet3 dqq2 phruuf3
+WEATHERS	wet3 dqq2
+WEATHERSBEE	wet3 dqq2 bii2
+WEATHERSPOON	wet3 dqq0 sa1 puun0
+WEATHERSTAFF	wet3 dqq0 sa1 taaf3
+WEATHERSTONE	wet3 dqq2 sa1 ten3
+WEATHERSTRIP	wet3 dqq0 sa1 trip3
+WEATHERSTRIPPED	wet3 dqq0 sa1 trip3
+WEATHERSTRIPPERS	wet3 dqq0 sa1 trip3 pqq2
+WEATHERSTRIPPING	wet3 dqq0 sa1 trip3 ping2
+WEATHERSTRIPS	wet3 dqq0 sa1 trip3
+WEATHERWAX	wet3 dqq0 wxk3
+WEATHERWEAR	wet3 dqq2 wxx0
+WEATHERWISE	wet3 dqq2 waaj3
+WEATHERWORN	wet3 dqq0 w@@n0
+WEAVE	wiif3
+WEAVED	wiif3
+WEAVER	wiif3 wqq2
+WEAVER	wiif3 wqq2
+WEAVERBIRD	wiif3 wqqp3 bqqt1
+WEAVERBIRDS	wiif3 wqqp3 bqqt1
+WEAVERLING	wiif3 wqq0 ling2
+WEAVERLINGS	wiif3 wqq0 ling2
+WEAVERS	wiif3 wqqs3
+WEAVES	wiif3
+WEAVING	wiif3 wing2
+WEAVINGS	wiif3 wing2
+WEAZENED	wii3 sen3
+WEB	wep3
+WEBBED	wep3
+WEBBIER	wep3 biia0
+WEBBING	wep3 bing2
+WEBBINGS	wep3 bing2
+WEBBINGTON	wep3 bing0 tan2
+WEBBY	wep3 bii2
+WEBER	wee3 bqq2
+WEBER	wee3 bqq2
+WEBERG	wee3 bqqk1
+WEBERS	wee3 bqq2
+WEBERS	wee3 bqq2
+WEBFEET	weep3 fiit1
+WEBFOOT	weep3 fut3
+WEBFOOTED	weep3 fut3 thet1
+WEBLESS	wep3 les1
+WEBLET	wep3 let1
+WEBLETS	wep3 let1
+WEBLEY	wep3 lee2
+WEBS	wep3
+WEBSTER	wep3 sa1 tqq2
+WEBSTERS	wep3 sa1 tqq2
+WEBSTERVILLE	wep3 sa1 tqq2 wil0
+WEBWORM	wep3 wqqm0
+WED	wet1
+WEDBED	weet3 beet3
+WEDBEDRIP	weet3 beet3 rip3
+WEDBERG	weet3 bqqk1
+WEDBUSH	weet3 buch3
+WEDDED	weet3 det1
+WEDDEDLY	weet3 det1 lii2
+WEDDEDNESS	weet3 dit1 nees1
+WEDDELL	weet3 deel0
+WEDDELLS	weet3 deel0
+WEDDIG	weet3 dik3
+WEDDIN	weet3 din2
+WEDDING	weet3 ding2
+WEDDINGED	weet3 ding2
+WEDDINGER	weet3 ding0 rqq2
+WEDDINGER	weet3 ding0 rqq2
+WEDDINGES	weet3 ding2
+WEDDINGS	weet3 ding2
+WEDDINGTON	weet3 ding0 tan2
+WEDDINGTONS	weet3 ding0 tan2
+WEDEKING	wee0 dii0 king2
+WEDEL	wee0 deel0
+WEDELL	wee0 deel0
+WEDELS	wee0 deel0
+WEDGE	wec3
+WEDGED	wec3
+WEDGER	wec3 cqq2
+WEDGER	wec3 cqq2
+WEDGES	wec3 cis1
+WEDGESTONE	wec3 sa1 toon0
+WEDGEWISE	wec3 waaj3
+WEDGEWOOD	wec3 wuut3
+WEDGEWORTH	wec3 wqqt1
+WEDGING	wec3 cing2
+WEDICK	wee3 dik3
+WEDICO	wee0 di1 khoo2
+WEDIN	wee0 din2
+WEDINGER	wee0 din0 cqq2
+WEDLAM	weet3 lam2
+WEDLIN	weet3 lin2
+WEDLOCK	weet3 l@k3
+WEDLOCKS	weet3 l@k3
+WEDLOW	weet3 loo2
+WEDNESDAY	ween3 dee0
+WEDNESDAY	ween3 dee0
+WEDNESDAYS	ween3 dees1
+WEDS	weet3
+WEDTECH	weet3 thek1
+WEDTECHS	weet3 thek1
+WEE	wii0
+WEED	wiit3
+WEEDED	wiit3 det1
+WEEDEN	wiit3 deen2
+WEEDER	wiit3 dqq2
+WEEDER	wiit3 dqq2
+WEEDERS	wiit3 dqq2
+WEEDERS	wiit3 dqq2
+WEEDIER	wiit3 di1 qq2
+WEEDIER	wiit3 di1 qq2
+WEEDIEST	wiit3 di1 es1
+WEEDIN	wiit3 din2
+WEEDINESS	wiit3 di1 nees1
+WEEDING	wiit3 ding2
+WEEDKILLER	wiit3 khil0 lqq2
+WEEDKILLER	wiit3 khil0 lqq2
+WEEDKILLERS	wiit3 khil0 lqq2
+WEEDLE	wiit3 dql2
+WEEDLED	wiit3 leet1
+WEEDLESS	wiit3 les1
+WEEDLING	wiit3 ling2
+WEEDMAN	wiit3 mxxn0
+WEEDON	wiit3 d@@n2
+WEEDS	wiit3
+WEEDY	wiit3 dii2
+WEEHAWKEN	wii0 h@@k3 keen2
+WEEING	wii0 ing2
+WEEK	wiik3
+WEEKDAY	wiik2 dee0
+WEEKDAYS	wiik3 dees1
+WEEKED	wiik3
+WEEKEND	wiik3 kheen0
+WEEKENDED	wiik3 kheen0 det1
+WEEKENDER	wiik3 kheen0 dqq2
+WEEKENDER	wiik3 kheen0 dqq2
+WEEKENDERS	wiik3 kheen0 dqq2
+WEEKENDING	wiik3 kheen0 ding2
+WEEKENDISH	wiik3 kheen0 dich1
+WEEKENDLONG	wiik3 kheen0 l@@ng0
+WEEKENDS	wiik3 kheen0
+WEEKES	wiik3
+WEEKLEY	wiik3 lee2
+WEEKLIES	wiik3 lii2
+WEEKLING	wiik3 ling2
+WEEKLONG	wiik3 l@@ng0
+WEEKLY	wiik3 lii2
+WEEKS	wiik3
+WEEN	wiin0
+WEENED	wiin0
+WEENER	wiin0 nqq2
+WEENER	wiin0 nqq2
+WEENES	wiin0
+WEENIER	wiin0 ni1 qq2
+WEENIER	wiin0 ni1 qq2
+WEENIEST	wiin0 ni1 es1
+WEENING	wiin0 ning2
+WEENS	wiin0
+WEENY	wiin0 nii2
+WEEP	wiip3
+WEEPED	wiip3
+WEEPER	wiip3 pqq2
+WEEPERED	wiip3 pqq2
+WEEPERS	wiip3 pqq2
+WEEPIER	wiip3 pi1 qq2
+WEEPIEST	wiip3 pi1 es1
+WEEPINESS	wiip3 pi1 nees1
+WEEPING	wiip3 ping2
+WEEPINGLY	wiip3 ping2 lii2
+WEEPINGS	wiip3 ping2
+WEEPS	wiip3
+WEES	wii2
+WEEST	wii0 is1
+WEEVER	wii0 wqq2
+WEEVIL	wii0 wil0
+WEEVILED	wii0 wil0
+WEEVILS	wii0 wil0
+WEEVILY	wii0 wil0 lii2
+WEEWEE	wii0 wii2
+WEEWEED	wii0 wiit3
+WEEWEEING	wii0 wii0 ing2
+WEEWEES	wii0 wii2
+WEFT	wef3
+WEFTS	wef3
+WEIGH	wee0
+WEIGHABLE	wee0 ee0 bql2
+WEIGHAGE	wee0 eec1
+WEIGHBRIDGE	wee0 bric1
+WEIGHBRIDGES	wee0 bric3 cis1
+WEIGHD	weet2
+WEIGHED	weet2
+WEIGHER	wee0 qq2
+WEIGHER	wee0 qq2
+WEIGHERS	wee0 qq2
+WEIGHERS	wee0 qq2
+WEIGHES	wee0
+WEIGHING	wee0 ing2
+WEIGHINGS	wee0 ing2
+WEIGHMAN	wee0 mxxn0
+WEIGHMASTER	wee0 maas3 tqq2
+WEIGHMEN	wee0 men0
+WEIGHS	wee0
+WEIGHT	weet1
+WEIGHTED	weet3 thet1
+WEIGHTEDLY	weet3 thet1 lii2
+WEIGHTEDNESS	weet3 thet1 nees1
+WEIGHTER	weet3 tqq2
+WEIGHTER	weet3 tqq2
+WEIGHTERS	weet3 thqq2
+WEIGHTERS	weet3 tqq2
+WEIGHTIER	weet3 thi1 qq2
+WEIGHTIER	weet3 thi1 qq2
+WEIGHTIEST	weet3 thi1 es1
+WEIGHTILY	weet3 thi1 lii2
+WEIGHTINESS	weet3 thi1 nees1
+WEIGHTING	weet3 ting2
+WEIGHTINGS	weet3 ting2
+WEIGHTLESS	weet3 lqs1
+WEIGHTLESSLY	weet3 lqs1 lii2
+WEIGHTLESSNESS	weet3 lqs1 nees1
+WEIGHTLIFTER	weet1 lif3 tqq2
+WEIGHTLIFTERS	weet1 lif3 tqq2
+WEIGHTLIFTING	weet1 lif3 ting2
+WEIGHTMAN	weet3 mxxn0
+WEIGHTS	weet1
+WEIGHTY	weet3 tii2
+WEIR	wiia0
+WEIR	wiia0
+WEIRD	wiiat2
+WEIRDED	wiiat2 det1
+WEIRDER	wiiat2 dqq2
+WEIRDER	wiiat2 dqq2
+WEIRDEST	wiiat2 dis1
+WEIRDIE	wiiat2 dii2
+WEIRDIES	wiiat2 dii2
+WEIRDLIKE	wiiat2 laj3
+WEIRDLY	wiiat2 lii2
+WEIRDNESS	wiiat2 nees1
+WEIRDOES	wiia0 das3
+WEIRDOS	wiia0 duus3
+WEIRDS	wiiat2
+WEIRED	wiia0
+WEIRED	wiia0
+WEIRING	wiia0 ing2
+WEIRING	wiia0 ring2
+WEIRS	wiias2
+WEIRTON	wiia0 tan2
+WELCH	weel3
+WELCHED	weel3
+WELCHER	weel0 chqq2
+WELCHERS	weel0 chqq2
+WELCHES	weel0 ches1
+WELCHING	weel0 ching2
+WELCHS	weel0 ches1
+WELCOMBE	weel0 khqm2
+WELCOME	weel0 kham2
+WELCOMED	weel0 kham2
+WELCOMEDS	weel0 kham2
+WELCOMEED	weel0 khqm2
+WELCOMER	weel0 khqm1 mqq2
+WELCOMER	weel0 khqm1 mqq2
+WELCOMERS	weel0 khqm1 mqq2
+WELCOMERS	weel0 khqm1 mqq2
+WELCOMES	weel0 khqm2
+WELCOMING	weel0 khqm2 ming2
+WELCOMINGLY	weel0 khqm2 ming2 lii2
+WELCOMINGS	weel0 khqm2 ming2
+WELCOMMEN	weel0 khqm2 men0
+WELCON	weel0 khqn2
+WELD	weel0
+WELDABLE	weel0 dee0 bql2
+WELDED	weel0 det1
+WELDEN	weel0 dqn2
+WELDER	weel0 dqq2
+WELDER	weel0 dqq2
+WELDERS	weel0 dqq2
+WELDIN	weel0 din2
+WELDING	weel0 ding2
+WELDINGS	weel0 ding2
+WELDLESS	weel0 les1
+WELDMAN	weel0 mxxn0
+WELDMENT	weel0 men3
+WELDMENTS	weel0 men3
+WELDON	weel0 d@@n2
+WELDONA	weel0 d@@0 nqq2
+WELDONIAN	weel0 d@@n0 niian2
+WELDS	weel0
+WELDWOOD	weel0 wuut3
+WELFAIR	weel0 fxx0
+WELFARE	weel0 fxx0
+WELFARE	weel0 fxx0
+WELFARES	weel0 fxx0
+WELFARES	weel0 fxx0
+WELFORD	weel0 fqqt1
+WELKIN	weel0 kin2
+WELKINS	weel0 kin2
+WELL	weel0
+WELLADAY	weel0 lq1 dee0
+WELLADAYS	weel0 lq1 dees1
+WELLAND	weel0 lqn2
+WELLBEING	weel0 bii0 ing2
+WELLBORE	weel0 b@@0
+WELLBORN	weel0 b@@n0
+WELLBRED	weel0 breet1
+WELLBRIDGE	weel0 bric1
+WELLBROCK	weel0 br@k3
+WELLBROOK	weel0 bruuk3
+WELLCOME	weel0 kham2
+WELLCON	weel0 kh@@n0
+WELLED	weel0
+WELLER	weel0 lqq2
+WELLER	weel0 lqq2
+WELLERD	weel0 lqq2
+WELLERD	weel0 lqq2
+WELLERS	weel0 lqq2
+WELLERS	weel0 lqq2
+WELLES	weel0
+WELLESES	weel0 ses1
+WELLESIAN	weel0 siian2
+WELLESLEY	weel0 sa1 lee2
+WELLESLEYS	weel0 sa1 lee2
+WELLFIRES	weel0 faaj0 qq2
+WELLFLEET	weel0 fliit3
+WELLHAMMER	weel0 hxxm0 mqq2
+WELLHEAD	weel0 heet3
+WELLHEADS	weel0 heet3
+WELLHOLE	weel0 hool0
+WELLHOLES	weel0 hool0
+WELLIAN	weel0 liian2
+WELLIED	weel0 lii2
+WELLIES	weel0 lii2
+WELLING	weel0 ling2
+WELLINGBOROUGH	weel0 ling0 brqq2
+WELLINGDON	weel0 ling0 dqn2
+WELLINGHAM	weel0 ling0 hqm2
+WELLINGS	weel0 ling2
+WELLINGTON	weel0 ling0 tan2
+WELLINGTONIA	weel0 ling0 th@@0 niia0
+WELLINGTONIANS	weel0 ling0 th@@0 niian2
+WELLINGTONIAS	weel0 ling0 th@@0 niias2
+WELLINGTONS	weel0 ling0 tan2
+WELLINS	weel0 lin2
+WELLISH	weel0 lich3
+WELLISON	weel0 li3 sqn2
+WELLIVER	weel0 laj3 wqq2
+WELLKNOWN	weel0 noon0
+WELLMAN	weel0 mxxn0
+WELLMANN	weel0 mxxn0
+WELLMONT	weel0 m@@n3
+WELLNESS	weel0 nees1
+WELLPOINT	weel0 p@@j3
+WELLS	weel0
+WELLSBURG	weel0 sa1 bqqk1
+WELLSES	weel0 ses1
+WELLSITE	weel0 saj3
+WELLSPRING	weel0 sa1 pring0
+WELLSPRINGS	weel0 sa1 pring0
+WELLSTAR	weel0 sa1 taa0
+WELLSTART	weel0 sa1 taat3
+WELLSTEAD	weel0 sa1 teet1
+WELLSTED	weel0 sa1 teet1
+WELLSTONE	weel0 sa1 toon0
+WELLSTRAND	weel0 sa1 trxxn3
+WELLSTREAM	weel0 sa1 triim0
+WELLSTRUCK	weel0 sa1 trak3
+WELLTECH	weel0 thek1
+WELSH	weel3
+WELSH	weel3
+WELSHED	weel3
+WELSHER	weel3 chqq2
+WELSHER	weel3 chqq2
+WELSHERS	weel3 chqq2
+WELSHES	weel3 ches1
+WELSHING	weel3 ching2
+WELSHMAN	weel3 mxn2
+WELSHMEN	weel3 men2
+WELSHPOOL	weel3 phuul0
+WELSHWOMAN	weel3 wuu3 mxn2
+WELSHWOMEN	weel3 wii3 men2
+WELT	weel3
+WELTE	weel3
+WELTED	weel3 thet1
+WELTEN	weel0 thqn2
+WELTENBURG	weel0 thqn1 bqqk1
+WELTER	weel0 thqq2
+WELTER	weel0 thqq2
+WELTERED	weel0 thqq2
+WELTERING	weel0 thq1 ring2
+WELTERS	weel0 thqq2
+WELTERWEIGHT	weel0 thq1 weet1
+WELTERWEIGHTS	weel0 thq1 weet1
+WELTING	weel0 ting2
+WELTINGS	weel0 ting2
+WELTMAN	weel3 mxxn0
+WELTON	weel0 tan2
+WELTS	weel3
+WELTY	weel0 tii2
+WELTYS	weel0 thii2
+WELWYN	weel0 lin2
+WEN	ween2
+WENBERG	ween0 bqqk1
+WENBURG	ween0 bqqk1
+WENCH	ween3
+WENCHED	ween3
+WENCHER	ween3 chqq2
+WENCHER	ween3 chqq2
+WENCHERS	ween3 chqq2
+WENCHERS	ween3 chqq2
+WENCHES	ween3 ches1
+WENCHESTER	ween3 chis3 tqq2
+WENCHING	ween3 ching2
+WENCHLESS	ween3 les1
+WENCHLIKE	ween3 laj3
+WEND	ween0
+WENDA	ween0 dqq2
+WENDAL	ween0 dql2
+WENDALL	ween0 d@@l0
+WENDAY	ween0 dee0
+WENDE	ween0
+WENDED	ween0 det1
+WENDEE	ween0 dii2
+WENDELIGHTING	ween0 dil0 laj3 ting2
+WENDELINE	ween0 dql2 laaj0
+WENDELING	ween0 dql2 ling2
+WENDELL	ween0 deel0
+WENDELLS	ween0 deel0
+WENDEN	ween0 deen2
+WENDENBURG	ween0 deen0 bqqk1
+WENDER	ween0 dqq2
+WENDER	ween0 dqq2
+WENDERS	ween0 dqq2
+WENDIC	ween0 dik1
+WENDICE	ween0 dis1
+WENDIE	ween0 daaj0
+WENDIES	ween0 dii2
+WENDIGO	ween0 di3 khoo2
+WENDIN	ween0 din2
+WENDING	ween0 ding2
+WENDISH	ween0 dich1
+WENDLAND	ween0 lxxn0
+WENDLE	ween0 dql2
+WENDLEBURY	ween0 dql2 bq1 rii2
+WENDLER	ween0 dlqq2
+WENDLETON	ween0 dql2 tan2
+WENDLING	ween0 dling2
+WENDLINGEN	ween0 dling0 ngqn2
+WENDLINGER	ween0 dling0 kqq2
+WENDOLL	ween0 d@@l0
+WENDOVER	ween0 doo0 wqq2
+WENDOVER	ween0 doo0 wqq2
+WENDRICKS	ween0 drik1
+WENDRON	ween0 dr@@n2
+WENDS	ween0
+WENDY	ween0 dii2
+WENDYS	ween0 dii2
+WENFAN	ween0 fxxn0
+WENFORD	ween0 f@@t1
+WENINGER	ween0 nin0 cqq2
+WENNICK	ween0 nik1
+WENNING	ween0 ning2
+WENNINGER	ween0 ning0 ngqq2
+WENNINGTON	ween0 ning0 tan2
+WENRICH	ween0 rich3
+WENRICK	ween0 rik1
+WENS	ween0
+WENSBERG	ween0 sa1 bqqk1
+WENSBURY	ween0 sa1 bq1 rii2
+WENSEL	ween0 sql2
+WENSELL	ween0 seel0
+WENSING	ween0 sing2
+WENSKI	ween0 sa1 kii2
+WENSMAN	ween0 sa1 mxxn0
+WENSON	ween0 san2
+WENSTRAND	ween0 sa1 trxxn3
+WENSTROM	ween0 sa1 tr@m0
+WENSTRONG	ween0 sa1 tr@@ng0
+WENT	ween3
+WENTE	ween0 tii2
+WENTES	ween3
+WENTING	ween3 ting2
+WENTLAND	ween3 lxxn0
+WENTLING	ween3 ling2
+WENTLY	ween3 lii2
+WENTNOR	ween3 n@@0
+WENTRY	ween0 thraaj0
+WENTWOOD	ween3 wuut3
+WENTWORTH	ween3 wqqt1
+WENTWORTHS	ween3 wqqt1
+WENZINGER	ween0 sing2 ngqq2
+WEPT	wep3
+WERE	wqq2
+WERE	wqq2
+WEREABOUTS	wqq0 q1 baaw3
+WEREGILD	wqq0 kil0
+WEREGILDS	wqq0 kil0
+WEREWOLF	wiia0 wuuf3
+WEREWOLFISH	wqq0 wuuf3 fich3
+WEREWOLVES	wiia0 wuuf3
+WERT	wqqt3
+WERTENSTEIN	wqq0 theen0 sa1 thaaj0
+WERTHER	wqq0 thqq2
+WERTMAN	wqqt3 mxxn0
+WERTS	wqqt3
+WESLEY	wes3 lii2
+WESLEYAN	wes3 liian2
+WESLEYANISM	wes3 liian0 nis3 svm2
+WESLEYANS	wes3 liian2
+WESLEYS	wes3 lii2
+WESLOCK	wes3 l@k3
+WEST	wes3
+WESTAD	wes3 tqqt1
+WESTAIR	wes3 txx0
+WESTALL	wes3 t@@l0
+WESTAMERICA	wes3 q1 mee0 ri3 kqq2
+WESTAN	wes3 thxxn2
+WESTAR	wes3 taa0
+WESTBANK	wes3 bxxng3
+WESTBAY	wes3 bee0
+WESTBERG	wes3 bqqk1
+WESTBERRY	wes3 bee0 rii2
+WESTBOOK	wes3 buk3
+WESTBOROUGH	wes3 ba1 rqq2
+WESTBOUND	wes3 baaw0
+WESTBRIDGE	wes3 bric1
+WESTBRIDGEWATER	wes3 bric3 w@@0 thqq2
+WESTBROOK	wes3 bruuk3
+WESTBROOKFIELD	wes3 bruuk3 fiil0
+WESTBROOKS	wes3 bruuk3
+WESTBURN	wes3 bqqn0
+WESTBURY	wes3 bqq0 rii2
+WESTCAP	wes3 khxp1
+WESTCAST	wes3 khaas3
+WESTCAT	wes3 khxt3
+WESTCHESTER	wes3 ches3 tqq2
+WESTCHESTERFIELD	wes3 ches3 thq1 fiil0
+WESTCOAST	wes3 khoos3
+WESTCOAT	wes3 koot1
+WESTCOR	wes3 kh@@0
+WESTCORE	wes3 kh@@0
+WESTCORP	wes3 kh@@p3
+WESTCOTT	wes3 kh@t1
+WESTCOTTS	wes3 kh@t1
+WESTEL	wes3 theel0
+WESTELLA	wes3 theel0 lqq2
+WESTELLE	wes3 theel0
+WESTEN	wes3 theen0
+WESTENBERG	wes3 theen0 bqqk1
+WESTENBERGER	wes3 theen0 bqqk1 kqq2
+WESTENBERGER	wes3 theen0 bqqk1 kqq2
+WESTENBURG	wes3 theen0 bqqk1
+WESTEND	wes3 theen0
+WESTENFIELD	wes3 theen0 fiil0
+WESTENS	wes3 theen0
+WESTER	wes3 tqq2
+WESTER	wes3 tqq2
+WESTERBACK	wes3 thq1 bxk3
+WESTERBECK	wes3 thq1 bek3
+WESTERBERG	wes3 thq1 bqqk1
+WESTERBURG	wes3 thqq0 bqqk1
+WESTERBURY	wes3 thqq0 bee0 rii2
+WESTERDALE	wes3 thq1 deel0
+WESTERDAM	wes3 thq1 dxxm0
+WESTERED	wes3 thqq2
+WESTERERS	wes3 thq1 rqq2
+WESTERFELD	wes3 thq1 feel3
+WESTERFIELD	wes3 thq1 fiil0
+WESTERHOLD	wes3 thq1 hool0
+WESTERHOLM	wes3 thq1 hoom0
+WESTERHOUSE	wes3 thq1 haaw3
+WESTERING	wes3 thq1 ring2
+WESTERKAMP	wes3 thq1 kxxm3
+WESTERLAND	wes3 thq1 lxxn0
+WESTERLANDS	wes3 thq1 lxxn0
+WESTERLIES	wes3 thq1 liis2
+WESTERLING	wes3 thqq2 ling2
+WESTERLY	wes3 thq1 lii2
+WESTERLYS	wes3 thq1 lii2
+WESTERM	wes3 thqqm2
+WESTERMAN	wes3 thq1 mxxn0
+WESTERMANN	wes3 thqq2 mxxn0
+WESTERMOST	wes3 thqq2 moos3
+WESTERN	wes3 thqn2
+WESTERNER	wes3 thq1 nqq2
+WESTERNER	wes3 thq1 nqq2
+WESTERNERS	wes3 thq1 nqq2
+WESTERNHAGEN	wes3 thqn2 haa0 khqn2
+WESTERNISATION	wes3 thqqn2 naj3 see0 chan2
+WESTERNISED	wes3 thqqn2 naj3
+WESTERNISM	wes3 thqqn2 nis3 svm2
+WESTERNIZATION	wes3 thqqn2 naj3 see0 chan2
+WESTERNIZATIONS	wes3 thqqn2 naj3 see0 chan2
+WESTERNIZE	wes3 thqqn2 naj3
+WESTERNIZED	wes3 thqqn2 naj3
+WESTERNIZER	wes3 thqqn2 naj3 sqq2
+WESTERNIZER	wes3 thqqn2 naj3 sqq2
+WESTERNIZERS	wes3 thqqn2 naj3 sqqs2
+WESTERNIZES	wes3 thqqn2 naaj0 ses1
+WESTERNIZING	wes3 thqqn2 naj3 sing2
+WESTERNMOST	wes3 thqn2 moos3
+WESTERNNESS	wes3 thqqn2 nees1
+WESTERNS	wes3 thqn2
+WESTERS	wes3 thqq2
+WESTERSON	wes3 thqq0 san2
+WESTERTON	wes3 thq1 than2
+WESTERVELD	wes3 thqq0 weel0
+WESTERVILLE	wes3 thqq0 wil0
+WESTERWOOD	wes3 thq1 wuut3
+WESTFALL	wes3 f@@l0
+WESTFALLS	wes3 f@@l0
+WESTFED	wes3 feet1
+WESTFIELD	wes3 fiil0
+WESTFIELDS	wes3 fiil0
+WESTFORD	wes3 f@@t1
+WESTGATE	wes3 keet1
+WESTGROUP	wes3 kruup3
+WESTGROVE	wes3 kroof3
+WESTHEAD	wes3 heet3
+WESTHOUGHTON	wes3 th@@t1 thqn2
+WESTHOUSE	wes3 haaw3
+WESTHOUSES	wes3 haaw3 ses1
+WESTIES	wes3 thii2
+WESTIN	wes3 thin0
+WESTING	wes3 ting2
+WESTINGHOUSE	wes3 ting2 haaw3
+WESTINGS	wes3 ting2
+WESTINS	wes3 thin0
+WESTITE	wes3 taaj3
+WESTLAKE	wes3 leek3
+WESTLAKES	wes3 leek3
+WESTLAND	wes3 lxxn0
+WESTLANDS	wes3 lxxn0
+WESTLEIGH	wes3 lii2
+WESTLEY	wes3 lee2
+WESTLIGHT	wes3 laj3
+WESTLINE	wes3 laaj0
+WESTLING	wes3 ling2
+WESTLINK	wes3 ling3
+WESTLY	wes3 lii2
+WESTMAN	wes3 mxn2
+WESTMANN	wes3 mxxn0
+WESTMAR	wes3 maa0
+WESTMARCHES	wes3 maach3 ches1
+WESTMARK	wes3 maak3
+WESTMEATH	wes3 miit1
+WESTMILFORD	wes3 mil0 fqqt1
+WESTMILL	wes3 mil0
+WESTMILTON	wes3 mil0 then3
+WESTMIN	wes3 miin0
+WESTMINERAL	wes3 min0 nqq0 rql2
+WESTMINISTER	wes3 min0 sa1 tqq2
+WESTMINS	wes3 min0
+WESTMINST	wes3 min0
+WESTMINSTER	wes3 min0 sa1 tqq2
+WESTMINSTER	wes3 min0 sa1 tqq2
+WESTMINSTERS	wes3 min0 sa1 tqq2
+WESTMINSTERS	wes3 min0 sa1 tqq2
+WESTMONT	wes3 m@@n2
+WESTMORE	wes3 m@@0
+WESTMORELAND	wes3 mq1 lqn2
+WESTMOST	wes3 moos3
+WESTNESS	wes3 nees1
+WESTNET	wes3 net1
+WESTON	wes3 tan2
+WESTONING	wes3 thqq0 ning2
+WESTONS	wes3 tan2
+WESTOVER	wes3 thoo0 wqq2
+WESTPHALIAN	wes3 fee0 liian2
+WESTPHALIANS	wes3 fee0 liian2
+WESTPORT	wes3 ph@@t1
+WESTPORTS	wes3 ph@@t1
+WESTPRIDE	wes3 phraaj0
+WESTRA	wes3 thrqq2
+WESTRAIL	wes3 threel2
+WESTRALIAN	wes3 threel0 liian2
+WESTRAND	wes3 thrxxn0
+WESTRAP	wes3 thrxp1
+WESTRATE	wes3 threet1
+WESTRAY	wes3 three0
+WESTREICH	wes3 thraj3
+WESTRENDS	wes3 threen0
+WESTREP	wes3 threp1
+WESTRICH	wes3 thrich1
+WESTRICK	wes3 thrik1
+WESTRIDGE	wes3 thric1
+WESTRING	wes3 thring2
+WESTRIP	wes3 thrip3
+WESTRIVER	wes3 thri3 wqq2
+WESTROCK	wes3 thr@k1
+WESTROCKPORT	wes3 thr@k3 ph@@t1
+WESTROM	wes3 trqm2
+WESTRON	wes3 tr@@n2
+WESTROPE	wes3 tr@@p3
+WESTRUM	wes3 tram2
+WESTRUSH	wes3 trach3
+WESTRUTHER	wes3 thruu0 thqq2
+WESTS	wes3
+WESTSIDE	wes3 saj3
+WESTSIDER	wes3 saj3 dqq2
+WESTSIDER	wes3 saj3 dqq2
+WESTSIDERS	wes3 saj3 dqq2
+WESTSOUTH	wes3 saaw3
+WESTSOUTHPORT	wes3 saaw3 ph@@t1
+WESTTECH	wes3 thek1
+WESTWARD	wes3 wqt1
+WESTWARDLY	wes3 wqt1 lii2
+WESTWARDNESS	wes3 wqt1 nees1
+WESTWARDS	wes3 wqt1
+WESTWAY	wes3 wee0
+WESTWAYS	wes3 wee0
+WESTWICK	wes3 wik1
+WESTWIDE	wes3 waaj0
+WESTWOOD	wes3 wuut1
+WESTWOODS	wes3 wuut1
+WESTWORK	wes3 wqqk3
+WESTWORLD	wes3 wqql2
+WESTWORTH	wes3 wqqt1
+WET	wet3
+WETBACK	wet3 bxk3
+WETBACKS	wet3 bxk3
+WETHER	we3 dqq2
+WETHER	we3 dqq2
+WETHERALL	we3 dqq2 r@@l0
+WETHERBEE	we3 dqq2 bii2
+WETHERBY	we3 dq1 bii2
+WETHERED	we3 dqq2
+WETHERED	we3 dqq2
+WETHEREDS	we3 dqq2
+WETHEREDS	we3 dqq2
+WETHERELL	we3 dqq2 reel0
+WETHERILL	we3 dqq2 ril0
+WETHERINGTON	we3 dqq2 ring0 tan2
+WETHERLY	we3 dqq0 lii2
+WETHERS	we3 dqq2
+WETLAND	wet3 lxxn0
+WETLANDS	wet3 lxxn0
+WETLANDSBANK	wet3 lxxn0 bxxng3
+WETLEY	wet3 lee2
+WETMORE	wet3 m@@0
+WETNESS	wet3 nees1
+WETNESSES	wet3 nes3 ses1
+WETPROOF	wet3 phruuf3
+WETS	wet3
+WETSTEIN	wet3 sa1 thaaj0
+WETSTON	wet3 sa1 tan2
+WETSTONE	wet3 sa1 toon0
+WETSUIT	wet3 suut3
+WETTABLE	wet3 thee0 bql2
+WETTED	wet3 thet1
+WETTER	wet3 tqq2
+WETTER	wet3 tqq2
+WETTERER	wet3 thq1 rqq2
+WETTERER	wet3 thq1 rqq2
+WETTERER	wet3 thq1 rqq2
+WETTERER	wet3 thq1 rqq2
+WETTERGREEN	wet3 thqq0 kriin0
+WETTERING	wet3 thq1 ring2
+WETTERING	wet3 thq1 ring2
+WETTERLING	wet3 thqq0 ling2
+WETTERLINGS	wet3 thqq0 ling2
+WETTERS	wet3 thqq2
+WETTERS	wet3 tqq2
+WETTEST	wet3 this2
+WETTING	wet3 ting2
+WETTINGS	wet3 ting2
+WETTISH	wet3 thich3
+WEXFORD	wek3 sa1 fqqt1
+WEY	wee0
+WEYAND	wee0 jqn1
+WEYANT	wee0 jxxn3
+WEYER	wee0 jqq2
+WEYER	wee0 jqq2
+WEYERS	wee0 jqq2
+WEYERS	wee0 jqq2
+WEYFORTH	wee0 f@@t3
+WEYLAND	wee0 lxxn0
+WEYLANDS	wee0 lxxn0
+WEYMAN	wee0 mxxn0
+WEYMANN	wee0 mxxn0
+WEYMOUTH	wee0 mqt3
+WEYRICH	wee0 rich3
+WEYRICK	wee0 rik1
+WHACK	wxk3
+WHACKED	wxk3
+WHACKER	wxk3 kqq2
+WHACKER	wxk3 kqq2
+WHACKERS	wxk3 kqq2
+WHACKIEST	wxk3 ki1 es1
+WHACKING	wxk3 king2
+WHACKINGS	wxk3 king2
+WHACKS	wxk3
+WHACKSON	wxk3 san2
+WHALE	weel0
+WHALEBOAT	weel0 b@@t3
+WHALEBOATS	weel0 b@@t3
+WHALEBONE	weel0 b@@n0
+WHALEBONES	weel0 b@@n0
+WHALED	weel0
+WHALEN	weel0 leen0
+WHALER	weel0 lqq2
+WHALER	weel0 lqq2
+WHALERS	weel0 lqq2
+WHALES	weel0
+WHALEY	weel0 lii2
+WHALING	weel0 ling2
+WHALINGS	weel0 ling2
+WHANG	wxxng0
+WHANGED	wxxng0
+WHANGEE	wxxng0 kii2
+WHANGING	wxxng0 nging2
+WHANGS	wxxng0
+WHARF	w@@f3
+WHARFAGE	w@@f3 fic1
+WHARFAGES	w@@f3 fic3 cis1
+WHARFED	w@@f3
+WHARFING	w@@f3 fing2
+WHARFINGER	w@@f3 fin0 cqq2
+WHARFINGERS	w@@f3 fin0 cqq2
+WHARFMAN	w@@f3 mxxn0
+WHARFMASTER	w@@f3 maas3 tqq2
+WHARFS	w@@f3
+WHARVES	w@@f3
+WHAT	w@t3
+WHATEVER	w@t3 the3 wqq2
+WHATEVER	w@t3 the3 wqq2
+WHATEVERS	w@t3 the3 wqq2
+WHATEVERS	w@t3 the3 wqq2
+WHATLEY	w@t3 lee2
+WHATNOT	w@t3 n@t3
+WHATNOTS	w@t3 n@t3
+WHATS	w@t3
+WHATSOEVER	w@t3 s@@0 e1 wqq2
+WHATSOEVER	w@t3 s@@0 e1 wqq2
+WHEAT	wiit3
+WHEATEN	wiit3 thqn2
+WHEATLEIGH	wiit3 lii2
+WHEATLESS	wiit3 les1
+WHEATLEY	wiit3 lii2
+WHEATLEYS	wiit3 lii2
+WHEATLY	wiit3 lii2
+WHEATMAN	wiit3 mxxn0
+WHEATS	wiit3
+WHEEDLE	wiit3 dql2
+WHEEDLED	wiit3 dql2
+WHEEDLER	wiit3 dql2 rqq2
+WHEEDLERS	wiit3 dlqq2
+WHEEDLES	wiit3 dql2
+WHEEDLING	wiit3 dling2
+WHEEL	wiil0
+WHEELAND	wiil0 lqn2
+WHEELANS	wiil0 lqn2
+WHEELBARROW	wiil0 bxx0 roo2
+WHEELBARROWING	wiil0 bxx0 r@@0 ing2
+WHEELBARROWS	wiil0 bxx0 roos2
+WHEELBASE	wiil0 bees1
+WHEELBASED	wiil0 bees1
+WHEELBASES	wiil0 bees3 ses1
+WHEELCHAIR	wiil0 chxx0
+WHEELCHAIR	wiil0 chxx0
+WHEELCHAIRED	wiil0 chxxt2
+WHEELCHAIRED	wiil0 chxx0
+WHEELCHAIRS	wiil0 chxx0
+WHEELD	wiil0
+WHEELDON	wiil0 d@@n2
+WHEELED	wiil0
+WHEELER	wiil0 lqq2
+WHEELERS	wiil0 lqq2
+WHEELES	wiil0
+WHEELESS	wiil0 les1
+WHEELHOUSE	wiil0 haaw3
+WHEELHOUSES	wiil0 haaw3 ses1
+WHEELING	wiil0 ling2
+WHEELINGLY	wiil0 ling2 lii2
+WHEELINGS	wiil0 ling2
+WHEELLESS	wiil0 les1
+WHEELMAN	wiil0 mxxn0
+WHEELMEN	wiil0 men0
+WHEELS	wiil0
+WHEELWRIGHT	wiil0 raj3
+WHEELWRIGHTING	wiil0 raj3 ting2
+WHEELWRIGHTS	wiil0 raj3
+WHEELWRITER	wiil0 raj3 tqq2
+WHEELWRITERS	wiil0 raj3 tqq2
+WHEEZE	wiis3
+WHEEZED	wiis3
+WHEEZER	wiis3 sqq2
+WHEEZER	wiis3 sqq2
+WHEEZERS	wiis3 sqq2
+WHEEZERS	wiis3 sqqs2
+WHEEZES	wiis3 ses1
+WHEEZIER	wiis3 siia0
+WHEEZIER	wiis3 siia0
+WHEEZIEST	wiis3 si1 es1
+WHEEZILY	wiis3 si1 lii2
+WHEEZINESS	wiis3 si1 nees1
+WHEEZING	wiis3 sing2
+WHEEZINGLY	wiis3 sing2 lii2
+WHEEZY	wiis3 sii2
+WHELK	weel3
+WHELKS	weel3
+WHELM	weel0
+WHELMD	weel0
+WHELMED	weel0
+WHELMING	weel0 ming2
+WHELMINGLY	weel0 ming2 lii2
+WHELMS	weel0
+WHELP	weel3
+WHELPED	weel3
+WHELPING	weel3 ping2
+WHELPLESS	weel3 les1
+WHELPLEY	weel3 lee2
+WHELPS	weel3
+WHEN	ween0
+WHENCE	ween0
+WHENCEFORTH	ween3 f@@t3
+WHENCEFORWARD	ween3 f@@0 wqt1
+WHENCESOEVER	ween3 soo0 e1 wqq2
+WHENCESOEVER	ween0 soo0 e1 wqq2
+WHENEVER	ween0 ne3 wqq2
+WHENEVER	ween0 ne3 wqq2
+WHENS	ween0
+WHENSOEVER	ween0 soo0 e1 wqq2
+WHERE	wxx0
+WHERE	wxx0
+WHEREABOU	wxx0 rq1 buu0
+WHEREABOUT	wxx0 rq1 baaw3
+WHEREABOUTS	wxx0 rq1 baaw3
+WHEREAFTER	wxx0 aaf3 tqq2
+WHEREAS	wxx0 rxs3
+WHEREASES	wxx0 rxs3 ses1
+WHEREAT	wxx0 rxt2
+WHEREBY	wxx0 baaj0
+WHERED	wxx0
+WHERED	wxx0
+WHEREFOR	wxx0 f@@0
+WHEREFORE	wxx0 f@@0
+WHEREFORE	wxx0 f@@0
+WHEREFORES	wxx0 f@@s2
+WHEREFROM	wxx0 fr@@m0
+WHEREHOUSE	wxx0 haaw3
+WHEREIN	wxx0 rin2
+WHEREINSOEVER	wxx0 rin2 s@@0 e1 wqq2
+WHEREOF	wxx0 r@f3
+WHEREON	wxx0 r@@n2
+WHERES	wxx0
+WHERES	wxx0
+WHERESOEVER	wxx0 soo0 ef3 wqq2
+WHERESOEVER	wxx0 soo0 ef3 wqq2
+WHERETO	wxx0 thuu0
+WHEREUNDER	wxx0 ran0 dqq2
+WHEREUNTO	wxx0 ran0 thuu0
+WHEREUPON	wxx0 rap2 ph@@n2
+WHEREVER	wxx0 ref3 wqq2
+WHEREVER	wxx0 ref3 wqq2
+WHEREWITH	wxx0 wit3
+WHEREWITHAL	wxx0 wi3 d@@l0
+WHERRIES	wee0 rii2
+WHERRY	wee0 rii2
+WHERRYING	wee0 rii0 ing2
+WHERRYMAN	wee0 rii2 mxxn0
+WHET	wet3
+WHETHER	we3 dqq2
+WHETHER	we3 dqq2
+WHETHERALL	we3 dq1 r@@l2
+WHETS	wet3
+WHETSELL	wet3 seel0
+WHETSTINE	wet3 sa1 thaaj0
+WHETSTON	wet3 sa1 tan2
+WHETSTONE	wet3 sa1 toon0
+WHETSTONES	wet3 sa1 toon0
+WHETTED	wet3 thet1
+WHETTER	wet3 tqq2
+WHETTERS	wet3 tqq2
+WHETTING	wet3 ting2
+WHEW	wiw0
+WHEWS	wiw0
+WHEY	wee0
+WHEYFACE	weef3 fees3
+WHEYFACES	weef3 fees3 ses1
+WHEYS	wee0
+WHICH	wich3
+WHICHEVER	wich3 chef3 wqq2
+WHICHEVER	wich3 chef3 wqq2
+WHICHS	wich3 ches1
+WHICHSOEVER	wich3 soo0 ef3 wqq2
+WHICHSOEVER	wich3 soo0 ef3 wqq2
+WHIFF	wif3
+WHIFFED	wif3
+WHIFFER	wif3 fqq2
+WHIFFER	wif3 fqq2
+WHIFFERS	wif3 fqq2
+WHIFFERS	wif3 fqs2
+WHIFFIES	wif3 fii2
+WHIFFIN	wif3 fin0
+WHIFFING	wif3 fing2
+WHIFFLE	wif3 fql2
+WHIFFLED	wif3 fleet1
+WHIFFLER	wif3 flqq2
+WHIFFLERS	wif3 flqq2
+WHIFFLES	wif3 fles1
+WHIFFLETREE	wif3 fql2 thrii2
+WHIFFLETREES	wif3 fql2 thrii2
+WHIFFLING	wif3 fq1 ling2
+WHIFFS	wif3
+WHIG	wik3
+WHIGGERY	wik3 kqq0 rii2
+WHIGGISH	wik3 kich1
+WHIGGISM	wik3 kis3 svm2
+WHIGHAM	wik3 hxxm2
+WHIGHAMS	wik3 hxxm2
+WHIGS	wik3
+WHILE	waaj0
+WHILED	waaj0
+WHILES	waaj0
+WHILING	waaj0 ling2
+WHILOM	waaj0 lam2
+WHILST	waaj0
+WHIM	wim0
+WHIMPER	wim0 phqq2
+WHIMPER	wim0 phqq2
+WHIMPERED	wim0 phqq2
+WHIMPERER	wim0 phq1 rqq2
+WHIMPERING	wim0 phq1 ring2
+WHIMPERINGLY	wim0 phq1 ring2 lii2
+WHIMPERINGS	wim0 phq1 ring2
+WHIMPERS	wim0 phqq2
+WHIMPLE	wim0 phql2
+WHIMPY	wim0 pii2
+WHIMS	wim0
+WHIMSEY	wim0 sii2
+WHIMSEYS	wim0 sii2
+WHIMSICAL	wim0 si1 khql2
+WHIMSICALITIES	wim0 si1 kh@l2 li3 tii2
+WHIMSICALITY	wim0 si1 kh@l2 li3 tii2
+WHIMSICALLY	wim0 si1 khql1 lii2
+WHIMSIES	wim0 sii2
+WHIMSTER	wim0 sa1 tqq2
+WHIMSTONE	wim0 sa1 toon0
+WHIMSY	wim0 sii2
+WHIN	win2
+WHINCHAT	win0 chxt3
+WHINE	waaj0
+WHINED	waaj0
+WHINER	waaj0 nqq2
+WHINER	waaj0 nqq2
+WHINERS	waaj0 nqq2
+WHINES	waaj0
+WHINGER	wing2 ngqq2
+WHINIEST	waaj0 ni1 es1
+WHINING	waaj0 ning2
+WHININGLY	waaj0 ning2 lii2
+WHININGS	waaj0 ning2
+WHINNIED	win0 nii2
+WHINNIES	win0 nii2
+WHINNIEST	win0 ni1 es1
+WHINNY	win0 nii2
+WHINNYING	win0 nii2 ing2
+WHINNYINGS	win0 nii2 ing2
+WHINY	waaj0 nii2
+WHIP	wip3
+WHIPCORD	wip3 kh@@t1
+WHIPCORDS	wip3 kh@@t1
+WHIPKEY	wip3 khii0
+WHIPLASH	wip3 lxch3
+WHIPLASHED	wip3 lxch3
+WHIPLASHES	wip3 lxch3 ches1
+WHIPLASHING	wip3 lxch3 ching2
+WHIPLESS	wip3 les1
+WHIPPED	wip3
+WHIPPEN	wip3 pheen0
+WHIPPER	wip3 phqq2
+WHIPPERS	wip3 phqq2
+WHIPPERSNAPPER	wip3 phq1 sa1 nxp3 pqq2
+WHIPPERSNAPPER	wip3 phq1 sa1 nxp3 pqq2
+WHIPPERSNAPPERS	wip3 phq1 sa1 nxp3 pqq2
+WHIPPERY	wip3 phq1 rii2
+WHIPPET	wip3 phet1
+WHIPPETS	wip3 phet1
+WHIPPIER	wip3 phi1 qq2
+WHIPPIER	wip3 phi1 qq2
+WHIPPIEST	wip3 phi1 es1
+WHIPPINESS	wip3 phii2 nees1
+WHIPPING	wip3 ping2
+WHIPPINGLY	wip3 ping2 lii2
+WHIPPINGS	wip3 ping2
+WHIPPOORWILL	wip3 phq1 wil0
+WHIPPOORWILL	wip3 phuua0 wil0
+WHIPPOORWILLS	wip3 phq1 wil0
+WHIPPY	wip3 pii2
+WHIPS	wip3
+WHIPSAW	wip3 s@@0
+WHIPSAWED	wip3 s@@0
+WHIPSAWING	wip3 s@@0 ing2
+WHIPSAWN	wip3 s@@n0
+WHIPSAWS	wip3 s@@0
+WHIPSTAFF	wip3 sa1 taaf3
+WHIPSTER	wip3 sa1 tqq2
+WHIPSTICK	wip3 sa1 tik3
+WHIPSTITCH	wip3 sa1 tich3
+WHIPSTITCHED	wip3 sa1 tich3
+WHIPSTROKE	wip3 sa1 trook1
+WHIPTAIL	wip3 theel0
+WHIPTAILS	wip3 theel0
+WHIPWORM	wip3 wqqm0
+WHIPWORMS	wip3 wqqm0
+WHIR	wqq2
+WHIR	wqq2
+WHIRL	wqql2
+WHIRLED	wqql2
+WHIRLER	wqql0 lqq2
+WHIRLER	wqql0 lqq2
+WHIRLERS	wqql0 lqq2
+WHIRLERS	wqql0 lqq2
+WHIRLEY	wqql0 lee2
+WHIRLIES	wqql2 lii2
+WHIRLIEST	wqql0 li1 es1
+WHIRLIGIG	wqql0 li3 kik1
+WHIRLIGIGS	wqql0 li3 kik1
+WHIRLIN	wqql0 lin2
+WHIRLIND	wqql0 lin0
+WHIRLINDS	wqql0 lin0
+WHIRLING	wqql0 ling2
+WHIRLINGLY	wqql0 ling2 lii2
+WHIRLINGS	wqql0 ling2
+WHIRLPOOL	wqql0 phuul0
+WHIRLPOOLED	wqql0 phuul0
+WHIRLPOOLING	wqql0 phuul0 ling2
+WHIRLPOOLS	wqql0 phuul0
+WHIRLS	wqql2
+WHIRLWIG	wqql0 wik3
+WHIRLWIND	wqql0 win0
+WHIRLWINDISH	wqql0 win0 dich1
+WHIRLWINDS	wqql0 win0
+WHIRR	wqq2
+WHIRR	wqq2
+WHIRRED	wqq2
+WHIRRING	wqq0 ring2
+WHIRRINGS	wqq0 ring2
+WHIRRS	wqq2
+WHIRS	wqq2
+WHISK	wis3
+WHISKED	wis3
+WHISKER	wis3 kqq2
+WHISKER	wis3 kqq2
+WHISKERED	wis3 kqq2
+WHISKERS	wis3 kqq2
+WHISKET	wis3 ket1
+WHISKEY	wis3 kii2
+WHISKEYS	wis3 kii2
+WHISKIES	wis3 kii2
+WHISKIN	wis3 kin0
+WHISKING	wis3 king2
+WHISKINGLY	wis3 king2 lii2
+WHISKINGS	wis3 king2
+WHISKS	wis3
+WHISKY	wis3 kii2
+WHISKYS	wis3 kii2
+WHISPED	wis3
+WHISPER	wis3 pqq2
+WHISPER	wis3 pqq2
+WHISPERATION	wis3 pq1 ree0 chan2
+WHISPERD	wis3 pqq2
+WHISPERD	wis3 pqq2
+WHISPERED	wis3 pqq2
+WHISPERER	wis3 pq1 rqq2
+WHISPERER	wis3 pq1 rqq2
+WHISPERERS	wis3 pq1 rqqs2
+WHISPERING	wis3 pq1 ring2
+WHISPERINGS	wis3 pq1 ring2
+WHISPEROUS	wis3 pq1 rqqs2
+WHISPERS	wis3 pqq2
+WHISPS	wis3
+WHISPY	wis3 pii2
+WHIST	wis3
+WHISTED	wis3 thet1
+WHISTER	wis3 tqq2
+WHISTER	wis3 tqq2
+WHISTFULLY	wis3 fuul0 lii2
+WHISTING	wis3 ting2
+WHISTLE	wis3 sql2
+WHISTLEBLOWER	wis3 sql2 bloo0 wqq2
+WHISTLEBLOWERS	wis3 sql2 bloo0 wqq2
+WHISTLEBLOWING	wis3 sql2 bloo0 wing2
+WHISTLED	wis3 sql2
+WHISTLER	wis3 lqq2
+WHISTLERS	wis3 lqq2
+WHISTLES	wis3 sql2
+WHISTLING	wis3 ling2
+WHISTLINGLY	wis3 ling0 lii2
+WHISTON	wis3 ten3
+WHISTS	wis3
+WHISTY	wis3 tii2
+WHIT	wit3
+WHITACRE	wit3 tha1 kqq2
+WHITACRE	wit3 tha1 kqq2
+WHITACRES	wit3 tha1 kqq2
+WHITACRES	wit3 tha1 kqq2
+WHITBECK	wit3 bek3
+WHITBREAD	wit3 breet1
+WHITBREADS	wit3 breet1
+WHITBRED	wit3 breet1
+WHITBURN	wit3 bqqn0
+WHITBY	wit3 bii2
+WHITCHURCH	wit3 chqqch3
+WHITCOMB	wit3 khoom0
+WHITCOMBE	wit3 khuum0
+WHITCOME	wit3 kham0
+WHITCRAFT	wit3 khraaf3
+WHITCROSS	wit3 khr@s3
+WHITE	waaj3
+WHITEBAIT	waaj3 beet1
+WHITEBEARD	waaj3 biiat3
+WHITEBREAD	waaj3 breet3
+WHITEBRED	waaj3 bret3
+WHITECAP	waaj3 khxp3
+WHITECAPPER	waaj3 khxp3 pqq2
+WHITECAPPING	waaj3 khxp3 ping2
+WHITECAPS	waaj3 khxp3
+WHITECHAPEL	waaj3 chxp3 pql2
+WHITECOMB	waaj3 khoom0
+WHITECOTTON	waaj3 kh@t3 tan2
+WHITECOTTONS	waaj3 kh@t3 tan2
+WHITED	waaj3 thet1
+WHITED	wit3 thet1
+WHITEFIELD	waaj3 fiil0
+WHITEFISH	waaj3 fich3
+WHITEFISHER	waaj3 fich3 chqq2
+WHITEFISHERY	waaj3 fich3 chqq2 rii2
+WHITEFISHES	waaj3 fich3 ches1
+WHITEFLY	waaj3 flaaj0
+WHITEFORD	waaj3 f@@t1
+WHITEHAIR	waaj3 hxx0
+WHITEHAIRED	waaj3 hxx0
+WHITEHALL	waaj3 h@@l0
+WHITEHAVEN	waaj3 heef3 wqn2
+WHITEHEAD	waaj3 heet3
+WHITEHEADED	waaj3 heet3 det1
+WHITEHEADS	waaj3 heet3
+WHITEHILL	waaj3 hil0
+WHITEHILLS	waaj3 hil0
+WHITEHORN	waaj3 h@@n0
+WHITEHORNS	waaj3 h@@n0
+WHITEHORSE	waaj3 h@@s3
+WHITEHOUSE	waaj3 haaw3
+WHITEHURST	waaj3 hqqs3
+WHITELAW	waaj3 l@@0
+WHITELEY	waaj3 lee2
+WHITELEYS	waaj3 lee2
+WHITELOCK	waaj3 l@k3
+WHITELOCKS	waaj3 l@k3
+WHITELY	wit3 thi1 lii2
+WHITEMAN	waaj3 mxxn0
+WHITEMANS	waaj3 mxxn0
+WHITEN	waaj3 thqn2
+WHITENACK	waaj3 nxk1
+WHITENBURGH	waaj3 thqn2 ba1 rqq2
+WHITENED	waaj3 thqn2
+WHITENER	waaj3 thqn2 nqq2
+WHITENER	waaj3 thqn2 nqq2
+WHITENERS	waaj3 thqn2 nqq2
+WHITENERS	waaj3 thqn2 nqq2
+WHITENESS	waaj3 thqn2 nees1
+WHITENIGHT	waaj3 naj3
+WHITENING	waaj3 thqn2 ning2
+WHITENS	waaj3 thqn2
+WHITEOUT	waaj3 aaw3
+WHITEOUTS	waaj3 thaaw3
+WHITER	waaj3 tqq2
+WHITER	waaj3 tqq2
+WHITES	waaj3
+WHITESCARVER	waaj3 sa1 kaa0 wqq2
+WHITESELL	waaj3 seel0
+WHITESELLS	waaj3 seel0
+WHITESIDE	waaj3 saj3
+WHITESIDED	waaj3 saj3 det1
+WHITESIDES	waaj3 saj3
+WHITESON	waaj3 san2
+WHITEST	waaj3 this1
+WHITETAIL	waaj3 theel0
+WHITETAILED	waaj3 theel0
+WHITETAILS	waaj3 theel0
+WHITETHORN	waaj3 th@@n2
+WHITETHORNS	waaj3 th@@n2
+WHITETHROAT	waaj3 throot3
+WHITEWALL	waaj3 w@@l0
+WHITEWALLS	waaj3 w@@l0
+WHITEWASH	waaj3 w@ch3
+WHITEWASHED	waaj3 w@ch3
+WHITEWASHER	waaj3 w@ch3 chqq2
+WHITEWASHES	waaj3 w@ch3 ches1
+WHITEWASHING	waaj3 w@ch3 ching2
+WHITEWATER	waaj3 w@@0 tqq2
+WHITEWATERGATE	waaj3 w@@0 thqq2 keet1
+WHITEWATERLOGGED	waaj3 w@@0 thql2 l@k3
+WHITEWATERS	waaj3 w@@0 thqq2
+WHITEWOOD	waaj3 wuut3
+WHITFIELD	wit3 fiil0
+WHITFILL	wit3 fil0
+WHITFORD	wit3 f@@t1
+WHITFORDS	wit3 f@@t1
+WHITHAM	wit3 hxxm2
+WHITHAMS	wit3 hxxm2
+WHITHER	wit3 dqq2
+WHITHER	wit3 dqq2
+WHITHERED	wit3 dqq2
+WHITHERED	wit3 dqq2
+WHITHERING	wit3 dqq2 ring2
+WHITHERING	wit3 dqq0 ring2
+WHITHERS	wit3 dqq2
+WHITHERS	wit3 dqq2
+WHITHERSOEVER	wit3 dqq0 s@@0 ef3 wqq2
+WHITHERSOEVER	wit3 dqq0 s@@0 ef3 wqq2
+WHITIN	waaj3 thin0
+WHITING	waaj3 ting2
+WHITINGHAM	waaj3 ting2 hqm2
+WHITINGS	waaj3 ting2
+WHITINGTON	waaj3 ting0 tan2
+WHITIS	waaj3 tis3
+WHITISH	waaj3 tich3
+WHITISHNESS	waaj3 tich3 nees1
+WHITLAND	wit3 lxxn0
+WHITLARK	wit3 laak3
+WHITLATCH	wit3 lxch3
+WHITLEATHER	wit3 lee3 dqq2
+WHITLEDGE	wit3 lec1
+WHITLEY	wit3 lii2
+WHITLEYS	wit3 lii2
+WHITLING	wit3 thql2 ling2
+WHITLINGER	wit3 ling0 kqq2
+WHITLINGERS	wit3 ling0 kqq2
+WHITLOCK	wit3 l@k3
+WHITLOW	wit3 loo0
+WHITLOWS	wit3 loos2
+WHITMAN	wit3 mxxn0
+WHITMANISES	wit3 mxxn0 nis1 ses1
+WHITMANISM	wit3 mxxn0 nis3 svm2
+WHITMANISMS	wit3 mxxn0 nis3 svm2
+WHITMANLIKE	wit3 mxxn0 laj3
+WHITMANS	wit3 mxxn0
+WHITMAR	wit3 maach3
+WHITMARSH	wit3 maach3
+WHITMILL	wit3 mil0
+WHITMIRE	wit3 maaj0 rqq2
+WHITMIRES	wit3 maaj0 rqq2
+WHITMORE	wit3 m@@0
+WHITMORES	wit3 m@@0 rees1
+WHITMUS	wit3 mqs3
+WHITNELL	wit3 neel0
+WHITNEY	wit3 nii2
+WHITNEYS	wit3 nii2
+WHITRICK	wit3 rik1
+WHITRIDGE	wit3 ric1
+WHITROPE	wit3 r@@p3
+WHITROW	wit3 raaw0
+WHITS	wit3
+WHITSELL	wit3 seel0
+WHITSETT	wit3 set1
+WHITSON	wit3 san2
+WHITSTABLE	wit3 sa1 tee0 bql2
+WHITSUN	wit3 sqn2
+WHITSUNDAY	wit3 san0 dee0
+WHITSUNS	wit3 sqn2
+WHITSUNTIDE	wit3 san0 thaaj0
+WHITSUNTIDES	wit3 san0 thaaj0
+WHITTAKER	wit3 theek3 kqq2
+WHITTAKERS	wit3 theek3 kqq2
+WHITTED	wit3 thet1
+WHITTEN	wit3 then2
+WHITTENBERG	wit3 theen0 bqqk1
+WHITTENBERGER	wit3 theen0 bqq0 kqq2
+WHITTENBURG	wit3 theen0 bqqk1
+WHITTER	wit3 thqq2
+WHITTIER	wit3 thiia0
+WHITTING	wit3 ting2
+WHITTINGALE	wit3 ting2 keel0
+WHITTINGDALE	wit3 ting2 deel0
+WHITTINGHAM	wit3 ting2 hxxm0
+WHITTINGHAMS	wit3 ting2 hxxm0
+WHITTINGHILL	wit3 ting2 hil0
+WHITTINGS	wit3 ting2
+WHITTINGTON	wit3 ting0 tan2
+WHITTINTON	wit3 tin0 tan2
+WHITTLE	wit3 thql2
+WHITTLED	wit3 thql2
+WHITTLER	wit3 thq1 lqq2
+WHITTLER	wit3 thq1 lqq2
+WHITTLERS	wit3 thq1 lqq2
+WHITTLERS	wit3 thq1 lqq2
+WHITTLES	wit3 thql2
+WHITTLESEY	wit3 thql1 sii2
+WHITTLESEYS	wit3 thql1 sii2
+WHITTLEWOOD	wit3 thql2 wuut3
+WHITTLING	wit3 thql2 ling2
+WHITTON	wit3 tan2
+WHITTRICK	wit3 thrik1
+WHITWELL	wit3 weel0
+WHITWOOD	wit3 wuut3
+WHITWORTH	wit3 wqt1
+WHITWORTHS	wit3 wqt1
+WHITY	waaj3 thii2
+WHIZ	wis3
+WHIZBANG	wis3 bxxng0
+WHIZBANGS	wis3 bxxng0
+WHIZES	wis3 ses1
+WHIZZ	wis3
+WHIZZED	wis3
+WHIZZER	wis3 sqq2
+WHIZZER	wis3 sqq2
+WHIZZERS	wis3 sqq2
+WHIZZERS	wis3 sqq2
+WHIZZES	wis3 ses1
+WHIZZICAL	wis3 si1 khql2
+WHIZZINESS	wis3 si1 nees1
+WHIZZING	wis3 sing2
+WHIZZINGLY	wis3 sing2 lii2
+WHO	huu0
+WHOA	w@@0
+WHODUNIT	huu0 dan0 nit1
+WHODUNITS	huu0 dan0 nit1
+WHOEVER	huu0 e3 wqq2
+WHOEVER	huu0 e3 wqq2
+WHOEVERS	huu0 e3 wqq2
+WHOEVERS	huu0 e3 wqq2
+WHOLE	hool0
+WHOLEHEARTED	hool0 haat3 thet1
+WHOLEHEARTEDLY	hool0 haat3 thet1 lii2
+WHOLEHEARTEDNESS	hool0 haat3 thet1 nees1
+WHOLEMEAL	hool0 miil0
+WHOLENESS	hool0 nees1
+WHOLES	hool0
+WHOLESALE	hool0 seel0
+WHOLESALED	hool0 seel0
+WHOLESALER	hool0 seel0 lqq2
+WHOLESALER	hool0 seel0 lqq2
+WHOLESALERS	hool0 seel0 lqq2
+WHOLESALES	hool0 seel0
+WHOLESALING	hool0 sxxl0 ling2
+WHOLESOME	hool0 sam2
+WHOLESOMELY	hool0 sam2 lii2
+WHOLESOMENESS	hool0 sam2 nees1
+WHOLEWHEAT	hool0 wiit1
+WHOLEY	huu0 lee2
+WHOLLY	hool0 lii2
+WHOM	huum0
+WHOMEVER	huum0 e3 wqq2
+WHOMPING	huum3 ping2
+WHOMSOEVER	huum0 s@@0 ef3 wqq2
+WHOOP	huup3
+WHOOPED	huup3
+WHOOPEE	wup3 phii2
+WHOOPEES	wup3 phii2
+WHOOPER	huup3 pqq2
+WHOOPER	huup3 pqq2
+WHOOPERS	huup3 pqq2
+WHOOPERS	huup3 pqq2
+WHOOPING	huup3 ping2
+WHOOPINGLY	huup3 ping2 lii2
+WHOOPLAS	huup3 lxs3
+WHOOPS	huup3
+WHOOPSING	huup3 sing2
+WHOP	w@p3
+WHOPPED	w@p3
+WHOPPER	w@p3 phrqq2
+WHOPPER	w@p3 phrqq2
+WHOPPERS	w@p3 phqq2
+WHOPPING	w@p3 ping2
+WHOPPINGLY	w@p3 ping2 lii2
+WHOPS	w@p3
+WHORE	h@@0
+WHORE	h@@0
+WHORED	h@@t2
+WHORED	h@@t2
+WHOREDOM	h@@0 dqm2
+WHOREDOMS	h@@0 dqm2
+WHOREHOUSE	huu0 rii0 haaw3
+WHOREMASTER	h@@0 maas3 tqq2
+WHOREMONGER	h@@0 mang0 kqq2
+WHOREMONGER	h@@0 mang0 kqq2
+WHOREMONGERS	h@@0 mang0 kqq2
+WHORES	h@@s2
+WHORESON	h@@0 sqn2
+WHORESONS	h@@0 sqn2
+WHORING	huu0 ring2
+WHORL	wqql2
+WHORLED	wqql2
+WHORLS	wqql2
+WHORTLE	wqq3 thql2
+WHORTLEBERRY	wqq3 thql2 bee0 rii2
+WHOSE	huus3
+WHOSER	huus3 sqq2
+WHOSER	huus3 sqq2
+WHOSO	huus3 soo2
+WHOSOEVER	huus3 soo0 ef3 wqq2
+WHOSOEVER	huus3 soo0 ef3 wqq2
+WHY	waaj0
+WHYS	waaj0
+WICK	wik3
+WICKED	wik3 khet1
+WICKEDER	wik3 khet1 dqq2
+WICKEDER	wik3 khet1 dqq2
+WICKEDEST	wik3 khet1 dis1
+WICKEDLY	wik3 khet1 lii2
+WICKEDNESS	wik3 khet1 nees1
+WICKEDNESSES	wik3 khet1 nes3 ses1
+WICKEN	wik3 khen2
+WICKENBERG	wik3 khen0 bqqk1
+WICKENBURG	wik3 khen0 bqqk1
+WICKENS	wik3 khen2
+WICKER	wik3 kqq2
+WICKER	wik3 kqq2
+WICKERD	wik3 kqq2
+WICKERD	wik3 kqq2
+WICKERHAM	wik3 kqq2 hxxm0
+WICKERMAN	wik3 kqq2 mxxn0
+WICKERS	wik3 kqq2
+WICKERS	wik3 kqq2
+WICKERSHAM	wik3 kqq2 chxxm0
+WICKERWORK	wik3 kqq2 wqqk3
+WICKES	wik3
+WICKET	wik3 khet1
+WICKETED	wik3 khet3 thet1
+WICKETLESS	wik3 khet1 les1
+WICKETS	wik3 khet1
+WICKEY	wik3 kii2
+WICKFORD	wik3 fqqt1
+WICKHAM	wik3 hxxm2
+WICKHAMS	wik3 hxxm2
+WICKING	wik3 king2
+WICKINGS	wik3 king2
+WICKINS	wik3 kin2
+WICKLAND	wik3 lxxn0
+WICKLANDER	wik3 lxxn0 dqq2
+WICKLANDER	wik3 lxxn0 dqq2
+WICKLE	wik3 khql2
+WICKLER	wik3 klqq2
+WICKLESS	wik3 les1
+WICKLEY	wik3 lee2
+WICKLINE	wik3 laaj0
+WICKLOW	wik3 loo0
+WICKMAN	wik3 mxxn0
+WICKMANS	wik3 mxxn0
+WICKS	wik3
+WICKSBURG	wik3 sa1 bqqk1
+WICKSON	wik3 san2
+WICKSTEAD	wik3 sa1 teet1
+WICKSTROM	wik3 sa1 tr@@m0
+WICKSY	wik0 sii2
+WICKWARE	wik3 wxx0
+WICKWIRE	wik3 waaj0 rqq2
+WIDE	waaj0
+WIDEBAND	waaj0 bxxn0
+WIDEBODIES	waaj0 b@@0 dii2
+WIDEBODY	waaj0 b@@0 dii2
+WIDEING	waaj0 ding2
+WIDELY	waaj0 lii2
+WIDEMAN	waaj0 mxxn0
+WIDEMANN	waaj0 mxxn0
+WIDEMOUTHED	waaj0 maw3
+WIDEN	waaj0 dqn2
+WIDENED	waaj0 dqn2
+WIDENER	waaj0 nqq2
+WIDENER	waaj0 nqq2
+WIDENERS	waaj0 nqq2
+WIDENERS	waaj0 nqq2
+WIDENESS	waaj0 nees1
+WIDENING	waaj0 ning2
+WIDENINGS	waaj0 ning2
+WIDENS	waaj0 dqn2
+WIDER	waaj0 dqq2
+WIDER	waaj0 dqq2
+WIDERMAN	waaj0 dqq2 mxxn0
+WIDES	waaj0
+WIDESPREAD	waaj0 sa1 preet3
+WIDESPREADING	waaj0 sa1 preet3 ding2
+WIDESPREADLY	waaj0 sa1 preet3 lii2
+WIDEST	waaj0 dis1
+WIDGEON	wic3 cqn2
+WIDGEONS	wic3 cqn2
+WIDGER	wic3 cqq2
+WIDGERS	wic3 cqq2
+WIDISH	waaj0 dich1
+WIDNAE	wit3 nii2
+WIDNES	wit3 nees1
+WIDNEY	wit3 nii2
+WIDOW	wi3 doo2
+WIDOWED	wi3 doo2
+WIDOWER	wi3 doo0 wqq2
+WIDOWER	wi3 doo0 wqq2
+WIDOWERED	wi3 doo0 wqq2
+WIDOWERED	wi3 doo0 wqq2
+WIDOWERHOOD	wi3 doo0 wqq2 huut3
+WIDOWERS	wi3 doo0 wqq2
+WIDOWHOOD	wi3 doo2 huut3
+WIDOWING	wi3 doo0 ing2
+WIDOWS	wi3 doos2
+WIDTH	wit3
+WIDTHS	wit3
+WIDTHTEST	wit3 thes1
+WIDTHWAY	wit3 wee0
+WIELD	wiil0
+WIELDED	wiil0 det1
+WIELDER	wiil0 dqq2
+WIELDER	wiil0 dqq2
+WIELDERS	wiil0 dqq2
+WIELDIEST	wiil0 di1 es1
+WIELDINESS	wiil0 di1 nees1
+WIELDING	wiil0 ding2
+WIELDS	wiil0
+WIELDY	wiil0 dii2
+WIER	wiia0
+WIER	wiia0
+WIERD	wiiat2
+WIERD	wiiat2
+WIERDOS	wiia0 duus3
+WIERING	wiia0 ring2
+WIERING	wiia0 ring2
+WIERMAN	wiia0 mxxn0
+WIERS	wiias2
+WIESBADEN	wiis3 baa0 dqn2
+WIFE	waaj3
+WIFED	waaj3
+WIFEHOOD	waaj3 huut3
+WIFEHOODS	waaj3 huut3
+WIFELESS	waaj3 lqs1
+WIFELESSNESS	waaj3 lqs1 nees1
+WIFELIER	waaj3 li1 qq2
+WIFELIER	waaj3 li1 qq2
+WIFELIEST	waaj3 li1 es1
+WIFELIKE	waaj3 laj3
+WIFELY	waaj3 lii2
+WIFES	waaj3
+WIG	wik3
+WIGAN	wik3 kqn2
+WIGAND	wik3 kqn2
+WIGEON	wik3 kiian2
+WIGEONS	wik3 kiian2
+WIGFALL	wik3 f@@l0
+WIGFALLS	wik3 f@@l0
+WIGFIELD	wik3 fiil0
+WIGGED	wik3
+WIGGER	wik3 kqq2
+WIGGERIES	wik3 kqq0 rii2
+WIGGERS	wik3 kqq2
+WIGGERY	wik3 kqq0 rii2
+WIGGIER	wik3 kiia0
+WIGGIN	wik3 kin2
+WIGGINESS	wik3 ki1 nees1
+WIGGING	wik3 king2
+WIGGINGS	wik3 king2
+WIGGINGTON	wik3 king0 tan2
+WIGGINS	wik3 cin2
+WIGGINSES	wik3 cin0 ses1
+WIGGINTON	wik3 kin0 tan2
+WIGGISH	wik3 kich1
+WIGGISHNESS	wik3 kich3 nees1
+WIGGISM	wik3 kis3 svm2
+WIGGLE	wik3 kql2
+WIGGLED	wik3 kql2
+WIGGLER	wik3 klqq2
+WIGGLER	wik3 klqq2
+WIGGLERS	wik3 klqq2
+WIGGLERS	wik3 klqq2
+WIGGLES	wik3 kql2
+WIGGLESWORTH	wik3 kql2 sa1 wqqt1
+WIGGLIER	wik3 kliia0
+WIGGLIES	wik3 klii2
+WIGGLIEST	wik3 kli1 es1
+WIGGLING	wik3 kling2
+WIGGLINGS	wik3 kling2
+WIGGLY	wik3 klii2
+WIGGLYS	wik3 klii2
+WIGHT	waaj3
+WIGHTMAN	waaj3 mxxn0
+WIGHTS	waaj3
+WIGITS	wi3 kit1
+WIGLESS	wik3 les1
+WIGLESWORTH	wi3 kql2 sa1 wqqt1
+WIGLET	wik3 let1
+WIGLETS	wik3 let1
+WIGLEY	wik3 lee2
+WIGLIKE	wik3 laj3
+WIGMAKER	wik3 meek3 kqq2
+WIGMAKERS	wik3 meek3 kqq2
+WIGMAN	wik3 mxxn0
+WIGMORE	wik3 m@@0
+WIGS	wik3
+WIGTAIL	wik3 theel0
+WIGTON	wik3 tan2
+WIGTONS	wik3 tan2
+WIGWAG	wik3 wxk3
+WIGWAGGED	wik3 wxk3
+WIGWAGGING	wik3 wxk3 king2
+WIGWAGS	wik3 wxk3
+WIGWAM	wik3 wxxm0
+WIGWAMS	wik3 wxxm0
+WILD	waaj0
+WILDCARD	waaj0 khaat3
+WILDCARE	waaj0 khxx0
+WILDCAT	waaj0 khxt3
+WILDCATS	waaj0 khxt3
+WILDCATTED	waaj0 khxt3 thet1
+WILDCATTER	waaj0 khxt3 tqq2
+WILDCATTERS	waaj0 khxt3 tqq2
+WILDCATTING	waaj0 khxt3 ting2
+WILDE	wil0 dqq2
+WILDEBEEST	wil0 di3 bi1 is1
+WILDEBEESTS	wil0 di3 bi1 is1
+WILDED	waaj0 det1
+WILDEMAN	wil0 dq1 mxxn0
+WILDEN	wil0 dqn2
+WILDENBERG	wil0 dqn2 bqqk1
+WILDENSTEIN	wil0 dqn2 sa1 taaj0
+WILDER	waaj0 dqq2
+WILDER	waaj0 dqq2
+WILDERING	waaj0 dq1 ring2
+WILDERING	waaj0 dq1 ring2
+WILDERMAN	waaj0 dq1 mxn2
+WILDERMANN	waaj0 dqq0 mxxn0
+WILDERMENT	waaj0 dq1 men3
+WILDERNESS	wil0 dq1 nees1
+WILDERNESSES	wil0 dq1 nqs3 ses1
+WILDERS	waaj0 dqq2
+WILDERS	waaj0 dqq2
+WILDERSON	waaj0 dqq0 san2
+WILDES	waaj0
+WILDEST	waaj0 dis1
+WILDFIRE	waaj0 faaj0 qq2
+WILDFIRE	waaj0 faaj0 qq2
+WILDFIRES	waaj0 faaj0 qq2
+WILDFIRES	waaj0 faaj0 qq2
+WILDFISH	waaj0 fich3
+WILDFLOWER	waaj0 flaaw0 wqq2
+WILDFLOWERS	waaj0 flaaw0 wqq2
+WILDFOWL	waaj0 faaw0
+WILDFOWLS	waaj0 faaw0
+WILDIN	waaj0 din2
+WILDING	waaj0 ding2
+WILDINGS	waaj0 ding2
+WILDISH	waaj0 dich1
+WILDISHLY	waaj0 dich3 lii2
+WILDISHNESS	waaj0 dich3 nees1
+WILDLAND	waaj0 lxxn0
+WILDLANDS	waaj0 lxxn0
+WILDLIFE	waaj0 laj3
+WILDLIKE	waaj0 laj3
+WILDLING	waaj0 ling2
+WILDLINGS	waaj0 ling2
+WILDLY	waaj0 lii2
+WILDLYS	waaj0 lii2
+WILDMAN	waaj0 mxxn0
+WILDNESS	waaj0 nees1
+WILDRED	waaj0 dreet1
+WILDRICK	waaj0 drik1
+WILDRIDGE	waaj0 dric1
+WILDS	waaj0
+WILDWATER	waaj0 w@@0 thqq2
+WILDWATERS	waaj0 w@@0 thqq2
+WILDWOOD	waaj0 wuut3
+WILDWOODS	waaj0 wuut3
+WILE	waaj0
+WILED	waaj0
+WILEMAN	waaj0 mxxn0
+WILER	waaj0 lqq2
+WILER	waaj0 lqq2
+WILES	waaj0
+WILF	wil3
+WILFER	wil0 fqq2
+WILFER	wil0 fqq2
+WILFERD	wil0 fqq2
+WILFERD	wil0 fqq2
+WILFING	wil0 fing2
+WILFINGER	wil0 fing0 kqq2
+WILFINGER	wil0 fing0 kqq2
+WILFISH	wil0 fich3
+WILFORD	wil0 fqqt1
+WILFORDS	wil0 fqqt1
+WILFRAN	wil0 frxxn0
+WILFRED	wil0 fret1
+WILFREDO	wil0 free0 duu2
+WILFRID	wil0 frit1
+WILFRIDA	wil0 fri3 dqq2
+WILFRIDIAN	wil0 fri3 diian2
+WILFRIED	wil0 fraaj0
+WILFUL	wil0 fuul0
+WILFULL	wil0 fuul0
+WILFULLY	wil0 fuul0 lii2
+WILFULNESS	wil0 fuul0 nees1
+WILHAM	wil0 hxxm2
+WILHELM	wil0 heem0
+WILHELMA	wil0 heel0 mqq2
+WILHELMINA	wil0 heel0 maaj0 nqq2
+WILHELMINE	wil0 heel0 maaj0
+WILHELMS	wil0 heem0
+WILHELMSEN	wil0 heem0 sen2
+WILHELMSHAVEN	wil0 heem0 haa0 wqn2
+WILHELMSON	wil0 heem0 san2
+WILIER	waaj0 li1 qq2
+WILIER	waaj0 li1 qq2
+WILIEST	waaj0 li1 es1
+WILL	wil0
+WILLABELLA	wil0 lee0 beel0 lqq2
+WILLABELLE	wil0 lee0 beel0
+WILLABLE	wil0 lee0 bql2
+WILLAIMS	wil0 leem0
+WILLBANKS	wil0 bxxng3
+WILLBOURNE	wil0 b@@n0
+WILLCOCK	wil0 kh@k3
+WILLCOCKS	wil0 kh@k3
+WILLCOX	wil0 kh@k3
+WILLCUTS	wil0 khat3
+WILLDEN	wil0 deen2
+WILLED	wil0
+WILLER	wil0 lqq2
+WILLER	wil0 lqq2
+WILLERMAN	wil0 lqq0 mxxn0
+WILLERS	wil0 lqq2
+WILLERS	wil0 lqq2
+WILLERTON	wil0 lqq0 than2
+WILLES	wil0
+WILLEST	wil0 lis3
+WILLFORD	wil0 f@@t1
+WILLFUL	wil0 fuul0
+WILLFULL	wil0 fuul0
+WILLFULLY	wil0 fuul0 lii2
+WILLFULNESS	wil0 fuul0 nees1
+WILLHELM	wil0 heem0
+WILLI	wil0 laaj0
+WILLIAM	wil0 liiam2
+WILLIAMS	wil0 liiam2
+WILLIAMSBURG	wil0 liiam2 sa1 bqqk1
+WILLIAMSBURGH	wil0 liiam2 sa1 ba1 rqq2
+WILLIAMSEN	wil0 liiam0 sen2
+WILLIAMSES	wil0 liiam0 ses1
+WILLIAMSON	wil0 liiam0 san2
+WILLIAMSONS	wil0 liiam0 san2
+WILLIAMSPORT	wil0 liiam2 sa1 p@@t1
+WILLIAMSTON	wil0 liiam2 sa1 tan2
+WILLIAMSTOWN	wil0 liiam2 sa1 thaaw0
+WILLIAN	wil0 liian2
+WILLIANS	wil0 liian2
+WILLIE	wil0 lii2
+WILLIED	wil0 lii2
+WILLIER	wil0 li1 qq2
+WILLIER	wil0 li1 qq2
+WILLIES	wil0 lii2
+WILLIFORD	wil0 laaj0 f@@t1
+WILLIFORM	wil0 laaj0 f@@m0
+WILLIGES	wil0 laaj0 cis1
+WILLIING	wil0 laaj0 ing2
+WILLIMACK	wil0 laaj0 mxk3
+WILLIMAN	wil0 laaj0 mxxn0
+WILLIMANN	wil0 laaj0 mxxn0
+WILLIN	wil0 lin2
+WILLINESS	wil0 li3 nees1
+WILLING	wil0 ling2
+WILLINGDON	wil0 ling0 dqn2
+WILLINGER	wil0 ling0 ngqq2
+WILLINGER	wil0 ling0 ngqq2
+WILLINGEST	wil0 ling0 ngis2
+WILLINGHAM	wil0 ling0 hqm2
+WILLINGHAMS	wil0 ling0 hxxm0
+WILLINGLESS	wil0 ling0 lqq2
+WILLINGLY	wil0 ling0 lii2
+WILLINGNESS	wil0 ling0 nees1
+WILLINGS	wil0 ling2
+WILLINGTON	wil0 ling0 tan2
+WILLINK	wil0 ling3
+WILLINS	wil0 lin2
+WILLINT	wil0 lin3
+WILLIS	wil0 laj3
+WILLISES	wil0 laaj0 ses1
+WILLISON	wil0 laj3 san2
+WILLISSON	wil0 laj3 san2
+WILLISTIC	wil0 laj3 sa1 tik3
+WILLISTON	wil0 laj3 sa1 tan2
+WILLITON	wil0 laj3 tan2
+WILLITS	wil0 lit1
+WILLITSES	wil0 lit3 ses1
+WILLITT	wil0 lit1
+WILLITTS	wil0 lit1
+WILLMAN	wil0 mxxn0
+WILLMANN	wil0 mxxn0
+WILLMORE	wil0 m@@0
+WILLMOT	wil0 m@@0
+WILLMOTS	wil0 m@@s2
+WILLNER	wil0 nqq2
+WILLNESS	wil0 nees1
+WILLOW	wil0 loo2
+WILLOWBRIDGE	wil0 loo2 bric1
+WILLOWBROOK	wil0 loo2 bruuk3
+WILLOWED	wil0 loot2
+WILLOWES	wil0 loos2
+WILLOWHERB	wil0 loo2 hqqp3
+WILLOWING	wil0 loo2 wing2
+WILLOWISH	wil0 loo2 wich1
+WILLOWS	wil0 loos2
+WILLOWY	wil0 loo0 wii2
+WILLPOWER	wil0 phaaw0 wqq2
+WILLPOWER	wil0 phaaw0 wqq2
+WILLS	wil0
+WILLSES	wil0 ses1
+WILLSON	wil0 san2
+WILLSONVILLE	wil0 san0 wil0
+WILLY	wil0 lii2
+WILLYARD	wil0 jaat3
+WILLYART	wil0 lii0 jaat3
+WILLYER	wil0 li1 qq2
+WILLYER	wil0 li1 qq2
+WILLYING	wil0 lii0 ing2
+WILLYS	wil0 lii2
+WILMA	wil0 mqq2
+WILMAD	wil0 mqt2
+WILMAR	wil0 mqq2
+WILMAS	wil0 mqq2
+WILMER	wil0 mqq2
+WILMERING	wil0 mq1 ring2
+WILMERS	wil0 mqq2
+WILMES	wim0
+WILMIC	wil0 mik1
+WILMING	wil0 ming2
+WILMINGTON	wil0 ming0 tan2
+WILMINGTONS	wil0 ming0 tan2
+WILMINK	wil0 ming3
+WILMORE	wil0 m@@0
+WILMORES	wil0 m@@s2
+WILMOT	wil0 m@@0
+WILMOTS	wil0 m@@s2
+WILMS	wim0
+WILMSLOW	wim0 sa1 loo0
+WILT	wil3
+WILTED	wil3 thet1
+WILTER	wil0 tqq2
+WILTER	wil0 tqq2
+WILTERED	wil0 tqq2
+WILTERING	wil0 tq1 ring2
+WILTGEN	wil3 ceen0
+WILTHEW	wil0 thiw2
+WILTING	wil0 ting2
+WILTINGLY	wil0 ting2 lii2
+WILTON	wil0 tan2
+WILTONS	wil0 tan2
+WILTRON	wil0 thr@@n0
+WILTROUT	wil0 thraaw3
+WILTS	wil0
+WILTSHIRE	wil0 chqq2
+WILTSHIRE	wil0 chqq2
+WILTSHIRES	wil0 chqq2
+WILTSHIRES	wil0 chqq2
+WILY	waaj0 lii2
+WIMBER	wim0 bqq2
+WIMBERGER	wim0 bqq0 kqq2
+WIMBERLEY	wim0 bqq0 lii2
+WIMBERLY	wim0 bqq0 lii2
+WIMBERRY	wim0 bee0 rii2
+WIMBLE	wim0 bql2
+WIMBLED	wim0 bql2
+WIMBLEDON	wim0 bql1 dqn2
+WIMBLEDONS	wim0 bql1 dqn2
+WIMBLES	wim0 bql2
+WIMBLING	wim0 bling2
+WIMBOURNE	wim0 b@@n0
+WIMBREL	wim0 brql2
+WIMMER	wim0 mqq2
+WIMMERMANN	wim0 mqq2 mxxn0
+WIMMIN	wim0 miin2
+WIMPEACH	wim0 piich3
+WIMPED	wim3
+WIMPEE	wim0 pii2
+WIMPER	wim0 pqq2
+WIMPERED	wim0 pqq2
+WIMPERING	wim0 pq1 ring2
+WIMPERS	wim0 pqq2
+WIMPERY	wim0 pq1 rii2
+WIMPIE	wim0 paaj0
+WIMPIER	wim0 pi1 qq2
+WIMPIEST	wim0 pi1 es1
+WIMPINESS	wim0 pi1 nees1
+WIMPING	wim0 ping2
+WIMPISH	wim0 pich1
+WIMPISHLY	wim0 pich3 lii2
+WIMPISHNESS	wim0 pich3 nees1
+WIMPLE	wim0 pql2
+WIMPLED	wim0 pql2
+WIMPLES	wim0 pql2
+WIMPLING	wim0 pling2
+WIMPRESS	wim0 phres1
+WIMPS	wim3
+WIMPSKI	wim3 sa1 kii2
+WIMPY	wim0 pii2
+WIMPYS	wim0 pii2
+WIN	win0
+WINAND	win0 nqn2
+WINANT	win0 nxxn3
+WINANTS	win0 nxxn3
+WINBERG	win0 bqqk1
+WINBERRY	win0 bee0 rii2
+WINBORN	win0 b@@n0
+WINBORNE	win0 b@@n0
+WINBURN	win0 bqqn0
+WINBUSH	win0 buch3
+WINCE	win3
+WINCED	win3
+WINCER	win0 sqq2
+WINCER	win0 sqq2
+WINCERS	win0 sqq2
+WINCERS	win0 sqq2
+WINCES	win0 ses1
+WINCEY	win0 sii2
+WINCEYETTE	win0 si1 et1
+WINCEYS	win0 sii2
+WINCH	win3
+WINCHED	win3
+WINCHELL	win0 cheel0
+WINCHELLS	win0 cheel0
+WINCHER	win0 chqq2
+WINCHER	win0 chqq2
+WINCHERS	win0 chqq2
+WINCHERS	win0 chqq2
+WINCHES	win0 ches1
+WINCHESTER	win0 ches3 tqq2
+WINCHESTER	win0 ches3 tqq2
+WINCHESTERS	win0 ches3 tqq2
+WINCHESTERS	win0 ches3 tqq2
+WINCHFIELD	win0 fiil0
+WINCHING	win0 ching2
+WINCING	win3 sing2
+WINCINGLY	win3 sing2 lii2
+WINCOM	win0 kh@@m2
+WINCON	win0 kh@@n2
+WIND	waaj0
+WIND	win0
+WINDABLE	win0 dee0 bql2
+WINDAGE	win0 dic1
+WINDAGES	win0 dic1 cis1
+WINDALL	win0 d@@l0
+WINDATA	win0 dee0 tqq2
+WINDBAG	win0 bxk3
+WINDBAGGED	win0 bxk3
+WINDBAGGERY	win0 bxk3 kqq0 rii2
+WINDBAGS	win0 bxk3
+WINDBALL	win0 b@@l0
+WINDBERG	win0 bqqk1
+WINDBERRY	win0 bee0 rii2
+WINDBLOW	win0 bloo0
+WINDBLOWERS	win0 bloo0 wqq2
+WINDBLOWN	win0 bloon0
+WINDBORNE	win0 b@@n0
+WINDBREAK	win0 breek1
+WINDBREAKER	win0 breek3 kqq2
+WINDBREAKER	win0 breek3 kqq2
+WINDBREAKERS	win0 breek3 kqq2
+WINDBREAKS	win0 breek1
+WINDBURN	win0 bqqn0
+WINDBURNED	win0 bqqn0
+WINDBURNS	win0 bqqn0
+WINDBURNT	win0 bqqn0
+WINDCHEATER	win0 chiit3 tqq2
+WINDCHEATER	win0 chiit3 tqq2
+WINDCHEATERS	win0 chiit3 tqq2
+WINDCHILL	win0 chil0
+WINDCHILLS	win0 chil0
+WINDCHIME	win0 chaam0
+WINDCHIMES	win0 chaam0
+WINDECK	win0 dek3
+WINDECKER	win0 dek3 kqq2
+WINDED	win0 det1
+WINDEDLY	win0 det3 lii2
+WINDEDNESS	win0 det1 nees1
+WINDELL	win0 deel0
+WINDER	waaj0 dqq2
+WINDER	waaj0 dqq2
+WINDER	win0 dqq2
+WINDER	win0 dqq2
+WINDERIN	win0 dee0 rin2
+WINDERMAN	win0 dq1 mxxn0
+WINDERMERE	win0 dq1 miia0
+WINDERMERE	win0 dq1 miia0
+WINDERMOST	win0 dq1 moos3
+WINDERS	win0 dqq2
+WINDERWOOD	win0 dqq2 wuut3
+WINDES	waaj0
+WINDES	win0
+WINDEX	win0 dek3
+WINDEXED	win0 dek3
+WINDFALL	win0 f@@l0
+WINDFALLEN	win0 f@@l0 lqn2
+WINDFALLS	win0 f@@l0
+WINDFIELD	win0 fiil0
+WINDFIELDS	win0 fiil0
+WINDFILL	win0 fil0
+WINDFISH	win0 fich3
+WINDFLOWER	win0 flaaw0 wqq2
+WINDFLOWER	win0 flaaw0 wqq2
+WINDFLOWERS	win0 flaaw0 wqq2
+WINDHAM	win0 hxxm0
+WINDHOLE	win0 hool0
+WINDHORSE	win0 h@@s3
+WINDHOVER	win0 hof3 wqq2
+WINDHURST	win0 hqqs3
+WINDIE	win0 daaj0
+WINDIER	win0 diia0
+WINDIER	win0 diia0
+WINDIES	win0 dis1
+WINDIEST	win0 des1
+WINDIG	win0 dik1
+WINDIGO	win0 dik3 khoo2
+WINDILY	win0 di1 lii2
+WINDINESS	win0 di1 nees1
+WINDING	waaj0 ding2
+WINDING	win0 ding2
+WINDINGLY	waaj0 ding0 lii2
+WINDINGS	waaj0 ding2
+WINDINGS	win0 ding2
+WINDISH	win0 dich1
+WINDJAMMER	win0 cxxm0 mqq2
+WINDJAMMER	win0 cxxm0 mqq2
+WINDJAMMERS	win0 cxxm0 mqq2
+WINDLASS	win0 lqq2
+WINDLASSED	win0 lqs3
+WINDLASSES	win0 lqs2 ses1
+WINDLASSING	win0 lqs2 sing2
+WINDLE	win0 dql2
+WINDLER	win0 dql2 rqq2
+WINDLES	win0 dql2
+WINDLESS	win0 lqq2
+WINDLESSLY	win0 dql2 lis3 lii2
+WINDLESSNESS	win0 dql2 lis3 nees1
+WINDLEY	win0 lee2
+WINDLIKE	win0 laj3
+WINDLIN	win0 lin2
+WINDLINES	win0 laaj0
+WINDLING	win0 ling2
+WINDLY	win0 lii2
+WINDMAN	win0 mqn2
+WINDMERE	win0 miia0
+WINDMILL	win0 mil0
+WINDMILLED	win0 mil0
+WINDMILLER	win0 mil0 lqq2
+WINDMILLER	win0 mil0 lqq2
+WINDMILLING	win0 mil0 ling2
+WINDMILLS	win0 mil0
+WINDMILLY	win0 mil0 lii2
+WINDOM	win0 dqm2
+WINDON	win0 dqn2
+WINDORE	win0 d@@0
+WINDOS	win0 d@@s2
+WINDOVER	win0 doo0 wqq2
+WINDOW	win0 doo2
+WINDOWED	win0 doo2
+WINDOWES	win0 doos2
+WINDOWING	win0 doo2 ing2
+WINDOWLESS	win0 doo2 les1
+WINDOWLESSNESS	win0 doo2 les3 nees1
+WINDOWPANE	win0 doo2 pheen0
+WINDOWPANES	win0 doo2 pheen0
+WINDOWS	win0 doos2
+WINDOWSILL	win0 doo2 sil0
+WINDOWSILLS	win0 doo2 sil0
+WINDOZE	win0 doos2
+WINDPIPE	win0 paaj3
+WINDPIPES	win0 paaj3
+WINDPROOF	win0 phruuf3
+WINDRED	win0 drit1
+WINDRICH	win0 drich3
+WINDRIDGE	win0 dric1
+WINDRIFT	win0 drif3
+WINDRIGGER	win0 drik3 kqq2
+WINDRING	win0 dring2
+WINDROD	win0 dr@@t3
+WINDROS	win0 dr@@s3
+WINDROSES	win0 dr@@s3 ses1
+WINDROSS	win0 dr@s3
+WINDROW	win0 dr@@0
+WINDROWING	win0 dr@@0 ing2
+WINDROWS	win0 dr@@s2
+WINDS	waaj0
+WINDS	win0
+WINDSCREEN	win0 sa1 kriin0
+WINDSCREENS	win0 sa1 kriin0
+WINDSHIELD	win0 chiil0
+WINDSHIELDS	win0 chiil0
+WINDSHIP	win0 chip3
+WINDSOCK	win0 s@k3
+WINDSOCKS	win0 s@k3
+WINDSOR	win0 sqq2
+WINDSOR	win0 sqq2
+WINDSORS	win0 sqq2
+WINDSORS	win0 sqq2
+WINDSPEED	win0 sa1 piit1
+WINDSPEEDS	win0 sa1 piit1
+WINDSTAR	win0 sa1 taa0
+WINDSTARS	win0 sa1 taa0
+WINDSTEIN	waaj0 sa1 taaj0
+WINDSTORM	win0 sa1 t@@m0
+WINDSTORMS	win0 sa1 t@@m0
+WINDSTREAM	win0 sa1 triim0
+WINDSURF	win0 sqqf3
+WINDSURFING	win0 sqqf3 fing2
+WINDSWEPT	win0 sa1 wep3
+WINDUP	win0 dap2
+WINDUPS	win0 dap2
+WINDUST	win0 das3
+WINDUSTRIAL	win0 das3 triial2
+WINDWARD	win0 wqt1
+WINDWARDLY	win0 wqt1 lii2
+WINDWARDNESS	win0 wqt1 nees1
+WINDWARDS	win0 wqt1
+WINDWAY	win0 wee0
+WINDWOMAN	win0 wuu3 mqn2
+WINDWOOD	win0 wuut3
+WINDWORD	win0 wqqt1
+WINDY	win0 dii2
+WINE	waaj0
+WINEBAR	waaj0 baa0
+WINEBARGER	waaj0 baa0 cqq2
+WINEBARS	waaj0 baas2
+WINEBERG	waaj0 bqqk1
+WINEBERRIES	waaj0 bee0 rii2
+WINEBERRY	waaj0 bee0 rii2
+WINED	waaj0
+WINEGARDEN	waaj0 kaa0 dqn2
+WINEGARTEN	waaj0 kaa0 thqn2
+WINEGLASS	waaj0 klaas3
+WINEGLASSES	waaj0 klaas3 ses1
+WINEGROWER	waaj0 kroo0 wqq2
+WINEHEAD	waaj0 heet3
+WINEHEADS	waaj0 heet3
+WINEINGER	waaj0 nin0 cqq2
+WINELAND	win0 niil0 lqn2
+WINELANDER	win0 niil0 lqn1 dqq2
+WINELANDER	win0 niil0 lqn1 dqq2
+WINELANDS	win0 niil0 lqn2
+WINELINE	waaj0 laaj0
+WINEMAKE	waaj0 meek3
+WINEMAKER	waaj0 meek3 kqq2
+WINEMAKER	waaj0 meek3 kqq2
+WINEMAKERS	waaj0 meek3 kqq2
+WINEMAKING	waaj0 meek3 king2
+WINEMAKINGS	waaj0 meek3 king2
+WINEMAN	waaj0 mxxn0
+WINEMILLER	waaj0 mil0 lqq2
+WINEPRESS	waaj0 phres3
+WINEPRESSES	waaj0 phres3 ses1
+WINER	waaj0 nqq2
+WINER	waaj0 nqq2
+WINER	win0 nqq2
+WINER	win0 nqq2
+WINERIES	waaj0 nqq0 rii2
+WINERMAN	waaj0 nq1 mxxn0
+WINERS	waaj0 nqq2
+WINERS	waaj0 nqq2
+WINERS	win0 nqq2
+WINERS	win0 nqq2
+WINERY	waaj0 nqq0 rii2
+WINES	waaj0
+WINESHOP	waaj0 ch@p1
+WINESHOPS	waaj0 ch@p1
+WINESKIN	waaj0 sa1 kin0
+WINESKINS	waaj0 sa1 kin0
+WINESOP	waaj0 s@p1
+WINESOPS	waaj0 s@p1
+WINFIELD	win0 fiil0
+WINFIELDS	win0 fiil0
+WINFORD	win0 f@@t1
+WINFORM	win0 f@@m0
+WINFORUM	win0 f@@0 rqm2
+WINFRED	win0 freet1
+WINFREE	win0 frii0
+WINFREY	win0 frii2
+WINFREYS	win0 frii2
+WINFRID	win0 frit1
+WINFRITH	win0 frit1
+WINFULL	win0 fuul0
+WING	wing0
+WINGARD	wing0 kqqt1
+WINGATE	wing0 keet1
+WINGATE	wing0 keet1
+WINGATES	wing0 keet1
+WINGATES	wing0 keet1
+WINGBACK	wing0 bxk3
+WINGBACKED	wing0 bxk3
+WINGBACKS	wing0 bxk3
+WINGBONES	wing0 boon0
+WINGBOW	wing0 boo0
+WINGDALE	wing0 deel0
+WINGDING	wing0 ding2
+WINGDINGS	wing0 ding2
+WINGDOM	wing0 dqm2
+WINGED	wing0
+WINGER	wing0 ngqq2
+WINGER	wing0 ngqq2
+WINGERD	wing0 ngqqt1
+WINGERD	wing0 ngqqt1
+WINGERS	wing0 ngqq2
+WINGERTER	wing0 ngqq0 tqq2
+WINGES	wing0
+WINGET	win0 ket1
+WINGFIELD	wing0 fiil0
+WINGFIELDS	wing0 fiil0
+WINGFISH	wing0 fich3
+WINGFORD	wing0 f@@t1
+WINGING	wing0 nging2
+WINGISM	wing0 ngis3 svm2
+WINGLASS	win0 klaas3
+WINGLE	wing0 kql2
+WINGLER	wing0 klqq2
+WINGLESS	wing0 lqs1
+WINGLET	wing0 let1
+WINGLETS	wing0 lit1
+WINGLIKE	wing0 laj3
+WINGMAN	wing0 mxxn0
+WINGMASTER	wing0 maas3 tqq2
+WINGMEN	wing0 men0
+WINGOVER	wing0 ng@@f3 wqq2
+WINGOVERS	wing0 ng@@f3 wqq2
+WINGRAVE	win0 kreef3
+WINGREEN	win0 kriin0
+WINGROVE	win0 kr@@f3
+WINGS	wing0
+WINGSPAN	wing0 sa1 pxxn0
+WINGSPANS	wing0 sa1 pxxn0
+WINGSPREAD	wing0 sa1 preet3
+WINGSPREADS	wing0 sa1 preet3
+WINICK	win0 nik1
+WINIFRED	win0 ni3 fret1
+WINING	waaj0 ning2
+WININGER	waaj0 ning2 ngqq2
+WININGER	waaj0 ning2 ngqq2
+WININGS	waaj0 ning2
+WINK	wing3
+WINKED	wing3
+WINKELMAN	wing0 kheel0 mxxn0
+WINKELMANN	wing0 kheel0 mxxn0
+WINKELMANNS	wing0 kheel0 mxxn0
+WINKELSTEIN	win0 kheel0 sa1 thaaj0
+WINKEN	win0 keen0
+WINKER	wing0 kqq2
+WINKERED	wing0 kqq2
+WINKERS	wing0 kqq2
+WINKFIELD	wing3 fiil0
+WINKIES	wing0 kii2
+WINKING	wing0 king2
+WINKINGLY	wing3 king0 lii2
+WINKLE	wing0 kql2
+WINKLED	wing0 kql2
+WINKLEMAN	wing0 kql2 mxxn0
+WINKLER	wing0 klqq2
+WINKLER	wing0 klqq2
+WINKLES	wing0 kql2
+WINKLESS	wing3 lqs2
+WINKLET	wing3 let1
+WINKLEY	wing3 lii2
+WINKLING	wing3 kling2
+WINKS	wing3
+WINLAND	win0 lxxn0
+WINLAW	win0 l@@0
+WINLESS	win0 les1
+WINLESSNESS	win0 les3 nees1
+WINLEY	win0 lee2
+WINLOW	win0 loo2
+WINNED	win0 net1
+WINNER	win0 nqq2
+WINNER	win0 nqq2
+WINNERS	win0 nqq2
+WINNET	win0 net1
+WINNETT	win0 net1
+WINNICK	win0 nik1
+WINNIE	win0 nii2
+WINNIGER	win0 ni1 chxx0
+WINNING	win0 ning2
+WINNINGER	win0 ning0 ngqq2
+WINNINGER	win0 ning0 ngqq2
+WINNINGEST	win0 ning0 ngis3
+WINNINGHAM	win0 ning2 hxxm0
+WINNINGLY	win0 ning2 lii2
+WINNINGS	win0 ning2
+WINNINGTON	win0 ning0 tan2
+WINNINK	win0 ning3
+WINNIPEG	win0 ni3 phek3
+WINNIPEGS	win0 ni3 phek3
+WINNOW	win0 noo2
+WINNOWED	win0 noo2
+WINNOWER	win0 noo0 wqq2
+WINNOWERS	win0 noo0 wqq2
+WINNOWING	win0 noo0 wing2
+WINNOWINGLY	win0 noo0 wing2 lii2
+WINNOWS	win0 noos2
+WINOES	win0 noos2
+WINOLA	win0 noo0 lqq2
+WINOLD	win0 nool0
+WINOS	win0 noos2
+WINQUIST	win0 khwis3
+WINS	win2
+WINSBERG	win0 sa1 bqqk1
+WINSBURY	win0 sa1 bee0 rii2
+WINSCALE	win0 sa1 kheel0
+WINSCOTT	win0 sa1 kh@t1
+WINSDALE	win0 sa1 deel0
+WINSER	win0 sqq2
+WINSER	win0 sqq2
+WINSERVER	win0 sqqf3 wqq2
+WINSERVERS	win0 sqqf3 wqq2
+WINSETT	win0 set1
+WINSFORD	win0 sa1 fqqt1
+WINSHALL	win0 chxxl0
+WINSHIELD	win0 chiil0
+WINSHIP	win0 chip3
+WINSICK	win0 sik3
+WINSIDE	win0 saj3
+WINSKI	win0 sa1 kii2
+WINSKILL	win0 sa1 kil0
+WINSKIS	win0 sa1 kii2
+WINSKY	win0 sa1 kaaj0
+WINSLADE	win0 sa1 leet1
+WINSLADES	win0 sa1 leet1
+WINSLET	win0 sa1 let1
+WINSLEY	win0 sa1 lee2
+WINSLOW	win0 sa1 loo2
+WINSLOWS	win0 sa1 loos2
+WINSOM	win0 svm2
+WINSOME	win0 svm2
+WINSOMELY	win0 sqm2 lii2
+WINSOMENESS	win0 sqm1 nees1
+WINSOMER	win0 sqm1 mqq2
+WINSOMER	win0 sqm1 mqq2
+WINSOMEST	win0 sqm1 mis3
+WINSON	win0 san2
+WINSONE	win0 sa1 wan0
+WINSOR	win0 sqq2
+WINSTABLE	win0 sa1 tee0 bql2
+WINSTAN	win0 sa1 txxn0
+WINSTANLEY	win0 sa1 txxn0 lii2
+WINSTANLY	win0 sa1 txxn0 lii2
+WINSTAR	win0 sa1 taa0
+WINSTEAD	win0 sa1 teet1
+WINSTED	win0 sa1 teet1
+WINSTEIN	win0 sa1 taaj0
+WINSTER	win0 sa1 tqq2
+WINSTOM	win0 sa1 t@@m0
+WINSTON	win0 sa1 tan2
+WINSTONE	win0 sa1 toon0
+WINSTONS	win0 sa1 tan2
+WINSTONVILLE	win0 sa1 tan2 wil0
+WINSTROL	win0 sa1 tr@@l0
+WINTEC	win0 thek1
+WINTECH	win0 thek1
+WINTEL	win0 thql2
+WINTELL	win0 theel0
+WINTER	win0 tqq2
+WINTER	win0 tqq2
+WINTERBERG	win0 thqq0 bqqk1
+WINTERBERRY	win0 thqq0 bee0 rii2
+WINTERBORNE	win0 thqq0 b@@n0
+WINTERBOURNE	win0 thqq0 b@@n0
+WINTERBROOK	win0 thqq0 bruuk3
+WINTERBURG	win0 thqq0 bqqk1
+WINTERBURN	win0 thqq0 bqqn0
+WINTERDALE	win0 thqq0 deel0
+WINTERED	win0 tqq2
+WINTERER	win0 tq1 rqq2
+WINTERER	win0 tq1 rqq2
+WINTERER	win0 tq1 rqq2
+WINTERER	win0 tq1 rqq2
+WINTERERS	win0 tq1 rqqs2
+WINTERFAT	win0 thqq0 fxt3
+WINTERFIELD	win0 thqq0 fiil0
+WINTERGREEN	win0 thqq0 kriin0
+WINTERGREENS	win0 thqq0 kriin0
+WINTERHALTER	win0 thqq0 h@@l0 tqq2
+WINTERHALTERS	win0 thqq0 h@@l0 tqq2
+WINTERHOUSE	win0 thqq0 haaw3
+WINTERIER	win0 thq1 ri1 qq2
+WINTERIER	win0 thq1 ri1 qq2
+WINTERIEST	win0 thq1 ri1 es1
+WINTERING	win0 thq1 ring2
+WINTERKILL	win0 thqq0 kil0
+WINTERKILLED	win0 thqq0 kil0
+WINTERKILLING	win0 thqq0 kil0 ling2
+WINTERKILLS	win0 thqq0 kil0
+WINTERLAND	win0 thq1 lxxn0
+WINTERLANDS	win0 thq1 lxxn0
+WINTERLESS	win0 thqq0 les1
+WINTERLIKE	win0 thqq0 laj3
+WINTERLINED	win0 thqq0 laaj0
+WINTERLING	win0 thqq0 ling2
+WINTERLUDE	win0 thq1 luut1
+WINTERLY	win0 thq1 lii2
+WINTERMAN	win0 thqq2 mxxn0
+WINTERMUTE	win0 thqq2 miw3
+WINTERNATIONAL	win0 thqq2 nee0 chan2 n@l2
+WINTERNATIONALS	win0 thqq2 nee0 chan2 n@l2
+WINTERNET	win0 thqq0 net1
+WINTERPLACE	win0 thqq2 phlees3
+WINTERPROOF	win0 thqq2 phruuf3
+WINTERRUN	win0 thqq2 ran0
+WINTERS	win0 thqq2
+WINTERSHALL	win0 thqq2 chxxl0
+WINTERSOME	win0 thqq2 sam0
+WINTERSON	win0 thqq2 san0
+WINTERSTEEN	win0 thq1 sa1 tiin0
+WINTERSTEIN	win0 thqq2 sa1 taaj0
+WINTERSVILLE	win0 thq1 sa1 wil0
+WINTERTIDE	win0 thqq2 taaj0
+WINTERTIME	win0 thq1 thaam0
+WINTERTON	win0 thqq0 tan2
+WINTERTONS	win0 thqq0 tan2
+WINTERTREE	win0 thqq2 thrii0
+WINTERY	win0 thq1 rii2
+WINTEX	win0 thek1
+WINTLE	win0 thql2
+WINTLING	win0 thq1 ling2
+WINTNER	win0 nqq2
+WINTON	win0 thqn2
+WINTOR	win0 th@@0
+WINTOUR	win0 thuua0
+WINTRAC	win0 thrxk3
+WINTREE	win0 thrii0
+WINTRIER	win0 thriia0
+WINTRIER	win0 thriia0
+WINTRIEST	win0 thri1 es1
+WINTRIFY	win0 thri3 faaj0
+WINTRINESS	win0 thri3 nees1
+WINTRINGER	win0 thring0 kqq2
+WINTRINGHAM	win0 thring0 hqm2
+WINTRY	win0 thrii2
+WINTUS	win0 thqq2
+WINTZ	win3
+WINTZEN	win0 sen2
+WINTZER	win0 sqq2
+WINTZER	win0 sqq2
+WINWARD	win0 w@@t1
+WINWICK	win0 wik3
+WINWOOD	win0 wuut3
+WINY	waaj0 nii2
+WINZEN	win0 sen2
+WINZENBURG	win0 sen0 bqqk1
+WIPE	waaj3
+WIPED	waaj3
+WIPEOUT	waaj3 aaw3
+WIPEOUTS	waaj3 aaw3
+WIPER	waaj3 pqq2
+WIPER	waaj3 pqq2
+WIPERS	waaj3 pqq2
+WIPES	waaj3
+WIPING	waaj3 ping2
+WIRE	waaj0 qq2
+WIRE	waaj0 qq2
+WIRED	waaj0 qq2
+WIREDRAW	waaj0 q1 dr@@0
+WIREDRAWER	waaj0 q1 dr@@0 qq2
+WIREDRAWN	waaj0 q1 dr@@n2
+WIREDRAWS	waaj0 q1 dr@@s2
+WIREDREW	waaj0 q1 druu0
+WIREHAIR	waaj0 q1 hxx0
+WIREHAIRED	waaj0 q1 hxx0
+WIREHAIRS	waaj0 q1 hxx0
+WIREHOUSES	waaj0 q1 haaw3 ses1
+WIRELESS	waaj0 q1 lis1
+WIRELESSED	waaj0 q1 lis1
+WIRELESSES	waaj0 q1 lis3 ses1
+WIRELESSNESS	waaj0 q1 lis3 nees1
+WIRELINE	waaj0 q1 laaj0
+WIREMAKER	waaj0 q1 meek3 kqq2
+WIREMAKING	waaj0 q1 meek3 king2
+WIREMAN	waaj0 q1 mxxn0
+WIREMEN	waaj0 q1 men0
+WIREPHOTO	waaj0 q1 foo0 too2
+WIREPHOTOS	waaj0 q1 foo0 too2
+WIREPULLER	waaj0 q1 phuul0 lqq2
+WIREPULLER	waaj0 q1 phuul0 lqq2
+WIREPULLERS	waaj0 q1 phuul0 lqq2
+WIREPULLING	waaj0 q1 phuul0 ling2
+WIRER	waaj0 qq2
+WIRER	waaj0 qq2
+WIRER	waaj0 qq2
+WIRER	waaj0 qq2
+WIRERS	waaj0 qq2
+WIRERS	waaj0 qq2
+WIRERS	waaj0 qq2
+WIRERS	waaj0 qq2
+WIRES	waaj0 qq2
+WIRETAP	waaj0 q1 thxp3
+WIRETAPED	waaj0 q1 theep3
+WIRETAPING	waaj0 q1 theep3 ping2
+WIRETAPPED	waaj0 q1 thxp3
+WIRETAPPER	waaj0 q1 thxp3 pqq2
+WIRETAPPERS	waaj0 q1 thxp3 pqq2
+WIRETAPPING	waaj0 q1 thxp3 ping2
+WIRETAPS	waaj0 q1 thxp3
+WIREWAY	waaj0 q1 wee0
+WIREWAYS	waaj0 q1 wee0
+WIREWORK	waaj0 q1 wqqk3
+WIREWORKS	waaj0 q1 wqqk3
+WIREWORM	waaj0 q1 wqqm0
+WIREWORMS	waaj0 q1 wqqm0
+WIRIER	waaj0 ri1 qq2
+WIRIER	waaj0 ri1 qq2
+WIRIEST	waaj0 ri1 es1
+WIRING	waaj0 ring2
+WIRINGS	waaj0 ring2
+WIRRAL	wi3 rql2
+WIRY	waaj0 rii2
+WISBECH	wis3 biich1
+WISCONSIN	wis3 kh@@n0 sin2
+WISCONSON	wis3 kh@@n0 san2
+WISCUS	wis3 khqq2
+WISDOM	wis3 dqm2
+WISDOMS	wis3 dqm2
+WISE	waaj3
+WISEACRE	waaj3 see0 khqq2
+WISEACRE	waaj3 see0 khqq2
+WISEACRES	waaj3 see0 khqq2
+WISECARVER	waaj3 khaa0 wqq2
+WISECRACK	waaj3 khrxk3
+WISECRACKED	waaj3 khrxk3
+WISECRACKER	waaj3 khrxk3 kqq2
+WISECRACKER	waaj3 khrxk3 kqq2
+WISECRACKERS	waaj3 khrxk3 kqq2
+WISECRACKERY	waaj3 khrxk3 kqq0 rii2
+WISECRACKING	waaj3 khrxk3 king2
+WISECRACKS	waaj3 khrxk3
+WISECUP	waaj3 khap2
+WISED	waaj3
+WISEGUY	waaj3 kaaj0
+WISEGUYS	waaj3 kaaj0
+WISEHART	waaj3 haat3
+WISELEY	waaj3 lee2
+WISELING	waaj3 ling2
+WISELY	waaj3 lii2
+WISEMAN	waaj3 mxxn0
+WISEMEN	waaj3 men0
+WISEMENS	waaj3 men0
+WISENESS	waaj3 nees1
+WISER	waaj3 sqq2
+WISER	waaj3 sqq2
+WISES	waaj0 ses1
+WISEST	waaj0 ses1
+WISH	wich3
+WISHABLE	wich3 chee0 bql2
+WISHART	wich3 chaat3
+WISHARTNESS	wich3 chaat3 nees1
+WISHARTS	wich3 chaat3
+WISHBONE	wich3 boon0
+WISHBONES	wich3 boon0
+WISHED	wich3
+WISHER	wich3 chqq2
+WISHERD	wich3 chqq2
+WISHERS	wich3 chqq2
+WISHES	wich3 ches1
+WISHEST	wich3 chis3
+WISHFUL	wich3 fuul0
+WISHFULLY	wich3 fuul0 lii2
+WISHFULNESS	wich3 fuul0 nees1
+WISHING	wich3 ching2
+WISHINGLY	wich3 ching2 lii2
+WISHINGS	wich3 ching2
+WISHLESS	wich3 les1
+WISHNESS	wich3 nees1
+WISHNICK	wich3 nik1
+WISHNICKS	wich3 nik1
+WISP	wis3
+WISPED	wis3
+WISPIER	wis3 pi1 qq2
+WISPIER	wis3 pi1 qq2
+WISPIEST	wis3 pi1 es1
+WISPING	wis3 ping2
+WISPS	wis3
+WISPY	wis3 pii2
+WIST	wis3
+WISTAR	wis3 taa0
+WISTARIA	wis3 txx0 riia0
+WISTER	wis3 tqq2
+WISTER	wis3 tqq2
+WISTERIA	wis3 tiia0 riia2
+WISTERIAS	wis3 tiia0 riias2
+WISTERS	wis3 tqq2
+WISTERS	wis3 tqq2
+WISTFUL	wis3 fuul0
+WISTFULLY	wis3 fuul0 lii2
+WISTFULNESS	wis3 fuul0 nees1
+WISTING	wis3 ting2
+WISTINO	wis3 tii0 noo2
+WISTLE	wis3 lii2
+WISTLESS	wis3 les1
+WISTLESSNESS	wis3 thql2 lis3 nees1
+WISTOW	wis3 too2
+WISTRAND	wis3 trxxn0
+WISTREICH	wis3 traj3
+WISTROM	wis3 tr@m0
+WISTS	wis3
+WIT	wit3
+WITBANK	wit3 bxxng3
+WITBECK	wit3 bek3
+WITBROCK	wit3 br@k3
+WITCH	wich3
+WITCHCRAFT	wich3 khraaf3
+WITCHCRAFTS	wich3 khraaf3
+WITCHED	wich3
+WITCHELL	wich3 cheel0
+WITCHEND	wich3 cheen0
+WITCHER	wich3 chqq2
+WITCHER	wich3 chqq2
+WITCHERIES	wich3 chqq2 rii2
+WITCHERING	wich3 chqq2 ring2
+WITCHERY	wich3 chqq2 rii2
+WITCHES	wich3 ches1
+WITCHIEST	wich3 chi1 es1
+WITCHING	wich3 ching2
+WITCHINGLY	wich3 ching2 lii2
+WITCHINGS	wich3 ching2
+WITCHMAN	wich3 mxxn0
+WITCHWOMAN	wich3 wuu3 mqn2
+WITCOMB	wit3 khoom0
+WITCOMBE	wit3 khuum0
+WITH	wit3
+WITHAL	wit3 d@@l0
+WITHAM	wit3 tham2
+WITHAMS	wit3 tham2
+WITHDRAW	wit3 dr@@0
+WITHDRAWABLE	wit3 dr@@0 ee0 bql2
+WITHDRAWAL	wit3 dr@@0 wql2
+WITHDRAWALS	wit3 dr@@0 wql2
+WITHDRAWER	wit3 dr@@0 wqq2
+WITHDRAWER	wit3 dr@@0 wqq2
+WITHDRAWERS	wit3 dr@@0 wqq2
+WITHDRAWING	wit3 dr@@0 wing2
+WITHDRAWL	wit3 dr@@l0
+WITHDRAWLS	wit3 dr@@l0
+WITHDRAWN	wit3 dr@@n0
+WITHDRAWNING	wit3 dr@@n0 ning2
+WITHDRAWNNESS	wit3 dr@@n0 nees1
+WITHDRAWS	wit3 dr@@s2
+WITHDREW	wit3 druu0
+WITHE	wit3
+WITHED	wit3
+WITHED	wit3
+WITHEM	wit3 theem0
+WITHER	wit3 dqq2
+WITHER	wit3 dqq2
+WITHERD	wit3 dqq2
+WITHERD	wit3 dqq2
+WITHERED	wit3 dqq2
+WITHERELL	wit3 dq1 reel2
+WITHERER	wit3 dqq0 rqq2
+WITHERER	wit3 dqq0 rqq2
+WITHERER	wit3 dqq0 rqq2
+WITHERER	wit3 dqq0 rqq2
+WITHERERS	wit3 dq1 rqq2
+WITHERERS	wit3 dq1 rqq2
+WITHERERS	wit3 dqq0 rqq2
+WITHERERS	wit3 dqq0 rqq2
+WITHERING	wit3 dqq0 ring2
+WITHERINGHAM	wit3 dqq0 ring2 hxxm0
+WITHERINGLY	wit3 dqq0 ring2 lii2
+WITHERINGS	wit3 dqq0 ring2
+WITHERINGTON	wit3 dqq0 ring2 tan2
+WITHERINGTONS	wit3 dqq0 ring2 tan2
+WITHERNSEA	wit3 den0 sii2
+WITHEROW	wit3 thq1 raaw0
+WITHERS	wit3 dqq2
+WITHERSPOON	wit3 dq1 sa1 puun0
+WITHERSPOONS	wit3 dq1 sa1 puun0
+WITHES	wit3
+WITHEY	wit3 thee0
+WITHEYS	wit3 thees3
+WITHFACTOR	wit3 fxk3 tqq2
+WITHHELD	wit3 heel0
+WITHHELD	wit3 heel0
+WITHHOLD	wit3 hool0
+WITHHOLDABLE	wit3 hool0 dee0 bql2
+WITHHOLDEN	wit3 hool0 dqn2
+WITHHOLDER	wit3 hool0 dqq2
+WITHHOLDERS	wit3 hool0 dqq2
+WITHHOLDING	wit3 hool0 ding2
+WITHHOLDINGS	wit3 hool0 ding2
+WITHHOLDMENT	wit3 hool0 men3
+WITHHOLDS	wit3 hool0
+WITHIES	wit3 dii2
+WITHIN	wit3 din0
+WITHING	wit3 ding2
+WITHINGTON	wit3 ding0 tan2
+WITHINS	wit3 din0
+WITHINT	wit3 thin3
+WITHNAIL	wit3 neel0
+WITHOUT	wit3 daaw3
+WITHOUTS	wit3 daaw3
+WITHOUTSIDE	wit3 daaw3 saj3
+WITHROW	wit3 draaw0
+WITHSTAND	wit3 sa1 txxn0
+WITHSTANDER	wit3 sa1 txxn0 dqq2
+WITHSTANDER	wit3 sa1 txxn0 dqq2
+WITHSTANDING	wit3 sa1 txxn0 ding2
+WITHSTANDS	wit3 sa1 txxn0
+WITHSTOOD	wit3 sa1 tuut3
+WITHY	wit3 dii2
+WITKIN	wit3 khin2
+WITKIND	wit3 khaaj0
+WITKINS	wit3 khin2
+WITLAND	wit3 lxxn0
+WITLESS	wit3 lis1
+WITLESSLY	wit3 lqs3 lii2
+WITLESSNESS	wit3 lis3 nees1
+WITLET	wit3 lit1
+WITLEY	wit3 lee2
+WITLIN	wit3 lin2
+WITLING	wit3 thql2 ling2
+WITLINGS	wit3 thql2 ling2
+WITLOCK	wit3 l@k3
+WITMAN	wit3 mxxn0
+WITMEN	wit3 men0
+WITNESS	wit3 nees1
+WITNESS	wit3 nees1
+WITNESSABLE	wit3 nis1 see0 bql2
+WITNESSED	wit3 nees1
+WITNESSER	wit3 nqs3 sqq2
+WITNESSER	wit3 nqs3 sqq2
+WITNESSER	wit3 nis3 sqq2
+WITNESSER	wit3 nis3 sqq2
+WITNESSERS	wit3 nqs3 sqq2
+WITNESSERS	wit3 nqs3 sqq2
+WITNESSERS	wit3 nis3 sqq2
+WITNESSERS	wit3 nis3 sqq2
+WITNESSES	wit3 nqs3 ses1
+WITNESSING	wit3 nqs3 sing2
+WITNESSINGS	wit3 nqs3 sing2
+WITNEY	wit3 nii2
+WITS	wit3
+WITSEN	wit3 sen2
+WITSENBURG	wit3 sen0 bqqk1
+WITSEND	wit3 sen3
+WITTAKER	wit3 theek3 kqq2
+WITTED	wit3 theet1
+WITTEDNESS	wit3 theet1 nees1
+WITTEL	wit3 theel0
+WITTELES	wit3 theel0
+WITTELS	wit3 theel0
+WITTEN	wit3 then2
+WITTENBERG	wit3 then2 bqqk1
+WITTENBERGER	wit3 then2 bqqk1 kqq2
+WITTENBERGS	wit3 then2 bqqk1
+WITTENBORN	wit3 then2 b@@n0
+WITTENBURG	wit3 then2 bqqk1
+WITTENHAM	wit3 then2 hxxm0
+WITTER	wit3 thqq2
+WITTERED	wit3 thqq2
+WITTERING	wit3 thqq2 ring2
+WITTERINGS	wit3 thq1 ring2
+WITTERS	wit3 thqq2
+WITTEST	wit3 thes1
+WITTGENSTEIN	wit3 kqn2 sa1 taaj0
+WITTICISM	wit3 this3 sis3 svm2
+WITTICISMS	wit3 this3 sis3 svm2
+WITTICK	wit3 tik1
+WITTIER	wit3 thi1 qq2
+WITTIER	wit3 thi1 qq2
+WITTIEST	wit3 thi1 es1
+WITTIFIED	wit3 thi1 faaj0
+WITTIG	wit3 tik1
+WITTILY	wit3 thil0 lii2
+WITTING	wit3 ting2
+WITTINGDALE	wit3 ting2 deel0
+WITTINGHAM	wit3 ting2 hqm2
+WITTINGLY	wit3 ting2 lii2
+WITTINGS	wit3 ting2
+WITTINGTON	wit3 ting2 tan2
+WITTINK	wit3 ting3
+WITTLER	wit3 thql2 lqq2
+WITTON	wit3 tan2
+WITTONS	wit3 tan2
+WITTRICK	wit3 thrik1
+WITTY	wit3 tii2
+WITTYS	wit3 tii2
+WITWALL	wit3 w@@l0
+WITWORM	wit3 wqqm0
+WITWORTH	wit3 wqqt1
+WIVE	waaj3
+WIVED	waaj3
+WIVER	waaj3 wqq2
+WIVER	waaj3 wqq2
+WIVERN	waaj3 wqqn0
+WIVERNS	waaj3 wqqn0
+WIVERS	waaj3 wqq2
+WIVERS	waaj3 wqq2
+WIVES	waaj3
+WIVING	waaj3 wing2
+WIZARD	wi3 sqt1
+WIZARDLIKE	wi3 sqt1 laj3
+WIZARDLY	wi3 sqt1 lii2
+WIZARDRY	wi3 sqt1 drii2
+WIZARDS	wi3 sqt1
+WIZEN	wi3 sqn2
+WIZENED	wi3 sqn2
+WIZENING	wi3 sqn1 ning2
+WIZENS	wi3 sqn2
+WO	woo0
+WOAD	w@@t1
+WOADED	w@@t3 det1
+WOADS	w@@t1
+WOBBLE	w@@p3 bql2
+WOBBLED	w@@p3 bql2
+WOBBLER	w@@p3 blqq2
+WOBBLER	w@@p3 blqq2
+WOBBLERS	w@@p3 blqq2
+WOBBLES	w@@p3 bql2
+WOBBLIER	w@@p3 bliia0
+WOBBLIER	w@@p3 bliia0
+WOBBLIES	w@@p3 blis3
+WOBBLIEST	w@@p3 bql2 es1
+WOBBLING	w@@p3 bling2
+WOBBLINGLY	w@@p3 bling0 lii2
+WOBBLINGS	w@@p3 bling2
+WOBBLY	w@@p3 blii2
+WOBURN	w@@p3 bqn2
+WOE	w@@0
+WOEBEGONE	w@@0 bi1 koon0
+WOEBEGONES	w@@0 bi1 koon0
+WOEFUL	w@@0 fuul0
+WOEFULLER	w@@0 fuul0 lqq2
+WOEFULLEST	w@@0 fuul0 lis3
+WOEFULLY	w@@0 fql2 lii2
+WOEFULNESS	w@@0 fql2 nees1
+WOENESS	w@@0 nees1
+WOENESSES	w@@0 nes3 ses1
+WOES	w@@0
+WOESOME	w@@0 sam2
+WOKE	wook3
+WOKEN	wook3 khqn2
+WOKING	wook3 khing2
+WOKINGHAM	wook3 khing0 hqm2
+WOLD	wool0
+WOLDEN	wool0 dqn2
+WOLDENBERG	wool0 dqn1 bqqk1
+WOLDER	wool0 dqq2
+WOLDER	wool0 dqq2
+WOLDS	wool0
+WOLF	wuuf3
+WOLFED	wuuf3
+WOLFENDALE	wuuf3 feen0 deel0
+WOLFENDEN	wuuf3 feen0 deen2
+WOLFENSEN	wuuf3 feen0 sen2
+WOLFENSON	wuuf3 feen0 san2
+WOLFENSTEIN	wuuf3 feen0 sa1 thaaj0
+WOLFER	wuuf3 fqq2
+WOLFER	wuuf3 fqq2
+WOLFERS	wuuf3 fqq2
+WOLFERS	wuuf3 fqs2
+WOLFES	wuuf3
+WOLFGANG	wuuf3 kxxng0
+WOLFGANGERS	wuuf3 kxxng0 ngqq2
+WOLFGANGS	wuuf3 kxxng0
+WOLFGRAM	wuuf3 krxxm2
+WOLFHOUND	wuuf3 haaw0
+WOLFHOUNDS	wuuf3 haaw0
+WOLFIN	wuuf3 fin2
+WOLFINBARGER	wuuf3 fin0 baa0 cqq2
+WOLFING	wuuf3 fing2
+WOLFINGER	wuuf3 fing0 ngqq2
+WOLFINGER	wuuf3 fing0 ngqq2
+WOLFINGTON	wuuf3 fing0 tan2
+WOLFISH	wuuf3 fich3
+WOLFISHLY	wuuf3 fich3 lii2
+WOLFISHNESS	wuuf3 fich3 nees1
+WOLFLESS	wuuf3 les1
+WOLFLEY	wuuf3 lee2
+WOLFMAN	wuuf3 mxxn0
+WOLFRAM	wuuf3 rqm2
+WOLFRAMINE	wuuf3 rqm0 maaj0
+WOLFRAMS	wuuf3 rqm2
+WOLFRAN	wuuf3 rxxn0
+WOLFRETON	wuuf3 frit3 thqn2
+WOLFREY	wuuf3 frii2
+WOLFRID	wuuf3 frit1
+WOLFRUM	wuuf3 fram2
+WOLFS	wuuf3
+WOLFSBANE	wuuf3 sa1 been0
+WOLFSBANES	wuuf3 sa1 been0
+WOLFSBURG	wuuf3 sa1 bqqk1
+WOLFSON	wuuf3 san2
+WOLFSONS	wuuf3 san2
+WOLLEN	w@@l0 lqn2
+WOLLENBACK	w@@l0 lqn1 bxk3
+WOLLENBERG	w@@l0 lqn1 bqqk1
+WOLLENBERGER	w@@l0 lqn1 bqqk1 kqq2
+WOLLENBURG	w@@l0 lqn1 bqqk1
+WOLLENS	w@@l0 lqn2
+WOLLENWEBER	w@@l0 lqn1 weep3 bqq2
+WOLVER	wuuf3 wqq2
+WOLVERHAMPTON	wuuf3 wq1 hxxm0 tan2
+WOLVERINE	wuuf3 wqq0 riin0
+WOLVERINES	wuuf3 wqq0 riin0
+WOLVERS	wuuf3 wqq2
+WOLVERSTONE	wuuf3 wqq2 sa1 toon0
+WOLVERTON	wuuf3 wqq0 thqn2
+WOLVERTONS	wuuf3 wqq0 thqn2
+WOLVES	wuuf3
+WOMAN	wuu3 mxn2
+WOMANED	wuu3 mxn2
+WOMANHOOD	wuu3 mxn2 huut3
+WOMANING	wuu3 mqn2 ning2
+WOMANISATION	wuu3 mqn2 naj3 see0 chan2
+WOMANISED	wuu3 mqn2 nis3
+WOMANISER	wuu3 mqn2 nis1 sqq2
+WOMANISERS	wuu3 mqn2 naj3 sqqs2
+WOMANISES	wuu3 mqn2 nis1 ses1
+WOMANISH	wuu3 mqn2 nich1
+WOMANISHLY	wuu3 mqn2 nich3 lii2
+WOMANISHNESS	wuu3 mqn2 nich3 nees1
+WOMANISING	wuu3 mqn2 nis1 sing2
+WOMANISM	wuu3 mqn2 nis3 svm2
+WOMANIST	wuu3 mqn2 nis3
+WOMANISTS	wuu3 mqn2 nis3
+WOMANIZATION	wuu3 mqn2 naj3 see0 chan2
+WOMANIZE	wuu3 mqn2 naj3
+WOMANIZED	wuu3 mqn2 naj3
+WOMANIZER	wuu3 mqn2 naj3 sqq2
+WOMANIZER	wuu3 mqn2 naj3 sqq2
+WOMANIZERS	wuu3 mqn2 naj3 sqq2
+WOMANIZES	wuu3 mqn2 naj3 ses1
+WOMANIZING	wuu3 mqn2 naj3 sing2
+WOMANKIND	wuu3 mqn2 khaaj0
+WOMANLIER	wuu3 mqn2 lii0 qq1
+WOMANLIER	wuu3 mqn2 li1 qq2
+WOMANLIEST	wuu3 mqn2 li1 es1
+WOMANLIKE	wuu3 mqn2 laj3
+WOMANLY	wuu3 mqn2 lii2
+WOMANNESS	wuu3 mqn2 nees1
+WOMANS	wuu3 mqn2
+WOMANSHIP	wuu3 mqn2 chip3
+WOMANY	wuu3 mq1 nii2
+WOMB	wuum0
+WOMBACHER	wuum0 meek3 kqq2
+WOMBAT	w@@m0 bxt1
+WOMBATS	w@@m0 bxt1
+WOMBED	wuum0
+WOMBLES	wuum0 les1
+WOMBLING	wuum0 ling2
+WOMBLINGS	wuum0 ling2
+WOMBOURNE	w@@m0 b@@n0
+WOMBS	wuum0
+WOMEN	wii3 men2
+WOMENFOLK	wii3 men2 fook3
+WOMENS	wii3 men2
+WON	w@n0
+WONDA	wan0 dqq2
+WONDER	wan0 dqq2
+WONDER	wan0 dqq2
+WONDERBAR	wan0 dqq2 baa2
+WONDERBARS	wan0 dqq2 baas2
+WONDERBOX	wan0 dqq2 b@k3
+WONDERD	wan0 dqq2
+WONDERD	wan0 dqq2
+WONDERDOG	wan0 dqq2 d@k3
+WONDERDOGS	wan0 dqq2 d@k3
+WONDERED	wan0 dqq2
+WONDERER	wan0 dqq0 rqq2
+WONDERERED	wan0 dqq0 rqq2
+WONDERERS	wan0 dqq0 rqq2
+WONDERFUL	wan0 dqq2 fuul0
+WONDERFULLY	wan0 dqq2 fuul0 lii2
+WONDERFULNESS	wan0 dqq2 fuul0 nees1
+WONDERFULS	wan0 dqq2 fuul0
+WONDERGRADUATE	wan0 dqq2 krxc3 cuu0 et1
+WONDERING	wan0 dqq0 ring2
+WONDERINGLY	wan0 dq1 ring2 lii2
+WONDERINGS	wan0 dqq0 ring2
+WONDERLAND	wan0 dqq2 lxxn0
+WONDERLANDS	wan0 dqq2 lxxn0
+WONDERLESS	wan0 dqq2 lqq2
+WONDERLINE	wan0 dqq2 laaj0
+WONDERLING	wan0 dqq2 ling2
+WONDERLY	wan0 dqq0 lii2
+WONDERMAN	wan0 dqq2 mxxn0
+WONDERMENT	wan0 dqq2 men3
+WONDERMENTS	wan0 dqq2 men3
+WONDEROUS	wan0 dqq0 rqqs2
+WONDERPANTS	wan0 dqq2 phxxn3
+WONDERS	wan0 dqq2
+WONDERSTRONG	wan0 dqq2 sa1 tr@@ng0
+WONDERSTRUCK	wan0 dqq2 sa1 trak3
+WONDERSTUD	wan0 dqq2 sa1 tat3
+WONDERSTUFF	wan0 dqq2 sa1 taf3
+WONDERWALL	wan0 dqq2 w@@l0
+WONDERWORK	wan0 dqq2 wqqk3
+WONDERWORKER	wan0 dqq2 wqqk3 kqq2
+WONDERWORKING	wan0 dqq2 wqqk3 king2
+WONDERWORKS	wan0 dqq2 wqqk3
+WONDERWORLD	wan0 dqq2 wqql2
+WONDIE	wan0 daaj0
+WONDRA	wan0 drqq2
+WONDRING	wan0 dring2
+WONDROS	wan0 droos2
+WONDROUS	wan0 dras2
+WONDROUSLY	wan0 dras3 lii2
+WONDROUSNESS	wan0 dras3 nees1
+WONING	wan0 ning2
+WONKIER	wan0 ki1 qq2
+WONKY	w@@ng0 kii2
+WONT	w@@n3
+WONTED	w@@n3 thet1
+WONTEDLY	w@@n3 thet1 lii2
+WONTEDNESS	w@@n3 thit2 nees1
+WONTING	w@@n3 ting2
+WONTON	wan0 tan2
+WONTONS	wan0 tan2
+WONTS	w@@n3
+WOO	wuu0
+WOOD	wuut3
+WOODALL	wuut3 d@@l0
+WOODBECK	wuut3 bek1
+WOODBERRY	wuut3 bee0 rii2
+WOODBIN	wuut3 bin2
+WOODBIND	wuut3 baaj0
+WOODBINE	wuut3 baaj0
+WOODBINES	wuut3 baaj0
+WOODBINS	wuut3 bin2
+WOODBLOCK	wuut3 bl@k3
+WOODBLOCKS	wuut3 bl@k3
+WOODBOX	wuut3 b@k3
+WOODBRIDGE	wuut3 bric1
+WOODBURN	wuut3 bqqn0
+WOODBURNING	wuut3 bqqn0 ning2
+WOODBURY	wuut3 bee0 rii2
+WOODBURYS	wuut3 bee0 rii2
+WOODCARVER	wuut3 khaaf3 wqq2
+WOODCARVERS	wuut3 khaaf3 wqq2
+WOODCARVING	wuut3 khaaf3 wing2
+WOODCARVINGS	wuut3 khaaf3 wing2
+WOODCHOPPER	wuut3 ch@p3 pqq2
+WOODCHUCK	wuut3 chak3
+WOODCHUCKS	wuut3 chak3
+WOODCLIFF	wuut3 khlif3
+WOODCLIFFE	wuut3 khlif3
+WOODCOCK	wuut3 kh@k3
+WOODCOCKS	wuut3 kh@k3
+WOODCOX	wuut3 kh@k3
+WOODCRAFT	wuut3 khraaf3
+WOODCRAFTS	wuut3 khraaf3
+WOODCUT	wuut3 khat3
+WOODCUTS	wuut3 khat3
+WOODCUTTER	wuut3 khat3 tqq2
+WOODCUTTER	wuut3 khat3 tqq2
+WOODCUTTERS	wuut3 khat3 tqq2
+WOODCUTTING	wuut3 khat3 ting2
+WOODDELL	wuut3 deel0
+WOODED	wuut3 det1
+WOODEL	wuut3 deel0
+WOODELL	wuut3 deel0
+WOODELS	wuut3 deel0
+WOODEN	wuut3 dqn2
+WOODEND	wuut3 dqn2
+WOODENER	wuut3 dqn2 nqq2
+WOODENER	wuut3 dqn2 nqq2
+WOODENEST	wuut3 dqn2 nis3
+WOODENHEAD	wuut3 dqn2 heet3
+WOODENHEADED	wuut3 dqn1 heet3 det1
+WOODENHEADEDNESS	wuut3 dqn1 heet3 dit1 nees1
+WOODENNESS	wuut3 dqn1 nees1
+WOODENS	wuut3 dqn2
+WOODENSTONE	wuut3 dqn1 sa1 toon0
+WOODENWARE	wuut3 dqn1 wxx0
+WOODES	wuut3
+WOODFIELD	wuut3 fiil0
+WOODFILL	wuut3 fil0
+WOODFILLER	wuut3 fil0 lqq2
+WOODFIN	wuut3 fin2
+WOODFINISHING	wuut3 fi3 nich3 ching2
+WOODFISH	wuut3 fich3
+WOODFIT	wuut3 fit3
+WOODFORD	wuut3 f@@t1
+WOODFORDS	wuut3 f@@t1
+WOODFORK	wuut3 f@@k3
+WOODGRAINING	wuut3 kreen0 ning2
+WOODHALL	wuut3 h@@l0
+WOODHAM	wuut3 hxxm0
+WOODHAMS	wuut3 hxxm0
+WOODHEAD	wuut3 heet3
+WOODHEADS	wuut3 heet3
+WOODHEN	wuut3 heen0
+WOODHOUSE	wuut3 haaw3
+WOODHOUSES	wuut3 haaw3 ses1
+WOODHULL	wuut3 hal0
+WOODIE	wuut3 daaj0
+WOODIER	wuut3 di1 qq2
+WOODIER	wuut3 di1 qq2
+WOODIES	wuut3 dii2
+WOODIEST	wuut3 di1 es1
+WOODIN	wuut3 din2
+WOODINESS	wuut3 di1 nees1
+WOODING	wuut3 ding2
+WOODINGS	wuut3 ding2
+WOODINGTON	wuut3 ding0 tan2
+WOODINS	wuut3 din2
+WOODISH	wuut3 dich1
+WOODKEY	wuut3 khii0
+WOODLAND	wuut3 lxxn0
+WOODLANDED	wuut3 lxxn0 det1
+WOODLANDER	wuut3 lxxn0 dqq2
+WOODLANDER	wuut3 lxxn0 dqq2
+WOODLANDERS	wuut3 lxxn0 dqq2
+WOODLANDS	wuut3 lxxn0
+WOODLEE	wuut3 lii2
+WOODLEIGH	wuut3 lii2
+WOODLET	wuut3 let1
+WOODLEY	wuut3 lee2
+WOODLICE	wuut3 laj3
+WOODLIEF	wuut3 liif3
+WOODLIFE	wuut3 laj3
+WOODLING	wuut3 ling2
+WOODLINK	wuut3 ling3
+WOODLOCK	wuut3 l@k3
+WOODLOCKED	wuut3 l@k3
+WOODLORE	wuut3 l@@0
+WOODLOT	wuut3 l@t3
+WOODLOTS	wuut3 l@t3
+WOODLOUSE	wuut3 laaw3
+WOODLY	wuut3 lii2
+WOODMAC	wuut3 mxk3
+WOODMAN	wuut3 mqn2
+WOODMAN	wuut3 men0
+WOODMANS	wuut3 mqn2
+WOODMANS	wuut3 men0
+WOODMANSEE	wuut3 men0 sii2
+WOODMANSHIP	wuut3 mqn2 chip3
+WOODMANSTON	wuut3 mxxn0 sa1 tan2
+WOODMEN	wuut3 mqn2
+WOODMEN	wuut3 men0
+WOODNOTE	wuut3 noot3
+WOODNOTES	wuut3 noot3
+WOODPECK	wuut3 phek1
+WOODPECKER	wuut3 phek3 kqq2
+WOODPECKER	wuut3 phek3 kqq2
+WOODPECKERS	wuut3 phek3 kqq2
+WOODPILE	wuut3 paaj0
+WOODPILES	wuut3 paaj0
+WOODRICH	wuut3 drich3
+WOODRICK	wuut3 drik1
+WOODRIDGE	wuut3 dric1
+WOODRING	wuut3 dring2
+WOODROME	wuut3 dr@@m0
+WOODROOF	wuut3 druuf3
+WOODROW	wuut3 draaw0
+WOODRUFF	wuut3 draf3
+WOODRUFFS	wuut3 draf3
+WOODRUM	wuut3 dram0
+WOODS	wuut3
+WOODSES	wuut3 ses1
+WOODSHED	wuut3 cheet1
+WOODSHEDS	wuut3 cheet1
+WOODSIDE	wuut3 saj3
+WOODSMALL	wuut3 sa1 m@@l0
+WOODSMAN	wuut3 sa1 mxxn0
+WOODSMAN	wuut3 sa1 men0
+WOODSMANSHIP	wuut3 sa1 mxn2 chip3
+WOODSMEN	wuut3 sa1 men0
+WOODSON	wuut3 san2
+WOODSTAIN	wuut3 sa1 teen0
+WOODSTAINS	wuut3 sa1 teen0
+WOODSTEAD	wuut3 sa1 teet3
+WOODSTER	wuut3 sa1 tqq2
+WOODSTOCK	wuut3 sa1 t@k3
+WOODSTOCKERS	wuut3 sa1 t@k3 kqq2
+WOODSTOCKS	wuut3 sa1 t@k3
+WOODSTON	wuut3 sa1 tan2
+WOODSTONE	wuut3 sa1 toon0
+WOODSTOVE	wuut3 sa1 toof3
+WOODSTOVES	wuut3 sa1 toof3
+WOODSTOW	wuut3 sa1 too2
+WOODSTOWN	wuut3 sa1 thaaw0
+WOODSTREAM	wuut3 sa1 triim0
+WOODSTRIP	wuut3 sa1 trip3
+WOODSTROM	wuut3 sa1 tr@m0
+WOODWALL	wuut3 w@@l0
+WOODWALTON	wuut3 w@@l0 thqn2
+WOODWARD	wuut3 w@@t1
+WOODWARDIAN	wuut3 w@@t1 diian2
+WOODWARDS	wuut3 w@@t1
+WOODWAX	wuut3 wxk3
+WOODWIFE	wuut3 waaj3
+WOODWIN	wuut3 win2
+WOODWIND	wuut3 win0
+WOODWINDS	wuut3 win0
+WOODWISE	wuut3 waaj3
+WOODWIVES	wuut3 waaj3
+WOODWORK	wuut3 wqqk3
+WOODWORKER	wuut3 wqqk3 kqq2
+WOODWORKER	wuut3 wqqk3 kqq2
+WOODWORKERS	wuut3 wqqk3 kqq2
+WOODWORKING	wuut3 wqqk3 king2
+WOODWORKS	wuut3 wqqk3
+WOODWORM	wuut3 wqqm0
+WOODWORMED	wuut3 wqqm0
+WOODWORMS	wuut3 wqqm0
+WOODWORTH	wuut3 wqqt1
+WOODY	wuut3 dii2
+WOODYARD	wuut3 jaat3
+WOODYD	wuut3 dii2
+WOODYEAR	wuut3 jiia0
+WOODYS	wuut3 dii2
+WOOED	wuu0
+WOOER	wuu0 qq2
+WOOER	wuu0 qq2
+WOOERS	wuu0 qq2
+WOOF	wuuf3
+WOOFED	wuuf3
+WOOFER	wuf3 fqq2
+WOOFER	wuf3 fqq2
+WOOFERS	wuf3 fqs2
+WOOFING	wuuf3 fing2
+WOOFS	wuuf3
+WOOFTER	wuuf3 tqq2
+WOOING	wuu0 ing2
+WOOINGS	wuu0 ing2
+WOOL	wuul0
+WOOLARD	wuul0 laat1
+WOOLBRIGHT	wuul0 braj3
+WOOLCOCK	wuul0 kh@k3
+WOOLCOCKS	wuul0 kh@k3
+WOOLDREDGE	wuul0 drec1
+WOOLDRIDGE	wuul0 dric1
+WOOLED	wuul0
+WOOLEN	wuul0 lqn2
+WOOLENGERS	wuul0 lqn1 cqq2
+WOOLENS	wuul0 lqn2
+WOOLER	wuul0 lqq2
+WOOLER	wuul0 lqq2
+WOOLERS	wuul0 lqq2
+WOOLERS	wuul0 lqq2
+WOOLEVER	wuul0 lii0 wqq2
+WOOLEY	wuul0 lee2
+WOOLFENDEN	wuuf3 feen0 deen2
+WOOLFENDON	wuuf3 feen0 d@@n2
+WOOLFOLK	wuuf3 f@@k3
+WOOLFORD	wuuf3 f@@t1
+WOOLFORK	wuuf3 f@@k3
+WOOLFS	wuuf3
+WOOLFSON	wuuf3 san2
+WOOLGATHERING	wuul0 kxt3 dqq0 ring2
+WOOLIE	wuul0 laaj0
+WOOLIER	wuul0 li1 qq2
+WOOLIER	wuul0 li1 qq2
+WOOLIES	wuul0 lii2
+WOOLIEST	wuul0 li1 es1
+WOOLLARD	wuul0 laat1
+WOOLLEN	wuul0 lqn2
+WOOLLENS	wuul0 lqn2
+WOOLLEY	wuul0 lee2
+WOOLLEYS	wuul0 lee2
+WOOLLIER	wuul0 li1 qq2
+WOOLLIER	wuul0 li1 qq2
+WOOLLIES	wuul0 laaj0
+WOOLLIEST	wuul0 li1 es1
+WOOLLY	wuul0 lii2
+WOOLMAN	wuul0 mxxn0
+WOOLMANS	wuul0 mxxn0
+WOOLMEN	wuul0 men0
+WOOLPACK	wuul0 pxk3
+WOOLRICH	wuul0 rich1
+WOOLRIDGE	wuul0 ric1
+WOOLS	wuul0
+WOOLSACK	wuul0 sxk3
+WOOLSEY	wuul0 sii2
+WOOLSHED	wuul0 cheet1
+WOOLSKIN	wuul0 sa1 kin0
+WOOLSON	wuul0 san2
+WOOLSORTER	wuul0 s@@t3 tqq2
+WOOLSTON	wuul0 sa1 tan2
+WOOLSTONE	wuul0 sa1 toon0
+WOOLWICH	wuul0 wich3
+WOOLWINDER	wuul0 waaj0 dqq2
+WOOLWINE	wuul0 waaj0
+WOOLWORK	wuul0 wqqk3
+WOOLWORKER	wuul0 wqqk3 kqq2
+WOOLWORKER	wuul0 wqqk3 kqq2
+WOOLWORKING	wuul0 wqqk3 king2
+WOOLWORKS	wuul0 wqqk3
+WOOLWORTH	wuul0 wqqt1
+WOOLWORTHS	wuul0 wqqt1
+WOOLY	wuul0 lii2
+WOOS	wuu0
+WOOSHED	wuu0 cheet1
+WOOSLEY	wuus3 lee2
+WOOSNAM	wuus3 nxxm2
+WOOSTER	wuus3 tqq2
+WOOSTERS	wuus3 tqq2
+WOOTAN	wuu0 thxxn0
+WOOTEN	wuu0 theen0
+WOOTON	wuu0 than2
+WOOTTON	wut3 thqn2
+WORCESTER	wus3 tqq2
+WORCESTER	wus3 tqq2
+WORCESTOR	wus3 tqq2
+WORD	wqqt1
+WORDAGE	wqqt3 deec1
+WORDAGES	wqqt3 deec3 cis1
+WORDBOOK	wqqt1 buk3
+WORDBOOKS	wqqt1 buk3
+WORDED	wqqt3 det1
+WORDEDNESS	wqqt3 dit1 nees1
+WORDELL	wqqt1 deel0
+WORDES	wqqt1
+WORDFORM	wqqt1 f@@m0
+WORDFORMS	wqqt1 f@@m0
+WORDIER	wqqt3 di1 qq2
+WORDIER	wqqt3 di1 qq2
+WORDIEST	wqqt3 di1 es1
+WORDILY	wqqt3 di1 lii2
+WORDIN	wqqt3 din2
+WORDINESS	wqqt3 di1 nees1
+WORDING	wqqt3 ding2
+WORDINGHAM	wqqt3 ding0 hxxm2
+WORDINGS	wqqt3 ding2
+WORDLESS	wqqt1 lqs1
+WORDLESSLY	wqqt1 lqs1 lii2
+WORDLESSNESS	wqqt1 lqs1 nees1
+WORDLEY	wqqt1 lee2
+WORDPER	wqqt1 phqq2
+WORDPERFECT	wqqt1 phqq0 fek1
+WORDPERFECTLY	wqqt1 phqq0 fek3 lii2
+WORDPERFECTS	wqqt1 phq1 fek1
+WORDPLAY	wqqt1 phlee0
+WORDPLAYS	wqqt1 phlee0
+WORDPROCESSORS	wqqt1 phroo0 ses3 sqqs2
+WORDS	wqqt1
+WORDSMITH	wqqt1 sa1 mit3
+WORDSMITHING	wqqt1 sa1 mit3 ting2
+WORDSMITHS	wqqt1 sa1 mit3
+WORDSONG	wqqt1 s@@ng0
+WORDSONGS	wqqt1 s@@ng0
+WORDSPOTTER	wqqt1 sa1 p@t3 tqq2
+WORDSPOTTERS	wqqt1 sa1 p@t3 tqq2
+WORDSPOTTING	wqqt1 sa1 p@t3 ting2
+WORDSTAR	wqqt1 sa1 taa0
+WORDSTARS	wqqt1 sa1 taa0
+WORDSTER	wqqt1 sa1 tqq2
+WORDSWORTH	wqqt1 sa1 wqqt1
+WORDSWORTHS	wqqt1 sa1 wqqt1
+WORDY	wqqt3 dii2
+WORE	w@@0
+WORE	w@@0
+WORK	wqqk3
+WORKABILITY	wqqk3 khq1 bi1 li3 tii2
+WORKABLE	wqqk3 khee0 bql2
+WORKABLENESS	wqqk3 khee0 bql2 nees1
+WORKABLY	wqqk3 khee0 blii2
+WORKADAY	wqqk3 khq1 dee0
+WORKBAG	wqqk3 bxk3
+WORKBAGS	wqqk3 bxk3
+WORKBASKET	wqqk3 baas3 khet1
+WORKBASKETS	wqqk3 baas3 khet1
+WORKBENCH	wqqk3 been3
+WORKBENCHES	wqqk3 been3 ches1
+WORKBOAT	wqqk3 b@@t3
+WORKBOOK	wqqk3 buk3
+WORKBOOKS	wqqk3 buk3
+WORKBOX	wqqk3 b@k3
+WORKBOXES	wqqk3 b@k3 ses1
+WORKDAY	wqqk3 dee0
+WORKDAYS	wqqk3 dees1
+WORKED	wqqk3
+WORKER	wqqk3 kqq2
+WORKER	wqqk3 kqq2
+WORKERS	wqqk3 kqq2
+WORKES	wqqk3
+WORKFARE	wqqk3 fxx0
+WORKFOLK	wqqk3 f@@k3
+WORKFORCE	wqqk3 f@@s3
+WORKFORCES	wqqk3 f@@s3 ses1
+WORKGROUP	wqqk3 kruup3
+WORKGROUPING	wqqk3 kruup3 ping2
+WORKGROUPS	wqqk3 kruup3
+WORKHAND	wqqk3 hxxn0
+WORKHORSE	wqqk3 h@@s3
+WORKHORSES	wqqk3 h@@s3 ses1
+WORKHOUSE	wqqk3 haaw3
+WORKHOUSES	wqqk3 haaw3 ses1
+WORKING	wqqk3 king2
+WORKINGER	wqqk3 king2 ngqq2
+WORKINGER	wqqk3 king2 ngqq2
+WORKINGLY	wqqk3 king2 lii2
+WORKINGMAN	wqqk3 king2 mxxn0
+WORKINGMEN	wqqk3 king2 men0
+WORKINGS	wqqk3 king2
+WORKINGTON	wqqk3 king0 tan2
+WORKINGWOMAN	wqqk3 king0 wuu3 mxn2
+WORKINGWOMEN	wqqk3 king0 wii3 men2
+WORKLESS	wqqk3 les1
+WORKLOAD	wqqk3 loot1
+WORKLOADS	wqqk3 loot1
+WORKMAN	wqqk3 mxn2
+WORKMANLIKE	wqqk3 mxn2 laj3
+WORKMANLIKENESS	wqqk3 mxn2 laj3 nees1
+WORKMANLINESS	wqqk3 mxxn0 li3 nees1
+WORKMANLY	wqqk3 mxn2 lii2
+WORKMANS	wqqk3 mxn2
+WORKMANSHIP	wqqk3 mxn2 chip3
+WORKMASTER	wqqk3 maas3 tqq2
+WORKMATE	wqqk3 meet1
+WORKMATES	wqqk3 meet1
+WORKMEN	wqqk3 men0
+WORKMENS	wqqk3 men0
+WORKOUT	wqqk3 khaaw3
+WORKOUTS	wqqk3 khaaw3
+WORKPACKAGE	wqqk3 pxk3 kic1
+WORKPACKAGES	wqqk3 pxk3 kic3 cis1
+WORKPLACE	wqqk3 phlees3
+WORKPLACES	wqqk3 phlees3 ses1
+WORKPLAN	wqqk3 phlxxn0
+WORKROOM	wqqk3 ruum0
+WORKROOMS	wqqk3 ruum0
+WORKS	wqqk3
+WORKSHEET	wqqk3 chiit3
+WORKSHEETS	wqqk3 chiit3
+WORKSHOP	wqqk3 ch@p1
+WORKSHOPS	wqqk3 ch@p1
+WORKSHY	wqqk3 chaaj0
+WORKSOME	wqqk3 sam2
+WORKSOP	wqqk3 s@p1
+WORKSPACE	wqqk3 sa1 pees3
+WORKSTAGE	wqqk3 sa1 teec1
+WORKSTAND	wqqk3 sa1 txxn0
+WORKSTATION	wqqk3 sa1 tee0 chan2
+WORKSTATIONS	wqqk3 sa1 tee0 chan2
+WORKSTOCK	wqqk3 sa1 t@k3
+WORKTABLE	wqqk3 thee0 bql2
+WORKTABLES	wqqk3 thee0 bql2
+WORKUP	wqqk3 khap2
+WORKUPS	wqqk3 khap2
+WORKWEEK	wqqk3 wiik3
+WORKWEEKS	wqqk3 wiik3
+WORKWOMAN	wqqk3 wuu3 mxn2
+WORKWOMEN	wqqk3 wii3 men2
+WORLD	wqql2
+WORLDBEATER	wqql0 biit3 tqq2
+WORLDBEATERS	wqql0 biit3 thqq2
+WORLDCARE	wqql0 khxx0
+WORLDCORP	wqql0 kh@@p3
+WORLDED	wqql0 det1
+WORLDES	wqql2
+WORLDLESS	wqql0 lqq2
+WORLDLIER	wqql0 li1 qq2
+WORLDLIER	wqql0 li1 qq2
+WORLDLIEST	wqql0 li1 es1
+WORLDLIKE	wqql0 laj3
+WORLDLINESS	wqql0 li1 nees1
+WORLDLING	wqql0 ling2
+WORLDLINGS	wqql0 ling2
+WORLDLINK	wqql0 ling3
+WORLDLY	wqql2 lii2
+WORLDPASS	wqql0 phaas3
+WORLDS	wqql2
+WORLDSCAN	wqql0 sa1 kxxn0
+WORLDSCAPE	wqql0 sa1 keep1
+WORLDSCOPE	wqql0 sa1 koop1
+WORLDSPAN	wqql0 sa1 pxxn0
+WORLDSPANNING	wqql0 sa1 pxxn0 ning2
+WORLDSTOCK	wqql0 sa1 t@k3
+WORLDVISION	wqql0 wi3 chan2
+WORLDWIDE	wqql0 waaj0
+WORLDWISE	wqql0 waaj0
+WORM	wqqm0
+WORMCAST	wqqm0 khaas3
+WORMCASTS	wqqm0 khaas3
+WORMED	wqqm0
+WORMER	wqqm0 mqq2
+WORMER	wqqm0 mqq2
+WORMERS	wqqm0 mqq2
+WORMERS	wqqm0 mqq2
+WORMES	wqqm0
+WORMHOLE	wqqm0 hool0
+WORMHOLES	wqqm0 hool0
+WORMIER	wqqm0 mi1 qq2
+WORMIER	wqqm0 mi1 qq2
+WORMIEST	wqqm0 mi3 is1
+WORMING	wqqm0 ming2
+WORMINGTON	wqqm0 ming0 tan2
+WORMLEY	wqqm0 lee2
+WORMLIKE	wqqm0 laj3
+WORMS	wqqm0
+WORMSER	wqqm0 sqq2
+WORMSER	wqqm0 sqq2
+WORMWOOD	wqqm0 wuut3
+WORMWOODS	wqqm0 wuut3
+WORMY	wqqm0 mii2
+WORN	w@@n0
+WORNALL	w@@n0 n@@l2
+WORNER	w@@n0 nqq2
+WORNER	w@@n0 nqq2
+WORNNESS	w@@n0 nees1
+WORNOUT	w@@n0 naaw3
+WORRIED	w@@0 rii2
+WORRIEDLY	w@@0 rii2 lii2
+WORRIER	w@@0 ri1 qq2
+WORRIERS	w@@0 rii0 qq2
+WORRIES	w@@0 rii2
+WORRISOME	w@@0 ris3 svm2
+WORRISOMELY	w@@0 ris3 sqm2 lii2
+WORRISOMENESS	w@@0 ris3 sqm2 nees1
+WORRY	w@@0 rii2
+WORRYING	w@@0 rii2 ing2
+WORRYINGLY	w@@0 rii2 ing2 lii2
+WORRYWART	w@@0 rii0 w@@t1
+WORRYWARTS	w@@0 rii0 w@@t1
+WORSE	wqqs3
+WORSEN	wqqs3 sqn2
+WORSENED	wqqs3 sqn2
+WORSENING	wqqs3 sqn2 ning2
+WORSENS	wqqs3 sqn2
+WORSER	wqqs3 sqq2
+WORSER	wqqs3 sqq2
+WORSES	wqqs3 ses1
+WORSHIP	wqq0 chip3
+WORSHIPED	wqq0 chip3
+WORSHIPER	wqq0 chip3 pqq2
+WORSHIPER	wqq0 chip3 pqq2
+WORSHIPERS	wqq0 chip3 pqq2
+WORSHIPERS	wqq0 chip3 pqq2
+WORSHIPFUL	wqq0 chip3 fuul0
+WORSHIPFULLS	wqq0 chip3 fuul0
+WORSHIPFULLY	wqq0 chip3 fql2 lii2
+WORSHIPFULNESS	wqq0 chip3 fql2 nees1
+WORSHIPING	wqq0 chip3 ping2
+WORSHIPINGLY	wqq0 chip3 ping2 lii2
+WORSHIPLESS	wqq0 chip3 les1
+WORSHIPPED	wqq0 chip3
+WORSHIPPER	wqq0 chip3 pqq2
+WORSHIPPER	wqq0 chip3 pqq2
+WORSHIPPERS	wqq0 chip3 pqq2
+WORSHIPPING	wqq0 chip3 ping2
+WORSHIPS	wqq0 chip3
+WORST	wqqs3
+WORSTED	wqqs3 thet1
+WORSTED	wus3 thet1
+WORSTEDS	wqqs3 thet1
+WORSTEDS	wus3 thet1
+WORSTELL	wqqs3 theel0
+WORSTER	wqqs3 tqq2
+WORSTER	wqqs3 tqq2
+WORSTING	wqqs3 ting2
+WORSTS	wqqs3
+WORT	wqqt3
+WORTH	wqqt3
+WORTHAM	wqqt3 hxxm2
+WORTHED	wqqt3
+WORTHEN	wqqt3 then2
+WORTHEY	wqqt3 thee0
+WORTHIER	wqqt3 di1 qq2
+WORTHIER	wqqt3 di1 qq2
+WORTHIES	wqqt3 dii2
+WORTHIEST	wqqt3 di1 es1
+WORTHILY	wqqt3 di1 lii2
+WORTHINESS	wqqt3 di1 nees1
+WORTHING	wqqt3 ding2
+WORTHINGTON	wqqt3 ding0 tan2
+WORTHINGTONS	wqqt3 ding0 tan2
+WORTHLESS	wqqt3 lqs1
+WORTHLESSLY	wqqt3 lqs1 lii2
+WORTHLESSNESS	wqqt3 lqs1 nees1
+WORTHLEY	wqqt3 lee2
+WORTHMAN	wqqt3 mxxn0
+WORTHS	wqqt3
+WORTHWHILE	wqqt3 waaj0
+WORTHY	wqqt3 dii2
+WORTHYS	wqqt3 dii2
+WORTLEY	wqqt3 lee2
+WORTMAN	wqqt3 mxxn0
+WORTMANN	wqqt3 mxxn0
+WORTS	wqqt3
+WOT	w@t3
+WOTCHER	w@ch3 chqq2
+WOTCHER	w@ch3 chqq2
+WOTRING	w@t3 thring2
+WOTTED	w@t3 theet1
+WOTTEN	w@t3 theen0
+WOTTEST	w@t3 thes3
+WOTTING	w@t3 ting2
+WOTTON	w@t3 tan2
+WOULD	wqt1
+WOULD	wuut3
+WOULDEST	wuut3 dis1
+WOULDEST	wuut3 dis1
+WOULDING	wuut3 ding2
+WOULDING	wuut3 ding2
+WOULDS	w@@l0
+WOULDS	w@@l0
+WOULDST	wuut3
+WOUND	waaw0
+WOUND	wuun0
+WOUNDABILITY	wuun0 dq1 bi1 li3 tii2
+WOUNDED	wuun0 det1
+WOUNDEDED	wuun0 di1 det1
+WOUNDEDLY	wuun0 det1 lii2
+WOUNDEDNESS	wuun0 dit1 nees1
+WOUNDER	waaw0 dqq2
+WOUNDER	waaw0 dqq2
+WOUNDER	wuun0 dqq2
+WOUNDER	wuun0 dqq2
+WOUNDERS	waaw0 dqq2
+WOUNDERS	waaw0 dqq2
+WOUNDERS	wuun0 dqq2
+WOUNDERS	wuun0 dqq2
+WOUNDES	waaw0
+WOUNDES	wuun0
+WOUNDILY	wuun0 di1 lii2
+WOUNDING	wuun0 ding2
+WOUNDINGLY	wuun0 ding0 lii2
+WOUNDINGS	wuun0 ding2
+WOUNDS	wuun0
+WOVE	w@@f3
+WOVEN	w@@f3 wqn2
+WOVENS	w@@f3 wqn2
+WOW	waaw0
+WOWED	waaw0
+WOWING	waaw0 wing2
+WOWS	waaw0
+WOWSER	waaw3 sqq2
+WOWSER	waaw3 sqq2
+WOWSERS	waaw3 sqq2
+WOWSERS	waaw3 sqq2
+WRACK	rxk3
+WRACKED	rxk3
+WRACKER	rxk3 kqq2
+WRACKER	rxk3 kqq2
+WRACKING	rxk3 king2
+WRACKINGLY	rxk3 king0 lii2
+WRACKS	rxk3
+WRAITH	reet3
+WRAITHS	reet3
+WRANG	rxxng0
+WRANGELL	rxxng0 keel2
+WRANGHAM	rxxng0 hxxm2
+WRANGLE	rxxng0 khql2
+WRANGLED	rxxng0 kql2
+WRANGLER	rxxng0 klqq2
+WRANGLERS	rxxng0 klqq2
+WRANGLES	rxxng0 kql2
+WRANGLING	rxxng0 kling2
+WRANGLINGLY	rxxng0 kling2 lii2
+WRANGLINGS	rxxng0 kling2
+WRANKLIN	rxxng0 klin2
+WRAP	rxp3
+WRAPAROUND	rxp3 phq1 raaw0
+WRAPAROUNDS	rxp3 phq1 raaw0
+WRAPING	rxp3 ping2
+WRAPPED	rxp3
+WRAPPER	rxp3 pqq2
+WRAPPER	rxp3 pqq2
+WRAPPERING	rxp3 pq1 ring2
+WRAPPERING	rxp3 pq1 ring2
+WRAPPERS	rxp3 pqq2
+WRAPPIE	rxp3 paaj0
+WRAPPING	rxp3 ping2
+WRAPPINGS	rxp3 ping2
+WRAPS	rxp3
+WRAPT	rxp3
+WRASSE	rxs3
+WRASSES	rxs3 ses1
+WRATH	r@t3
+WRATHED	r@t3
+WRATHER	r@t3 thqq2
+WRATHER	r@t3 thqq2
+WRATHERS	r@t3 thqq2
+WRATHERS	r@t3 thqq2
+WRATHFUL	r@t3 fuul0
+WRATHFULLY	r@t3 fql2 lii2
+WRATHFULNESS	r@t3 fql2 nees1
+WRATHING	r@t3 ting2
+WRATHS	r@t3
+WREAK	riik3
+WREAKED	riik3
+WREAKER	riik3 kqq2
+WREAKERS	riik3 kqq2
+WREAKIN	riik3 kin2
+WREAKING	riik3 king2
+WREAKS	riik3
+WREATH	riit3
+WREATHD	riit3
+WREATHE	riit3
+WREATHED	riit3
+WREATHES	riit3
+WREATHING	riit3 ding2
+WREATHS	riit3
+WREATHS	riit3
+WRECK	rek3
+WRECKAGE	rek3 kic1
+WRECKAGED	rek3 kic1
+WRECKAGES	rek3 kic3 cis1
+WRECKED	rek3
+WRECKER	rek3 kqq2
+WRECKER	rek3 kqq2
+WRECKERS	rek3 kqq2
+WRECKING	rek3 king2
+WRECKINGS	rek3 king2
+WRECKLESS	rek3 les1
+WRECKLESSLY	rek3 lqs1 lii2
+WRECKS	rek3
+WREN	reen0
+WRENCH	reen3
+WRENCHED	reen3
+WRENCHER	reen3 chqq2
+WRENCHER	reen3 chqq2
+WRENCHERS	reen3 chqq2
+WRENCHERS	reen3 chqq2
+WRENCHES	reen3 ches1
+WRENCHING	reen3 ching2
+WRENCHINGLY	reen3 ching2 lii2
+WRENCHMANSHIP	reen3 mqn2 chip3
+WRENCHY	reen3 chii2
+WRENS	reen0
+WRENTHAM	reen0 thxxm2
+WRENTON	reen0 tan2
+WREST	res3
+WRESTABLE	res3 thee0 bql2
+WRESTED	res3 thet1
+WRESTER	res3 thqq2
+WRESTER	res3 thqq2
+WRESTERS	res3 thqq2
+WRESTERS	res3 thqq2
+WRESTING	res3 ting2
+WRESTINGLY	res3 ting2 lii2
+WRESTLE	res3 sql2
+WRESTLED	res3 sql2
+WRESTLER	res3 sql2 lqq2
+WRESTLER	res3 sql2 lqq2
+WRESTLERS	res3 sql2 lqq2
+WRESTLES	res3 sql2
+WRESTLING	res3 ling2
+WRESTLINGS	res3 ling2
+WRESTLINGWORTH	res3 ling0 wqqt1
+WRESTS	res3
+WRETCH	rech3
+WRETCHED	rech3 chit3
+WRETCHEDER	rech3 chit3 dqq2
+WRETCHEDER	rech3 chit3 dqq2
+WRETCHEDEST	rech3 chit1 dis1
+WRETCHEDLY	rech3 chit1 lii2
+WRETCHEDNESS	rech3 chit1 nees1
+WRETCHEDS	rech3 chit3
+WRETCHER	rech3 chqq2
+WRETCHER	rech3 chqq2
+WRETCHES	rech3 ches1
+WREXHAM	rek3 svm2
+WRICK	rik1
+WRICKED	rik1
+WRICKING	rik3 king2
+WRICKS	rik1
+WRIER	raaj0 rqq2
+WRIER	raaj0 rqq2
+WRIEST	raaj0 is1
+WRIGGLE	rik3 kql2
+WRIGGLED	rik3 kql2
+WRIGGLER	rik3 klqq2
+WRIGGLER	rik3 klqq2
+WRIGGLER	rik3 klqq2
+WRIGGLERS	rik3 klqq2
+WRIGGLERS	rik3 klqq2
+WRIGGLES	rik3 kql2
+WRIGGLESWORTH	rik3 kql2 sa1 wqqt1
+WRIGGLIER	rik3 kli1 qq2
+WRIGGLIEST	rik3 kli1 es1
+WRIGGLING	rik3 kling2
+WRIGGLINGLY	rik3 kling2 lii2
+WRIGGLINGS	rik3 kling2
+WRIGGLY	rik3 khq1 lii2
+WRIGHT	raj3
+WRIGHTING	raj3 ting2
+WRIGHTMAN	raj3 mxxn0
+WRIGHTS	raj3
+WRIGHTSMAN	raj3 sa1 mxxn0
+WRIGHTSON	raj3 san2
+WRIGHTSONS	raj3 san2
+WRIGLEY	rik3 lee2
+WRIGLEYS	rik3 lee2
+WRING	ring0
+WRINGED	ring0
+WRINGER	ring0 ngqq2
+WRINGER	ring0 ngqq2
+WRINGERS	ring0 ngqq2
+WRINGING	ring0 nging2
+WRINGINGLY	ring0 nging2 lii2
+WRINGINGS	ring0 nging2
+WRINGMAN	ring0 mxxn0
+WRINGS	ring0
+WRINGSTAFF	ring0 sa1 taaf3
+WRINGTON	ring0 tan2
+WRINKLE	ring0 kql2
+WRINKLED	ring0 kql2
+WRINKLERS	ring0 klqq2
+WRINKLES	ring0 kql2
+WRINKLET	ring0 klit1
+WRINKLEY	ring0 klii2
+WRINKLIER	ring0 kli1 qq2
+WRINKLIER	ring0 kli1 qq2
+WRINKLIEST	ring0 kli1 es1
+WRINKLING	ring0 kling2
+WRINKLY	ring0 klii2
+WRISLEY	ris3 lee2
+WRIST	ris3
+WRISTAIR	ris3 txx0
+WRISTBAND	ris3 bxxn0
+WRISTBANDS	ris3 bxxn0
+WRISTDROP	ris3 dr@p1
+WRISTED	ris3 thet1
+WRISTER	ris3 tqq2
+WRISTER	ris3 tqq2
+WRISTFALL	ris3 f@@l0
+WRISTIEST	ris3 ti1 es1
+WRISTING	ris3 ting2
+WRISTLET	ris3 lit1
+WRISTLETS	ris3 lit1
+WRISTON	ris3 tan2
+WRISTS	ris3
+WRISTWATCH	ris3 w@ch3
+WRISTWATCHES	ris3 w@ch3 ches1
+WRISTWORK	ris3 wqqk3
+WRISTY	ris3 tii2
+WRIT	rit1
+WRITABLE	rit3 thee0 bql2
+WRITE	raj3
+WRITED	raj3 thet1
+WRITED	rit3 thet1
+WRITEDOWN	raj3 daaw0
+WRITEDOWNS	raj3 daaw0
+WRITEES	raj3
+WRITEOFF	raj3 th@@f3
+WRITEOFFS	raj3 th@@f3
+WRITER	raj3 tqq2
+WRITER	raj3 tqq2
+WRITERS	raj3 tqq2
+WRITES	raj3
+WRITEST	rit3 thes3
+WRITHE	raj3
+WRITHED	raj3
+WRITHER	raj3 dqq2
+WRITHER	raj3 dqq2
+WRITHERS	rit3 thqq2
+WRITHES	raj3
+WRITHING	raj3 ding2
+WRITHINGLY	raj3 ding2 lii2
+WRITHINGS	raj3 ding2
+WRITIN	raj3 tin2
+WRITING	raj3 ting2
+WRITINGBOARD	raj3 ting2 b@@t1
+WRITINGER	raj3 ting2 ngqq2
+WRITINGER	raj3 ting2 ngqq2
+WRITINGS	raj3 ting2
+WRITS	rit3
+WRITTED	rit3 thet1
+WRITTEN	rit3 thqn2
+WRITTER	rit3 tqq2
+WRITTING	rit3 ting2
+WRITTINGTON	rit3 ting0 tan2
+WRITTLE	rit3 thql2
+WRNS	reen0
+WROCLAW	r@t3 sa1 laaf3
+WRONG	r@@ng0
+WRONGD	r@@ng0
+WRONGDING	r@@ng0 ding2
+WRONGDOER	r@@ng0 duu0 qq2
+WRONGDOER	r@@ng0 duu0 qq2
+WRONGDOERS	r@@ng0 duu0 qq2
+WRONGDOING	r@@ng0 duu0 ing2
+WRONGDOINGS	r@@ng0 duu0 ing2
+WRONGED	r@@ng0
+WRONGER	r@@ng0 ngqq2
+WRONGER	r@@ng0 ngqq2
+WRONGERS	r@@ng0 ngqq2
+WRONGERS	r@@ng0 ngqq2
+WRONGEST	r@@ng0 ngis1
+WRONGFUL	r@@ng0 fuul0
+WRONGFULLY	r@@ng0 fql2 lii2
+WRONGFULNESS	r@@ng0 fql2 nees1
+WRONGHEAD	r@@ng0 heet3
+WRONGHEADED	r@@ng0 heet3 det1
+WRONGHEADEDLY	r@@ng0 heet3 det1 lii2
+WRONGHEADEDNESS	r@@ng0 heet3 dit1 nees1
+WRONGING	r@@ng0 nging2
+WRONGLY	r@@ng0 lii2
+WRONGNESS	r@@ng0 nees1
+WRONGS	r@@ng0
+WROTE	root3
+WROTED	root3 thet1
+WROTH	root3
+WROUGHT	root3
+WROUGHTON	root3 thqn2
+WRUNG	rang0
+WRY	raaj0
+WRYER	raaj0 qq2
+WRYER	raaj0 qq2
+WRYEST	raaj0 is1
+WRYING	raaj0 ing2
+WRYLY	raaj0 lii2
+WRYNECK	raaj0 nek3
+WRYNECKS	raaj0 nek3
+WRYNESS	raaj0 nees1
+WRYNESSES	raaj0 nes3 ses1
+WUHAN	wuu0 haan0
+WUPPERTAL	wuu0 phq1 thaal0
+WURZBURG	wqqt3 sa1 bqqk1
+WUSIH	wuu0 sii2
+WYCOMBE	wi3 khqm2
+WYCOMBE	wi3 khqm2
+WYMONDHAM	wim0 mqn2 dqm2
+WYOMINC	waaj0 @@0 ming3
+WYOMING	waaj0 @@0 ming2
+WYOMINGS	waaj0 @@0 ming2
+WYTHALL	wit3 thql2
+WYVERN	waaj3 wqqn0
+WYVERNS	waaj3 wqqn0
+WAGENKNECHT	wxx0 ken2 nek1
+WAKABAYASHI	waa0 ka1 baa0 jaa0 chi3
+WALLENBERGS	w@@l0 len0 bqqk1
+WANNEMACHER	waan0 nq1 mak3 khqq2
+WAREHOUSING	wxx0 haaw3 sing2
+WASHINGTONS	w@@0 ching0 tan0
+WATERFRONTS	w@@0 thqq2 fr@n3
+WEATHERFORD	wet3 dqq2 f@@t1
+WEIGHTLESSNESS	weet3 lees3 nees1
+WEISENBERGER	waaj3 sen0 bqq0 kqq2
+WELTERWEIGHT	weel0 thqq2 weet1
+WERTENBERGER	wqq0 then0 bqq0 kqq2
+WESTERNIZATION	wees3 thqqn2 naj3 see0 chan2
+WHEELABRATOR	wiil0 la1 bree0 thqq2
+WHEELWRIGHT	wiil0 raj3
+WHIPPOORWILLS	wip3 phqq2 wil0
+WHISTLEBLOWER	wis3 sql0 bloo0 wqq2
+WHITEWASHED	waj3 w@ch3
+WHOLEHEARTED	hool0 haat3 thet1
+WIEDERAUFBAU	wii0 dqq0 r@@f3 baaw0
+WIENERSCHNITZEL	wiin0 nqq2 cha1 nit3 sql2
+WILDCATTERS	waaj0 khxt3 tqq2
+WILLENBRING	wil0 len2 bring2
+WINDOWPANES	win0 doo2 pheen0
+WINTERBOURNE	win0 thqq2 b@@n0
+WIPPERFURTH	wip3 pqq2 fqqt3
+WITHDRAWALS	wit3 dr@@0 w@l2
+WOHLSTETTER	wool0 sa1 tet3 tqq2
+WOLLENWEBER	wal0 len0 wep3 bqq2
+WOODPECKERS	wuut3 phek3 kqq2
+WORKAHOLICS	wqqk3 kha1 h@@l0 lik1
+WORTHINGTON	wqqt3 ding0 tan2
+WRISTWATCHES	ris3 waach3 ches1
