@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
+using System.IO.Compression;
 using System.Threading;
 using System.Xml.Linq;
 using Path = System.IO.Path;
@@ -66,8 +67,7 @@ namespace EPUBGenerator.MainLogic
             foreach (NavPoint nav in NavPoints)
             {
                 Content content = new Content(nav);
-
-                SaveContent(content);
+                Save(content);
 
                 i++;
                 bw.ReportProgress(i * 100 / NavPoints.Count);
@@ -84,16 +84,39 @@ namespace EPUBGenerator.MainLogic
 
             // ------------------ Final --------------------------
             Status = (int)Statuses.None;
+            ExportEpub(Path.Combine(ProjectPath, "OutputEPUB.epub"));
             // ---------------------------------------------------
         }
 
-        private static void SaveContent(Content content)
+        public static void ExportEpub(String savePath)
         {
+            String exportPath = Directory.CreateDirectory(Path.Combine(ProjectPath, "Export")).FullName;
+            ZipFile.ExtractToDirectory(EpubPath, exportPath);
+
+            String exportPackagePath = Path.Combine(exportPath, EpubReader.GetOpfDirectory());
+
+            
+
+            ZipFile.CreateFromDirectory(exportPath, savePath);
+        }
+
+        private static void Save(Content content)
+        {
+            StreamWriter sw;
+
+            // Save Content Structure
             String contentDirectory = Path.GetDirectoryName(content.Source);
             Directory.CreateDirectory(Path.Combine(PackagePath, contentDirectory));
-            StreamWriter sw = new StreamWriter(Path.Combine(PackagePath, content.Source));
+            sw = new StreamWriter(Path.Combine(PackagePath, content.Source));
             sw.Write(content.Root);
             sw.Close();
+
+            // Save Content Detail
+            Directory.CreateDirectory(Path.Combine(SavesPath, contentDirectory));
+            sw = new StreamWriter(Path.Combine(SavesPath, content.Source));
+            sw.Write(content.ToXml());
+            sw.Close();
+
         }
 
         private static void Clear(String path)
@@ -115,8 +138,8 @@ namespace EPUBGenerator.MainLogic
             ProjectPath = projPath;
 
             Directory.CreateDirectory(ResourcesPath = Path.Combine(ProjectPath, "Resources"));
-            
-            String packageDirectory = Path.GetDirectoryName(EpubReader.GetOpfPath());
+
+            String packageDirectory = EpubReader.GetOpfDirectory();
             Directory.CreateDirectory(PackagePath = Path.Combine(ResourcesPath, packageDirectory));
 
             Directory.CreateDirectory(SavesPath = Path.Combine(ProjectPath, "Saves"));
