@@ -18,6 +18,11 @@
             <Setter Property="FontSize" Value="16" />
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
         </Style>
+        <Style TargetType="{x:Type Label}" x:Key="LabelErrorStyle" >
+            <Setter Property="FontSize" Value="13" />
+            <Setter Property="FontFamily" Value="Segoe UI Symbol" />
+            <Setter Property="Foreground" Value="Red" />
+        </Style>
         <Style TargetType="{x:Type TextBlock}" x:Key="TextLocationStyle" >
             <Setter Property="FontSize" Value="16" />
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
@@ -33,7 +38,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
-            <RowDefinition Height="80" />
+            <RowDefinition Height="90" />
             <RowDefinition MinHeight="30" Height="Auto" />
             <RowDefinition MinHeight="30" Height="*" />
             <RowDefinition MaxHeight="200"/>
@@ -43,15 +48,16 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Bottom" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
-            <TextBox x:Name="projName" HorizontalAlignment="Left" Height="30" Margin="214,0,0,0" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="380" TextChanged="projName_TextChanged" Style="{StaticResource TextboxStyle}" Padding="5,2,0,0" />
+            <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="60,0,0,25" VerticalAlignment="Bottom" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
+            <TextBox x:Name="projName" HorizontalAlignment="Left" Height="30" Margin="214,0,0,25" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="380" TextChanged="projName_TextChanged" Style="{StaticResource TextboxStyle}" Padding="5,2,0,0" />
+            <Label x:Name="projectNameError" Content="" HorizontalAlignment="Left" Margin="210,0,0,-10" VerticalAlignment="Bottom" Height="42" Width="532" Style="{StaticResource LabelErrorStyle}" />
         </Grid>
 
         <Grid Grid.Row="2">
-            <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="60,20,0,0" VerticalAlignment="Top" Height="30" Width="138" Style="{StaticResource LabelStyle}"/>
-            <TextBlock x:Name="projLocationPath" Text=".. please select project location .." HorizontalAlignment="Left" Height="Auto" Margin="214,24,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource TextLocationStyle}" TextWrapping="WrapWithOverflow" />
-          
-            <Button x:Name="browseLocation" Content="Browse" HorizontalAlignment="Left" Margin="614,16,0,0" VerticalAlignment="Top" Width="90" Height="34" Click="browseLocation_Click">
+            <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="60,15,0,0" VerticalAlignment="Top" Height="30" Width="138" Style="{StaticResource LabelStyle}"/>
+            <TextBlock x:Name="projLocationPath" Text=".. please select project location .." HorizontalAlignment="Left" Height="Auto" Margin="214,19,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource TextLocationStyle}" TextWrapping="WrapWithOverflow" />
+
+            <Button x:Name="browseLocation" Content="Browse" HorizontalAlignment="Left" Margin="614,11,0,0" VerticalAlignment="Top" Width="90" Height="34" Click="browseLocation_Click">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="#01a2a6" />
@@ -195,7 +201,7 @@
                 </Button.Style>
             </Button>
         </Grid>
-        
+
     </Grid>
 
 </UserControl>
