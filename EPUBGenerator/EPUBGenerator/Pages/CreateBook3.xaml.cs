@@ -24,6 +24,10 @@ namespace EPUBGenerator.Pages
         private string projPath;
         private string epubPath;
 
+        private int textFiles;
+        private int audioFiles;
+        private int avgSentences;
+
         public CreateBook3()
         {
             InitializeComponent();
@@ -34,6 +38,10 @@ namespace EPUBGenerator.Pages
             this.projName = projName;
             this.projPath = projPath;
             this.epubPath = epubPath;
+
+            infoprojName.Text = projName;
+            infoprojLocation.Text = projPath;
+            infoinputEPUB.Text = epubPath;
         }
 
         private void ProjInfo_Loaded(object sender, RoutedEventArgs e)
@@ -50,6 +58,12 @@ namespace EPUBGenerator.Pages
         {
             System.Windows.Forms.Application.Restart();
             System.Windows.Application.Current.Shutdown();
+        }
+
+
+        private void exportbutton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void editThisBookbutton_Click(object sender, RoutedEventArgs e)

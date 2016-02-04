@@ -196,19 +196,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\next.png" />
-    <Resource Include="Resources\nextB.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\nextPlay.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\backHomeB.png" />
-    <Resource Include="Resources\backHome.png" />
-    <Resource Include="Resources\close.png" />
-    <Resource Include="Resources\closeB.png" />
-    <Resource Include="Resources\editThisBook.png" />
-    <Resource Include="Resources\editThisBookB.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\logoMiniR.png" />
@@ -238,6 +226,19 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\newProj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\closeProg.png" />
+    <Resource Include="Resources\closeProgTxt.png" />
+    <Resource Include="Resources\editThisProj.png" />
+    <Resource Include="Resources\editThisProjTxt.png" />
+    <Resource Include="Resources\exportAs.png" />
+    <Resource Include="Resources\exportAsTxt.png" />
+    <Resource Include="Resources\home.png" />
+    <Resource Include="Resources\homeTxt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
