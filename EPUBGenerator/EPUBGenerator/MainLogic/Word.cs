@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,7 @@ namespace EPUBGenerator.MainLogic
         public double Begin { get; private set; }
         public double End { get; private set; }
         public Sentence Sentence { get; private set; }
+        public MemoryStream WaveStream { get; private set; } 
         public String Pronunciation
         {
             get
@@ -88,14 +90,21 @@ namespace EPUBGenerator.MainLogic
             String newText = Text + next.Value.Text;
             String newPhoneme = Tools.GetPhoneme(newText, Sentence.Type);
             Word newWord = new Word(newText, newPhoneme, Sentence);
-            Words.AddBefore(Node, newWord);
+            newWord.Node = Words.AddBefore(Node, newWord);
             Words.Remove(next);
             Words.Remove(Node);
         }
 
-        public void Split()
+        public void SplitAt(int index)
         {
-            // T_T ทำไรดี
+            LinkedList<Word> Words = Node.List;
+            String newText = Text.Substring(index);
+            String newPhoneme = Tools.GetPhoneme(newText, Sentence.Type);
+            Word newWord = new Word(newText, newPhoneme, Sentence);
+            newWord.Node = Words.AddAfter(Node, newWord);
+
+            Text = Text.Substring(0, index);
+            Pronunciation = null;
         }
     }
 }

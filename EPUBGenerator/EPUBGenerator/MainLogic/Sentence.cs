@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +18,7 @@ namespace EPUBGenerator.MainLogic
         public double End { get; private set; }
         public Block Block { get; private set; }
         public LinkedList<Word> Words { get; private set; }
-
+        public MemoryStream WaveStream { get; private set; }
 
         public String Pronunciation
         {
@@ -36,8 +37,15 @@ namespace EPUBGenerator.MainLogic
             {
                 String phoneme = "";
                 foreach (Word word in Words)
-                    phoneme += word.Phoneme + ";";
-                return phoneme;
+                {
+                    String wordPhone = word.Phoneme;
+                    while (wordPhone.Substring(0, 8).Equals(@"sil;7;0|"))
+                        wordPhone = wordPhone.Substring(8);
+                    while (wordPhone.Substring(wordPhone.Length - 8).Equals(@"sil;7;0|"))
+                        wordPhone = wordPhone.Substring(0, wordPhone.Length - 8);
+                    phoneme += wordPhone;
+                }
+                return @"sil;7;0|" + phoneme + @"sil;7;0|";
             }
         }
 
@@ -102,6 +110,12 @@ namespace EPUBGenerator.MainLogic
                 Word word = new Word(kvPair.Key, kvPair.Value, this);
                 word.Node = Words.AddLast(word);
             }
+            Synthesize();
+        }
+
+        public void Synthesize()
+        {
+            WaveStream = Tools.Synthesize(Phoneme, Type);
         }
     }
 }

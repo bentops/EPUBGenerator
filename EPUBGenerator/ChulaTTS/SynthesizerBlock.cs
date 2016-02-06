@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Globalization;
 using System.IO;
 using System.Media;
-using System.Reflection;
 using System.Threading;
+using TTS.Synthesizers;
 
-namespace ChulaTTS.Synthesizer
+namespace TTS
 {
     public class SynthesizerBlock
     {
@@ -70,7 +66,7 @@ namespace ChulaTTS.Synthesizer
                 Syn.Value.SetSpeed(speed);
             this._speed = speed;
         }
-
+        /*
         public void Synthesis(List<KeyValuePair<string, int>> inp)
         {
             long num1 = 0;
@@ -86,14 +82,14 @@ namespace ChulaTTS.Synthesizer
                 {
                     if (this.SynthesizerReturnType[index1] == 1)
                     {
-                        numArray1 = Synthesizer[index1].Synthesis(list1);
+                        numArray1 = Synthesizer[index1].Synthesize(list1);
                         num1 += (long)numArray1.Length;
                     }
                     #region
                     if (this.SynthesizerReturnType[index1] == 2)
                     {
                         // OHHHHHHHHHH WE GOT PROBLEM HEREEEEEEEEEEEEEEEEEEEEE
-                        string str = (string)(object)Synthesizer[index1].Synthesis(list1);
+                        string str = (string)(object)Synthesizer[index1].Synthesize(list1);
                         FileInfo fileInfo = new FileInfo(str);
                         bool flag = false;
                         while (!flag)
@@ -124,13 +120,13 @@ namespace ChulaTTS.Synthesizer
             }
             if (this.SynthesizerReturnType[index1] == 1)
             {
-                numArray1 = Synthesizer[index1].Synthesis(list1);
+                numArray1 = Synthesizer[index1].Synthesize(list1);
                 num1 += (long)numArray1.Length;
             }
             if (this.SynthesizerReturnType[index1] == 2)
             {
                 // OHHHHHHHHHHHHHH WE GOT PROBLEM HEREEEEEEEEEEEEEEEE
-                string str = (string)(object)Synthesizer[index1].Synthesis(list1);
+                string str = (string)(object)Synthesizer[index1].Synthesize(list1);
                 FileInfo fileInfo = new FileInfo(str);
                 bool flag = false;
                 while (!flag)
@@ -200,7 +196,7 @@ namespace ChulaTTS.Synthesizer
             for (int index3 = 0; index3 <= 3; ++index3)
                 this.CurDat[index3 + 40] = (byte)(num10 >> index3 * 8 & (uint)byte.MaxValue);
         }
-
+        */
         public List<KeyValuePair<int, String>> GetSynthesizer()
         {
             List<KeyValuePair<int, String>> SynList = new List<KeyValuePair<int, String>>();

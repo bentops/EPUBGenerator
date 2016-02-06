@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChulaTTS.Synthesizer
+namespace TTS.Synthesizers
 {
     class SynthesizerEngine
     {

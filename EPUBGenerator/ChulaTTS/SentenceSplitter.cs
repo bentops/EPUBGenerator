@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace ChulaTTS.G2PConverter.SentenceSplitter
+namespace TTS
 {
-    public class SentenceSplitter : ISentenceSplitter
+    public class SentenceSplitter
     {
 
         //Define type 1 = Thai

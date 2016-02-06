@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ChulaTTS.G2PConverter.G2P
+namespace TTS.G2Ps
 {
-    public class G2PEn
+    public class G2PEn : IG2P
     {
         public string GenTranscript(string inp)
         {

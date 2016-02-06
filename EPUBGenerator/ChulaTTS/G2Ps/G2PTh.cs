@@ -1,12 +1,11 @@
 ﻿using Chula.SLS.TTS.C2SSegmentator;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace ChulaTTS.G2PConverter.G2P
+namespace TTS.G2Ps
 {
-    public class G2PTh
+    public class G2PTh : IG2P
     {
         private Dictionary<string, List<KeyValuePair<string, string>>> DictFile;
         private C2SThaiWordSegmentator _twordsegment;

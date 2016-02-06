@@ -1,8 +1,8 @@
-﻿namespace ChulaTTS.G2PConverter
+﻿namespace TTS
 {
     public interface IPhonemeConverter
     {
-        string Convert(string input, int type);
+        string Convert(string input);
         string[] C2Pronunciation(string input);
     }
 }

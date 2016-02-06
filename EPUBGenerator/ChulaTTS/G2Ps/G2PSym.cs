@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ChulaTTS.G2PConverter.G2P
+namespace TTS.G2Ps
 {
-    public class G2PSym
+    public class G2PSym : IG2P
     {
         private Dictionary<string, string> Dict = new Dictionary<string, string>();
         public G2PSym()

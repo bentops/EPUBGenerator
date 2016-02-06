@@ -7,8 +7,8 @@
     <ProjectGuid>{127885F3-1423-4532-A250-DF182EE98F10}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChulaTTS</RootNamespace>
-    <AssemblyName>ChulaTTS</AssemblyName>
+    <RootNamespace>TTS</RootNamespace>
+    <AssemblyName>TTS</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,47 +41,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="G2PConverter\G2P\G2PEn.cs" />
-    <Compile Include="G2PConverter\G2P\G2P.cs" />
-    <Compile Include="G2PConverter\G2P\G2PNum.cs" />
-    <Compile Include="G2PConverter\G2P\G2PSym.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\C2SSegmentatorException.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\C2SThaiWordSegmentator.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\Converters\LabelConverter.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\Converters\ThaiPhonemeConverter.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\Converters\ThaiPronunciationConverter.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\Converters\ThaiPronunciationResult.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\IWordStructureRule.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureChar.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureConcatRule.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureOptionalRule.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructurePronunciationRule.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureRuleList.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureString.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureThaiDictRule.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureTwoChar.cs" />
-    <Compile Include="G2PConverter\G2P\G2PTh_Resources\WordStructureRules\WordStructureUnionRule.cs" />
-    <Compile Include="G2PConverter\IG2P.cs" />
-    <Compile Include="G2PConverter\IPhonemeConverter.cs" />
-    <Compile Include="G2PConverter\PhonemeConverter\PhonemeConverter.cs" />
-    <Compile Include="G2PConverter\PhonemeConverter\Wirote2TSync.cs" />
-    <Compile Include="G2PConverter\Preprocessor\Dummy.cs" />
-    <Compile Include="G2PConverter\Preprocessor\Preprocessor.cs" />
-    <Compile Include="G2PConverter\IPreprocessor.cs" />
-    <Compile Include="G2PConverter\ISentenceSplitter.cs" />
-    <Compile Include="G2PConverter\SentenceSplitter\SentenceSplitter.cs" />
+    <Compile Include="G2Ps\G2PEn.cs" />
+    <Compile Include="CG2P.cs" />
+    <Compile Include="G2Ps\G2PNum.cs" />
+    <Compile Include="G2Ps\G2PSym.cs" />
+    <Compile Include="G2Ps\G2PTh.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\C2SSegmentatorException.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\C2SThaiWordSegmentator.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\Converters\LabelConverter.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\Converters\ThaiPhonemeConverter.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\Converters\ThaiPronunciationConverter.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\Converters\ThaiPronunciationResult.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\IWordStructureRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureChar.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureConcatRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureOptionalRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructurePronunciationRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureRuleList.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureString.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureThaiDictRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureTwoChar.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureUnionRule.cs" />
+    <Compile Include="IG2P.cs" />
+    <Compile Include="IPhonemeConverter.cs" />
+    <Compile Include="CPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\EngPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\NumberPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\ThaiPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\Wirote2TSync.cs" />
+    <Compile Include="Preprocessors\Dummy.cs" />
+    <Compile Include="CPreprocessor.cs" />
+    <Compile Include="IPreprocessor.cs" />
+    <Compile Include="SentenceSplitter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Synthesizer\ISynthesizer.cs" />
-    <Compile Include="Synthesizer\Phone2Lab.cs" />
-    <Compile Include="Synthesizer\SynthesizerAlpha1.cs" />
-    <Compile Include="Synthesizer\SynthesizerBlock.cs" />
-    <Compile Include="Synthesizer\SynthesizerEngine.cs" />
+    <Compile Include="ISynthesizer.cs" />
+    <Compile Include="Synthesizers\Phone2Lab.cs" />
+    <Compile Include="CSynthesizer.cs" />
+    <Compile Include="Synthesizers\SAPI.cs" />
+    <Compile Include="Synthesizers\SynthesizerAlpha1.cs" />
+    <Compile Include="SynthesizerBlock.cs" />
+    <Compile Include="Synthesizers\SynthesizerEngine.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

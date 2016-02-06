@@ -1,22 +1,24 @@
-﻿using ChulaTTS.G2PConverter;
+﻿using TTS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace EPUBGenerator.MainLogic
 {
     public class Tools
     {
-        public static ISentenceSplitter SentenceSplitter { get; set; }
-        public static IPreprocessor Preprocessor { get; set; }
-        public static IG2P G2P { get; set; }
-        public static IPhonemeConverter PhonemeConverter { get; set; }
+        public static SentenceSplitter SentenceSplitter { get; set; }
+        public static CPreprocessor Preprocessor { get; set; }
+        public static CG2P G2P { get; set; }
+        public static CPhonemeConverter PhonemeConverter { get; set; }
+        public static CSynthesizer Synthesizer { get; set; }
         
         public static bool IsReady()
         {
-            return Preprocessor != null && G2P != null && PhonemeConverter != null;
+            return Preprocessor != null && G2P != null && PhonemeConverter != null && Synthesizer != null;
         }
 
         public static List<KeyValuePair<String, String>> GetPhonemeList(String input, int type)
@@ -38,6 +40,11 @@ namespace EPUBGenerator.MainLogic
             input = G2P.GenTranscript(input, type);
             input = PhonemeConverter.Convert(input, type);
             return input;
+        }
+
+        public static MemoryStream Synthesize(String input, int type)
+        {
+            return Synthesizer.Synthesize(input, type);
         }
     }
 }

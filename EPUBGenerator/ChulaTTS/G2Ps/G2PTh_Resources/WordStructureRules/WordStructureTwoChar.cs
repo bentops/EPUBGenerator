@@ -22,7 +22,7 @@ namespace ThaiSpeechSynthesizer
 
         private WordStructureTwoChar()
         {
-            foreach (string s in ChulaTTS.Properties.Resources.TwoConsDict.Split(' '))
+            foreach (string s in TTS.Properties.Resources.TwoConsDict.Split(' '))
                 _twoCharDict.Add(s, true);
         }
 

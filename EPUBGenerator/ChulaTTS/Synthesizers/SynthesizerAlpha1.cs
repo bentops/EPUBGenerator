@@ -3,45 +3,44 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace ChulaTTS.Synthesizer
+namespace TTS.Synthesizers
 {
     public class Alpha1 : ISynthesizer
     {
-        private double speechRate = 1.0;
+        private double speechRate;
         private List<string> ModelList;
         private string CurModel;
         private string param;
         private string TempPath;
         private string TempName;
-
-        // ---------------------
+        
         private Phone2Lab P2L;
         private SynthesizerEngine Synthesizer;
-        // ---------------------
 
         public Alpha1()
         {
-            // -------------
             P2L = new Phone2Lab();
             Synthesizer = new SynthesizerEngine();
-            // -------------
-            this.TempPath = "";
+
+            speechRate = 1.0;
+
+            TempPath = "";
             
-            if (this.TempPath == "")
-                this.TempPath = "tmp";
+            if (TempPath == "")
+                TempPath = "tmp";
             
             
             Random random = new Random();
             do
             {
-                this.TempName = random.Next(10000000, 99999999).ToString();
+                TempName = random.Next(10000000, 99999999).ToString();
             }
-            while (File.Exists(this.TempPath + "\\" + this.TempName + ".lab"));
+            while (File.Exists(TempPath + "\\" + TempName + ".lab"));
         }
 
         public void SetModel(String ModelName)
         {
-            this.CurModel = ModelName;
+            CurModel = ModelName;
         }
 
         public List<string> GetModel()
@@ -55,7 +54,7 @@ namespace ChulaTTS.Synthesizer
             return this.ModelList;
         }
 
-        public void SetFrequency(int fs)
+        public void SetFrequency(int frequency)
         {
         }
 
@@ -65,7 +64,7 @@ namespace ChulaTTS.Synthesizer
 
         public void SetSpeed(double speed)
         {
-            this.speechRate = speed;
+            speechRate = speed;
         }
 
         public string About()
@@ -73,16 +72,14 @@ namespace ChulaTTS.Synthesizer
             return "HTS Engine 1.5";
         }
 
-        public byte[] Synthesis(List<KeyValuePair<string, int>> inp)
+        public MemoryStream Synthesize(string input)
         {
             this.dfile(Path.Combine(this.TempPath, this.TempName + ".lab"));
             this.dfile(Path.Combine(this.TempPath, this.TempName + ".wav"));
             this.dfile(Path.Combine(this.TempPath, this.TempName + ".dur"));
-            string str = "";
-            foreach (KeyValuePair<string, int> keyValuePair in inp)
-                str += P2L.G5T5(keyValuePair.Key);
+            string str = P2L.G5T5(input);
             if (str.Split("\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).Length <= 2)
-                return new byte[10] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+                return new MemoryStream(new byte[10] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0});
             using (StreamWriter streamWriter = new StreamWriter(Path.Combine(this.TempPath, this.TempName + ".lab")))
             {
                 streamWriter.Write(str);
@@ -118,7 +115,7 @@ namespace ChulaTTS.Synthesizer
                     Thread.Sleep(100);
                 }
             }
-            return numArray;
+            return new MemoryStream(numArray);
         }
 
         private void dfile(string FileName)

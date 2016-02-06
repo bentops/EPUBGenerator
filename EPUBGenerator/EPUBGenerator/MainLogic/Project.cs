@@ -1,8 +1,8 @@
-﻿using ChulaTTS.G2PConverter;
-using ChulaTTS.G2PConverter.G2P;
-using ChulaTTS.G2PConverter.PhonemeConverter;
-using ChulaTTS.G2PConverter.Preprocessor;
-using ChulaTTS.G2PConverter.SentenceSplitter;
+﻿using TTS;
+using TTS.G2Ps;
+using TTS.PhonemeConverters;
+using TTS.Preprocessors;
+using TTS.Synthesizers;
 using eBdb.EpubReader;
 using System;
 using System.Collections.Generic;
@@ -34,6 +34,7 @@ namespace EPUBGenerator.MainLogic
         private static String ResourcesPath { get; set; }
         private static String PackagePath { get; set; }
         private static String SavesPath { get; set; }
+        private static String TempPath { get; set; }
         #endregion
 
         public static void SetTools()
@@ -41,9 +42,10 @@ namespace EPUBGenerator.MainLogic
             if (!Tools.IsReady())
             {
                 Tools.SentenceSplitter = new SentenceSplitter();
-                Tools.Preprocessor = new Preprocessor();
-                Tools.G2P = new G2P();
-                Tools.PhonemeConverter = new PhonemeConverter();
+                Tools.Preprocessor = new CPreprocessor();
+                Tools.G2P = new CG2P();
+                Tools.PhonemeConverter = new CPhonemeConverter();
+                Tools.Synthesizer = new CSynthesizer();
             }
         }
 
@@ -185,6 +187,8 @@ namespace EPUBGenerator.MainLogic
             Directory.CreateDirectory(PackagePath = Path.Combine(ResourcesPath, packageDirectory));
 
             Directory.CreateDirectory(SavesPath = Path.Combine(ProjectPath, "Saves"));
+            
+            Directory.CreateDirectory(TempPath = Path.Combine(ProjectPath, "Temp"));
         }
 
         private static List<Content> GetAllContents(List<NavPoint> navList)

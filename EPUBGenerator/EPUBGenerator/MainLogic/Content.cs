@@ -1,5 +1,4 @@
-﻿using ChulaTTS.G2PConverter;
-using eBdb.EpubReader;
+﻿using eBdb.EpubReader;
 using System;
 using System.Collections.Generic;
 using System.Xml.Linq;
