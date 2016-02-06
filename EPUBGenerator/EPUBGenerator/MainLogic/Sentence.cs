@@ -30,14 +30,14 @@ namespace EPUBGenerator.MainLogic
             }
         }
 
-        public String Transcript
+        public String Phoneme
         {
             get
             {
-                String transcript = "";
+                String phoneme = "";
                 foreach (Word word in Words)
-                    transcript += word.Transcript + ";";
-                return transcript;
+                    phoneme += word.Phoneme + ";";
+                return phoneme;
             }
         }
 
@@ -96,7 +96,7 @@ namespace EPUBGenerator.MainLogic
         {
             Text = text;
             Words = new LinkedList<Word>();
-            List<KeyValuePair<String, String>> list = Tools.G2P.GenTranscriptList(text, Type);
+            List<KeyValuePair<String, String>> list = Tools.GetPhonemeList(text, Type);
             foreach (KeyValuePair<String, String> kvPair in list)
             {
                 Word word = new Word(kvPair.Key, kvPair.Value, this);

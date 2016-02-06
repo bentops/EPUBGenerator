@@ -26,7 +26,9 @@ namespace EPUBGenerator.MainLogic
         public static int Status;
 
         private static Epub EpubReader { get; set; }
-        private static List<NavPoint> NavPoints { get; set; }
+        private static List<Content> Contents { get; set; }
+        private static StreamReader StreamReader { get; set; }
+        private static StreamWriter StreamWriter { get; set; }
 
         #region Subdirectories
         private static String ResourcesPath { get; set; }
@@ -59,18 +61,17 @@ namespace EPUBGenerator.MainLogic
             EpubName = "Original_" + Path.GetFileName(epubPath);
             EpubPath = Path.Combine(ResourcesPath, EpubName); // Path of the Epub-Copy in this Project
             File.Copy(epubPath, EpubPath);
-            NavPoints = GetAllNavPoints(EpubReader.TOC);
+            Contents = GetAllContents(EpubReader.TOC);
             // -----------------------------------------------------
 
-            Console.WriteLine("Total: " + NavPoints.Count);
+            Console.WriteLine("Total: " + Contents.Count);
             int i = 0;
-            foreach (NavPoint nav in NavPoints)
+            foreach (Content content in Contents)
             {
-                Content content = new Content(nav);
                 Save(content);
 
                 i++;
-                bw.ReportProgress(i * 100 / NavPoints.Count);
+                bw.ReportProgress(i * 100 / Contents.Count);
                 Thread.Sleep(100);
 
                 if (Worker.CancellationPending)
@@ -84,7 +85,7 @@ namespace EPUBGenerator.MainLogic
 
             // ------------------ Final --------------------------
             Status = (int)Statuses.None;
-            ExportEpub(Path.Combine(ProjectPath, "OutputEPUB.epub"));
+            ExportEpub(Path.Combine(ProjectPath, "OutputEPUB.zip"));
             // ---------------------------------------------------
         }
 
@@ -95,10 +96,51 @@ namespace EPUBGenerator.MainLogic
 
             String exportPackagePath = Path.Combine(exportPath, EpubReader.GetOpfDirectory());
 
+            foreach (Content content in Contents)
+            {
+                XElement xContent = new XElement(content.Root);
+                List<XText> xBlocks = GetTextBlocks(xContent.Element(content.Xns + "body"));
+                int count = 0;
+                foreach (XText xText in xBlocks)
+                {
+                    Console.WriteLine(xText.Value);
+                    int id = Int32.Parse(xText.Value.Substring(1));
+                    if (id != count)
+                        throw new Exception("Wrong ordering: Blocks");
+                    XElement parent = xText.Parent;
+                    foreach (Sentence sentence in content.Blocks[id].Sentences)
+                    {
+                        XElement xSentence = new XElement(content.Xns + "span");
+                        xSentence.Add(new XAttribute("id", xText.Value + sentence.SID));
+                        xSentence.Add(new XText(sentence.Text));
+                        parent.Add(xSentence);
+                    }
+                    xText.Remove();
+                    count++;
+                }
+                StreamWriter = new StreamWriter(Path.Combine(exportPackagePath, content.Source));
+                StreamWriter.Write(xContent);
+                StreamWriter.Close();
+            }
             
-
-            ZipFile.CreateFromDirectory(exportPath, savePath);
+            ZipFile.CreateFromDirectory(exportPath, savePath, CompressionLevel.Optimal, false, System.Text.UTF8Encoding.UTF8);
+            //Path.ChangeExtension(savePath, "epub");
+            //Ionic.Zip.ZipOutputStream.
         }
+
+        private static List<XText> GetTextBlocks(XElement element)
+        {
+            List<XText> xTexts = new List<XText>();
+            foreach (XNode node in element.Nodes())
+            {
+                if (node is XText)
+                    xTexts.Add(node as XText);
+                else if (node is XElement)
+                    xTexts.AddRange(GetTextBlocks(node as XElement));
+            }
+            return xTexts;
+        }
+
 
         private static void Save(Content content)
         {
@@ -145,16 +187,16 @@ namespace EPUBGenerator.MainLogic
             Directory.CreateDirectory(SavesPath = Path.Combine(ProjectPath, "Saves"));
         }
 
-        private static List<NavPoint> GetAllNavPoints(List<NavPoint> navList)
+        private static List<Content> GetAllContents(List<NavPoint> navList)
         {
-            List<NavPoint> navs = new List<NavPoint>();
+            List<Content> contents = new List<Content>();
             foreach (NavPoint nav in navList)
             {
                 if (nav.ContentData != null)
-                    navs.Add(nav);
-                navs.AddRange(GetAllNavPoints(nav.Children));
+                    contents.Add(new Content(nav));
+                contents.AddRange(GetAllContents(nav.Children));
             }
-            return navs;
+            return contents;
         }
         
     }

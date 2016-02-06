@@ -16,7 +16,7 @@ namespace EPUBGenerator.MainLogic
 
         public LinkedListNode<Word> Node { get; set; }
         public String Text { get; private set; }
-        public String Transcript { get; private set; }
+        public String Phoneme { get; private set; }
         public double Begin { get; private set; }
         public double End { get; private set; }
         public Sentence Sentence { get; private set; }
@@ -31,14 +31,14 @@ namespace EPUBGenerator.MainLogic
             set
             {
                 pronunciation = value;
-                Transcript = Tools.G2P.GenTranscript(Pronunciation, Sentence.Type);
+                Phoneme = Tools.GetPhoneme(Pronunciation, Sentence.Type);
             }
         }
         
-        public Word(String text, String transcript, Sentence sentence)
+        public Word(String text, String phoneme, Sentence sentence)
         {
             Text = text;
-            Transcript = transcript;
+            Phoneme = phoneme;
             Sentence = sentence;
         }
 
@@ -68,7 +68,7 @@ namespace EPUBGenerator.MainLogic
             xWord.Add(new XAttribute("txt", Text));
             if (pronunciation != null)
                 xWord.Add(new XAttribute("pronun", Pronunciation));
-            //xWord.Add(new XAttribute("trans", Transcript));
+            //xWord.Add(new XAttribute("phon", Phoneme));
             xWord.Add(new XAttribute("begin", Begin));
             xWord.Add(new XAttribute("end", End));
             return xWord;
@@ -86,8 +86,8 @@ namespace EPUBGenerator.MainLogic
             LinkedListNode<Word> next = Node.Next;
             if (next == null) return;
             String newText = Text + next.Value.Text;
-            String newTranscript = Tools.G2P.GenTranscript(newText, Sentence.Type);
-            Word newWord = new Word(newText, newTranscript, Sentence);
+            String newPhoneme = Tools.GetPhoneme(newText, Sentence.Type);
+            Word newWord = new Word(newText, newPhoneme, Sentence);
             Words.AddBefore(Node, newWord);
             Words.Remove(next);
             Words.Remove(Node);

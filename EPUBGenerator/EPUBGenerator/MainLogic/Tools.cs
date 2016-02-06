@@ -17,6 +17,27 @@ namespace EPUBGenerator.MainLogic
         public static bool IsReady()
         {
             return Preprocessor != null && G2P != null && PhonemeConverter != null;
-        } 
+        }
+
+        public static List<KeyValuePair<String, String>> GetPhonemeList(String input, int type)
+        {
+            input = Preprocessor.Process(input, type);
+            List<KeyValuePair<String, String>> list = G2P.GenTranscriptList(input, type);
+            for (int i = 0; i < list.Count; i++)
+            {
+                String text = list[i].Key;
+                String phon = PhonemeConverter.Convert(list[i].Value, type);
+                list[i] = new KeyValuePair<String, String>(text, phon);
+            }
+            return list;
+        }
+
+        public static String GetPhoneme(String input, int type)
+        {
+            input = Preprocessor.Process(input, type);
+            input = G2P.GenTranscript(input, type);
+            input = PhonemeConverter.Convert(input, type);
+            return input;
+        }
     }
 }
