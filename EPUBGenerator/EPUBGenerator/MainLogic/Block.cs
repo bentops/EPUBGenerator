@@ -11,7 +11,8 @@ namespace EPUBGenerator.MainLogic
     {
         public int ID { get; set; }
         public String BID { get { return "B" + ID; } }
-        public List<Sentence> Sentences { get; set; }
+        public Content Content { get; private set; }
+        public List<Sentence> Sentences { get; private set; }
 
         public String Text
         {
@@ -26,7 +27,7 @@ namespace EPUBGenerator.MainLogic
             }
         }
 
-        public Block(int id, String text)
+        public Block(int id, String text, Content content)
         {
             ID = id;
             // DO SOME SPLIT HERE //
@@ -37,9 +38,10 @@ namespace EPUBGenerator.MainLogic
                 if (String.IsNullOrWhiteSpace(sentence.Key)) continue;
                 Sentences.Add(new Sentence(count++, sentence.Value, sentence.Key, this));
             }
+            Content = content;
         }
 
-        public Block(XElement xBlock)
+        public Block(XElement xBlock, Content content)
         {
             Sentences = new List<Sentence>();
             foreach (XElement element in xBlock.Descendants())
@@ -50,6 +52,7 @@ namespace EPUBGenerator.MainLogic
                     default: break;
                 }
             }
+            Content = content;
         }
 
         public XElement ToXml()

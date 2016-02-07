@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace TTS.Synthesizers
 {
@@ -27,7 +24,7 @@ namespace TTS.Synthesizers
             Process process = new Process();
             Process.Start(new ProcessStartInfo("hts_engine1.10-org.exe")
             {
-                Arguments = "-m " + modelPath + ".htsvoice " + param + " -ow " + tempPath + oname + ".wav  -od " + tempPath + oname + ".dur " + fname,
+                Arguments = "-m " + modelPath + ".htsvoice " + param + " -ow " + Path.Combine(tempPath, oname + ".wav") + " -od " + tempPath + oname + ".dur " + fname,
                 RedirectStandardError = false,
                 RedirectStandardOutput = false,
                 UseShellExecute = false,

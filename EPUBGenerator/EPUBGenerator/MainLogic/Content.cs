@@ -49,7 +49,7 @@ namespace EPUBGenerator.MainLogic
                 if (ChildNode is XText)
                 {
                     XText TextNode = ChildNode as XText;
-                    Block block = new Block(count++, TextNode.Value);
+                    Block block = new Block(count++, TextNode.Value, this);
                     TextNode.Value = block.BID;
                     Blocks.Add(block);
                 }

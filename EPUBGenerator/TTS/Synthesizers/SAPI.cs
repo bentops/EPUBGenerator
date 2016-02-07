@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Speech.AudioFormat;
 using System.Speech.Synthesis;
@@ -7,14 +8,17 @@ namespace TTS.Synthesizers
 {
     class SAPI : ISynthesizer
     {
-        private int _frequency;
-        private SpeechSynthesizer _speechSynthesizer;
+        private SpeechSynthesizer speechSynthesizer;
+        private SpeechAudioFormatInfo speechAudioFormatInfo;
+        private string tempPath;
 
         public SAPI()
         {
-            _frequency = 16000;
-            _speechSynthesizer = new SpeechSynthesizer();
-            _speechSynthesizer.Volume = 100;
+            int frequency = 16000;
+            speechSynthesizer = new SpeechSynthesizer();
+            speechSynthesizer.Volume = 100;
+
+            speechAudioFormatInfo = new SpeechAudioFormatInfo(frequency, AudioBitsPerSample.Sixteen, AudioChannel.Mono);
         }
 
         public string About()
@@ -24,7 +28,7 @@ namespace TTS.Synthesizers
 
         public void Dispose()
         {
-            _speechSynthesizer.Dispose();
+            speechSynthesizer.Dispose();
         }
 
         public List<string> GetModel()
@@ -34,7 +38,7 @@ namespace TTS.Synthesizers
 
         public void SetFrequency(int frequency)
         {
-            _frequency = frequency;
+            speechAudioFormatInfo = new SpeechAudioFormatInfo(frequency, AudioBitsPerSample.Sixteen, AudioChannel.Mono);
         }
 
         public void SetModel(string modelName)
@@ -47,17 +51,32 @@ namespace TTS.Synthesizers
 
         public void SetSpeed(double speed)
         {
-            _speechSynthesizer.Rate = (int)(4 * speed - 4);
+            speechSynthesizer.Rate = (int)(4 * speed - 4);
         }
 
-        public MemoryStream Synthesize(string input)
+        public void SetTemp(string path)
+        {
+            tempPath = path;
+        }
+
+        public MemoryStream Synthesize(string input, string id)
         {
             MemoryStream stream = new MemoryStream();
-            SpeechAudioFormatInfo audioInfo = new SpeechAudioFormatInfo(_frequency, AudioBitsPerSample.Sixteen, AudioChannel.Mono);
-            //_speechSynthesizer.SetOutputToWaveFile(Path.Combine(Path.GetTempPath(), "en" + (object)this.cnt + ".wav"), _frequency);
-            _speechSynthesizer.SetOutputToAudioStream(stream, audioInfo);
-            _speechSynthesizer.Speak(input);
+            string wavPath = Path.Combine(tempPath, id + ".wav");
+            //speechSynthesizer.SetOutputToWaveFile(wavPath, speechAudioFormatInfo);
+            speechSynthesizer.SetOutputToAudioStream(stream, speechAudioFormatInfo);
+            speechSynthesizer.Speak(input);
             Dispose();
+
+            using (StreamWriter streamWriter = new StreamWriter(wavPath))
+            {
+                byte[] buffer = new byte[stream.Length];
+                stream.Read(buffer, 0, (int)stream.Length);
+                streamWriter.Write(buffer);
+                streamWriter.Close();
+            }
+
+            stream.Position = 0;
             return stream;
         }
     }

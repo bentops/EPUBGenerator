@@ -8,14 +8,14 @@ using System.IO;
 
 namespace EPUBGenerator.MainLogic
 {
-    public class Tools
+    class Tools
     {
         public static SentenceSplitter SentenceSplitter { get; set; }
         public static CPreprocessor Preprocessor { get; set; }
         public static CG2P G2P { get; set; }
         public static CPhonemeConverter PhonemeConverter { get; set; }
         public static CSynthesizer Synthesizer { get; set; }
-        
+
         public static bool IsReady()
         {
             return Preprocessor != null && G2P != null && PhonemeConverter != null && Synthesizer != null;
@@ -42,9 +42,10 @@ namespace EPUBGenerator.MainLogic
             return input;
         }
 
-        public static MemoryStream Synthesize(String input, int type)
+        public static MemoryStream Synthesize(String input, int type, string id)
         {
-            return Synthesizer.Synthesize(input, type);
+            Console.WriteLine("in");
+            return Synthesizer.Synthesize(input, type, id);
         }
     }
 }

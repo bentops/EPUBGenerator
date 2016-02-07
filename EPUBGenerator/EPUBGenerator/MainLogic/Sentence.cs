@@ -10,6 +10,7 @@ namespace EPUBGenerator.MainLogic
 {
     class Sentence
     {
+        public static int total = 0;
         public int ID { get; set; }
         public String SID { get { return "S" + ID; } }
         public int Type { get; set; }
@@ -39,11 +40,10 @@ namespace EPUBGenerator.MainLogic
                 foreach (Word word in Words)
                 {
                     String wordPhone = word.Phoneme;
-                    while (wordPhone.Substring(0, 8).Equals(@"sil;7;0|"))
-                        wordPhone = wordPhone.Substring(8);
-                    while (wordPhone.Substring(wordPhone.Length - 8).Equals(@"sil;7;0|"))
-                        wordPhone = wordPhone.Substring(0, wordPhone.Length - 8);
-                    phoneme += wordPhone;
+                    int silIndex = 0;
+                    while ((silIndex = wordPhone.IndexOf(@"sil;7;0|")) != -1)
+                        wordPhone = wordPhone.Remove(silIndex, 8);
+                    phoneme += wordPhone;//word.Phoneme.Substring(8, word.Phoneme.Length - 16);
                 }
                 return @"sil;7;0|" + phoneme + @"sil;7;0|";
             }
@@ -51,6 +51,7 @@ namespace EPUBGenerator.MainLogic
 
         public Sentence(int id, int type, String text, Block block)
         {
+            total++;
             ID = id;
             Type = type;
             Block = block;
@@ -59,6 +60,7 @@ namespace EPUBGenerator.MainLogic
 
         public Sentence(XElement xSentence, Block block)
         {
+            total++;
             foreach (XAttribute attribute in xSentence.Attributes())
             {
                 String value = attribute.Value;
@@ -110,12 +112,14 @@ namespace EPUBGenerator.MainLogic
                 Word word = new Word(kvPair.Key, kvPair.Value, this);
                 word.Node = Words.AddLast(word);
             }
-            Synthesize();
         }
 
         public void Synthesize()
         {
-            WaveStream = Tools.Synthesize(Phoneme, Type);
+            Console.WriteLine("in");
+            WaveStream = Tools.Synthesize(Phoneme, Type, Block.Content.Order + "-" + Block.BID + "-" + SID);
+
+            Console.WriteLine("out");
         }
     }
 }

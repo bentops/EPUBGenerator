@@ -74,7 +74,7 @@
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="TTS">
-      <HintPath>..\ChulaTTS\bin\Debug\TTS.dll</HintPath>
+      <HintPath>..\TTS\bin\Debug\TTS.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />

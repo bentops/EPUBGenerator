@@ -5,6 +5,19 @@ namespace TTS.Synthesizers
 {
     public class Phone2Lab
     {
+        public string Convert(string input, string method)
+        {
+            switch(method)
+            {
+                case "G5T3": return G5T3(input);
+                case "G5T3P3": return G5T3P3(input);
+                case "G5T3P3S": return G5T3P3S(input);
+                case "G5T5": return G5T5(input);
+                case "G7T7": return G7T7(input);
+                default: return input;
+            }
+        }
+
         public string G5T3(string inp)
         {
             string str1 = "";

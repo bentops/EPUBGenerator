@@ -45,7 +45,7 @@ namespace EPUBGenerator.MainLogic
                 Tools.Preprocessor = new CPreprocessor();
                 Tools.G2P = new CG2P();
                 Tools.PhonemeConverter = new CPhonemeConverter();
-                Tools.Synthesizer = new CSynthesizer();
+                Tools.Synthesizer = new CSynthesizer(TempPath);
             }
         }
 
@@ -53,8 +53,8 @@ namespace EPUBGenerator.MainLogic
         {
             // ------------------ Initial --------------------------
             EpubReader = new Epub(epubPath); // Use original epubPath to read data
-            SetTools(); // Set TTS Tools
             SetSubdirectories(projPath); // Create Subdirectories
+            SetTools(); // Set TTS Tools
 
             Status = (int)Statuses.Create;
             Worker = bw;
@@ -73,8 +73,8 @@ namespace EPUBGenerator.MainLogic
                 Save(content);
 
                 i++;
-                bw.ReportProgress(i * 100 / Contents.Count);
-                Thread.Sleep(100);
+                bw.ReportProgress(i * 50 / Contents.Count);
+                Thread.Sleep(10);
 
                 if (Worker.CancellationPending)
                 {
@@ -82,6 +82,32 @@ namespace EPUBGenerator.MainLogic
                     DoWorkEvent.Result = "Cancel";
                     Clear(ProjectPath);
                     break;
+                }
+            }
+
+            Console.WriteLine("Total Sentences: " + Sentence.total);
+            i = 0;
+            foreach (Content content in Contents)
+            {
+                foreach (Block block in content.Blocks)
+                {
+                    foreach (Sentence sentence in block.Sentences)
+                    {
+                        Console.WriteLine("IN" + i);
+                        sentence.Synthesize();
+                        Console.WriteLine("OUT" + i);
+
+                        i++;
+                        bw.ReportProgress(i * 50 / Sentence.total + 50);
+
+                        if (Worker.CancellationPending)
+                        {
+                            DoWorkEvent.Cancel = true;
+                            DoWorkEvent.Result = "Cancel";
+                            Clear(ProjectPath);
+                            break;
+                        }
+                    }
                 }
             }
 

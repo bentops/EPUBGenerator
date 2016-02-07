@@ -9,44 +9,55 @@ namespace TTS
         private Dictionary<int, int> Map;
         private Dictionary<int, ISynthesizer> Synthesizers;
 
-        private double _speed;
-        private double _pitch;
-        private int _frequency;
+        private double speed;
+        private double pitch;
+        private int frequency;
+        private string tempPath;
 
         public double Speed
         {
-            get { return _speed; }
+            get { return speed; }
             set
             {
-                _speed = value;
+                speed = value;
                 foreach (ISynthesizer synthesizer in Synthesizers.Values)
-                    synthesizer.SetSpeed(_speed);
+                    synthesizer.SetSpeed(speed);
             }
         }
 
         public double Pitch
         {
-            get { return _pitch; }
+            get { return pitch; }
             set
             {
-                _pitch = value;
+                pitch = value;
                 foreach (ISynthesizer synthesizer in Synthesizers.Values)
-                    synthesizer.SetPitch(_pitch);
+                    synthesizer.SetPitch(pitch);
             }
         }
 
         public int Frequency
         {
-            get { return _frequency; }
+            get { return frequency; }
             set
             {
-                _frequency = value;
+                frequency = value;
                 foreach (ISynthesizer synthesizer in Synthesizers.Values)
-                    synthesizer.SetFrequency(_frequency);
+                    synthesizer.SetFrequency(frequency);
             }
         }
 
-        public CSynthesizer()
+        public string TempPath
+        {
+            set
+            {
+                tempPath = value;
+                foreach (ISynthesizer synthesizer in Synthesizers.Values)
+                    synthesizer.SetTemp(tempPath);
+            }
+        }
+
+        public CSynthesizer(string tempPath)
         {
             // {1 - 5} -> {1 - 2}
             Map = new Dictionary<int, int>();
@@ -60,6 +71,10 @@ namespace TTS
             Synthesizers = new Dictionary<int, ISynthesizer>();
             Synthesizers.Add(1, new Alpha1());
             Synthesizers.Add(2, new SAPI());
+
+            Speed = 1.0;
+            Frequency = 16000;
+            TempPath = tempPath;
         }
         
         public void Reset()
@@ -86,10 +101,10 @@ namespace TTS
             return Synthesizers[slot].GetModel();
         }
 
-        public MemoryStream Synthesize(string input, int type)
+        public MemoryStream Synthesize(string input, int type, string id)
         {
             if (!Map.ContainsKey(type)) return new MemoryStream();
-            return Synthesizers[Map[type]].Synthesize(input);
+            return Synthesizers[Map[type]].Synthesize(input, id);
         }
     }
 }
