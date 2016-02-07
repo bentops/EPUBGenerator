@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPUBGenerator", "EPUBGenera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePubReader", "ePubReader\ePubReader.csproj", "{B5D1C9DA-D5F6-42CD-B639-E6796DD2BDBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTS", "ChulaTTS\TTS.csproj", "{127885F3-1423-4532-A250-DF182EE98F10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTS", "TTS\TTS.csproj", "{127885F3-1423-4532-A250-DF182EE98F10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
