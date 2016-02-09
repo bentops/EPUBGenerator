@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{127885F3-1423-4532-A250-DF182EE98F10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TTS</RootNamespace>
+    <AssemblyName>TTS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="G2Ps\G2PEn.cs" />
+    <Compile Include="CG2P.cs" />
+    <Compile Include="G2Ps\G2PNum.cs" />
+    <Compile Include="G2Ps\G2PSym.cs" />
+    <Compile Include="G2Ps\G2PTh.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\C2SSegmentatorException.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\C2SThaiWordSegmentator.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\Converters\LabelConverter.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\Converters\ThaiPhonemeConverter.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\Converters\ThaiPronunciationConverter.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\Converters\ThaiPronunciationResult.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\IWordStructureRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureChar.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureConcatRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureOptionalRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructurePronunciationRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureRuleList.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureString.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureThaiDictRule.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureTwoChar.cs" />
+    <Compile Include="G2Ps\G2PTh_Resources\WordStructureRules\WordStructureUnionRule.cs" />
+    <Compile Include="IG2P.cs" />
+    <Compile Include="IPhonemeConverter.cs" />
+    <Compile Include="CPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\EngPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\NumberPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\ThaiPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\Wirote2TSync.cs" />
+    <Compile Include="Preprocessors\Dummy.cs" />
+    <Compile Include="CPreprocessor.cs" />
+    <Compile Include="IPreprocessor.cs" />
+    <Compile Include="SentenceSplitter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ISynthesizer.cs" />
+    <Compile Include="Synthesizers\Phone2Lab.cs" />
+    <Compile Include="CSynthesizer.cs" />
+    <Compile Include="Synthesizers\SAPI.cs" />
+    <Compile Include="Synthesizers\SynthesizerAlpha1.cs" />
+    <Compile Include="SynthesizerBlock.cs" />
+    <Compile Include="Synthesizers\SynthesizerEngine.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThaiWordDict.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TwoConsDict.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

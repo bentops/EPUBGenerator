@@ -1,13 +1,14 @@
-﻿using ChulaTTS.G2PConverter;
-using ChulaTTS.G2PConverter.G2P;
-using ChulaTTS.G2PConverter.PhonemeConverter;
-using ChulaTTS.G2PConverter.Preprocessor;
-using ChulaTTS.G2PConverter.SentenceSplitter;
+﻿using TTS;
+using TTS.G2Ps;
+using TTS.PhonemeConverters;
+using TTS.Preprocessors;
+using TTS.Synthesizers;
 using eBdb.EpubReader;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
+using System.IO.Compression;
 using System.Threading;
 using System.Xml.Linq;
 using Path = System.IO.Path;
@@ -25,12 +26,15 @@ namespace EPUBGenerator.MainLogic
         public static int Status;
 
         private static Epub EpubReader { get; set; }
-        private static List<NavPoint> NavPoints { get; set; }
+        private static List<Content> Contents { get; set; }
+        private static StreamReader StreamReader { get; set; }
+        private static StreamWriter StreamWriter { get; set; }
 
         #region Subdirectories
         private static String ResourcesPath { get; set; }
         private static String PackagePath { get; set; }
         private static String SavesPath { get; set; }
+        private static String TempPath { get; set; }
         #endregion
 
         public static void SetTools()
@@ -38,9 +42,10 @@ namespace EPUBGenerator.MainLogic
             if (!Tools.IsReady())
             {
                 Tools.SentenceSplitter = new SentenceSplitter();
-                Tools.Preprocessor = new Preprocessor();
-                Tools.G2P = new G2P();
-                Tools.PhonemeConverter = new PhonemeConverter();
+                Tools.Preprocessor = new CPreprocessor();
+                Tools.G2P = new CG2P();
+                Tools.PhonemeConverter = new CPhonemeConverter();
+                Tools.Synthesizer = new CSynthesizer(TempPath);
             }
         }
 
@@ -48,8 +53,8 @@ namespace EPUBGenerator.MainLogic
         {
             // ------------------ Initial --------------------------
             EpubReader = new Epub(epubPath); // Use original epubPath to read data
-            SetTools(); // Set TTS Tools
             SetSubdirectories(projPath); // Create Subdirectories
+            SetTools(); // Set TTS Tools
 
             Status = (int)Statuses.Create;
             Worker = bw;
@@ -58,20 +63,18 @@ namespace EPUBGenerator.MainLogic
             EpubName = "Original_" + Path.GetFileName(epubPath);
             EpubPath = Path.Combine(ResourcesPath, EpubName); // Path of the Epub-Copy in this Project
             File.Copy(epubPath, EpubPath);
-            NavPoints = GetAllNavPoints(EpubReader.TOC);
+            Contents = GetAllContents(EpubReader.TOC);
             // -----------------------------------------------------
 
-            Console.WriteLine("Total: " + NavPoints.Count);
+            Console.WriteLine("Total: " + Contents.Count);
             int i = 0;
-            foreach (NavPoint nav in NavPoints)
+            foreach (Content content in Contents)
             {
-                Content content = new Content(nav);
-
-                SaveContent(content);
+                Save(content);
 
                 i++;
-                bw.ReportProgress(i * 100 / NavPoints.Count);
-                Thread.Sleep(100);
+                bw.ReportProgress(i * 50 / Contents.Count);
+                Thread.Sleep(10);
 
                 if (Worker.CancellationPending)
                 {
@@ -82,18 +85,108 @@ namespace EPUBGenerator.MainLogic
                 }
             }
 
+            Console.WriteLine("Total Sentences: " + Sentence.total);
+            i = 0;
+            foreach (Content content in Contents)
+            {
+                foreach (Block block in content.Blocks)
+                {
+                    foreach (Sentence sentence in block.Sentences)
+                    {
+                        Console.WriteLine("IN" + i);
+                        sentence.Synthesize();
+                        Console.WriteLine("OUT" + i);
+
+                        i++;
+                        bw.ReportProgress(i * 50 / Sentence.total + 50);
+
+                        if (Worker.CancellationPending)
+                        {
+                            DoWorkEvent.Cancel = true;
+                            DoWorkEvent.Result = "Cancel";
+                            Clear(ProjectPath);
+                            break;
+                        }
+                    }
+                }
+            }
+
             // ------------------ Final --------------------------
             Status = (int)Statuses.None;
+            ExportEpub(Path.Combine(ProjectPath, "OutputEPUB.zip"));
             // ---------------------------------------------------
         }
 
-        private static void SaveContent(Content content)
+        public static void ExportEpub(String savePath)
         {
+            String exportPath = Directory.CreateDirectory(Path.Combine(ProjectPath, "Export")).FullName;
+            ZipFile.ExtractToDirectory(EpubPath, exportPath);
+
+            String exportPackagePath = Path.Combine(exportPath, EpubReader.GetOpfDirectory());
+
+            foreach (Content content in Contents)
+            {
+                XElement xContent = new XElement(content.Root);
+                List<XText> xBlocks = GetTextBlocks(xContent.Element(content.Xns + "body"));
+                int count = 0;
+                foreach (XText xText in xBlocks)
+                {
+                    Console.WriteLine(xText.Value);
+                    int id = Int32.Parse(xText.Value.Substring(1));
+                    if (id != count)
+                        throw new Exception("Wrong ordering: Blocks");
+                    XElement parent = xText.Parent;
+                    foreach (Sentence sentence in content.Blocks[id].Sentences)
+                    {
+                        XElement xSentence = new XElement(content.Xns + "span");
+                        xSentence.Add(new XAttribute("id", xText.Value + sentence.SID));
+                        xSentence.Add(new XText(sentence.Text));
+                        parent.Add(xSentence);
+                    }
+                    xText.Remove();
+                    count++;
+                }
+                StreamWriter = new StreamWriter(Path.Combine(exportPackagePath, content.Source));
+                StreamWriter.Write(xContent);
+                StreamWriter.Close();
+            }
+            
+            ZipFile.CreateFromDirectory(exportPath, savePath, CompressionLevel.Optimal, false, System.Text.UTF8Encoding.UTF8);
+            //Path.ChangeExtension(savePath, "epub");
+            //Ionic.Zip.ZipOutputStream.
+        }
+
+        private static List<XText> GetTextBlocks(XElement element)
+        {
+            List<XText> xTexts = new List<XText>();
+            foreach (XNode node in element.Nodes())
+            {
+                if (node is XText)
+                    xTexts.Add(node as XText);
+                else if (node is XElement)
+                    xTexts.AddRange(GetTextBlocks(node as XElement));
+            }
+            return xTexts;
+        }
+
+
+        private static void Save(Content content)
+        {
+            StreamWriter sw;
+
+            // Save Content Structure
             String contentDirectory = Path.GetDirectoryName(content.Source);
             Directory.CreateDirectory(Path.Combine(PackagePath, contentDirectory));
-            StreamWriter sw = new StreamWriter(Path.Combine(PackagePath, content.Source));
+            sw = new StreamWriter(Path.Combine(PackagePath, content.Source));
             sw.Write(content.Root);
             sw.Close();
+
+            // Save Content Detail
+            Directory.CreateDirectory(Path.Combine(SavesPath, contentDirectory));
+            sw = new StreamWriter(Path.Combine(SavesPath, content.Source));
+            sw.Write(content.ToXml());
+            sw.Close();
+
         }
 
         private static void Clear(String path)
@@ -115,23 +208,25 @@ namespace EPUBGenerator.MainLogic
             ProjectPath = projPath;
 
             Directory.CreateDirectory(ResourcesPath = Path.Combine(ProjectPath, "Resources"));
-            
-            String packageDirectory = Path.GetDirectoryName(EpubReader.GetOpfPath());
+
+            String packageDirectory = EpubReader.GetOpfDirectory();
             Directory.CreateDirectory(PackagePath = Path.Combine(ResourcesPath, packageDirectory));
 
             Directory.CreateDirectory(SavesPath = Path.Combine(ProjectPath, "Saves"));
+            
+            Directory.CreateDirectory(TempPath = Path.Combine(ProjectPath, "Temp"));
         }
 
-        private static List<NavPoint> GetAllNavPoints(List<NavPoint> navList)
+        private static List<Content> GetAllContents(List<NavPoint> navList)
         {
-            List<NavPoint> navs = new List<NavPoint>();
+            List<Content> contents = new List<Content>();
             foreach (NavPoint nav in navList)
             {
                 if (nav.ContentData != null)
-                    navs.Add(nav);
-                navs.AddRange(GetAllNavPoints(nav.Children));
+                    contents.Add(new Content(nav));
+                contents.AddRange(GetAllContents(nav.Children));
             }
-            return navs;
+            return contents;
         }
         
     }

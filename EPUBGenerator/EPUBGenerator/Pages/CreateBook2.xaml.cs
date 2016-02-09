@@ -88,6 +88,7 @@ namespace EPUBGenerator.Pages
                 Switcher.Switch(Switcher.error);
                 Console.WriteLine("CreatBook2, RunworkerCompleted with Exception: ");
                 Console.WriteLine("\t" + e.Error.Message);
+                Console.WriteLine(e.Error.StackTrace);
             }
             else
             {

@@ -1,5 +1,4 @@
-﻿using ChulaTTS.G2PConverter;
-using eBdb.EpubReader;
+﻿using eBdb.EpubReader;
 using System;
 using System.Collections.Generic;
 using System.Xml.Linq;
@@ -43,7 +42,6 @@ namespace EPUBGenerator.MainLogic
             Blocks = new List<Block>();
             GetBlocks(Root.Element(Xns + "body"));
         }
-
         private void GetBlocks(XElement CurNode)
         {
             foreach (XNode ChildNode in CurNode.Nodes())
@@ -51,7 +49,7 @@ namespace EPUBGenerator.MainLogic
                 if (ChildNode is XText)
                 {
                     XText TextNode = ChildNode as XText;
-                    Block block = new Block(count++, TextNode.Value);
+                    Block block = new Block(count++, TextNode.Value, this);
                     TextNode.Value = block.BID;
                     Blocks.Add(block);
                 }
@@ -60,37 +58,16 @@ namespace EPUBGenerator.MainLogic
             }
         }
 
-        /*
-        private void GetBlocks(XElement CurNode)
+        public XElement ToXml()
         {
-            List<XText> DelList = new List<XText>();
-            List<XElement> InsList = new List<XElement>();
-            foreach (XNode ChildNode in CurNode.Nodes())
-            {
-                if (ChildNode is XText)
-                {
-                    // DO SOME SPLITTER HERE //
-                    XText TextNode = ChildNode as XText;
-                    List<KeyValuePair<String, Int32>> SList = Tools.SentenceSplitter.Split(TextNode.Value);
-                    foreach (KeyValuePair<String, Int32> Sp in SList)
-                    {
-                        if (String.IsNullOrWhiteSpace(Sp.Key)) continue;
-                        Sentence St = new Sentence(Sp.Key, Sp.Value);
-                        XAttribute AttrID = new XAttribute("id", "S" + count.ToString("D8"));
-                        InsList.Add(new XElement(Xns + "span", new XText(St.Text), AttrID));
-                        count++;
-                    }
-                    DelList.Add(TextNode);
-                }
-                else if (ChildNode is XElement)
-                    this.GetBlocks(ChildNode as XElement);
-            }
-
-            foreach (XText Text in DelList)
-                Text.Remove();
-
-            CurNode.Add(InsList);
+            XElement xContent = new XElement("Content");
+            xContent.Add(new XAttribute("id", NavID));
+            xContent.Add(new XAttribute("src", Source));
+            xContent.Add(new XAttribute("title", Title));
+            xContent.Add(new XAttribute("order", Order));
+            foreach (Block block in Blocks)
+                xContent.Add(block.ToXml());
+            return xContent;
         }
-        */
     }
 }

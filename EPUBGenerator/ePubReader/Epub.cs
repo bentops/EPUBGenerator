@@ -144,6 +144,10 @@ namespace eBdb.EpubReader {
         {
             return _ContentOpfPath;
         }
+        public string GetOpfDirectory()
+        {
+            return Path.GetDirectoryName(_ContentOpfPath);
+        }
         #endregion
 
         #region Private Functions
