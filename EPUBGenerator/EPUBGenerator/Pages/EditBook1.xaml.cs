@@ -21,8 +21,17 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class EditBook1 : System.Windows.Controls.UserControl
     {
+        private static String plsSelLoc = ".. please select project ..";
         private FolderBrowserDialog folderBrowserDialog;
         private OpenFileDialog openFileDialog;
+        private String LocationPath
+        {
+            get { return folderBrowserDialog.SelectedPath; }
+        }
+        private String ProjectPath
+        {
+            get { return openFileDialog.FileName; }
+        }
 
         public EditBook1()
         {
@@ -32,14 +41,28 @@ namespace EPUBGenerator.Pages
 
             openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "EPUB files (*.epub)|*.epub";
+
+            updateProjectLocationPath();
+            updateNextButton();
         }
 
-        private void browseEpub_Click(object sender, RoutedEventArgs e)
+        private void browseProject_Click(object sender, RoutedEventArgs e)
         {
-            if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                projPath.Text = openFileDialog.FileName;
+                updateProjectLocationPath();
+                updateNextButton();
             }
+        }
+
+        private void updateProjectLocationPath()
+        {
+            projPath.Text = String.IsNullOrEmpty(ProjectPath) ? plsSelLoc : ProjectPath;
+        }
+
+        private void updateNextButton()
+        {
+            nextButton.IsEnabled = !String.IsNullOrEmpty(ProjectPath);
         }
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
