@@ -14,6 +14,11 @@
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
             <Setter Property="Foreground" Value="#2f2933" />
         </Style>
+        <Style TargetType="{x:Type Label}" x:Key="StepStyle" >
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
+            <Setter Property="Foreground" Value="#2f2933" />
+        </Style>
         <Style TargetType="{x:Type Label}" x:Key="LabelStyle" >
             <Setter Property="FontSize" Value="18" />
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
@@ -38,14 +43,19 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
-            <RowDefinition Height="120" />
+            <RowDefinition Height="140" />
             <RowDefinition MinHeight="30" Height="Auto" />
             <RowDefinition MinHeight="30" Height="*" />
-            <RowDefinition MaxHeight="200"/>
+            <RowDefinition MaxHeight="100"/>
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="60,50,0,0" VerticalAlignment="Bottom" Style="{StaticResource HeadLabelStyle}"/>
+            <Border Background="White" HorizontalAlignment="Left" Height="50" Margin="0,50,0,0" VerticalAlignment="Top" Width="320" CornerRadius="0,25,25,0">
+                <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Bottom" Style="{StaticResource HeadLabelStyle}"/>
+            </Border>
+            <Border Background="White" HorizontalAlignment="Right" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="100" CornerRadius="20,0,0,20">
+                <Label x:Name="step1" Content="Step 2/3" HorizontalAlignment="Right" Margin="0,0,5,0" VerticalAlignment="Center" Style="{StaticResource StepStyle}"/>
+            </Border>
         </Grid>
 
         <Grid Grid.Row="1">
