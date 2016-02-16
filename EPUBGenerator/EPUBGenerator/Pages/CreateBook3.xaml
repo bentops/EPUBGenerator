@@ -64,7 +64,7 @@
             <RowDefinition MinHeight="30" Height="Auto" />
             <RowDefinition MinHeight="30" Height="Auto" />
             <RowDefinition MinHeight="30" Height="100" />
-            <RowDefinition MinHeight="100"/>
+            <RowDefinition MinHeight="120"/>
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
@@ -82,10 +82,10 @@
 
         <Grid Grid.Row="2">
             <!--TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" /-->
-            <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="70,20,0,0" VerticalAlignment="Top" Height="32" Width="120" Style="{StaticResource LabelLocationStyle}" />
-            <TextBlock x:Name="infoprojName" HorizontalAlignment="Left" Margin="220,26,0,0" TextWrapping="Wrap" Text="Project Name" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
-            <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="70,50,0,0" VerticalAlignment="Top" Height="32" Width="138" Style="{StaticResource LabelLocationStyle}"/>
-            <TextBlock x:Name="infoprojLocation" TextWrapping="WrapWithOverflow" Margin="220,57,0,0" Width="510" Text="Project Location" Style="{StaticResource TextBlockStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="32" Width="120" Style="{StaticResource LabelLocationStyle}" />
+            <TextBlock x:Name="infoprojName" HorizontalAlignment="Left" Margin="220,18,0,0" TextWrapping="Wrap" Text="Project Name" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+            <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="70,40,0,0" VerticalAlignment="Top" Height="32" Width="138" Style="{StaticResource LabelLocationStyle}"/>
+            <TextBlock x:Name="infoprojLocation" TextWrapping="WrapWithOverflow" Margin="220,48,0,0" Width="510" Text="Project Location" Style="{StaticResource TextBlockStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" />
         </Grid>
 
         <Grid Grid.Row="3">
