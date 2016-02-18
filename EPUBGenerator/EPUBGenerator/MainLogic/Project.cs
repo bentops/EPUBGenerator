@@ -14,6 +14,8 @@ using System.Xml.Linq;
 using Path = System.IO.Path;
 using System.Linq;
 using System.Diagnostics;
+using NAudio.Wave;
+using NAudio.Wave.SampleProviders;
 
 namespace EPUBGenerator.MainLogic
 {
@@ -363,51 +365,61 @@ namespace EPUBGenerator.MainLogic
                         xhtml.AddAfterSelf(smil, audio);
                     }
                     #endregion
-                    /*
+                    
                     #region Merge Audio files
                     {
-                        String outputWav = Path.Combine(Dirs["Temp"], Path.GetFileName(content.Source) + ".wav");
-                        String audioPath = Path.Combine(Dirs["Audio"], "C" + content.Order);
-                        bool first = true;
-                        int temp = 0;
-                        foreach (Block block in content.Blocks)
+                        String contentAudioPath = Path.Combine(Dirs["Audio"], content.CID);
+
+                        // Check wheter every WavFiles has the same wav-format.
+                        WaveFormat waveFormat = null;
+                        foreach (String sourceFile in Directory.EnumerateFiles(contentAudioPath, "*.wav"))
                         {
-                            foreach (Sentence sentence in block.Sentences)
+                            using (WaveFileReader waveFileReader = new WaveFileReader(sourceFile))
                             {
-                                if (first)
-                                {
-                                    File.Copy(Path.Combine(audioPath, sentence.BSID + ".wav"), Path.Combine(Dirs["Temp"], "temp" + temp + ".wav"));
-                                    first = false;
-                                    continue;
-                                }
-                                String wav1 = Path.Combine(Dirs["Temp"], "temp" + temp + ".wav");
-                                String wav2 = Path.Combine(audioPath, sentence.BSID + ".wav");
-                                temp = 1 - temp;
-                                String outWav = Path.Combine(Dirs["Temp"], "temp" + temp + ".wav");
-                                Process.Start(new ProcessStartInfo("CMD.exe")
-                                {
-                                    Arguments = "/C sox " + wav1 + " " + wav2 + " " + outWav,
-                                    RedirectStandardError = false,
-                                    RedirectStandardOutput = false,
-                                    UseShellExecute = false,
-                                    CreateNoWindow = true
-                                }).WaitForExit();
+                                if (waveFormat == null)
+                                    waveFormat = waveFileReader.WaveFormat;
+                                else if (!waveFormat.Equals(waveFileReader.WaveFormat))
+                                    throw new InvalidOperationException("Can't concatenate WAV Files that don't share the same format");
                             }
                         }
-                        if (first) continue;
-                        String wav = Path.Combine(Dirs["Temp"], "temp" + temp + ".wav");
-                        String mp3 = Path.Combine(Dirs["Temp"], "temp" + temp + ".mp3");
-                        Process.Start(new ProcessStartInfo("CMD.exe")
+
+                        if (waveFormat != null)
                         {
-                            Arguments = "sox " + wav + " " + mp3,
-                            RedirectStandardError = false,
-                            RedirectStandardOutput = false,
-                            UseShellExecute = false,
-                            CreateNoWindow = true
-                        }).WaitForExit();
+                            byte[] buffer = new byte[1024];
+                            int read;
+                            String outputWave = Path.Combine(Dirs["Temp"], content.CID + ".wav");
+                            using (WaveFileWriter waveFileWriter = new WaveFileWriter(outputWave, waveFormat))
+                            {
+                                foreach (Block block in content.Blocks)
+                                {
+                                    foreach (Sentence sentence in block.Sentences)
+                                    {
+                                        String sourceFile = Path.Combine(contentAudioPath, sentence.BSID + ".wav");
+                                        Console.WriteLine(content.CID + ": " + sourceFile);
+                                        using (WaveFileReader waveFileReader = new WaveFileReader(sourceFile))
+                                        {
+                                            while ((read = waveFileReader.Read(buffer, 0, buffer.Length)) > 0)
+                                                waveFileWriter.Write(buffer, 0, read);
+                                        }
+                                    }
+                                }
+                            }
+
+                            String outputMP3 = Path.Combine(Dirs["Temp"], content.CID + ".mp3");
+                            using (WaveFileReader waveReader = new WaveFileReader(outputWave))
+                            {
+                                using (MediaFoundationResampler resampled = new MediaFoundationResampler(waveReader, new WaveFormat(44100, 1)))
+                                {
+                                    int desiredBitRate = 0; // ask for lowest available bitrate 
+                                    MediaFoundationEncoder.EncodeToMp3(resampled, outputMP3, desiredBitRate);
+                                }
+                            }
+
+                            String audioPath = Path.Combine(PackageDir, content.Source) + ".mp3";
+                            archive.CreateEntryFromFile(outputMP3, audioPath);
+                        }
                     }
                     #endregion
-                    */
                 }
 
                 XElement totalDuration = new XElement(xnsOpf + "meta");
