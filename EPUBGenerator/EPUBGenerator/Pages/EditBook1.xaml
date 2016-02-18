@@ -31,115 +31,131 @@
     </UserControl.Resources>
 
     <Grid>
-        <Label x:Name="createNewProject" Content="Edit EPUB Audio Book" HorizontalAlignment="Left" Margin="94,50,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition MinHeight="30" Height="Auto" />
+            <RowDefinition MinHeight="40"/>
+        </Grid.RowDefinitions>
 
-        <Label x:Name="label" Content="EPUB Book :" HorizontalAlignment="Left" Margin="94,165,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
-        <TextBlock x:Name="projPath" Text=".. please select input file .." HorizontalAlignment="Left" Height="34" Margin="94,207,0,0" VerticalAlignment="Top" Width="606" Background="{x:Null}" TextWrapping="Wrap" Style="{StaticResource TextLocationStyle}" />
-        
-        <Button x:Name="browseEpub" Content="Browse" HorizontalAlignment="Right" Margin="0,256,100,0" VerticalAlignment="Top" Width="90" Height="36" Click="browseEpub_Click" Background="#FF01A2A6">
-            <Button.Style>
-                <Style TargetType="{x:Type Button}">
-                    <Setter Property="Background" Value="#01a2a6" />
-                    <Setter Property="Foreground" Value="White" />
-                    <Setter Property="FontSize" Value="16" />
-                    <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="{x:Type Button}">
-                                <Border Background="{TemplateBinding Background}">
-                                    <Grid>
-                                        <ContentPresenter x:Name="Create" Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                                    </Grid>
-                                </Border>
+        <Grid Grid.Row="0">
+            <Border Background="White" HorizontalAlignment="Left" Height="50" Margin="0,50,0,0" VerticalAlignment="Top" Width="300" CornerRadius="0,25,25,0">
+                <Label x:Name="editBook" Content="Open/Edit Project" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Bottom" Style="{StaticResource HeadLabelStyle}"/>
+            </Border>
+        </Grid>
 
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#008b8e" />
-                                    </Trigger>
-                                    <!-- Trigger Property="IsPressed" Value="True">
+        <Grid Grid.Row="1">
+            <Label x:Name="label" Content="Project :" HorizontalAlignment="Left" Margin="90,40,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
+            <TextBlock x:Name="projPath" Text=".. please select project .." HorizontalAlignment="Left" Height="Auto" Margin="100,80,0,0" VerticalAlignment="Top" Width="480" Background="{x:Null}" TextWrapping="Wrap" Style="{StaticResource TextLocationStyle}" />
+
+            <Button x:Name="browseProject" Content="Browse" HorizontalAlignment="Right" Margin="0,80,100,0" VerticalAlignment="Bottom" Width="90" Height="36" Click="browseProject_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#01a2a6" />
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="FontSize" Value="16" />
+                        <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}">
+                                        <Grid>
+                                            <ContentPresenter x:Name="Create" Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
+                                        </Grid>
+                                    </Border>
+
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#008b8e" />
+                                        </Trigger>
+                                        <!-- Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="OrangeRed" />
                                         <Setter Property="Foreground" Value="White" />
                                     </Trigger-->
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </Button.Style>
-        </Button>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
 
-        <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="80,372,0,0" VerticalAlignment="Top" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
-            <Button.Style>
-                <Style TargetType="{x:Type Button}">
-                    <Setter Property="Background" Value="#bdf271" />
-                    <Setter Property="Foreground" Value="White" />
-                    <Setter Property="FontSize" Value="20" />
-                    <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="{x:Type Button}">
-                                <Border Background="{TemplateBinding Background}">
-                                    <StackPanel Height="Auto" Orientation="Horizontal">
-                                        <Image Source="/EPUBGenerator;component/Resources/nextPlay.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="15,0,0,0" RenderTransformOrigin="0.5,0.5">
-                                            <Image.RenderTransform>
-                                                <TransformGroup>
-                                                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
-                                                    <SkewTransform AngleY="0" AngleX="0"/>
-                                                    <RotateTransform Angle="0"/>
-                                                    <TranslateTransform/>
-                                                </TransformGroup>
-                                            </Image.RenderTransform>
-                                        </Image>
-                                        <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Center" />
+        <Grid Grid.Row="2">
+            <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="80,0,0,100" VerticalAlignment="Bottom" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#bdf271" />
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="FontSize" Value="20" />
+                        <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}">
+                                        <StackPanel Height="Auto" Orientation="Horizontal">
+                                            <Image Source="/EPUBGenerator;component/Resources/nextPlay.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="15,0,0,0" RenderTransformOrigin="0.5,0.5">
+                                                <Image.RenderTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                                                        <SkewTransform AngleY="0" AngleX="0"/>
+                                                        <RotateTransform Angle="0"/>
+                                                        <TranslateTransform/>
+                                                    </TransformGroup>
+                                                </Image.RenderTransform>
+                                            </Image>
+                                            <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Left" Margin="5,0,0,0" VerticalAlignment="Center" />
 
-                                    </StackPanel>
-                                </Border>
+                                        </StackPanel>
+                                    </Border>
 
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#FFB1E26C" />
-                                    </Trigger>
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </Button.Style>
-        </Button>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FFB1E26C" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
 
-        <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Right" Margin="0,372,80,0" VerticalAlignment="Top" Width="100" Click="nextButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
-            <Button.Style>
-                <Style TargetType="{x:Type Button}">
-                    <Setter Property="Background" Value="#bdf271" />
-                    <Setter Property="Foreground" Value="White" />
-                    <Setter Property="FontSize" Value="20" />
-                    <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="{x:Type Button}">
-                                <Border Background="{TemplateBinding Background}">
-                                    <StackPanel Height="Auto" Orientation="Horizontal">
-                                        <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Center" />
-                                        <Image Source="/EPUBGenerator;component/Resources/nextPlay.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,0,0"/>
-                                    </StackPanel>
-                                </Border>
+            <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Right" Margin="0,0,80,100" VerticalAlignment="Bottom" Width="100" Click="nextButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#bdf271" />
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="FontSize" Value="20" />
+                        <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}">
+                                        <StackPanel Height="Auto" Orientation="Horizontal">
+                                            <TextBlock Text="{TemplateBinding Content}" HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Center" />
+                                            <Image Source="/EPUBGenerator;component/Resources/nextPlay.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                                        </StackPanel>
+                                    </Border>
 
-                                <ControlTemplate.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#FFB1E26C" />
-                                    </Trigger>
-                                    <!-- Trigger Property="IsPressed" Value="True">
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FFB1E26C" />
+                                        </Trigger>
+                                        <Trigger Property="IsEnabled" Value="false">
+                                            <Setter Property="Background" Value="#FFAAAAAA"/>
+                                        </Trigger>
+                                        <!-- Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="OrangeRed" />
                                         <Setter Property="Foreground" Value="White" />
                                     </Trigger-->
-                                </ControlTemplate.Triggers>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </Button.Style>
-        </Button>
-
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
 
     </Grid>
 

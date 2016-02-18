@@ -14,6 +14,11 @@
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
             <Setter Property="Foreground" Value="#2f2933" />
         </Style>
+        <Style TargetType="{x:Type Label}" x:Key="StepStyle" >
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
+            <Setter Property="Foreground" Value="#2f2933" />
+        </Style>
         <Style TargetType="{x:Type Label}" x:Key="LabelStyle" >
             <Setter Property="FontSize" Value="16" />
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
@@ -38,13 +43,18 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
-            <RowDefinition Height="90" />
+            <RowDefinition Height="120" />
             <RowDefinition MinHeight="30" Height="Auto" />
             <RowDefinition MinHeight="30" Height="*" />
-            <RowDefinition MaxHeight="200"/>
+            <RowDefinition MaxHeight="100" MinHeight="40"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
-            <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="60,50,0,0" VerticalAlignment="Bottom" Style="{StaticResource HeadLabelStyle}"/>
+            <Border Background="White" HorizontalAlignment="Left" Height="50" Margin="0,50,0,0" VerticalAlignment="Top" Width="320" CornerRadius="0,25,25,0">
+                <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Bottom" Style="{StaticResource HeadLabelStyle}"/>
+            </Border>
+            <Border Background="White" HorizontalAlignment="Right" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="100" CornerRadius="20,0,0,20">
+                <Label x:Name="step1" Content="Step 1/3" HorizontalAlignment="Right" Margin="0,0,5,0" VerticalAlignment="Center" Style="{StaticResource StepStyle}"/>
+            </Border>
         </Grid>
 
         <Grid Grid.Row="1">
@@ -127,7 +137,7 @@
         </Grid>
 
         <Grid Grid.Row="4">
-            <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="80,20,0,0" VerticalAlignment="Top" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+            <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Top" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="#bdf271" />
@@ -165,7 +175,7 @@
                     </Style>
                 </Button.Style>
             </Button>
-            <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Right" Margin="0,20,80,0" VerticalAlignment="Top" Width="100" Click="nextButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+            <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Right" Margin="0,0,80,0" VerticalAlignment="Top" Width="100" Click="nextButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="#bdf271" />

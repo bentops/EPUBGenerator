@@ -6,11 +6,17 @@
              xmlns:local="clr-namespace:EPUBGenerator.Pages"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="800"
-             Background="#29d9c2">
+             Background="#29d9c2"
+             Name="CreateBook3Window">
 
     <UserControl.Resources>
         <Style TargetType="{x:Type Label}" x:Key="HeadLabelStyle" >
             <Setter Property="FontSize" Value="30" />
+            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
+            <Setter Property="Foreground" Value="#2f2933" />
+        </Style>
+        <Style TargetType="{x:Type Label}" x:Key="StepStyle" >
+            <Setter Property="FontSize" Value="20" />
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
             <Setter Property="Foreground" Value="#2f2933" />
         </Style>
@@ -50,30 +56,36 @@
         </Style>
     </UserControl.Resources>
 
+
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="80" />
-            <RowDefinition Height="70" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="Auto" />
             <RowDefinition MinHeight="30" Height="Auto" />
             <RowDefinition MinHeight="30" Height="Auto" />
             <RowDefinition MinHeight="30" Height="100" />
-            <RowDefinition MinHeight="100"/>
+            <RowDefinition MinHeight="120"/>
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Bottom" Style="{StaticResource HeadLabelStyle}"/>
+            <Border Background="White" HorizontalAlignment="Left" Height="50" Margin="0,50,0,0" VerticalAlignment="Top" Width="320" CornerRadius="0,25,25,0">
+                <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Bottom" Style="{StaticResource HeadLabelStyle}"/>
+            </Border>
+            <Border Background="White" HorizontalAlignment="Right" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="100" CornerRadius="20,0,0,20">
+                <Label x:Name="step1" Content="Step 3/3" HorizontalAlignment="Right" Margin="0,0,5,0" VerticalAlignment="Center" Style="{StaticResource StepStyle}"/>
+            </Border>
         </Grid>
 
         <Grid Grid.Row="1">
-            <Label x:Name="done" Content="DONE !" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Style="{StaticResource doneStyle}" Background="{x:Null}" Width="180" Height="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <Label x:Name="done" Content="DONE !" HorizontalAlignment="Center" Margin="310,15,310,0" VerticalAlignment="Center" Style="{StaticResource HeadLabelStyle}" Background="{x:Null}" Width="Auto" Height="Auto" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
         </Grid>
 
         <Grid Grid.Row="2">
             <!--TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" Margin="0,0,0,0" TextWrapping="Wrap" Text="..." VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" /-->
-            <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="70,20,0,0" VerticalAlignment="Top" Height="32" Width="120" Style="{StaticResource LabelLocationStyle}" />
-            <TextBlock x:Name="infoprojName" HorizontalAlignment="Left" Margin="220,26,0,0" TextWrapping="Wrap" Text="Project Name" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
-            <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="70,50,0,0" VerticalAlignment="Top" Height="32" Width="138" Style="{StaticResource LabelLocationStyle}"/>
-            <TextBlock x:Name="infoprojLocation" TextWrapping="WrapWithOverflow" Margin="220,57,0,0" Width="510" Text="Project Location" Style="{StaticResource TextBlockStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" />
+            <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="32" Width="120" Style="{StaticResource LabelLocationStyle}" />
+            <TextBlock x:Name="infoprojName" HorizontalAlignment="Left" Margin="220,18,0,0" TextWrapping="Wrap" Text="Project Name" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+            <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="70,40,0,0" VerticalAlignment="Top" Height="32" Width="138" Style="{StaticResource LabelLocationStyle}"/>
+            <TextBlock x:Name="infoprojLocation" TextWrapping="WrapWithOverflow" Margin="220,48,0,0" Width="510" Text="Project Location" Style="{StaticResource TextBlockStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" />
         </Grid>
 
         <Grid Grid.Row="3">
@@ -89,7 +101,7 @@
             <Label x:Name="avgsentence" Content="Average Sentences in each file :" HorizontalAlignment="Left" Margin="70,60,0,0" VerticalAlignment="Top" Height="30" Width="180" Style="{StaticResource LabelFileInfoStyle}" />
             <TextBlock x:Name="avgsentenceno" HorizontalAlignment="Left" Margin="250,65,0,0" TextWrapping="Wrap" Text="avgsentenceno" VerticalAlignment="Top" Style="{StaticResource TextBlockStylesmall}" />
         </Grid>
-        
+
         <Grid Grid.Row="5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="225" />
@@ -97,9 +109,10 @@
                 <ColumnDefinition Width="200" />
                 <ColumnDefinition Width="225" />
             </Grid.ColumnDefinitions>
-            
+
+
             <Grid Grid.Column="0">
-                <Button x:Name="createbutton" Content="" HorizontalAlignment="Right" Margin="0,0,0,40" VerticalAlignment="Bottom" Click="homebutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button x:Name="createbutton" Content="" HorizontalAlignment="Right" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="homebutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
                     <Button.Template>
                         <ControlTemplate>
                             <Grid>
@@ -135,9 +148,9 @@
                     </Button.Style>
                 </Button>
             </Grid>
-            
+
             <Grid Grid.Column="1">
-                <Button x:Name="editbutton" Content="" HorizontalAlignment="Right" Margin="0,0,0,40" VerticalAlignment="Bottom" Click="editThisBookbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button x:Name="editbutton" Content="" HorizontalAlignment="Right" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="editThisBookbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
                     <Button.Template>
                         <ControlTemplate>
                             <Grid>
@@ -173,9 +186,9 @@
                     </Button.Style>
                 </Button>
             </Grid>
-            
+
             <Grid Grid.Column="2">
-                <Button x:Name="exportbutton" Content="" HorizontalAlignment="Center" Margin="0,0,0,40" VerticalAlignment="Bottom" Click="exportbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button x:Name="exportbutton" Content="" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="exportbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
                     <Button.Template>
                         <ControlTemplate>
                             <Grid>
@@ -187,7 +200,7 @@
                         <Style TargetType="{x:Type Button}">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/exportAs.png" />
+                                    <ImageBrush ImageSource="/EPUBGenerator;component/Resources/exportAsD.png" />
                                 </Setter.Value>
                             </Setter>
                             <Setter Property="Template">
@@ -201,7 +214,7 @@
                                 <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Background">
                                         <Setter.Value>
-                                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/exportAsTxt.png" />
+                                            <ImageBrush ImageSource="/EPUBGenerator;component/Resources/exportAsTxtD.png" />
                                         </Setter.Value>
                                     </Setter>
                                     <Setter Property="Cursor" Value="Hand" />
@@ -210,10 +223,41 @@
                         </Style>
                     </Button.Style>
                 </Button>
+                <Popup AllowsTransparency="True" Name="exportPopup" IsOpen="False" Width="500" Height="200" Placement="Center" PlacementRectangle="400,200,0,0" PlacementTarget="{Binding ElementName=CreateBook3Window}" OpacityMask="#FFE42A2A">
+                    <Grid Background="#bdf271">
+                        <Label x:Name="ExportWait" Content="Please wait while exporting ..." HorizontalAlignment="Left" Margin="50,0,0,115" VerticalAlignment="Bottom" Style="{StaticResource LabelStyle}"/>
+                        <ProgressBar Name="ExportProgress" HorizontalAlignment="Center" Height="30" Margin="0" VerticalAlignment="Center" Width="400" />
+                        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="350,134,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="#ff7f66" />
+                                    <Setter Property="Foreground" Value="White" />
+                                    <Setter Property="FontSize" Value="20" />
+                                    <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type Button}">
+                                                <Border Background="{TemplateBinding Background}">
+                                                    <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                                </Border>
+
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Background" Value="#FFE67059" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </Grid>
+                </Popup>
             </Grid>
-            
+
             <Grid Grid.Column="3">
-                <Button x:Name="exitbutton" Content="" HorizontalAlignment="Left" Margin="0,0,0,40" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button x:Name="exitbutton" Content="" HorizontalAlignment="Left" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
                     <Button.Template>
                         <ControlTemplate>
                             <Grid>
@@ -249,18 +293,9 @@
                     </Button.Style>
                 </Button>
             </Grid>
-            
-           
 
-            
 
-            
         </Grid>
-
-
-
-
-
     </Grid>
 
 </UserControl>

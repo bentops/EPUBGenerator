@@ -64,6 +64,13 @@ namespace EPUBGenerator.Pages
 
         private void exportbutton_Click(object sender, RoutedEventArgs e)
         {
+            //INSERT Select .EPUB file location here//
+            this.IsEnabled = false;
+            System.Windows.Media.Effects.BlurEffect objBlur = new System.Windows.Media.Effects.BlurEffect();
+            objBlur.Radius = 5;
+            Switcher.createBook3.Effect = objBlur;
+            /////
+            exportPopup.IsOpen = true;
 
         }
 
@@ -80,5 +87,11 @@ namespace EPUBGenerator.Pages
             Application.Current.Shutdown();
         }
 
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.IsEnabled = true;
+            exportPopup.IsOpen = false;
+            Switcher.createBook3.Effect = null;
+        }
     }
 }
