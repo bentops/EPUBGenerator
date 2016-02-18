@@ -363,7 +363,7 @@ namespace EPUBGenerator.MainLogic
                         xhtml.AddAfterSelf(smil, audio);
                     }
                     #endregion
-
+                    /*
                     #region Merge Audio files
                     {
                         String outputWav = Path.Combine(Dirs["Temp"], Path.GetFileName(content.Source) + ".wav");
@@ -407,6 +407,7 @@ namespace EPUBGenerator.MainLogic
                         }).WaitForExit();
                     }
                     #endregion
+                    */
                 }
 
                 XElement totalDuration = new XElement(xnsOpf + "meta");
