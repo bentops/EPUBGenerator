@@ -258,6 +258,7 @@ namespace EPUBGenerator.MainLogic
                     long contentBytes = 0;
                     String smilID = "SMIL-" + content.Order;
                     String audioID = "A-" + content.Order;
+
                     #region Overwrite XHTML files
                     {
                         XElement xContent = new XElement(content.Root);
@@ -395,7 +396,6 @@ namespace EPUBGenerator.MainLogic
                                     foreach (Sentence sentence in block.Sentences)
                                     {
                                         String sourceFile = Path.Combine(contentAudioPath, sentence.BSID + ".wav");
-                                        Console.WriteLine(content.CID + ": " + sourceFile);
                                         using (WaveFileReader waveFileReader = new WaveFileReader(sourceFile))
                                         {
                                             while ((read = waveFileReader.Read(buffer, 0, buffer.Length)) > 0)

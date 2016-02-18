@@ -42,7 +42,6 @@ namespace EPUBGenerator.MainLogic
 
         public Word(String text, String phoneme, Sentence sentence)
         {
-            pronunciation = null;
             Text = text;
             Phoneme = phoneme;
             Sentence = sentence;

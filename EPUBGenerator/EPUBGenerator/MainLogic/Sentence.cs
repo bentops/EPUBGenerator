@@ -39,6 +39,8 @@ namespace EPUBGenerator.MainLogic
                 String phoneme = "";
                 foreach (Word word in Words)
                     phoneme += word.Phoneme;
+                if (Type == 2)
+                    return phoneme;
                 return @"sil;7;0|" + phoneme + @"sil;7;0|";
             }
         }
