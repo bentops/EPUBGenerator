@@ -24,21 +24,6 @@ namespace TTS.Synthesizers
             speechRate = 1.0;
             GetModel();
             SetModel(modelList[0]);
-
-            /*
-            TempPath = "";
-            
-            if (TempPath == "")
-                TempPath = "tmp";
-            
-            
-            Random random = new Random();
-            do
-            {
-                TempName = random.Next(10000000, 99999999).ToString();
-            }
-            while (File.Exists(TempPath + "\\" + TempName + ".lab"));
-            */
         }
 
         public void SetModel(String modelName)
@@ -85,57 +70,17 @@ namespace TTS.Synthesizers
             return "HTS Engine 1.5";
         }
 
-        public MemoryStream Synthesize(string input, string id)
+        public void Synthesize(string input, string fileID, string outputPath)
         {
+            Console.WriteLine("Text: " + input + ", ID: " + fileID);
             string labText = P2L.Convert(input, curMethod);
-            if (labText.Split("\n".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).Length <= 2)
-                return new MemoryStream(new byte[10] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 });
-
-            Console.WriteLine("Text: " + input + ", ID: " + id);
-            string labPath = Path.Combine(tempPath, id + ".lab");
-            string wavPath = Path.Combine(tempPath, id + ".wav");
-            using (StreamWriter streamWriter = new StreamWriter(labPath))
+            string labFile = Path.Combine(tempPath, fileID + ".lab");
+            using (StreamWriter streamWriter = new StreamWriter(labFile))
             {
                 streamWriter.Write(labText);
                 streamWriter.Close();
             }
-            string param = " -r " + speechRate + " ";
-
-
-            Synthesizer.SynthesisR2(labPath, id, "model\\" + curModel, param, tempPath + "\\");
-            /*FileInfo fileInfo;
-            do
-            {
-                Synthesizer.SynthesisR2(labPath, id, "model\\" + curModel, param, tempPath);
-                fileInfo = new FileInfo(wavPath);
-                Thread.Sleep(100);
-            } while (fileInfo.Length == 0L);
-            */
-            byte[] numArray = null;
-            bool flag = false;
-            /*
-            while (!flag)
-            {
-                try
-                {
-                    using (BinaryReader binaryReader = new BinaryReader(File.Open(wavPath, FileMode.Open)))
-                    {
-                        binaryReader.ReadBytes(40);
-                        int count = binaryReader.ReadInt32();
-                        numArray = binaryReader.ReadBytes(count);
-                        binaryReader.Close();
-                    }
-                    flag = true;
-                }
-                catch (Exception)
-                {
-                    Thread.Sleep(100);
-                }
-            }
-            */
-            //return new MemoryStream(numArray);
-            
-            return new MemoryStream();
+            Synthesizer.SynthesisR2(labFile, fileID, "model\\" + curModel, speechRate, outputPath, tempPath);
         }
         /*
         public MemoryStream Synthesize(string input)

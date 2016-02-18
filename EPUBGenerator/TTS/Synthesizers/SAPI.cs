@@ -59,25 +59,12 @@ namespace TTS.Synthesizers
             tempPath = path;
         }
 
-        public MemoryStream Synthesize(string input, string id)
+        public void Synthesize(string input, string id, string outputPath)
         {
-            MemoryStream stream = new MemoryStream();
-            string wavPath = Path.Combine(tempPath, id + ".wav");
-            //speechSynthesizer.SetOutputToWaveFile(wavPath, speechAudioFormatInfo);
-            speechSynthesizer.SetOutputToAudioStream(stream, speechAudioFormatInfo);
+            string wavPath = Path.Combine(outputPath, id + ".wav");
+            speechSynthesizer.SetOutputToWaveFile(wavPath, speechAudioFormatInfo);
             speechSynthesizer.Speak(input);
             Dispose();
-
-            using (StreamWriter streamWriter = new StreamWriter(wavPath))
-            {
-                byte[] buffer = new byte[stream.Length];
-                stream.Read(buffer, 0, (int)stream.Length);
-                streamWriter.Write(buffer);
-                streamWriter.Close();
-            }
-
-            stream.Position = 0;
-            return stream;
         }
     }
 }

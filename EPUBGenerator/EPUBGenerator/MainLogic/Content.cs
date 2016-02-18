@@ -9,6 +9,8 @@ namespace EPUBGenerator.MainLogic
     {
         private int count;
 
+        public String CID { get { return "C" + Order; } }
+
         public String NavID { get; private set; }
         public XElement Root { get; private set; }
         public XNamespace Xns { get; private set; }
@@ -17,6 +19,9 @@ namespace EPUBGenerator.MainLogic
         public int Order { get; private set; }
         public List<Block> Blocks { get; private set; }
 
+        #region ----------- NEW PROJECT ------------
+
+        #region Constructor
         public Content(NavPoint Nav) 
         {
             NavID = Nav.ID;
@@ -25,23 +30,18 @@ namespace EPUBGenerator.MainLogic
             Source = Nav.Source;
             Title = Nav.Title;
             Order = Nav.Order;
-
-            try
-            {
-                GetBlocks();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("EXCEPTION FOUND IN CONTENT: " + e.StackTrace);
-            }
+            GetBlocks();
         }
+        #endregion
 
+        #region Private Methods
         private void GetBlocks()
         {
             count = 0;
             Blocks = new List<Block>();
             GetBlocks(Root.Element(Xns + "body"));
         }
+
         private void GetBlocks(XElement CurNode)
         {
             foreach (XNode ChildNode in CurNode.Nodes())
@@ -57,6 +57,7 @@ namespace EPUBGenerator.MainLogic
                     GetBlocks(ChildNode as XElement);
             }
         }
+        #endregion
 
         public XElement ToXml()
         {
@@ -69,5 +70,9 @@ namespace EPUBGenerator.MainLogic
                 xContent.Add(block.ToXml());
             return xContent;
         }
+        #endregion
+
+        #region ----------- OPEN PROJECT ------------
+        #endregion
     }
 }

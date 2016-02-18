@@ -33,6 +33,7 @@ namespace EPUBGenerator.Pages
             InitializeComponent();
             
         }
+
         public void bookInfo(string projName, string projPath, string epubPath)
         {
             this.projName = projName;

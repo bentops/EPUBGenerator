@@ -10,13 +10,13 @@ namespace EPUBGenerator.MainLogic
 {
     class Sentence
     {
-        public static int total = 0;
+        public static int Total;
         public int ID { get; set; }
         public String SID { get { return "S" + ID; } }
+        public String BSID { get { return Block.BID + SID; } }
         public int Type { get; set; }
+        public int Bytes { get; set; }
         public String Text { get; private set; }
-        public double Begin { get; private set; }
-        public double End { get; private set; }
         public Block Block { get; private set; }
         public LinkedList<Word> Words { get; private set; }
         public MemoryStream WaveStream { get; private set; }
@@ -38,38 +38,64 @@ namespace EPUBGenerator.MainLogic
             {
                 String phoneme = "";
                 foreach (Word word in Words)
-                {
-                    String wordPhone = word.Phoneme;
-                    int silIndex = 0;
-                    while ((silIndex = wordPhone.IndexOf(@"sil;7;0|")) != -1)
-                        wordPhone = wordPhone.Remove(silIndex, 8);
-                    phoneme += wordPhone;//word.Phoneme.Substring(8, word.Phoneme.Length - 16);
-                }
+                    phoneme += word.Phoneme;
                 return @"sil;7;0|" + phoneme + @"sil;7;0|";
             }
         }
 
+        #region ----------- NEW PROJECT ------------
         public Sentence(int id, int type, String text, Block block)
         {
-            total++;
+            Total++;
             ID = id;
             Type = type;
             Block = block;
             SetTextAndWords(text);
         }
 
+        public void SetTextAndWords(String text)
+        {
+            Text = text;
+            Words = Tools.GenWordList(this);
+        }
+
+        public XElement ToXml()
+        {
+            XElement xSentence = new XElement("Sentence");
+            xSentence.Add(new XAttribute("id", SID));
+            xSentence.Add(new XAttribute("type", Type));
+            xSentence.Add(new XAttribute("bytes", Bytes));
+            xSentence.Add(new XAttribute("begin", Words.First.Value.Begin));
+            xSentence.Add(new XElement("Text", Text));
+            foreach (Word word in Words)
+                xSentence.Add(word.ToXml());
+            return xSentence;
+        }
+
+
+        public void Synthesize()
+        {
+            Tools.Synthesize(Phoneme, Type, Block.Content.Order + "-" + Block.BID + "-" + SID);
+        }
+
+        // -----------------------------------------------------------
+        #endregion
+
+
+        #region ----------- OPEN PROJECT ------------
+        // Need to recheck (@ id)
         public Sentence(XElement xSentence, Block block)
         {
-            total++;
+            Total++;
             foreach (XAttribute attribute in xSentence.Attributes())
             {
                 String value = attribute.Value;
                 switch(attribute.Name.ToString())
                 {
-                    case "id": ID = Int32.Parse(value.Substring(1)); break;
-                    case "type": Type = Int32.Parse(value); break;
-                    case "begin": Begin = Double.Parse(value); break;
-                    case "end": End = Double.Parse(value); break;
+                    case "id": ID = int.Parse(value.Substring(1)); break;
+                    case "type": Type = int.Parse(value); break;
+                    //case "begin": Begin = int.Parse(value); break;
+                    //case "end": End = int.Parse(value); break;
                     default: break;
                 }
             }
@@ -88,38 +114,6 @@ namespace EPUBGenerator.MainLogic
             }
             Block = block;
         }
-
-        public XElement ToXml()
-        {
-            XElement xSentence = new XElement("Sentence");
-            xSentence.Add(new XAttribute("id", SID));
-            xSentence.Add(new XAttribute("type", Type));
-            xSentence.Add(new XAttribute("begin", Begin));
-            xSentence.Add(new XAttribute("end", End));
-            xSentence.Add(new XElement("Text", Text));
-            foreach (Word word in Words)
-                xSentence.Add(word.ToXml());
-            return xSentence;
-        }
-        
-        public void SetTextAndWords(String text)
-        {
-            Text = text;
-            Words = new LinkedList<Word>();
-            List<KeyValuePair<String, String>> list = Tools.GetPhonemeList(text, Type);
-            foreach (KeyValuePair<String, String> kvPair in list)
-            {
-                Word word = new Word(kvPair.Key, kvPair.Value, this);
-                word.Node = Words.AddLast(word);
-            }
-        }
-
-        public void Synthesize()
-        {
-            Console.WriteLine("in");
-            WaveStream = Tools.Synthesize(Phoneme, Type, Block.Content.Order + "-" + Block.BID + "-" + SID);
-
-            Console.WriteLine("out");
-        }
+        #endregion
     }
 }

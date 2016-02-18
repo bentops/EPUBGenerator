@@ -5,7 +5,7 @@ namespace TTS
 {
     public interface ISynthesizer
     {
-        MemoryStream Synthesize(string input, string id);
+        void Synthesize(string input, string id, string outputPath);
         void SetFrequency(int frequency);
         void SetModel(string modelName);
         void SetPitch(double pitch);

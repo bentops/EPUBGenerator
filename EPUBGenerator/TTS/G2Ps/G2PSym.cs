@@ -4,9 +4,10 @@ namespace TTS.G2Ps
 {
     public class G2PSym : IG2P
     {
-        private Dictionary<string, string> Dict = new Dictionary<string, string>();
+        private Dictionary<string, string> Dict;
         public G2PSym()
         {
+            Dict = new Dictionary<string, string>();
             Dict.Add("0", "suun4");
             Dict.Add("1", "nUN1");
             Dict.Add("2", "sOON4");
@@ -20,6 +21,7 @@ namespace TTS.G2Ps
             Dict.Add(".", "cut1");
             Dict.Add("(", "p@@t1}woN0}lep3");
             Dict.Add(")", "pit1}woN0}lep3");
+            // ---------------
         }
 
         public string GenTranscript(string inp)
@@ -40,12 +42,12 @@ namespace TTS.G2Ps
 
         public List<KeyValuePair<string, string>> GenTranscriptList(string inp)
         {
-            return new List<KeyValuePair<string, string>>() { new KeyValuePair<string, string>(inp, inp) };
+            return new List<KeyValuePair<string, string>>() { new KeyValuePair<string, string>(inp, GenTranscript(inp)) };
         }
 
         public List<List<string>> GenPronunciationAndTranscriptList(string inp)
         {
-            return new List<List<string>>() { new List<string>() { inp, inp, inp } };
+            return new List<List<string>>() { new List<string>() { inp, inp, GenTranscript(inp) } };
         }
     }
 }

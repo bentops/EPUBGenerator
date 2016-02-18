@@ -39,8 +39,11 @@ namespace eBdb.EpubReader {
 		public OrderedDictionary Content { get; private set; }
 		public OrderedDictionary ExtendedData { get; private set; }
 		public List<NavPoint> TOC { get; private set; }
+        // NEW By Volkyoe
+        public ContentData OpfFile { get; private set; }
 
 		private readonly ZipFile _EpubFile;
+        private readonly string _OpfFilePath;
 		private readonly string _ContentOpfPath;
 		private string _TocFileName;
 		private readonly Hashtable _LinksMapping = new Hashtable(StringComparer.InvariantCultureIgnoreCase);
@@ -75,13 +78,13 @@ namespace eBdb.EpubReader {
 			if (File.Exists(ePubPath)) _EpubFile = ZipFile.Read(ePubPath);
 			else throw new FileNotFoundException();
 
-			string opfFilePath = GetOpfFilePath(_EpubFile);
-			if (string.IsNullOrEmpty(opfFilePath)) throw new Exception("Invalid epub file.");
+			_OpfFilePath = GetOpfFilePath(_EpubFile);
+			if (string.IsNullOrEmpty(_OpfFilePath)) throw new Exception("Invalid epub file.");
 
-			Match m = Regex.Match(opfFilePath, @"^.*/", Utils.REO_c);
+			Match m = Regex.Match(_OpfFilePath, @"^.*/", Utils.REO_c);
 			_ContentOpfPath = m.Success ? m.Value : "";
 
-			LoadEpubMetaDataFromOpfFile(opfFilePath);
+			LoadEpubMetaDataFromOpfFile(_OpfFilePath);
 			if (_TocFileName != null) LoadTableOfContents();
 		}
 		#endregion
@@ -142,11 +145,11 @@ namespace eBdb.EpubReader {
         // NEW By Volkyoe
         public string GetOpfPath()
         {
-            return _ContentOpfPath;
+            return _OpfFilePath;
         }
         public string GetOpfDirectory()
         {
-            return Path.GetDirectoryName(_ContentOpfPath);
+            return _ContentOpfPath;
         }
         #endregion
 
@@ -212,6 +215,9 @@ namespace eBdb.EpubReader {
 		private void LoadEpubMetaDataFromOpfFile(string opfFilePath) {
 			ZipEntry zipEntry = _EpubFile.Entries.FirstOrDefault(e => e.FileName.Equals(opfFilePath, StringComparison.InvariantCultureIgnoreCase));
 			if (zipEntry == null) throw new Exception("Invalid epub file.");
+
+            // NEW By Volkoye
+            OpfFile = new ContentData(opfFilePath, zipEntry);
 
 			XElement contentOpf;
 			using (MemoryStream memoryStream = new MemoryStream()) {

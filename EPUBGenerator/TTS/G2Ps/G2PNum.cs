@@ -41,20 +41,13 @@ namespace TTS.G2Ps
                 while (inp.Substring(0, 1) == "0")
                 {
                     if (inp.Length == 1)
-                    {
                         return Dict["0"];
-                    }
-                    else
-                    {
-                        inp = inp.Substring(1);
-                    }
+                    inp = inp.Substring(1);
                 }
             }
 
             if (inp == "0" || inp == "-0")
-            {
                 return Dict["0"];
-            }
 
             if (inp.Substring(0, 1) == "-")
             {
@@ -64,9 +57,7 @@ namespace TTS.G2Ps
 
             binp = binp.Replace(",", "");
             if (binp.Length == 0)
-            {
                 return "";
-            }
 
             while (binp.Length > 0)
             {
@@ -131,12 +122,12 @@ namespace TTS.G2Ps
 
         public List<KeyValuePair<string, string>> GenTranscriptList(string inp)
         {
-            return new List<KeyValuePair<string, string>>() { new KeyValuePair<string, string>(inp, inp) };
+            return new List<KeyValuePair<string, string>>() { new KeyValuePair<string, string>(inp, GenTranscript(inp)) };
         }
 
         public List<List<string>> GenPronunciationAndTranscriptList(string inp)
         {
-            return new List<List<string>>() { new List<string>() { inp, inp, inp } };
+            return new List<List<string>>() { new List<string>() { inp, inp, GenTranscript(inp) } };
         }
     }
 }

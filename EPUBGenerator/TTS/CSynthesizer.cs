@@ -24,7 +24,6 @@ namespace TTS
                     synthesizer.SetSpeed(speed);
             }
         }
-
         public double Pitch
         {
             get { return pitch; }
@@ -35,7 +34,6 @@ namespace TTS
                     synthesizer.SetPitch(pitch);
             }
         }
-
         public int Frequency
         {
             get { return frequency; }
@@ -46,9 +44,9 @@ namespace TTS
                     synthesizer.SetFrequency(frequency);
             }
         }
-
         public string TempPath
         {
+            get { return tempPath; }
             set
             {
                 tempPath = value;
@@ -77,6 +75,12 @@ namespace TTS
             TempPath = tempPath;
         }
         
+        public void Synthesize(string input, int type, string id, string outputPath)
+        {
+            if (!Map.ContainsKey(type)) return;
+            Synthesizers[Map[type]].Synthesize(input, id, outputPath);
+        }
+
         public void Reset()
         {
             foreach (ISynthesizer synthesizer in Synthesizers.Values)
@@ -101,10 +105,5 @@ namespace TTS
             return Synthesizers[slot].GetModel();
         }
 
-        public MemoryStream Synthesize(string input, int type, string id)
-        {
-            if (!Map.ContainsKey(type)) return new MemoryStream();
-            return Synthesizers[Map[type]].Synthesize(input, id);
-        }
     }
 }

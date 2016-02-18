@@ -67,7 +67,7 @@ namespace EPUBGenerator.Pages
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
             //TestClass.reCreate(epubPath, projPath);
-            Project.Create(epubPath, projPath, bw, e);
+            Project.CurrentProject = new Project(epubPath, projPath, bw, e);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)

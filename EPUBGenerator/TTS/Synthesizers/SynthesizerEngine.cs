@@ -19,12 +19,20 @@ namespace TTS.Synthesizers
             }).WaitForExit();
         }
 
-        public void SynthesisR2(string fname, string oname, string modelPath, string param, string tempPath)
+        public void SynthesisR2(string fname, string oname, string modelPath, double speed, string audioPath, string tempPath)
         {
+            string[] arguments = new string[]
+            {
+                "-m " + modelPath + ".htsvoice",                    // model
+                "-r " + speed,                                      // speed
+                "-ow " + Path.Combine(audioPath, oname + ".wav"),    // outWav
+                "-od " + Path.Combine(tempPath, oname + ".dur"),    // outDur
+                fname
+            };
             Process process = new Process();
             Process.Start(new ProcessStartInfo("hts_engine1.10-org.exe")
             {
-                Arguments = "-m " + modelPath + ".htsvoice " + param + " -ow " + Path.Combine(tempPath, oname + ".wav") + " -od " + tempPath + oname + ".dur " + fname,
+                Arguments = string.Join(" ", arguments),
                 RedirectStandardError = false,
                 RedirectStandardOutput = false,
                 UseShellExecute = false,

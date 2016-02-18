@@ -27,13 +27,14 @@ namespace EPUBGenerator.MainLogic
             }
         }
 
+
+        #region ----------- NEW PROJECT ------------
         public Block(int id, String text, Content content)
         {
             ID = id;
-            // DO SOME SPLIT HERE //
             int count = 0;
             Sentences = new List<Sentence>();
-            foreach (KeyValuePair<String, Int32> sentence in Tools.SentenceSplitter.Split(text))
+            foreach (KeyValuePair<String, Int32> sentence in Tools.Split(text))
             {
                 if (String.IsNullOrWhiteSpace(sentence.Key)) continue;
                 Sentences.Add(new Sentence(count++, sentence.Value, sentence.Key, this));
@@ -41,6 +42,18 @@ namespace EPUBGenerator.MainLogic
             Content = content;
         }
 
+        public XElement ToXml()
+        {
+            XElement xBlock = new XElement("Block", new XAttribute("id", BID));
+            foreach (Sentence sentence in Sentences)
+                xBlock.Add(sentence.ToXml());
+            return xBlock;
+        }
+        #endregion
+
+        #region ----------- OPEN PROJECT ------------
+
+        // check id
         public Block(XElement xBlock, Content content)
         {
             Sentences = new List<Sentence>();
@@ -54,13 +67,7 @@ namespace EPUBGenerator.MainLogic
             }
             Content = content;
         }
+        #endregion
 
-        public XElement ToXml()
-        {
-            XElement xBlock = new XElement("Block", new XAttribute("id", BID));
-            foreach (Sentence sentence in Sentences)
-                xBlock.Add(sentence.ToXml());
-            return xBlock;
-        }
     }
 }
