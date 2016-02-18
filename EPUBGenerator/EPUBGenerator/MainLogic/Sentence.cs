@@ -13,7 +13,7 @@ namespace EPUBGenerator.MainLogic
         public static int Total;
         public int ID { get; set; }
         public String SID { get { return "S" + ID; } }
-        public String BSID { get { return Block.BID + SID; } }
+        public String BSID { get { return Block.Content.CID + Block.BID + SID; } }
         public int Type { get; set; }
         public int Bytes { get; set; }
         public String Text { get; private set; }

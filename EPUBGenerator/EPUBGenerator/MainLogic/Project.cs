@@ -272,7 +272,7 @@ namespace EPUBGenerator.MainLogic
                             foreach (Sentence sentence in content.Blocks[id].Sentences)
                             {
                                 XElement xSentence = new XElement(content.Xns + "span");
-                                xSentence.Add(new XAttribute("id", xText.Value + sentence.SID));
+                                xSentence.Add(new XAttribute("id", sentence.BSID));
                                 xSentence.Add(new XText(sentence.Text));
                                 parent.Add(xSentence);
                             }
