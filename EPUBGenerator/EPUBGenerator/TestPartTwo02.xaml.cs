@@ -23,5 +23,15 @@ namespace EPUBGenerator
         {
             InitializeComponent();
         }
+
+        private void R01_MouseEnter(object sender, MouseEventArgs e)
+        {
+            R01.Background = Brushes.Yellow;
+        }
+
+        private void R01_MouseLeave(object sender, MouseEventArgs e)
+        {
+            R01.ClearValue(Run.BackgroundProperty);
+        }
     }
 }

@@ -83,10 +83,11 @@
            ==============================================-->
                 <Grid Grid.Row="0" Background="White">
                     <Label Content="Content" Margin="0,0,0,0" />
-                    <RichTextBox x:Name="richTextBox" HorizontalAlignment="Center" Height="100" Margin="0,50,0,0" VerticalAlignment="Top" Width="Auto" Cursor="Hand">
+                    <RichTextBox x:Name="richTextBox" HorizontalAlignment="Center" Height="100" Margin="0,50,0,0" VerticalAlignment="Top" Width="Auto">
                         <FlowDocument>
                             <Paragraph>
-                                <Run Text="RichTextBox" Background="#FFFFFA91"/>
+                                ทมทมท
+                                <Run x:Name="R01" MouseEnter="R01_MouseEnter" MouseLeave="R01_MouseLeave" Text="RichTextBox" Cursor="Hand"/>
                                 <Run Text="RichTextBox" Background="#FF91F0FF"/>
                                 <Run Text="RichTextBox" Background="#FFD291FF"/>
                             </Paragraph>
