@@ -135,6 +135,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
+    <Compile Include="TestPartTwo02.xaml.cs">
+      <DependentUpon>TestPartTwo02.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestPartTwo01.xaml.cs">
+      <DependentUpon>TestPartTwo01.xaml</DependentUpon>
+    </Compile>
     <Page Include="EditWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -169,6 +175,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestPartTwo02.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TestPartTwo01.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
