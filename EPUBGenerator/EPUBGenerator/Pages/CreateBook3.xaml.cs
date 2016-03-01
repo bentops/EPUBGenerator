@@ -144,8 +144,6 @@ namespace EPUBGenerator.Pages
             }
             else if (e.Error != null)
             {
-                Switcher.error.setErrorMsgText("invalidEpubFile", Switcher.createBook1);
-                Switcher.Switch(Switcher.error);
                 Console.WriteLine("CreatBook3, RunworkerCompleted with Exception: ");
                 Console.WriteLine("\t" + e.Error.Message);
                 Console.WriteLine(e.Error.StackTrace);
