@@ -26,6 +26,7 @@ namespace EPUBGenerator.Pages
     public partial class CreateBook3 : UserControl
     {
         private BackgroundWorker bw;
+        private String savePath;
         private string projName;
         private string projPath;
         private string epubPath;
@@ -74,8 +75,9 @@ namespace EPUBGenerator.Pages
             saveFileDialog.InitialDirectory = Project.CurrentProject.ProjectDirectory;
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                Project.CurrentProject.ExportEpub(saveFileDialog.FileName);
                 //INSERT Select .EPUB file location here//
+                savePath = saveFileDialog.FileName;
+
                 this.IsEnabled = false;
                 System.Windows.Media.Effects.BlurEffect objBlur = new System.Windows.Media.Effects.BlurEffect();
                 objBlur.Radius = 5;
@@ -117,7 +119,7 @@ namespace EPUBGenerator.Pages
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
             //TestClass.reCreate(epubPath, projPath);
-            Project.CurrentProject = new Project(epubPath, projPath, bw, e);
+            Project.CurrentProject.ExportEpub(savePath, bw, e);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)

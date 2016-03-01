@@ -235,7 +235,7 @@ namespace EPUBGenerator.MainLogic
         }
         #endregion
 
-        public void ExportEpub(String savePath)
+        public void ExportEpub(String savePath, BackgroundWorker bw, DoWorkEventArgs doEvent)
         {
             //String exportEpub = Path.Combine(ProjectDirectory, savePath);
             String exportEpub = savePath;
@@ -253,7 +253,8 @@ namespace EPUBGenerator.MainLogic
                 XNamespace xnsOpf = rootOpf.Attribute("xmlns") != null ? rootOpf.Attribute("xmlns").Value : XNamespace.None;
                 XElement metadataOpf = rootOpf.Element(xnsOpf + "metadata");
                 XElement manifestOpf = rootOpf.Element(xnsOpf + "manifest");
-                
+
+                int i = 0;
                 foreach (Content content in Contents)
                 {
                     long contentBytes = 0;
@@ -421,6 +422,13 @@ namespace EPUBGenerator.MainLogic
                         }
                     }
                     #endregion
+
+                    bw.ReportProgress(i * 100 / Contents.Count);
+                    if (bw.CancellationPending)
+                    {
+                        doEvent.Cancel = true;
+                        break;
+                    }
                 }
 
                 XElement totalDuration = new XElement(xnsOpf + "meta");
