@@ -25,7 +25,7 @@ namespace TTS.Synthesizers
             {
                 "-m " + modelPath + ".htsvoice",                    // model
                 "-r " + speed,                                      // speed
-                "-ow " + Path.Combine(audioPath, oname + ".wav"),    // outWav
+                "-ow " + Path.Combine(audioPath, oname + ".wav"),   // outWav
                 "-od " + Path.Combine(tempPath, oname + ".dur"),    // outDur
                 fname
             };

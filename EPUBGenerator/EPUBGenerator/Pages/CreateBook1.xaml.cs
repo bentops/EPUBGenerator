@@ -118,7 +118,7 @@ namespace EPUBGenerator.Pages
 
         private void updateNextButton()
         {
-            nextButton.IsEnabled = !String.IsNullOrEmpty(ProjectPath) && !String.IsNullOrEmpty(EpubPath); ;
+            nextButton.IsEnabled = !String.IsNullOrEmpty(ProjectPath) && !String.IsNullOrEmpty(EpubPath);
         }
     }
 }

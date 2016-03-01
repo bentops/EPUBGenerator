@@ -153,7 +153,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainLogic\TestClass.cs" />
     <Page Include="Pages\CreateBook1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

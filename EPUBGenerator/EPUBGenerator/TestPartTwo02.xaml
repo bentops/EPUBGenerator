@@ -83,7 +83,7 @@
            ==============================================-->
                 <Grid Grid.Row="0" Background="White">
                     <Label Content="Content" Margin="0,0,0,0" />
-                    <RichTextBox x:Name="richTextBox" HorizontalAlignment="Center" Height="Auto" Margin="0,50,0,0" VerticalAlignment="Top" Width="Auto">
+                    <RichTextBox x:Name="richTextBox" SelectionBrush="Black" SelectionOpacity="0.5" HorizontalAlignment="Center" Height="Auto" Margin="0,50,0,0" VerticalAlignment="Top" Width="Auto">
                         <FlowDocument>
                             <Paragraph x:Name="paragraph1">
                                 ทมทมท
