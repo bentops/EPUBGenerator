@@ -26,7 +26,6 @@ namespace EPUBGenerator.Pages
     public partial class CreateBook3 : UserControl
     {
         private BackgroundWorker bw;
-        private String savePath;
         private string projName;
         private string projPath;
         private string epubPath;
@@ -75,9 +74,8 @@ namespace EPUBGenerator.Pages
             saveFileDialog.InitialDirectory = Project.CurrentProject.ProjectDirectory;
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
+                Project.CurrentProject.ExportEpub(saveFileDialog.FileName);
                 //INSERT Select .EPUB file location here//
-                savePath = saveFileDialog.FileName;
-
                 this.IsEnabled = false;
                 System.Windows.Media.Effects.BlurEffect objBlur = new System.Windows.Media.Effects.BlurEffect();
                 objBlur.Radius = 5;
@@ -125,7 +123,7 @@ namespace EPUBGenerator.Pages
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
             //TestClass.reCreate(epubPath, projPath);
-            Project.CurrentProject.ExportEpub(savePath, bw, e);
+            Project.CurrentProject = new Project(epubPath, projPath, bw, e);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -144,14 +142,13 @@ namespace EPUBGenerator.Pages
             }
             else if (e.Error != null)
             {
-                Switcher.error.setErrorMsgText("invalidEpubFile", Switcher.createBook1);
-                Switcher.Switch(Switcher.error);
                 Console.WriteLine("CreatBook3, RunworkerCompleted with Exception: ");
                 Console.WriteLine("\t" + e.Error.Message);
                 Console.WriteLine(e.Error.StackTrace);
                 //ขึ้นerror ให้กด ok
-                cancelButton.IsEnabled = false;
-                ExportProgress.IsEnabled = false;
+                okButton.Visibility = Visibility.Visible;
+                cancelButton.Visibility = Visibility.Hidden;
+                ExportProgress.Visibility = Visibility.Hidden;
                 ExportWait.Content = "Exporting error !";
             }
             else
@@ -160,8 +157,9 @@ namespace EPUBGenerator.Pages
                 exportPopup.IsOpen = false;
                 Switcher.createBook3.Effect = null;
                 //ขึ้น done แล้วหายไป
-                cancelButton.IsEnabled = false;
-                ExportProgress.IsEnabled = false;
+                okButton.Visibility = Visibility.Visible;
+                cancelButton.Visibility = Visibility.Hidden;
+                ExportProgress.Visibility = Visibility.Hidden;
                 ExportWait.Content = "DONE !";
             }
         }

@@ -91,7 +91,7 @@ namespace EPUBGenerator.Pages
             }
             else
             {
-                Thread.Sleep(300);
+                Thread.Sleep(500);
                 Switcher.Switch(Switcher.createBook3);
                 Switcher.createBook3.bookInfo(projName, projPath, epubPath);
             }
