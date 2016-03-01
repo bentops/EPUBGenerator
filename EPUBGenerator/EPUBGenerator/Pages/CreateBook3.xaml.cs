@@ -113,6 +113,12 @@ namespace EPUBGenerator.Pages
             bw.CancelAsync();
         }
 
+        private void okButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.IsEnabled = true;
+            exportPopup.IsOpen = false;
+            Switcher.createBook3.Effect = null;
+        }
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
@@ -141,12 +147,20 @@ namespace EPUBGenerator.Pages
                 Console.WriteLine("CreatBook3, RunworkerCompleted with Exception: ");
                 Console.WriteLine("\t" + e.Error.Message);
                 Console.WriteLine(e.Error.StackTrace);
+                //ขึ้นerror ให้กด ok
+                cancelButton.IsEnabled = false;
+                ExportProgress.IsEnabled = false;
+                ExportWait.Content = "Exporting error !";
             }
             else
             {
                 this.IsEnabled = true;
                 exportPopup.IsOpen = false;
                 Switcher.createBook3.Effect = null;
+                //ขึ้น done แล้วหายไป
+                cancelButton.IsEnabled = false;
+                ExportProgress.IsEnabled = false;
+                ExportWait.Content = "DONE !";
             }
         }
     }
