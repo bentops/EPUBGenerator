@@ -251,7 +251,7 @@
                     </RichTextBox>
 
                     <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="150,0,0,20" />
-                    <TextBlock Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,36" FontSize="14" Background="White"></TextBlock>
+                    <TextBlock Name="PageTeller" Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,36" FontSize="14" Background="White"></TextBlock>
                     <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,20" >
                         <Button.RenderTransform>
                             <TransformGroup>
