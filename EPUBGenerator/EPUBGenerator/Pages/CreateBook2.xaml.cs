@@ -45,7 +45,6 @@ namespace EPUBGenerator.Pages
             infoinputEPUB.Text = epubPath;
 
             bw = new BackgroundWorker();
-            TestClass.bw = bw;
             bw.WorkerReportsProgress = true;
             bw.DoWork += bw_DoWork;
             bw.ProgressChanged += bw_ProgressChanged;

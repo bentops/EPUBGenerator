@@ -112,7 +112,7 @@
 
 
             <Grid Grid.Column="0">
-                <Button x:Name="createbutton" Content="" HorizontalAlignment="Right" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="homebutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button x:Name="createbutton" Content="" HorizontalAlignment="Right" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="homebutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand">
                     <Button.Template>
                         <ControlTemplate>
                             <Grid>
@@ -141,7 +141,6 @@
                                             <ImageBrush ImageSource="/EPUBGenerator;component/Resources/homeTxt.png" />
                                         </Setter.Value>
                                     </Setter>
-                                    <Setter Property="Cursor" Value="Hand" />
                                 </Trigger>
                             </Style.Triggers>
                         </Style>
@@ -150,7 +149,7 @@
             </Grid>
 
             <Grid Grid.Column="1">
-                <Button x:Name="editbutton" Content="" HorizontalAlignment="Right" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="editThisBookbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button x:Name="editbutton" Content="" HorizontalAlignment="Right" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="editThisBookbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand">
                     <Button.Template>
                         <ControlTemplate>
                             <Grid>
@@ -179,7 +178,6 @@
                                             <ImageBrush ImageSource="/EPUBGenerator;component/Resources/editThisProjTxt.png" />
                                         </Setter.Value>
                                     </Setter>
-                                    <Setter Property="Cursor" Value="Hand" />
                                 </Trigger>
                             </Style.Triggers>
                         </Style>
@@ -188,7 +186,7 @@
             </Grid>
 
             <Grid Grid.Column="2">
-                <Button x:Name="exportbutton" Content="" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="exportbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button x:Name="exportbutton" Content="" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="exportbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand">
                     <Button.Template>
                         <ControlTemplate>
                             <Grid>
@@ -217,7 +215,6 @@
                                             <ImageBrush ImageSource="/EPUBGenerator;component/Resources/exportAsTxtD.png" />
                                         </Setter.Value>
                                     </Setter>
-                                    <Setter Property="Cursor" Value="Hand" />
                                 </Trigger>
                             </Style.Triggers>
                         </Style>
@@ -257,7 +254,7 @@
             </Grid>
 
             <Grid Grid.Column="3">
-                <Button x:Name="exitbutton" Content="" HorizontalAlignment="Left" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button x:Name="exitbutton" Content="" HorizontalAlignment="Left" Margin="0,0,0,20" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="100" Width="100" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}" Cursor="Hand">
                     <Button.Template>
                         <ControlTemplate>
                             <Grid>
@@ -286,7 +283,6 @@
                                             <ImageBrush ImageSource="/EPUBGenerator;component/Resources/closeProgTxt.png" />
                                         </Setter.Value>
                                     </Setter>
-                                    <Setter Property="Cursor" Value="Hand" />
                                 </Trigger>
                             </Style.Triggers>
                         </Style>

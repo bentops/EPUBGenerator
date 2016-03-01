@@ -67,7 +67,7 @@
             <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="60,15,0,0" VerticalAlignment="Top" Height="30" Width="138" Style="{StaticResource LabelStyle}"/>
             <TextBlock x:Name="projLocationPath" Text=".. please select project location .." HorizontalAlignment="Left" Height="Auto" Margin="214,19,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource TextLocationStyle}" TextWrapping="WrapWithOverflow" />
 
-            <Button x:Name="browseLocation" Content="Browse" HorizontalAlignment="Left" Margin="614,11,0,0" VerticalAlignment="Top" Width="90" Height="34" Click="browseLocation_Click">
+            <Button x:Name="browseLocation" Content="Browse" HorizontalAlignment="Left" Margin="614,11,0,0" VerticalAlignment="Top" Width="90" Height="34" Click="browseLocation_Click" Cursor="Hand">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="#01a2a6" />
@@ -103,7 +103,7 @@
         <Grid Grid.Row="3">
             <Label x:Name="label" Content="Input EPUB :" HorizontalAlignment="Left" Margin="60,20,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
             <TextBlock x:Name="epubPath" Text=".. please select input file .." HorizontalAlignment="Left" Height="Auto" Margin="214,24,0,0" VerticalAlignment="Top" Width="380" Style="{StaticResource TextLocationStyle}" TextWrapping="WrapWithOverflow" />
-            <Button x:Name="browseEpub" Content="Browse" HorizontalAlignment="Left" Margin="614,16,0,0" VerticalAlignment="Top" Width="90" Height="36" Click="browseEpub_Click">
+            <Button x:Name="browseEpub" Content="Browse" HorizontalAlignment="Left" Margin="614,16,0,0" VerticalAlignment="Top" Width="90" Height="36" Click="browseEpub_Click" Cursor="Hand">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="#01a2a6" />
@@ -137,7 +137,7 @@
         </Grid>
 
         <Grid Grid.Row="4">
-            <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Top" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+            <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Top" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="#bdf271" />
@@ -175,7 +175,7 @@
                     </Style>
                 </Button.Style>
             </Button>
-            <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Right" Margin="0,0,80,0" VerticalAlignment="Top" Width="100" Click="nextButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+            <Button x:Name="nextButton" Content="Next" HorizontalAlignment="Right" Margin="0,0,80,0" VerticalAlignment="Top" Width="100" Click="nextButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="#bdf271" />

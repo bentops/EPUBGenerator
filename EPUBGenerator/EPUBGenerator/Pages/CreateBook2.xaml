@@ -76,7 +76,7 @@
         </Grid>
 
         <Grid Grid.Row="4">
-            <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
+            <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                         <Setter Property="Background" Value="#bdf271" />
