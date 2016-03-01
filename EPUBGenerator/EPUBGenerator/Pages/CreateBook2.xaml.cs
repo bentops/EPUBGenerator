@@ -43,7 +43,7 @@ namespace EPUBGenerator.Pages
             infoprojName.Text = projName;
             infoprojLocation.Text = projPath;
             infoinputEPUB.Text = epubPath;
-
+            
             bw = new BackgroundWorker();
             bw.WorkerReportsProgress = true;
             bw.DoWork += bw_DoWork;

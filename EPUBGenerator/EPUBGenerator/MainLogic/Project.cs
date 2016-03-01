@@ -114,7 +114,7 @@ namespace EPUBGenerator.MainLogic
             }
 
             Save();
-            ExportEpub("output.epub");
+            //ExportEpub("output.epub");
             Status = (int)ProjectStatus.None;
         }
         #endregion
@@ -237,7 +237,8 @@ namespace EPUBGenerator.MainLogic
 
         public void ExportEpub(String savePath)
         {
-            String exportEpub = Path.Combine(ProjectDirectory, savePath);
+            //String exportEpub = Path.Combine(ProjectDirectory, savePath);
+            String exportEpub = savePath;
             File.Copy(EpubPath, exportEpub, true);
             
             using (ZipArchive archive = ZipFile.Open(exportEpub, ZipArchiveMode.Update))
