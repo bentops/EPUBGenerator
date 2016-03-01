@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:EPUBGenerator.Pages"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="800"
-             Background="#29d9c2"
+             Background="#6ce5d5"
              Name="CreateBook3Window">
 
     <UserControl.Resources>
@@ -220,8 +220,10 @@
                         </Style>
                     </Button.Style>
                 </Button>
+                
+                <!-- PopUp -->
                 <Popup AllowsTransparency="True" Name="exportPopup" IsOpen="False" Width="500" Height="200" Placement="Center" PlacementRectangle="400,200,0,0" PlacementTarget="{Binding ElementName=CreateBook3Window}" OpacityMask="#FFE42A2A">
-                    <Grid Background="#9eeee3">
+                    <Grid Background="#bff4ed">
                         <Label x:Name="ExportWait" Content="Please wait while exporting ..." HorizontalAlignment="Left" Margin="50,0,0,115" VerticalAlignment="Bottom" Style="{StaticResource LabelStyle}"/>
                         <ProgressBar Name="ExportProgress" HorizontalAlignment="Center" Height="30" Margin="0" VerticalAlignment="Center" Width="400" />
                         <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="350,134,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
