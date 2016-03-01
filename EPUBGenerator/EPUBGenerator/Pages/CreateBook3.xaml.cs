@@ -148,18 +148,16 @@ namespace EPUBGenerator.Pages
                 Console.WriteLine("\t" + e.Error.Message);
                 Console.WriteLine(e.Error.StackTrace);
                 //ขึ้นerror ให้กด ok
-                cancelButton.IsEnabled = false;
-                ExportProgress.IsEnabled = false;
+                okButton.Visibility = Visibility.Visible;
+                cancelButton.Visibility = Visibility.Hidden;
+                ExportProgress.Visibility = Visibility.Hidden;
                 ExportWait.Content = "Exporting error !";
             }
             else
             {
-                this.IsEnabled = true;
-                exportPopup.IsOpen = false;
-                Switcher.createBook3.Effect = null;
-                //ขึ้น done แล้วหายไป
-                cancelButton.IsEnabled = false;
-                ExportProgress.IsEnabled = false;
+                okButton.Visibility = Visibility.Visible;
+                cancelButton.Visibility = Visibility.Hidden;
+                ExportProgress.Visibility = Visibility.Hidden;
                 ExportWait.Content = "DONE !";
             }
         }
