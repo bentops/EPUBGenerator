@@ -23,11 +23,11 @@ namespace TTS.Synthesizers
         {
             string[] arguments = new string[]
             {
-                "-m " + modelPath + ".htsvoice",                    // model
-                "-r " + speed,                                      // speed
-                "-ow " + Path.Combine(audioPath, oname + ".wav"),   // outWav
-                "-od " + Path.Combine(tempPath, oname + ".dur"),    // outDur
-                fname
+                "-m " + "\"" + modelPath + ".htsvoice" + "\"",                      // model
+                "-r " + speed,                                                      // speed
+                "-ow " + "\"" + Path.Combine(audioPath, oname + ".wav") + "\"",     // outWav
+                "-od " + "\"" + Path.Combine(tempPath, oname + ".dur") + "\"",      // outDur
+                 "\"" + fname + "\""
             };
             Process process = new Process();
             Process.Start(new ProcessStartInfo("hts_engine1.10-org.exe")
