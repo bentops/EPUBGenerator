@@ -423,11 +423,12 @@ namespace EPUBGenerator.MainLogic
                     }
                     #endregion
 
+                    i++;
                     bw.ReportProgress(i * 100 / Contents.Count);
                     if (bw.CancellationPending)
                     {
                         doEvent.Cancel = true;
-                        break;
+                        return;
                     }
                 }
 

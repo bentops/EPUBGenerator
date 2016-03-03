@@ -15,18 +15,18 @@
         <Style TargetType="{x:Type Label}" x:Key="HeadLabelStyle" >
             <Setter Property="FontSize" Value="30" />
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-            <Setter Property="Foreground" Value="#FFF7F7FF" />
+            <Setter Property="Foreground" Value="#F7F7FF" />
         </Style>
         <Style TargetType="{x:Type Label}" x:Key="LabelStyleInGrid" >
             <Setter Property="FontSize" Value="18" />
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-            <Setter Property="Foreground" Value="#FFF7F7FF" />
+            <Setter Property="Foreground" Value="#F7F7FF" />
         </Style>
         <Style TargetType="{x:Type TextBlock}" x:Key="progName" >
             <Setter Property="FontSize" Value="14" />
             <Setter Property="FontFamily" Value="Segoe UI Symbol" />
             <Setter Property="FontWeight" Value="SemiBold" />
-            <Setter Property="Foreground" Value="#FF2F2933" />
+            <Setter Property="Foreground" Value="#2F2933" />
         </Style>
         <Style TargetType="{x:Type TextBox}" x:Key="TextboxStyle" >
             <Setter Property="FontSize" Value="16" />
@@ -35,8 +35,8 @@
             <Setter Property="Padding" Value="2" />
         </Style>
         <Style TargetType="{x:Type Button}" x:Key="ApplyBStyle">
-            <Setter Property="Background" Value="#FFBDD5EA" />
-            <Setter Property="Foreground" Value="#FF3E454C" />
+            <Setter Property="Background" Value="#f1fcfb" />
+            <Setter Property="Foreground" Value="#415572" />
             <Setter Property="FontSize" Value="14" />
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
             <Setter Property="Template">
@@ -50,7 +50,7 @@
 
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FFA4B8C9" />
+                                <Setter Property="Background" Value="#A4B8C9" />
                             </Trigger>
                             <!-- Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="OrangeRed" />
@@ -62,8 +62,8 @@
             </Setter>
         </Style>
         <Style TargetType="{x:Type Button}" x:Key="SaveStyle">
-            <Setter Property="Background" Value="#FF29D9C2" />
-            <Setter Property="Foreground" Value="#FFFCFFFD" />
+            <Setter Property="Background" Value="#29D9C2" />
+            <Setter Property="Foreground" Value="#FCFFFD" />
             <Setter Property="FontSize" Value="18" />
             <Setter Property="FontFamily" Value="Segoe UI Semibold" />
             <Setter Property="Template">
@@ -77,7 +77,7 @@
 
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FF01A2A6" />
+                                <Setter Property="Background" Value="#01A2A6" />
                             </Trigger>
                             <!-- Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="OrangeRed" />
@@ -89,7 +89,7 @@
             </Setter>
         </Style>
         <Style TargetType="{x:Type ToggleButton}" x:Key="PlayConsoleStyle">
-            <Setter Property="Background" Value="#FF29D9C2" />
+            <Setter Property="Background" Value="#29D9C2" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="Template">
                 <Setter.Value>
@@ -102,15 +102,15 @@
             </Setter>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#FF01A2A6" />
+                    <Setter Property="Background" Value="#01A2A6" />
                 </Trigger>
                 <Trigger Property="IsChecked" Value="true">
-                    <Setter Property="Background" Value="#FF01A2A6"/>
+                    <Setter Property="Background" Value="#01A2A6"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
         <Style TargetType="{x:Type Button}" x:Key="BackConsoleStyle">
-            <Setter Property="Background" Value="#FF29D9C2" />
+            <Setter Property="Background" Value="#29D9C2" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="Template">
                 <Setter.Value>
@@ -120,7 +120,7 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FF01A2A6" />
+                                <Setter Property="Background" Value="#01A2A6" />
                             </Trigger>
                             <!-- Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="OrangeRed" />
@@ -132,7 +132,7 @@
             </Setter>
         </Style>
         <Style TargetType="{x:Type Button}" x:Key="ForwConsoleStyle">
-            <Setter Property="Background" Value="#FF29D9C2" />
+            <Setter Property="Background" Value="#29D9C2" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="Template">
                 <Setter.Value>
@@ -142,7 +142,7 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FF01A2A6" />
+                                <Setter Property="Background" Value="#01A2A6" />
                             </Trigger>
                             <!-- Trigger Property="IsPressed" Value="True">
                                         <Setter Property="Background" Value="OrangeRed" />
@@ -154,7 +154,7 @@
             </Setter>
         </Style>
         <Style TargetType="{x:Type Button}" x:Key="StopConsoleStyle">
-            <Setter Property="Background" Value="#FF29D9C2" />
+            <Setter Property="Background" Value="#29D9C2" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="Template">
                 <Setter.Value>
@@ -164,12 +164,34 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FF01A2A6" />
+                                <Setter Property="Background" Value="#01A2A6" />
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+        </Style>
+        <Style TargetType="{x:Type Button}" x:Key="NextPage">
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Height" Value="50" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border Name="BorderNextPage" CornerRadius="25" Background="White" BorderBrush="#415572" BorderThickness="2" >
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="4,-11,0,0" Foreground="#415572" FontFamily="Candara" FontSize="60" FontWeight="Bold" >></TextBlock>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="BorderNextPage" Property="Background" Value="#f1f1ff" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
         </Style>
     </Window.Resources>
 
@@ -180,7 +202,7 @@
 
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" Background="#FFF7F7FF">
+        <Grid Grid.Row="0" Background="#F7F7FF">
             <Label Content="BOOK INFO" Padding="0" />
             <TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" TextWrapping="Wrap" Text="..." VerticalAlignment="Center" Margin="10,16,0,18" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
 
@@ -191,17 +213,17 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="280" />
             </Grid.ColumnDefinitions>
-            
-            <Grid Grid.Column="0" Background="#FFFFADAD" >
+
+            <Grid Grid.Column="0" Background="#FFADAD" >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="100"/>
                 </Grid.RowDefinitions>
-                <Grid Grid.Row="0" Background="#FFF7F7FF">
+                <Grid Grid.Row="0" Background="#F7F7FF">
                     <Label Content="Content" />
                 </Grid>
-                <Grid Grid.Row="1" Background="#FFF7F7FF">
-                    <Border BorderBrush="#FF2F2933" BorderThickness="0 1 0 0" />
+                <Grid Grid.Row="1" Background="#F7F7FF">
+                    <Border BorderBrush="#2F2933" BorderThickness="0 1 0 0" />
                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="95,0,0,0" Style="{StaticResource progName}">
                         EPUB<LineBreak/>
                         FULL-TEXT-<LineBreak/>
@@ -218,7 +240,7 @@
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
-                <Grid Grid.Row="0" Background="White">
+                <Grid Grid.Row="0" Background="Snow" >
                     <Label Content="Content" Margin="0,0,0,0" />
                     <RichTextBox x:Name="richTextBox" HorizontalAlignment="Center" Height="100" Margin="0,50,0,0" VerticalAlignment="Top" Width="Auto" Cursor="Hand">
                         <FlowDocument>
@@ -228,9 +250,21 @@
                         </FlowDocument>
                     </RichTextBox>
 
+                    <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="150,0,0,20" />
+                    <TextBlock Name="PageTeller" Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,36" FontSize="14" Background="White"></TextBlock>
+                    <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,20" >
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                                <SkewTransform AngleY="0" AngleX="0"/>
+                                <RotateTransform Angle="0"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
                 </Grid>
-                <Grid Grid.Row="1" Background="#FF415572" >
-                    <Border BorderBrush="#FF2F2933" BorderThickness="0 1 0 0" />
+                <Grid Grid.Row="1" Background="#415572" >
+                    <Border BorderBrush="#2F2933" BorderThickness="0 1 0 0" />
                     <ToggleButton  x:Name="playpauseB" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,75,0" Style="{StaticResource PlayConsoleStyle}" Click="playpauseB_Click">
                         <DynamicResource ResourceKey="Play"/>
                     </ToggleButton>
@@ -238,28 +272,27 @@
                     <Button x:Name="forwardB" Content="FORWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="75,0,0,0" Style="{StaticResource ForwConsoleStyle}" />
                     <Button x:Name="backwardB" Content="BACKWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,225,0" Style="{StaticResource BackConsoleStyle}" />
                 </Grid>
-                <Grid Grid.Row="2" Background="#FF415572">
+                <Grid Grid.Row="2" Background="#415572">
                     <Slider x:Name="slider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Maximum="3" SmallChange="0.25" TickFrequency="0.25" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="181,16,231,16" Grid.ColumnSpan="2" Background="{x:Null}" BorderBrush="{x:Null}" Value="1" Minimum="0.25"/>
                     <TextBox Text="{Binding ElementName=slider, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" TextAlignment="Center" Width="50" Height="30" Margin="300,10,0,10" Style="{StaticResource TextboxStyle}" Grid.Column="1" VerticalAlignment="Center" />
                 </Grid>
             </Grid>
 
-            <Grid Grid.Column="2" Background="#FF415572" >
-                <Border BorderBrush="#FF2F2933" BorderThickness="1 0 0 0" />
-                <Label x:Name="EditConsole" Content="Edit" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Style="{StaticResource HeadLabelStyle}"/>
-                <StackPanel Margin="10,100,10,10">
-                    <WrapPanel Margin="0,20,0,0">
+            <Grid Grid.Column="2" Background="#415572" >
+                <Border BorderBrush="#2F2933" BorderThickness="1 0 0 0" />
+                <StackPanel Margin="10,10,10,10">
+                    <WrapPanel Margin="0,0,0,0">
                         <StackPanel>
                             <Label Content="คำที่เสนอ" Style="{StaticResource LabelStyleInGrid}" />
                             <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Background="White" SelectionChanged="comboBox_SelectionChanged" >
-                                <ComboBoxItem>Normal Item</ComboBoxItem>
+                                <ComboBoxItem Content="Normal Item"/>
                                 <StackPanel Orientation="Horizontal">
                                     <TextBlock Text="Other: " VerticalAlignment="Center"/>
-                                    <TextBox>Enter text...</TextBox>
+                                    <TextBox Text="Enter text..."/>
                                 </StackPanel>
                             </ComboBox>
                         </StackPanel>
-                        <StackPanel Margin="10,25,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <StackPanel Margin="10,33,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
                             <Button x:Name="Apply1" Content="Apply" Height="30" Width="50" VerticalAlignment="Center" Click="browseLocation_Click" Style="{StaticResource ApplyBStyle}" />
                         </StackPanel>
                     </WrapPanel>
@@ -268,20 +301,20 @@
                             <Label Content="คำอ่าน" Style="{StaticResource LabelStyleInGrid}" />
                             <TextBox x:Name="textBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="-- ใส่คำอ่านที่ต้องการ --" VerticalAlignment="Top" Width="200" Height="30" FontSize="14" Padding="5,2,0,0" TextChanged="textBox_TextChanged" />
                         </StackPanel>
-                        <StackPanel Margin="10,25,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <StackPanel Margin="10,33,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
                             <Button x:Name="Apply2" Content="Apply" Height="30" Width="50" VerticalAlignment="Center" Click="browseLocation_Click" Style="{StaticResource ApplyBStyle}" />
                         </StackPanel>
                     </WrapPanel>
-                    
-                    <Button Content="SAVE" Width="260" Height="40" Margin="0,50,0,0" Style="{StaticResource SaveStyle}" />
+
+                    <Button Content="SAVE" Width="260" Height="40" Margin="0,20,0,0" Style="{StaticResource SaveStyle}" />
                 </StackPanel>
-                
+
                 <Button Content="SAVE BOOK" Width="260" Height="80" Margin="0,10" Style="{StaticResource SaveStyle}" VerticalAlignment="Bottom" />
             </Grid>
 
-            <GridSplitter HorizontalAlignment="Right" VerticalAlignment="Stretch" Grid.Column="0" Width="3" Background="#FF2F2933"/>
+            <GridSplitter HorizontalAlignment="Right" VerticalAlignment="Stretch" Grid.Column="0" Width="3" Background="#2F2933"/>
         </Grid>
-        <GridSplitter ResizeDirection="Rows" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="3" Background="#FF2F2933" />
+        <GridSplitter ResizeDirection="Rows" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="3" Background="#2F2933" />
 
 
 

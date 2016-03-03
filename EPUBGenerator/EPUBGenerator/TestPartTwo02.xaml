@@ -81,16 +81,14 @@
                 <!--================================================
                 HERE 
            ==============================================-->
-                <Grid Grid.Row="0" Background="White">
+                <Grid Grid.Row="0" Background="Snow">
                     <Label Content="Content" Margin="0,0,0,0" />
-                    <RichTextBox x:Name="richTextBox" SelectionBrush="Black" SelectionOpacity="0.5" HorizontalAlignment="Center" Height="Auto" Margin="0,50,0,0" VerticalAlignment="Top" Width="Auto">
+                    <RichTextBox x:Name="richTextBox" SelectionBrush="Black" SelectionOpacity="0.5" HorizontalAlignment="Center" Height="Auto" Margin="0,50,0,0" VerticalAlignment="Top" Width="Auto" TextChanged="richTextBox_TextChanged">
                         <FlowDocument>
                             <Paragraph x:Name="paragraph1">
-                                ทมทมท
-                                dkfskf
                                 <Run x:Name="R01" MouseEnter="R01_MouseEnter" MouseLeave="R01_MouseLeave" Text="RichTextBox" Cursor="Hand"/>
                                 <Run Text="RichTextBox" Background="#FF91F0FF"/>
-                                <Run Text="RichTextBox" Background="#FFD291FF"/>
+                                <Run Text="RichTextBox" Background="#ffD291FF"/>
                             </Paragraph>
                         </FlowDocument>
                     </RichTextBox>
@@ -99,9 +97,21 @@
                 <!--================================================
                 HERE 
            ==============================================-->
+                <Rectangle Fill="Pink" HorizontalAlignment="Left" Height="31" Margin="34,370,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#ff99a7" HorizontalAlignment="Left" Height="31" Margin="65,370,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#FF9333" HorizontalAlignment="Left" Height="31" Margin="65,339,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#ffad65" HorizontalAlignment="Left" Height="31" Margin="34,339,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#e87fff" HorizontalAlignment="Left" Height="31" Margin="65,401,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#f1b1ff" HorizontalAlignment="Left" Height="31" Margin="34,401,0,0" VerticalAlignment="Top" Width="31"/>
 
                 <Grid Grid.Row="1" Background="#FF415572" />
                 <Grid Grid.Row="2" Background="#FF415572" />
+                <Rectangle Fill="#cdeafd" HorizontalAlignment="Left" Height="31" Margin="125,370,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#84ccfa" HorizontalAlignment="Left" Height="31" Margin="156,370,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#fdff7f" HorizontalAlignment="Left" Height="31" Margin="156,401,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#ffffcb" HorizontalAlignment="Left" Height="31" Margin="125,401,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#FFC833" HorizontalAlignment="Left" Height="31" Margin="187,297,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#FFDC7F" HorizontalAlignment="Left" Height="31" Margin="156,297,0,0" VerticalAlignment="Top" Width="31"/>
             </Grid>
 
             <Grid Grid.Column="2" Background="#FF415572" >
