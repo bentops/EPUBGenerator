@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Xceed.Wpf.Toolkit;
 using Path = System.IO.Path;
+using EPUBGenerator.MainLogic;
 
 namespace EPUBGenerator
 {
@@ -25,7 +26,7 @@ namespace EPUBGenerator
 
         public EditWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
             //bookName.Content = GetProjectFileName(projPath);
         }
 

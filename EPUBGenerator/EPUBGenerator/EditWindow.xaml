@@ -22,6 +22,12 @@
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
             <Setter Property="Foreground" Value="#F7F7FF" />
         </Style>
+        <Style TargetType="{x:Type Label}" x:Key="Status" >
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
+            <Setter Property="Foreground" Value="#F7F7FF" />
+            <Setter Property="Margin" Value="-5" />
+        </Style>
         <Style TargetType="{x:Type TextBlock}" x:Key="progName" >
             <Setter Property="FontSize" Value="14" />
             <Setter Property="FontFamily" Value="Segoe UI Symbol" />
@@ -215,7 +221,7 @@
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="200" MaxWidth="400" MinWidth="10" />
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" MinWidth="800" />
                 </Grid.ColumnDefinitions>
 
                 <Grid Grid.Column="0" Background="#FFADAD" >
@@ -264,7 +270,7 @@
                         </RichTextBox>
 
                         <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="150,0,0,20" />
-                        <TextBlock Name="PageTeller" Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,36" FontSize="14" Background="White"></TextBlock>
+                        <TextBlock Name="PageTeller" Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,36" FontSize="14" Background="Snow"></TextBlock>
                         <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,20" >
                             <Button.RenderTransform>
                                 <TransformGroup>
@@ -284,6 +290,10 @@
                         <Button x:Name="stopB" Content="STOP" HorizontalAlignment="Center" Width="50" Margin="444,10,218,0" Style="{StaticResource StopConsoleStyle}" Height="40" VerticalAlignment="Top" Click="stopB_Click" />
                         <Button x:Name="forwardB" Content="FORWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="75,0,0,0" Style="{StaticResource ForwConsoleStyle}" />
                         <Button x:Name="backwardB" Content="BACKWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,225,0" Style="{StaticResource BackConsoleStyle}" />
+                        <!--StackPanel Margin="0,10,30,0" HorizontalAlignment="Right">
+                            <RadioButton x:Name="pa" Content="Play All" Foreground="White" IsChecked="True" HorizontalAlignment="Left" />
+                            <RadioButton x:Name="pText" Content="Play Only Text" Foreground="White" HorizontalAlignment="Left" />
+                        </-->
                     </Grid>
                     <Grid Grid.Row="2" Background="#415572">
                         <Slider x:Name="slider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Maximum="3" SmallChange="0.25" TickFrequency="0.25" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="181,16,231,16" Grid.ColumnSpan="2" Background="{x:Null}" BorderBrush="{x:Null}" Value="1" Minimum="0.25" Cursor="Hand" LargeChange="0.25"/>
@@ -301,22 +311,34 @@
             <Grid Grid.Column="2" Background="#415572" >
                 <Border BorderBrush="#2F2933" BorderThickness="1 0 0 0" />
                 <StackPanel Margin="10,10,10,10">
-                    <WrapPanel Height="20">
-                        <Label Name="status" Content="status" HorizontalAlignment="Right" VerticalAlignment="Top" />
-                    </WrapPanel>
-                    <WrapPanel Margin="0,0,0,0">
-                        <StackPanel>
-                            <Label Content="คำอ่าน" Style="{StaticResource LabelStyleInGrid}" />
-                            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Background="White" SelectionChanged="comboBox_SelectionChanged" IsEditable="True" >
+                    <Label Name="save" Content="saved / unsaved" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" Foreground="red" />
+                    <Label Name="status" Content="status" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" />
+                    <StackPanel Margin="0,30,0,0">
+                        <Label Content="เล่น" Style="{StaticResource LabelStyleInGrid}" />
+                        <WrapPanel>
+                            <RadioButton x:Name="playAll" Content="Play All" Foreground="White" Width="120" IsChecked="True" />
+                            <RadioButton x:Name="playText" Content="Play Only Text" Foreground="White" />
+                        </WrapPanel>
+                    </StackPanel>
+                    <Label Content="คำอ่าน" Margin="0,20,0,0" Style="{StaticResource LabelStyleInGrid}" />
+                            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="260" Height="30" Background="White" SelectionChanged="comboBox_SelectionChanged" IsEditable="True" >
                                 <ComboBoxItem Content="Normal Item"/>
                             </ComboBox>
+                            <WrapPanel Margin="0,10,0,0">
+                        <StackPanel>
+                            <CheckBox x:Name="LockWord" Content="Lock word" Foreground="White" IsChecked="True" />
+                            <StackPanel Margin="0,10,0,0">
+                                <CheckBox x:Name="ExceptLockWord" Content="Apply All, Except Lock Words" Foreground="White" IsChecked="True" />
+                                <RadioButton x:Name="radioButton" Content="Apply Only This Word" Foreground="White" IsChecked="True" />
+                                <RadioButton x:Name="radioButton1" Foreground="White" Content="Apply To Words From Here"/>
+                                <RadioButton x:Name="radioButton2" Foreground="White" Content="Apply To All"/>
+                            </StackPanel>
                         </StackPanel>
-                        <StackPanel Margin="10,33,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
-                            <Button x:Name="Apply1" Content="Apply" Height="30" Width="50" VerticalAlignment="Center" Click="apply_Click" Style="{StaticResource ApplyBStyle}" />
-                        </StackPanel>
+                        <Button x:Name="Apply1" Margin="20,0,0,0" Height="58" VerticalAlignment="Bottom" Click="apply_Click" Style="{StaticResource ApplyBStyle}" Width="65" HorizontalAlignment="Right" Cursor="Hand">
+                            <TextBlock Text="Apply Change" TextWrapping="Wrap" TextAlignment="Center"/>
+                        </Button>
                     </WrapPanel>
-              
-                    <Button Content="SAVE" Width="260" Height="40" Margin="0,20,0,0" Style="{StaticResource SaveStyle}" />
+                    <Button Content="SAVE" Height="40" Margin="0,20,0,0" Style="{StaticResource SaveStyle}" />
                 </StackPanel>
 
                 <Button Content="SAVE BOOK" Width="260" Height="80" Margin="0,10" Style="{StaticResource SaveStyle}" VerticalAlignment="Bottom" />
