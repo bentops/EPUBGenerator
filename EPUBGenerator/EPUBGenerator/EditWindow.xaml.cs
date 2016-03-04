@@ -26,6 +26,7 @@ namespace EPUBGenerator
         public EditWindow()
         {
             InitializeComponent();
+            //bookName.Content = GetProjectFileName(projPath);
         }
 
         public void bookInfo(string projPath)
@@ -38,8 +39,7 @@ namespace EPUBGenerator
             // Get TextBlock reference.
             var block = sender as TextBlock;
             // Set text.
-            block.Text = "Project Name : \t" + GetProjectFileName(projPath) + Environment.NewLine +
-                "Project Location : \t" + projPath;
+            block.Text = "Project Location : \t" + projPath;
         }
 
         private string GetProjectFileName(string projPath)
@@ -58,6 +58,11 @@ namespace EPUBGenerator
         }
 
         private void browseLocation_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void apply_Click(object sender, RoutedEventArgs e)
         {
 
         }
