@@ -97,17 +97,17 @@
                 <!--================================================
                 HERE 
            ==============================================-->
-                <Rectangle Fill="Pink" HorizontalAlignment="Left" Height="31" Margin="34,370,0,0" VerticalAlignment="Top" Width="31"/>
-                <Rectangle Fill="#ff99a7" HorizontalAlignment="Left" Height="31" Margin="65,370,0,0" VerticalAlignment="Top" Width="31"/>
-                <Rectangle Fill="#FF9333" HorizontalAlignment="Left" Height="31" Margin="65,339,0,0" VerticalAlignment="Top" Width="31"/>
-                <Rectangle Fill="#ffad65" HorizontalAlignment="Left" Height="31" Margin="34,339,0,0" VerticalAlignment="Top" Width="31"/>
-                <Rectangle Fill="#e87fff" HorizontalAlignment="Left" Height="31" Margin="65,401,0,0" VerticalAlignment="Top" Width="31"/>
-                <Rectangle Fill="#f1b1ff" HorizontalAlignment="Left" Height="31" Margin="34,401,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="Pink" HorizontalAlignment="Left" Height="31" Margin="31,401,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#ff99a7" HorizontalAlignment="Left" Height="31" Margin="62,401,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#FF9333" HorizontalAlignment="Left" Height="31" Margin="80,246,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#ffad65" HorizontalAlignment="Left" Height="31" Margin="49,246,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#e87fff" HorizontalAlignment="Left" Height="31" Margin="187,235,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#f1b1ff" HorizontalAlignment="Left" Height="31" Margin="156,235,0,0" VerticalAlignment="Top" Width="31"/>
 
                 <Grid Grid.Row="1" Background="#FF415572" />
                 <Grid Grid.Row="2" Background="#FF415572" />
-                <Rectangle Fill="#cdeafd" HorizontalAlignment="Left" Height="31" Margin="125,370,0,0" VerticalAlignment="Top" Width="31"/>
-                <Rectangle Fill="#84ccfa" HorizontalAlignment="Left" Height="31" Margin="156,370,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#cdeafd" HorizontalAlignment="Left" Height="31" Margin="156,266,0,0" VerticalAlignment="Top" Width="31"/>
+                <Rectangle Fill="#84ccfa" HorizontalAlignment="Left" Height="31" Margin="187,266,0,0" VerticalAlignment="Top" Width="31"/>
                 <Rectangle Fill="#fdff7f" HorizontalAlignment="Left" Height="31" Margin="156,401,0,0" VerticalAlignment="Top" Width="31"/>
                 <Rectangle Fill="#ffffcb" HorizontalAlignment="Left" Height="31" Margin="125,401,0,0" VerticalAlignment="Top" Width="31"/>
                 <Rectangle Fill="#FFC833" HorizontalAlignment="Left" Height="31" Margin="187,297,0,0" VerticalAlignment="Top" Width="31"/>

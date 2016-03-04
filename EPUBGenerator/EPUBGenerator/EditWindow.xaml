@@ -284,16 +284,12 @@
                     <WrapPanel Margin="0,0,0,0">
                         <StackPanel>
                             <Label Content="คำที่เสนอ" Style="{StaticResource LabelStyleInGrid}" />
-                            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Background="White" SelectionChanged="comboBox_SelectionChanged" >
+                            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Background="White" SelectionChanged="comboBox_SelectionChanged" IsEditable="True" >
                                 <ComboBoxItem Content="Normal Item"/>
-                                <StackPanel Orientation="Horizontal">
-                                    <TextBlock Text="Other: " VerticalAlignment="Center"/>
-                                    <TextBox Text="Enter text..."/>
-                                </StackPanel>
                             </ComboBox>
                         </StackPanel>
                         <StackPanel Margin="10,33,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
-                            <Button x:Name="Apply1" Content="Apply" Height="30" Width="50" VerticalAlignment="Center" Click="browseLocation_Click" Style="{StaticResource ApplyBStyle}" />
+                            <Button x:Name="Apply1" Content="Apply" Height="30" Width="50" VerticalAlignment="Center" Click="apply_Click" Style="{StaticResource ApplyBStyle}" />
                         </StackPanel>
                     </WrapPanel>
                     <WrapPanel Margin="0,0,0,0">
