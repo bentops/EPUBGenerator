@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Xceed.Wpf.Toolkit;
 using Path = System.IO.Path;
+using EPUBGenerator.MainLogic;
 
 namespace EPUBGenerator
 {
@@ -25,7 +26,8 @@ namespace EPUBGenerator
 
         public EditWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            //bookName.Content = GetProjectFileName(projPath);
         }
 
         public void bookInfo(string projPath)
@@ -38,8 +40,7 @@ namespace EPUBGenerator
             // Get TextBlock reference.
             var block = sender as TextBlock;
             // Set text.
-            block.Text = "Project Name : \t" + GetProjectFileName(projPath) + Environment.NewLine +
-                "Project Location : \t" + projPath;
+            block.Text = "Project Location : \t" + projPath;
         }
 
         private string GetProjectFileName(string projPath)
@@ -58,6 +59,11 @@ namespace EPUBGenerator
         }
 
         private void browseLocation_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void apply_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -88,5 +94,23 @@ namespace EPUBGenerator
                 playpauseB.IsChecked = false;
             }
         }
+
+
+        //private void apply_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Console.WriteLine(comboBox.Text);
+        //}
+
+        //private void browseLocation_Click(object sender, RoutedEventArgs e)
+        //{
+        //    var textBox = (comboBox.Template.FindName("PART_EditableTextBox", comboBox) as TextBox);
+        //    if (textBox != null)
+        //    {
+        //        textBox.SelectAll();
+        //        comboBox.Focus();
+        //        e.Handled = true;
+        //    }
+
+        //}
     }
 }

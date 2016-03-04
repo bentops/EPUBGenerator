@@ -22,6 +22,12 @@
             <Setter Property="FontFamily" Value="Segoe UI Semilight" />
             <Setter Property="Foreground" Value="#F7F7FF" />
         </Style>
+        <Style TargetType="{x:Type Label}" x:Key="Status" >
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
+            <Setter Property="Foreground" Value="#F7F7FF" />
+            <Setter Property="Margin" Value="-5" />
+        </Style>
         <Style TargetType="{x:Type TextBlock}" x:Key="progName" >
             <Setter Property="FontSize" Value="14" />
             <Setter Property="FontFamily" Value="Segoe UI Symbol" />
@@ -196,125 +202,155 @@
     </Window.Resources>
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="80" MaxHeight="200" />
-            <RowDefinition Height="*" />
 
-        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="280"/>
+        </Grid.ColumnDefinitions>
 
-        <Grid Grid.Row="0" Background="#F7F7FF">
-            <Label Content="BOOK INFO" Padding="0" />
-            <TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" TextWrapping="Wrap" Text="..." VerticalAlignment="Center" Margin="10,16,0,18" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" MaxHeight="200" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
 
-        </Grid>
-        <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="200" MaxWidth="400" MinWidth="10" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="280" />
-            </Grid.ColumnDefinitions>
+            <Grid Grid.Row="0" Background="#F7F7FF">
+                <Label Name="bookName"  Content="BOOK NAME" Margin="10,3,0,0" Height="Auto" VerticalAlignment="Top" />
+                <TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" TextWrapping="Wrap" Text="..." VerticalAlignment="Bottom" Margin="15,18,0,5" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" MaxWidth="400" MinWidth="10" />
+                    <ColumnDefinition Width="*" MinWidth="600" />
+                </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="0" Background="#FFADAD" >
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="100"/>
-                </Grid.RowDefinitions>
-                <Grid Grid.Row="0" Background="#F7F7FF">
-                    <Label Content="Content" />
-                </Grid>
-                <Grid Grid.Row="1" Background="#F7F7FF">
-                    <Border BorderBrush="#2F2933" BorderThickness="0 1 0 0" />
-                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="95,0,0,0" Style="{StaticResource progName}">
+                <Grid Grid.Column="0" Background="#FFADAD" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="100"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Background="#F7F7FF">
+                        <Label >
+                            <TreeView x:Name="treeView" Height="100" Width="100">
+                                <TreeViewItem Header="USA">
+                                    <TreeViewItem Header="LA"></TreeViewItem>
+                                    <TreeViewItem Header="NY">
+                                        <TreeViewItem Header=",,,"></TreeViewItem>
+                                    </TreeViewItem>
+                                    </TreeViewItem>
+                            </TreeView>
+                        </Label>
+                    </Grid>
+                    <Grid Grid.Row="1" Background="#F7F7FF">
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="95,0,0,0" Style="{StaticResource progName}">
                         EPUB<LineBreak/>
                         FULL-TEXT-<LineBreak/>
                         AUDIO BOOK<LineBreak/> 
                         GENERATOR
-                    </TextBlock>
-                    <Image x:Name="logo" HorizontalAlignment="Left" Height="80" VerticalAlignment="Center" Width="80" Margin="10,0,0,0" Source="Resources/logoMiniR.png"/>
+                        </TextBlock>
+                        <Image x:Name="logo" HorizontalAlignment="Left" Height="80" VerticalAlignment="Center" Width="80" Margin="10,0,0,0" Source="Resources/logoMiniR.png"/>
+                    </Grid>
                 </Grid>
-            </Grid>
 
-            <Grid Grid.Column="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="50"/>
-                </Grid.RowDefinitions>
-                <Grid Grid.Row="0" Background="Snow" >
-                    <Label Content="Content" Margin="0,0,0,0" />
-                    <RichTextBox x:Name="richTextBox" HorizontalAlignment="Center" Height="100" Margin="0,50,0,0" VerticalAlignment="Top" Width="Auto" Cursor="Hand">
-                        <FlowDocument>
-                            <Paragraph>
-                                <Run Text="RichTextBox"/>
-                            </Paragraph>
-                        </FlowDocument>
-                    </RichTextBox>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Background="Snow" >
+                        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Center" Height="auto" Padding="10" VerticalAlignment="Top" Width="Auto" Background="Transparent" Cursor="Hand" FontSize="20" VerticalScrollBarVisibility="Auto">
+                            <FlowDocument>
+                                <Paragraph>
+                                    <Run Text="RichTextBox"/>
+                                </Paragraph>
+                                <Paragraph>
+                                    <Run Text="RichTextBox"/>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
 
-                    <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="150,0,0,20" />
-                    <TextBlock Name="PageTeller" Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,36" FontSize="14" Background="White"></TextBlock>
-                    <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,20" >
-                        <Button.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform ScaleY="1" ScaleX="-1"/>
-                                <SkewTransform AngleY="0" AngleX="0"/>
-                                <RotateTransform Angle="0"/>
-                                <TranslateTransform/>
-                            </TransformGroup>
-                        </Button.RenderTransform>
-                    </Button>
+                    </Grid>
+
+                    <Grid Grid.Row="1" Background="Snow" >
+                        <Border BorderThickness="0" />
+                        <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="150,0,0,15" />
+                        <TextBlock Name="PageTeller" Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30" FontSize="14" Background="Snow"></TextBlock>
+                        <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,15" >
+                            <Button.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                                    <SkewTransform AngleY="0" AngleX="0"/>
+                                    <RotateTransform Angle="0"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Button.RenderTransform>
+                        </Button>
+                    </Grid>
+                    
+                    <Grid Grid.Row="2" Background="#415572" >
+                        <Border BorderBrush="#2F2933" BorderThickness="0 1 0 0" />
+                        <ToggleButton  x:Name="playpauseB" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,75,0" Style="{StaticResource PlayConsoleStyle}" Click="playpauseB_Click" Cursor="Hand">
+                            <DynamicResource ResourceKey="Play"/>
+                        </ToggleButton>
+                        <Button x:Name="stopB" Content="STOP" HorizontalAlignment="Center" Width="50" Margin="444,10,218,0" Style="{StaticResource StopConsoleStyle}" Height="40" VerticalAlignment="Top" Click="stopB_Click" Cursor="Hand" />
+                        <Button x:Name="forwardB" Content="FORWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="75,0,0,0" Style="{StaticResource ForwConsoleStyle}" Cursor="Hand" />
+                        <Button x:Name="backwardB" Content="BACKWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,225,0" Style="{StaticResource BackConsoleStyle}" Cursor="Hand" />
+                        <!--StackPanel Margin="0,10,30,0" HorizontalAlignment="Right">
+                            <RadioButton x:Name="pa" Content="Play All" Foreground="White" IsChecked="True" HorizontalAlignment="Left" />
+                            <RadioButton x:Name="pText" Content="Play Only Text" Foreground="White" HorizontalAlignment="Left" />
+                        </-->
+                    </Grid>
+                    <Grid Grid.Row="3" Background="#415572">
+                        <Slider x:Name="slider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Maximum="3" SmallChange="0.25" TickFrequency="0.25" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="181,16,231,16" Grid.ColumnSpan="2" Background="{x:Null}" BorderBrush="{x:Null}" Value="1" Minimum="0.25" Cursor="Hand" LargeChange="0.25"/>
+                        <TextBox Text="{Binding ElementName=slider, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" TextAlignment="Center" Width="50" Height="30" Margin="300,10,0,10" Style="{StaticResource TextboxStyle}" Grid.Column="1" VerticalAlignment="Center" />
+                    </Grid>
                 </Grid>
-                <Grid Grid.Row="1" Background="#415572" >
-                    <Border BorderBrush="#2F2933" BorderThickness="0 1 0 0" />
-                    <ToggleButton  x:Name="playpauseB" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,75,0" Style="{StaticResource PlayConsoleStyle}" Click="playpauseB_Click">
-                        <DynamicResource ResourceKey="Play"/>
-                    </ToggleButton>
-                    <Button x:Name="stopB" Content="STOP" HorizontalAlignment="Center" Width="50" Margin="444,10,218,0" Style="{StaticResource StopConsoleStyle}" Height="40" VerticalAlignment="Top" Click="stopB_Click" />
-                    <Button x:Name="forwardB" Content="FORWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="75,0,0,0" Style="{StaticResource ForwConsoleStyle}" />
-                    <Button x:Name="backwardB" Content="BACKWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,225,0" Style="{StaticResource BackConsoleStyle}" />
-                </Grid>
-                <Grid Grid.Row="2" Background="#415572">
-                    <Slider x:Name="slider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Maximum="3" SmallChange="0.25" TickFrequency="0.25" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="181,16,231,16" Grid.ColumnSpan="2" Background="{x:Null}" BorderBrush="{x:Null}" Value="1" Minimum="0.25"/>
-                    <TextBox Text="{Binding ElementName=slider, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" TextAlignment="Center" Width="50" Height="30" Margin="300,10,0,10" Style="{StaticResource TextboxStyle}" Grid.Column="1" VerticalAlignment="Center" />
-                </Grid>
+
+
+                <GridSplitter HorizontalAlignment="Right" VerticalAlignment="Stretch" Grid.Column="0" Width="3" Background="#2F2933"/>
             </Grid>
+            <GridSplitter ResizeDirection="Rows" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="3" Background="#2F2933" />
+        </Grid>
+        <Grid Grid.Column="1">
 
             <Grid Grid.Column="2" Background="#415572" >
                 <Border BorderBrush="#2F2933" BorderThickness="1 0 0 0" />
                 <StackPanel Margin="10,10,10,10">
-                    <WrapPanel Margin="0,0,0,0">
-                        <StackPanel>
-                            <Label Content="คำที่เสนอ" Style="{StaticResource LabelStyleInGrid}" />
-                            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Background="White" SelectionChanged="comboBox_SelectionChanged" >
+                    <Label Name="save" Content="saved / unsaved" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" Foreground="red" />
+                    <Label Name="status" Content="status" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" />
+                    <StackPanel Margin="0,30,0,0">
+                        <Label Content="เล่น" Style="{StaticResource LabelStyleInGrid}" />
+                        <WrapPanel>
+                            <RadioButton x:Name="playAll" Content="Play All" Foreground="White" Width="120" IsChecked="True" />
+                            <RadioButton x:Name="playText" Content="Play Only Text" Foreground="White" />
+                        </WrapPanel>
+                    </StackPanel>
+                    <Label Content="คำอ่าน" Margin="0,20,0,0" Style="{StaticResource LabelStyleInGrid}" />
+                            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="260" Height="30" Background="White" SelectionChanged="comboBox_SelectionChanged" IsEditable="True" >
                                 <ComboBoxItem Content="Normal Item"/>
-                                <StackPanel Orientation="Horizontal">
-                                    <TextBlock Text="Other: " VerticalAlignment="Center"/>
-                                    <TextBox Text="Enter text..."/>
-                                </StackPanel>
                             </ComboBox>
-                        </StackPanel>
-                        <StackPanel Margin="10,33,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
-                            <Button x:Name="Apply1" Content="Apply" Height="30" Width="50" VerticalAlignment="Center" Click="browseLocation_Click" Style="{StaticResource ApplyBStyle}" />
-                        </StackPanel>
-                    </WrapPanel>
-                    <WrapPanel Margin="0,0,0,0">
+                            <WrapPanel Margin="0,10,0,0">
                         <StackPanel>
-                            <Label Content="คำอ่าน" Style="{StaticResource LabelStyleInGrid}" />
-                            <TextBox x:Name="textBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="-- ใส่คำอ่านที่ต้องการ --" VerticalAlignment="Top" Width="200" Height="30" FontSize="14" Padding="5,2,0,0" TextChanged="textBox_TextChanged" />
+                            <CheckBox x:Name="LockWord" Content="Lock word" Foreground="White" IsChecked="True" />
+                            <StackPanel Margin="0,10,0,0">
+                                <CheckBox x:Name="ExceptLockWord" Content="Apply All, Except Lock Words" Foreground="White" IsChecked="True" />
+                                <RadioButton x:Name="radioButton" Content="Apply Only This Word" Foreground="White" IsChecked="True" />
+                                <RadioButton x:Name="radioButton1" Foreground="White" Content="Apply To Words From Here"/>
+                                <RadioButton x:Name="radioButton2" Foreground="White" Content="Apply To All"/>
+                            </StackPanel>
                         </StackPanel>
-                        <StackPanel Margin="10,33,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
-                            <Button x:Name="Apply2" Content="Apply" Height="30" Width="50" VerticalAlignment="Center" Click="browseLocation_Click" Style="{StaticResource ApplyBStyle}" />
-                        </StackPanel>
+                        <Button x:Name="Apply1" Margin="20,0,0,0" Height="58" VerticalAlignment="Bottom" Click="apply_Click" Style="{StaticResource ApplyBStyle}" Width="65" HorizontalAlignment="Right" Cursor="Hand">
+                            <TextBlock Text="Apply Change" TextWrapping="Wrap" TextAlignment="Center"/>
+                        </Button>
                     </WrapPanel>
-
-                    <Button Content="SAVE" Width="260" Height="40" Margin="0,20,0,0" Style="{StaticResource SaveStyle}" />
+                    <Button Content="SAVE" Height="40" Margin="0,20,0,0" Style="{StaticResource SaveStyle}" Cursor="Hand" />
                 </StackPanel>
 
-                <Button Content="SAVE BOOK" Width="260" Height="80" Margin="0,10" Style="{StaticResource SaveStyle}" VerticalAlignment="Bottom" />
+                <Button Content="SAVE BOOK" Width="260" Height="80" Margin="0,10" Style="{StaticResource SaveStyle}" VerticalAlignment="Bottom" Cursor="Hand"/>
             </Grid>
-
-            <GridSplitter HorizontalAlignment="Right" VerticalAlignment="Stretch" Grid.Column="0" Width="3" Background="#2F2933"/>
         </Grid>
-        <GridSplitter ResizeDirection="Rows" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="3" Background="#2F2933" />
 
 
 

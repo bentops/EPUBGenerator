@@ -41,7 +41,7 @@ namespace EPUBGenerator.MainLogic
         }
         #endregion
 
-        private bool Saved { get; set; }
+        public bool Saved { get; private set; }
 
 
         public String ProjectDirectory { get; private set; }
