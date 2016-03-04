@@ -94,5 +94,23 @@ namespace EPUBGenerator
                 playpauseB.IsChecked = false;
             }
         }
+
+
+        //private void apply_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Console.WriteLine(comboBox.Text);
+        //}
+
+        //private void browseLocation_Click(object sender, RoutedEventArgs e)
+        //{
+        //    var textBox = (comboBox.Template.FindName("PART_EditableTextBox", comboBox) as TextBox);
+        //    if (textBox != null)
+        //    {
+        //        textBox.SelectAll();
+        //        comboBox.Focus();
+        //        e.Handled = true;
+        //    }
+
+        //}
     }
 }
