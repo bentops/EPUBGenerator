@@ -105,7 +105,6 @@ namespace EPUBGenerator.MainLogic
             if (Saved) return;
 
             Console.WriteLine("Total Content Pages to Save: " + Contents.Count);
-
             foreach (Content content in Contents)
             {
                 content.RunSentenceID();
@@ -118,6 +117,9 @@ namespace EPUBGenerator.MainLogic
                     streamWriter.Close();
                 }
             }
+
+            XElement root = new XElement("Project");
+            //root.Add(new XAttribute("name", ));
 
             Saved = true;
         }

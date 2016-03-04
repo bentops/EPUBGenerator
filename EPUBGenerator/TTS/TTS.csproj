@@ -91,7 +91,6 @@
     <Compile Include="CSynthesizer.cs" />
     <Compile Include="Synthesizers\SAPI.cs" />
     <Compile Include="Synthesizers\SynthesizerAlpha1.cs" />
-    <Compile Include="SynthesizerBlock.cs" />
     <Compile Include="Synthesizers\SynthesizerEngine.cs" />
   </ItemGroup>
   <ItemGroup />

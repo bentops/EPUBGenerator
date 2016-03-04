@@ -65,12 +65,12 @@ namespace EPUBGenerator.Pages
             System.Windows.Forms.Application.Restart();
             System.Windows.Application.Current.Shutdown();
         }
-
-
+        
         private void exportbutton_Click(object sender, RoutedEventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.InitialDirectory = Project.Instance.ProjectDirectory;
+            saveFileDialog.Filter = "EPUB files (*.epub)|*.epub";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 //INSERT Select .EPUB file location here//
