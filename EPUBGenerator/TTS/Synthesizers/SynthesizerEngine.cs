@@ -23,11 +23,11 @@ namespace TTS.Synthesizers
         {
             string[] arguments = new string[]
             {
-                "-m " + "\"" + modelPath + ".htsvoice" + "\"",                      // model
-                "-r " + speed,                                                      // speed
-                "-ow " + "\"" + Path.Combine(audioPath, oname + ".wav") + "\"",     // outWav
-                "-od " + "\"" + Path.Combine(tempPath, oname + ".dur") + "\"",      // outDur
-                 "\"" + fname + "\""
+                "-m " + Quotation(modelPath + ".htsvoice"),                     // model
+                "-r " + speed,                                                  // speed
+                "-ow " + Quotation(Path.Combine(audioPath, oname + ".wav")),    // outWav
+                "-od " + Quotation(Path.Combine(tempPath, oname + ".dur")),     // outDur
+                Quotation(fname)                                                // labFile
             };
             Process process = new Process();
             Process.Start(new ProcessStartInfo("hts_engine1.10-org.exe")
@@ -38,6 +38,11 @@ namespace TTS.Synthesizers
                 UseShellExecute = false,
                 CreateNoWindow = true
             }).WaitForExit();
+        }
+
+        private static string Quotation(string path)
+        {
+            return "\"" + path + "\"";
         }
 
         public void Dispose()

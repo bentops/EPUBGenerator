@@ -55,7 +55,7 @@ namespace TTS
             }
         }
 
-        public CSynthesizer(string tempPath)
+        public CSynthesizer()
         {
             // {1 - 5} -> {1 - 2}
             Map = new Dictionary<int, int>();
@@ -72,7 +72,7 @@ namespace TTS
 
             Speed = 1.0;
             Frequency = 16000;
-            TempPath = tempPath;
+            TempPath = Path.GetTempPath();
         }
         
         public void Synthesize(string input, int type, string id, string outputPath)

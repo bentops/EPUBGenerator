@@ -25,7 +25,6 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class CreateBook3 : UserControl
     {
-        private BackgroundWorker bw;
         private String savePath;
         private string projName;
         private string projPath;
@@ -38,7 +37,6 @@ namespace EPUBGenerator.Pages
         public CreateBook3()
         {
             InitializeComponent();
-            
         }
 
         public void bookInfo(string projName, string projPath, string epubPath)
@@ -72,7 +70,7 @@ namespace EPUBGenerator.Pages
         private void exportbutton_Click(object sender, RoutedEventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.InitialDirectory = Project.CurrentProject.ProjectDirectory;
+            saveFileDialog.InitialDirectory = Project.Instance.ProjectDirectory;
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 //INSERT Select .EPUB file location here//
@@ -86,13 +84,12 @@ namespace EPUBGenerator.Pages
                 exportPopup.IsOpen = true;
 
 
-                bw = new BackgroundWorker();
+                BackgroundWorker bw = new BackgroundWorker();
                 bw.WorkerReportsProgress = true;
+                bw.WorkerSupportsCancellation = true;
                 bw.DoWork += bw_DoWork;
                 bw.ProgressChanged += bw_ProgressChanged;
                 bw.RunWorkerCompleted += bw_RunWorkerCompleted;
-
-                bw.WorkerSupportsCancellation = true;
                 bw.RunWorkerAsync();
             }
         }
@@ -112,7 +109,7 @@ namespace EPUBGenerator.Pages
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
-            bw.CancelAsync();
+            Project.ProgressUpdater.Cancel();
         }
 
         private void okButton_Click(object sender, RoutedEventArgs e)
@@ -124,8 +121,8 @@ namespace EPUBGenerator.Pages
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            //TestClass.reCreate(epubPath, projPath);
-            Project.CurrentProject.ExportEpub(savePath, bw, e);
+            Project.ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
+            Project.Export(savePath);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -135,6 +132,7 @@ namespace EPUBGenerator.Pages
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
+            BackgroundWorker bw = sender as BackgroundWorker;
             bw.Dispose();
             if (e.Cancelled)
             {
