@@ -7,8 +7,6 @@ namespace EPUBGenerator.MainLogic
 {
     class Content
     {
-        private int count;
-
         public String CID { get { return "C" + Order; } }
 
         public String NavID { get; private set; }
@@ -17,12 +15,23 @@ namespace EPUBGenerator.MainLogic
         public String Source { get; private set; }
         public String Title { get; private set; }
         public int Order { get; private set; }
+
         public List<Block> Blocks { get; private set; }
+        public int SentenceCount
+        {
+            get
+            {
+                int count = 0;
+                foreach (Block block in Blocks)
+                    count += block.Sentences.Count;
+                return count;
+            }
+        }
 
         #region ----------- NEW PROJECT ------------
 
         #region Constructor
-        public Content(NavPoint Nav) 
+        public Content(NavPoint Nav)
         {
             NavID = Nav.ID;
             Root = XElement.Parse(Nav.ContentData.Content);
@@ -30,35 +39,35 @@ namespace EPUBGenerator.MainLogic
             Source = Nav.Source;
             Title = Nav.Title;
             Order = Nav.Order;
-            GetBlocks();
+
+            Blocks = new List<Block>();
+            GetBlocks(Root.Element(Xns + "body"));
         }
         #endregion
 
         #region Private Methods
-        private void GetBlocks()
+        private void GetBlocks(XElement curNode)
         {
-            count = 0;
-            Blocks = new List<Block>();
-            GetBlocks(Root.Element(Xns + "body"));
-        }
-
-        private void GetBlocks(XElement CurNode)
-        {
-            foreach (XNode ChildNode in CurNode.Nodes())
+            foreach (XNode childNode in curNode.Nodes())
             {
-                if (ChildNode is XText)
+                if (childNode is XText)
                 {
-                    XText TextNode = ChildNode as XText;
-                    Block block = new Block(count++, TextNode.Value, this);
-                    TextNode.Value = block.BID;
+                    XText textNode = childNode as XText;
+                    int id = Blocks.Count;
+                    String text = textNode.Value.Trim();
+                    Block block = new Block(id, text, this);
                     Blocks.Add(block);
+                    textNode.Value = block.B_ID;
                 }
-                else if (ChildNode is XElement)
-                    GetBlocks(ChildNode as XElement);
+                else if (childNode is XElement)
+                    GetBlocks(childNode as XElement);
             }
         }
         #endregion
 
+        #endregion
+
+        #region ----------- SAVE PROJECT ------------
         public XElement ToXml()
         {
             XElement xContent = new XElement("Content");
@@ -69,6 +78,15 @@ namespace EPUBGenerator.MainLogic
             foreach (Block block in Blocks)
                 xContent.Add(block.ToXml());
             return xContent;
+        }
+        public void RunSentenceID()
+        {
+            int count = 0;
+            foreach (Block block in Blocks)
+            {
+                Sentence.RunID(block.Sentences, count);
+                count += block.Sentences.Count;
+            }
         }
         #endregion
 

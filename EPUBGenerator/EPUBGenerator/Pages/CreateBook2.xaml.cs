@@ -24,7 +24,6 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class CreateBook2 : UserControl
     {
-        private BackgroundWorker bw;
         private string epubPath;
         private string projPath;
         private string projName;
@@ -43,30 +42,20 @@ namespace EPUBGenerator.Pages
             infoprojName.Text = projName;
             infoprojLocation.Text = projPath;
             infoinputEPUB.Text = epubPath;
-            
-            bw = new BackgroundWorker();
+
+            BackgroundWorker bw = new BackgroundWorker();
             bw.WorkerReportsProgress = true;
+            bw.WorkerSupportsCancellation = true;
             bw.DoWork += bw_DoWork;
             bw.ProgressChanged += bw_ProgressChanged;
             bw.RunWorkerCompleted += bw_RunWorkerCompleted;
-
-            bw.WorkerSupportsCancellation = true;
             bw.RunWorkerAsync();
         }
 
-/*        private void ProjLo_Loaded(object sender, RoutedEventArgs e)
-        {
-            // Get TextBlock reference.
-            var block = sender as TextBlock;
-            // Set text.
-            block.Text = projPath;
-        }
-*/
-
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            //TestClass.reCreate(epubPath, projPath);
-            Project.CurrentProject = new Project(epubPath, projPath, bw, e);
+            Project.ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
+            Project.Create(epubPath, projPath);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -76,6 +65,7 @@ namespace EPUBGenerator.Pages
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
+            BackgroundWorker bw = sender as BackgroundWorker;
             bw.Dispose();
             if (e.Cancelled)
             {
@@ -99,7 +89,7 @@ namespace EPUBGenerator.Pages
         
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
-            bw.CancelAsync();
+            Project.ProgressUpdater.Cancel();
         }
         
         public void editWaitlabel(String txt)

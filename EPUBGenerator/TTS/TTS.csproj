@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NAudio">
+      <HintPath>..\EPUBGenerator\bin\Debug\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WindowsMediaFormat">
+      <HintPath>..\EPUBGenerator\bin\Debug\NAudio.WindowsMediaFormat.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Speech" />
@@ -80,6 +86,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="ISynthesizer.cs" />
+    <Compile Include="Synthesizer.cs" />
     <Compile Include="Synthesizers\Phone2Lab.cs" />
     <Compile Include="CSynthesizer.cs" />
     <Compile Include="Synthesizers\SAPI.cs" />

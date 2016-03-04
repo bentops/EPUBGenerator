@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -10,64 +11,56 @@ namespace EPUBGenerator.MainLogic
     class Block
     {
         public int ID { get; set; }
-        public String BID { get { return "B" + ID; } }
+        public String B_ID { get { return "#B-" + ID; } }
+
         public Content Content { get; private set; }
-        public List<Sentence> Sentences { get; private set; }
+        public String Text { get; private set; }
+        public int Length { get { return Text.Length; } }
+        public LinkedList<Sentence> Sentences { get; private set; }
 
-        public String Text
-        {
-            get
-            {
-                if (Sentences == null)
-                    return null;
-                String text = "";
-                foreach (Sentence s in Sentences)
-                    text += s.Text + " ";
-                return Text;
-            }
-        }
-
-
-        #region ----------- NEW PROJECT ------------
         public Block(int id, String text, Content content)
         {
             ID = id;
-            int count = 0;
-            Sentences = new List<Sentence>();
-            foreach (KeyValuePair<String, Int32> sentence in Tools.Split(text))
-            {
-                if (String.IsNullOrWhiteSpace(sentence.Key)) continue;
-                Sentences.Add(new Sentence(count++, sentence.Value, sentence.Key, this));
-            }
+            Text = text;
             Content = content;
+
+            Sentences = new LinkedList<Sentence>();
+            foreach (int startIdx in Split(Text))
+                Sentence.Append(Sentences, new Sentence(startIdx, this));
         }
 
         public XElement ToXml()
         {
-            XElement xBlock = new XElement("Block", new XAttribute("id", BID));
+            XElement xBlock = new XElement("Block");
+            xBlock.Add(new XAttribute("id", B_ID));
+            xBlock.Add(new XElement("Text", Text));
+            XElement xSentences = new XElement("Sentences");
             foreach (Sentence sentence in Sentences)
-                xBlock.Add(sentence.ToXml());
+                xSentences.Add(sentence.ToXml());
+            xBlock.Add(xSentences);
             return xBlock;
         }
-        #endregion
 
-        #region ----------- OPEN PROJECT ------------
-
-        // check id
-        public Block(XElement xBlock, Content content)
+        private static List<int> Split(String text)
         {
-            Sentences = new List<Sentence>();
-            foreach (XElement element in xBlock.Descendants())
-            {
-                switch(element.Name.ToString())
-                {
-                    case "Sentence": Sentences.Add(new Sentence(element, this)); break;
-                    default: break;
-                }
-            }
-            Content = content;
-        }
-        #endregion
+            Regex regex = new Regex(@"\s");
+            String[] sList = regex.Split(text);
 
+            List<int> indexList = new List<int>();
+            int startIndex = 0;
+            indexList.Add(0);
+            foreach (String cutText in sList)
+            {
+                if (String.IsNullOrWhiteSpace(cutText))
+                    continue;
+                Console.WriteLine(cutText);
+                int index = text.IndexOf(cutText, startIndex);
+                if (index < 0)
+                    throw new Exception("Wrong Index Text: " + cutText + " " + startIndex + " " + text);
+                startIndex = index + cutText.Length;
+                indexList.Add(startIndex);
+            }
+            return indexList;
+        }
     }
 }

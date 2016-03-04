@@ -11,80 +11,83 @@ namespace EPUBGenerator.MainLogic
     class Sentence
     {
         public static int Total;
-        public int ID { get; set; }
-        public String SID { get { return "S" + ID; } }
-        public String BSID { get { return Block.Content.CID + Block.BID + SID; } }
-        public int Type { get; set; }
-        public int Bytes { get; set; }
-        public String Text { get; private set; }
-        public Block Block { get; private set; }
-        public LinkedList<Word> Words { get; private set; }
-        public MemoryStream WaveStream { get; private set; }
 
-        public String Pronunciation
+        private LinkedListNode<Sentence> node { get; set; }
+
+        public int ID { get; private set; }
+        public String SID { get { return "S" + ID.ToString("D6"); } }
+        public Content Content { get { return Block.Content; } }
+        public Block Block { get; private set; }
+        public String OriginalText { get { return Block.Text.Substring(StartIdx, Length); } }
+        public int StartIdx { get; private set; }
+        public int Length { get { return (Next == null ? Block.Length : Next.StartIdx) - StartIdx; } }
+        public Sentence Previous { get { return node.Previous == null ? null : node.Previous.Value; } }
+        public Sentence Next { get { return node.Next == null ? null : node.Next.Value; } }
+        public LinkedList<Word> Words { get; private set; }
+
+        public long Bytes { get; private set; }
+
+        public List<String> FinalTextList
         {
             get
             {
-                String pronun = "";
+                List<String> list = new List<String>();
+                /*
                 foreach (Word word in Words)
-                    pronun += word.Pronunciation;
-                return pronun;
+                {
+                    list.Add(word.Pronunciation);
+                }
+                */
+                return list;
             }
         }
 
-        public String Phoneme
+        public Sentence(int start, Block block)
         {
-            get
-            {
-                String phoneme = "";
-                foreach (Word word in Words)
-                    phoneme += word.Phoneme;
-                if (Type == 2)
-                    return phoneme;
-                return @"sil;7;0|" + phoneme + @"sil;7;0|";
-            }
+            StartIdx = start;
+            Block = block;
+            ID = Project.Instance.GetRandomUniqueID(Content);
         }
 
         #region ----------- NEW PROJECT ------------
-        public Sentence(int id, int type, String text, Block block)
+        public void Synthesize(String outputPath)
         {
-            Total++;
-            ID = id;
-            Type = type;
-            Block = block;
-            SetTextAndWords(text);
-        }
+            Bytes = Project.Synthesizer.Synthesize(OriginalText, outputPath);
+            List<int> tList = Project.Synthesizer.GetTextIndexList();
+            List<long> bList = Project.Synthesizer.GetByteIndexList();
+            if (tList == null)
+                throw new Exception("Null Synthesized Text Index List");
+            if (bList == null)
+                throw new Exception("Null Synthesized Byte Index List");
 
-        public void SetTextAndWords(String text)
-        {
-            Text = text;
-            Words = Tools.GenWordList(this);
+            Words = new LinkedList<Word>();
+            for (int i = 0; i < tList.Count; i++)
+                Word.Append(Words, new Word(tList[i], bList[i], this));
         }
+        #endregion
 
+        #region ----------- SAVE PROJECT ------------
         public XElement ToXml()
         {
             XElement xSentence = new XElement("Sentence");
-            xSentence.Add(new XAttribute("id", SID));
-            xSentence.Add(new XAttribute("type", Type));
+            xSentence.Add(new XAttribute("index", StartIdx));
             xSentence.Add(new XAttribute("bytes", Bytes));
-            xSentence.Add(new XAttribute("begin", Words.First.Value.Begin));
-            xSentence.Add(new XElement("Text", Text));
+            XElement xWords = new XElement("Words");
             foreach (Word word in Words)
-                xSentence.Add(word.ToXml());
+                xWords.Add(word.ToXml());
+            xSentence.Add(xWords);
             return xSentence;
         }
 
-
-        public void Synthesize()
+        public static void RunID(LinkedList<Sentence> Sentences, int StartNumber)
         {
-            Tools.Synthesize(Phoneme, Type, Block.Content.Order + "-" + Block.BID + "-" + SID);
+            foreach (Sentence sentence in Sentences)
+                sentence.ID = StartNumber++;
         }
-
-        // -----------------------------------------------------------
         #endregion
 
-
         #region ----------- OPEN PROJECT ------------
+        /*
         // Need to recheck (@ id)
         public Sentence(XElement xSentence, Block block)
         {
@@ -115,6 +118,19 @@ namespace EPUBGenerator.MainLogic
                 }
             }
             Block = block;
+        }
+        */
+        #endregion
+
+        #region --------- STATIC METHODS ------------
+        public static void Append(LinkedList<Sentence> list, Sentence sentence)
+        {
+            if (list == null)
+                throw new Exception("Sentences list is null, cannot append.");
+            if (list.Last != null && list.Last.Value.StartIdx == sentence.StartIdx)
+                list.RemoveLast();
+            if (sentence.StartIdx < sentence.Block.Length)
+                sentence.node = list.AddLast(sentence);
         }
         #endregion
     }

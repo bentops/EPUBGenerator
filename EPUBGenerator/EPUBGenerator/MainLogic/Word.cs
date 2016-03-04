@@ -12,61 +12,45 @@ namespace EPUBGenerator.MainLogic
     {
         private String pronunciation;
 
-        public int ID { get; set; }
-        public String WID { get { return "W" + ID; } }
+        private int sIdx { get; set; }
+        private LinkedListNode<Word> node { get; set; }
 
-        public LinkedListNode<Word> Node { get; set; }
-        public String Text { get; private set; }
-        public String Phoneme { get; private set; }
-        public int Begin { get; private set; }
-        public int End { get; private set; }
+        public Content Content { get { return Sentence.Content; } }
+        public Block Block { get { return Sentence.Block; } }
         public Sentence Sentence { get; private set; }
-        public MemoryStream WaveStream { get; private set; } 
-        public String Pronunciation
+        public String OriginalText { get { return Block.Text.Substring(StartIdx, Length); } }
+        public int StartIdx { get { return sIdx + Sentence.StartIdx; } }
+        public int Length { get { return (Next == null ? Sentence.Length : Next.sIdx) - sIdx; } }
+        public Word Previous { get { return node.Previous == null ? null : node.Previous.Value; } }
+        public Word Next { get { return node.Next == null ? null : node.Next.Value; } }
+
+        public long Begin { get; private set; }
+        public long End { get { return (Next == null ? Sentence.Bytes : Next.Begin); } }
+
+        public String Pronunciation { get; private set; }
+
+        public Word(int start, long begin, Sentence sentence)
         {
-            get
-            {
-                if (pronunciation == null)
-                    return Text;
-                return pronunciation;
-            }
-            set
-            {
-                pronunciation = value;
-                Phoneme = Tools.GetPhoneme(Pronunciation, Sentence.Type);
-            }
-        }
-
-
-        #region ----------- NEW PROJECT ------------
-
-        public Word(String text, String phoneme, Sentence sentence)
-        {
-            Text = text;
-            Phoneme = phoneme;
+            sIdx = start;
+            Begin = begin;
             Sentence = sentence;
         }
 
+        #region ----------- SAVE PROJECT ------------
         public XElement ToXml()
         {
             XElement xWord = new XElement("Word");
-            //xWord.Add(new XAttribute("id", WID));
-            xWord.Add(new XAttribute("txt", Text));
+            xWord.Add(new XAttribute("start", sIdx));
+            xWord.Add(new XAttribute("begin", Begin));
+            xWord.Add(new XAttribute("text", OriginalText));
             if (pronunciation != null)
                 xWord.Add(new XAttribute("pronun", Pronunciation));
-            xWord.Add(new XAttribute("phon", Phoneme));
-            xWord.Add(new XAttribute("bytes", End - Begin));
             return xWord;
-        }
-        
-        public void SetPosition(int begin, int end)
-        {
-            Begin = begin;
-            End = end;
         }
         #endregion
 
         #region ----------- OPEN PROJECT ------------
+        /*/
         public Word(XElement xWord, Sentence sentence)
         {
             foreach (XAttribute attribute in xWord.Attributes()) 
@@ -85,32 +69,22 @@ namespace EPUBGenerator.MainLogic
             }
             Sentence = sentence;
         }
+        /*/
         #endregion
-        
+
         #region ----------- EDIT PROJECT ------------
-        public void MergeWithNextWord()
-        {
-            LinkedList<Word> Words = Node.List;
-            LinkedListNode<Word> next = Node.Next;
-            if (next == null) return;
-            String newText = Text + next.Value.Text;
-            String newPhoneme = Tools.GetPhoneme(newText, Sentence.Type);
-            Word newWord = new Word(newText, newPhoneme, Sentence);
-            newWord.Node = Words.AddBefore(Node, newWord);
-            Words.Remove(next);
-            Words.Remove(Node);
-        }
 
-        public void SplitAt(int index)
-        {
-            LinkedList<Word> Words = Node.List;
-            String newText = Text.Substring(index);
-            String newPhoneme = Tools.GetPhoneme(newText, Sentence.Type);
-            Word newWord = new Word(newText, newPhoneme, Sentence);
-            newWord.Node = Words.AddAfter(Node, newWord);
+        #endregion
 
-            Text = Text.Substring(0, index);
-            Pronunciation = null;
+        #region ---------- STATIC METHODS -----------
+        public static void Append(LinkedList<Word> list, Word word)
+        {
+            if (list == null)
+                throw new Exception("Words list is null, cannot append.");
+            if (list.Last != null && list.Last.Value.StartIdx == word.StartIdx)
+                list.RemoveLast();
+            if (word.sIdx < word.Sentence.Length)
+                word.node = list.AddLast(word);
         }
         #endregion
     }
