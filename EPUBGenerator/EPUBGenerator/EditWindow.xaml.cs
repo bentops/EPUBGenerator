@@ -95,6 +95,16 @@ namespace EPUBGenerator
             }
         }
 
+        private void saveBook_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void export_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
 
         //private void apply_Click(object sender, RoutedEventArgs e)
         //{
