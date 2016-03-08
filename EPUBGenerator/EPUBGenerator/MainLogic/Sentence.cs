@@ -10,8 +10,6 @@ namespace EPUBGenerator.MainLogic
 {
     class Sentence
     {
-        public static int Total;
-
         private LinkedListNode<Sentence> node { get; set; }
 
         public int ID { get; private set; }
@@ -42,14 +40,15 @@ namespace EPUBGenerator.MainLogic
             }
         }
 
+        #region ----------- NEW PROJECT ------------
         public Sentence(int start, Block block)
         {
             StartIdx = start;
             Block = block;
             ID = Project.Instance.GetRandomUniqueID(Content);
+            AppendTo(Block.Sentences);
         }
 
-        #region ----------- NEW PROJECT ------------
         public void Synthesize(String outputPath)
         {
             Bytes = Project.Synthesizer.Synthesize(OriginalText, outputPath);
@@ -62,7 +61,7 @@ namespace EPUBGenerator.MainLogic
 
             Words = new LinkedList<Word>();
             for (int i = 0; i < tList.Count; i++)
-                Word.Append(Words, new Word(tList[i], bList[i], this));
+                new Word(tList[i], bList[i], this);
         }
         #endregion
 
@@ -70,6 +69,7 @@ namespace EPUBGenerator.MainLogic
         public XElement ToXml()
         {
             XElement xSentence = new XElement("Sentence");
+            xSentence.Add(new XAttribute("id", SID));
             xSentence.Add(new XAttribute("index", StartIdx));
             xSentence.Add(new XAttribute("bytes", Bytes));
             XElement xWords = new XElement("Words");
@@ -87,51 +87,37 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region ----------- OPEN PROJECT ------------
-        /*
-        // Need to recheck (@ id)
         public Sentence(XElement xSentence, Block block)
         {
-            Total++;
+            Block = block;
             foreach (XAttribute attribute in xSentence.Attributes())
             {
                 String value = attribute.Value;
-                switch(attribute.Name.ToString())
+                switch (attribute.Name.ToString())
                 {
                     case "id": ID = int.Parse(value.Substring(1)); break;
-                    case "type": Type = int.Parse(value); break;
-                    //case "begin": Begin = int.Parse(value); break;
-                    //case "end": End = int.Parse(value); break;
-                    default: break;
+                    case "index": StartIdx = int.Parse(value); break;
+                    case "bytes": Bytes = int.Parse(value); break;
                 }
             }
+            AppendTo(Block.Sentences);
             Words = new LinkedList<Word>();
-            foreach (XElement child in xSentence.Descendants())
-            {
-                switch(child.Name.ToString())
-                {
-                    case "Text": Text = child.Value; break;
-                    case "Word":
-                        Word word = new Word(child, this);
-                        word.Node = Words.AddLast(word);
-                        break;
-                    default: break;
-                }
-            }
-            Block = block;
+            foreach (XElement xWord in xSentence.Element("Words").Elements("Word"))
+                new Word(xWord, this);
         }
-        */
         #endregion
 
-        #region --------- STATIC METHODS ------------
-        public static void Append(LinkedList<Sentence> list, Sentence sentence)
+        #region --------- PRIVATE METHODS ------------
+        private void AppendTo(LinkedList<Sentence> list)
         {
             if (list == null)
                 throw new Exception("Sentences list is null, cannot append.");
-            if (list.Last != null && list.Last.Value.StartIdx == sentence.StartIdx)
+            if (list.Last != null && list.Last.Value.StartIdx == StartIdx)
                 list.RemoveLast();
-            if (sentence.StartIdx < sentence.Block.Length)
-                sentence.node = list.AddLast(sentence);
+            if (StartIdx < Block.Length)
+                node = list.AddLast(this);
         }
         #endregion
+
     }
 }

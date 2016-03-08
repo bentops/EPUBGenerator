@@ -106,6 +106,9 @@
     <Compile Include="MainLogic\ProgressUpdater.cs" />
     <Compile Include="MainLogic\Project.cs" />
     <Compile Include="ISwitchable.cs" />
+    <Compile Include="MainLogic\ProjectInfo.cs" />
+    <Compile Include="MainLogic\ProjectProperties.cs" />
+    <Compile Include="MainLogic\RunWord.cs" />
     <Compile Include="MainLogic\Sentence.cs" />
     <Compile Include="MainLogic\Word.cs" />
     <Compile Include="MainWindow.xaml.cs">

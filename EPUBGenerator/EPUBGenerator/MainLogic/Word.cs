@@ -29,12 +29,16 @@ namespace EPUBGenerator.MainLogic
 
         public String Pronunciation { get; private set; }
 
+
+        #region ----------- NEW PROJECT ------------
         public Word(int start, long begin, Sentence sentence)
         {
             sIdx = start;
             Begin = begin;
             Sentence = sentence;
+            AppendTo(Sentence.Words);
         }
+        #endregion
 
         #region ----------- SAVE PROJECT ------------
         public XElement ToXml()
@@ -50,41 +54,36 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region ----------- OPEN PROJECT ------------
-        /*/
         public Word(XElement xWord, Sentence sentence)
         {
-            foreach (XAttribute attribute in xWord.Attributes()) 
+            Sentence = sentence;
+            foreach (XAttribute attribute in xWord.Attributes())
             {
                 String value = attribute.Value;
                 switch (attribute.Name.ToString())
                 {
-                    case "id": break;
-                    case "txt": Text = value; break;
-                    case "pronun": Pronunciation = value; break;
+                    case "start": sIdx = int.Parse(value); break;
                     case "begin": Begin = int.Parse(value); break;
-                    case "end": End = int.Parse(value); break;
-                    default: break;
+                    case "pronun": Pronunciation = value; break;
                 }
-
             }
-            Sentence = sentence;
+            AppendTo(Sentence.Words);
         }
-        /*/
         #endregion
 
         #region ----------- EDIT PROJECT ------------
 
         #endregion
 
-        #region ---------- STATIC METHODS -----------
-        public static void Append(LinkedList<Word> list, Word word)
+        #region ---------- PRIVATE METHODS -----------
+        private void AppendTo(LinkedList<Word> list)
         {
             if (list == null)
                 throw new Exception("Words list is null, cannot append.");
-            if (list.Last != null && list.Last.Value.StartIdx == word.StartIdx)
+            if (list.Last != null && list.Last.Value.StartIdx == StartIdx)
                 list.RemoveLast();
-            if (word.sIdx < word.Sentence.Length)
-                word.node = list.AddLast(word);
+            if (sIdx < Sentence.Length)
+                node = list.AddLast(this);
         }
         #endregion
     }

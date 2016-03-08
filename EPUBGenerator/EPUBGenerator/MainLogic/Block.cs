@@ -10,7 +10,7 @@ namespace EPUBGenerator.MainLogic
 {
     class Block
     {
-        public int ID { get; set; }
+        public int ID { get; private set; }
         public String B_ID { get { return "#B-" + ID; } }
 
         public Content Content { get; private set; }
@@ -18,6 +18,7 @@ namespace EPUBGenerator.MainLogic
         public int Length { get { return Text.Length; } }
         public LinkedList<Sentence> Sentences { get; private set; }
 
+        #region ----------- NEW PROJECT ------------
         public Block(int id, String text, Content content)
         {
             ID = id;
@@ -26,19 +27,7 @@ namespace EPUBGenerator.MainLogic
 
             Sentences = new LinkedList<Sentence>();
             foreach (int startIdx in Split(Text))
-                Sentence.Append(Sentences, new Sentence(startIdx, this));
-        }
-
-        public XElement ToXml()
-        {
-            XElement xBlock = new XElement("Block");
-            xBlock.Add(new XAttribute("id", B_ID));
-            xBlock.Add(new XElement("Text", Text));
-            XElement xSentences = new XElement("Sentences");
-            foreach (Sentence sentence in Sentences)
-                xSentences.Add(sentence.ToXml());
-            xBlock.Add(xSentences);
-            return xBlock;
+                new Sentence(startIdx, this);
         }
 
         private static List<int> Split(String text)
@@ -62,5 +51,32 @@ namespace EPUBGenerator.MainLogic
             }
             return indexList;
         }
+        #endregion
+
+        #region ----------- SAVE PROJECT ------------
+        public XElement ToXml()
+        {
+            XElement xBlock = new XElement("Block");
+            xBlock.Add(new XAttribute("id", B_ID));
+            xBlock.Add(new XElement("Text", Text));
+            XElement xSentences = new XElement("Sentences");
+            foreach (Sentence sentence in Sentences)
+                xSentences.Add(sentence.ToXml());
+            xBlock.Add(xSentences);
+            return xBlock;
+        }
+        #endregion
+
+        #region ----------- OPEN PROJECT ------------
+        public Block(XElement xBlock, Content content)
+        {
+            Content = content;
+            ID = int.Parse(xBlock.Attribute("id").Value.Split('-')[1]);
+            Text = xBlock.Element("Text").Value;
+            Sentences = new LinkedList<Sentence>();
+            foreach (XElement xSentence in xBlock.Element("Sentences").Elements("Sentence"))
+                new Sentence(xSentence, this);
+        }
+        #endregion
     }
 }

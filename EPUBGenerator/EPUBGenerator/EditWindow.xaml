@@ -219,7 +219,7 @@
 
             <Grid Grid.Row="0" Background="#F7F7FF">
                 <Label Name="bookName"  Content="BOOK NAME" Margin="10,3,0,0" Height="Auto" VerticalAlignment="Top" />
-                <TextBlock x:Name="projInfo" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" TextWrapping="Wrap" Text="..." VerticalAlignment="Bottom" Margin="15,18,0,5" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+                <TextBlock x:Name="projInfoTextBlock" Loaded="ProjInfo_Loaded" HorizontalAlignment="Left" TextWrapping="Wrap" Text="..." VerticalAlignment="Bottom" Margin="15,18,0,5" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
             </Grid>
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
@@ -234,13 +234,7 @@
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0" Background="#F7F7FF">
                         <Label >
-                            <TreeView x:Name="treeView" Height="100" Width="100">
-                                <TreeViewItem Header="USA">
-                                    <TreeViewItem Header="LA"></TreeViewItem>
-                                    <TreeViewItem Header="NY">
-                                        <TreeViewItem Header=",,,"></TreeViewItem>
-                                    </TreeViewItem>
-                                    </TreeViewItem>
+                            <TreeView x:Name="treeView" Height="368" Width="190">
                             </TreeView>
                         </Label>
                     </Grid>
@@ -265,12 +259,6 @@
                     <Grid Grid.Row="0" Background="Snow" >
                         <RichTextBox x:Name="richTextBox" HorizontalAlignment="Center" Height="auto" Padding="10" VerticalAlignment="Top" Width="Auto" Background="Transparent" Cursor="Hand" FontSize="20" VerticalScrollBarVisibility="Auto">
                             <FlowDocument>
-                                <Paragraph>
-                                    <Run Text="RichTextBox"/>
-                                </Paragraph>
-                                <Paragraph>
-                                    <Run Text="RichTextBox"/>
-                                </Paragraph>
                             </FlowDocument>
                         </RichTextBox>
 

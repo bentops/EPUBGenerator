@@ -96,8 +96,8 @@ namespace EPUBGenerator.Pages
 
         private void editThisBookbutton_Click(object sender, RoutedEventArgs e)
         {
-            EditWindow editWin = new EditWindow();
-            editWin.bookInfo(projPath);             //!!!!
+            String projFilePath = System.IO.Path.Combine(projPath, projName + ".epubproj");
+            EditWindow editWin = new EditWindow(projFilePath);
             editWin.Show();
             Switcher.pageSwitcher.Close();
         }

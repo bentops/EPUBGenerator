@@ -1,6 +1,7 @@
 ﻿using eBdb.EpubReader;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Xml.Linq;
 
 namespace EPUBGenerator.MainLogic
@@ -29,8 +30,6 @@ namespace EPUBGenerator.MainLogic
         }
 
         #region ----------- NEW PROJECT ------------
-
-        #region Constructor
         public Content(NavPoint Nav)
         {
             NavID = Nav.ID;
@@ -43,9 +42,7 @@ namespace EPUBGenerator.MainLogic
             Blocks = new List<Block>();
             GetBlocks(Root.Element(Xns + "body"));
         }
-        #endregion
 
-        #region Private Methods
         private void GetBlocks(XElement curNode)
         {
             foreach (XNode childNode in curNode.Nodes())
@@ -65,14 +62,11 @@ namespace EPUBGenerator.MainLogic
         }
         #endregion
 
-        #endregion
-
         #region ----------- SAVE PROJECT ------------
         public XElement ToXml()
         {
             XElement xContent = new XElement("Content");
             xContent.Add(new XAttribute("id", NavID));
-            xContent.Add(new XAttribute("src", Source));
             xContent.Add(new XAttribute("title", Title));
             xContent.Add(new XAttribute("order", Order));
             foreach (Block block in Blocks)
@@ -91,6 +85,35 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region ----------- OPEN PROJECT ------------
+        public Content(String contentPath, ProjectInfo projectInfo)
+        {
+            Source = contentPath;
+            using (StreamReader streamReader = new StreamReader(projectInfo.GetContentResource(this)))
+            {
+                Root = XElement.Parse(streamReader.ReadToEnd());
+                Xns = Root.Attribute("xmlns") != null ? Root.Attribute("xmlns").Value : XNamespace.None;
+                streamReader.Close();
+            }
+            using (StreamReader streamReader = new StreamReader(projectInfo.GetContentSave(this)))
+            {
+                XElement xContent = XElement.Parse(streamReader.ReadToEnd());
+                foreach (XAttribute attribute in xContent.Attributes())
+                {
+                    String value = attribute.Value;
+                    switch (attribute.Name.ToString())
+                    {
+                        case "id": NavID = value; break;
+                        case "title": Title = value; break;
+                        case "order": Order = int.Parse(value); break;
+                    }
+                }
+
+                Blocks = new List<Block>();
+                foreach (XElement xBlock in xContent.Elements("Block"))
+                    Blocks.Add(new Block(xBlock, this));
+                streamReader.Close();
+            }
+        }
         #endregion
     }
 }

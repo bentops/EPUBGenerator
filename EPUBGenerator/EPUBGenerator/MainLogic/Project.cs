@@ -367,8 +367,7 @@ namespace EPUBGenerator.MainLogic
             EpubName = "Original_" + Path.GetFileName(epubPath);
             EpubPath = Path.Combine(Dirs["Resources"], EpubName); // Path of the Epub-Copy in this Project
             File.Copy(epubPath, EpubPath);
-
-            Sentence.Total = 0;
+            
             Contents = new List<Content>();
             GetAllContents(EpubReader.TOC);
 

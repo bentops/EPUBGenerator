@@ -40,7 +40,7 @@ namespace EPUBGenerator.Pages
             folderBrowserDialog = new FolderBrowserDialog();
 
             openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "EPUB files (*.epub)|*.epub";
+            openFileDialog.Filter = "EPUB Project files (*.epubproj)|*.epubproj";
 
             updateProjectLocationPath();
             updateNextButton();
@@ -67,8 +67,7 @@ namespace EPUBGenerator.Pages
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
-            EditWindow editWin = new EditWindow();
-            editWin.bookInfo(openFileDialog.FileName);
+            EditWindow editWin = new EditWindow(openFileDialog.FileName);
             editWin.Show();
             Switcher.pageSwitcher.Close();
         }
