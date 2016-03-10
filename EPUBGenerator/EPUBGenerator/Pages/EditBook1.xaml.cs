@@ -67,8 +67,7 @@ namespace EPUBGenerator.Pages
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
-            EditWindow editWin = new EditWindow(openFileDialog.FileName);
-            editWin.Show();
+            new EditWindow(openFileDialog.FileName).Show();
             Switcher.pageSwitcher.Close();
         }
 

@@ -8,16 +8,14 @@ namespace TTS.Synthesizers
 {
     class SAPI : ISynthesizer
     {
-        private SpeechSynthesizer speechSynthesizer;
+        private int speechRate;
         private SpeechAudioFormatInfo speechAudioFormatInfo;
         private string tempPath;
 
         public SAPI()
         {
             int frequency = 16000;
-            speechSynthesizer = new SpeechSynthesizer();
-            speechSynthesizer.Volume = 100;
-
+            speechRate = 0;
             speechAudioFormatInfo = new SpeechAudioFormatInfo(frequency, AudioBitsPerSample.Sixteen, AudioChannel.Mono);
         }
 
@@ -28,7 +26,6 @@ namespace TTS.Synthesizers
 
         public void Dispose()
         {
-            speechSynthesizer.Dispose();
         }
 
         public List<string> GetModel()
@@ -51,7 +48,7 @@ namespace TTS.Synthesizers
 
         public void SetSpeed(double speed)
         {
-            speechSynthesizer.Rate = (int)(4 * speed - 4);
+            speechRate = (int)(4 * speed - 4);
         }
 
         public void SetTemp(string path)
@@ -61,10 +58,15 @@ namespace TTS.Synthesizers
 
         public void Synthesize(string input, string id, string outputPath)
         {
-            string wavPath = Path.Combine(outputPath, id + ".wav");
-            speechSynthesizer.SetOutputToWaveFile(wavPath, speechAudioFormatInfo);
-            speechSynthesizer.Speak(input);
-            Dispose();
+            using (SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer())
+            {
+                string wavPath = Path.Combine(outputPath, id + ".wav");
+                speechSynthesizer.Volume = 100;
+                speechSynthesizer.Rate = speechRate;
+                speechSynthesizer.SetOutputToWaveFile(wavPath, speechAudioFormatInfo);
+                speechSynthesizer.Speak(input);
+            }
+
         }
     }
 }

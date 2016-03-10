@@ -21,7 +21,7 @@ namespace EPUBGenerator.MainLogic
         private static Brush LightPurple = Brush("#F1B1FF");
         private static Brush DarkPurple = Brush("#E87FFF");
 
-
+        public static Brush Transparent = Brush("#00000000");
 
         public static Brush EditedWord = DarkPink;
 
@@ -32,9 +32,9 @@ namespace EPUBGenerator.MainLogic
         public static Brush HoveredWord = LightYellow;
         public static Brush SelectedWord = DarkYellow;
 
-        public static Brush[] CutWord = new Brush[] { LightBlue, DarkBlue };
-        public static Brush[] SplittedWord = new Brush[] { LightOrange, DarkOrange };
-        public static Brush[] MergedWord = new Brush[] { LightPurple, DarkPurple };
+        public static Brush[] CutWords = new Brush[] { LightBlue, DarkBlue };
+        public static Brush[] SplittedWords = new Brush[] { LightOrange, DarkOrange };
+        public static Brush[] MergedWords = new Brush[] { LightPurple, DarkPurple };
 
         private static Brush Brush(String hexValue)
         {
@@ -42,5 +42,11 @@ namespace EPUBGenerator.MainLogic
                 Converter = new BrushConverter();
             return Converter.ConvertFrom(hexValue) as SolidColorBrush;
         }
+
+        public static int MinRandomValue = 900000;
+        public static int MaxRandomValue = 1000000;
+        public static int Digits = 6;
+        public static String NonRandomPattern = "S0*.wav";
+        public static String RandomPattern = "S9*.wav";
     }
 }

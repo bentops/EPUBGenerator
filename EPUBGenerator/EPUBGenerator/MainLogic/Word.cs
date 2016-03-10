@@ -72,6 +72,43 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region ----------- EDIT PROJECT ------------
+        private Word(int start, Word word)
+        {
+            sIdx = start;
+            Sentence = word.Sentence;
+            AddAfter(word.node, Sentence.Words);
+            // Re-Synthesize & Edit Byte Begin-End
+            //
+            //
+            //
+        }
+
+        public Word SplitAt(int index)
+        {
+            return new Word(sIdx + index, this);
+        }
+
+        public void MergeWith(Word nextWord)
+        {
+            if (!Sentence.Equals(nextWord.Sentence))
+                Sentence.MergeWith(nextWord.Sentence);
+            if (!Next.Equals(nextWord))
+                throw new Exception("Two words (to be merged) are not adjacent.");
+
+            Sentence.Words.Remove(nextWord.node);
+            // Re-Synthesize & Edit Byte Begin-End
+            //
+            //
+            //
+        }
+
+        public void MoveTo(Sentence prevSentence)
+        {
+            sIdx = StartIdx - prevSentence.StartIdx;
+            Begin += prevSentence.Bytes;
+            Sentence = prevSentence;
+            AppendTo(Sentence.Words);
+        }
 
         #endregion
 
@@ -84,6 +121,13 @@ namespace EPUBGenerator.MainLogic
                 list.RemoveLast();
             if (sIdx < Sentence.Length)
                 node = list.AddLast(this);
+        }
+
+        private void AddAfter(LinkedListNode<Word> refNode, LinkedList<Word> list)
+        {
+            if (list == null)
+                throw new Exception("Words list is null, cannot append.");
+            node = list.AddAfter(refNode, this);
         }
         #endregion
     }

@@ -14,8 +14,8 @@ namespace TTS
         private CSynthesizer synthesizer;
         private static string silence = @"sil;7;0|";
 
-        private List<int> textIdxList;
-        private List<long> byteIdxList;
+        public List<int> TextIndexList { get; private set; }
+        public List<long> ByteIndexList { get; private set; }
 
         public string TempPath
         {
@@ -40,8 +40,8 @@ namespace TTS
 
             ClearTemp();
 
-            textIdxList = new List<int> { 0 };
-            byteIdxList = new List<long> { 0 };
+            TextIndexList = new List<int> { 0 };
+            ByteIndexList = new List<long> { 0 };
 
             int startIndex = 0;
             long totalBytes = 0;
@@ -83,7 +83,7 @@ namespace TTS
                     if (index < 0)
                         throw new Exception("WRONG TEXT INDEX: " + cutWord + " " + startIndex + " " + inputText);
                     startIndex = index + cutWord.Length;
-                    textIdxList.Add(startIndex);
+                    TextIndexList.Add(startIndex);
                 }
                 if (type != 2)
                 {
@@ -143,7 +143,7 @@ namespace TTS
                                 sIndex = tIndex + 1;
 
                                 if (tIndex == phoneme.Length - 1)
-                                    byteIdxList.Add(totalBytes + GetByteFromDur(line[1]));
+                                    ByteIndexList.Add(totalBytes + GetByteFromDur(line[1]));
                             }
                         }
 
@@ -160,13 +160,13 @@ namespace TTS
                     using (WaveFileReader waveFileReader = new WaveFileReader(wavPath))
                     {
                         totalBytes += waveFileReader.Length;
-                        byteIdxList.Add(totalBytes);
+                        ByteIndexList.Add(totalBytes);
                     }
                 }
                 #endregion
 
-                if (textIdxList.Count != byteIdxList.Count)
-                    throw new Exception("Wrong Index & Byte Calculation: " + textIdxList.Count + ", " + byteIdxList.Count);
+                if (TextIndexList.Count != ByteIndexList.Count)
+                    throw new Exception("Wrong Index & Byte Calculation: " + TextIndexList.Count + ", " + ByteIndexList.Count);
             }
 
             #region -------- Concat WavFile --------
@@ -197,19 +197,12 @@ namespace TTS
             return totalBytes;
         }
 
-        public void Synthesize(List<string> inputList)
+        public void Synthesize(List<List<string>> inputList, string outputPath)
         {
+            foreach (List<string> word in inputList)
+            {
 
-        }
-
-        public List<int> GetTextIndexList()
-        {
-            return textIdxList;
-        }
-
-        public List<long> GetByteIndexList()
-        {
-            return byteIdxList;
+            }
         }
 
         private static long GetByteFromDur(string dur)

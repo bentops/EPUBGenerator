@@ -29,6 +29,10 @@ namespace EPUBGenerator
 
     public partial class EditWindow : Window
     {
+        private LogicalDirection GoForward = LogicalDirection.Forward;
+        private LogicalDirection GoBackward = LogicalDirection.Backward;
+
+
         private TreeViewItem contentsTVI;
         private TreeViewItem imagesTVI;
 
@@ -41,14 +45,26 @@ namespace EPUBGenerator
         private RunWord CurrentRunWord { get; set; }
         private BlockCollection Paragraphs { get { return richTextBox.Document.Blocks; } }
 
+        public EditWindow()
+        {
+            InitializeComponent();
+        }
 
         public EditWindow(String epubProjPath)
         {
             InitializeComponent();
-            this.KeyDown += EditWindow_KeyDown;
+            Initiate(epubProjPath);
+        }
+
+        public void Initiate(String epubProjPath)
+        {
+            this.PreviewKeyDown += EditWindow_KeyDown;
+            richTextBox.IsReadOnly = true;
+            richTextBox.IsReadOnlyCaretVisible = true;
+
             CurrentState = States.Stop;
             ProjectInfo = new ProjectInfo(epubProjPath);
-            
+
             projInfoTextBlock.Text = ProjectName;
             GenerateProjectMenu();
 
@@ -62,51 +78,49 @@ namespace EPUBGenerator
 
         private void EditWindow_KeyDown(object sender, KeyEventArgs e)
         {
-            Key key = e.SystemKey;
+            Key key = e.Key;
             switch (CurrentState)
             {
                 case States.Stop:
-                    Console.WriteLine("STATE STOP");
-                    if (key == Key.LeftAlt || key == Key.RightAlt)
-                        ToEditMode();
+                    if (key == Key.LeftCtrl || key == Key.RightCtrl)
+                    {
+                        foreach (Paragraph paragraph in Paragraphs)
+                            foreach (RunWord run in paragraph.Inlines)
+                                run.ApplyAvailableBrush(ProjectProperties.CutWords);
+                        CurrentState = States.Edit;
+                        richTextBox.Focus();
+                        richTextBox.CaretBrush = null;
+                    }
                     break;
                 case States.Play:
-                    if (key == Key.LeftAlt || key == Key.RightAlt)
+                    if (key == Key.LeftCtrl || key == Key.RightCtrl)
                     {
 
+                        richTextBox.Focus();
+                        richTextBox.CaretBrush = null;
                     }
                     break;
                 case States.Edit:
-                    if (key == Key.LeftAlt || key == Key.RightAlt)
+                    if (key == Key.LeftCtrl || key == Key.RightCtrl)
                     {
                         foreach (Paragraph paragraph in Paragraphs)
                             foreach (RunWord run in paragraph.Inlines)
                                 run.ClearBackground();
                         CurrentState = States.Stop;
+                        
+                        richTextBox.Focus();
+                        richTextBox.CaretBrush = Brushes.Transparent;
                     }
                     break;
             }
         }
-
-        private void ToEditMode()
-        {
-            int count = 0;
-            foreach (Paragraph paragraph in Paragraphs)
-                foreach (RunWord run in paragraph.Inlines)
-                {
-                    run.Background = ProjectProperties.CutWord[count];
-                    count = 1 - count;
-                }
-            CurrentState = States.Edit;
-            Console.WriteLine("TOEDITMODE");
-        }
-
+        
         private void GenerateProjectMenu()
         {
             TreeViewItem projectTVI = new TreeViewItem() { Header = "Project '" + ProjectName + "'", IsExpanded = true };
 
             contentsTVI = new TreeViewItem() { Header = "Contents", IsExpanded = true };
-            foreach (String contentSrc in ProjectInfo.ContentSources)
+            foreach (String contentSrc in ProjectInfo.ContentList.Values)
             {
                 String contentName = Path.GetFileNameWithoutExtension(contentSrc);
                 TreeViewItem contentTVI = new TreeViewItem() { Header = contentName, Tag = contentSrc };
@@ -131,6 +145,7 @@ namespace EPUBGenerator
                     Paragraphs.Remove(par);
             }
 
+            CurrentState = States.Stop;
 
             TreeViewItem contentTVI = sender as TreeViewItem;
             String contentPath = contentTVI.Tag as String;
@@ -148,6 +163,7 @@ namespace EPUBGenerator
                         run.MouseEnter += Run_MouseEnter;
                         run.MouseLeave += Run_MouseLeave;
                         run.MouseDown += Run_MouseDown;
+                        run.MouseMove += Run_MouseMove;
 
                         paragraph.Inlines.Add(run);
                     }
@@ -156,9 +172,35 @@ namespace EPUBGenerator
             }
         }
 
-        private void Run_MouseDown(object sender, MouseButtonEventArgs e)
+        private void Run_MouseMove(object sender, MouseEventArgs e)
         {
             RunWord run = sender as RunWord;
+            switch (CurrentState)
+            {
+                case States.Stop:
+                    run.Cursor = Cursors.Hand;
+                    break;
+                case States.Play:
+                    run.Cursor = Cursors.Hand;
+                    break;
+                case States.Edit:
+                    TextPointer pointer = richTextBox.GetPositionFromPoint(e.GetPosition(run), false);
+                    richTextBox.CaretPosition = pointer;
+                    TextPointerContext contextPrev = pointer.GetPointerContext(GoBackward);
+                    TextPointerContext contextNext = pointer.GetPointerContext(GoForward);
+                    if (contextNext == TextPointerContext.ElementEnd || contextPrev == TextPointerContext.ElementStart)
+                        run.Cursor = Cursors.No;
+                    else if (contextNext == contextPrev && contextNext == TextPointerContext.Text)
+                        run.Cursor = Cursors.UpArrow;
+                    else
+                        run.Cursor = Cursors.Arrow;
+                    break;
+            }
+        }
+
+        private void Run_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            RunWord curRun = sender as RunWord;
             switch (CurrentState)
             {
                 case States.Stop:
@@ -166,6 +208,31 @@ namespace EPUBGenerator
                 case States.Play:
                     break;
                 case States.Edit:
+                    if (e.LeftButton == MouseButtonState.Pressed)
+                    {
+                        TextPointer curPointer = richTextBox.GetPositionFromPoint(e.GetPosition(curRun), false);
+                        if (curPointer == null)
+                            return;
+
+                        TextPointerContext contextPrev = curPointer.GetPointerContext(GoBackward);
+                        TextPointerContext contextNext = curPointer.GetPointerContext(GoForward);
+
+                        // MERGE
+                        if (contextNext == TextPointerContext.ElementEnd)
+                            curRun.MergeWithNext();
+                        else if (contextPrev == TextPointerContext.ElementStart)
+                            curRun.MergeWithPrev();
+                        // SPLIT
+                        else if (contextPrev == contextNext && contextNext == TextPointerContext.Text)
+                        {
+                            RunWord newRun = curRun.SplitAt(curPointer);
+                            newRun.MouseEnter += Run_MouseEnter;
+                            newRun.MouseLeave += Run_MouseLeave;
+                            newRun.MouseDown += Run_MouseDown;
+                            newRun.MouseMove += Run_MouseMove;
+                            newRun.ApplyAvailableBrush(ProjectProperties.SplittedWords);
+                        }
+                    }
                     break;
             }
         }
@@ -262,7 +329,7 @@ namespace EPUBGenerator
 
         private void saveBook_Click(object sender, RoutedEventArgs e)
         {
-
+            SelectedContent.Save();
         }
 
         private void export_Click(object sender, RoutedEventArgs e)

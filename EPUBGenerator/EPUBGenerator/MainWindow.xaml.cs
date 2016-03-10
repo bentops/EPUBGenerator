@@ -21,6 +21,7 @@ namespace EPUBGenerator
     /// </summary>
     public partial class MainWindow : Window
     {
+        int test = 0;
         public MainWindow()
         {
             InitializeComponent();
@@ -31,7 +32,23 @@ namespace EPUBGenerator
             Switcher.createBook3 = new CreateBook3();
             Switcher.editBook1 = new EditBook1();
             Switcher.error = new Error();
-            Switcher.Switch(Switcher.home);
+            if (test == 0)
+                Switcher.Switch(Switcher.home);
+            else if (test == 1)
+            {
+                Switcher.Switch(Switcher.createBook2);
+                String epubPath = @"C:\Users\xinghbtong.Baitongs\Documents\Top\Chula\Year 4\Senior Project\Project\EPUB\EpubFiles\Tester_01.epub";
+                String projPath = @"C:\Users\xinghbtong.Baitongs\Desktop\TestEPUB\T01";
+                if (System.IO.Directory.Exists(projPath))
+                    System.IO.Directory.Delete(projPath, true);
+                Switcher.createBook2.createEPUB(epubPath, projPath, "T01");
+            }
+            else if (test == 2)
+            {
+                String epubProjPath = @"C:\Users\xinghbtong.Baitongs\Desktop\TestEPUB\T01\T01.epubproj";
+                new EditWindow(epubProjPath).Show();
+                Close();
+            }
         }
 
         public void Navigate(UserControl nextPage)

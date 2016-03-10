@@ -1,7 +1,9 @@
-﻿using EPUBGenerator.MainLogic;
+﻿using eBdb.EpubReader;
+using EPUBGenerator.MainLogic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -15,6 +17,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Path = System.IO.Path;
+using Block = EPUBGenerator.MainLogic.Block;
 
 
 namespace EPUBGenerator.Pages
@@ -24,6 +28,7 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class CreateBook2 : UserControl
     {
+        private ProgressUpdater _ProgressUpdater;
         private string epubPath;
         private string projPath;
         private string projName;
@@ -54,9 +59,57 @@ namespace EPUBGenerator.Pages
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            Project.ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
-            Project.Create(epubPath, projPath);
+            _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
+            ProjectInfo projInfo = new ProjectInfo(epubPath, projPath);
+            
+            Epub epubFile = projInfo.EpubFile;
+            List<NavPoint> navsWithContent = new List<NavPoint>();
+            GetAllNavsWithContents(epubFile.TOC, navsWithContent);
+
+            List<Content> contents = new List<Content>();
+            int totalSentence = 0;
+
+            Console.WriteLine("Total Content Pages: " + navsWithContent.Count);
+            _ProgressUpdater.Initialize(navsWithContent.Count);
+            foreach (NavPoint nav in navsWithContent)
+            {
+                Content content = new Content(nav, projInfo);
+                contents.Add(content);
+                totalSentence += content.SentenceCount;
+                // Save Content Structure in @"ProjDir\Resources\Package"
+                using (StreamWriter streamWriter = new StreamWriter(content.ContentResource))
+                {
+                    streamWriter.Write(content.Root);
+                    streamWriter.Close();
+                }
+                _ProgressUpdater.Increment();
+            }
+
+            Console.WriteLine("Total Sentences: " + totalSentence);
+            _ProgressUpdater.Initialize(totalSentence);
+            foreach (Content content in contents)
+            {
+                foreach (Block block in content.Blocks)
+                    foreach (Sentence sentence in block.Sentences)
+                    {
+                        sentence.Synthesize();
+                        _ProgressUpdater.Increment();
+                    }
+                content.Save();
+            }
+            projInfo.Save();
         }
+
+        private void GetAllNavsWithContents(List<NavPoint> navList, List<NavPoint> navsWithContent)
+        {
+            foreach (NavPoint nav in navList)
+            {
+                if (nav.ContentData != null)
+                    navsWithContent.Add(nav);
+                GetAllNavsWithContents(nav.Children, navsWithContent);
+            }
+        }
+
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
@@ -65,8 +118,7 @@ namespace EPUBGenerator.Pages
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            BackgroundWorker bw = sender as BackgroundWorker;
-            bw.Dispose();
+            (sender as BackgroundWorker).Dispose();
             if (e.Cancelled)
             {
                 Switcher.Switch(Switcher.createBook1);
@@ -89,7 +141,7 @@ namespace EPUBGenerator.Pages
         
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
-            Project.ProgressUpdater.Cancel();
+            _ProgressUpdater.Cancel();
         }
         
         public void editWaitlabel(String txt)

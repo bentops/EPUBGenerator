@@ -73,6 +73,7 @@ namespace EPUBGenerator.MainLogic
                 throw new OperationCanceledException(cancellationMessage);
             }
             backGroundWorker.ReportProgress(Percentage);
+            //Console.WriteLine("REPORT: " + Percentage + "(" + Counter + "/" + Total + ")");
         }
 
         public void Cancel()

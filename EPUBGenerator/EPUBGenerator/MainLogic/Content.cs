@@ -8,14 +8,18 @@ namespace EPUBGenerator.MainLogic
 {
     class Content
     {
+        public ProjectInfo ProjectInfo { get; private set; }
         public String CID { get { return "C" + Order; } }
-
         public String NavID { get; private set; }
         public XElement Root { get; private set; }
         public XNamespace Xns { get; private set; }
         public String Source { get; private set; }
         public String Title { get; private set; }
         public int Order { get; private set; }
+
+        public String ContentAudio { get { return Project.GetDirectory(ProjectInfo.AudioSaves, CID); } }
+        public String ContentResource { get { return Path.Combine(ProjectInfo.PackageResources, Source); } }
+        public String ContentSave { get { return Path.Combine(ProjectInfo.Saves, Source); } }
 
         public List<Block> Blocks { get; private set; }
         public int SentenceCount
@@ -30,8 +34,9 @@ namespace EPUBGenerator.MainLogic
         }
 
         #region ----------- NEW PROJECT ------------
-        public Content(NavPoint Nav)
+        public Content(NavPoint Nav, ProjectInfo projInfo)
         {
+            ProjectInfo = projInfo;
             NavID = Nav.ID;
             Root = XElement.Parse(Nav.ContentData.Content);
             Xns = Root.Attribute("xmlns") != null ? Root.Attribute("xmlns").Value : XNamespace.None;
@@ -63,23 +68,38 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region ----------- SAVE PROJECT ------------
-        public XElement ToXml()
+        public void Save()
         {
+            // Let Every Sentence Uses Randomized ID.
+            foreach (Block block in Blocks)
+                foreach (Sentence sentence in block.Sentences)
+                    sentence.UseRandomizedID();
+
+            // Remove Unused WAV Files: Those With Non-Randomized ID.
+            foreach (String file in Directory.EnumerateFiles(ContentAudio, ProjectProperties.NonRandomPattern))
+                File.Delete(file);
+
+            // Let Every Sentence Uses Non-Randomized ID.
+            int count = 0;
+            foreach (Block block in Blocks)
+                foreach (Sentence sentence in block.Sentences)
+                    sentence.UseNonRandomizedID(++count);
+
+            // Remove Unused WAV Files: Those With Randomized ID.
+            foreach (String file in Directory.EnumerateFiles(ContentAudio, ProjectProperties.RandomPattern))
+                File.Delete(file);
+
             XElement xContent = new XElement("Content");
             xContent.Add(new XAttribute("id", NavID));
             xContent.Add(new XAttribute("title", Title));
             xContent.Add(new XAttribute("order", Order));
             foreach (Block block in Blocks)
                 xContent.Add(block.ToXml());
-            return xContent;
-        }
-        public void RunSentenceID()
-        {
-            int count = 0;
-            foreach (Block block in Blocks)
+
+            using (StreamWriter streamWriter = new StreamWriter(ContentSave))
             {
-                Sentence.RunID(block.Sentences, count);
-                count += block.Sentences.Count;
+                streamWriter.Write(xContent);
+                streamWriter.Close();
             }
         }
         #endregion
@@ -88,13 +108,14 @@ namespace EPUBGenerator.MainLogic
         public Content(String contentPath, ProjectInfo projectInfo)
         {
             Source = contentPath;
-            using (StreamReader streamReader = new StreamReader(projectInfo.GetContentResource(this)))
+            ProjectInfo = projectInfo;
+            using (StreamReader streamReader = new StreamReader(ContentResource))
             {
                 Root = XElement.Parse(streamReader.ReadToEnd());
                 Xns = Root.Attribute("xmlns") != null ? Root.Attribute("xmlns").Value : XNamespace.None;
                 streamReader.Close();
             }
-            using (StreamReader streamReader = new StreamReader(projectInfo.GetContentSave(this)))
+            using (StreamReader streamReader = new StreamReader(ContentSave))
             {
                 XElement xContent = XElement.Parse(streamReader.ReadToEnd());
                 foreach (XAttribute attribute in xContent.Attributes())

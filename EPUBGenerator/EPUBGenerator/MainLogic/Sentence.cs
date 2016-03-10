@@ -14,6 +14,10 @@ namespace EPUBGenerator.MainLogic
 
         public int ID { get; private set; }
         public String SID { get { return "S" + ID.ToString("D6"); } }
+        public String WavName { get { return Project.GetWavNameFromID(ID); } }
+        public String WavPath { get { return Path.Combine(Content.ContentAudio, WavName); } }
+        public bool IsRandomID { get { return Project.IsRandom(ID); } }
+
         public Content Content { get { return Block.Content; } }
         public Block Block { get; private set; }
         public String OriginalText { get { return Block.Text.Substring(StartIdx, Length); } }
@@ -45,15 +49,15 @@ namespace EPUBGenerator.MainLogic
         {
             StartIdx = start;
             Block = block;
-            ID = Project.Instance.GetRandomUniqueID(Content);
             AppendTo(Block.Sentences);
         }
 
-        public void Synthesize(String outputPath)
+        public void Synthesize()
         {
-            Bytes = Project.Synthesizer.Synthesize(OriginalText, outputPath);
-            List<int> tList = Project.Synthesizer.GetTextIndexList();
-            List<long> bList = Project.Synthesizer.GetByteIndexList();
+            UseRandomizedID();
+            Bytes = Project.Synthesizer.Synthesize(OriginalText, WavPath);
+            List<int> tList = Project.Synthesizer.TextIndexList;
+            List<long> bList = Project.Synthesizer.ByteIndexList;
             if (tList == null)
                 throw new Exception("Null Synthesized Text Index List");
             if (bList == null)
@@ -79,11 +83,35 @@ namespace EPUBGenerator.MainLogic
             return xSentence;
         }
 
-        public static void RunID(LinkedList<Sentence> Sentences, int StartNumber)
+        public void UseRandomizedID()
         {
-            foreach (Sentence sentence in Sentences)
-                sentence.ID = StartNumber++;
+            if (!File.Exists(WavPath))
+            {
+                if (IsRandomID)
+                    throw new Exception("NO AUDIO FILE YET.");
+                else
+                    ID = Project.GetRandomUniqueID(Content.ContentAudio);
+                return;
+            }
+
+            if (IsRandomID)
+                return;
+
+            String oldAudio = WavPath;
+            ID = Project.GetRandomUniqueID(Content.ContentAudio);
+            File.Move(oldAudio, WavPath);
         }
+
+        public void UseNonRandomizedID(int id)
+        {
+            if (!File.Exists(WavPath))
+                throw new Exception("NO AUDIO FILE YET. " + WavPath);
+
+            String oldAudio = WavPath;
+            ID = id;
+            File.Move(oldAudio, WavPath);
+        }
+
         #endregion
 
         #region ----------- OPEN PROJECT ------------
@@ -104,6 +132,23 @@ namespace EPUBGenerator.MainLogic
             Words = new LinkedList<Word>();
             foreach (XElement xWord in xSentence.Element("Words").Elements("Word"))
                 new Word(xWord, this);
+        }
+        #endregion
+
+        #region ----------- EDIT PROJECT ------------
+        public void MergeWith(Sentence nextSentence)
+        {
+            if (!Next.Equals(nextSentence))
+                throw new Exception("Two sentences (to be merged) are not adjacent.");
+            
+            Block.Sentences.Remove(nextSentence.node);
+            foreach (Word word in nextSentence.Words)
+                word.MoveTo(this);
+            Bytes += nextSentence.Bytes;
+            // Delete WAV associated with this sentence
+            //
+            //
+            //
         }
         #endregion
 
