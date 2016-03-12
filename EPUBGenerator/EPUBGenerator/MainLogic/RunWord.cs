@@ -14,11 +14,16 @@ namespace EPUBGenerator.MainLogic
         private LogicalDirection GoBackward = LogicalDirection.Backward;
 
         public InlineCollection Inlines { get { return ElementStart.Paragraph.Inlines; } }
+        public RunWord PreviousRun { get { return PreviousInline as RunWord; } }
+        public RunWord NextRun { get { return NextInline as RunWord; } }
         public Sentence Sentence { get { return Word.Sentence; } }
         public Word Word { get; set; }
-
-        public bool Selected { get; set; }
-
+        
+        public bool IsEdited { get; set; }
+        public bool IsSelected { get; set; }
+        public Brush NormalModeBackground { get { return IsSelected? ProjectProperties.SelectedWord : null; } }
+        public Brush EditModeBackground { get; set; }
+        
         public RunWord(Word word) : base(word.OriginalText)
         {
             Word = word;
@@ -27,12 +32,6 @@ namespace EPUBGenerator.MainLogic
         public RunWord(Word word, TextPointer pos) : base(word.OriginalText, pos)
         {
             Word = word;
-        }
-
-        public void ClearBackground()
-        {
-            // May need to check if this word was editted?
-            Background = Selected ? ProjectProperties.SelectedWord : null;
         }
 
         public void MergeWithNext()
@@ -79,31 +78,31 @@ namespace EPUBGenerator.MainLogic
                 throw new Exception("BrushList contains only " + brushes.Length + " brush.");
 
             // If prev is null, just check with the next one.
-            if (PreviousInline == null)
+            if (PreviousRun == null)
             {
-                Background = (NextInline == null || NextInline.Background != brushes[0]) ? brushes[0] : brushes[1];
+                Background = (NextRun == null || NextRun.Background != brushes[0]) ? brushes[0] : brushes[1];
                 return;
             }
 
             // If next is null, just check with the prev one. [But now we know that prev is not null.]
-            if (NextInline == null)
+            if (NextRun == null)
             {
-                Background = (PreviousInline.Background != brushes[0]) ? brushes[0] : brushes[1];
+                Background = (PreviousRun.Background != brushes[0]) ? brushes[0] : brushes[1];
                 return;
             }
 
             // Check every brush in brushes, find one that doesn't share color with prev or next.
             foreach (Brush brush in brushes)
             {
-                if (PreviousInline.Background == brush || NextInline.Background == brush)
+                if (PreviousRun.Background == brush || NextRun.Background == brush)
                     continue;
                 Background = brush;
                 return;
             }
 
             // If there is no consistent brush, choose one that is different from prev, repeat the algo with the next one.
-            Background = (PreviousInline.Background != brushes[0]) ? brushes[0] : brushes[1];
-            (NextInline as RunWord).ApplyAvailableBrush(brushes);
+            Background = (PreviousRun.Background != brushes[0]) ? brushes[0] : brushes[1];
+            NextRun.ApplyAvailableBrush(brushes);
         }
         
     }

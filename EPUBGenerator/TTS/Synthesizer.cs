@@ -186,7 +186,7 @@ namespace TTS
             } while (File.Exists(wavPath) || File.Exists(durPath));
 
             synthesizer.Synthesize(phoneme, type, randID, TempPath);
-            Console.WriteLine("Synthesizing: " + phoneme + ", " + randID);
+            Console.WriteLine("Synthesizing: " + phoneme + ": " + randID);
             return wavPath;
         }
         private int ConcatWavFiles(List<string> waveList, WaveFormat waveFormat, string outputPath)

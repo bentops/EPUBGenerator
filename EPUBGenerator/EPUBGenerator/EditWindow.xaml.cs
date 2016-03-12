@@ -21,6 +21,7 @@ using System.IO;
 using System.ComponentModel;
 using SaveFileDialog = System.Windows.Forms.SaveFileDialog;
 using DResult = System.Windows.Forms.DialogResult;
+using MBox = System.Windows.MessageBox;
 
 namespace EPUBGenerator
 {
@@ -34,24 +35,39 @@ namespace EPUBGenerator
     {
         private LogicalDirection GoForward = LogicalDirection.Forward;
         private LogicalDirection GoBackward = LogicalDirection.Backward;
-
-
-        private TreeViewItem contentsTVI;
-        private TreeViewItem imagesTVI;
+        
+        private TreeViewItem _AllContentsTVI;
+        private TreeViewItem _AllImagesTVI;
 
         private State _State;
-        private State CurrentState
+        public State CurrentState
         {
             get { return _State; }
-            set
+            private set
             {
+                #region Change CurrentState From
+                switch (_State)
+                {
+                    case State.Stop:
+                        break;
+                    case State.Play:
+                        break;
+                    case State.Edit:
+                        foreach (Paragraph paragraph in Paragraphs)
+                            foreach (RunWord run in paragraph.Inlines)
+                                run.EditModeBackground = run.Background;
+                        break;
+                }
+                #endregion
+
+                #region Change CurrentState To
                 _State = value;
                 switch(_State)
                 {
                     case State.Stop:
                         foreach (Paragraph paragraph in Paragraphs)
                             foreach (RunWord run in paragraph.Inlines)
-                                run.ClearBackground();
+                                run.Background = run.NormalModeBackground;
                         richTextBox.CaretBrush = Brushes.Transparent;
                         richTextBox.IsReadOnlyCaretVisible = true;
                         break;
@@ -60,20 +76,34 @@ namespace EPUBGenerator
                     case State.Edit:
                         foreach (Paragraph paragraph in Paragraphs)
                             foreach (RunWord run in paragraph.Inlines)
-                                run.ApplyAvailableBrush(ProjectProperties.CutWords);
+                                run.Background = run.EditModeBackground;
                         richTextBox.CaretBrush = null;
                         richTextBox.IsReadOnlyCaretVisible = false;
                         break;
                 }
+                #endregion
+            }
+        }
+
+        private bool _Saved;
+        public bool IsSaved
+        {
+            get { return _Saved; }
+            set
+            {
+                _Saved = value;
+                Export.IsEnabled = value;
             }
         }
 
         private ProjectInfo ProjectInfo { get; set; }
         private String ProjectName { get { return ProjectInfo.ProjectName; } }
         private String ProjectPath { get { return ProjectInfo.ProjectPath; } }
+        private BlockCollection Paragraphs { get { return richTextBox.Document.Blocks; } }
+
         private Content SelectedContent { get; set; }
         private RunWord CurrentRunWord { get; set; }
-        private BlockCollection Paragraphs { get { return richTextBox.Document.Blocks; } }
+        private TreeViewItem SelectedTVI { get; set; }
 
         private String _ExportPath;
 
@@ -81,7 +111,6 @@ namespace EPUBGenerator
         {
             InitializeComponent();
         }
-
         public EditWindow(String epubProjPath)
         {
             InitializeComponent();
@@ -94,17 +123,18 @@ namespace EPUBGenerator
             richTextBox.IsReadOnly = true;
 
             CurrentState = State.Stop;
+            IsSaved = true;
             ProjectInfo = new ProjectInfo(epubProjPath);
 
             projInfoTextBlock.Text = ProjectName;
             GenerateProjectMenu();
 
-            if (contentsTVI.Items.Count > 0)
+            if (_AllContentsTVI.Items.Count > 0)
             {
-                TreeViewItem firstContent = contentsTVI.Items.GetItemAt(0) as TreeViewItem;
+                TreeViewItem firstContent = _AllContentsTVI.Items.GetItemAt(0) as TreeViewItem;
                 firstContent.IsSelected = true;
             }
-
+            
         }
 
         private void EditWindow_KeyDown(object sender, KeyEventArgs e)
@@ -135,24 +165,39 @@ namespace EPUBGenerator
         {
             TreeViewItem projectTVI = new TreeViewItem() { Header = "Project '" + ProjectName + "'", IsExpanded = true };
 
-            contentsTVI = new TreeViewItem() { Header = "Contents", IsExpanded = true };
+            _AllContentsTVI = new TreeViewItem() { Header = "Contents", IsExpanded = true };
             foreach (String contentSrc in ProjectInfo.ContentList.Values)
             {
                 String contentName = Path.GetFileNameWithoutExtension(contentSrc);
                 TreeViewItem contentTVI = new TreeViewItem() { Header = contentName, Tag = contentSrc };
                 contentTVI.Selected += ContentTVI_Selected;
-                contentsTVI.Items.Add(contentTVI);
+                _AllContentsTVI.Items.Add(contentTVI);
             }
-            projectTVI.Items.Add(contentsTVI);
+            projectTVI.Items.Add(_AllContentsTVI);
 
-            imagesTVI = new TreeViewItem() { Header = "Images" };
-            projectTVI.Items.Add(imagesTVI);
+            _AllImagesTVI = new TreeViewItem() { Header = "Images" };
+            projectTVI.Items.Add(_AllImagesTVI);
 
             treeView.Items.Add(projectTVI);
         }
-
+        
         private void ContentTVI_Selected(object sender, RoutedEventArgs e)
         {
+            TreeViewItem contentTVI = sender as TreeViewItem;
+            String contentPath = contentTVI.Tag as String;
+
+            if (SelectedTVI != null && !IsSaved)
+            {
+                if (SelectedTVI != contentTVI)
+                {
+                    // SHOW WARNING TO SAVE
+                    MBox.Show("Please Save Your Project First");
+                    contentTVI.IsSelected = false;
+                    SelectedTVI.IsSelected = true;
+                }
+                return;
+            }
+
             if (SelectedContent != null && Paragraphs.Count > 0)
             {
                 ParagraphBlock[] pList = new ParagraphBlock[Paragraphs.Count];
@@ -161,13 +206,15 @@ namespace EPUBGenerator
                     Paragraphs.Remove(par);
             }
 
-            CurrentState = State.Stop;
+            if (SelectedTVI != null)
+                SelectedTVI.IsSelected = false;
 
-            TreeViewItem contentTVI = sender as TreeViewItem;
-            String contentPath = contentTVI.Tag as String;
+            CurrentState = State.Stop;
+            SelectedTVI = contentTVI;
             SelectedContent = new Content(contentPath, ProjectInfo);
             Console.WriteLine("Sentences Count = " + SelectedContent.SentenceCount);
 
+            int toggle = 0;
             foreach (Block block in SelectedContent.Blocks)
             {
                 Paragraph paragraph = new Paragraph();
@@ -180,6 +227,10 @@ namespace EPUBGenerator
                         run.MouseLeave += Run_MouseLeave;
                         run.MouseDown += Run_MouseDown;
                         run.MouseMove += Run_MouseMove;
+
+                        run.IsEdited = false;
+                        run.EditModeBackground = ProjectProperties.CutWords[toggle];
+                        toggle = 1 - toggle;
 
                         paragraph.Inlines.Add(run);
                     }
@@ -235,9 +286,15 @@ namespace EPUBGenerator
 
                         // MERGE
                         if (contextNext == TextPointerContext.ElementEnd)
+                        {
                             curRun.MergeWithNext();
+                            IsSaved = false;
+                        }
                         else if (contextPrev == TextPointerContext.ElementStart)
+                        {
                             curRun.MergeWithPrev();
+                            IsSaved = false;
+                        }
                         // SPLIT
                         else if (contextPrev == contextNext && contextNext == TextPointerContext.Text)
                         {
@@ -247,6 +304,7 @@ namespace EPUBGenerator
                             newRun.MouseDown += Run_MouseDown;
                             newRun.MouseMove += Run_MouseMove;
                             newRun.ApplyAvailableBrush(ProjectProperties.SplittedWords);
+                            IsSaved = false;
                         }
                     }
                     break;
@@ -274,7 +332,7 @@ namespace EPUBGenerator
             switch (CurrentState)
             {
                 case State.Stop:
-                    run.ClearBackground();
+                    run.Background = run.NormalModeBackground;
                     break;
                 case State.Play:
                     break;
@@ -342,10 +400,21 @@ namespace EPUBGenerator
                 playpauseB.IsChecked = false;
             }
         }
-
+        
         private void saveBook_Click(object sender, RoutedEventArgs e)
         {
+            if (IsSaved)
+                return;
             SelectedContent.Save();
+            int toggle = 0;
+            foreach (Paragraph paragraph in Paragraphs)
+                foreach (RunWord run in paragraph.Inlines)
+                {
+                    run.IsEdited = false;
+                    run.EditModeBackground = ProjectProperties.CutWords[toggle];
+                    toggle = 1 - toggle;
+                }
+            IsSaved = true;
         }
 
         private void export_Click(object sender, RoutedEventArgs e)
