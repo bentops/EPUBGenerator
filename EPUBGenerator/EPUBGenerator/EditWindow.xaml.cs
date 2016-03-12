@@ -290,13 +290,12 @@ namespace EPUBGenerator
 
         private void Run_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            Cursor = Cursors.Wait;
             RunWord curRun = sender as RunWord;
             switch (CurrentState)
             {
                 case State.Stop:
                     CurrentRunWord = curRun;
-                    curRun.IsSelected = true;
-                    curRun.Background = curRun.NormalModeBackground;
                     curRun.Play();
                     break;
                 case State.Play:
@@ -311,7 +310,6 @@ namespace EPUBGenerator
                         TextPointerContext contextPrev = curPointer.GetPointerContext(GoBackward);
                         TextPointerContext contextNext = curPointer.GetPointerContext(GoForward);
 
-                        Cursor = Cursors.Wait;
                         // MERGE
                         if (contextNext == TextPointerContext.ElementEnd)
                         {
@@ -334,10 +332,10 @@ namespace EPUBGenerator
                             newRun.ApplyAvailableBrush(ProjectProperties.SplittedWords);
                             IsSaved = false;
                         }
-                        Cursor = Cursors.Arrow;
                     }
                     break;
             }
+            Cursor = Cursors.Arrow;
         }
 
         private void Run_MouseEnter(object sender, MouseEventArgs e)

@@ -41,6 +41,7 @@ namespace EPUBGenerator.MainLogic
         public RunWord(Word word, TextPointer pos) : base(word.OriginalText, pos)
         {
             Word = word;
+            InitiateSentenceWavePlayer();
         }
 
         public void MergeWithNext()
@@ -64,8 +65,8 @@ namespace EPUBGenerator.MainLogic
             Word.MergeWith(nextRun.Word);
             Inlines.Remove(nextRun);
             Text = Word.OriginalText;
-            InitiateSentenceWavePlayer();
             ApplyAvailableBrush(ProjectProperties.MergedWords);
+            InitiateSentenceWavePlayer();
         }
         
         public RunWord SplitAt(TextPointer pointer)
@@ -78,7 +79,6 @@ namespace EPUBGenerator.MainLogic
             TextPointer insertPos = pointer.GetNextContextPosition(GoForward);
             while (insertPos != null && insertPos.GetPointerContext(GoBackward) != TextPointerContext.ElementEnd)
                 insertPos = insertPos.GetNextContextPosition(GoForward);
-            InitiateSentenceWavePlayer();
             return new RunWord(newWord, insertPos);
         }
 
