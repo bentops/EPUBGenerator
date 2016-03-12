@@ -28,7 +28,7 @@ namespace EPUBGenerator.Pages
     {
         private String _EpubProjPath { get { return Path.Combine(projPath, projName + ".epubproj"); } }
         private ProgressUpdater _ProgressUpdater;
-        private String _SavePath;
+        private String _ExportPath;
         private string projName;
         private string projPath;
         private string epubPath;
@@ -78,7 +78,7 @@ namespace EPUBGenerator.Pages
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 //INSERT Select .EPUB file location here//
-                _SavePath = saveFileDialog.FileName;
+                _ExportPath = saveFileDialog.FileName;
 
                 this.IsEnabled = false;
                 System.Windows.Media.Effects.BlurEffect objBlur = new System.Windows.Media.Effects.BlurEffect();
@@ -129,7 +129,7 @@ namespace EPUBGenerator.Pages
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
             _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
-            Project.Export(_EpubProjPath, _SavePath, _ProgressUpdater);
+            Project.Export(_EpubProjPath, _ExportPath, _ProgressUpdater);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)

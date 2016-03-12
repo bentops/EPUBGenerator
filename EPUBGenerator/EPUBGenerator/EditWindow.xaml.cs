@@ -18,6 +18,9 @@ using Block = EPUBGenerator.MainLogic.Block;
 using EPUBGenerator.MainLogic;
 using System.Xml.Linq;
 using System.IO;
+using System.ComponentModel;
+using SaveFileDialog = System.Windows.Forms.SaveFileDialog;
+using DResult = System.Windows.Forms.DialogResult;
 
 namespace EPUBGenerator
 {
@@ -25,7 +28,7 @@ namespace EPUBGenerator
     /// Interaction logic for EditWindow.xaml
     /// </summary>
 
-    public enum States { Stop, Play, Edit }
+    public enum State { Stop, Play, Edit }
 
     public partial class EditWindow : Window
     {
@@ -36,7 +39,34 @@ namespace EPUBGenerator
         private TreeViewItem contentsTVI;
         private TreeViewItem imagesTVI;
 
-        private States CurrentState { get; set; }
+        private State _State;
+        private State CurrentState
+        {
+            get { return _State; }
+            set
+            {
+                _State = value;
+                switch(_State)
+                {
+                    case State.Stop:
+                        foreach (Paragraph paragraph in Paragraphs)
+                            foreach (RunWord run in paragraph.Inlines)
+                                run.ClearBackground();
+                        richTextBox.CaretBrush = Brushes.Transparent;
+                        richTextBox.IsReadOnlyCaretVisible = true;
+                        break;
+                    case State.Play:
+                        break;
+                    case State.Edit:
+                        foreach (Paragraph paragraph in Paragraphs)
+                            foreach (RunWord run in paragraph.Inlines)
+                                run.ApplyAvailableBrush(ProjectProperties.CutWords);
+                        richTextBox.CaretBrush = null;
+                        richTextBox.IsReadOnlyCaretVisible = false;
+                        break;
+                }
+            }
+        }
 
         private ProjectInfo ProjectInfo { get; set; }
         private String ProjectName { get { return ProjectInfo.ProjectName; } }
@@ -44,6 +74,8 @@ namespace EPUBGenerator
         private Content SelectedContent { get; set; }
         private RunWord CurrentRunWord { get; set; }
         private BlockCollection Paragraphs { get { return richTextBox.Document.Blocks; } }
+
+        private String _ExportPath;
 
         public EditWindow()
         {
@@ -60,9 +92,8 @@ namespace EPUBGenerator
         {
             this.PreviewKeyDown += EditWindow_KeyDown;
             richTextBox.IsReadOnly = true;
-            richTextBox.IsReadOnlyCaretVisible = true;
 
-            CurrentState = States.Stop;
+            CurrentState = State.Stop;
             ProjectInfo = new ProjectInfo(epubProjPath);
 
             projInfoTextBlock.Text = ProjectName;
@@ -81,40 +112,25 @@ namespace EPUBGenerator
             Key key = e.Key;
             switch (CurrentState)
             {
-                case States.Stop:
+                case State.Stop:
                     if (key == Key.LeftCtrl || key == Key.RightCtrl)
-                    {
-                        foreach (Paragraph paragraph in Paragraphs)
-                            foreach (RunWord run in paragraph.Inlines)
-                                run.ApplyAvailableBrush(ProjectProperties.CutWords);
-                        CurrentState = States.Edit;
-                        richTextBox.Focus();
-                        richTextBox.CaretBrush = null;
-                    }
+                        CurrentState = State.Edit;
                     break;
-                case States.Play:
+                case State.Play:
                     if (key == Key.LeftCtrl || key == Key.RightCtrl)
                     {
 
-                        richTextBox.Focus();
-                        richTextBox.CaretBrush = null;
+                        CurrentState = State.Edit;
                     }
                     break;
-                case States.Edit:
+                case State.Edit:
                     if (key == Key.LeftCtrl || key == Key.RightCtrl)
-                    {
-                        foreach (Paragraph paragraph in Paragraphs)
-                            foreach (RunWord run in paragraph.Inlines)
-                                run.ClearBackground();
-                        CurrentState = States.Stop;
-                        
-                        richTextBox.Focus();
-                        richTextBox.CaretBrush = Brushes.Transparent;
-                    }
+                        CurrentState = State.Stop;
                     break;
             }
         }
         
+
         private void GenerateProjectMenu()
         {
             TreeViewItem projectTVI = new TreeViewItem() { Header = "Project '" + ProjectName + "'", IsExpanded = true };
@@ -145,7 +161,7 @@ namespace EPUBGenerator
                     Paragraphs.Remove(par);
             }
 
-            CurrentState = States.Stop;
+            CurrentState = State.Stop;
 
             TreeViewItem contentTVI = sender as TreeViewItem;
             String contentPath = contentTVI.Tag as String;
@@ -177,13 +193,13 @@ namespace EPUBGenerator
             RunWord run = sender as RunWord;
             switch (CurrentState)
             {
-                case States.Stop:
+                case State.Stop:
                     run.Cursor = Cursors.Hand;
                     break;
-                case States.Play:
+                case State.Play:
                     run.Cursor = Cursors.Hand;
                     break;
-                case States.Edit:
+                case State.Edit:
                     TextPointer pointer = richTextBox.GetPositionFromPoint(e.GetPosition(run), false);
                     richTextBox.CaretPosition = pointer;
                     TextPointerContext contextPrev = pointer.GetPointerContext(GoBackward);
@@ -203,11 +219,11 @@ namespace EPUBGenerator
             RunWord curRun = sender as RunWord;
             switch (CurrentState)
             {
-                case States.Stop:
+                case State.Stop:
                     break;
-                case States.Play:
+                case State.Play:
                     break;
-                case States.Edit:
+                case State.Edit:
                     if (e.LeftButton == MouseButtonState.Pressed)
                     {
                         TextPointer curPointer = richTextBox.GetPositionFromPoint(e.GetPosition(curRun), false);
@@ -242,12 +258,12 @@ namespace EPUBGenerator
             RunWord run = sender as RunWord;
             switch (CurrentState)
             {
-                case States.Stop:
+                case State.Stop:
                     run.Background = ProjectProperties.HoveredWord;
                     break;
-                case States.Play:
+                case State.Play:
                     break;
-                case States.Edit:
+                case State.Edit:
                     break;
             }
         }
@@ -257,12 +273,12 @@ namespace EPUBGenerator
             RunWord run = sender as RunWord;
             switch (CurrentState)
             {
-                case States.Stop:
+                case State.Stop:
                     run.ClearBackground();
                     break;
-                case States.Play:
+                case State.Play:
                     break;
-                case States.Edit:
+                case State.Edit:
                     break;
             }
         }
@@ -334,7 +350,38 @@ namespace EPUBGenerator
 
         private void export_Click(object sender, RoutedEventArgs e)
         {
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.InitialDirectory = ProjectPath;
+                saveFileDialog.Filter = "EPUB files (*.epub)|*.epub";
+                if (saveFileDialog.ShowDialog() == DResult.OK)
+                {
+                    _ExportPath = saveFileDialog.FileName;
 
+                    BackgroundWorker bw = new BackgroundWorker();
+                    bw.WorkerReportsProgress = true;
+                    bw.WorkerSupportsCancellation = true;
+                    bw.DoWork += bw_DoWork;
+                    bw.ProgressChanged += bw_ProgressChanged;
+                    bw.RunWorkerCompleted += bw_RunWorkerCompleted;
+                    bw.RunWorkerAsync();
+                }
+            }
+            
+        }
+
+        private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+        }
+
+        private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+        }
+
+        private void bw_DoWork(object sender, DoWorkEventArgs e)
+        {
+            ProgressUpdater _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
+            Project.Export(ProjectInfo.EpubProjectPath, _ExportPath, _ProgressUpdater);
         }
 
 

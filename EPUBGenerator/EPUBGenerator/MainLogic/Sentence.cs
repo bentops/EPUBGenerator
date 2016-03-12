@@ -29,17 +29,13 @@ namespace EPUBGenerator.MainLogic
 
         public long Bytes { get; private set; }
 
-        public List<String> FinalTextList
+        public List<List<String>> FinalTextList
         {
             get
             {
-                List<String> list = new List<String>();
-                /*
+                List<List<String>> list = new List<List<String>>();
                 foreach (Word word in Words)
-                {
-                    list.Add(word.Pronunciation);
-                }
-                */
+                    list.Add(new List<String>() { word.OriginalText });
                 return list;
             }
         }
@@ -54,7 +50,7 @@ namespace EPUBGenerator.MainLogic
 
         public void Synthesize()
         {
-            UseRandomizedID();
+            ID = Project.GetRandomUniqueID(Content.ContentAudio);
             Bytes = Project.Synthesizer.Synthesize(OriginalText, WavPath);
             List<int> tList = Project.Synthesizer.TextIndexList;
             List<long> bList = Project.Synthesizer.ByteIndexList;
@@ -82,17 +78,11 @@ namespace EPUBGenerator.MainLogic
             xSentence.Add(xWords);
             return xSentence;
         }
-
+        
         public void UseRandomizedID()
         {
             if (!File.Exists(WavPath))
-            {
-                if (IsRandomID)
-                    throw new Exception("NO AUDIO FILE YET.");
-                else
-                    ID = Project.GetRandomUniqueID(Content.ContentAudio);
-                return;
-            }
+                throw new Exception("NO AUDIO FILE YET.");
 
             if (IsRandomID)
                 return;
@@ -145,10 +135,21 @@ namespace EPUBGenerator.MainLogic
             foreach (Word word in nextSentence.Words)
                 word.MoveTo(this);
             Bytes += nextSentence.Bytes;
-            // Delete WAV associated with this sentence
-            //
-            //
-            //
+        }
+
+        public void Resynthesize()
+        {
+            ID = Project.GetRandomUniqueID(Content.ContentAudio);
+            Bytes = Project.Synthesizer.Synthesize(FinalTextList, WavPath);
+            List<long> bList = Project.Synthesizer.ByteIndexList;
+            if (bList == null)
+                throw new Exception("Null Synthesized Byte Index List");
+            if (bList.Count != Words.Count + 1)
+                throw new Exception("Wrong ByteIndexList, bList/Words = " + bList.Count + "/" + Words.Count);
+
+            int i = 0;
+            foreach (Word word in Words)
+                word.SetBegin(bList[i++]);
         }
         #endregion
 

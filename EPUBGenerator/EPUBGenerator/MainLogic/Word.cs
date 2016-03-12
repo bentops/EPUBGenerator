@@ -77,15 +77,13 @@ namespace EPUBGenerator.MainLogic
             sIdx = start;
             Sentence = word.Sentence;
             AddAfter(word.node, Sentence.Words);
-            // Re-Synthesize & Edit Byte Begin-End
-            //
-            //
-            //
         }
 
         public Word SplitAt(int index)
         {
-            return new Word(sIdx + index, this);
+            Word newWord = new Word(sIdx + index, this);
+            Sentence.Resynthesize();
+            return newWord;
         }
 
         public void MergeWith(Word nextWord)
@@ -96,10 +94,7 @@ namespace EPUBGenerator.MainLogic
                 throw new Exception("Two words (to be merged) are not adjacent.");
 
             Sentence.Words.Remove(nextWord.node);
-            // Re-Synthesize & Edit Byte Begin-End
-            //
-            //
-            //
+            Sentence.Resynthesize();
         }
 
         public void MoveTo(Sentence prevSentence)
@@ -110,6 +105,10 @@ namespace EPUBGenerator.MainLogic
             AppendTo(Sentence.Words);
         }
 
+        public void SetBegin(long begin)
+        {
+            Begin = begin;
+        }
         #endregion
 
         #region ---------- PRIVATE METHODS -----------

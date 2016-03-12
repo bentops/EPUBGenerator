@@ -2,6 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading;
+using PairSI = System.Collections.Generic.KeyValuePair<string, int>;
+using PairSS = System.Collections.Generic.KeyValuePair<string, string>;
 
 namespace TTS
 {
@@ -68,15 +71,7 @@ namespace TTS
                     string transcript = tPair.Value;
                     string phoneme = phonemeConverter.Convert(transcript, type);
                     if (type != 2)
-                    {
-                        if (phoneme.IndexOf(silence) == 0)
-                            phoneme = phoneme.Substring(silence.Length);
-                        int postIdx = phoneme.Length - silence.Length;
-                        if (postIdx >= 0 && phoneme.IndexOf(silence, postIdx) == postIdx)
-                            phoneme = phoneme.Substring(0, postIdx);
-                        if (phoneme.Length == 0)
-                            phoneme = silence;
-                    }
+                        phoneme = TrimPhoneme(phoneme);
                     phonemeList.Add(phoneme);
 
                     int index = inputText.IndexOf(cutWord, startIndex);
@@ -101,18 +96,8 @@ namespace TTS
                 #endregion
 
                 #region ------------ Gen Sound ------------
-                string randID = "";
-                string wavPath = "";
-                string durPath = "";
-                do
-                {
-                    Random random = new Random();
-                    randID = random.Next(1000000).ToString("D6");
-                    wavPath = Path.Combine(TempPath, randID + ".wav");
-                    durPath = Path.Combine(TempPath, randID + ".dur");
-                } while (File.Exists(wavPath) || File.Exists(durPath));
-
-                synthesizer.Synthesize(longPhoneme, type, randID, TempPath);
+                string wavPath = SoundSynthesize(longPhoneme, type);
+                string durPath = Path.ChangeExtension(wavPath, ".dur");
 
                 // Check wheter every WavFiles has the same wav-format.
                 waveList.Add(wavPath);
@@ -169,7 +154,43 @@ namespace TTS
                     throw new Exception("Wrong Index & Byte Calculation: " + TextIndexList.Count + ", " + ByteIndexList.Count);
             }
 
-            #region -------- Concat WavFile --------
+            int bytes = ConcatWavFiles(waveList, waveFormat, outputPath);
+
+            if (bytes != totalBytes)
+                throw new Exception("Miscalculating Total Bytes.");
+            return totalBytes;
+        }
+
+        private string TrimPhoneme(string phoneme)
+        {
+            if (phoneme.IndexOf(silence) == 0)
+                phoneme = phoneme.Substring(silence.Length);
+            int postIdx = phoneme.Length - silence.Length;
+            if (postIdx >= 0 && phoneme.IndexOf(silence, postIdx) == postIdx)
+                phoneme = phoneme.Substring(0, postIdx);
+            if (phoneme.Length == 0)
+                phoneme = silence;
+            return phoneme;
+        }
+        private string SoundSynthesize(string phoneme, int type)
+        {
+            string randID = "";
+            string wavPath = "";
+            string durPath = "";
+            do
+            {
+                Random random = new Random();
+                randID = random.Next(1000000).ToString("D6");
+                wavPath = Path.Combine(TempPath, randID + ".wav");
+                durPath = Path.Combine(TempPath, randID + ".dur");
+            } while (File.Exists(wavPath) || File.Exists(durPath));
+
+            synthesizer.Synthesize(phoneme, type, randID, TempPath);
+            Console.WriteLine("Synthesizing: " + phoneme + ", " + randID);
+            return wavPath;
+        }
+        private int ConcatWavFiles(List<string> waveList, WaveFormat waveFormat, string outputPath)
+        {
             int bytes = 0;
             if (waveFormat != null)
             {
@@ -190,20 +211,203 @@ namespace TTS
                     }
                 }
             }
-            #endregion
+
+            return bytes;
+        }
+
+        public long Synthesize(List<List<string>> sentence, string outputPath)
+        {
+            Console.WriteLine("-----------------------------------------");
+            ByteIndexList = new List<long>() { 0 };
+            List<List<PairSI>> wordPhonemes = new List<List<PairSI>>();
+            foreach (List<string> word in sentence)
+            {
+                List<PairSI> subPhonemes = new List<PairSI>();
+                foreach (string syllable in word)
+                    GetSubPhoneme(syllable, subPhonemes);
+                wordPhonemes.Add(subPhonemes);
+            }
+
+            List<PairSI> nPhonemes = NormalizePhoneme(wordPhonemes);
+            long totalBytes = 0;
+            int curWord = 0;
+            int curSubWord = 0;
+            WaveFormat waveFormat = null;
+            List<string> waveList = new List<string>();
+            foreach (PairSI phoneme in nPhonemes)
+            {
+                int type = phoneme.Value;
+                string wavPath = SoundSynthesize(phoneme.Key, phoneme.Value);
+                string durPath = Path.ChangeExtension(wavPath, ".dur");
+                
+                // Check wheter every WavFiles has the same wav-format.
+                waveList.Add(wavPath);
+                using (WaveFileReader waveFileReader = new WaveFileReader(wavPath))
+                {
+                    if (waveFormat == null)
+                        waveFormat = waveFileReader.WaveFormat;
+                    else if (!waveFormat.Equals(waveFileReader.WaveFormat))
+                        throw new InvalidOperationException("Can't concatenate WAV Files that don't share the same format");
+                }
+
+                #region Get Duration
+                if (type == 1)
+                {
+                    using (StreamReader streamReader = new StreamReader(durPath))
+                    {
+                        string lastDur = "0";
+                        while (!streamReader.EndOfStream)
+                        {
+                            if (wordPhonemes[curWord][curSubWord].Value != type)
+                                throw new Exception("MisAlignment");
+                            string phon = wordPhonemes[curWord][curSubWord].Key;
+                            int sIndex = 0;
+                            int tIndex = 0;
+                            while ((tIndex = phon.IndexOf('|', sIndex)) >= 0)
+                            {
+                                string[] line = streamReader.ReadLine().Split(' ');
+                                string durPhon = line[2].Split("-+".ToCharArray())[1];
+                                if (phon.IndexOf(durPhon, sIndex) != sIndex)
+                                    throw new Exception("Mismatch phoneme and duration");
+                                sIndex = tIndex + 1;
+                                lastDur = line[1];
+                            }
+                            if (++curSubWord >= wordPhonemes[curWord].Count)
+                            {
+                                ByteIndexList.Add(totalBytes + GetByteFromDur(lastDur));
+                                curWord++;
+                                curSubWord = 0;
+                            }
+                        }
+                        streamReader.Close();
+                        totalBytes += GetByteFromDur(lastDur);
+                    }
+                }
+                else
+                {
+                    using (WaveFileReader waveFileReader = new WaveFileReader(wavPath))
+                    {
+                        totalBytes += waveFileReader.Length;
+                        waveFileReader.Close();
+                    }
+                    if (++curSubWord >= wordPhonemes[curWord].Count)
+                    {
+                        ByteIndexList.Add(totalBytes);
+                        curWord++;
+                        curSubWord = 0;
+                    }
+                }
+                #endregion
+            }
+
+            int bytes = ConcatWavFiles(waveList, waveFormat, outputPath);
 
             if (bytes != totalBytes)
                 throw new Exception("Miscalculating Total Bytes.");
             return totalBytes;
         }
 
-        public void Synthesize(List<List<string>> inputList, string outputPath)
+        private List<PairSI> NormalizePhoneme(List<List<PairSI>> wordPhonemes)
         {
-            foreach (List<string> word in inputList)
+            List<PairSI> nPhoneme = new List<PairSI>();
+            int oldType = 2;
+            for (int i = 0; i < wordPhonemes.Count; i++)
             {
+                List<PairSI> subPhonemes = wordPhonemes[i];
+                string fText = subPhonemes[0].Key;
+                int fType = subPhonemes[0].Value;
 
+                if (fType == 1)
+                    if (fType == oldType)
+                    {
+                        int last = nPhoneme.Count - 1;
+                        PairSI lastPhon = nPhoneme[last];
+                        nPhoneme[last] = new PairSI(lastPhon.Key + fText, fType);
+                    }
+                    else
+                    {
+                        subPhonemes[0] = new PairSI(silence + fText, fType);
+                        nPhoneme.Add(subPhonemes[0]);
+                    }
+                else
+                {
+                    if (fType != oldType)
+                    {
+                        int last = nPhoneme.Count - 1;
+                        PairSI lastPhon = nPhoneme[last];
+                        nPhoneme[last] = new PairSI(lastPhon.Key + silence, oldType);
+
+                        int lastSubWordIdx = wordPhonemes[i - 1].Count - 1;
+                        PairSI lastWord = wordPhonemes[i - 1][lastSubWordIdx];
+                        wordPhonemes[i - 1][lastSubWordIdx] = new PairSI(lastWord.Key + silence, oldType);
+                    }
+                    nPhoneme.Add(subPhonemes[0]);
+                }
+                for (int j = 1; j < subPhonemes.Count; j++)
+                    nPhoneme.Add(subPhonemes[j]);
+                oldType = nPhoneme[nPhoneme.Count - 1].Value;
+            }
+            int lastPhonIdx = nPhoneme.Count - 1;
+            PairSI phon = nPhoneme[lastPhonIdx];
+            if (phon.Value == 1)
+            {
+                nPhoneme[lastPhonIdx] = new PairSI(phon.Key + silence, phon.Value);
+                int lastWordIdx = wordPhonemes.Count - 1;
+                int lastSubWordIdx = wordPhonemes[lastWordIdx].Count - 1;
+                PairSI lastWord = wordPhonemes[lastWordIdx][lastSubWordIdx];
+                wordPhonemes[lastWordIdx][lastSubWordIdx] = new PairSI(lastWord.Key + silence, lastWord.Value);
+            }
+            return nPhoneme;
+        }
+        
+        private void GetSubPhoneme(string syllable, List<PairSI> subPhonemes)
+        {
+            // SPLIT BY TYPE
+            List<PairSI> sList = sentenceSplitter.Split(syllable);
+            if (sList.Count == 0)
+                sList.Add(new PairSI(syllable, 2));
+            foreach (PairSI pair in sList)
+            {
+                string text = pair.Key;
+                int type = pair.Value;
+                string phoneme = ConvertToPhoneme(text, type);
+                if (type != 2)
+                {
+                    phoneme = TrimPhoneme(phoneme);
+                    type = 1;
+                }
+                else
+                    phoneme += " ";
+                int last = subPhonemes.Count - 1;
+                if (last < 0)
+                    subPhonemes.Add(new PairSI(phoneme, type));
+                else
+                {
+                    PairSI lastPhon = subPhonemes[last];
+                    if (lastPhon.Value == type)
+                    {
+                        phoneme = lastPhon.Key + phoneme;
+                        subPhonemes.RemoveAt(last);
+                    }
+                    else if (type == 2)
+                    {
+                        subPhonemes.RemoveAt(last);
+                        subPhonemes.Add(new PairSI(lastPhon.Key + silence, lastPhon.Value));
+                    }
+                    else
+                        phoneme = silence + phoneme;
+                    subPhonemes.Add(new PairSI(phoneme, type));
+                }
             }
         }
+        
+        private string ConvertToPhoneme(string text, int type)
+        {
+            string tmp = g2p.GenTranscript(text, type);
+            Console.WriteLine(">>>" + tmp);
+            return phonemeConverter.Convert(tmp, type);
+        }
+
 
         private static long GetByteFromDur(string dur)
         {
