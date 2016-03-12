@@ -1,5 +1,7 @@
-﻿using System;
+﻿using NAudio.Wave;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +15,8 @@ namespace EPUBGenerator.MainLogic
         private LogicalDirection GoForward = LogicalDirection.Forward;
         private LogicalDirection GoBackward = LogicalDirection.Backward;
 
+        private LinkedListNode<RunWord> Node { get; set; }
+
         public InlineCollection Inlines { get { return ElementStart.Paragraph.Inlines; } }
         public RunWord PreviousRun { get { return PreviousInline as RunWord; } }
         public RunWord NextRun { get { return NextInline as RunWord; } }
@@ -23,7 +27,12 @@ namespace EPUBGenerator.MainLogic
         public bool IsSelected { get; set; }
         public Brush NormalModeBackground { get { return IsSelected? ProjectProperties.SelectedWord : null; } }
         public Brush EditModeBackground { get; set; }
-        
+
+
+        private MemoryStream MemoryStream;
+        private WaveStream WaveStream;
+        public IWavePlayer Player { get; set; }
+
         public RunWord(Word word) : base(word.OriginalText)
         {
             Word = word;
@@ -55,6 +64,7 @@ namespace EPUBGenerator.MainLogic
             Word.MergeWith(nextRun.Word);
             Inlines.Remove(nextRun);
             Text = Word.OriginalText;
+            InitiateSentenceWavePlayer();
             ApplyAvailableBrush(ProjectProperties.MergedWords);
         }
         
@@ -68,6 +78,7 @@ namespace EPUBGenerator.MainLogic
             TextPointer insertPos = pointer.GetNextContextPosition(GoForward);
             while (insertPos != null && insertPos.GetPointerContext(GoBackward) != TextPointerContext.ElementEnd)
                 insertPos = insertPos.GetNextContextPosition(GoForward);
+            InitiateSentenceWavePlayer();
             return new RunWord(newWord, insertPos);
         }
 
@@ -105,5 +116,52 @@ namespace EPUBGenerator.MainLogic
             NextRun.ApplyAvailableBrush(brushes);
         }
         
+        public void InitiateWavePlayer(FileStream fileStream)
+        {
+            byte[] buffer = new byte[1024];
+
+            fileStream.Position = 16;
+            fileStream.Read(buffer, 0, 4);
+            int headSize = BitConverter.ToInt32(buffer, 0) + 28; // 44 or 46
+
+            MemoryStream = new MemoryStream();
+            fileStream.Position = 0;
+            fileStream.Read(buffer, 0, headSize);
+            MemoryStream.Write(buffer, 0, headSize);
+
+            long count = Word.End - Word.Begin;
+            fileStream.Position = headSize + Word.Begin;
+            while (count > 1024)
+            {
+                fileStream.Read(buffer, 0, 1024);
+                MemoryStream.Write(buffer, 0, 1024);
+                count -= 1024;
+            }
+            fileStream.Read(buffer, 0, (int)count);
+            MemoryStream.Write(buffer, 0, (int)count);
+
+            MemoryStream.Position = 0;
+            WaveStream = new WaveFileReader(MemoryStream);
+            Player = new WaveOut(WaveCallbackInfo.FunctionCallback());
+            Player.Init(WaveStream);
+        }
+
+        public void InitiateSentenceWavePlayer()
+        {
+            using (FileStream fileStream = File.OpenRead(Sentence.WavPath))
+            {
+                InitiateWavePlayer(fileStream);
+                for (RunWord prev = PreviousRun; prev != null && prev.Sentence.Equals(Sentence); prev = prev.PreviousRun)
+                    prev.InitiateWavePlayer(fileStream);
+                for (RunWord next = NextRun; next != null && next.Sentence.Equals(Sentence); next = next.NextRun)
+                    next.InitiateWavePlayer(fileStream);
+            }
+        }
+
+        public void Play()
+        {
+            WaveStream.Position = 0;
+            Player.Play();
+        }
     }
 }

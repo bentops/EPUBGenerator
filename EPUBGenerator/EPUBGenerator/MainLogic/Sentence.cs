@@ -10,7 +10,7 @@ namespace EPUBGenerator.MainLogic
 {
     class Sentence
     {
-        private LinkedListNode<Sentence> node { get; set; }
+        private LinkedListNode<Sentence> Node { get; set; }
 
         public int ID { get; private set; }
         public String SID { get { return "S" + ID.ToString("D6"); } }
@@ -23,8 +23,8 @@ namespace EPUBGenerator.MainLogic
         public String OriginalText { get { return Block.Text.Substring(StartIdx, Length); } }
         public int StartIdx { get; private set; }
         public int Length { get { return (Next == null ? Block.Length : Next.StartIdx) - StartIdx; } }
-        public Sentence Previous { get { return node.Previous == null ? null : node.Previous.Value; } }
-        public Sentence Next { get { return node.Next == null ? null : node.Next.Value; } }
+        public Sentence Previous { get { return Node.Previous == null ? null : Node.Previous.Value; } }
+        public Sentence Next { get { return Node.Next == null ? null : Node.Next.Value; } }
         public LinkedList<Word> Words { get; private set; }
 
         public long Bytes { get; private set; }
@@ -131,7 +131,7 @@ namespace EPUBGenerator.MainLogic
             if (!Next.Equals(nextSentence))
                 throw new Exception("Two sentences (to be merged) are not adjacent.");
             
-            Block.Sentences.Remove(nextSentence.node);
+            Block.Sentences.Remove(nextSentence.Node);
             foreach (Word word in nextSentence.Words)
                 word.MoveTo(this);
             Bytes += nextSentence.Bytes;
@@ -161,7 +161,7 @@ namespace EPUBGenerator.MainLogic
             if (list.Last != null && list.Last.Value.StartIdx == StartIdx)
                 list.RemoveLast();
             if (StartIdx < Block.Length)
-                node = list.AddLast(this);
+                Node = list.AddLast(this);
         }
         #endregion
 

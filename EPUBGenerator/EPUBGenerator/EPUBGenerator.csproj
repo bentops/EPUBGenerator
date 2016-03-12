@@ -110,6 +110,7 @@
     <Compile Include="MainLogic\ProjectProperties.cs" />
     <Compile Include="MainLogic\RunWord.cs" />
     <Compile Include="MainLogic\Sentence.cs" />
+    <Compile Include="MainLogic\SentencePlayer.cs" />
     <Compile Include="MainLogic\Word.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

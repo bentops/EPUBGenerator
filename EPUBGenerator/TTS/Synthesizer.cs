@@ -16,7 +16,7 @@ namespace TTS
         private CPhonemeConverter phonemeConverter;
         private CSynthesizer synthesizer;
         private static string silence = @"sil;7;0|";
-
+        
         public List<int> TextIndexList { get; private set; }
         public List<long> ByteIndexList { get; private set; }
 

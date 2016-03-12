@@ -12,17 +12,17 @@ namespace EPUBGenerator.MainLogic
     {
         private String pronunciation;
 
-        private int sIdx { get; set; }
-        private LinkedListNode<Word> node { get; set; }
+        private int _SIndex { get; set; }
+        private LinkedListNode<Word> Node { get; set; }
 
         public Content Content { get { return Sentence.Content; } }
         public Block Block { get { return Sentence.Block; } }
         public Sentence Sentence { get; private set; }
         public String OriginalText { get { return Block.Text.Substring(StartIdx, Length); } }
-        public int StartIdx { get { return sIdx + Sentence.StartIdx; } }
-        public int Length { get { return (Next == null ? Sentence.Length : Next.sIdx) - sIdx; } }
-        public Word Previous { get { return node.Previous == null ? null : node.Previous.Value; } }
-        public Word Next { get { return node.Next == null ? null : node.Next.Value; } }
+        public int StartIdx { get { return _SIndex + Sentence.StartIdx; } }
+        public int Length { get { return (Next == null ? Sentence.Length : Next._SIndex) - _SIndex; } }
+        public Word Previous { get { return Node.Previous == null ? null : Node.Previous.Value; } }
+        public Word Next { get { return Node.Next == null ? null : Node.Next.Value; } }
 
         public long Begin { get; private set; }
         public long End { get { return (Next == null ? Sentence.Bytes : Next.Begin); } }
@@ -33,7 +33,7 @@ namespace EPUBGenerator.MainLogic
         #region ----------- NEW PROJECT ------------
         public Word(int start, long begin, Sentence sentence)
         {
-            sIdx = start;
+            _SIndex = start;
             Begin = begin;
             Sentence = sentence;
             AppendTo(Sentence.Words);
@@ -44,7 +44,7 @@ namespace EPUBGenerator.MainLogic
         public XElement ToXml()
         {
             XElement xWord = new XElement("Word");
-            xWord.Add(new XAttribute("start", sIdx));
+            xWord.Add(new XAttribute("start", _SIndex));
             xWord.Add(new XAttribute("begin", Begin));
             xWord.Add(new XAttribute("text", OriginalText));
             if (pronunciation != null)
@@ -62,7 +62,7 @@ namespace EPUBGenerator.MainLogic
                 String value = attribute.Value;
                 switch (attribute.Name.ToString())
                 {
-                    case "start": sIdx = int.Parse(value); break;
+                    case "start": _SIndex = int.Parse(value); break;
                     case "begin": Begin = int.Parse(value); break;
                     case "pronun": Pronunciation = value; break;
                 }
@@ -74,14 +74,14 @@ namespace EPUBGenerator.MainLogic
         #region ----------- EDIT PROJECT ------------
         private Word(int start, Word word)
         {
-            sIdx = start;
+            _SIndex = start;
             Sentence = word.Sentence;
-            AddAfter(word.node, Sentence.Words);
+            AddAfter(word.Node, Sentence.Words);
         }
 
         public Word SplitAt(int index)
         {
-            Word newWord = new Word(sIdx + index, this);
+            Word newWord = new Word(_SIndex + index, this);
             Sentence.Resynthesize();
             return newWord;
         }
@@ -93,13 +93,13 @@ namespace EPUBGenerator.MainLogic
             if (!Next.Equals(nextWord))
                 throw new Exception("Two words (to be merged) are not adjacent.");
 
-            Sentence.Words.Remove(nextWord.node);
+            Sentence.Words.Remove(nextWord.Node);
             Sentence.Resynthesize();
         }
 
         public void MoveTo(Sentence prevSentence)
         {
-            sIdx = StartIdx - prevSentence.StartIdx;
+            _SIndex = StartIdx - prevSentence.StartIdx;
             Begin += prevSentence.Bytes;
             Sentence = prevSentence;
             AppendTo(Sentence.Words);
@@ -118,15 +118,15 @@ namespace EPUBGenerator.MainLogic
                 throw new Exception("Words list is null, cannot append.");
             if (list.Last != null && list.Last.Value.StartIdx == StartIdx)
                 list.RemoveLast();
-            if (sIdx < Sentence.Length)
-                node = list.AddLast(this);
+            if (_SIndex < Sentence.Length)
+                Node = list.AddLast(this);
         }
 
         private void AddAfter(LinkedListNode<Word> refNode, LinkedList<Word> list)
         {
             if (list == null)
                 throw new Exception("Words list is null, cannot append.");
-            node = list.AddAfter(refNode, this);
+            Node = list.AddAfter(refNode, this);
         }
         #endregion
     }
