@@ -37,6 +37,7 @@ namespace EPUBGenerator.Pages
 
         private void insButton_Click(object sender, RoutedEventArgs e)
         {
+            InstructionWindow.setLastWindowLocation(Application.Current.MainWindow.Top, Application.Current.MainWindow.Left);
             InstructionWindow instructionWindow = new InstructionWindow();
             instructionWindow.Show();
             InstructionSwitcher.Switch(InstructionSwitcher.home);

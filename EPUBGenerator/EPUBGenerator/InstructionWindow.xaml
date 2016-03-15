@@ -9,7 +9,7 @@
         Height="610" 
         Width="800"
         Margin="0" 
-        WindowStartupLocation="CenterScreen"
+        WindowStartupLocation="Manual"
         ResizeMode="CanMinimize" Icon="Resources/logoMiniR.png" Cursor="Arrow">
 
     <Grid Width="800" Margin="0,0,-6,-2"/>

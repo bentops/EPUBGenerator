@@ -20,15 +20,26 @@ namespace EPUBGenerator
     /// </summary>
     public partial class InstructionWindow : Window
     {
+        private static double LastWindowTop;
+        private static double LastWindowLeft;
+
         public InstructionWindow()
         {
             InitializeComponent();
             InstructionSwitcher.pageSwitcher = this;
             InstructionSwitcher.home = new Home();
 
+            this.Left = LastWindowLeft - 20;
+            this.Top = LastWindowTop - 20;
+
             InstructionSwitcher.Switch(InstructionSwitcher.home);
         }
 
+        public static void setLastWindowLocation(double top, double left)
+        {
+            LastWindowTop = top;
+            LastWindowLeft = left;
+        }
 
         public void Navigate(Page nextPage)
         {
