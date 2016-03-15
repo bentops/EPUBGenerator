@@ -37,7 +37,9 @@ namespace EPUBGenerator.Pages
 
         private void insButton_Click(object sender, RoutedEventArgs e)
         {
-
+            InstructionWindow instructionWindow = new InstructionWindow();
+            instructionWindow.Show();
+            InstructionSwitcher.Switch(InstructionSwitcher.home);
         }
 
 

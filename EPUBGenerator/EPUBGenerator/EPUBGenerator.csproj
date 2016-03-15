@@ -101,6 +101,13 @@
     <Compile Include="EditWindow.xaml.cs">
       <DependentUpon>EditWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InstructionPages\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstructionSwitcher.cs" />
+    <Compile Include="InstructionWindow.xaml.cs">
+      <DependentUpon>InstructionWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainLogic\Block.cs" />
     <Compile Include="MainLogic\SoundEngine\AudioPlaybackEngine.cs" />
     <Compile Include="MainLogic\SoundEngine\CachedSound.cs" />
@@ -149,6 +156,14 @@
       <DependentUpon>TestPartTwo01.xaml</DependentUpon>
     </Compile>
     <Page Include="EditWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InstructionPages\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InstructionWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -279,6 +294,7 @@
     <Resource Include="Resources\exportAsD.png" />
     <Resource Include="Resources\exportAsTxtD.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

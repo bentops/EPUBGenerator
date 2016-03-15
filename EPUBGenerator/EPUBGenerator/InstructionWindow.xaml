@@ -1,0 +1,16 @@
+﻿<Window x:Class="EPUBGenerator.InstructionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EPUBGenerator"
+        mc:Ignorable="d"
+        Title="INSTRUCTION | EPUB FULL-TEXT-AUDIO BOOK GENERATOR" 
+        Height="610" 
+        Width="800"
+        Margin="0" 
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize" Icon="Resources/logoMiniR.png" Cursor="Arrow">
+
+    <Grid Width="800" Margin="0,0,-6,-2"/>
+</Window>
