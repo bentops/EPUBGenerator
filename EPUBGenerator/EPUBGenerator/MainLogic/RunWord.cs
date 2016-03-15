@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Documents;
 using System.Windows.Media;
+using EPUBGenerator.MainLogic.SoundEngine;
 
 namespace EPUBGenerator.MainLogic
 {
@@ -15,7 +16,10 @@ namespace EPUBGenerator.MainLogic
         private LogicalDirection GoForward = LogicalDirection.Forward;
         private LogicalDirection GoBackward = LogicalDirection.Backward;
 
+        private CachedSoundSampleProvider _OnPlaying;
+
         private LinkedListNode<RunWord> Node { get; set; }
+        private CachedSoundSampleProvider CachedSound { get { return new CachedSoundSampleProvider(Sentence.CachedSound, Word.Begin / 2, Word.End / 2); } }
 
         public InlineCollection Inlines { get { return ElementStart.Paragraph.Inlines; } }
         public RunWord PreviousRun { get { return PreviousInline as RunWord; } }
@@ -23,6 +27,7 @@ namespace EPUBGenerator.MainLogic
         public Sentence Sentence { get { return Word.Sentence; } }
         public Word Word { get; set; }
         
+        public bool IsPlayMode { get; set; }
         public bool IsEdited { get; set; }
         public bool IsSelected { get; set; }
         public Brush NormalModeBackground { get { return IsSelected? ProjectProperties.SelectedWord : null; } }
@@ -37,13 +42,12 @@ namespace EPUBGenerator.MainLogic
         {
             Word = word;
         }
-
+        
         public RunWord(Word word, TextPointer pos) : base(word.OriginalText, pos)
         {
             Word = word;
-            InitiateSentenceWavePlayer();
         }
-
+        
         public void MergeWithNext()
         {
             RunWord nextRun = NextInline as RunWord;
@@ -66,7 +70,6 @@ namespace EPUBGenerator.MainLogic
             Inlines.Remove(nextRun);
             Text = Word.OriginalText;
             ApplyAvailableBrush(ProjectProperties.MergedWords);
-            InitiateSentenceWavePlayer();
         }
         
         public RunWord SplitAt(TextPointer pointer)
@@ -116,52 +119,37 @@ namespace EPUBGenerator.MainLogic
             NextRun.ApplyAvailableBrush(brushes);
         }
         
-        public void InitiateWavePlayer(FileStream fileStream)
+        public void PlayCachedSound()
         {
-            byte[] buffer = new byte[1024];
-
-            fileStream.Position = 16;
-            fileStream.Read(buffer, 0, 4);
-            int headSize = BitConverter.ToInt32(buffer, 0) + 28; // 44 or 46
-
-            MemoryStream = new MemoryStream();
-            fileStream.Position = 0;
-            fileStream.Read(buffer, 0, headSize);
-            MemoryStream.Write(buffer, 0, headSize);
-
-            long count = Word.End - Word.Begin;
-            fileStream.Position = headSize + Word.Begin;
-            while (count > 1024)
-            {
-                fileStream.Read(buffer, 0, 1024);
-                MemoryStream.Write(buffer, 0, 1024);
-                count -= 1024;
-            }
-            fileStream.Read(buffer, 0, (int)count);
-            MemoryStream.Write(buffer, 0, (int)count);
-
-            MemoryStream.Position = 0;
-            WaveStream = new WaveFileReader(MemoryStream);
-            Player = new WaveOut(WaveCallbackInfo.FunctionCallback());
-            Player.Init(WaveStream);
+            if (_OnPlaying != null)
+                _OnPlaying.Position = _OnPlaying.EndPosition;
+            AudioPlaybackEngine.Instance.PlaySound(_OnPlaying = CachedSound);
         }
 
-        public void InitiateSentenceWavePlayer()
+        public CachedSoundSampleProvider GetSentenceCachedSound()
         {
-            using (FileStream fileStream = File.OpenRead(Sentence.WavPath))
-            {
-                InitiateWavePlayer(fileStream);
-                for (RunWord prev = PreviousRun; prev != null && prev.Sentence.Equals(Sentence); prev = prev.PreviousRun)
-                    prev.InitiateWavePlayer(fileStream);
-                for (RunWord next = NextRun; next != null && next.Sentence.Equals(Sentence); next = next.NextRun)
-                    next.InitiateWavePlayer(fileStream);
-            }
+            return new CachedSoundSampleProvider(Sentence.CachedSound, Word.Begin / 2, Sentence.Bytes / 2);
         }
 
-        public void Play()
+        public bool IsIn(long position)
         {
-            WaveStream.Position = 0;
-            Player.Play();
+            return Word.Begin <= position && position <= Word.End;
+        }
+        
+        public void UsingNormalModeBackground()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                Background = NormalModeBackground;
+            }));
+        }
+
+        public void UsingEditModeBackground()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                Background = EditModeBackground;
+            }));
         }
     }
 }

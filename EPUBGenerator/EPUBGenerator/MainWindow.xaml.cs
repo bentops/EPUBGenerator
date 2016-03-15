@@ -21,7 +21,7 @@ namespace EPUBGenerator
     /// </summary>
     public partial class MainWindow : Window
     {
-        int test = 0;
+        int test = 2;
         public MainWindow()
         {
             InitializeComponent();

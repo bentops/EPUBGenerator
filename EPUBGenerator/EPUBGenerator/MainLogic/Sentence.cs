@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EPUBGenerator.MainLogic.SoundEngine;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,6 +27,7 @@ namespace EPUBGenerator.MainLogic
         public Sentence Previous { get { return Node.Previous == null ? null : Node.Previous.Value; } }
         public Sentence Next { get { return Node.Next == null ? null : Node.Next.Value; } }
         public LinkedList<Word> Words { get; private set; }
+        public CachedSound CachedSound { get; private set; }
 
         public long Bytes { get; private set; }
 
@@ -150,6 +152,12 @@ namespace EPUBGenerator.MainLogic
             int i = 0;
             foreach (Word word in Words)
                 word.SetBegin(bList[i++]);
+            GetCachedSound();
+        }
+
+        public void GetCachedSound()
+        {
+            CachedSound = new CachedSound(WavPath);
         }
         #endregion
 
