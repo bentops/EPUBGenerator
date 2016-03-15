@@ -102,11 +102,18 @@
       <DependentUpon>EditWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainLogic\Block.cs" />
+    <Compile Include="MainLogic\SoundEngine\AudioPlaybackEngine.cs" />
+    <Compile Include="MainLogic\SoundEngine\CachedSound.cs" />
+    <Compile Include="MainLogic\SoundEngine\CachedSoundSampleProvider.cs" />
     <Compile Include="MainLogic\Content.cs" />
     <Compile Include="MainLogic\ProgressUpdater.cs" />
     <Compile Include="MainLogic\Project.cs" />
     <Compile Include="ISwitchable.cs" />
+    <Compile Include="MainLogic\ProjectInfo.cs" />
+    <Compile Include="MainLogic\ProjectProperties.cs" />
+    <Compile Include="MainLogic\RunWord.cs" />
     <Compile Include="MainLogic\Sentence.cs" />
+    <Compile Include="MainLogic\SoundEngine\PositionChangedEventArgs.cs" />
     <Compile Include="MainLogic\Word.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

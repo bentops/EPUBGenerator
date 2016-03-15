@@ -12,141 +12,40 @@ using TTS;
 
 namespace EPUBGenerator.MainLogic
 {
-    class Project
+    static class Project
     {
-        public static Project Instance { get; private set; }
-        public static Synthesizer Synthesizer { get; private set; }
-        public static ProgressUpdater ProgressUpdater { get; set; }
+        public static readonly Synthesizer Synthesizer = new Synthesizer();
 
         #region Public Methods
-        public static void Create(String epubPath, String projDir)
+        public static void Export(String epubProjPath, String outputPath, ProgressUpdater progressUpdater)
         {
-            new Project(epubPath, projDir);
-            Save();
-            Export(Path.Combine(Instance.ProjectDirectory, "output.epub"));
-        }
+            ProjectInfo projInfo = new ProjectInfo(epubProjPath);
+            File.Copy(projInfo.EpubPath, outputPath, true);
+            Epub epubFile = projInfo.EpubFile;
 
-        public static void Save()
-        {
-            if (Instance == null)
-                throw new Exception("Cannot Save Null Project Instance.");
-            Instance.SaveContent();
-        }
-
-        public static void Export(String savePath)
-        {
-            if (Instance == null)
-                throw new Exception("Cannot Export Null Project Instance.");
-            Instance.ExportEpub(savePath);
-        }
-        #endregion
-
-        public bool Saved { get; private set; }
-
-
-        public String ProjectDirectory { get; private set; }
-        private String EpubName { get; set; }
-        private String EpubPath { get; set; }
-
-        private Epub EpubReader { get; set; }
-        private List<Content> Contents { get; set; }
-
-        private String PackageDir;
-        private Dictionary<String, String> Dirs;
-
-        public int SentenceCount
-        {
-            get
-            {
-                int count = 0;
-                foreach (Content content in Contents)
-                    count += content.SentenceCount;
-                return count;
-            }
-        }
-
-
-        private Project(String epubPath, String projDir)
-        {
-            Instance = this;
-            EpubReader = new Epub(epubPath); // Use original epubPath to read data
-
-            #region ------------- Create Project Directories & Main Subdirectories -------------
-            Dirs = new Dictionary<String, String>();
-            ProjectDirectory = projDir;
-            PackageDir = EpubReader.GetOpfDirectory();
-
-            // @"ProjDir\Resources"
-            AddDirectory("Resources", Path.Combine(ProjectDirectory, "Resources"));
-            // @"ProjDir\Resources\Package"
-            AddDirectory("Package", Path.Combine(Dirs["Resources"], PackageDir));
-
-            // @"ProjDir\Saves"
-            AddDirectory("Saves", Path.Combine(ProjectDirectory, "Saves"));
-            // @"ProjDir\Saves\Audio"
-            AddDirectory("Audio", Path.Combine(Dirs["Saves"], "Audio"));
-
-            // @"ProjDir\Temp"
-            AddDirectory("Temp", Path.Combine(ProjectDirectory, "Temp"));
-
-            // @"ProjDir\Export"
-            AddDirectory("Export", Path.Combine(ProjectDirectory, "Export"));
-            #endregion
-
-            Synthesizer = new Synthesizer();
-            Synthesizer.TempPath = Dirs["Temp"];
-
-            GenerateResource(epubPath);
-            GenerateAudio();
-        }
-
-        private void SaveContent()
-        {
-            if (Saved) return;
-
-            Console.WriteLine("Total Content Pages to Save: " + Contents.Count);
-
-            foreach (Content content in Contents)
-            {
-                content.RunSentenceID();
-                // Save Content Detail in @"ProjDir\Saves\Package"
-                String contentSavePath = Path.Combine(Dirs["Saves"], content.Source);
-                Directory.CreateDirectory(Path.GetDirectoryName(contentSavePath));
-                using (StreamWriter streamWriter = new StreamWriter(contentSavePath))
-                {
-                    streamWriter.Write(content.ToXml());
-                    streamWriter.Close();
-                }
-            }
-
-            Saved = true;
-        }
-
-        private void ExportEpub(String savePath)
-        {
-            SaveContent();
-
-            File.Copy(EpubPath, savePath, true);
-            using (ZipArchive archive = ZipFile.Open(savePath, ZipArchiveMode.Update))
+            ClearDirectory(projInfo.Temp);
+            using (ZipArchive archive = ZipFile.Open(outputPath, ZipArchiveMode.Update))
             {
                 long totalBytes = 0;
 
                 XNamespace smilXns = @"http://www.w3.org/ns/SMIL";
                 XNamespace epubXns = @"http://www.idpf.org/2007/ops";
 
-                XDocument xOpf = XDocument.Parse(EpubReader.OpfFile.Content);
+                XDocument xOpf = XDocument.Parse(epubFile.OpfFile.Content);
                 XElement rootOpf = xOpf.Root;
                 XNamespace xnsOpf = rootOpf.Attribute("xmlns") != null ? rootOpf.Attribute("xmlns").Value : XNamespace.None;
                 XElement metadataOpf = rootOpf.Element(xnsOpf + "metadata");
                 XElement manifestOpf = rootOpf.Element(xnsOpf + "manifest");
 
-                int total = 4 * Contents.Count + SentenceCount + 1;
-                ProgressUpdater.Initialize(total);
-                foreach (Content content in Contents)
+                int total = 4 * projInfo.ContentList.Count + 1;
+                progressUpdater.Initialize(total);
+                foreach (String contentSrc in projInfo.ContentList.Values)
                 {
+                    Content content = new Content(contentSrc, projInfo);
+
                     long contentBytes = 0;
-                    String smilID = "SMIL-" + content.Order;
-                    String audioID = "A-" + content.Order;
+                    String smilID = GetSmilID(content.Order);
+                    String audioID = GetAudioID(content.Order);
 
                     #region Overwrite XHTML files
                     {
@@ -158,19 +57,19 @@ namespace EPUBGenerator.MainLogic
                             int id = Int32.Parse(xText.Value.Split('-')[1]);
                             if (id != count)
                                 throw new Exception("Wrong ordering: Blocks");
+
                             XElement parent = xText.Parent;
                             foreach (Sentence sentence in content.Blocks[id].Sentences)
                             {
                                 XElement xSentence = new XElement(content.Xns + "span");
-                                xSentence.Add(new XAttribute("id", sentence.SID));
+                                xSentence.Add(new XAttribute("id", GetSpanID(sentence)));
                                 xSentence.Add(new XText(sentence.OriginalText));
                                 parent.Add(xSentence);
                             }
                             xText.Remove();
                             count++;
                         }
-
-                        String xhtmlPath = Path.Combine(PackageDir, content.Source);
+                        String xhtmlPath = Path.Combine(projInfo.PackageName, content.Source);
                         ZipArchiveEntry xhtmlEntry = archive.GetEntry(xhtmlPath.Replace('\\', '/'));
                         if (xhtmlEntry == null)
                             xhtmlEntry = archive.CreateEntry(xhtmlPath);
@@ -183,7 +82,7 @@ namespace EPUBGenerator.MainLogic
                         xhtmlEntry.LastWriteTime = DateTimeOffset.UtcNow.LocalDateTime;
                     }
 
-                    ProgressUpdater.Increment();
+                    progressUpdater.Increment();
                     #endregion
 
                     #region Create SMIL files
@@ -208,7 +107,7 @@ namespace EPUBGenerator.MainLogic
                                 String end = GetClockValue(contentBytes);
 
                                 XElement xText = new XElement(smilXns + "text");
-                                xText.Add(new XAttribute("src", fileName + "#" + sentence.SID));
+                                xText.Add(new XAttribute("src", fileName + "#" + GetSpanID(sentence)));
                                 XElement xAudio = new XElement(smilXns + "audio");
                                 xAudio.Add(new XAttribute("clipBegin", begin));
                                 xAudio.Add(new XAttribute("clipEnd", end));
@@ -220,7 +119,7 @@ namespace EPUBGenerator.MainLogic
                             }
                         }
 
-                        String smilPath = Path.Combine(PackageDir, content.Source) + ".smil";
+                        String smilPath = Path.Combine(projInfo.PackageName, content.Source) + ".smil";
                         ZipArchiveEntry smilEntry = archive.CreateEntry(smilPath);
                         using (StreamWriter streamWriter = new StreamWriter(smilEntry.Open()))
                         {
@@ -231,7 +130,7 @@ namespace EPUBGenerator.MainLogic
                         smilEntry.LastWriteTime = DateTimeOffset.UtcNow.LocalDateTime;
                     }
 
-                    ProgressUpdater.Increment();
+                    progressUpdater.Increment();
                     #endregion
 
                     #region Modify Opf file
@@ -259,16 +158,14 @@ namespace EPUBGenerator.MainLogic
                         xhtml.AddAfterSelf(smil, audio);
                     }
 
-                    ProgressUpdater.Increment();
+                    progressUpdater.Increment();
                     #endregion
 
                     #region Merge Audio files
                     {
-                        String contentAudioPath = Path.Combine(Dirs["Audio"], content.CID);
-
                         // Check wheter every WavFiles has the same wav-format.
                         WaveFormat waveFormat = null;
-                        foreach (String sourceFile in Directory.EnumerateFiles(contentAudioPath, "*.wav"))
+                        foreach (String sourceFile in Directory.EnumerateFiles(content.ContentAudio, "*.wav"))
                         {
                             using (WaveFileReader waveFileReader = new WaveFileReader(sourceFile))
                             {
@@ -283,25 +180,25 @@ namespace EPUBGenerator.MainLogic
                         {
                             byte[] buffer = new byte[1024];
                             int read;
-                            String outputWave = Path.Combine(Dirs["Temp"], content.CID + ".wav");
+                            String outputWave = Path.Combine(projInfo.Temp, content.CID + ".wav");
                             using (WaveFileWriter waveFileWriter = new WaveFileWriter(outputWave, waveFormat))
                             {
                                 foreach (Block block in content.Blocks)
                                 {
                                     foreach (Sentence sentence in block.Sentences)
                                     {
-                                        String sourceFile = Path.Combine(contentAudioPath, sentence.SID + ".wav");
+                                        String sourceFile = Path.Combine(sentence.WavPath);
                                         using (WaveFileReader waveFileReader = new WaveFileReader(sourceFile))
                                         {
                                             while ((read = waveFileReader.Read(buffer, 0, buffer.Length)) > 0)
                                                 waveFileWriter.Write(buffer, 0, read);
                                         }
-                                        ProgressUpdater.Increment();
+                                        //ProgressUpdater.Increment();
                                     }
                                 }
                             }
 
-                            String outputMP3 = Path.Combine(Dirs["Temp"], content.CID + ".mp3");
+                            String outputMP3 = Path.Combine(projInfo.Temp, content.CID + ".mp3");
                             using (WaveFileReader waveReader = new WaveFileReader(outputWave))
                             {
                                 using (MediaFoundationResampler resampled = new MediaFoundationResampler(waveReader, new WaveFormat(44100, 1)))
@@ -311,12 +208,12 @@ namespace EPUBGenerator.MainLogic
                                 }
                             }
 
-                            String audioPath = Path.Combine(PackageDir, content.Source) + ".mp3";
+                            String audioPath = Path.Combine(projInfo.PackageName, content.Source) + ".mp3";
                             archive.CreateEntryFromFile(outputMP3, audioPath);
                         }
                     }
 
-                    ProgressUpdater.Increment();
+                    progressUpdater.Increment();
                     #endregion
                 }
 
@@ -325,7 +222,7 @@ namespace EPUBGenerator.MainLogic
                 totalDuration.Add(GetClockValue(totalBytes));
                 metadataOpf.Add(totalDuration);
 
-                String opfPath = EpubReader.GetOpfPath();
+                String opfPath = epubFile.GetOpfPath();
                 ZipArchiveEntry opfEntry = archive.GetEntry(opfPath.Replace('\\', '/'));
                 if (opfEntry == null)
                     opfEntry = archive.CreateEntry(opfPath);
@@ -338,77 +235,64 @@ namespace EPUBGenerator.MainLogic
                 opfEntry.LastWriteTime = DateTimeOffset.UtcNow.LocalDateTime;
             }
 
-            ProgressUpdater.Increment();
+            ClearDirectory(projInfo.Export);
+            ZipFile.ExtractToDirectory(outputPath, projInfo.Export);
 
-            ClearDirectory(Dirs["Export"]);
-            ZipFile.ExtractToDirectory(savePath, Dirs["Export"]);
+            progressUpdater.Increment();
+        }
+        
+        public static bool IsRandom(int id)
+        {
+            return ProjectProperties.MinRandomValue <= id && id < ProjectProperties.MaxRandomValue;
         }
 
+        public static bool IsRandom(String wavName)
+        {
+            return IsRandom(GetIDFromWavName(wavName));
+        }
+
+        public static int GetIDFromWavName(String wavName)
+        {
+            return int.Parse(Path.GetFileNameWithoutExtension(wavName).Substring(1));
+        }
+
+        public static String GetWavNameFromID(int sID)
+        {
+            return "S" + sID.ToString("D" + ProjectProperties.Digits) + ".wav";
+        }
+
+        public static int GetRandomUniqueID(String path)
+        {
+            int randID = 0;
+            string wavPath = "";
+            do
+            {
+                Random random = new Random();
+                randID = random.Next(ProjectProperties.MinRandomValue, ProjectProperties.MaxRandomValue);
+                wavPath = Path.Combine(path, GetWavNameFromID(randID));
+            } while (File.Exists(wavPath));
+            return randID;
+        }
+
+        public static void ClearDirectory(String path)
+        {
+            foreach (String file in Directory.GetFiles(path))
+                File.Delete(file);
+            foreach (String directory in Directory.GetDirectories(path))
+                Directory.Delete(directory, true);
+        }
+
+        public static String GetDirectory(params String[] paths)
+        {
+            String path = Path.Combine(paths);
+            if (!Directory.Exists(path))
+                Directory.CreateDirectory(path);
+            return path;
+        }
+        #endregion
+        
         #region Private Methods
-        private void AddDirectory(String dirName, String dirPath)
-        {
-            Dirs.Add(dirName, Directory.CreateDirectory(dirPath).FullName);
-        }
-
-        private void GetAllContents(List<NavPoint> navList)
-        {
-            foreach (NavPoint nav in navList)
-            {
-                if (nav.ContentData != null)
-                    Contents.Add(new Content(nav));
-                GetAllContents(nav.Children);
-            }
-        }
-
-        private void GenerateResource(String epubPath)
-        {
-            EpubName = "Original_" + Path.GetFileName(epubPath);
-            EpubPath = Path.Combine(Dirs["Resources"], EpubName); // Path of the Epub-Copy in this Project
-            File.Copy(epubPath, EpubPath);
-
-            Sentence.Total = 0;
-            Contents = new List<Content>();
-            GetAllContents(EpubReader.TOC);
-
-            Console.WriteLine("Total Content Pages: " + Contents.Count);
-            ProgressUpdater.Initialize(Contents.Count);
-            foreach (Content content in Contents)
-            {
-                // Save Content Structure in @"ProjDir\Resources\Package"
-                String contentRescPath = Path.Combine(Dirs["Package"], content.Source);
-                Directory.CreateDirectory(Path.GetDirectoryName(contentRescPath));
-                using (StreamWriter streamWriter = new StreamWriter(contentRescPath))
-                {
-                    streamWriter.Write(content.Root);
-                    streamWriter.Close();
-                }
-                ProgressUpdater.Increment();
-            }
-        }
-
-        private void GenerateAudio()
-        {
-            int totalSentence = SentenceCount;
-            Console.WriteLine("Total Sentences: " + totalSentence);
-            ProgressUpdater.Initialize(totalSentence);
-            foreach (Content content in Contents)
-            {
-                String audioPath = Path.Combine(Dirs["Audio"], content.CID);
-                Directory.CreateDirectory(audioPath);
-
-                int sCount = 0;
-                foreach (Block block in content.Blocks)
-                    foreach (Sentence sentence in block.Sentences)
-                    {
-                        String outputPath = Path.Combine(audioPath, "S" + sCount.ToString("D6") + ".wav");
-                        sentence.Synthesize(outputPath);
-                        sCount++;
-                        ProgressUpdater.Increment();
-                    }
-            }
-        }
-
-        private List<XText> GetTextBlocks(XElement element)
+        private static List<XText> GetTextBlocks(XElement element)
         {
             List<XText> xTexts = new List<XText>();
             foreach (XNode node in element.Nodes())
@@ -420,8 +304,23 @@ namespace EPUBGenerator.MainLogic
             }
             return xTexts;
         }
+        
+        private static String GetSmilID(int cOrder)
+        {
+            return "SMIL-" + cOrder;
+        }
 
-        private String GetClockValue(long bytes)
+        private static String GetAudioID(int cOrder)
+        {
+            return "A-" + cOrder;
+        }
+
+        private static String GetSpanID(Sentence sentence)
+        {
+            return sentence.Content.CID + "-" + sentence.SID;
+        }
+
+        private static String GetClockValue(long bytes)
         {
             long msToHr = 3600000;
             long msToMin = 60000;
@@ -443,27 +342,5 @@ namespace EPUBGenerator.MainLogic
         }
         #endregion
 
-
-        public int GetRandomUniqueID(Content content)
-        {
-            string audioPath = Path.Combine(Dirs["Audio"], content.CID);
-            int randID = 0;
-            string wavPath = "";
-            do
-            {
-                Random random = new Random();
-                randID = random.Next(1000000);
-                wavPath = Path.Combine(audioPath, randID.ToString("D6") + ".wav");
-            } while (File.Exists(wavPath));
-            return randID;
-        }
-
-        public static void ClearDirectory(String path)
-        {
-            foreach (String file in Directory.GetFiles(path))
-                File.Delete(file);
-            foreach (String directory in Directory.GetDirectories(path))
-                Directory.Delete(directory, true);
-        }
     }
 }

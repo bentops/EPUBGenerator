@@ -17,6 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using UserControl = System.Windows.Controls.UserControl;
+using Path = System.IO.Path;
 
 namespace EPUBGenerator.Pages
 {
@@ -25,7 +26,9 @@ namespace EPUBGenerator.Pages
     /// </summary>
     public partial class CreateBook3 : UserControl
     {
-        private String savePath;
+        private String _EpubProjPath { get { return Path.Combine(projPath, projName + ".epubproj"); } }
+        private ProgressUpdater _ProgressUpdater;
+        private String _ExportPath;
         private string projName;
         private string projPath;
         private string epubPath;
@@ -33,6 +36,7 @@ namespace EPUBGenerator.Pages
         private int textFiles;
         private int audioFiles;
         private int avgSentences;
+        
 
         public CreateBook3()
         {
@@ -65,21 +69,25 @@ namespace EPUBGenerator.Pages
             System.Windows.Forms.Application.Restart();
             System.Windows.Application.Current.Shutdown();
         }
-
-
+        
         private void exportbutton_Click(object sender, RoutedEventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.InitialDirectory = Project.Instance.ProjectDirectory;
+            saveFileDialog.InitialDirectory = projPath;
+            saveFileDialog.Filter = "EPUB files (*.epub)|*.epub";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 //INSERT Select .EPUB file location here//
-                savePath = saveFileDialog.FileName;
+                _ExportPath = saveFileDialog.FileName;
 
                 this.IsEnabled = false;
                 System.Windows.Media.Effects.BlurEffect objBlur = new System.Windows.Media.Effects.BlurEffect();
                 objBlur.Radius = 5;
                 Switcher.createBook3.Effect = objBlur;
+                okButton.Visibility = Visibility.Hidden;
+                cancelButton.Visibility = Visibility.Visible;
+                ExportProgress.Visibility = Visibility.Visible;
+                ExportWait.Content = "Please wait while exporting ...";
                 /////
                 exportPopup.IsOpen = true;
 
@@ -96,9 +104,8 @@ namespace EPUBGenerator.Pages
 
         private void editThisBookbutton_Click(object sender, RoutedEventArgs e)
         {
-            EditWindow editWin = new EditWindow();
-            editWin.bookInfo(projPath);             //!!!!
-            editWin.Show();
+            // BUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG WTFFFFFFFFFFFFFFFF
+            new EditWindow(_EpubProjPath).Show();
             Switcher.pageSwitcher.Close();
         }
 
@@ -109,7 +116,7 @@ namespace EPUBGenerator.Pages
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
-            Project.ProgressUpdater.Cancel();
+            _ProgressUpdater.Cancel();
         }
 
         private void okButton_Click(object sender, RoutedEventArgs e)
@@ -121,8 +128,8 @@ namespace EPUBGenerator.Pages
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            Project.ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
-            Project.Export(savePath);
+            _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
+            Project.Export(_EpubProjPath, _ExportPath, _ProgressUpdater);
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -132,8 +139,7 @@ namespace EPUBGenerator.Pages
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            BackgroundWorker bw = sender as BackgroundWorker;
-            bw.Dispose();
+            (sender as BackgroundWorker).Dispose();
             if (e.Cancelled)
             {
                 this.IsEnabled = true;
@@ -153,6 +159,7 @@ namespace EPUBGenerator.Pages
             }
             else
             {
+                Thread.Sleep(500);
                 okButton.Visibility = Visibility.Visible;
                 cancelButton.Visibility = Visibility.Hidden;
                 ExportProgress.Visibility = Visibility.Hidden;

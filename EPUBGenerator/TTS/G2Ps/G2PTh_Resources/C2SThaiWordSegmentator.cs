@@ -24,7 +24,7 @@ namespace Chula.SLS.TTS.C2SSegmentator
         {
 
             string[] result = ThaiPhonemeConverter.Instance.ToThaiPhoneme(thaiWord);
-            return string.Join(" " , result);
+            return string.Join(" ", result) + " ";
         }
 
         #endregion

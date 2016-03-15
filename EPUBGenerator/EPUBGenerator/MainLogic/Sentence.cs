@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EPUBGenerator.MainLogic.SoundEngine;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,51 +11,51 @@ namespace EPUBGenerator.MainLogic
 {
     class Sentence
     {
-        public static int Total;
-
-        private LinkedListNode<Sentence> node { get; set; }
+        private LinkedListNode<Sentence> Node { get; set; }
 
         public int ID { get; private set; }
         public String SID { get { return "S" + ID.ToString("D6"); } }
+        public String WavName { get { return Project.GetWavNameFromID(ID); } }
+        public String WavPath { get { return Path.Combine(Content.ContentAudio, WavName); } }
+        public bool IsRandomID { get { return Project.IsRandom(ID); } }
+
         public Content Content { get { return Block.Content; } }
         public Block Block { get; private set; }
         public String OriginalText { get { return Block.Text.Substring(StartIdx, Length); } }
         public int StartIdx { get; private set; }
         public int Length { get { return (Next == null ? Block.Length : Next.StartIdx) - StartIdx; } }
-        public Sentence Previous { get { return node.Previous == null ? null : node.Previous.Value; } }
-        public Sentence Next { get { return node.Next == null ? null : node.Next.Value; } }
+        public Sentence Previous { get { return Node.Previous == null ? null : Node.Previous.Value; } }
+        public Sentence Next { get { return Node.Next == null ? null : Node.Next.Value; } }
         public LinkedList<Word> Words { get; private set; }
+        public CachedSound CachedSound { get; private set; }
 
         public long Bytes { get; private set; }
 
-        public List<String> FinalTextList
+        public List<List<String>> FinalTextList
         {
             get
             {
-                List<String> list = new List<String>();
-                /*
+                List<List<String>> list = new List<List<String>>();
                 foreach (Word word in Words)
-                {
-                    list.Add(word.Pronunciation);
-                }
-                */
+                    list.Add(new List<String>() { word.OriginalText });
                 return list;
             }
         }
 
+        #region ----------- NEW PROJECT ------------
         public Sentence(int start, Block block)
         {
             StartIdx = start;
             Block = block;
-            ID = Project.Instance.GetRandomUniqueID(Content);
+            AppendTo(Block.Sentences);
         }
 
-        #region ----------- NEW PROJECT ------------
-        public void Synthesize(String outputPath)
+        public void Synthesize()
         {
-            Bytes = Project.Synthesizer.Synthesize(OriginalText, outputPath);
-            List<int> tList = Project.Synthesizer.GetTextIndexList();
-            List<long> bList = Project.Synthesizer.GetByteIndexList();
+            ID = Project.GetRandomUniqueID(Content.ContentAudio);
+            Bytes = Project.Synthesizer.Synthesize(OriginalText, WavPath);
+            List<int> tList = Project.Synthesizer.TextIndexList;
+            List<long> bList = Project.Synthesizer.ByteIndexList;
             if (tList == null)
                 throw new Exception("Null Synthesized Text Index List");
             if (bList == null)
@@ -62,7 +63,7 @@ namespace EPUBGenerator.MainLogic
 
             Words = new LinkedList<Word>();
             for (int i = 0; i < tList.Count; i++)
-                Word.Append(Words, new Word(tList[i], bList[i], this));
+                new Word(tList[i], bList[i], this);
         }
         #endregion
 
@@ -70,6 +71,7 @@ namespace EPUBGenerator.MainLogic
         public XElement ToXml()
         {
             XElement xSentence = new XElement("Sentence");
+            xSentence.Add(new XAttribute("id", SID));
             xSentence.Add(new XAttribute("index", StartIdx));
             xSentence.Add(new XAttribute("bytes", Bytes));
             XElement xWords = new XElement("Words");
@@ -78,60 +80,98 @@ namespace EPUBGenerator.MainLogic
             xSentence.Add(xWords);
             return xSentence;
         }
-
-        public static void RunID(LinkedList<Sentence> Sentences, int StartNumber)
+        
+        public void UseRandomizedID()
         {
-            foreach (Sentence sentence in Sentences)
-                sentence.ID = StartNumber++;
+            if (!File.Exists(WavPath))
+                throw new Exception("NO AUDIO FILE YET.");
+
+            if (IsRandomID)
+                return;
+
+            String oldAudio = WavPath;
+            ID = Project.GetRandomUniqueID(Content.ContentAudio);
+            File.Move(oldAudio, WavPath);
         }
+
+        public void UseNonRandomizedID(int id)
+        {
+            if (!File.Exists(WavPath))
+                throw new Exception("NO AUDIO FILE YET. " + WavPath);
+
+            String oldAudio = WavPath;
+            ID = id;
+            File.Move(oldAudio, WavPath);
+        }
+
         #endregion
 
         #region ----------- OPEN PROJECT ------------
-        /*
-        // Need to recheck (@ id)
         public Sentence(XElement xSentence, Block block)
         {
-            Total++;
+            Block = block;
             foreach (XAttribute attribute in xSentence.Attributes())
             {
                 String value = attribute.Value;
-                switch(attribute.Name.ToString())
+                switch (attribute.Name.ToString())
                 {
                     case "id": ID = int.Parse(value.Substring(1)); break;
-                    case "type": Type = int.Parse(value); break;
-                    //case "begin": Begin = int.Parse(value); break;
-                    //case "end": End = int.Parse(value); break;
-                    default: break;
+                    case "index": StartIdx = int.Parse(value); break;
+                    case "bytes": Bytes = int.Parse(value); break;
                 }
             }
+            AppendTo(Block.Sentences);
             Words = new LinkedList<Word>();
-            foreach (XElement child in xSentence.Descendants())
-            {
-                switch(child.Name.ToString())
-                {
-                    case "Text": Text = child.Value; break;
-                    case "Word":
-                        Word word = new Word(child, this);
-                        word.Node = Words.AddLast(word);
-                        break;
-                    default: break;
-                }
-            }
-            Block = block;
+            foreach (XElement xWord in xSentence.Element("Words").Elements("Word"))
+                new Word(xWord, this);
         }
-        */
         #endregion
 
-        #region --------- STATIC METHODS ------------
-        public static void Append(LinkedList<Sentence> list, Sentence sentence)
+        #region ----------- EDIT PROJECT ------------
+        public void MergeWith(Sentence nextSentence)
+        {
+            if (!Next.Equals(nextSentence))
+                throw new Exception("Two sentences (to be merged) are not adjacent.");
+            
+            Block.Sentences.Remove(nextSentence.Node);
+            foreach (Word word in nextSentence.Words)
+                word.MoveTo(this);
+            Bytes += nextSentence.Bytes;
+        }
+
+        public void Resynthesize()
+        {
+            ID = Project.GetRandomUniqueID(Content.ContentAudio);
+            Bytes = Project.Synthesizer.Synthesize(FinalTextList, WavPath);
+            List<long> bList = Project.Synthesizer.ByteIndexList;
+            if (bList == null)
+                throw new Exception("Null Synthesized Byte Index List");
+            if (bList.Count != Words.Count + 1)
+                throw new Exception("Wrong ByteIndexList, bList/Words = " + bList.Count + "/" + Words.Count);
+
+            int i = 0;
+            foreach (Word word in Words)
+                word.SetBegin(bList[i++]);
+            GetCachedSound();
+        }
+
+        public void GetCachedSound()
+        {
+            CachedSound = new CachedSound(WavPath);
+        }
+        #endregion
+
+        #region --------- PRIVATE METHODS ------------
+        private void AppendTo(LinkedList<Sentence> list)
         {
             if (list == null)
                 throw new Exception("Sentences list is null, cannot append.");
-            if (list.Last != null && list.Last.Value.StartIdx == sentence.StartIdx)
+            if (list.Last != null && list.Last.Value.StartIdx == StartIdx)
                 list.RemoveLast();
-            if (sentence.StartIdx < sentence.Block.Length)
-                sentence.node = list.AddLast(sentence);
+            if (StartIdx < Block.Length)
+                Node = list.AddLast(this);
         }
         #endregion
+
     }
 }
