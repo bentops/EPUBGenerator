@@ -23,7 +23,7 @@ namespace EPUBGenerator.MainLogic
             File.Copy(projInfo.EpubPath, outputPath, true);
             Epub epubFile = projInfo.EpubFile;
 
-            ClearDirectory(projInfo.Temp);
+            ClearDirectory(projInfo.TempPath);
             using (ZipArchive archive = ZipFile.Open(outputPath, ZipArchiveMode.Update))
             {
                 long totalBytes = 0;
@@ -180,7 +180,7 @@ namespace EPUBGenerator.MainLogic
                         {
                             byte[] buffer = new byte[1024];
                             int read;
-                            String outputWave = Path.Combine(projInfo.Temp, content.CID + ".wav");
+                            String outputWave = Path.Combine(projInfo.TempPath, content.CID + ".wav");
                             using (WaveFileWriter waveFileWriter = new WaveFileWriter(outputWave, waveFormat))
                             {
                                 foreach (Block block in content.Blocks)
@@ -198,7 +198,7 @@ namespace EPUBGenerator.MainLogic
                                 }
                             }
 
-                            String outputMP3 = Path.Combine(projInfo.Temp, content.CID + ".mp3");
+                            String outputMP3 = Path.Combine(projInfo.TempPath, content.CID + ".mp3");
                             using (WaveFileReader waveReader = new WaveFileReader(outputWave))
                             {
                                 using (MediaFoundationResampler resampled = new MediaFoundationResampler(waveReader, new WaveFormat(44100, 1)))
@@ -235,8 +235,8 @@ namespace EPUBGenerator.MainLogic
                 opfEntry.LastWriteTime = DateTimeOffset.UtcNow.LocalDateTime;
             }
 
-            ClearDirectory(projInfo.Export);
-            ZipFile.ExtractToDirectory(outputPath, projInfo.Export);
+            ClearDirectory(projInfo.ExportPath);
+            ZipFile.ExtractToDirectory(outputPath, projInfo.ExportPath);
 
             progressUpdater.Increment();
         }

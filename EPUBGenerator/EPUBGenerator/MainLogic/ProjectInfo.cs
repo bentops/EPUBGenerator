@@ -11,6 +11,7 @@ namespace EPUBGenerator.MainLogic
 {
     class ProjectInfo
     {
+        #region General Project Info
         public String ProjectPath { get; set; }
         public String ProjectName { get; set; }
         public String EpubProjectPath { get; private set; }
@@ -18,7 +19,7 @@ namespace EPUBGenerator.MainLogic
         public String PackageName { get; private set; }
         public SortedList<int, String> ContentList { get; private set; }
 
-        public String EpubPath { get { return Path.Combine(Resources, EpubName); } }
+        public String EpubPath { get { return Path.Combine(ResourcesPath, EpubName); } }
 
         private Epub _EpubFile;
         public Epub EpubFile
@@ -30,17 +31,25 @@ namespace EPUBGenerator.MainLogic
                 return _EpubFile;
             }
         }
+        #endregion
 
         #region Directories
-        public String Resources { get { return Project.GetDirectory(ProjectPath, "Resources"); } }
-        public String PackageResources { get { return Project.GetDirectory(ProjectPath, "Resources", PackageName); } }
-        public String Saves { get { return Project.GetDirectory(ProjectPath, "Saves"); } }
-        public String PackageSaves { get { return Project.GetDirectory(ProjectPath, "Saves", PackageName); } }
-        public String AudioSaves { get { return Project.GetDirectory(ProjectPath, "Saves", "Audio"); } }
-        public String Temp { get { return Project.GetDirectory(ProjectPath, "Temp"); } }
-        public String Export { get { return Project.GetDirectory(ProjectPath, "Export"); } }
+        public String ResourcesPath { get { return Project.GetDirectory(ProjectPath, "Resources"); } }
+        public String PackageResourcesPath { get { return Project.GetDirectory(ProjectPath, "Resources", PackageName); } }
+        public String SavesPath { get { return Project.GetDirectory(ProjectPath, "Saves"); } }
+        public String PackageSavesPath { get { return Project.GetDirectory(ProjectPath, "Saves", PackageName); } }
+        public String AudioSavesPath { get { return Project.GetDirectory(ProjectPath, "Saves", "Audio"); } }
+        public String TempPath { get { return Project.GetDirectory(ProjectPath, "Temp"); } }
+        public String ExportPath { get { return Project.GetDirectory(ProjectPath, "Export"); } }
         #endregion
-        
+
+        #region Editing Project Info
+        public bool IsSaved { get; set; }
+        public State CurrentState { get; set; }
+        public RunWord CurrentRunWord { get; set; }
+        public Content CurrentContent { get; set; }
+        #endregion
+
         #region ----------- NEW PROJECT ------------
         public ProjectInfo(String epubPath, String projPath)
         {
@@ -51,7 +60,7 @@ namespace EPUBGenerator.MainLogic
             File.Copy(epubPath, EpubPath);
             PackageName = EpubFile.GetOpfDirectory();
 
-            Project.Synthesizer.TempPath = Temp;
+            Project.Synthesizer.TempPath = TempPath;
 
             ContentList = new SortedList<int, string>();
             SetContentList(EpubFile.TOC);
@@ -83,7 +92,7 @@ namespace EPUBGenerator.MainLogic
             PackageName = xProject.Attribute("package").Value;
             EpubName = xProject.Attribute("epub").Value;
 
-            Project.Synthesizer.TempPath = Temp;
+            Project.Synthesizer.TempPath = TempPath;
 
             ContentList = new SortedList<int, String>();
             foreach (XElement xContent in xProject.Element("Contents").Elements("Content"))

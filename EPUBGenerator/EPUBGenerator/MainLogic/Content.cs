@@ -17,9 +17,9 @@ namespace EPUBGenerator.MainLogic
         public String Title { get; private set; }
         public int Order { get; private set; }
 
-        public String ContentAudio { get { return Project.GetDirectory(ProjectInfo.AudioSaves, CID); } }
-        public String ContentResource { get { return Path.Combine(ProjectInfo.PackageResources, Source); } }
-        public String ContentSave { get { return Path.Combine(ProjectInfo.Saves, Source); } }
+        public String ContentAudio { get { return Project.GetDirectory(ProjectInfo.AudioSavesPath, CID); } }
+        public String ContentResource { get { return Path.Combine(ProjectInfo.PackageResourcesPath, Source); } }
+        public String ContentSave { get { return Path.Combine(ProjectInfo.SavesPath, Source); } }
 
         public List<Block> Blocks { get; private set; }
         public int SentenceCount
