@@ -7,10 +7,20 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="800"
              Background="#29d9c2">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="200" />
+            <RowDefinition Height="220" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="100" />
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
@@ -21,13 +31,29 @@
                 </StackPanel>
             </Border>
             <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
-            <Border Background="White" HorizontalAlignment="Left" Height="40" Margin="0,110,0,0" VerticalAlignment="Top" Width="140" CornerRadius="0,10,10,0">
+            <Border Background="White" HorizontalAlignment="Left" Height="40" Margin="0,70,0,0" VerticalAlignment="Top" Width="140" CornerRadius="0,10,10,0">
                 <StackPanel HorizontalAlignment="Left" Margin="0,0,0,0">
                     <Label x:Name="step2" Content="STEP 2/4" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF2F2933"/>
                 </StackPanel>
             </Border>
-        </Grid>
 
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,45" FontSize="16"><Run FontWeight="Bold" Text="ขั้นตอนที่ 2 "/><Run Text="ใส่ชื่อโปรเจคที่ต้องการสร้าง, เลือก location ที่ต้องการเก็บไฟล์ Project และ เลือกหนังสือมาตรฐาน "/><LineBreak/><Run Text="EPUB 3 ที่ต้องการสร้างหนังสือเสียง ให้ครบถ้วน"/></TextBlock>
+            <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,20" FontSize="16">
+                <Run Text="กด"/><Run Text=" "/>
+                <InlineUIContainer>
+            		<Image Source="/EPUBGenerator;component/Resources/createNext.png" Height="20" Margin="0,0,0,-5" />
+            	</InlineUIContainer><Run Text=" "/><Run Text=" เพื่อ ทำการสร้างหนังสือ"/></TextBlock>
+        </Grid>
+        
+        <Grid Grid.Row="2">
+            <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />
+            <Button Name="PreviousPage" Style="{StaticResource NextPageTrans}" VerticalAlignment="Bottom" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Margin="20,0,0,20" Click="PrevPage_click" />
+            <WrapPanel Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="homebutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="homebutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource HomeButT}" Style="{StaticResource HomeBut}" Margin="0,0,30,0" />
+                <Button x:Name="exitbutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="exitbutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource CloseButT}" Style="{StaticResource CloseBut}" />
+            </WrapPanel>
+
+        </Grid>
 
     </Grid>
 </Page>

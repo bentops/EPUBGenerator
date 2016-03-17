@@ -24,5 +24,25 @@ namespace EPUBGenerator.InstructionPages
         {
             InitializeComponent();
         }
+
+        private void homebutton_Click(object sender, RoutedEventArgs e)
+        {
+            InstructionSwitcher.Switch(InstructionSwitcher.home);
+        }
+
+        private void exitbutton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Windows[1].Close();
+        }
+
+        private void NextPage_Click(object sender, RoutedEventArgs e)
+        {
+            InstructionSwitcher.Switch(InstructionSwitcher.createProj2);
+        }
+
+        private void PrevPage_click(object sender, RoutedEventArgs e)
+        {
+            InstructionSwitcher.Switch(InstructionSwitcher.home);
+        }
     }
 }

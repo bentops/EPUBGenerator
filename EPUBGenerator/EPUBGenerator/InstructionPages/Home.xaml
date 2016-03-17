@@ -8,30 +8,13 @@
              d:DesignHeight="600" d:DesignWidth="800"
              Background="#29d9c2">
 
-    <!--<Page.Resources>
-        <Style TargetType="{x:Type Button}" x:Key="NextPage">
-            <Setter Property="Width" Value="50" />
-            <Setter Property="Height" Value="50" />
-            <Setter Property="Cursor" Value="Hand" />
-            <Setter Property="Background" Value="Transparent" />
-            <Setter Property="FontSize" Value="30" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate>
-                        <Border Name="BorderNextPage" CornerRadius="25" Background="White" BorderBrush="#415572" BorderThickness="2" >
-                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="4,-11,0,0" Foreground="#415572" FontFamily="Candara" FontSize="60" FontWeight="Bold" >></TextBlock>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="BorderNextPage" Property="Background" Value="#f1f1ff" />
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-
-        </Style>
-    </Page.Resources>-->
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -70,7 +53,7 @@
         </Grid>
 
         <Grid Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left">
-            <Border Name="menu2" Background="White" HorizontalAlignment="Left" Height="60" Margin="0,0,0,0" VerticalAlignment="Top" Width="440" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
+            <Border Name="menu2" Background="White" HorizontalAlignment="Left" Height="60" Margin="0,0,0,0" VerticalAlignment="Top" Width="440" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True" MouseLeftButtonUp="menu2Click">
                 <WrapPanel HorizontalAlignment="Right">
                     <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
                         <Label x:Name="OpenEditProject" Content="Open/Edit Project" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="26" Foreground="#FF2F2933"/>
@@ -82,7 +65,7 @@
         </Grid>
 
         <Grid Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Left">
-            <Border Name="menu3" Background="White" HorizontalAlignment="Left" Height="60" Margin="0,0,0,0" VerticalAlignment="Top" Width="520" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
+            <Border Name="menu3" Background="White" HorizontalAlignment="Left" Height="60" Margin="0,0,0,0" VerticalAlignment="Top" Width="520" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True" MouseLeftButtonUp="menu3Click">
                 <WrapPanel HorizontalAlignment="Right">
                     <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
                         <Label x:Name="Export" Content="Export EPUB Audio Book" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="26" Foreground="#FF2F2933"/>
@@ -94,43 +77,7 @@
         </Grid>
 
         <Grid Grid.Row="4">
-            <Button x:Name="exitbutton" Content="CLOSE" HorizontalAlignment="Right" Margin="0,0,28,20" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="50" Width="50" BorderThickness="0" BorderBrush="{x:Null}" Cursor="Hand" FontSize="64">
-                <Button.Template>
-                    <ControlTemplate>
-                        <Grid>
-                            <Ellipse Name="Ellipse" Fill="{TemplateBinding Background}" />
-                        </Grid>
-                    </ControlTemplate>
-                </Button.Template>
-                <Button.Style>
-                    <Style TargetType="{x:Type Button}">
-                        <Setter Property="Foreground" Value="White" />
-                        <Setter Property="Background">
-                            <Setter.Value>
-                                <ImageBrush ImageSource="/EPUBGenerator;component/Resources/closeProg.png" />
-                            </Setter.Value>
-                        </Setter>
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="{x:Type Button}">
-                                    <Border Background="{TemplateBinding Background}"/>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FFFFA053" />
-                                <Setter Property="Foreground" Value="white" />
-                                <Setter Property="Content" Value="CLOSE" />
-                                <!--<Setter.Value>
-                                        <ImageBrush ImageSource="/EPUBGenerator;component/Resources/closeProgTxt.png" />
-                                    </Setter.Value>-->
-
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-            </Button>
+            <Button x:Name="exitbutton" HorizontalAlignment="Right" Margin="0,0,28,20" VerticalAlignment="Bottom" Click="exitbutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Cursor="Hand" Template="{StaticResource CloseButT}" Style="{StaticResource CloseBut}" />
             <!--<Button Name="NextPage" Style="{DynamicResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="713,0,20,20" />-->
         </Grid>
     
