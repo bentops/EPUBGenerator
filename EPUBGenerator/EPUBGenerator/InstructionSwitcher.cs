@@ -14,6 +14,10 @@ namespace EPUBGenerator
     {
         public static InstructionWindow pageSwitcher;
         public static Home home;
+        public static CreateProj1 createProj1;
+        public static CreateProj2 createProj2;
+        public static CreateProj3 createProj3;
+        public static CreateProj4 createProj4;
 
         public static void Switch(Page newPage)
         {

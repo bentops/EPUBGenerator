@@ -7,12 +7,39 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="800"
              Background="#29d9c2">
+
+    <!--<Page.Resources>
+        <Style TargetType="{x:Type Button}" x:Key="NextPage">
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Height" Value="50" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border Name="BorderNextPage" CornerRadius="25" Background="White" BorderBrush="#415572" BorderThickness="2" >
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="4,-11,0,0" Foreground="#415572" FontFamily="Candara" FontSize="60" FontWeight="Bold" >></TextBlock>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="BorderNextPage" Property="Background" Value="#f1f1ff" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
+    </Page.Resources>-->
+
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="200" />
-            <RowDefinition Height="100" />
-            <RowDefinition Height="100" />
-            <RowDefinition Height="100" />
+            <!--<RowDefinition Height="250" />-->
+            <RowDefinition Height="220" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="80" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
@@ -21,46 +48,53 @@
                 <Label x:Name="label" Content="INSTRUCTION" HorizontalAlignment="Right" Margin="0,-5,115,3" VerticalAlignment="Center" FontSize="48" Foreground="#FF2F2933" Height="72"/>
             </Border>
             <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
+            <TextBlock x:Name="info" HorizontalAlignment="Left" Margin="20,60,0,40" VerticalAlignment="Bottom" FontSize="16" Foreground="#FF2F2933" Height="Auto" Width="780" TextWrapping="WrapWithOverflow">
+                EPUB AUDIO BOOK GENERATOR เป็นโปรแกรมที่ช่วยสร้างหนังสือเสียงภาษาไทย ในมาตรฐาน EPUB 3
+                โดยการนำเข้าไฟล์หนังสือมาตรฐาน EPUB 3 และได้ผลลัพธ์เป็น EPUB 3 AUDIO BOOK
+            </TextBlock>
+            <!--<TextBlock x:Name="instruc" HorizontalAlignment="Left" Margin="20,160,0,7" VerticalAlignment="Center" FontSize="16" Foreground="Brown" Height="Auto" Width="780" TextWrapping="WrapWithOverflow">
+                คลิกหัวข้อเพื่อเลือกอ่านคู่มือที่ต้องการ หรือ คลิก <Image Source="/EPUBGenerator;component/Resources/closeProg.png" />เพื่อดูขั้นตอนทั้งหมดของโปรแกรม
+            </TextBlock>-->
         </Grid>
 
         <Grid Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left">
-            <Border Name="menu1" Background="White" HorizontalAlignment="Left" Height="76" Margin="0,0,0,0" VerticalAlignment="Top" Width="360" CornerRadius="0,38,38,0" Cursor="Hand"  MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
+            <Border Name="menu1" Background="White" HorizontalAlignment="Left" Height="60" Margin="0,0,0,0" VerticalAlignment="Top" Width="360" CornerRadius="0,38,38,0" Cursor="Hand"  MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True" MouseLeftButtonUp="menu1Click">
                 <WrapPanel HorizontalAlignment="Right">
                     <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
-                        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="30" Foreground="#FF2F2933"/>
-                        <Label x:Name="createNewProjectTh" Content="สร้างหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
+                        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="26" Foreground="#FF2F2933"/>
+                        <Label x:Name="createNewProjectTh" Content="สร้างหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FF2F2933"/>
                     </StackPanel>
-                    <Label x:Name="Arr1" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-28,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
+                    <Label x:Name="Arr1" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-35,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
                 </WrapPanel>
             </Border>
         </Grid>
 
         <Grid Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left">
-            <Border Name="menu2" Background="White" HorizontalAlignment="Left" Height="76" Margin="0,0,0,0" VerticalAlignment="Top" Width="440" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
+            <Border Name="menu2" Background="White" HorizontalAlignment="Left" Height="60" Margin="0,0,0,0" VerticalAlignment="Top" Width="440" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
                 <WrapPanel HorizontalAlignment="Right">
                     <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
-                        <Label x:Name="OpenEditProject" Content="Open/Edit Project" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="30" Foreground="#FF2F2933"/>
-                        <Label x:Name="OpenEditProjectTh" Content="เปิด/แก้ไขหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
+                        <Label x:Name="OpenEditProject" Content="Open/Edit Project" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="26" Foreground="#FF2F2933"/>
+                        <Label x:Name="OpenEditProjectTh" Content="เปิด/แก้ไขหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FF2F2933"/>
                     </StackPanel>
-                    <Label x:Name="Arr2" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-28,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
+                    <Label x:Name="Arr2" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-35,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
                 </WrapPanel>
             </Border>
         </Grid>
 
         <Grid Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Left">
-            <Border Name="menu3" Background="White" HorizontalAlignment="Left" Height="76" Margin="0,0,0,0" VerticalAlignment="Top" Width="520" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
+            <Border Name="menu3" Background="White" HorizontalAlignment="Left" Height="60" Margin="0,0,0,0" VerticalAlignment="Top" Width="520" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
                 <WrapPanel HorizontalAlignment="Right">
                     <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
-                        <Label x:Name="Export" Content="Export EPUB Audio Book" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="30" Foreground="#FF2F2933"/>
-                        <Label x:Name="ExportTh" Content="ส่งออกหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
+                        <Label x:Name="Export" Content="Export EPUB Audio Book" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="26" Foreground="#FF2F2933"/>
+                        <Label x:Name="ExportTh" Content="ส่งออกหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="18" Foreground="#FF2F2933"/>
                     </StackPanel>
-                    <Label x:Name="Arr3" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-28,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
+                    <Label x:Name="Arr3" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-35,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
                 </WrapPanel>
             </Border>
         </Grid>
 
         <Grid Grid.Row="4">
-            <Button x:Name="exitbutton" Content="CLOSE" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="60" Width="60" BorderThickness="0" BorderBrush="{x:Null}" Cursor="Hand" FontSize="64">
+            <Button x:Name="exitbutton" Content="CLOSE" HorizontalAlignment="Right" Margin="0,0,28,20" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="50" Width="50" BorderThickness="0" BorderBrush="{x:Null}" Cursor="Hand" FontSize="64">
                 <Button.Template>
                     <ControlTemplate>
                         <Grid>
@@ -97,6 +131,7 @@
                     </Style>
                 </Button.Style>
             </Button>
+            <!--<Button Name="NextPage" Style="{DynamicResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="713,0,20,20" />-->
         </Grid>
     
     </Grid>

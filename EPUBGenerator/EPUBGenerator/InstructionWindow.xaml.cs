@@ -28,6 +28,10 @@ namespace EPUBGenerator
             InitializeComponent();
             InstructionSwitcher.pageSwitcher = this;
             InstructionSwitcher.home = new Home();
+            InstructionSwitcher.createProj1 = new CreateProj1();
+            InstructionSwitcher.createProj2 = new CreateProj2();
+            InstructionSwitcher.createProj3 = new CreateProj3();
+            InstructionSwitcher.createProj4 = new CreateProj4();
 
             this.Left = LastWindowLeft - 20;
             this.Top = LastWindowTop - 20;

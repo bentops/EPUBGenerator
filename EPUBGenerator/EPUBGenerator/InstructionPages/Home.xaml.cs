@@ -75,9 +75,14 @@ namespace EPUBGenerator.InstructionPages
             }
         }
 
+        private void menu1Click(object sender, RoutedEventArgs e)
+        {
+            InstructionSwitcher.Switch(InstructionSwitcher.createProj1);
+        }
+
         private void exitbutton_Click(object sender, RoutedEventArgs e)
         {
-            System.Windows.Application.Current.Shutdown();
+            Application.Current.Windows[1].Close();
         }
     }
 }
