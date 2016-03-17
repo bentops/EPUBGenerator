@@ -8,6 +8,56 @@
              d:DesignHeight="600" d:DesignWidth="800"
              Background="#29d9c2">
     <Grid>
-       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Border Background="White" HorizontalAlignment="Right" Height="70" Margin="0,40,0,0" VerticalAlignment="Top" Width="435" CornerRadius="20,0,0,20">
+                <Label x:Name="label" Content="INSTRUCTION" HorizontalAlignment="Right" Margin="0,-5,115,3" VerticalAlignment="Center" FontSize="48" Foreground="#FF2F2933" Height="72"/>
+            </Border>
+            <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
+        </Grid>
+
+        <Grid Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Border Name="menu1" Background="White" HorizontalAlignment="Left" Height="76" Margin="0,0,0,0" VerticalAlignment="Top" Width="360" CornerRadius="0,38,38,0" Cursor="Hand"  MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
+                <WrapPanel HorizontalAlignment="Right">
+                    <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
+                        <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="30" Foreground="#FF2F2933"/>
+                        <Label x:Name="createNewProjectTh" Content="สร้างหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
+                    </StackPanel>
+                    <Label x:Name="Arr1" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-28,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
+                </WrapPanel>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Border Name="menu2" Background="White" HorizontalAlignment="Left" Height="76" Margin="0,0,0,0" VerticalAlignment="Top" Width="440" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
+                <WrapPanel HorizontalAlignment="Right">
+                    <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
+                        <Label x:Name="OpenEditProject" Content="Open/Edit Project" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="30" Foreground="#FF2F2933"/>
+                        <Label x:Name="OpenEditProjectTh" Content="เปิด/แก้ไขหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
+                    </StackPanel>
+                    <Label x:Name="Arr2" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-28,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
+                </WrapPanel>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Border Name="menu3" Background="White" HorizontalAlignment="Left" Height="76" Margin="0,0,0,0" VerticalAlignment="Top" Width="520" CornerRadius="0,38,38,0" Cursor="Hand" MouseEnter="instructionMenuMouseOver" MouseLeave="instructionMenuMouseOver" ClipToBounds="True">
+                <WrapPanel HorizontalAlignment="Right">
+                    <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
+                        <Label x:Name="Export" Content="Export EPUB Audio Book" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" FontSize="30" Foreground="#FF2F2933"/>
+                        <Label x:Name="ExportTh" Content="ส่งออกหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
+                    </StackPanel>
+                    <Label x:Name="Arr3" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-28,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
+                </WrapPanel>
+            </Border>
+            
+        </Grid>
+    
     </Grid>
 </Page>
