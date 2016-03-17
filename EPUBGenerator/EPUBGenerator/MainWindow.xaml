@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:EPUBGenerator"
         mc:Ignorable="d"
         Title="EPUB FULL-TEXT-AUDIO BOOK GENERATOR" 
-        Height="610" 
+        Height="620" 
         Width="800"
         Margin="0" 
         WindowStartupLocation="CenterScreen"

@@ -13,6 +13,7 @@
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
@@ -56,7 +57,46 @@
                     <Label x:Name="Arr3" Content="&gt;" VerticalAlignment="Top" Background="Transparent" Foreground="#FF787878" FontSize="96" Margin="0,-28,-70,0" HorizontalAlignment="Right" Width="128" FontFamily="Agency FB" Height="94" FontWeight="Light" TextOptions.TextHintingMode="Fixed"/>
                 </WrapPanel>
             </Border>
-            
+        </Grid>
+
+        <Grid Grid.Row="4">
+            <Button x:Name="exitbutton" Content="CLOSE" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Click="exitbutton_Click" Height="60" Width="60" BorderThickness="0" BorderBrush="{x:Null}" Cursor="Hand" FontSize="64">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Grid>
+                            <Ellipse Name="Ellipse" Fill="{TemplateBinding Background}" />
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="Background">
+                            <Setter.Value>
+                                <ImageBrush ImageSource="/EPUBGenerator;component/Resources/closeProg.png" />
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}"/>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FFFFA053" />
+                                <Setter Property="Foreground" Value="white" />
+                                <Setter Property="Content" Value="CLOSE" />
+                                <!--<Setter.Value>
+                                        <ImageBrush ImageSource="/EPUBGenerator;component/Resources/closeProgTxt.png" />
+                                    </Setter.Value>-->
+
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
         </Grid>
     
     </Grid>

@@ -73,7 +73,11 @@ namespace EPUBGenerator.InstructionPages
                 Arr3.Foreground = Brushes.Gray;
                 state = 1;
             }
+        }
 
+        private void exitbutton_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }
