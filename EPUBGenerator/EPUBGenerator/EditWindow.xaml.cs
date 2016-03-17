@@ -40,42 +40,48 @@ namespace EPUBGenerator
         
         private TreeViewItem _AllContentsTVI;
         private TreeViewItem _AllImagesTVI;
+        private String _ExportPath;
 
         private ProjectInfo ProjectInfo { get; set; }
         private String ProjectName { get { return ProjectInfo.ProjectName; } }
         private String ProjectPath { get { return ProjectInfo.ProjectPath; } }
         private BlockCollection Paragraphs { get { return richTextBox.Document.Blocks; } }
 
-        private State _State;
-        public State CurrentState
+        private bool IsSaved
         {
-            get { return _State; }
-            private set
+            get { return ProjectInfo.IsSaved; }
+            set
+            {
+                ProjectInfo.IsSaved = value;
+                Export.IsEnabled = value;
+            }
+        }
+        private State CurrentState
+        {
+            get { return ProjectInfo.CurrentState; }
+            set
             {
                 #region Change CurrentState From
-                switch (_State)
+                State oldState = ProjectInfo.CurrentState;
+                switch (oldState)
                 {
                     case State.Stop:
                         break;
                     case State.Play:
                         break;
                     case State.Edit:
-                        foreach (Paragraph paragraph in Paragraphs)
-                            foreach (RunWord run in paragraph.Inlines)
-                                run.EditModeBackground = run.Background;
                         break;
                 }
                 #endregion
 
                 #region Change CurrentState To
-                _State = value;
-                switch(_State)
+                ProjectInfo.CurrentState = value;
+                foreach (Paragraph paragraph in Paragraphs)
+                    foreach (RunWord run in paragraph.Inlines)
+                        run.UpdateBackground();
+                switch (value)
                 {
                     case State.Stop:
-                        foreach (Paragraph paragraph in Paragraphs)
-                            foreach (RunWord run in paragraph.Inlines)
-                                run.UsingNormalModeBackground();
-
                         Dispatcher.Invoke((Action)(() =>
                         {
                             richTextBox.CaretBrush = Brushes.Transparent;
@@ -87,9 +93,6 @@ namespace EPUBGenerator
                         playpauseB.Content = FindResource("Pause");
                         break;
                     case State.Edit:
-                        foreach (Paragraph paragraph in Paragraphs)
-                            foreach (RunWord run in paragraph.Inlines)
-                                run.UsingEditModeBackground();
                         richTextBox.CaretBrush = null;
                         richTextBox.IsReadOnlyCaretVisible = true;
                         break;
@@ -97,48 +100,13 @@ namespace EPUBGenerator
                 #endregion
             }
         }
-
-        private bool _Saved;
-        public bool IsSaved
-        {
-            get { return _Saved; }
-            set
-            {
-                _Saved = value;
-                Export.IsEnabled = value;
-            }
-        }
-
-        private RunWord _CurrentWord;
-        private RunWord CurrentRunWord
-        {
-            get { return _CurrentWord; }
-            set
-            {
-                if (_CurrentWord == value)
-                    return;
-
-                if (_CurrentWord != null)
-                {
-                    _CurrentWord.IsSelected = false;
-                    _CurrentWord.UsingNormalModeBackground();
-                }
-
-                _CurrentWord = value;
-                if (_CurrentWord != null)
-                {
-                    _CurrentWord.IsSelected = true;
-                    _CurrentWord.UsingNormalModeBackground();
-                }
-            }
-        }
+        private RunWord CurrentRunWord { get { return ProjectInfo.CurrentRunWord; } }
 
         private CachedSoundSampleProvider PlayingSound;
 
         private Content SelectedContent { get; set; }
         private TreeViewItem SelectedTVI { get; set; }
 
-        private String _ExportPath;
 
         public EditWindow()
         {
@@ -155,9 +123,9 @@ namespace EPUBGenerator
             this.PreviewKeyDown += EditWindow_KeyDown;
             richTextBox.IsReadOnly = true;
 
-            CurrentState = State.Stop;
-            IsSaved = true;
             ProjectInfo = new ProjectInfo(epubProjPath);
+            IsSaved = true;
+            CurrentState = State.Stop;
 
             projInfoTextBlock.Text = ProjectName;
             GenerateProjectMenu();
@@ -223,10 +191,10 @@ namespace EPUBGenerator
             SelectedContent = new Content(contentPath, ProjectInfo);
             Console.WriteLine("Sentences Count = " + SelectedContent.SentenceCount);
 
-            int toggle = 0;
             foreach (Block block in SelectedContent.Blocks)
             {
                 Paragraph paragraph = new Paragraph();
+                Paragraphs.Add(paragraph);
                 foreach (Sentence sentence in block.Sentences)
                 {
                     Console.WriteLine("S: " + sentence.ID);
@@ -234,21 +202,19 @@ namespace EPUBGenerator
                     foreach (Word word in sentence.Words)
                     {
                         RunWord run = new RunWord(word);
+                        paragraph.Inlines.Add(run);
+
                         run.MouseEnter += Run_MouseEnter;
                         run.MouseLeave += Run_MouseLeave;
                         run.MouseDown += Run_MouseDown;
                         run.MouseMove += Run_MouseMove;
 
                         run.IsEdited = false;
-                        run.EditModeBackground = ProjectProperties.CutWords[toggle];
-                        toggle = 1 - toggle;
-                            
-                        paragraph.Inlines.Add(run);
+                        run.ApplyAvailableEditModeBackground(ProjectProperties.NormalCutWords);
                     }
                 }
-                Paragraphs.Add(paragraph);
             }
-            CurrentRunWord = GetFirstRunWord();
+            SelectFirstRunWord();
             Cursor = Cursors.Arrow;
         }
 
@@ -308,7 +274,7 @@ namespace EPUBGenerator
             switch (CurrentState)
             {
                 case State.Stop:
-                    CurrentRunWord = curRun;
+                    curRun.Select();
                     curRun.PlayCachedSound();
                     break;
                 case State.Play:
@@ -342,7 +308,7 @@ namespace EPUBGenerator
                             newRun.MouseLeave += Run_MouseLeave;
                             newRun.MouseDown += Run_MouseDown;
                             newRun.MouseMove += Run_MouseMove;
-                            newRun.ApplyAvailableBrush(ProjectProperties.SplittedWords);
+                            newRun.ApplyAvailableEditModeBackground(ProjectProperties.SplittedWords);
                             IsSaved = false;
                         }
                     }
@@ -357,7 +323,7 @@ namespace EPUBGenerator
             switch (CurrentState)
             {
                 case State.Stop:
-                    run.Background = ProjectProperties.HoveredWord;
+                    run.Hover();
                     break;
                 case State.Play:
                     break;
@@ -372,7 +338,7 @@ namespace EPUBGenerator
             switch (CurrentState)
             {
                 case State.Stop:
-                    run.Background = run.NormalModeBackground;
+                    run.Unhover();
                     break;
                 case State.Play:
                     break;
@@ -453,15 +419,11 @@ namespace EPUBGenerator
                 return;
             Cursor = Cursors.Wait;
             SelectedContent.Save();
-            int toggle = 0;
             foreach (Paragraph paragraph in Paragraphs)
                 foreach (RunWord run in paragraph.Inlines)
                 {
                     run.IsEdited = false;
-                    run.EditModeBackground = ProjectProperties.CutWords[toggle];
-                    toggle = 1 - toggle;
-
-                    run.Background = (CurrentState == State.Edit) ? run.EditModeBackground : run.NormalModeBackground;
+                    run.ApplyAvailableEditModeBackground(ProjectProperties.NormalCutWords);
                 }
             IsSaved = true;
             Cursor = Cursors.Arrow;
@@ -508,7 +470,6 @@ namespace EPUBGenerator
             PlayingSound = CurrentRunWord.GetSentenceCachedSound();
             PlayingSound.PositionChanged += Sound_PositionChanged;
             AudioPlaybackEngine.Instance.PlaySound(PlayingSound);
-            Console.WriteLine("Start Play");
         }
 
         private void Sound_PositionChanged(object sender, PositionChangedEventArgs e)
@@ -520,29 +481,16 @@ namespace EPUBGenerator
                 case State.Play:
                     if (e.IsEnded)
                     {
-                        Console.WriteLine("Ended In");
-                        RunWord nextRun = GetNextRunWord();
-                        if (nextRun == null)
-                        {
-                            Console.WriteLine("T 1");
-                            CurrentState = State.Stop;
-                        }
-                        else
-                        {
-                            Console.WriteLine("T 2");
-                            CurrentRunWord = nextRun;
+                        if (SelectNextRunWord())
                             PlaySound();
-                        }
-                        Console.WriteLine("Ended Out");
+                        else
+                            CurrentState = State.Stop;
                     }
                     else if (!CurrentRunWord.IsIn(e.BytePosition))
                     {
-                        Console.WriteLine("ChangeWord");
-                        do { CurrentRunWord = GetNextRunWord(); }
-                        while (CurrentRunWord != null && !CurrentRunWord.IsIn(e.BytePosition));
-
+                        while (SelectNextRunWord() && !CurrentRunWord.IsIn(e.BytePosition));
                         if (CurrentRunWord == null)
-                            CurrentRunWord = GetFirstRunWord();
+                            SelectFirstRunWord();
                     }
                     break;
                 case State.Edit:
@@ -550,24 +498,35 @@ namespace EPUBGenerator
             }
         }
         
-        private RunWord GetFirstRunWord()
+        private bool SelectFirstRunWord()
         {
             Paragraph firstParagraph = Paragraphs.FirstBlock as Paragraph;
             if (firstParagraph == null)
-                return null;
-            return firstParagraph.Inlines.FirstInline as RunWord;
+                return false;
+            RunWord firstWord = firstParagraph.Inlines.FirstInline as RunWord;
+            if (firstWord == null)
+                return false;
+            firstWord.Select();
+            return true;
         }
 
-        private RunWord GetNextRunWord()
+        private bool SelectNextRunWord()
         {
             if (CurrentRunWord == null)
-                return GetFirstRunWord();
+                return false;
             if (CurrentRunWord.NextRun != null)
-                return CurrentRunWord.NextRun;
-            Paragraph paragraph = CurrentRunWord.Parent as Paragraph;
-            if (paragraph.NextBlock != null)
-                return (paragraph.NextBlock as Paragraph).Inlines.FirstInline as RunWord;
-            return null;
+            {
+                CurrentRunWord.NextRun.Select();
+                return true;
+            }
+            Paragraph nextParagraph = (CurrentRunWord.Parent as Paragraph).NextBlock as Paragraph;
+            if (nextParagraph == null)
+                return false;
+            RunWord nextWord = nextParagraph.Inlines.FirstInline as RunWord;
+            if (nextWord == null)
+                return false;
+            nextWord.Select();
+            return true;
         }
 
 
