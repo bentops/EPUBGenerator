@@ -1,4 +1,4 @@
-﻿<Page x:Class="EPUBGenerator.InstructionPages.ExportProj1"
+﻿<Page x:Class="EPUBGenerator.InstructionPages.EditProj1"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -24,10 +24,10 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <Border Background="White" HorizontalAlignment="Right" Height="70" Margin="0,40,0,0" VerticalAlignment="Top" Width="510" CornerRadius="20,0,0,20">
+            <Border Background="White" HorizontalAlignment="Right" Height="70" Margin="0,40,0,0" VerticalAlignment="Top" Width="420" CornerRadius="20,0,0,20">
                 <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
-                    <Label x:Name="exportProject" Content="Export EPUB Audio Book" HorizontalAlignment="Right" Margin="0,-5,100,0" VerticalAlignment="Top" FontSize="34" Foreground="#FF2F2933"/>
-                    <Label x:Name="exportProjectTh" Content="ส่งออกหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,100,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
+                    <Label x:Name="exportProject" Content="Open/Edit Project" HorizontalAlignment="Right" Margin="0,-5,100,0" VerticalAlignment="Top" FontSize="34" Foreground="#FF2F2933"/>
+                    <Label x:Name="exportProjectTh" Content="เปิด/แก้ไขหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,100,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
                 </StackPanel>
             </Border>
             <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
@@ -36,9 +36,8 @@
                     <Label x:Name="step1" Content="STEP 1/4" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF2F2933"/>
                 </StackPanel>
             </Border>-->
-
             <TextBlock x:Name="textBlock0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="58,0,60,10" FontSize="16" Foreground="DarkRed">
-                <Run FontWeight="Bold" Text="การส่งออกหนังสือเสียง จะทำได้หลังจากผ่านขั้นตอนการสร้างหนังสือเสียง ด้วยโปรแกรม"/><LineBreak/>
+                <Run FontWeight="Bold" Text="การเปิด และ แก้ไข Project จะทำได้หลังจากผ่านขั้นตอนการสร้างหนังสือเสียง ด้วยโปรแกรม"/><LineBreak/>
                 <Run FontWeight="Bold" Text="EPUB AUDIO BOOK GENERATOR เท่านั้น"/> <Run FontWeight="Bold" Foreground="Black" Text="โดยสามารถทำได้ 2 วิธี"/>
             </TextBlock>
 
@@ -56,7 +55,7 @@
                         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20">
                             <Run Text="คลิก"/>
                     <InlineUIContainer>
-            		    <Image Source="/EPUBGenerator;component/Resources/exportAs.png" Height="40" Margin="0,0,0,-10" />
+            		    <Image Source="/EPUBGenerator;component/Resources/openProj.png" Height="40" Margin="0,0,0,-10" />
             	    </InlineUIContainer><Run Text=" หลังจากสร้าง Project สำเร็จ "/>
                         </TextBlock>
                     </WrapPanel>
@@ -76,7 +75,7 @@
 
                 </StackPanel>
             </Grid>
-            
+
         </Grid>
 
         <Grid Grid.Row="2">
