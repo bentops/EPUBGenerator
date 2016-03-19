@@ -18,7 +18,7 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="180" />
+            <RowDefinition Height="200" />
             <RowDefinition Height="*" />
             <RowDefinition Height="100" />
         </Grid.RowDefinitions>
@@ -31,16 +31,19 @@
                 </StackPanel>
             </Border>
             <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
-            <Border Background="White" HorizontalAlignment="Left" Height="40" Margin="0,70,0,0" VerticalAlignment="Top" Width="140" CornerRadius="0,10,10,0">
+            <!--<Border Background="White" HorizontalAlignment="Left" Height="40" Margin="0,70,0,0" VerticalAlignment="Top" Width="140" CornerRadius="0,10,10,0">
                 <StackPanel HorizontalAlignment="Left" Margin="0,0,0,0">
                     <Label x:Name="step1" Content="STEP 1/4" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF2F2933"/>
                 </StackPanel>
-            </Border>
+            </Border>-->
 
-            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="58,0,0,20" FontSize="16"><Run FontWeight="Bold" Text="ขั้นตอนที่ 1 "/><Run Text="คลิก "/><Run Text=" "/><InlineUIContainer>
-            		<Image Source="/EPUBGenerator;component/Resources/newProj.png" Height="40" Margin="0,0,0,-10" />
-            	</InlineUIContainer><Run Text=" "/><Run Text=" เพื่อสร้างโปรเจคใหม่"/></TextBlock>
-
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,40" FontSize="16"><Run Text="จะแสดงหน้าจอที่มีข้อมูลไฟล์ Project"/></TextBlock>
+            <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,-20,0,0" FontSize="16" LineHeight="30">
+                        <Run Text="คลิก "/>
+                        <InlineUIContainer>
+            		        <Image Source="/EPUBGenerator;component/Resources/exportAsEPUB.png" Height="20" Margin="0,0,0,-5" />
+            	        </InlineUIContainer><Run Text=" เพื่อทำการ Export Project เป็น EPUB 3 AUDIO BOOK "/>
+            </TextBlock>
         </Grid>
 
 
