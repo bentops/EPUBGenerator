@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:EPUBGenerator.Pages"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="800"
-             Background="#29d9c2">
+             Background="PowderBlue">
 
     <Page.Resources>
         <ResourceDictionary>

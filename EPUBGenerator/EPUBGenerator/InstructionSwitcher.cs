@@ -19,6 +19,11 @@ namespace EPUBGenerator
         public static CreateProj3 createProj3;
         public static CreateProj4 createProj4;
 
+        public static ExportProj1 exportProj1;
+        public static ExportProj2 exportProj2;
+        public static ExportProj3 exportProj3;
+        public static ExportProj4 exportProj4;
+
         public static void Switch(Page newPage)
         {
             pageSwitcher.Navigate(newPage);

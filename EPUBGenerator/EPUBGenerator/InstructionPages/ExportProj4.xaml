@@ -1,4 +1,4 @@
-﻿<Page x:Class="EPUBGenerator.InstructionPages.CreateProj1"
+﻿<Page x:Class="EPUBGenerator.InstructionPages.ExportProj4"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -24,10 +24,10 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <Border Background="White" HorizontalAlignment="Right" Height="70" Margin="0,40,0,0" VerticalAlignment="Top" Width="435" CornerRadius="20,0,0,20">
+            <Border Background="White" HorizontalAlignment="Right" Height="70" Margin="0,40,0,0" VerticalAlignment="Top" Width="510" CornerRadius="20,0,0,20">
                 <StackPanel HorizontalAlignment="Right" Margin="0,0,20,0">
-                    <Label x:Name="createNewProject" Content="Create New Project" HorizontalAlignment="Right" Margin="0,-5,100,0" VerticalAlignment="Top" FontSize="34" Foreground="#FF2F2933"/>
-                    <Label x:Name="createNewProjectTh" Content="สร้างหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,100,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
+                    <Label x:Name="exportProject" Content="Export EPUB Audio Book" HorizontalAlignment="Right" Margin="0,-5,100,0" VerticalAlignment="Top" FontSize="34" Foreground="#FF2F2933"/>
+                    <Label x:Name="exportProjectTh" Content="ส่งออกหนังสือเสียง" HorizontalAlignment="Right" Margin="0,-15,100,0" VerticalAlignment="Top" FontSize="22" Foreground="#FF2F2933"/>
                 </StackPanel>
             </Border>
             <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
@@ -51,7 +51,9 @@
                 <Button x:Name="homebutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="homebutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource HomeButT}" Style="{StaticResource HomeBut}" Margin="0,0,30,0" />
                 <Button x:Name="exitbutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="exitbutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource CloseButT}" Style="{StaticResource CloseBut}" />
             </WrapPanel>
-            
+
         </Grid>
     </Grid>
+
+
 </Page>

@@ -33,6 +33,11 @@ namespace EPUBGenerator
             InstructionSwitcher.createProj3 = new CreateProj3();
             InstructionSwitcher.createProj4 = new CreateProj4();
 
+            InstructionSwitcher.exportProj1 = new ExportProj1();
+            InstructionSwitcher.exportProj2 = new ExportProj2();
+            InstructionSwitcher.exportProj3 = new ExportProj3();
+            InstructionSwitcher.exportProj4 = new ExportProj4();
+
             this.Left = LastWindowLeft - 20;
             this.Top = LastWindowTop - 20;
 
