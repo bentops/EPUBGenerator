@@ -13,5 +13,14 @@ namespace EPUBGenerator
     /// </summary>
     public partial class App : Application
     {
+        /*
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            if (StartupUri == null)
+                StartupUri = new Uri("MainWindow.xaml", UriKind.Relative);
+            
+        }
+        */
     }
 }

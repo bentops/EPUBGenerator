@@ -35,6 +35,30 @@ namespace TTS
             synthesizer = new CSynthesizer();
         }
 
+
+        private List<PairSI> Split(string input)
+        {
+            List<PairSI> output = new List<PairSI>();
+            int offset = 0;
+            foreach (PairSI pair in sentenceSplitter.Split(input))
+            {
+                string text = pair.Key;
+
+                int index = input.IndexOf(text, offset);
+                if (index < 0)
+                    throw new Exception("Mismatch - -");
+
+                if (offset < index)
+                    output.Add(new PairSI(input.Substring(offset, index - offset), 6));
+                output.Add(pair);
+                offset = index + text.Length;
+            }
+            if (offset < input.Length)
+                output.Add(new PairSI(input.Substring(offset), 6));
+            return output;
+        }
+
+
         // Return Total Bytes of Output Wav File.
         public long Synthesize(string inputText, string outputPath)
         {
@@ -52,25 +76,26 @@ namespace TTS
             List<string> waveList = new List<string>();
 
             // SPLIT INTO SENTENCES BY TYPE
-            List<KeyValuePair<string, int>> sList = sentenceSplitter.Split(inputText);
+            List<PairSI> sList = Split(inputText);
             if (sList.Count == 0)
-                sList.Add(new KeyValuePair<string, int>(inputText, 2));
-            foreach (KeyValuePair<string, int> sPair in sList)
+                sList.Add(new PairSI(" ", 6));
+            foreach (PairSI sPair in sList)
             {
                 string text = sPair.Key;
                 int type = sPair.Value;
+                Console.WriteLine(text + "/" + type);
 
                 List<string> phonemeList = new List<string>();
                 string longPhoneme = "";
 
                 #region ----------- Gen Phoneme -----------
-                List<KeyValuePair<string, string>> tList = g2p.GenTranscriptList(text, type);
-                foreach (KeyValuePair<string, string> tPair in tList)
+                List<PairSS> tList = g2p.GenTranscriptList(text, type);
+                foreach (PairSS tPair in tList)
                 {
                     string cutWord = tPair.Key;
                     string transcript = tPair.Value;
                     string phoneme = phonemeConverter.Convert(transcript, type);
-                    if (type != 2)
+                    if (type != 2 && type != 6)
                         phoneme = TrimPhoneme(phoneme);
                     phonemeList.Add(phoneme);
 
@@ -84,7 +109,8 @@ namespace TTS
                 {
                     foreach (string phoneme in phonemeList)
                         longPhoneme += phoneme;
-                    longPhoneme = silence + longPhoneme + silence;
+                    if (type != 6)
+                        longPhoneme = silence + longPhoneme + silence;
                 }
                 else
                 {
@@ -110,7 +136,7 @@ namespace TTS
                 }
 
                 // Get Duration
-                if (type != 2)
+                if (type != 2 && type != 6)
                 {
                     using (StreamReader streamReader = new StreamReader(durPath))
                     {
@@ -135,6 +161,34 @@ namespace TTS
                         string dur = streamReader.ReadLine().Split(' ')[1];
                         totalBytes += GetByteFromDur(dur);
 
+                        if (!streamReader.EndOfStream)
+                            throw new Exception("Invalid Duration.");
+                        streamReader.Close();
+                    }
+                }
+                else if (type == 6)
+                {
+                    using (StreamReader streamReader = new StreamReader(durPath))
+                    {
+                        foreach (string phoneme in phonemeList)
+                        {
+                            int sIndex = 0;
+                            int tIndex = 0;
+                            while ((tIndex = phoneme.IndexOf('|', sIndex)) >= 0)
+                            {
+                                string[] line = streamReader.ReadLine().Split(' ');
+                                string durPhon = line[2].Split("-+".ToCharArray())[1];
+                                if (phoneme.IndexOf(durPhon, sIndex) != sIndex)
+                                    throw new Exception("Mismatch phoneme and duration");
+                                sIndex = tIndex + 1;
+
+                                if (tIndex == phoneme.Length - 1)
+                                {
+                                    ByteIndexList.Add(totalBytes + GetByteFromDur(line[1]));
+                                    totalBytes += GetByteFromDur(line[1]);
+                                }
+                            }
+                        }
                         if (!streamReader.EndOfStream)
                             throw new Exception("Invalid Duration.");
                         streamReader.Close();

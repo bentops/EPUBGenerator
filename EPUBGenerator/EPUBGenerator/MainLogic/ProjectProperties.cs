@@ -31,7 +31,7 @@ namespace EPUBGenerator.MainLogic
         public static Brush SelectedWord = DarkYellow;
         public static Brush EditingSelectedWord = LightPink;
 
-        public static Brush[] NormalCutWords = new Brush[] { LightBlue, DarkBlue };
+        public static Brush[] SegmentedWords = new Brush[] { LightBlue, DarkBlue };
         public static Brush[] SplittedWords = new Brush[] { LightOrange, DarkOrange };
         public static Brush[] MergedWords = new Brush[] { LightPurple, DarkPurple };
 

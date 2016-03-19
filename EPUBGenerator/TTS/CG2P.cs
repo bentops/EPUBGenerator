@@ -17,6 +17,7 @@ namespace TTS
             Map.Add(3, 3);
             Map.Add(4, 4);
             Map.Add(5, 4);
+            Map.Add(6, 5);
 
             // {1 - 4} -> {G2Ps}
             G2Ps = new Dictionary<int, IG2P>();
@@ -24,6 +25,7 @@ namespace TTS
             G2Ps.Add(2, new G2PEn());
             G2Ps.Add(3, new G2PNum());
             G2Ps.Add(4, new G2PSym());
+            G2Ps.Add(5, new G2PNull());
         }
 
         public string GenTranscript(string input, int type)

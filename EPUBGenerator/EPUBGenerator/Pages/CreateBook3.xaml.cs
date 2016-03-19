@@ -105,9 +105,17 @@ namespace EPUBGenerator.Pages
         private void editThisBookbutton_Click(object sender, RoutedEventArgs e)
         {
             // BUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG WTFFFFFFFFFFFFFFFF
-            new EditWindow(_EpubProjPath).Show();
+
+            Console.WriteLine("Click, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
+            //System.Windows.Application.Current.StartupUri = new Uri("EditWindow.xaml", UriKind.Relative);
+            //System.Windows.Application.Current.Startup += (s, ev) => { new EditWindow(_EpubProjPath).Show(); };
+            //System.Windows.Forms.Application.Restart();
+            //System.Windows.Application.Current.Shutdown();
+            System.Windows.Application.Current.MainWindow = new EditWindow(_EpubProjPath);
+            //new EditWindow(_EpubProjPath).Show();
             Switcher.pageSwitcher.Close();
         }
+        
 
         private void exitbutton_Click(object sender, RoutedEventArgs e)
         {

@@ -72,7 +72,6 @@ namespace TTS.Synthesizers
 
         public void Synthesize(string input, string fileID, string outputPath)
         {
-            Console.WriteLine("Text: " + input + ", ID: " + fileID);
             string labText = P2L.Convert(input, curMethod);
             string labFile = Path.Combine(tempPath, fileID + ".lab");
             using (StreamWriter streamWriter = new StreamWriter(labFile))

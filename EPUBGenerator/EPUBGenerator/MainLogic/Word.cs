@@ -10,10 +10,9 @@ namespace EPUBGenerator.MainLogic
 {
     class Word
     {
-        private String pronunciation;
-
         private int _SIndex { get; set; }
         private LinkedListNode<Word> Node { get; set; }
+        private ProjectInfo ProjectInfo { get { return Content.ProjectInfo; } }
 
         public Content Content { get { return Sentence.Content; } }
         public Block Block { get { return Sentence.Block; } }
@@ -27,7 +26,17 @@ namespace EPUBGenerator.MainLogic
         public long Begin { get; private set; }
         public long End { get { return (Next == null ? Sentence.Bytes : Next.Begin); } }
 
-        public String Pronunciation { get; private set; }
+        private int _DictIndex = -1;
+        public String Pronunciation
+        {
+            get
+            {
+                if (_DictIndex == -1)
+                    return OriginalText;
+                return ProjectInfo.Dictionary[OriginalText][_DictIndex];
+            }
+        }
+        public List<String> PronunciationList { get { return Pronunciation.Split('-').ToList(); } }
 
 
         #region ----------- NEW PROJECT ------------
@@ -47,8 +56,10 @@ namespace EPUBGenerator.MainLogic
             xWord.Add(new XAttribute("start", _SIndex));
             xWord.Add(new XAttribute("begin", Begin));
             xWord.Add(new XAttribute("text", OriginalText));
-            if (pronunciation != null)
-                xWord.Add(new XAttribute("pronun", Pronunciation));
+            if (ProjectInfo.CurrentRunWord != null && this == ProjectInfo.CurrentRunWord.Word)
+                xWord.Add(new XAttribute("selected", ""));
+            if (_DictIndex >= 0)
+                xWord.Add(new XAttribute("dict", _DictIndex));
             return xWord;
         }
         #endregion
@@ -64,7 +75,7 @@ namespace EPUBGenerator.MainLogic
                 {
                     case "start": _SIndex = int.Parse(value); break;
                     case "begin": Begin = int.Parse(value); break;
-                    case "pronun": Pronunciation = value; break;
+                    case "dict": _DictIndex = int.Parse(value); break;
                 }
             }
             AppendTo(Sentence.Words);

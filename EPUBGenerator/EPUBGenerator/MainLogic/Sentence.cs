@@ -12,6 +12,7 @@ namespace EPUBGenerator.MainLogic
     class Sentence
     {
         private LinkedListNode<Sentence> Node { get; set; }
+        private ProjectInfo ProjectInfo { get { return Content.ProjectInfo; } }
 
         public int ID { get; private set; }
         public String SID { get { return "S" + ID.ToString("D6"); } }
@@ -37,7 +38,7 @@ namespace EPUBGenerator.MainLogic
             {
                 List<List<String>> list = new List<List<String>>();
                 foreach (Word word in Words)
-                    list.Add(new List<String>() { word.OriginalText });
+                    list.Add(word.PronunciationList);
                 return list;
             }
         }

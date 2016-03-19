@@ -13,21 +13,8 @@ namespace EPUBGenerator.MainLogic.SoundEngine
     class CachedSoundSampleProvider : ISampleProvider
     {
         private readonly CachedSound cachedSound;
-        private long position;
 
-        public long Position
-        {
-            get { return position; }
-            set
-            {
-                long oldPos = position;
-                position = value;
-                if (oldPos != position && PositionChanged != null)
-                    PositionChanged(this, new PositionChangedEventArgs(position - oldPos, position, position >= EndPosition));
-                if (position >= EndPosition && SoundEnded != null)
-                    SoundEnded(this, EventArgs.Empty);
-            }
-        }
+        public long Position { get; private set; }
         public long BeginPosition { get; private set; }
         public long EndPosition { get; private set; }
 
@@ -49,9 +36,31 @@ namespace EPUBGenerator.MainLogic.SoundEngine
             long availableSamples = EndPosition - Position;
             long samplesToCopy = Math.Min(availableSamples, count);
             Array.Copy(cachedSound.AudioData, Position, buffer, offset, samplesToCopy);
-            Position += samplesToCopy;
+            ChangePosition(samplesToCopy);
             return (int)samplesToCopy;
         }
 
+        public void Stop()
+        {
+            Position = EndPosition;
+            EndSound();
+        }
+
+        private void EndSound()
+        {
+            if (SoundEnded != null)
+                SoundEnded(this, EventArgs.Empty);
+        }
+
+        private void ChangePosition(long change)
+        {
+            long oldPos = Position;
+            long newPos = Position + change;
+            Position = newPos;
+            if (PositionChanged != null)
+                PositionChanged(this, new PositionChangedEventArgs(newPos - oldPos, newPos, newPos >= EndPosition));
+            if (change == 0)
+                EndSound();
+        }
     }
 }
