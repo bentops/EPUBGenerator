@@ -143,8 +143,10 @@ namespace EPUBGenerator.MainLogic
         public void SelectDictAt(int index)
         {
             if (index != Word.DictIndex)
+            {
                 Word.ChangeDictIndex(index);
-            IsEdited = index > 0;
+                IsEdited = true;
+            }
         }
         
         public Brush SegmentedBackground { get; private set; }
@@ -214,6 +216,8 @@ namespace EPUBGenerator.MainLogic
                         brush = ProjectProperties.PlayingSentence;
                     else if (IsHovered)
                         brush = ProjectProperties.HoveredWord;
+                    else if (IsEdited)
+                        brush = ProjectProperties.EditedWord;
                     else
                         brush = null;
                     break;
@@ -223,6 +227,12 @@ namespace EPUBGenerator.MainLogic
                 case State.Edit:
                     if (IsSelected)
                         brush = ProjectProperties.EditingSelectedWord;
+                    else if (IsHovered)
+                        brush = ProjectProperties.HoveredWord;
+                    else if (IsEdited)
+                        brush = ProjectProperties.EditedWord;
+                    else
+                        brush = null;
                     break;
             }
             Dispatcher.Invoke((Action)(() => { Background = brush; } ));

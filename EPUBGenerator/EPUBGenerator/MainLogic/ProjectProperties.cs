@@ -26,10 +26,10 @@ namespace EPUBGenerator.MainLogic
         public static Brush PlayingSentence = LightYellow;
         public static Brush PlayingWord = DarkYellow;
 
-        public static Brush EditedWord = DarkPink;
+        public static Brush EditedWord = LightPink;
         public static Brush HoveredWord = LightYellow;
         public static Brush SelectedWord = DarkYellow;
-        public static Brush EditingSelectedWord = LightPink;
+        public static Brush EditingSelectedWord = DarkPink;
 
         public static Brush[] SegmentedWords = new Brush[] { LightBlue, DarkBlue };
         public static Brush[] SplittedWords = new Brush[] { LightOrange, DarkOrange };
