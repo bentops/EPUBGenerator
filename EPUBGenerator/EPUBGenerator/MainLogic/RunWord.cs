@@ -140,6 +140,12 @@ namespace EPUBGenerator.MainLogic
         }
 
         public bool IsEdited { get; set; }
+        public void SelectDictAt(int index)
+        {
+            if (index != Word.DictIndex)
+                Word.ChangeDictIndex(index);
+            IsEdited = index > 0;
+        }
         
         public Brush SegmentedBackground { get; private set; }
         public void ApplyAvailableSegmentedBackground(Brush[] brushes)

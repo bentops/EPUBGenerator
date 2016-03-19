@@ -70,17 +70,17 @@ namespace EPUBGenerator.MainLogic
             SetContentList(EpubFile.TOC);
 
             _DictionaryName = "Dictionary.txt";
-            File.Copy("Resources/Modified_Dictionary.txt", DictionaryPath);
             Dictionary = new Dictionary<String, List<String>>();
-            using (StreamReader streamReader = new StreamReader(DictionaryPath))
+            using (StreamReader streamReader = new StreamReader("Resources/Modified_Dictionary.txt"))
             {
                 while (!streamReader.EndOfStream)
                 {
                     String[] line = streamReader.ReadLine().Split(' ');
                     if (Dictionary.ContainsKey(line[0]))
-                        Dictionary[line[0]].AddRange(line.Skip(1));
+                        Dictionary[line[0]].AddRange(line);
                     else
-                        Dictionary.Add(line[0], line.Skip(1).ToList());
+                        Dictionary.Add(line[0], line.ToList());
+                    Dictionary[line[0]] = Dictionary[line[0]].Distinct().ToList();
                 }
                 streamReader.Close();
             }
@@ -128,9 +128,10 @@ namespace EPUBGenerator.MainLogic
                 {
                     String[] line = streamReader.ReadLine().Split(' ');
                     if (Dictionary.ContainsKey(line[0]))
-                        Dictionary[line[0]].AddRange(line.Skip(1));
+                        Dictionary[line[0]].AddRange(line);
                     else
-                        Dictionary.Add(line[0], line.Skip(1).ToList());
+                        Dictionary.Add(line[0], line.ToList());
+                    Dictionary[line[0]] = Dictionary[line[0]].Distinct().ToList();
                 }
                 streamReader.Close();
             }
@@ -184,6 +185,13 @@ namespace EPUBGenerator.MainLogic
             using (StreamWriter streamWriter = new StreamWriter(EpubProjectPath))
             {
                 streamWriter.Write(xProject);
+                streamWriter.Close();
+            }
+
+            using (StreamWriter streamWriter = new StreamWriter(DictionaryPath))
+            {
+                foreach (List<String> list in Dictionary.Values)
+                    streamWriter.WriteLine(String.Join(" ", list));
                 streamWriter.Close();
             }
         }

@@ -90,16 +90,29 @@ namespace EPUBGenerator
                             richTextBox.CaretBrush = Brushes.Transparent;
                             richTextBox.IsReadOnlyCaretVisible = false;
                             playpauseB.Content = FindResource("Play");
+                            comboBox.IsEnabled = false;
                         }));
                         break;
                     case State.Play:
                         playpauseB.Content = FindResource("Pause");
+                        comboBox.IsEnabled = false;
                         break;
                     case State.Segment:
                         richTextBox.CaretBrush = null;
                         richTextBox.IsReadOnlyCaretVisible = true;
+                        comboBox.IsEnabled = false;
                         break;
                     case State.Edit:
+                        comboBox.IsEnabled = true;
+                        while (comboBox.Items.Count > 0)
+                            comboBox.Items.RemoveAt(0);
+                        String runText = CurrentRunWord.Text;
+                        if (ProjectInfo.Dictionary.ContainsKey(runText))
+                            foreach (String pronun in ProjectInfo.Dictionary[runText])
+                                comboBox.Items.Add(pronun);
+                        else
+                            comboBox.Items.Add(runText);
+                        comboBox.SelectedIndex = CurrentRunWord.Word.DictIndex;
                         break;
                 }
                 #endregion
@@ -128,7 +141,8 @@ namespace EPUBGenerator
             Console.WriteLine("EditWindow, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
             this.PreviewKeyDown += EditWindow_KeyDown;
             richTextBox.IsReadOnly = true;
-
+            richTextBox.SelectionBrush = ProjectProperties.Transparent;
+           
             ProjectInfo = new ProjectInfo(epubProjPath);
             IsSaved = true;
             CurrentState = State.Stop;
@@ -169,26 +183,27 @@ namespace EPUBGenerator
         {
             TreeViewItem oldTVI = e.OldValue as TreeViewItem;
             TreeViewItem newTVI = e.NewValue as TreeViewItem;
-            Console.WriteLine("OLD: " + oldTVI + ", NEW: " + newTVI + " " + newTVI.Tag);
-            if (newTVI.Tag == null)
-                return;
+            Console.WriteLine("OLD: " + oldTVI + ", NEW: " + newTVI);
+            if (newTVI == null) return;
+            Console.WriteLine("New Tag: " + newTVI.Tag);
+            if (newTVI.Tag == null) return;
 
             if (SelectedTVI != null && !IsSaved)
             {
+                Console.WriteLine("In1");
                 if (SelectedTVI != newTVI)
                 {
+                    Console.WriteLine("In2");
                     // SHOW WARNING TO SAVE
                     String message = "Want to save your changes?\nIf you click \"No\", your recent changes will be lost.";
                     MessageBoxResult mResult = MBox.Show(message, "EPUBGenerator", MessageBoxButton.YesNoCancel);
                     if (mResult == MessageBoxResult.Cancel)
-                    {
-                        newTVI.IsSelected = false;
-                        SelectedTVI.IsSelected = true;
                         return;
-                    }
-                    if (mResult == MessageBoxResult.OK)
+                    if (mResult == MessageBoxResult.Yes)
                         saveBook_Click(new object(), new RoutedEventArgs());
                 }
+                else return;
+                Console.WriteLine("In3");
             }
 
             Cursor = Cursors.Wait;
@@ -199,7 +214,8 @@ namespace EPUBGenerator
                 foreach (ParagraphBlock par in pList)
                     Paragraphs.Remove(par);
             }
-            
+
+            IsSaved = true;
             CurrentState = State.Stop;
             SelectedTVI = newTVI;
             SelectedContent = new Content(newTVI.Tag as String, ProjectInfo);
@@ -291,24 +307,35 @@ namespace EPUBGenerator
             switch (CurrentState)
             {
                 case State.Stop:
-                    e.
-                    if (e.LeftButton == MouseButtonState.Pressed)
+                    if (e.ClickCount == 1)
                     {
                         curRun.Select();
                         curRun.PlayCachedSound();
                     }
+                    else if (e.ClickCount == 2)
+                    {
+                        StopSound();
+                        curRun.Select();
+                        CurrentState = State.Edit;
+                    }
                     break;
                 case State.Play:
-                    if (e.LeftButton == MouseButtonState.Pressed)
+                    if (e.ClickCount == 1)
                     {
                         CurrentState = State.Stop;
                         StopSound();
                         curRun.Select();
                         curRun.PlayCachedSound();
                     }
+                    else if (e.ClickCount == 2)
+                    {
+                        StopSound();
+                        curRun.Select();
+                        CurrentState = State.Edit;
+                    }
                     break;
                 case State.Segment:
-                    if (e.LeftButton == MouseButtonState.Pressed)
+                    if (e.ClickCount == 1)
                     {
                         TextPointer curPointer = richTextBox.GetPositionFromPoint(e.GetPosition(curRun), false);
                         if (curPointer == null)
@@ -338,6 +365,19 @@ namespace EPUBGenerator
                         }
                     }
                     break;
+                case State.Edit:
+                    if (e.ClickCount == 1)
+                    {
+                        CurrentState = State.Stop;
+                        curRun.Select();
+                        curRun.PlayCachedSound();
+                    }
+                    else if (e.ClickCount == 2)
+                    {
+                        curRun.Select();
+                        CurrentState = State.Edit;
+                    }
+                    break;
             }
             Cursor = Cursors.Arrow;
         }
@@ -355,6 +395,9 @@ namespace EPUBGenerator
                     break;
                 case State.Segment:
                     break;
+                case State.Edit:
+                    run.Hover();
+                    break;
             }
         }
 
@@ -370,6 +413,9 @@ namespace EPUBGenerator
                     run.Unhover();
                     break;
                 case State.Segment:
+                    break;
+                case State.Edit:
+                    run.Unhover();
                     break;
             }
         }
@@ -404,7 +450,26 @@ namespace EPUBGenerator
 
         private void apply_Click(object sender, RoutedEventArgs e)
         {
-
+            switch (CurrentState)
+            {
+                case State.Stop:
+                    break;
+                case State.Play:
+                    break;
+                case State.Segment:
+                    break;
+                case State.Edit:
+                    int selectIndex = comboBox.SelectedIndex;
+                    if (selectIndex == -1)
+                    {
+                        selectIndex = comboBox.Items.Add(comboBox.Text);
+                        ProjectInfo.Dictionary[CurrentRunWord.Text].Add(comboBox.Text);
+                    }
+                    CurrentRunWord.SelectDictAt(selectIndex);
+                    IsSaved = false;
+                    CurrentRunWord.PlayCachedSound();
+                    break;
+            }
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -446,6 +511,7 @@ namespace EPUBGenerator
                 return;
             Cursor = Cursors.Wait;
             SelectedContent.Save();
+            ProjectInfo.Save();
             foreach (Paragraph paragraph in Paragraphs)
                 foreach (RunWord run in paragraph.Inlines)
                 {
@@ -521,6 +587,8 @@ namespace EPUBGenerator
                     break;
                 case State.Segment:
                     break;
+                case State.Edit:
+                    break;
             }
         }
 
@@ -539,6 +607,8 @@ namespace EPUBGenerator
                     }
                     break;
                 case State.Segment:
+                    break;
+                case State.Edit:
                     break;
             }
         }
