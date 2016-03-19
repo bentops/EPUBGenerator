@@ -113,11 +113,20 @@
     <Compile Include="InstructionPages\CreateProj4.xaml.cs">
       <DependentUpon>CreateProj4.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InstructionPages\EditProj1.xaml.cs">
+      <DependentUpon>EditProj1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstructionPages\ExportProj2.xaml.cs">
       <DependentUpon>ExportProj2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InstructionPages\EditProj2.xaml.cs">
+      <DependentUpon>EditProj2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstructionPages\ExportProj3.xaml.cs">
       <DependentUpon>ExportProj3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstructionPages\EditProj3M.xaml.cs">
+      <DependentUpon>EditProj3M.xaml</DependentUpon>
     </Compile>
     <Compile Include="InstructionPages\ExportProj4.xaml.cs">
       <DependentUpon>ExportProj4.xaml</DependentUpon>
@@ -203,11 +212,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="InstructionPages\EditProj1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="InstructionPages\ExportProj2.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="InstructionPages\EditProj2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="InstructionPages\ExportProj3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InstructionPages\EditProj3M.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

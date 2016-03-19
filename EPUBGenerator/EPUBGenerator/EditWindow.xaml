@@ -336,7 +336,7 @@
                             <TextBlock Text="Apply Change" TextWrapping="Wrap" TextAlignment="Center"/>
                         </Button>
                     </WrapPanel>
-                    <Button Content="SAVE" Height="40" Margin="0,20,0,0" Style="{StaticResource SaveStyle}" Cursor="Hand" />
+                    <!--<Button Content="SAVE" Height="40" Margin="0,20,0,0" Style="{StaticResource SaveStyle}" Cursor="Hand" />-->
                 </StackPanel>
 
                 <Button Name="SaveBook" Content="SAVE BOOK" Width="260" Height="40" Margin="0,60" Style="{StaticResource SaveStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="saveBook_Click"/>
