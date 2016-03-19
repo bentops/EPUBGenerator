@@ -17,12 +17,14 @@ namespace TTS
             Map.Add(3, 2);
             Map.Add(4, 2);
             Map.Add(5, 2);
+            Map.Add(6, 4);
 
             // {1 - 3} -> {PhonemeConverters}
             PhonemeConverters = new Dictionary<int, IPhonemeConverter>();
             PhonemeConverters.Add(1, new ThaiPhonemeConverter());
             PhonemeConverters.Add(2, new NumberPhonemeConverter());
             PhonemeConverters.Add(3, new EngPhonemeConverter());
+            PhonemeConverters.Add(4, new NullPhonemeConverter());
         }
 
         public string Convert(string input, int type)

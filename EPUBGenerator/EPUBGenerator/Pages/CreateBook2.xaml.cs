@@ -48,6 +48,14 @@ namespace EPUBGenerator.Pages
             infoprojLocation.Text = projPath;
             infoinputEPUB.Text = epubPath;
 
+            /*
+
+            Console.WriteLine("RunCompleted, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
+            Thread.Sleep(500);
+            Switcher.Switch(Switcher.createBook3);
+            Switcher.createBook3.bookInfo(projName, projPath, epubPath);
+            */
+            
             BackgroundWorker bw = new BackgroundWorker();
             bw.WorkerReportsProgress = true;
             bw.WorkerSupportsCancellation = true;
@@ -55,7 +63,52 @@ namespace EPUBGenerator.Pages
             bw.ProgressChanged += bw_ProgressChanged;
             bw.RunWorkerCompleted += bw_RunWorkerCompleted;
             bw.RunWorkerAsync();
+            
         }
+        /*
+        private void CreateProject(IProgress<string> progress)
+        {
+            //_ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
+            ProjectInfo projInfo = new ProjectInfo(epubPath, projPath);
+
+            Epub epubFile = projInfo.EpubFile;
+            List<NavPoint> navsWithContent = new List<NavPoint>();
+            GetAllNavsWithContents(epubFile.TOC, navsWithContent);
+
+            List<Content> contents = new List<Content>();
+            int totalSentence = 0;
+
+            Console.WriteLine("Total Content Pages: " + navsWithContent.Count);
+            //_ProgressUpdater.Initialize(navsWithContent.Count);
+            foreach (NavPoint nav in navsWithContent)
+            {
+                Content content = new Content(nav, projInfo);
+                contents.Add(content);
+                totalSentence += content.SentenceCount;
+                // Save Content Structure in @"ProjDir\Resources\Package"
+                using (StreamWriter streamWriter = new StreamWriter(content.ContentResource))
+                {
+                    streamWriter.Write(content.Root);
+                    streamWriter.Close();
+                }
+                //_ProgressUpdater.Increment();
+            }
+
+            Console.WriteLine("Total Sentences: " + totalSentence);
+            //_ProgressUpdater.Initialize(totalSentence);
+            foreach (Content content in contents)
+            {
+                foreach (Block block in content.Blocks)
+                    foreach (Sentence sentence in block.Sentences)
+                    {
+                        sentence.Synthesize();
+                        //_ProgressUpdater.Increment();
+                    }
+                content.Save();
+            }
+            projInfo.Save();
+        }
+        */
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
@@ -133,6 +186,7 @@ namespace EPUBGenerator.Pages
             }
             else
             {
+                Console.WriteLine("RunCompleted, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
                 Thread.Sleep(500);
                 Switcher.Switch(Switcher.createBook3);
                 Switcher.createBook3.bookInfo(projName, projPath, epubPath);

@@ -32,24 +32,62 @@ namespace EPUBGenerator.MainLogic
 
         private static List<int> Split(String text)
         {
-            Regex regex = new Regex(@"\s");
-            String[] sList = regex.Split(text);
+            String eng = @"[a-zA-Z?.,:;'""&$/\\(){}<>[\]\-\s]*";
+            Regex eRegex = new Regex(eng + @"[a-zA-Z]+" + eng, RegexOptions.Compiled);
+            Regex sRegex = new Regex(@"[\s]+", RegexOptions.Compiled);
 
             List<int> indexList = new List<int>();
+            Match eMatch = eRegex.Match(text);
+            int sIndex = 0;
+            while (eMatch.Success)
+            {
+                String eNonMatch = text.Substring(sIndex, eMatch.Index - sIndex);
+
+                // Deal with Non-EngOrSpace
+                if (eNonMatch.Length > 0)
+                    SplitThaiWord(indexList, eNonMatch, sIndex);
+
+                // Deal with Eng
+                IncreasinglyAppend(indexList, eMatch.Index);
+                sIndex = eMatch.Index + eMatch.Length;
+                eMatch = eMatch.NextMatch();
+            }
+            SplitThaiWord(indexList, text.Substring(sIndex), sIndex);
+
+            for (int i = 0; i < indexList.Count - 1; i++)
+            {
+                int start = indexList[i];
+                int len = indexList[i + 1] - start;
+                Console.WriteLine("/" + text.Substring(start, len) + "/");
+            }
+            return indexList;
+        }
+
+        private static void SplitThaiWord(List<int> list, String text, int offset)
+        {
+            Regex sRegex = new Regex(@"[\s]+");
+            String[] sList = sRegex.Split(text);
+            
             int startIndex = 0;
-            indexList.Add(0);
             foreach (String cutText in sList)
             {
                 if (String.IsNullOrWhiteSpace(cutText))
                     continue;
-                Console.WriteLine(cutText);
+                IncreasinglyAppend(list, offset + startIndex);
                 int index = text.IndexOf(cutText, startIndex);
                 if (index < 0)
                     throw new Exception("Wrong Index Text: " + cutText + " " + startIndex + " " + text);
+                //IncreasinglyAppend(list, offset + index);
                 startIndex = index + cutText.Length;
-                indexList.Add(startIndex);
             }
-            return indexList;
+            //IncreasinglyAppend(list, offset + startIndex);
+        }
+
+        private static void IncreasinglyAppend(List<int> list, int num)
+        {
+            int count = list.Count;
+            if (count == 0 || list[count - 1] < num)
+                list.Add(num);
         }
         #endregion
 

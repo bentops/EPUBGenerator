@@ -76,7 +76,7 @@ namespace EPUBGenerator.MainLogic
             Word.MergeWith(nextRun.Word);
             Inlines.Remove(nextRun);
             Text = Word.OriginalText;
-            ApplyAvailableEditModeBackground(ProjectProperties.MergedWords);
+            ApplyAvailableSegmentedBackground(ProjectProperties.MergedWords);
         }
         
         public RunWord SplitAt(TextPointer pointer)
@@ -84,52 +84,18 @@ namespace EPUBGenerator.MainLogic
             int splitPos = pointer.GetTextRunLength(GoBackward);
             Word newWord = Word.SplitAt(splitPos);
             Text = Word.OriginalText;
-            ApplyAvailableEditModeBackground(ProjectProperties.SplittedWords);
+            ApplyAvailableSegmentedBackground(ProjectProperties.SplittedWords);
 
             TextPointer insertPos = pointer.GetNextContextPosition(GoForward);
             while (insertPos != null && insertPos.GetPointerContext(GoBackward) != TextPointerContext.ElementEnd)
                 insertPos = insertPos.GetNextContextPosition(GoForward);
             return new RunWord(newWord, insertPos);
         }
-        /*
-        public void ApplyAvailableBrush(Brush[] brushes)
-        {
-            // However, it should have at least 2 brushes.
-            if (brushes.Length < 2)
-                throw new Exception("BrushList contains only " + brushes.Length + " brush.");
-
-            // If prev is null, just check with the next one.
-            if (PreviousRun == null)
-            {
-                Background = (NextRun == null || NextRun.Background != brushes[0]) ? brushes[0] : brushes[1];
-                return;
-            }
-
-            // If next is null, just check with the prev one. [But now we know that prev is not null.]
-            if (NextRun == null)
-            {
-                Background = (PreviousRun.Background != brushes[0]) ? brushes[0] : brushes[1];
-                return;
-            }
-
-            // Check every brush in brushes, find one that doesn't share color with prev or next.
-            foreach (Brush brush in brushes)
-            {
-                if (PreviousRun.Background == brush || NextRun.Background == brush)
-                    continue;
-                Background = brush;
-                return;
-            }
-
-            // If there is no consistent brush, choose one that is different from prev, repeat the algo with the next one.
-            Background = (PreviousRun.Background != brushes[0]) ? brushes[0] : brushes[1];
-            NextRun.ApplyAvailableBrush(brushes);
-        }*/
-        
+     
         public void PlayCachedSound()
         {
             if (_OnPlaying != null)
-                _OnPlaying.Position = _OnPlaying.EndPosition;
+                _OnPlaying.Stop();
             AudioPlaybackEngine.Instance.PlaySound(_OnPlaying = CachedSound);
         }
 
@@ -174,10 +140,17 @@ namespace EPUBGenerator.MainLogic
         }
 
         public bool IsEdited { get; set; }
+        public void SelectDictAt(int index)
+        {
+            if (index != Word.DictIndex)
+            {
+                Word.ChangeDictIndex(index);
+                IsEdited = true;
+            }
+        }
         
-        public Brush EditModeBackground { get; private set; }
-
-        public void ApplyAvailableEditModeBackground(Brush[] brushes)
+        public Brush SegmentedBackground { get; private set; }
+        public void ApplyAvailableSegmentedBackground(Brush[] brushes)
         {
             // However, it should have at least 2 brushes.
             if (brushes.Length < 2)
@@ -186,7 +159,7 @@ namespace EPUBGenerator.MainLogic
             // If prev is null, just check with the next one.
             if (PreviousRun == null)
             {
-                EditModeBackground = (NextRun == null || NextRun.EditModeBackground != brushes[0]) ? brushes[0] : brushes[1];
+                SegmentedBackground = (NextRun == null || NextRun.SegmentedBackground != brushes[0]) ? brushes[0] : brushes[1];
                 UpdateBackground();
                 return;
             }
@@ -194,7 +167,7 @@ namespace EPUBGenerator.MainLogic
             // If next is null, just check with the prev one. [But now we know that prev is not null.]
             if (NextRun == null)
             {
-                EditModeBackground = (PreviousRun.EditModeBackground != brushes[0]) ? brushes[0] : brushes[1];
+                SegmentedBackground = (PreviousRun.SegmentedBackground != brushes[0]) ? brushes[0] : brushes[1];
                 UpdateBackground();
                 return;
             }
@@ -202,17 +175,17 @@ namespace EPUBGenerator.MainLogic
             // Check every brush in brushes, find one that doesn't share color with prev or next.
             foreach (Brush brush in brushes)
             {
-                if (PreviousRun.EditModeBackground == brush || NextRun.EditModeBackground == brush)
+                if (PreviousRun.SegmentedBackground == brush || NextRun.SegmentedBackground == brush)
                     continue;
-                EditModeBackground = brush;
+                SegmentedBackground = brush;
                 UpdateBackground();
                 return;
             }
 
             // If there is no consistent brush, choose one that is different from prev, repeat the algo with the next one.
-            EditModeBackground = (PreviousRun.EditModeBackground != brushes[0]) ? brushes[0] : brushes[1];
+            SegmentedBackground = (PreviousRun.SegmentedBackground != brushes[0]) ? brushes[0] : brushes[1];
             UpdateBackground();
-            NextRun.ApplyAvailableEditModeBackground(brushes);
+            NextRun.ApplyAvailableSegmentedBackground(brushes);
         }
 
         public void UpdateBackground()
@@ -241,14 +214,27 @@ namespace EPUBGenerator.MainLogic
                     }
                     else if (IsSentenceSelected)
                         brush = ProjectProperties.PlayingSentence;
+                    else if (IsHovered)
+                        brush = ProjectProperties.HoveredWord;
+                    else if (IsEdited)
+                        brush = ProjectProperties.EditedWord;
                     else
                         brush = null;
                     break;
+                case State.Segment:
+                    brush = SegmentedBackground;
+                    break;
                 case State.Edit:
-                    brush = EditModeBackground;
+                    if (IsSelected)
+                        brush = ProjectProperties.EditingSelectedWord;
+                    else if (IsHovered)
+                        brush = ProjectProperties.HoveredWord;
+                    else if (IsEdited)
+                        brush = ProjectProperties.EditedWord;
+                    else
+                        brush = null;
                     break;
             }
-
             Dispatcher.Invoke((Action)(() => { Background = brush; } ));
         }
     }

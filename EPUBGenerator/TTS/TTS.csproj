@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="G2Ps\G2PEn.cs" />
     <Compile Include="CG2P.cs" />
+    <Compile Include="G2Ps\G2PNull.cs" />
     <Compile Include="G2Ps\G2PNum.cs" />
     <Compile Include="G2Ps\G2PSym.cs" />
     <Compile Include="G2Ps\G2PTh.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="IPhonemeConverter.cs" />
     <Compile Include="CPhonemeConverter.cs" />
     <Compile Include="PhonemeConverters\EngPhonemeConverter.cs" />
+    <Compile Include="PhonemeConverters\NullPhonemeConverter.cs" />
     <Compile Include="PhonemeConverters\NumberPhonemeConverter.cs" />
     <Compile Include="PhonemeConverters\ThaiPhonemeConverter.cs" />
     <Compile Include="PhonemeConverters\Wirote2TSync.cs" />

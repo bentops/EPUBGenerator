@@ -10,10 +10,9 @@ namespace EPUBGenerator.MainLogic
 {
     class Word
     {
-        private String pronunciation;
-
         private int _SIndex { get; set; }
         private LinkedListNode<Word> Node { get; set; }
+        private ProjectInfo ProjectInfo { get { return Content.ProjectInfo; } }
 
         public Content Content { get { return Sentence.Content; } }
         public Block Block { get { return Sentence.Block; } }
@@ -27,12 +26,23 @@ namespace EPUBGenerator.MainLogic
         public long Begin { get; private set; }
         public long End { get { return (Next == null ? Sentence.Bytes : Next.Begin); } }
 
-        public String Pronunciation { get; private set; }
+        public int DictIndex { get; private set; }
+        public String Pronunciation
+        {
+            get
+            {
+                if (DictIndex == 0)
+                    return OriginalText;
+                return ProjectInfo.Dictionary[OriginalText][DictIndex];
+            }
+        }
+        public List<String> PronunciationList { get { return Pronunciation.Split('-').ToList(); } }
 
 
         #region ----------- NEW PROJECT ------------
         public Word(int start, long begin, Sentence sentence)
         {
+            DictIndex = 0;
             _SIndex = start;
             Begin = begin;
             Sentence = sentence;
@@ -47,8 +57,10 @@ namespace EPUBGenerator.MainLogic
             xWord.Add(new XAttribute("start", _SIndex));
             xWord.Add(new XAttribute("begin", Begin));
             xWord.Add(new XAttribute("text", OriginalText));
-            if (pronunciation != null)
-                xWord.Add(new XAttribute("pronun", Pronunciation));
+            if (ProjectInfo.CurrentRunWord != null && this == ProjectInfo.CurrentRunWord.Word)
+                xWord.Add(new XAttribute("selected", ""));
+            if (DictIndex > 0)
+                xWord.Add(new XAttribute("dict", DictIndex));
             return xWord;
         }
         #endregion
@@ -64,7 +76,7 @@ namespace EPUBGenerator.MainLogic
                 {
                     case "start": _SIndex = int.Parse(value); break;
                     case "begin": Begin = int.Parse(value); break;
-                    case "pronun": Pronunciation = value; break;
+                    case "dict": DictIndex = int.Parse(value); break;
                 }
             }
             AppendTo(Sentence.Words);
@@ -74,6 +86,7 @@ namespace EPUBGenerator.MainLogic
         #region ----------- EDIT PROJECT ------------
         private Word(int start, Word word)
         {
+            DictIndex = 0;
             _SIndex = start;
             Sentence = word.Sentence;
             AddAfter(word.Node, Sentence.Words);
@@ -81,6 +94,7 @@ namespace EPUBGenerator.MainLogic
 
         public Word SplitAt(int index)
         {
+            DictIndex = 0;
             Word newWord = new Word(_SIndex + index, this);
             Sentence.Resynthesize();
             return newWord;
@@ -92,7 +106,7 @@ namespace EPUBGenerator.MainLogic
                 Sentence.MergeWith(nextWord.Sentence);
             if (!Next.Equals(nextWord))
                 throw new Exception("Two words (to be merged) are not adjacent.");
-
+            DictIndex = 0;
             Sentence.Words.Remove(nextWord.Node);
             Sentence.Resynthesize();
         }
@@ -108,6 +122,12 @@ namespace EPUBGenerator.MainLogic
         public void SetBegin(long begin)
         {
             Begin = begin;
+        }
+
+        public void ChangeDictIndex(int index)
+        {
+            DictIndex = index;
+            Sentence.Resynthesize();
         }
         #endregion
 

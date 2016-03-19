@@ -31,6 +31,10 @@ namespace EPUBGenerator.MainLogic
                 return _EpubFile;
             }
         }
+
+        private String _DictionaryName;
+        public String DictionaryPath { get { return Path.Combine(SavesPath, _DictionaryName); } }
+        public Dictionary<String, List<String>> Dictionary { get; private set; }
         #endregion
 
         #region Directories
@@ -64,6 +68,22 @@ namespace EPUBGenerator.MainLogic
 
             ContentList = new SortedList<int, string>();
             SetContentList(EpubFile.TOC);
+
+            _DictionaryName = "Dictionary.txt";
+            Dictionary = new Dictionary<String, List<String>>();
+            using (StreamReader streamReader = new StreamReader("Resources/Modified_Dictionary.txt"))
+            {
+                while (!streamReader.EndOfStream)
+                {
+                    String[] line = streamReader.ReadLine().Split(' ');
+                    if (Dictionary.ContainsKey(line[0]))
+                        Dictionary[line[0]].AddRange(line);
+                    else
+                        Dictionary.Add(line[0], line.ToList());
+                    Dictionary[line[0]] = Dictionary[line[0]].Distinct().ToList();
+                }
+                streamReader.Close();
+            }
         }
 
         private void SetContentList(List<NavPoint> navPoints)
@@ -88,17 +108,51 @@ namespace EPUBGenerator.MainLogic
                 xProject = XElement.Parse(streamReader.ReadToEnd());
                 streamReader.Close();
             }
-            ProjectName = xProject.Attribute("name").Value;
-            PackageName = xProject.Attribute("package").Value;
-            EpubName = xProject.Attribute("epub").Value;
+
+            foreach (XAttribute attribute in xProject.Attributes())
+            {
+                String value = attribute.Value;
+                switch (attribute.Name.ToString())
+                {
+                    case "name": ProjectName = value; break;
+                    case "package": PackageName = value; break;
+                    case "epub": EpubName = value; break;
+                    case "dict": _DictionaryName = value; break;
+                }
+            }
+
+            Dictionary = new Dictionary<String, List<String>>();
+            using (StreamReader streamReader = new StreamReader(DictionaryPath))
+            {
+                while (!streamReader.EndOfStream)
+                {
+                    String[] line = streamReader.ReadLine().Split(' ');
+                    if (Dictionary.ContainsKey(line[0]))
+                        Dictionary[line[0]].AddRange(line);
+                    else
+                        Dictionary.Add(line[0], line.ToList());
+                    Dictionary[line[0]] = Dictionary[line[0]].Distinct().ToList();
+                }
+                streamReader.Close();
+            }
 
             Project.Synthesizer.TempPath = TempPath;
 
             ContentList = new SortedList<int, String>();
             foreach (XElement xContent in xProject.Element("Contents").Elements("Content"))
             {
-                int order = int.Parse(xContent.Attribute("order").Value);
-                String src = xContent.Attribute("src").Value;
+                int order = -1;
+                String src = "";
+                foreach (XAttribute attribute in xContent.Attributes())
+                {
+                    String value = attribute.Value;
+                    switch (attribute.Name.ToString())
+                    {
+                        case "order": order = int.Parse(value); break;
+                        case "src": src = value; break;
+                        case "selected": /*/ DO WHAT? /*/ break;
+                    }
+                }
                 ContentList.Add(order, src);
             }
         }
@@ -111,6 +165,7 @@ namespace EPUBGenerator.MainLogic
             xProject.Add(new XAttribute("name", ProjectName));
             xProject.Add(new XAttribute("package", PackageName));
             xProject.Add(new XAttribute("epub", EpubName));
+            xProject.Add(new XAttribute("dict", _DictionaryName));
 
             XElement xContents = new XElement("Contents");
             foreach (KeyValuePair<int, String> content in ContentList)
@@ -118,6 +173,8 @@ namespace EPUBGenerator.MainLogic
                 XElement xContent = new XElement("Content");
                 xContent.Add(new XAttribute("order", content.Key));
                 xContent.Add(new XAttribute("src", content.Value));
+                if (CurrentContent != null && content.Key == CurrentContent.Order)
+                    xContent.Add(new XAttribute("selected", ""));
                 xContents.Add(xContent);
             }
             xProject.Add(xContents);
@@ -128,6 +185,13 @@ namespace EPUBGenerator.MainLogic
             using (StreamWriter streamWriter = new StreamWriter(EpubProjectPath))
             {
                 streamWriter.Write(xProject);
+                streamWriter.Close();
+            }
+
+            using (StreamWriter streamWriter = new StreamWriter(DictionaryPath))
+            {
+                foreach (List<String> list in Dictionary.Values)
+                    streamWriter.WriteLine(String.Join(" ", list));
                 streamWriter.Close();
             }
         }

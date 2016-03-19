@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,10 +22,12 @@ namespace EPUBGenerator
     /// </summary>
     public partial class MainWindow : Window
     {
-        int test = 0;
+        int test = 2;
         public MainWindow()
         {
             InitializeComponent();
+            Console.WriteLine("MainWindow, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine(Application.Current.StartupUri);
             Switcher.pageSwitcher = this;
             Switcher.home = new Home();
             Switcher.createBook1 = new CreateBook1();

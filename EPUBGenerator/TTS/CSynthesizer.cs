@@ -64,6 +64,7 @@ namespace TTS
             Map.Add(3, 1);
             Map.Add(4, 1);
             Map.Add(5, 1);
+            Map.Add(6, 1);
 
             // {1 - 2} -> {Synthesizers}
             Synthesizers = new Dictionary<int, ISynthesizer>();
