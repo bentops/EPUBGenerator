@@ -67,6 +67,36 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style TargetType="{x:Type Button}" x:Key="ImgButStyle">
+            <Setter Property="Background" Value="#f1fcfb" />
+            <Setter Property="Foreground" Value="#415572" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <Grid>
+                                <ContentPresenter x:Name="Create" Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
+                            </Grid>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#01A2A6" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" Value="#FFAAAAAA"/>
+                            </Trigger>
+                            <!-- Trigger Property="IsPressed" Value="True">
+                                        <Setter Property="Background" Value="OrangeRed" />
+                                        <Setter Property="Foreground" Value="White" />
+                                    </Trigger-->
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
         <Style TargetType="{x:Type Button}" x:Key="SaveStyle">
             <Setter Property="Background" Value="#29D9C2" />
             <Setter Property="Foreground" Value="#FCFFFD" />
@@ -337,6 +367,16 @@
                         </Button>
                     </WrapPanel>
                     <!--<Button Content="SAVE" Height="40" Margin="0,20,0,0" Style="{StaticResource SaveStyle}" Cursor="Hand" />-->
+                    <StackPanel x:Name="imgConsole" >
+                        <Label Content="คำบรรยายภาพ" Margin="0,10,0,0" Style="{StaticResource LabelStyleInGrid}" />
+                        <Image x:Name="image" Width="Auto" Height="120" Margin="0,5,0,0" />
+                        <RichTextBox x:Name="imageCaption" Width="Auto" Height="150" IsEnabled="False" >
+                        </RichTextBox>
+                        <WrapPanel HorizontalAlignment="Right">
+                            <Button Name="editImgCap" Content="Edit" Width="40" Height="20" Margin="0,5,10,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="saveBook_Click" HorizontalAlignment="Right" IsEnabled="False"/>
+                            <Button Name="applyImgCap" Content="Apply" Width="50" Height="20" Margin="0,5,0,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="saveBook_Click" HorizontalAlignment="Right" IsEnabled="False"/>
+                        </WrapPanel>
+                    </StackPanel>
                 </StackPanel>
 
                 <Button Name="SaveBook" Content="SAVE BOOK" Width="260" Height="40" Margin="0,60" Style="{StaticResource SaveStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="saveBook_Click"/>
