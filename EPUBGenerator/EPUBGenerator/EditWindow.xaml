@@ -264,7 +264,7 @@
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0" Background="#F7F7FF">
                         <Label >
-                            <TreeView x:Name="treeView" Height="368" Width="190">
+                            <TreeView x:Name="treeView" Height="590" Width="190" BorderThickness="0" Background="Transparent" Margin="0,10,0,0">
                             </TreeView>
                         </Label>
                     </Grid>
