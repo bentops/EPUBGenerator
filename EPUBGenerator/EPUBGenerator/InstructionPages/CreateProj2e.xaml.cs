@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace EPUBGenerator.InstructionPages
 {
     /// <summary>
-    /// Interaction logic for CreateProj2.xaml
+    /// Interaction logic for CreateProj2e.xaml
     /// </summary>
-    public partial class CreateProj2 : Page
+    public partial class CreateProj2e : Page
     {
-        public CreateProj2()
+        public CreateProj2e()
         {
             InitializeComponent();
-            Home.states.Add("CreateProj2");
         }
 
         private void homebutton_Click(object sender, RoutedEventArgs e)
