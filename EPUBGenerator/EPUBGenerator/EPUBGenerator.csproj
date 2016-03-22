@@ -116,6 +116,15 @@
     <Compile Include="InstructionPages\EditProj1.xaml.cs">
       <DependentUpon>EditProj1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InstructionPages\EditProj6.xaml.cs">
+      <DependentUpon>EditProj6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstructionPages\EditProj5.xaml.cs">
+      <DependentUpon>EditProj5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstructionPages\EditProj4.xaml.cs">
+      <DependentUpon>EditProj4.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstructionPages\ExportProj2.xaml.cs">
       <DependentUpon>ExportProj2.xaml</DependentUpon>
     </Compile>
@@ -215,6 +224,18 @@
     <Page Include="InstructionPages\EditProj1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InstructionPages\EditProj6.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InstructionPages\EditProj5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InstructionPages\EditProj4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="InstructionPages\ExportProj2.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -389,6 +410,34 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\exportAsEPUB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\testEditScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\saveBook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\in01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\in02.png" />
+    <Resource Include="Resources\in03.png" />
+    <Resource Include="Resources\in04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\in05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\in06.png" />
+    <Resource Include="Resources\in07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\popex01.png" />
+    <Resource Include="Resources\popex02.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

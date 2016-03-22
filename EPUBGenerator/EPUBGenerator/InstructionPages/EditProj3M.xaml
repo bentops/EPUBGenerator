@@ -49,11 +49,12 @@
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="0">
+                <Image x:Name="image" HorizontalAlignment="Left" Margin="10" VerticalAlignment="Center" Width="Auto" Source="/EPUBGenerator;component/Resources/testEditScreen.png"/>
 
             </Grid>
 
             <Grid Grid.Column="1">
-                <StackPanel Margin="0,10">
+                <StackPanel>
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
                         <Run FontWeight="Bold" Text="ส่วนที่ 1 " />
                         <Run Text="ข้อมูลหนังสือไฟล์ ที่กำลังทำการแก้ไข " />
@@ -66,35 +67,39 @@
                         <Run FontWeight="Bold" Text="ส่วนที่ 3 " />
                         <Run Text="เนื้อหาในหนังสือของหน้าปัจจุบัน" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
+                    <TextBlock x:Name="textBlock90" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
                         <Run FontWeight="Bold" Text="ส่วนที่ 4 " />
+                        <Run Text="เปลี่ยนหน้าหนังสือ" />
+                    </TextBlock>
+                    <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
+                        <Run FontWeight="Bold" Text="ส่วนที่ 5 " />
                         <Run Text="สถานะการแก้ไขและการบันทึก" />
                     </TextBlock>
                     <TextBlock x:Name="textBlock11" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 5 " />
+                        <Run FontWeight="Bold" Text="ส่วนที่ 6 " />
                         <Run Text="ตัวเลือกการเล่นหนังสือ" />
                     </TextBlock>
                     <TextBlock x:Name="textBlock12" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0" FontSize="13" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 6 " />
+                        <Run FontWeight="Bold" Text="ส่วนที่ 7 " />
                         <Run Text="คำอ่านและตัวเลือกการแก้ไขคำอ่าน" />
                     </TextBlock>
                     <Button Name="NextEditPage1" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-5,10,10" Click="NextPage_Click" />
                     <TextBlock x:Name="textBlock13" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="13" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 7 " />
+                        <Run FontWeight="Bold" Text="ส่วนที่ 8 " />
                         <Run Text="คำอ่านและตัวเลือกการแก้ไขคำอ่าน " />
                     </TextBlock>
                     <Button Name="NextEditPage2" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-5,10,10" Click="NextPage_Click" />
                     <TextBlock x:Name="textBlock14" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="13" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 8 " />
+                        <Run FontWeight="Bold" Text="ส่วนที่ 9 " />
                         <Run Text="ควบคุมการเล่นเสียง" />
                     </TextBlock>
                     <Button Name="NextEditPage3" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-5,10,10" Click="NextPage_Click" />
                     <TextBlock x:Name="textBlock15" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 9 " />
+                        <Run FontWeight="Bold" Text="ส่วนที่ 10 " />
                         <Run Text="บันทึกการแก้ไขหนังสือ" />
                     </TextBlock>
                     <TextBlock x:Name="textBlock16" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 10 " />
+                        <Run FontWeight="Bold" Text="ส่วนที่ 11 " />
                         <Run Text="ส่งออกหนังสือไฟล์สกุล .epub" />
                     </TextBlock>
                     <!--<TextBlock x:Name="textBlock3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="14" LineHeight="30">
