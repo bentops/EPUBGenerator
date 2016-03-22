@@ -89,12 +89,12 @@ namespace EPUBGenerator
                         {
                             richTextBox.CaretBrush = Brushes.Transparent;
                             richTextBox.IsReadOnlyCaretVisible = false;
-                            playpauseB.Content = FindResource("Play");
+                            PlayPauseB.Content = FindResource("Play");
                             comboBox.IsEnabled = false;
                         }));
                         break;
                     case State.Play:
-                        playpauseB.Content = FindResource("Pause");
+                        PlayPauseB.Content = FindResource("Pause");
                         comboBox.IsEnabled = false;
                         break;
                     case State.Segment:
@@ -147,7 +147,8 @@ namespace EPUBGenerator
             IsSaved = true;
             CurrentState = State.Stop;
 
-            projInfoTextBlock.Text = ProjectName;
+            bookName.Content = ProjectName;
+            projPath.Text = ProjectPath;
             GenerateProjectMenu();
 
             if (_AllContentsTVI.Items.Count > 0)
@@ -190,20 +191,17 @@ namespace EPUBGenerator
 
             if (SelectedTVI != null && !IsSaved)
             {
-                Console.WriteLine("In1");
                 if (SelectedTVI != newTVI)
                 {
-                    Console.WriteLine("In2");
                     // SHOW WARNING TO SAVE
                     String message = "Want to save your changes?\nIf you click \"No\", your recent changes will be lost.";
                     MessageBoxResult mResult = MBox.Show(message, "EPUBGenerator", MessageBoxButton.YesNoCancel);
                     if (mResult == MessageBoxResult.Cancel)
                         return;
                     if (mResult == MessageBoxResult.Yes)
-                        saveBook_Click(new object(), new RoutedEventArgs());
+                        SaveBook_Click(new object(), new RoutedEventArgs());
                 }
                 else return;
-                Console.WriteLine("In3");
             }
 
             Cursor = Cursors.Wait;
@@ -428,28 +426,66 @@ namespace EPUBGenerator
             //block.Text = "Project Location : \t" + ProjectPath;
         }
 
-        private string GetProjectFileName(string projPath)
+        //private string GetProjectFileName(string projPath)
+        //{
+          //  return Path.GetFileNameWithoutExtension(projPath);
+        //}
+
+        private void ForwardB_Click(object sender, RoutedEventArgs e)
         {
-            return Path.GetFileNameWithoutExtension(projPath);
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
+            switch (CurrentState)
+            {
+                case State.Stop:
+                    if (SelectNextRunWord())
+                        CurrentRunWord.PlayCachedSound();
+                    break;
+                case State.Play:
+                    CurrentState = State.Stop;
+                    StopSound();
+                    if (SelectNextRunWord())
+                        CurrentRunWord.PlayCachedSound();
+                    break;
+                case State.Segment:
+                    break;
+                case State.Edit:
+                    CurrentState = State.Stop;
+                    if (SelectNextRunWord())
+                        CurrentRunWord.PlayCachedSound();
+                    break;
+            }
+            (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
 
-        private void forwardB_Click(object sender, RoutedEventArgs e)
+        private void BackwardB_Click(object sender, RoutedEventArgs e)
         {
-
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
+            switch (CurrentState)
+            {
+                case State.Stop:
+                    if (SelectPreviousRunWord())
+                        CurrentRunWord.PlayCachedSound();
+                    break;
+                case State.Play:
+                    CurrentState = State.Stop;
+                    StopSound();
+                    if (SelectPreviousRunWord())
+                        CurrentRunWord.PlayCachedSound();
+                    break;
+                case State.Segment:
+                    break;
+                case State.Edit:
+                    CurrentState = State.Stop;
+                    if (SelectPreviousRunWord())
+                        CurrentRunWord.PlayCachedSound();
+                    break;
+            }
+            (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
-
-        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        
+        private void Apply_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void browseLocation_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void apply_Click(object sender, RoutedEventArgs e)
-        {
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
             switch (CurrentState)
             {
                 case State.Stop:
@@ -470,15 +506,12 @@ namespace EPUBGenerator
                     CurrentRunWord.PlayCachedSound();
                     break;
             }
-        }
-
-        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
+            (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
         
-        private void playpauseB_Click(object sender, RoutedEventArgs e)
+        private void PlayPauseB_Click(object sender, RoutedEventArgs e)
         {
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
             switch (CurrentState)
             {
                 case State.Stop:
@@ -492,24 +525,40 @@ namespace EPUBGenerator
                     StopSound();
                     break;
                 case State.Segment:
+                    CurrentState = State.Play;
+                    PlaySound();
                     break;
             }
+            (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
 
         private void stopB_Click(object sender, RoutedEventArgs e)
         {
-            if (playpauseB.Content == FindResource("Pause"))
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
+            switch (CurrentState)
             {
-                playpauseB.Content = FindResource("Play");
-                playpauseB.IsChecked = false;
+                case State.Stop:
+                    break;
+                case State.Play:
+                    break;
+                case State.Segment:
+                    break;
+                case State.Edit:
+                    break;
+            }
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
+            if (PlayPauseB.Content == FindResource("Pause"))
+            {
+                PlayPauseB.Content = FindResource("Play");
+                PlayPauseB.IsChecked = false;
             }
         }
         
-        private void saveBook_Click(object sender, RoutedEventArgs e)
+        private void SaveBook_Click(object sender, RoutedEventArgs e)
         {
             if (IsSaved)
                 return;
-            Cursor = Cursors.Wait;
+            SaveBook.Cursor = Cursors.Wait;
             SelectedContent.Save();
             ProjectInfo.Save();
             foreach (Paragraph paragraph in Paragraphs)
@@ -519,10 +568,10 @@ namespace EPUBGenerator
                     run.ApplyAvailableSegmentedBackground(ProjectProperties.SegmentedWords);
                 }
             IsSaved = true;
-            Cursor = Cursors.Arrow;
+            SaveBook.Cursor = Cursors.Arrow;
         }
 
-        private void export_Click(object sender, RoutedEventArgs e)
+        private void Export_Click(object sender, RoutedEventArgs e)
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
@@ -622,6 +671,25 @@ namespace EPUBGenerator
             if (firstWord == null)
                 return false;
             firstWord.Select();
+            return true;
+        }
+
+        private bool SelectPreviousRunWord()
+        {
+            if (CurrentRunWord == null)
+                return false;
+            if (CurrentRunWord.PreviousRun != null)
+            {
+                CurrentRunWord.PreviousRun.Select();
+                return true;
+            }
+            Paragraph prevParagraph = (CurrentRunWord.Parent as Paragraph).PreviousBlock as Paragraph;
+            if (prevParagraph == null)
+                return false;
+            RunWord prevtWord = prevParagraph.Inlines.LastInline as RunWord;
+            if (prevtWord == null)
+                return false;
+            prevtWord.Select();
             return true;
         }
 
