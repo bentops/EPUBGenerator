@@ -43,6 +43,10 @@
 
         </Grid>
 
+        <Grid Grid.Row="1">
+            <Image x:Name="in01" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Source="/EPUBGenerator;component/Resources/in01.png"/>
+        </Grid>
+
 
         <Grid Grid.Row="2">
             <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />

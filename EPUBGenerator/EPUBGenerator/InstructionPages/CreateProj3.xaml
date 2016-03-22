@@ -40,6 +40,7 @@
         </Grid>
 
         <Grid Grid.Row="1">
+            <Image x:Name="in04" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Source="/EPUBGenerator;component/Resources/in04.png" Margin="0,0,0,40"/>
             <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,10" FontSize="16"><Run Text="เมื่อทำการสร้าง Project เรียบร้อย และไม่มีข้อผิดพลาด โปรแกรมจะนำท่านไปสู่ "/><Run FontWeight="Bold" Text="ขั้นตอนที่ 4 "/><Run Text="โดยอัตโนมัติ"/></TextBlock>
         </Grid>
         

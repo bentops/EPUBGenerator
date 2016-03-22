@@ -44,7 +44,14 @@
             		<Image Source="/EPUBGenerator;component/Resources/createNext.png" Height="20" Margin="0,0,0,-5" />
             	</InlineUIContainer><Run Text=" "/><Run Text=" เพื่อ ทำการสร้างหนังสือ"/></TextBlock>
         </Grid>
-        
+
+        <Grid Grid.Row="1">
+            <WrapPanel HorizontalAlignment="Center">
+                <Image x:Name="in02" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Source="/EPUBGenerator;component/Resources/in02.png"/>
+                <Image x:Name="in03" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Source="/EPUBGenerator;component/Resources/in03.png" Margin="20,0,0,0"/>
+            </WrapPanel>
+        </Grid>
+
         <Grid Grid.Row="2">
             <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />
             <Button Name="PreviousPage" Style="{StaticResource NextPageTrans}" VerticalAlignment="Bottom" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Margin="20,0,0,20" Click="PrevPage_click" />
