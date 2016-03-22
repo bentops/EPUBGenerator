@@ -112,46 +112,59 @@ namespace EPUBGenerator.Pages
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
-            ProjectInfo projInfo = new ProjectInfo(epubPath, projPath);
-            
-            Epub epubFile = projInfo.EpubFile;
-            List<NavPoint> navsWithContent = new List<NavPoint>();
-            GetAllNavsWithContents(epubFile.TOC, navsWithContent);
-
-            List<Content> contents = new List<Content>();
-            int totalSentence = 0;
-
-            Console.WriteLine("Total Content Pages: " + navsWithContent.Count);
-            _ProgressUpdater.Initialize(navsWithContent.Count);
-            foreach (NavPoint nav in navsWithContent)
+            Epub epubFile = null;
+            try
             {
-                Content content = new Content(nav, projInfo);
-                contents.Add(content);
-                totalSentence += content.SentenceCount;
-                // Save Content Structure in @"ProjDir\Resources\Package"
-                using (StreamWriter streamWriter = new StreamWriter(content.ContentResource))
+                _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
+                ProjectInfo projInfo = new ProjectInfo(epubPath, projPath);
+
+                epubFile = projInfo.EpubFile;
+                List<NavPoint> navsWithContent = new List<NavPoint>();
+                GetAllNavsWithContents(epubFile.TOC, navsWithContent);
+
+                List<Content> contents = new List<Content>();
+                int totalSentence = 0;
+
+                Console.WriteLine("Total Content Pages: " + navsWithContent.Count);
+                _ProgressUpdater.Initialize(navsWithContent.Count);
+                foreach (NavPoint nav in navsWithContent)
                 {
-                    streamWriter.Write(content.Root);
-                    streamWriter.Close();
-                }
-                _ProgressUpdater.Increment();
-            }
-
-            Console.WriteLine("Total Sentences: " + totalSentence);
-            _ProgressUpdater.Initialize(totalSentence);
-            foreach (Content content in contents)
-            {
-                foreach (Block block in content.Blocks)
-                    foreach (Sentence sentence in block.Sentences)
+                    Content content = new Content(nav, projInfo);
+                    contents.Add(content);
+                    totalSentence += content.SentenceCount;
+                    // Save Content Structure in @"ProjDir\Resources\Package"
+                    using (StreamWriter streamWriter = new StreamWriter(content.ContentResource))
                     {
-                        sentence.Synthesize();
-                        _ProgressUpdater.Increment();
+                        streamWriter.Write(content.Root);
+                        streamWriter.Close();
                     }
-                content.Save();
+                    _ProgressUpdater.Increment();
+                }
+
+                Console.WriteLine("Total Sentences: " + totalSentence);
+                _ProgressUpdater.Initialize(totalSentence);
+                foreach (Content content in contents)
+                {
+                    foreach (Block block in content.Blocks)
+                        foreach (Sentence sentence in block.Sentences)
+                        {
+                            sentence.Synthesize();
+                            _ProgressUpdater.Increment();
+                        }
+                    content.Save();
+                }
+                projInfo.Save();
+                _ProgressUpdater.Result = new Tuple<String, ProjectInfo, int>(epubPath, projInfo, totalSentence);
             }
-            projInfo.Save();
-            _ProgressUpdater.Result = new Tuple<String, ProjectInfo, int>(epubPath, projInfo, totalSentence);
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (epubFile != null)
+                    epubFile.Dispose();
+            }
         }
 
         private void GetAllNavsWithContents(List<NavPoint> navList, List<NavPoint> navsWithContent)
@@ -173,17 +186,21 @@ namespace EPUBGenerator.Pages
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             (sender as BackgroundWorker).Dispose();
-            if (e.Cancelled)
+            if (e.Error != null)
             {
-                Switcher.Switch(Switcher.createBook1);
-            }
-            else if (e.Error != null)
-            {
-                Switcher.error.setErrorMsgText("invalidEpubFile", Switcher.createBook1);
-                Switcher.Switch(Switcher.error);
-                Console.WriteLine("CreatBook2, RunworkerCompleted with Exception: ");
-                Console.WriteLine("\t" + e.Error.Message);
-                Console.WriteLine(e.Error.StackTrace);
+                if (e.Error is OperationCanceledException)
+                {
+                    Switcher.Switch(Switcher.createBook1);
+                    Project.ClearDirectory(projPath);
+                }
+                else
+                {
+                    Switcher.error.setErrorMsgText("invalidEpubFile", Switcher.createBook1);
+                    Switcher.Switch(Switcher.error);
+                    Console.WriteLine("CreatBook2, RunworkerCompleted with Exception: ");
+                    Console.WriteLine("\t" + e.Error.Message);
+                    Console.WriteLine(e.Error.StackTrace);
+                }
             }
             else
             {

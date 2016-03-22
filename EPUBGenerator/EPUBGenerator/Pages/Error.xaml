@@ -23,7 +23,7 @@
 
     <Grid>
         <TextBlock x:Name="InvalidFileFormat" Text="Error Msg" Loaded="errorMsg_Loaded" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Style="{StaticResource ErrorHead}" />
-        <TextBlock x:Name="InvalidFileFormat_Copy" Text="Error Text"  Loaded="errorText_Loaded" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="301,110,301,0" Style="{StaticResource ErrorText}" />
+        <TextBlock x:Name="InvalidFileFormat_Copy" Text="Error Text"  Loaded="errorText_Loaded" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,110,0,0" Style="{StaticResource ErrorText}" />
         
         <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="60,500,0,0" VerticalAlignment="Top" Width="100" Click="backButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435">
             <Button.Style>
