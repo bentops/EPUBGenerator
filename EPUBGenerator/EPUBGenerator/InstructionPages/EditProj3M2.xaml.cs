@@ -18,9 +18,9 @@ namespace EPUBGenerator.InstructionPages
     /// <summary>
     /// Interaction logic for ExportProj1.xaml
     /// </summary>
-    public partial class EditProj3M : Page
+    public partial class EditProj3M2 : Page
     {
-        public EditProj3M()
+        public EditProj3M2()
         {
             InitializeComponent();
         }
@@ -37,9 +37,9 @@ namespace EPUBGenerator.InstructionPages
 
         private void NextPage_Click(object sender, RoutedEventArgs e)
         {
-            Home.states.Add(InstructionSwitcher.editProj3M2);
+            Home.states.Add(InstructionSwitcher.editProj4);
             Home.states.ForEach(Console.WriteLine);
-            InstructionSwitcher.Switch(InstructionSwitcher.editProj3M2);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj4);
         }
 
         private void NextPhonemePage_Click(object sender, RoutedEventArgs e)

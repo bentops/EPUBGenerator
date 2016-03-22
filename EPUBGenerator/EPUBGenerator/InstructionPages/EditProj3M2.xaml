@@ -1,4 +1,4 @@
-﻿<Page x:Class="EPUBGenerator.InstructionPages.EditProj3M"
+﻿<Page x:Class="EPUBGenerator.InstructionPages.EditProj3M2"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -54,31 +54,44 @@
             </Grid>
 
             <Grid Grid.Column="1">
-                <StackPanel Margin="10,60,0,0">
-                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,15" FontSize="14" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 1 " />
-                        <Run Text="ข้อมูลหนังสือไฟล์ ที่กำลังทำการแก้ไข " />
+                <StackPanel Margin="5,40,0,0">
+                    <TextBlock x:Name="textBlock12" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0" FontSize="14" >
+                        <Run FontWeight="Bold" Text="ส่วนที่ 7 " />
+                        <Run Text="คำอ่านและตัวเลือกการแก้ไข"/>
+                        <LineBreak />
+                        <Run Text="              คำอ่าน" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,15" FontSize="14" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 2 " />
-                        <Run Text="สารบัญหนังสือ " />
+                    <Button Name="NextEditPage1" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-30,10,10" Click="NextPhonemePage_Click" />
+                    <TextBlock x:Name="textBlock13" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="14" >
+                        <Run FontWeight="Bold" Text="ส่วนที่ 8 " />
+                        <Run Text="การตัดคำและแก้ไขการตัดคำ " />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,15" FontSize="14" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 3 " />
-                        <Run Text="เนื้อหาในหนังสือของหน้าปัจจุบัน" />
+                    <Button Name="NextEditPage2" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-20,10,10" Click="NextSegmentPage_Click" />
+                    <TextBlock x:Name="textBlock14" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="14" >
+                        <Run FontWeight="Bold" Text="ส่วนที่ 9 " />
+                        <Run Text="ควบคุมการเล่นเสียง" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock90" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,15" FontSize="14" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 4 " />
-                        <Run Text="เปลี่ยนหน้าหนังสือ" />
+                    <Button Name="NextEditPage3" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-20,10,10" Click="NextPlayConsolePage_Click" />
+                    <TextBlock x:Name="textBlock17" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="14" >
+                        <Run FontWeight="Bold" Text="ส่วนที่ 10 " />
+                        <Run Text="ใส่คำบรรยายภาพ" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,15" FontSize="14" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 5 " />
-                        <Run Text="สถานะการแก้ไขและการบันทึก" />
+                    <Button Name="NextEditPage4" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-20,10,10" Click="NextImgPage_Click" />
+                    <TextBlock x:Name="textBlock15" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,15" FontSize="14" >
+                        <Run FontWeight="Bold" Text="ส่วนที่ 11 " />
+                        <Run Text="บันทึกการแก้ไขหนังสือ" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock11" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,15" FontSize="14" >
-                        <Run FontWeight="Bold" Text="ส่วนที่ 6 " />
-                        <Run Text="ตัวเลือกการเล่นหนังสือ" />
+                    <TextBlock x:Name="textBlock16" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="14" >
+                        <Run FontWeight="Bold" Text="ส่วนที่ 12 " />
+                        <Run Text="ส่งออกหนังสือไฟล์สกุล .epub" />
                     </TextBlock>
+                    <!--<TextBlock x:Name="textBlock3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="14" LineHeight="30">
+                        <Run Text="๐ คลิก "/>
+                        <InlineUIContainer>
+            		        <Image Source="/EPUBGenerator;component/Resources/home.png" Height="30" Margin="0,0,0,-5" />
+            	        </InlineUIContainer><Run Text=" เพื่อกลับไปยังหน้าแรกของ"/><LineBreak /><Run Text="โปรแกรม"/>
+                    </TextBlock>-->
+
                 </StackPanel>
             </Grid>
         </Grid>

@@ -55,38 +55,45 @@
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
                         <Run FontWeight="Bold" FontSize="20" Text="ส่วนควบคุมการเล่นเสียง" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
+                    <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,5" FontSize="13" >
                         <Run FontWeight="Bold" Text="เล่นเสียง" />
                         <LineBreak />
                         <Run Text="๐ คลิก " /> 
                         <InlineUIContainer>
-            		        <Image Source="/EPUBGenerator;component/Resources/newProjTxt.png" Height="18" Margin="0,0,0,-5" />
+            		        <Image Source="/EPUBGenerator;component/Resources/play.png" Height="18" Margin="0,0,0,-5" />
             	        </InlineUIContainer>
                         <Run Text=" หรือ กด Space Bar ที่คีย์บอร์ดเพื่อทำการเล่น และ คลิก" /> 
                         <InlineUIContainer>
-            		        <Image Source="/EPUBGenerator;component/Resources/newProjTxt.png" Height="18" Margin="0,0,0,-5" />
+            		        <Image Source="/EPUBGenerator;component/Resources/pauseBut.png" Height="18" Margin="0,0,0,-5" />
             	        </InlineUIContainer>
                         <Run Text=" หรือ กด Space Bar เพื่อหยุด" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock11" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
-                        <Run FontWeight="Bold" Text="_ถัดไป" />
+                    <TextBlock x:Name="textBlock11" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,5" FontSize="13" >
+                        <Run FontWeight="Bold" Text="เล่นคำถัดไป" />
                         <LineBreak />
                         <Run Text="๐ คลิก " /> 
                         <InlineUIContainer>
-            		        <Image Source="/EPUBGenerator;component/Resources/newProjTxt.png" Height="18" Margin="0,0,0,-5" />
+            		        <Image Source="/EPUBGenerator;component/Resources/playNext.png" Height="18" Margin="0,0,0,-5" />
             	        </InlineUIContainer>
-                        <Run Text=" หรือ กด _ ที่คีย์บอร์ดเพื่อทำการเล่น_ถัดไป" />
+                        <Run Text=" หรือ กด _ ที่คีย์บอร์ดเพื่อทำการเล่นคำถัดไป" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock12" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
-                        <Run FontWeight="Bold" Text="_ก่อนหน้า" />
+                    <TextBlock x:Name="textBlock12" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,5" FontSize="13" >
+                        <Run FontWeight="Bold" Text="คำก่อนหน้า" />
                         <LineBreak />
                         <Run Text="๐ คลิก " /> 
                         <InlineUIContainer>
-            		        <Image Source="/EPUBGenerator;component/Resources/newProjTxt.png" Height="18" Margin="0,0,0,-5" />
+            		        <Image Source="/EPUBGenerator;component/Resources/prev.png" Height="18" Margin="0,0,0,-5" >
+            		        	<Image.OpacityMask>
+            		        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            		        			<GradientStop Color="Black" Offset="0"/>
+            		        			<GradientStop Color="White" Offset="1"/>
+            		        		</LinearGradientBrush>
+            		        	</Image.OpacityMask>
+            		        </Image>
             	        </InlineUIContainer>
                         <Run Text=" หรือ กด _ ที่คีย์บอร์ดเพื่อทำการเล่น_ก่อนหน้า" />
                     </TextBlock>
-                    <TextBlock x:Name="textBlock14" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
+                    <TextBlock x:Name="textBlock14" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,5" FontSize="13" >
                         <Run FontWeight="Bold" Text="ระดับความเร็วการเล่นเสียง" />
                         <LineBreak />
                         <Run Text="๐ เลื่อนลูกศรที่แถบ หรือ กด xxx เพื่อเพิ่มระดับความเร็ว และ yyy เพื่อลดระดับความเร็วเสียง" />
@@ -96,7 +103,7 @@
         </Grid>
 
         <Grid Grid.Row="2">
-            <!--<Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />-->
+            <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />
             <Button Name="PreviousPage" Style="{StaticResource NextPageTrans}" VerticalAlignment="Bottom" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Margin="20,0,0,20" Click="PrevPage_click" />
             <WrapPanel Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Button x:Name="homebutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="homebutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource HomeButT}" Style="{StaticResource HomeBut}" Margin="0,0,30,0" />

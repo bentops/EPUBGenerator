@@ -23,9 +23,11 @@ namespace EPUBGenerator
         public static EditProj1 editProj1;
         public static EditProj2 editProj2;
         public static EditProj3M editProj3M;
+        public static EditProj3M2 editProj3M2;
         public static EditProj4 editProj4;
         public static EditProj5 editProj5;
         public static EditProj6 editProj6;
+        public static EditProj7 editProj7;
 
         public static ExportProj1 exportProj1;
         public static ExportProj2 exportProj2;

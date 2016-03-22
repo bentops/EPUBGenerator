@@ -37,9 +37,11 @@ namespace EPUBGenerator
             InstructionSwitcher.editProj1 = new EditProj1();
             InstructionSwitcher.editProj2 = new EditProj2();
             InstructionSwitcher.editProj3M = new EditProj3M();
+            InstructionSwitcher.editProj3M2 = new EditProj3M2();
             InstructionSwitcher.editProj4 = new EditProj4();
             InstructionSwitcher.editProj5 = new EditProj5();
             InstructionSwitcher.editProj6 = new EditProj6();
+            InstructionSwitcher.editProj7 = new EditProj7();
 
             InstructionSwitcher.exportProj1 = new ExportProj1();
             InstructionSwitcher.exportProj2 = new ExportProj2();
