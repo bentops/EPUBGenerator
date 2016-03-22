@@ -39,10 +39,10 @@
 
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,45" FontSize="16"><Run FontWeight="Bold" Text="ขั้นตอนที่ 2 "/><Run Text="ใส่ชื่อโปรเจคที่ต้องการสร้าง, เลือก location ที่ต้องการเก็บไฟล์ Project และ เลือกหนังสือมาตรฐาน "/><LineBreak/><Run Text="EPUB 3 ที่ต้องการสร้างหนังสือเสียง ให้ครบถ้วน"/></TextBlock>
             <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,20" FontSize="16">
-                <Run Text="กด"/><Run Text=" "/>
+                <Run Text="คลิก "/><Run Text=" "/>
                 <InlineUIContainer>
             		<Image Source="/EPUBGenerator;component/Resources/createNext.png" Height="20" Margin="0,0,0,-5" />
-            	</InlineUIContainer><Run Text=" "/><Run Text=" เพื่อ ทำการสร้างหนังสือ"/></TextBlock>
+            	</InlineUIContainer><Run Text=" "/><Run Text=" เพื่อทำการสร้างหนังสือ"/></TextBlock>
         </Grid>
 
         <Grid Grid.Row="1">

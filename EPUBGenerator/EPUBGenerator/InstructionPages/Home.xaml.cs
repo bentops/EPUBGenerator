@@ -79,23 +79,23 @@ namespace EPUBGenerator.InstructionPages
 
         private void menu1Click(object sender, RoutedEventArgs e)
         {
-            Home.states.Add("CreateProj4");
+            Home.states.Add("createProj1");
             Home.states.ForEach(Console.WriteLine);
-            InstructionSwitcher.Switch(InstructionSwitcher.createProj4);
+            InstructionSwitcher.Switch(InstructionSwitcher.createProj1);
         }
 
         private void menu2Click(object sender, RoutedEventArgs e)
         {
-            //Home.states.Add("CreateProj1");
-            //Home.states.ForEach(Console.WriteLine);
-            //InstructionSwitcher.Switch(InstructionSwitcher.createProj1);
+            Home.states.Add("editProj1");
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj1);
         }
 
         private void menu3Click(object sender, RoutedEventArgs e)
         {
-            //Home.states.Add("CreateProj1");
-            //Home.states.ForEach(Console.WriteLine);
-            //InstructionSwitcher.Switch(InstructionSwitcher.createProj1);
+            Home.states.Add("exportProj1");
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.exportProj1);
         }
 
         private void exitbutton_Click(object sender, RoutedEventArgs e)

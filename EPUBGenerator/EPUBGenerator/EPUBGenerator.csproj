@@ -104,6 +104,9 @@
     <Compile Include="InstructionPages\CreateProj1.xaml.cs">
       <DependentUpon>CreateProj1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InstructionPages\CreateProj2e.xaml.cs">
+      <DependentUpon>CreateProj2e.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstructionPages\CreateProj2.xaml.cs">
       <DependentUpon>CreateProj2.xaml</DependentUpon>
     </Compile>
@@ -204,6 +207,10 @@
     <Page Include="InstructionPages\CreateProj1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InstructionPages\CreateProj2e.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="InstructionPages\CreateProj2.xaml">
       <SubType>Designer</SubType>
@@ -438,6 +445,12 @@
   <ItemGroup>
     <Resource Include="Resources\popex01.png" />
     <Resource Include="Resources\popex02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\createCancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\createBack.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
