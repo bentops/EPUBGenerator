@@ -70,7 +70,7 @@ namespace EPUBGenerator.Pages
                 }
                 else
                 {
-                    projectNameError.Content = "The same 'Project Name' already exists in this directory and is not empty." + Environment.NewLine + "Please use other name.";
+                    projectNameError.Content = "'" + ProjectName + "'" + " already exists in this directory and is not empty." + Environment.NewLine + "Please use other name.";
                 }
             }
             catch (Exception ex)
