@@ -74,9 +74,9 @@ namespace eBdb.EpubReader {
 			Content = new OrderedDictionary();
 			ExtendedData = new OrderedDictionary();
 			TOC = new List<NavPoint>();
-			
-			if (File.Exists(ePubPath)) _EpubFile = ZipFile.Read(ePubPath);
-			else throw new FileNotFoundException();
+
+            if (File.Exists(ePubPath)) _EpubFile = ZipFile.Read(ePubPath);
+            else throw new FileNotFoundException();
 
 			_OpfFilePath = GetOpfFilePath(_EpubFile);
 			if (string.IsNullOrEmpty(_OpfFilePath)) throw new Exception("Invalid epub file.");
@@ -150,6 +150,10 @@ namespace eBdb.EpubReader {
         public string GetOpfDirectory()
         {
             return _ContentOpfPath;
+        }
+        public void Dispose()
+        {
+            _EpubFile.Dispose();
         }
         #endregion
 

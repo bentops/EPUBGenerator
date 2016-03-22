@@ -95,6 +95,12 @@ namespace EPUBGenerator.MainLogic
                 SetContentList(nav.Children);
             }
         }
+
+        public void Dispose()
+        {
+            if (_EpubFile != null)
+                _EpubFile.Dispose();
+        }
         #endregion
 
         #region ----------- OPEN PROJECT ------------

@@ -49,7 +49,9 @@ namespace EPUBGenerator.Pages
             Tuple<String, ProjectInfo, int> allInfo = info as Tuple<String, ProjectInfo, int>;
             if (allInfo == null)
             {
-
+                Switcher.error.setErrorMsgText("somethingWrong", Switcher.createBook1);
+                Switcher.Switch(Switcher.error);
+                return;
             }
             ProjectInfo projInfo = allInfo.Item2;
             projName = projInfo.ProjectName;
