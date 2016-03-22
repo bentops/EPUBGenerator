@@ -29,6 +29,7 @@ namespace EPUBGenerator.Pages
         private String _EpubProjPath { get { return Path.Combine(projPath, projName + ".epubproj"); } }
         private ProgressUpdater _ProgressUpdater;
         private String _ExportPath;
+        
         private string projName;
         private string projPath;
         private string epubPath;
@@ -43,15 +44,30 @@ namespace EPUBGenerator.Pages
             InitializeComponent();
         }
 
-        public void bookInfo(string projName, string projPath, string epubPath)
+        public void bookInfo(object info)
         {
-            this.projName = projName;
-            this.projPath = projPath;
-            this.epubPath = epubPath;
+            Tuple<String, ProjectInfo, int> allInfo = info as Tuple<String, ProjectInfo, int>;
+            if (allInfo == null)
+            {
 
+            }
+            ProjectInfo projInfo = allInfo.Item2;
+            projName = projInfo.ProjectName;
+            projPath = projInfo.ProjectPath;
+            epubPath = allInfo.Item1;
+
+            textFiles = projInfo.ContentList.Count;
+            audioFiles = allInfo.Item3;
+            avgSentences = audioFiles / textFiles;
+
+            
             infoprojName.Text = projName;
             infoprojLocation.Text = projPath;
             infoinputEPUB.Text = epubPath;
+
+            textfilesno.Text = textFiles.ToString();
+            audiofilesno.Text = audioFiles.ToString();
+            avgsentenceno.Text = avgSentences.ToString();
         }
 
         private void ProjInfo_Loaded(object sender, RoutedEventArgs e)
