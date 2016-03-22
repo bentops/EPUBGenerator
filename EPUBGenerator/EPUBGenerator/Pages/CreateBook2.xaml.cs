@@ -151,6 +151,7 @@ namespace EPUBGenerator.Pages
                 content.Save();
             }
             projInfo.Save();
+            _ProgressUpdater.Result = new Tuple<String, ProjectInfo, int>(epubPath, projInfo, totalSentence);
         }
 
         private void GetAllNavsWithContents(List<NavPoint> navList, List<NavPoint> navsWithContent)
@@ -189,7 +190,8 @@ namespace EPUBGenerator.Pages
                 Console.WriteLine("RunCompleted, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
                 Thread.Sleep(500);
                 Switcher.Switch(Switcher.createBook3);
-                Switcher.createBook3.bookInfo(projName, projPath, epubPath);
+                Switcher.createBook3.bookInfo(e.Result);
+                //Switcher.createBook3.bookInfo(projName, projPath, epubPath);
             }
         }
         

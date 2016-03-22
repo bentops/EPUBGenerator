@@ -25,6 +25,11 @@ namespace EPUBGenerator.MainLogic
                 return Counter * 100 / Total;
             }
         }
+        public object Result
+        {
+            get { return doWorkEventArgs.Result; }
+            set { doWorkEventArgs.Result = value; }
+        }
 
         public ProgressUpdater(BackgroundWorker bw, DoWorkEventArgs e)
         {
