@@ -312,12 +312,14 @@
                     
                     <Grid Grid.Row="2" Background="#415572" >
                         <Border BorderBrush="#2F2933" BorderThickness="0 1 0 0" />
-                        <ToggleButton  x:Name="PlayPauseB" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,75,0" Style="{StaticResource PlayConsoleStyle}" Click="PlayPauseB_Click" Cursor="Hand">
-                            <DynamicResource ResourceKey="Play"/>
-                        </ToggleButton>
-                        <Button x:Name="stopB" Content="STOP" HorizontalAlignment="Center" Width="50" Margin="444,10,218,0" Style="{StaticResource StopConsoleStyle}" Height="40" VerticalAlignment="Top" Click="stopB_Click" Cursor="Hand" />
-                        <Button x:Name="forwardB" Content="FORWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="75,0,0,0" Style="{StaticResource ForwConsoleStyle}" Click="ForwardB_Click" Cursor="Hand" />
-                        <Button x:Name="backwardB" Content="BACKWARD" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="50" Height="40" Margin="0,0,225,0" Style="{StaticResource BackConsoleStyle}" Click="BackwardB_Click" Cursor="Hand" />
+                        <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                            <Button x:Name="backwardB" Content="BACKWARD" Width="50" Height="40" Margin="0,0,30,0" Style="{StaticResource BackConsoleStyle}" Click="BackwardB_Click" Cursor="Hand" />
+                            <ToggleButton  x:Name="PlayPauseB" Width="50" Height="40" Margin="0,0,0,0" Style="{StaticResource PlayConsoleStyle}" Click="PlayPauseB_Click" Cursor="Hand">
+                                <DynamicResource ResourceKey="Play"/>
+                            </ToggleButton>
+                            <Button x:Name="forwardB" Content="FORWARD" Width="50" Height="40" Margin="30,0,0,0" Style="{StaticResource ForwConsoleStyle}" Click="ForwardB_Click" Cursor="Hand" />
+                        </WrapPanel>
+                        
                         <!--StackPanel Margin="0,10,30,0" HorizontalAlignment="Right">
                             <RadioButton x:Name="pa" Content="Play All" Foreground="White" IsChecked="True" HorizontalAlignment="Left" />
                             <RadioButton x:Name="pText" Content="Play Only Text" Foreground="White" HorizontalAlignment="Left" />
