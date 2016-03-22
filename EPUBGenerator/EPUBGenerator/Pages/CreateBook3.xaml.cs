@@ -154,6 +154,7 @@ namespace EPUBGenerator.Pages
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
+            throw new Exception();
             _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
             Project.Export(_EpubProjPath, _ExportPath, _ProgressUpdater);
         }
@@ -178,10 +179,11 @@ namespace EPUBGenerator.Pages
                 Console.WriteLine("\t" + e.Error.Message);
                 Console.WriteLine(e.Error.StackTrace);
                 //ขึ้นerror ให้กด ok
+                exportPopupGrid.Background = new BrushConverter().ConvertFrom("#ffffa6") as SolidColorBrush;
                 okButton.Visibility = Visibility.Visible;
                 cancelButton.Visibility = Visibility.Hidden;
                 ExportProgress.Visibility = Visibility.Hidden;
-                ExportWait.Content = "Exporting error !";
+                ExportWait.Content = "Exporting ERROR !";
             }
             else
             {

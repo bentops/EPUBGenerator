@@ -35,14 +35,49 @@ namespace EPUBGenerator.InstructionPages
             Application.Current.Windows[1].Close();
         }
 
-        private void NextPage_Click(object sender, RoutedEventArgs e)
+        //private void NextPage_Click(object sender, RoutedEventArgs e)
+        //{
+        //    InstructionSwitcher.Switch(InstructionSwitcher.createProj2);
+        //}
+
+        private void EditProjPage_Click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.createProj2);
+            Home.states.Add(InstructionSwitcher.editProj3M);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj3M);
+        }
+
+        private void OpenEditProjPage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.editProj2);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj2);
+        }
+
+        private void s1MouseEnter(object sender, RoutedEventArgs e)
+        {
+            s1.Background = Brushes.Beige;
+        }
+
+        private void s1MouseLeave(object sender, RoutedEventArgs e)
+        {
+            s1.Background = Brushes.LemonChiffon;
+        }
+
+        private void s2MouseEnter(object sender, RoutedEventArgs e)
+        {
+            s2.Background = Brushes.Beige;
+        }
+
+        private void s2MouseLeave(object sender, RoutedEventArgs e)
+        {
+            s2.Background = Brushes.LemonChiffon;
         }
 
         private void PrevPage_click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.home);
+            Home.states.RemoveAt(Home.states.Count - 1);
+            InstructionSwitcher.Switch(Home.states[Home.states.Count - 1]);
         }
 
     }

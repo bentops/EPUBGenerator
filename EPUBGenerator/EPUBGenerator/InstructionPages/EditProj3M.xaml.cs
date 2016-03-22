@@ -37,13 +37,41 @@ namespace EPUBGenerator.InstructionPages
 
         private void NextPage_Click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.createProj2);
+            Home.states.Add(InstructionSwitcher.editProj4);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj4);
+        }
+
+        private void NextPhonemePage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.editProj4);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj4);
+        }
+
+        private void NextSegmentPage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.editProj5);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj5);
+        }
+
+        private void NextPlayConsolePage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.editProj6);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj6);
+        }
+
+        private void NextImgPage_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void PrevPage_click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.home);
+            Home.states.RemoveAt(Home.states.Count - 1);
+            InstructionSwitcher.Switch(Home.states[Home.states.Count - 1]);
         }
-
     }
 }

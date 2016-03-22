@@ -83,17 +83,18 @@
                         <Run FontWeight="Bold" Text="ส่วนที่ 7 " />
                         <Run Text="คำอ่านและตัวเลือกการแก้ไขคำอ่าน" />
                     </TextBlock>
-                    <Button Name="NextEditPage1" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-5,10,10" Click="NextPage_Click" />
+                    <Button Name="NextEditPage1" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-15,10,10" Click="NextPhonemePage_Click" />
                     <TextBlock x:Name="textBlock13" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="13" >
                         <Run FontWeight="Bold" Text="ส่วนที่ 8 " />
-                        <Run Text="คำอ่านและตัวเลือกการแก้ไขคำอ่าน " />
+                        <Run Text="การตัดคำและแก้ไขการตัดคำ " />
                     </TextBlock>
-                    <Button Name="NextEditPage2" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-5,10,10" Click="NextPage_Click" />
+                    <Button Name="NextEditPage2" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-15,10,10" Click="NextSegmentPage_Click" />
                     <TextBlock x:Name="textBlock14" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="13" >
                         <Run FontWeight="Bold" Text="ส่วนที่ 9 " />
                         <Run Text="ควบคุมการเล่นเสียง" />
                     </TextBlock>
-                    <Button Name="NextEditPage3" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-5,10,10" Click="NextPage_Click" />
+                    <Button Name="NextEditPage3" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-15,10,10" Click="NextPlayConsolePage_Click" />
+                    <Button Name="NextEditPage4" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-10,10,10" Click="NextImgPage_Click" />
                     <TextBlock x:Name="textBlock15" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,5" FontSize="13" >
                         <Run FontWeight="Bold" Text="ส่วนที่ 10 " />
                         <Run Text="บันทึกการแก้ไขหนังสือ" />

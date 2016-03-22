@@ -40,9 +40,44 @@ namespace EPUBGenerator.InstructionPages
             InstructionSwitcher.Switch(InstructionSwitcher.createProj2);
         }
 
+        private void s1MouseEnter(object sender, RoutedEventArgs e)
+        {
+            s1.Background = Brushes.Beige;
+        }
+
+        private void s1MouseLeave(object sender, RoutedEventArgs e)
+        {
+            s1.Background = Brushes.LemonChiffon;
+        }
+
+        private void ExportProjPage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.exportProj2);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.exportProj2);
+        }
+
+        private void OpenEditProjPage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.exportProj3);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.exportProj3);
+        }
+
+        private void s2MouseEnter(object sender, RoutedEventArgs e)
+        {
+            s2.Background = Brushes.Beige;
+        }
+
+        private void s2MouseLeave(object sender, RoutedEventArgs e)
+        {
+            s2.Background = Brushes.LemonChiffon;
+        }
+
         private void PrevPage_click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.home);
+            Home.states.RemoveAt(Home.states.Count - 1);
+            InstructionSwitcher.Switch(Home.states[Home.states.Count - 1]);
         }
 
     }

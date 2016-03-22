@@ -48,7 +48,7 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <!--<Image x:Name="in02e" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Source="/EPUBGenerator;component/Resources/in02e.png"/>-->
+            <Image x:Name="in02e" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Source="/EPUBGenerator;component/Resources/in02e.png"/>
         </Grid>
 
         <Grid Grid.Row="2">
