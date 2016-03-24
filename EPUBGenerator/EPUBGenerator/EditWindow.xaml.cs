@@ -221,6 +221,7 @@ namespace EPUBGenerator
                     }
                 }
             }
+            SelectedTVI.Background = ProjectProperties.SelectedContent;
             if (CurrentRunWord == null)
                 SelectFirstRunWord();
             Cursor = Cursors.Arrow;

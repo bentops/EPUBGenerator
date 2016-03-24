@@ -23,6 +23,8 @@ namespace EPUBGenerator.MainLogic
 
         public static Brush Transparent = Brush("#00000000");
 
+        public static Brush SelectedContent = LightYellow;
+
         public static Brush PlayingSentence = LightYellow;
         public static Brush PlayingWord = DarkYellow;
 
