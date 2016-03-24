@@ -154,7 +154,6 @@ namespace EPUBGenerator.Pages
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            throw new Exception();
             _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
             Project.Export(_EpubProjPath, _ExportPath, _ProgressUpdater);
         }
