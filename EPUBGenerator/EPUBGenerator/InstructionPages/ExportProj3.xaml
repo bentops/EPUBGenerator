@@ -45,6 +45,12 @@
 
         </Grid>
 
+        <Grid Grid.Row="1">
+            <WrapPanel HorizontalAlignment="Center">
+                <Image x:Name="in06" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Source="/EPUBGenerator;component/Resources/in06.png" Margin="20"/>
+                <Image x:Name="in07" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Source="/EPUBGenerator;component/Resources/in07.png" Margin="20"/>
+            </WrapPanel>
+        </Grid>
 
         <Grid Grid.Row="2">
             <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />

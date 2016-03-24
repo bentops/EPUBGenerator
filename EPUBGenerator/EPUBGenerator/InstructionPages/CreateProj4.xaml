@@ -42,7 +42,7 @@
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="280" />
+                <ColumnDefinition Width="310" />
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="0">
@@ -50,7 +50,7 @@
             </Grid>
 
             <Grid Grid.Column="1">
-                <StackPanel Margin="10,20,10,10">
+                <StackPanel Margin="0,20,10,10">
                     <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,0,0" FontSize="14" FontWeight="Bold" >
                         ผู้ใช้งานสามารถ
                     </TextBlock>
@@ -66,14 +66,16 @@
             		        <Image Source="/EPUBGenerator;component/Resources/openProj.png" Height="30" Margin="0,0,0,-5" />
             	        </InlineUIContainer><Run Text=" เพื่อทำการเปิด และ แก้ไข Project "/>
                     </TextBlock>
-                    <Button Name="NextEditPage" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,5,20,30" Click="NextPage_Click" />
+                    <Button Name="NextEditPage" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,5,20,30" Click="NextEditPage_Click" />
                     <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,-20,0,0" FontSize="14" LineHeight="30">
                         <Run Text="๐ คลิก "/>
                         <InlineUIContainer>
             		        <Image Source="/EPUBGenerator;component/Resources/exportAs.png" Height="30" Margin="0,0,0,-5" />
-            	        </InlineUIContainer><Run Text=" เพื่อทำการ Export Project เป็น EPUB 3 AUDIO BOOK "/>
+            	        </InlineUIContainer><Run Text=" เพื่อทำการ Export Project เป็น"/>
+                        <LineBreak/>
+                        <Run Text="   EPUB 3 AUDIO BOOK "/>
                     </TextBlock>
-                    <Button Name="NextExportPage" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-25,20,30" Click="NextPage_Click" />
+                    <Button Name="NextExportPage" Style="{StaticResource NextPageMini}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,-25,20,30" Click="NextExportPage_Click" />
                     <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,-20,0,0" FontSize="14">
                         <Run Text="๐ คลิก "/>
                         <InlineUIContainer>
@@ -86,7 +88,7 @@
         </Grid>
         
         <Grid Grid.Row="2">
-            <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />
+            <!--<Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />-->
             <Button Name="PreviousPage" Style="{StaticResource NextPageTrans}" VerticalAlignment="Bottom" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Margin="20,0,0,20" Click="PrevPage_click" />
             <WrapPanel Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Button x:Name="homebutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="homebutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource HomeButT}" Style="{StaticResource HomeBut}" Margin="0,0,30,0" />

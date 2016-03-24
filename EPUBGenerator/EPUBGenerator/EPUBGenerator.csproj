@@ -119,6 +119,12 @@
     <Compile Include="InstructionPages\EditProj1.xaml.cs">
       <DependentUpon>EditProj1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InstructionPages\EditProj3M2.xaml.cs">
+      <DependentUpon>EditProj3M2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InstructionPages\EditProj7.xaml.cs">
+      <DependentUpon>EditProj7.xaml</DependentUpon>
+    </Compile>
     <Compile Include="InstructionPages\EditProj6.xaml.cs">
       <DependentUpon>EditProj6.xaml</DependentUpon>
     </Compile>
@@ -231,6 +237,14 @@
     <Page Include="InstructionPages\EditProj1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InstructionPages\EditProj3M2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="InstructionPages\EditProj7.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="InstructionPages\EditProj6.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -451,6 +465,28 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\createBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\in02e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\popex03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\imgIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\play.png" />
+    <Resource Include="Resources\playNext.png" />
+    <Resource Include="Resources\prev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pauseBut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\hand.png" />
+    <Resource Include="Resources\split.png" />
+    <Resource Include="Resources\merge.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

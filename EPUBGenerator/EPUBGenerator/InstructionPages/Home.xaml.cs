@@ -20,11 +20,12 @@ namespace EPUBGenerator.InstructionPages
     /// </summary>
     public partial class Home : Page
     {
-        public static List<string> states = new List<string>();
+        public static List<Page> states = new List<Page>();
         public Home()
         {
             InitializeComponent();
-            states.Add("home");
+            Home.states.Add(this);
+            Home.states.ForEach(Console.WriteLine);
         }
 
         int state = 1;
@@ -79,21 +80,21 @@ namespace EPUBGenerator.InstructionPages
 
         private void menu1Click(object sender, RoutedEventArgs e)
         {
-            Home.states.Add("createProj1");
+            Home.states.Add(InstructionSwitcher.createProj1);
             Home.states.ForEach(Console.WriteLine);
             InstructionSwitcher.Switch(InstructionSwitcher.createProj1);
         }
 
         private void menu2Click(object sender, RoutedEventArgs e)
         {
-            Home.states.Add("editProj1");
+            Home.states.Add(InstructionSwitcher.editProj1);
             Home.states.ForEach(Console.WriteLine);
             InstructionSwitcher.Switch(InstructionSwitcher.editProj1);
         }
 
         private void menu3Click(object sender, RoutedEventArgs e)
         {
-            Home.states.Add("exportProj1");
+            Home.states.Add(InstructionSwitcher.exportProj1);
             Home.states.ForEach(Console.WriteLine);
             InstructionSwitcher.Switch(InstructionSwitcher.exportProj1);
         }

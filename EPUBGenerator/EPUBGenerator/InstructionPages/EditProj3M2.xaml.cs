@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace EPUBGenerator.InstructionPages
 {
     /// <summary>
-    /// Interaction logic for ExportProj3.xaml
+    /// Interaction logic for ExportProj1.xaml
     /// </summary>
-    public partial class EditProj2 : Page
+    public partial class EditProj3M2 : Page
     {
-        public EditProj2()
+        public EditProj3M2()
         {
             InitializeComponent();
         }
@@ -37,9 +37,35 @@ namespace EPUBGenerator.InstructionPages
 
         private void NextPage_Click(object sender, RoutedEventArgs e)
         {
-            Home.states.Add(InstructionSwitcher.editProj3M);
+            Home.states.Add(InstructionSwitcher.editProj4);
             Home.states.ForEach(Console.WriteLine);
-            InstructionSwitcher.Switch(InstructionSwitcher.editProj3M);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj4);
+        }
+
+        private void NextPhonemePage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.editProj4);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj4);
+        }
+
+        private void NextSegmentPage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.editProj5);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj5);
+        }
+
+        private void NextPlayConsolePage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.editProj6);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj6);
+        }
+
+        private void NextImgPage_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void PrevPage_click(object sender, RoutedEventArgs e)
@@ -47,6 +73,5 @@ namespace EPUBGenerator.InstructionPages
             Home.states.RemoveAt(Home.states.Count - 1);
             InstructionSwitcher.Switch(Home.states[Home.states.Count - 1]);
         }
-
     }
 }

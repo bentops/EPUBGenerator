@@ -23,7 +23,6 @@ namespace EPUBGenerator.InstructionPages
         public CreateProj2()
         {
             InitializeComponent();
-            Home.states.Add("CreateProj2");
         }
 
         private void homebutton_Click(object sender, RoutedEventArgs e)
@@ -38,12 +37,15 @@ namespace EPUBGenerator.InstructionPages
 
         private void NextPage_Click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.createProj2);
+            Home.states.Add(InstructionSwitcher.createProj2e);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.createProj2e);
         }
 
         private void PrevPage_click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.home);
+            Home.states.RemoveAt(Home.states.Count - 1);
+            InstructionSwitcher.Switch(Home.states[Home.states.Count - 1]);
         }
     }
 }

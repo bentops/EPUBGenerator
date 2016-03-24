@@ -35,14 +35,30 @@ namespace EPUBGenerator.InstructionPages
             Application.Current.Windows[1].Close();
         }
 
-        private void NextPage_Click(object sender, RoutedEventArgs e)
+        //private void NextPage_Click(object sender, RoutedEventArgs e)
+        //{
+        //    InstructionSwitcher.Switch(InstructionSwitcher.createProj2);
+        //}
+
+        private void NextEditPage_Click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.createProj2);
+            Home.states.Add(InstructionSwitcher.editProj3M);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.editProj3M);
+        }
+
+        private void NextExportPage_Click(object sender, RoutedEventArgs e)
+        {
+            Home.states.Add(InstructionSwitcher.exportProj2);
+            Home.states.ForEach(Console.WriteLine);
+            InstructionSwitcher.Switch(InstructionSwitcher.exportProj2);
         }
 
         private void PrevPage_click(object sender, RoutedEventArgs e)
         {
-            InstructionSwitcher.Switch(InstructionSwitcher.home);
+            Home.states.RemoveAt(Home.states.Count - 1);
+            InstructionSwitcher.Switch(Home.states[Home.states.Count - 1]);
         }
+
     }
 }
