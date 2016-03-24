@@ -61,16 +61,17 @@ namespace EPUBGenerator.MainLogic
             set { CurrentWord = (value == null ? null : value.Word); }
         }
         public Content CurrentContent { get; private set; }
+        public bool Changed { get; private set; }
         public bool IsSaved
         {
             get
             {
-                bool save = true;
+                bool save = !Changed;
                 foreach (Content content in Contents)
                     save &= !content.Changed;
                 return save;
             }
-            set { CurrentContent.Changed = !value; }
+            set { Changed = !value; }
         }
         #endregion
 
@@ -227,6 +228,7 @@ namespace EPUBGenerator.MainLogic
                     streamWriter.WriteLine(String.Join(" ", list));
                 streamWriter.Close();
             }
+            Changed = false;
         }
         #endregion
 

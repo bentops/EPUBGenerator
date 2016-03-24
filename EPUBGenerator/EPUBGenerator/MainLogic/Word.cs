@@ -8,6 +8,7 @@ using System.Xml.Linq;
 
 namespace EPUBGenerator.MainLogic
 {
+    enum WordStatus { Normal, Splitted, Merged };
     class Word
     {
         private int _SIndex { get; set; }
@@ -41,6 +42,7 @@ namespace EPUBGenerator.MainLogic
         public RunWord Run { get; set; }
         public bool Selected { get { return this == Content.SelectedWord; } }
         public bool IsEdited { get; set; }
+        public WordStatus Status { get; private set; }
 
 
         #region ----------- NEW PROJECT ------------
@@ -66,6 +68,10 @@ namespace EPUBGenerator.MainLogic
                 xWord.Add(new XAttribute("dict", DictIndex));
             if (Selected)
                 xWord.Add(new XAttribute("selected", ""));
+
+            IsEdited = false;
+            Status = WordStatus.Normal;
+
             return xWord;
         }
         #endregion
@@ -104,6 +110,11 @@ namespace EPUBGenerator.MainLogic
             DictIndex = 0;
             Word newWord = new Word(_SIndex + index, this);
             Sentence.Resynthesize();
+
+            Status = WordStatus.Splitted;
+            newWord.Status = WordStatus.Splitted;
+            Content.Changed = true;
+
             return newWord;
         }
 
@@ -116,6 +127,9 @@ namespace EPUBGenerator.MainLogic
             DictIndex = 0;
             Sentence.Words.Remove(nextWord.Node);
             Sentence.Resynthesize();
+
+            Status = WordStatus.Merged;
+            Content.Changed = true;
         }
 
         public void MoveTo(Sentence prevSentence)
@@ -135,11 +149,11 @@ namespace EPUBGenerator.MainLogic
         {
             if (index == DictIndex)
                 return;
-
             DictIndex = index;
+            Sentence.Resynthesize();
+
             IsEdited = true;
             Content.Changed = true;
-            Sentence.Resynthesize();
         }
         #endregion
 

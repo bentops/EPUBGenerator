@@ -296,9 +296,9 @@
 
                     <Grid Grid.Row="1" Background="Snow" >
                         <Border BorderThickness="0" />
-                        <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="150,0,0,15" />
+                        <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="150,0,0,15" Click="NextPage_Click" Cursor="Hand"/>
                         <TextBlock Name="PageTeller" Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30" FontSize="14" Background="Snow"></TextBlock>
-                        <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,15" >
+                        <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,15"  Click="PreviousPage_Click" Cursor="Hand">
                             <Button.RenderTransform>
                                 <TransformGroup>
                                     <ScaleTransform ScaleY="1" ScaleX="-1"/>
@@ -341,7 +341,7 @@
             <Grid Grid.Column="2" Background="#415572" >
                 <Border BorderBrush="#2F2933" BorderThickness="1 0 0 0" />
                 <StackPanel Margin="10,10,10,10">
-                    <Label Name="save" Content="saved / unsaved" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" Foreground="red" />
+                    <Label Name="SaveLabel" Content="saved / unsaved" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" Foreground="red" />
                     <Label Name="status" Content="status" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" />
                     <StackPanel Margin="0,5,0,0">
                         <Label Content="เล่น" Style="{StaticResource LabelStyleInGrid}" />

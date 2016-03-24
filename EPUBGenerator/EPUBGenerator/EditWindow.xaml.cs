@@ -53,7 +53,7 @@ namespace EPUBGenerator
             get { return ProjectInfo.IsSaved; }
             set
             {
-                ProjectInfo.IsSaved = value;
+                CurrentContent.Changed = !value;
                 Export.IsEnabled = ProjectInfo.IsSaved;
             }
         }
@@ -217,7 +217,8 @@ namespace EPUBGenerator
                         RunWord run = new RunWord(word);
                         paragraph.Inlines.Add(run);
                         InitiateRun(run);
-                        run.ApplyAvailableSegmentedBackground(ProjectProperties.SegmentedWords);
+                        run.UpdateSegmentedBackground();
+                        //run.ApplyAvailableSegmentedBackground(ProjectProperties.SegmentedWords);
                     }
                 }
             }
@@ -338,22 +339,16 @@ namespace EPUBGenerator
 
                         // MERGE
                         if (contextNext == TextPointerContext.ElementEnd)
-                        {
                             curRun.MergeWithNext();
-                            IsSaved = false;
-                        }
                         else if (contextPrev == TextPointerContext.ElementStart)
-                        {
                             curRun.MergeWithPrev();
-                            IsSaved = false;
-                        }
                         // SPLIT
                         else if (contextPrev == contextNext && contextNext == TextPointerContext.Text)
                         {
                             RunWord newRun = curRun.SplitAt(curPointer);
                             InitiateRun(newRun);
-                            newRun.ApplyAvailableSegmentedBackground(ProjectProperties.SplittedWords);
-                            IsSaved = false;
+                            newRun.UpdateSegmentedBackground();
+                            //newRun.ApplyAvailableSegmentedBackground(ProjectProperties.SplittedWords);
                         }
                     }
                     break;
@@ -494,15 +489,48 @@ namespace EPUBGenerator
                                     foreach (Word word in sentence.Words)
                                         if (word.OriginalText.Equals(CurrentRunWord.Text))
                                             if (ExceptLockWord.IsChecked == false || !word.Locked)
-                                                word.Run.SelectDictAt(selectIndex);
+                                                word.ChangeDictIndex(selectIndex);
                     }
                     else if (ApplyAllFromHere.IsChecked == true)
                     {
                         //
                     }
-
-                    IsSaved = false;
+                    
                     CurrentRunWord.PlayCachedSound();
+                    break;
+            }
+            (sender as FrameworkElement).Cursor = Cursors.Hand;
+        }
+
+        private void NextPage_Click(object sender, RoutedEventArgs e)
+        {
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
+            switch (CurrentState)
+            {
+                case State.Stop:
+                    break;
+                case State.Play:
+                    break;
+                case State.Segment:
+                    break;
+                case State.Edit:
+                    break;
+            }
+            (sender as FrameworkElement).Cursor = Cursors.Hand;
+        }
+
+        private void PreviousPage_Click(object sender, RoutedEventArgs e)
+        {
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
+            switch (CurrentState)
+            {
+                case State.Stop:
+                    break;
+                case State.Play:
+                    break;
+                case State.Segment:
+                    break;
+                case State.Edit:
                     break;
             }
             (sender as FrameworkElement).Cursor = Cursors.Hand;
@@ -547,27 +575,31 @@ namespace EPUBGenerator
                 case State.Edit:
                     break;
             }
-            (sender as FrameworkElement).Cursor = Cursors.Wait;
+            (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
         
         private void SaveBook_Click(object sender, RoutedEventArgs e)
         {
-            if (IsSaved)
-                return;
-            SaveBook.Cursor = Cursors.Wait;
+            if (IsSaved) return;
+
+            (sender as FrameworkElement).Cursor = Cursors.Wait;
             ProjectInfo.Save();
             /*/
             SAVE EVERY CONTENT
             CLEAR EVERY CONTENT
             //*/
+            foreach (Content content in ProjectInfo.Contents)
+            {
+                if (!content.Changed)
+                    continue;
+
+            }
+
             foreach (Paragraph paragraph in Paragraphs)
                 foreach (RunWord run in paragraph.Inlines)
-                {
-                    run.IsEdited = false;
-                    run.ApplyAvailableSegmentedBackground(ProjectProperties.SegmentedWords);
-                }
-            IsSaved = true;
-            SaveBook.Cursor = Cursors.Arrow;
+                    run.UpdateSegmentedBackground();
+            //run.ApplyAvailableSegmentedBackground(ProjectProperties.SegmentedWords);
+            (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
 
         private void Export_Click(object sender, RoutedEventArgs e)

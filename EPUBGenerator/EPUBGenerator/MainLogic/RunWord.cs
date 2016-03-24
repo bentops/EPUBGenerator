@@ -78,7 +78,8 @@ namespace EPUBGenerator.MainLogic
             Word.MergeWith(nextRun.Word);
             Inlines.Remove(nextRun);
             Text = Word.OriginalText;
-            ApplyAvailableSegmentedBackground(ProjectProperties.MergedWords);
+            UpdateSegmentedBackground();
+            //ApplyAvailableSegmentedBackground(ProjectProperties.MergedWords);
         }
         
         public RunWord SplitAt(TextPointer pointer)
@@ -86,7 +87,8 @@ namespace EPUBGenerator.MainLogic
             int splitPos = pointer.GetTextRunLength(GoBackward);
             Word newWord = Word.SplitAt(splitPos);
             Text = Word.OriginalText;
-            ApplyAvailableSegmentedBackground(ProjectProperties.SplittedWords);
+            UpdateSegmentedBackground();
+            //ApplyAvailableSegmentedBackground(ProjectProperties.SplittedWords);
 
             TextPointer insertPos = pointer.GetNextContextPosition(GoForward);
             while (insertPos != null && insertPos.GetPointerContext(GoBackward) != TextPointerContext.ElementEnd)
@@ -152,7 +154,16 @@ namespace EPUBGenerator.MainLogic
         }
         
         public Brush SegmentedBackground { get; private set; }
-        public void ApplyAvailableSegmentedBackground(Brush[] brushes)
+        public void UpdateSegmentedBackground()
+        {
+            switch (Word.Status)
+            {
+                case WordStatus.Normal: ApplyAvailableSegmentedBackground(ProjectProperties.SegmentedWords); break;
+                case WordStatus.Splitted: ApplyAvailableSegmentedBackground(ProjectProperties.SplittedWords); break;
+                case WordStatus.Merged: ApplyAvailableSegmentedBackground(ProjectProperties.MergedWords); break;
+            }
+        }
+        private void ApplyAvailableSegmentedBackground(Brush[] brushes)
         {
             // However, it should have at least 2 brushes.
             if (brushes.Length < 2)

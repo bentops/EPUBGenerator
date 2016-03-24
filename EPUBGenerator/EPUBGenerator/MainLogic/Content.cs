@@ -49,6 +49,7 @@ namespace EPUBGenerator.MainLogic
 
             Blocks = new List<Block>();
             GetBlocks(Root.Element(Xns + "body"));
+            Changed = true;
         }
 
         private void GetBlocks(XElement curNode)
@@ -73,6 +74,9 @@ namespace EPUBGenerator.MainLogic
         #region ----------- SAVE PROJECT ------------
         public void Save()
         {
+            if (!Changed)
+                return;
+
             // Let Every Sentence Uses Randomized ID.
             foreach (Block block in Blocks)
                 foreach (Sentence sentence in block.Sentences)
@@ -104,6 +108,8 @@ namespace EPUBGenerator.MainLogic
                 streamWriter.Write(xContent);
                 streamWriter.Close();
             }
+
+            Changed = false;
         }
         #endregion
 
