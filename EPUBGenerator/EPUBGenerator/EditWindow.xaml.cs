@@ -135,6 +135,35 @@ namespace EPUBGenerator
             Initiate(epubProjPath);
         }
 
+        private void UpdateUI()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Play:
+
+                        StatusLabel.Content = "Playing";
+                        break;
+                    case State.Stop:
+
+                        StatusLabel.Content = "Stop";
+                        break;
+                    case State.Segment:
+
+                        StatusLabel.Content = "Word Segmentation";
+                        break;
+                    case State.Edit:
+
+                        StatusLabel.Content = "Word Editing";
+                        break;
+                }
+
+                SaveLabel.Content = IsSaved ? "saved" : "unsaved";
+                SaveLabel.Foreground = IsSaved ? Brushes.Green : Brushes.Red;
+            }));
+        }
+
         public void Initiate(String epubProjPath)
         {
             Console.WriteLine("EditWindow, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
@@ -148,16 +177,20 @@ namespace EPUBGenerator
             bookName.Content = ProjectName;
             projPath.Text = ProjectPath;
             GenerateProjectMenu();
-
-            if (CurrentContent == null && ProjectInfo.Contents.Count > 0)
+            
+            if (CurrentContent != null)
             {
-                TreeViewItem firstContent = _AllContentsTVI.Items.GetItemAt(0) as TreeViewItem;
-                firstContent.IsSelected = true;
+                foreach (TreeViewItem tvi in _AllContentsTVI.Items)
+                    if (CurrentContent.Source.Equals(tvi.Tag as String))
+                        tvi.IsSelected = true;
             }
+            else if (ProjectInfo.Contents.Count > 0)
+                (_AllContentsTVI.Items.GetItemAt(0) as TreeViewItem).IsSelected = true;
+
 
             Show();
         }
-        
+
         private void GenerateProjectMenu()
         {
             TreeViewItem projectTVI = new TreeViewItem() { Header = "Project '" + ProjectName + "'", IsExpanded = true };
@@ -218,7 +251,6 @@ namespace EPUBGenerator
                         paragraph.Inlines.Add(run);
                         InitiateRun(run);
                         run.UpdateSegmentedBackground();
-                        //run.ApplyAvailableSegmentedBackground(ProjectProperties.SegmentedWords);
                     }
                 }
             }
@@ -459,6 +491,16 @@ namespace EPUBGenerator
             (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
         
+        private void LockWord_Checked(object sender, RoutedEventArgs e)
+        {
+            CurrentRunWord.Word.Locked = true;
+        }
+
+        private void LockWord_Unchecked(object sender, RoutedEventArgs e)
+        {
+            CurrentRunWord.Word.Locked = false;
+        }
+
         private void Apply_Click(object sender, RoutedEventArgs e)
         {
             (sender as FrameworkElement).Cursor = Cursors.Wait;
@@ -493,7 +535,24 @@ namespace EPUBGenerator
                     }
                     else if (ApplyAllFromHere.IsChecked == true)
                     {
-                        //
+                        bool foundFirstWord = false;
+                        foreach (Content content in ProjectInfo.Contents)
+                        {
+                            if (content.Order < CurrentContent.Order)
+                                continue;
+                            foreach (Block block in content.Blocks)
+                                foreach (Sentence sentence in block.Sentences)
+                                    foreach (Word word in sentence.Words)
+                                        if (word == ProjectInfo.CurrentWord)
+                                        {
+                                            CurrentRunWord.SelectDictAt(selectIndex);
+                                            foundFirstWord = true;
+                                        }
+                                        else if (foundFirstWord && word.OriginalText.Equals(CurrentRunWord.Text))
+                                            if (ExceptLockWord.IsChecked == false || !word.Locked)
+                                                word.ChangeDictIndex(selectIndex);
+                        }
+                           
                     }
                     
                     CurrentRunWord.PlayCachedSound();

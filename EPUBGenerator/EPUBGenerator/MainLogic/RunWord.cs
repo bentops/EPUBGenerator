@@ -129,6 +129,7 @@ namespace EPUBGenerator.MainLogic
             if (ProjectInfo.CurrentState == State.Play && !recentWord.IsSentenceSelected)
                 foreach (RunWord prev in recentWord.PreviousWordsInSentence)
                     prev.UpdateBackground();
+            Word.Content.Changed = true;
         }
 
         public bool IsHovered { get; private set; }

@@ -348,8 +348,8 @@
 
             <Grid Grid.Row="0" Margin="10,10,10,0">
                 <StackPanel>
-                    <Label Name="save" Content="saved / unsaved" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" Foreground="red" />
-                    <Label Name="status" Content="status" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" />
+                    <Label Name="SaveLabel" Content="saved / unsaved" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" Foreground="red" />
+                    <Label Name="StatusLabel" Content="status" HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource Status}" />
                 </StackPanel>
             </Grid>
             
@@ -371,7 +371,7 @@
                     </ComboBox>
                     <WrapPanel Margin="0,10,0,0">
                         <StackPanel>
-                            <CheckBox x:Name="LockWord" Content="Lock word" Foreground="White" IsChecked="True" />
+                            <CheckBox x:Name="LockWord" Content="Lock word" Foreground="White" Checked="LockWord_Checked" Unchecked="LockWord_Unchecked"/>
                             <StackPanel Margin="0,10,0,0">
                                 <CheckBox x:Name="ExceptLockWord" Content="Apply All, Except Lock Words" Foreground="White" IsChecked="True" />
                                 <RadioButton x:Name="ApplyOnlyThisWord" Content="Apply Only This Word" Foreground="White" IsChecked="True" />
