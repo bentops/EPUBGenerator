@@ -21,6 +21,9 @@ namespace EPUBGenerator.MainLogic
         public String ContentResource { get { return Path.Combine(ProjectInfo.PackageResourcesPath, Source); } }
         public String ContentSave { get { return Path.Combine(ProjectInfo.SavesPath, Source); } }
 
+        public bool Changed { get; set; }
+        public Word SelectedWord { get; set; }
+
         public List<Block> Blocks { get; private set; }
         public int SentenceCount
         {

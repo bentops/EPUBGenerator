@@ -58,7 +58,7 @@ namespace EPUBGenerator.Pages
             projPath = projInfo.ProjectPath;
             epubPath = allInfo.Item1;
 
-            textFiles = projInfo.ContentList.Count;
+            textFiles = projInfo.Contents.Count;
             audioFiles = allInfo.Item3;
             avgSentences = audioFiles / textFiles;
 

@@ -26,6 +26,7 @@ namespace EPUBGenerator.MainLogic
         public long Begin { get; private set; }
         public long End { get { return (Next == null ? Sentence.Bytes : Next.Begin); } }
 
+        public bool Locked { get; set; }
         public int DictIndex { get; private set; }
         public String Pronunciation
         {
@@ -37,6 +38,9 @@ namespace EPUBGenerator.MainLogic
             }
         }
         public List<String> PronunciationList { get { return Pronunciation.Split('-').ToList(); } }
+        public RunWord Run { get; set; }
+        public bool Selected { get { return this == Content.SelectedWord; } }
+        public bool IsEdited { get; set; }
 
 
         #region ----------- NEW PROJECT ------------
@@ -52,15 +56,16 @@ namespace EPUBGenerator.MainLogic
 
         #region ----------- SAVE PROJECT ------------
         public XElement ToXml()
-        {
+        {   
             XElement xWord = new XElement("Word");
             xWord.Add(new XAttribute("start", _SIndex));
             xWord.Add(new XAttribute("begin", Begin));
-            xWord.Add(new XAttribute("text", OriginalText));
-            if (ProjectInfo.CurrentRunWord != null && this == ProjectInfo.CurrentRunWord.Word)
-                xWord.Add(new XAttribute("selected", ""));
+            //xWord.Add(new XAttribute("text", OriginalText));
+            xWord.Add(new XAttribute("locked", Locked));
             if (DictIndex > 0)
                 xWord.Add(new XAttribute("dict", DictIndex));
+            if (Selected)
+                xWord.Add(new XAttribute("selected", ""));
             return xWord;
         }
         #endregion
@@ -76,7 +81,9 @@ namespace EPUBGenerator.MainLogic
                 {
                     case "start": _SIndex = int.Parse(value); break;
                     case "begin": Begin = int.Parse(value); break;
+                    case "locked": Locked = bool.Parse(value); break;
                     case "dict": DictIndex = int.Parse(value); break;
+                    case "selected": Content.SelectedWord = this; break;
                 }
             }
             AppendTo(Sentence.Words);
@@ -126,7 +133,12 @@ namespace EPUBGenerator.MainLogic
 
         public void ChangeDictIndex(int index)
         {
+            if (index == DictIndex)
+                return;
+
             DictIndex = index;
+            IsEdited = true;
+            Content.Changed = true;
             Sentence.Resynthesize();
         }
         #endregion

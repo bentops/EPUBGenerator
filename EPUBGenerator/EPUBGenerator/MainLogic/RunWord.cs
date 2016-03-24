@@ -48,11 +48,13 @@ namespace EPUBGenerator.MainLogic
         public RunWord(Word word) : base(word.OriginalText)
         {
             Word = word;
+            Word.Run = this;
         }
         
         public RunWord(Word word, TextPointer pos) : base(word.OriginalText, pos)
         {
             Word = word;
+            Word.Run = this;
         }
         
         public void MergeWithNext()
@@ -139,14 +141,14 @@ namespace EPUBGenerator.MainLogic
             UpdateBackground();
         }
 
-        public bool IsEdited { get; set; }
+        public bool IsEdited
+        {
+            get { return Word.IsEdited; }
+            set { Word.IsEdited = value; }
+        }
         public void SelectDictAt(int index)
         {
-            if (index != Word.DictIndex)
-            {
-                Word.ChangeDictIndex(index);
-                IsEdited = true;
-            }
+            Word.ChangeDictIndex(index);
         }
         
         public Brush SegmentedBackground { get; private set; }

@@ -37,12 +37,10 @@ namespace EPUBGenerator.MainLogic
                 XElement metadataOpf = rootOpf.Element(xnsOpf + "metadata");
                 XElement manifestOpf = rootOpf.Element(xnsOpf + "manifest");
 
-                int total = 4 * projInfo.ContentList.Count + 1;
+                int total = 4 * projInfo.Contents.Count + 1;
                 progressUpdater.Initialize(total);
-                foreach (String contentSrc in projInfo.ContentList.Values)
+                foreach (Content content in projInfo.Contents)
                 {
-                    Content content = new Content(contentSrc, projInfo);
-
                     long contentBytes = 0;
                     String smilID = GetSmilID(content.Order);
                     String audioID = GetAudioID(content.Order);

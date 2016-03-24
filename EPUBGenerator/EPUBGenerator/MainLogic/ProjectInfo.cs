@@ -17,7 +17,8 @@ namespace EPUBGenerator.MainLogic
         public String EpubProjectPath { get; private set; }
         public String EpubName { get; private set; }
         public String PackageName { get; private set; }
-        public SortedList<int, String> ContentList { get; private set; }
+        //public SortedList<int, String> ContentList { get; private set; }
+        public List<Content> Contents { get; private set; }
 
         public String EpubPath { get { return Path.Combine(ResourcesPath, EpubName); } }
 
@@ -48,10 +49,29 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region Editing Project Info
-        public bool IsSaved { get; set; }
         public State CurrentState { get; set; }
-        public RunWord CurrentRunWord { get; set; }
-        public Content CurrentContent { get; set; }
+        public Word CurrentWord
+        {
+            get { return CurrentContent == null ? null : CurrentContent.SelectedWord; }
+            set { if (CurrentContent != null) CurrentContent.SelectedWord = value; }
+        }
+        public RunWord CurrentRunWord
+        {
+            get { return CurrentWord == null ? null : CurrentWord.Run; }
+            set { CurrentWord = (value == null ? null : value.Word); }
+        }
+        public Content CurrentContent { get; private set; }
+        public bool IsSaved
+        {
+            get
+            {
+                bool save = true;
+                foreach (Content content in Contents)
+                    save &= !content.Changed;
+                return save;
+            }
+            set { CurrentContent.Changed = !value; }
+        }
         #endregion
 
         #region ----------- NEW PROJECT ------------
@@ -65,10 +85,7 @@ namespace EPUBGenerator.MainLogic
             PackageName = EpubFile.GetOpfDirectory();
 
             Project.Synthesizer.TempPath = TempPath;
-
-            ContentList = new SortedList<int, string>();
-            SetContentList(EpubFile.TOC);
-
+            
             _DictionaryName = "Dictionary.txt";
             Dictionary = new Dictionary<String, List<String>>();
             using (StreamReader streamReader = new StreamReader("Resources/Modified_Dictionary.txt"))
@@ -85,21 +102,21 @@ namespace EPUBGenerator.MainLogic
                 streamReader.Close();
             }
         }
-
-        private void SetContentList(List<NavPoint> navPoints)
+        
+        public void AddContent(Content content)
         {
-            foreach (NavPoint nav in navPoints)
-            {
-                if (nav.ContentData != null)
-                    ContentList.Add(nav.Order, nav.Source);
-                SetContentList(nav.Children);
-            }
+            if (Contents == null)
+                Contents = new List<Content>();
+            Contents.Add(content);
         }
 
         public void Dispose()
         {
             if (_EpubFile != null)
+            {
                 _EpubFile.Dispose();
+                _EpubFile = null;
+            }
         }
         #endregion
 
@@ -143,12 +160,13 @@ namespace EPUBGenerator.MainLogic
             }
 
             Project.Synthesizer.TempPath = TempPath;
-
-            ContentList = new SortedList<int, String>();
+            
+            Contents = new List<Content>();
             foreach (XElement xContent in xProject.Element("Contents").Elements("Content"))
             {
                 int order = -1;
                 String src = "";
+                bool selected = false;
                 foreach (XAttribute attribute in xContent.Attributes())
                 {
                     String value = attribute.Value;
@@ -156,10 +174,18 @@ namespace EPUBGenerator.MainLogic
                     {
                         case "order": order = int.Parse(value); break;
                         case "src": src = value; break;
-                        case "selected": /*/ DO WHAT? /*/ break;
+                        case "selected": selected = true; break;
                     }
                 }
-                ContentList.Add(order, src);
+
+                Content content = new Content(src, this);
+                int insertIdx = Contents.Count;
+                while (insertIdx > 0 && order < Contents[insertIdx - 1].Order)
+                    insertIdx--;
+                Contents.Insert(insertIdx, content);
+
+                if (selected)
+                    CurrentContent = content;
             }
         }
         #endregion
@@ -174,14 +200,15 @@ namespace EPUBGenerator.MainLogic
             xProject.Add(new XAttribute("dict", _DictionaryName));
 
             XElement xContents = new XElement("Contents");
-            foreach (KeyValuePair<int, String> content in ContentList)
+            foreach (Content content in Contents)
             {
                 XElement xContent = new XElement("Content");
-                xContent.Add(new XAttribute("order", content.Key));
-                xContent.Add(new XAttribute("src", content.Value));
-                if (CurrentContent != null && content.Key == CurrentContent.Order)
+                xContent.Add(new XAttribute("order", content.Order));
+                xContent.Add(new XAttribute("src", content.Source));
+                if (CurrentContent != null && content == CurrentContent)
                     xContent.Add(new XAttribute("selected", ""));
                 xContents.Add(xContent);
+                content.Save();
             }
             xProject.Add(xContents);
 
@@ -200,6 +227,18 @@ namespace EPUBGenerator.MainLogic
                     streamWriter.WriteLine(String.Join(" ", list));
                 streamWriter.Close();
             }
+        }
+        #endregion
+
+        #region ----------- EDIT PROJECT ------------
+        public void SelectContent(String source)
+        {
+            foreach (Content content in Contents)
+                if (content.Source.Equals(source))
+                {
+                    CurrentContent = content;
+                    return;
+                }
         }
         #endregion
     }

@@ -153,12 +153,18 @@ namespace EPUBGenerator.MainLogic
             int i = 0;
             foreach (Word word in Words)
                 word.SetBegin(bList[i++]);
-            GetCachedSound();
+            if (Content == ProjectInfo.CurrentContent)
+                GetCachedSound();
         }
 
         public void GetCachedSound()
         {
             CachedSound = new CachedSound(WavPath);
+        }
+
+        public void ClearCachedSound()
+        {
+            CachedSound = null;
         }
         #endregion
 
