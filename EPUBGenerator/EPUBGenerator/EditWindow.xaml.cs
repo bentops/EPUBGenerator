@@ -241,6 +241,14 @@ namespace EPUBGenerator
             {
                 Paragraph paragraph = new Paragraph();
                 Paragraphs.Add(paragraph);
+
+                if (block is ImageBlock)
+                {
+                    RunImage image = new RunImage(block as ImageBlock);
+                    paragraph.Inlines.Add(image);
+                    continue;
+                }
+
                 foreach (Sentence sentence in block.Sentences)
                 {
                     Console.WriteLine("S: " + sentence.ID);

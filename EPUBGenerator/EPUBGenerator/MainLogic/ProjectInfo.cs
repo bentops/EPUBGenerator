@@ -41,9 +41,11 @@ namespace EPUBGenerator.MainLogic
         #region Directories
         public String ResourcesPath { get { return Project.GetDirectory(ProjectPath, "Resources"); } }
         public String PackageResourcesPath { get { return Project.GetDirectory(ProjectPath, "Resources", PackageName); } }
+
         public String SavesPath { get { return Project.GetDirectory(ProjectPath, "Saves"); } }
         public String PackageSavesPath { get { return Project.GetDirectory(ProjectPath, "Saves", PackageName); } }
         public String AudioSavesPath { get { return Project.GetDirectory(ProjectPath, "Saves", "Audio"); } }
+
         public String TempPath { get { return Project.GetDirectory(ProjectPath, "Temp"); } }
         public String ExportPath { get { return Project.GetDirectory(ProjectPath, "Export"); } }
         #endregion
@@ -89,7 +91,7 @@ namespace EPUBGenerator.MainLogic
             
             _DictionaryName = "Dictionary.txt";
             Dictionary = new Dictionary<String, List<String>>();
-            using (StreamReader streamReader = new StreamReader("Resources/Modified_Dictionary.txt"))
+            using (StreamReader streamReader = new StreamReader(ProjectProperties.DictionaryPath))
             {
                 while (!streamReader.EndOfStream)
                 {

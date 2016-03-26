@@ -19,12 +19,14 @@ namespace EPUBGenerator.MainLogic
 
         public String ContentAudio { get { return Project.GetDirectory(ProjectInfo.AudioSavesPath, CID); } }
         public String ContentResource { get { return Path.Combine(ProjectInfo.PackageResourcesPath, Source); } }
-        public String ContentSave { get { return Path.Combine(ProjectInfo.SavesPath, Source); } }
+        public String ContentSave { get { return Path.Combine(ProjectInfo.PackageSavesPath, Source); } }
 
         public bool Changed { get; set; }
         public Word SelectedWord { get; set; }
-
+        
         public List<Block> Blocks { get; private set; }
+        public List<ContentBlock> ContentBlocks { get; private set; }
+        public List<ImageBlock> ImageBlocks { get; private set; }
         public int SentenceCount
         {
             get
@@ -48,22 +50,33 @@ namespace EPUBGenerator.MainLogic
             Order = Nav.Order;
 
             Blocks = new List<Block>();
+            ContentBlocks = new List<ContentBlock>();
+            ImageBlocks = new List<ImageBlock>();
             GetBlocks(Root.Element(Xns + "body"));
             Changed = true;
         }
 
         private void GetBlocks(XElement curNode)
         {
+            if (curNode.Name.Equals(Xns + "img"))
+            {
+                int id = ImageBlocks.Count;
+                ImageBlock iBlock = new ImageBlock(id, curNode, this);
+                ImageBlocks.Add(iBlock);
+                curNode.SetAttributeValue("id", iBlock.B_ID);
+                Blocks.Add(iBlock);
+            }
             foreach (XNode childNode in curNode.Nodes())
             {
                 if (childNode is XText)
                 {
                     XText textNode = childNode as XText;
-                    int id = Blocks.Count;
-                    String text = textNode.Value.Trim();
-                    Block block = new Block(id, text, this);
-                    Blocks.Add(block);
-                    textNode.Value = block.B_ID;
+                    int id = ContentBlocks.Count;
+                    String text = textNode.Value;
+                    ContentBlock cBlock = new ContentBlock(id, text, this);
+                    ContentBlocks.Add(cBlock);
+                    textNode.Value = cBlock.B_ID;
+                    Blocks.Add(cBlock);
                 }
                 else if (childNode is XElement)
                     GetBlocks(childNode as XElement);
@@ -100,8 +113,10 @@ namespace EPUBGenerator.MainLogic
             xContent.Add(new XAttribute("id", NavID));
             xContent.Add(new XAttribute("title", Title));
             xContent.Add(new XAttribute("order", Order));
+            XElement xBlocks = new XElement("Blocks");
             foreach (Block block in Blocks)
-                xContent.Add(block.ToXml());
+                xBlocks.Add(block.ToXml());
+            xContent.Add(xBlocks);
 
             using (StreamWriter streamWriter = new StreamWriter(ContentSave))
             {
@@ -139,8 +154,23 @@ namespace EPUBGenerator.MainLogic
                 }
 
                 Blocks = new List<Block>();
-                foreach (XElement xBlock in xContent.Elements("Block"))
-                    Blocks.Add(new Block(xBlock, this));
+                ContentBlocks = new List<ContentBlock>();
+                ImageBlocks = new List<ImageBlock>();
+                foreach (XElement xBlock in xContent.Element("Blocks").Elements())
+                {
+                    if (xBlock.Name == "ContentBlock")
+                    {
+                        ContentBlock block = new ContentBlock(xBlock, this);
+                        ContentBlocks.Add(block);
+                        Blocks.Add(block);
+                    }
+                    else
+                    {
+                        ImageBlock block = new ImageBlock(xBlock, this);
+                        ImageBlocks.Add(block);
+                        Blocks.Add(block);
+                    }
+                }
                 streamReader.Close();
             }
         }

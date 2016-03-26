@@ -17,8 +17,6 @@ namespace EPUBGenerator.MainLogic
         private LogicalDirection GoBackward = LogicalDirection.Backward;
 
         private CachedSoundSampleProvider _OnPlaying;
-
-        private LinkedListNode<RunWord> Node { get; set; }
         private CachedSoundSampleProvider CachedSound { get { return new CachedSoundSampleProvider(Sentence.CachedSound, Word.Begin / 2, Word.End / 2); } }
 
         private IEnumerable<RunWord> PreviousWordsInSentence
@@ -43,7 +41,7 @@ namespace EPUBGenerator.MainLogic
         public RunWord PreviousRun { get { return PreviousInline as RunWord; } }
         public RunWord NextRun { get { return NextInline as RunWord; } }
         public Sentence Sentence { get { return Word.Sentence; } }
-        public Word Word { get; set; }
+        public Word Word { get; private set; }
         
         public RunWord(Word word) : base(word.OriginalText)
         {

@@ -48,23 +48,34 @@ namespace EPUBGenerator.MainLogic
                     #region Overwrite XHTML files
                     {
                         XElement xContent = new XElement(content.Root);
-                        List<XText> xBlocks = GetTextBlocks(xContent.Element(content.Xns + "body"));
+                        List<XText> xContentBlocks = new List<XText>();
+                        List<XElement> xImageBlocks = new List<XElement>();
+                        GetBlocks(content.Xns, xContent.Element(content.Xns + "body"), xContentBlocks, xImageBlocks);
                         int count = 0;
-                        foreach (XText xText in xBlocks)
+                        foreach (XText xText in xContentBlocks)
                         {
                             int id = Int32.Parse(xText.Value.Split('-')[1]);
                             if (id != count)
-                                throw new Exception("Wrong ordering: Blocks");
+                                throw new Exception("Wrong ordering: ContentBlocks");
 
                             XElement parent = xText.Parent;
-                            foreach (Sentence sentence in content.Blocks[id].Sentences)
+                            foreach (Sentence sentence in content.ContentBlocks[id].Sentences)
                             {
                                 XElement xSentence = new XElement(content.Xns + "span");
-                                xSentence.Add(new XAttribute("id", GetSpanID(sentence)));
+                                xSentence.Add(new XAttribute("id", GetXhtmlID(sentence)));
                                 xSentence.Add(new XText(sentence.OriginalText));
                                 parent.Add(xSentence);
                             }
                             xText.Remove();
+                            count++;
+                        }
+                        count = 0;
+                        foreach (XElement xImage in xImageBlocks)
+                        {
+                            int id = Int32.Parse(xImage.Attribute("id").Value.Split('-')[1]);
+                            if (id != count)
+                                throw new Exception("Wrong ordering: ImageBlocks");
+                            xImage.SetAttributeValue("alt", content.ImageBlocks[id].Text);
                             count++;
                         }
                         String xhtmlPath = Path.Combine(projInfo.PackageName, content.Source);
@@ -98,6 +109,24 @@ namespace EPUBGenerator.MainLogic
                         int count = 0;
                         foreach (Block block in content.Blocks)
                         {
+                            if (block is ImageBlock)
+                            {
+                                String begin = GetClockValue(contentBytes);
+                                contentBytes += block.Bytes;
+                                String end = GetClockValue(contentBytes);
+
+                                XElement xText = new XElement(smilXns + "text");
+                                xText.Add(new XAttribute("src", fileName + "#" + GetXhtmlID(block as ImageBlock)));
+                                XElement xAudio = new XElement(smilXns + "audio");
+                                xAudio.Add(new XAttribute("clipBegin", begin));
+                                xAudio.Add(new XAttribute("clipEnd", end));
+                                xAudio.Add(new XAttribute("src", fileName + ".mp3"));
+                                XElement xPar = new XElement(smilXns + "par", xText, xAudio);
+                                xPar.Add(new XAttribute("id", "par" + count));
+                                xSeq.Add(xPar);
+                                count++;
+                                continue;
+                            }
                             foreach (Sentence sentence in block.Sentences)
                             {
                                 String begin = GetClockValue(contentBytes);
@@ -105,7 +134,7 @@ namespace EPUBGenerator.MainLogic
                                 String end = GetClockValue(contentBytes);
 
                                 XElement xText = new XElement(smilXns + "text");
-                                xText.Add(new XAttribute("src", fileName + "#" + GetSpanID(sentence)));
+                                xText.Add(new XAttribute("src", fileName + "#" + GetXhtmlID(sentence)));
                                 XElement xAudio = new XElement(smilXns + "audio");
                                 xAudio.Add(new XAttribute("clipBegin", begin));
                                 xAudio.Add(new XAttribute("clipEnd", end));
@@ -290,17 +319,17 @@ namespace EPUBGenerator.MainLogic
         #endregion
         
         #region Private Methods
-        private static List<XText> GetTextBlocks(XElement element)
+        private static void GetBlocks(XNamespace xns, XElement element, List<XText> xContentBlocks, List<XElement> xImageBlocks)
         {
-            List<XText> xTexts = new List<XText>();
+            if (element.Name.Equals(xns + "img"))
+                xImageBlocks.Add(element);
             foreach (XNode node in element.Nodes())
             {
                 if (node is XText)
-                    xTexts.Add(node as XText);
+                    xContentBlocks.Add(node as XText);
                 else if (node is XElement)
-                    xTexts.AddRange(GetTextBlocks(node as XElement));
+                    GetBlocks(xns, node as XElement, xContentBlocks, xImageBlocks);
             }
-            return xTexts;
         }
         
         private static String GetSmilID(int cOrder)
@@ -313,9 +342,14 @@ namespace EPUBGenerator.MainLogic
             return "A-" + cOrder;
         }
 
-        private static String GetSpanID(Sentence sentence)
+        private static String GetXhtmlID(Sentence sentence)
         {
             return sentence.Content.CID + "-" + sentence.SID;
+        }
+
+        private static String GetXhtmlID(ImageBlock iBlock)
+        {
+            return iBlock.Content.CID + "-" + iBlock.B_ID;
         }
 
         private static String GetClockValue(long bytes)

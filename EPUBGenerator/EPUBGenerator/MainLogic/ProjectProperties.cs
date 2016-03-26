@@ -49,5 +49,15 @@ namespace EPUBGenerator.MainLogic
         public static int Digits = 6;
         public static String NonRandomPattern = "S0*.wav";
         public static String RandomPattern = "S9*.wav";
+        public static String DictionaryPath = "Resources/Modified_Dictionary.txt";
+
+        public static String ContentBlockID(int id)
+        {
+            return "#ContentBlock-" + id;
+        }
+        public static String ImageBlockID(int id)
+        {
+            return "ImageBlock-" + id;
+        }
     }
 }

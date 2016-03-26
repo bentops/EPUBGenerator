@@ -8,29 +8,31 @@ using System.Xml.Linq;
 
 namespace EPUBGenerator.MainLogic
 {
-    class Block
+    abstract class Block
     {
-        public int ID { get; private set; }
-        public String B_ID { get { return "#B-" + ID; } }
+        public int ID { get; protected set; }
+        public abstract String B_ID { get; }
 
-        public Content Content { get; private set; }
-        public String Text { get; private set; }
+        public Content Content { get; protected set; }
+        public String Text { get; protected set; }
         public int Length { get { return Text.Length; } }
-        public LinkedList<Sentence> Sentences { get; private set; }
-
-        #region ----------- NEW PROJECT ------------
-        public Block(int id, String text, Content content)
+        public LinkedList<Sentence> Sentences { get; protected set; }
+        public long Bytes
         {
-            ID = id;
-            Text = text;
-            Content = content;
-
-            Sentences = new LinkedList<Sentence>();
-            foreach (int startIdx in Split(Text))
-                new Sentence(startIdx, this);
+            get
+            {
+                long bytes = 0;
+                foreach (Sentence sentence in Sentences)
+                    bytes += sentence.Bytes;
+                return bytes;
+            }
         }
 
-        private static List<int> Split(String text)
+        public abstract XElement ToXml();
+
+
+        #region ----------- PROTECTED METHODS ------------
+        protected static List<int> Split(String text)
         {
             String eng = @"[a-zA-Z?.,:;'""&$/\\(){}<>[\]\-\s]*";
             Regex eRegex = new Regex(eng + @"[a-zA-Z]+" + eng, RegexOptions.Compiled);
@@ -63,12 +65,13 @@ namespace EPUBGenerator.MainLogic
             return indexList;
         }
 
-        private static void SplitThaiWord(List<int> list, String text, int offset)
+        protected static void SplitThaiWord(List<int> list, String text, int offset)
         {
             Regex sRegex = new Regex(@"[\s]+");
             String[] sList = sRegex.Split(text);
-            
+
             int startIndex = 0;
+            IncreasinglyAppend(list, offset + startIndex);
             foreach (String cutText in sList)
             {
                 if (String.IsNullOrWhiteSpace(cutText))
@@ -77,43 +80,16 @@ namespace EPUBGenerator.MainLogic
                 int index = text.IndexOf(cutText, startIndex);
                 if (index < 0)
                     throw new Exception("Wrong Index Text: " + cutText + " " + startIndex + " " + text);
-                //IncreasinglyAppend(list, offset + index);
                 startIndex = index + cutText.Length;
+                IncreasinglyAppend(list, offset + startIndex);
             }
-            //IncreasinglyAppend(list, offset + startIndex);
         }
 
-        private static void IncreasinglyAppend(List<int> list, int num)
+        protected static void IncreasinglyAppend(List<int> list, int num)
         {
             int count = list.Count;
             if (count == 0 || list[count - 1] < num)
                 list.Add(num);
-        }
-        #endregion
-
-        #region ----------- SAVE PROJECT ------------
-        public XElement ToXml()
-        {
-            XElement xBlock = new XElement("Block");
-            xBlock.Add(new XAttribute("id", B_ID));
-            xBlock.Add(new XElement("Text", Text));
-            XElement xSentences = new XElement("Sentences");
-            foreach (Sentence sentence in Sentences)
-                xSentences.Add(sentence.ToXml());
-            xBlock.Add(xSentences);
-            return xBlock;
-        }
-        #endregion
-
-        #region ----------- OPEN PROJECT ------------
-        public Block(XElement xBlock, Content content)
-        {
-            Content = content;
-            ID = int.Parse(xBlock.Attribute("id").Value.Split('-')[1]);
-            Text = xBlock.Element("Text").Value;
-            Sentences = new LinkedList<Sentence>();
-            foreach (XElement xSentence in xBlock.Element("Sentences").Elements("Sentence"))
-                new Sentence(xSentence, this);
         }
         #endregion
     }
