@@ -12,6 +12,7 @@ namespace EPUBGenerator.MainLogic
         public override string B_ID { get { return ProjectProperties.ImageBlockID(ID); } }
 
         public String Source { get; private set; }
+        public RunImage Run { get; set; }
 
         #region ----------- NEW PROJECT ------------
         public ImageBlock(int id, XElement node, Content content)

@@ -162,6 +162,7 @@
     <Compile Include="MainLogic\Block.cs" />
     <Compile Include="MainLogic\ContentBlock.cs" />
     <Compile Include="MainLogic\ImageBlock.cs" />
+    <Compile Include="MainLogic\ARun.cs" />
     <Compile Include="MainLogic\RunImage.cs" />
     <Compile Include="MainLogic\SoundEngine\AudioPlaybackEngine.cs" />
     <Compile Include="MainLogic\SoundEngine\CachedSound.cs" />

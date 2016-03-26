@@ -354,17 +354,17 @@
             </Grid>
             
             <Grid Grid.Row="1" Margin="10,10,10,0">
-                <StackPanel>
-                        <Label Content="เล่น" Style="{StaticResource LabelStyleInGrid}" />
-                        <WrapPanel>
-                            <RadioButton x:Name="playAll" Content="Play All" Foreground="White" Width="120" IsChecked="True" />
-                            <RadioButton x:Name="playText" Content="Play Only Text" Foreground="White" />
-                        </WrapPanel>
-                    </StackPanel>
+                <StackPanel x:Name="PlayOptionPanel">
+                    <Label Content="เล่น" Style="{StaticResource LabelStyleInGrid}" />
+                    <WrapPanel>
+                        <RadioButton x:Name="PlayAll" Content="Play All" Foreground="White" Width="120" IsChecked="True" Checked="PlayAll_Checked"/>
+                        <RadioButton x:Name="PlayText" Content="Play Only Text" Foreground="White" Checked="PlayText_Checked"/>
+                    </WrapPanel>
+                </StackPanel>
             </Grid>
 
             <Grid Grid.Row="2" Margin="10,10,10,0">
-                <StackPanel>
+                <StackPanel x:Name="EditPanel" IsEnabled="False">
                     <Label Content="คำอ่าน" Margin="0,5,0,0" Style="{StaticResource LabelStyleInGrid}" />
                     <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="260" Height="30" Background="White" IsEditable="True" >
                         <ComboBoxItem Content="Normal Item"/>
@@ -383,7 +383,6 @@
                             <TextBlock Text="Apply Change" TextWrapping="Wrap" TextAlignment="Center"/>
                         </Button>
                     </WrapPanel>
-
                 </StackPanel>
             </Grid>
 
@@ -394,23 +393,26 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid Grid.Row="0">
-                    <StackPanel x:Name="imgConsole" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+                    <StackPanel x:Name="ImagePanel" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
                         <Label Content="คำบรรยายภาพ" Margin="0,5,0,0" Style="{StaticResource LabelStyleInGrid}" />
-                        <Image x:Name="image" Width="Auto" Height="130" Margin="0,5,0,0" />
+                        <Image x:Name="Image" Width="Auto" Height="130" Margin="0,5,0,0" />
                         <DockPanel LastChildFill="True">
                         </DockPanel>
                     </StackPanel>
                 </Grid>
 
                 <Grid Grid.Row="1">
-                    <RichTextBox x:Name="imageCaption" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" IsEnabled="False" VerticalScrollBarVisibility="Auto"/>
+                    <RichTextBox x:Name="ImageCaptionRTB" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+                        <FlowDocument>
+                        </FlowDocument>
+                    </RichTextBox>
                 </Grid>
 
                 <Grid Grid.Row="2">
-                        <WrapPanel HorizontalAlignment="Right">
-                            <Button x:Name="editImgCap" Content="Edit" Width="40" Height="20" Margin="0,5,10,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="SaveBook_Click" HorizontalAlignment="Right" IsEnabled="False"/>
-                            <Button x:Name="applyImgCap" Content="Apply" Width="50" Height="20" Margin="0,5,0,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="SaveBook_Click" HorizontalAlignment="Right" IsEnabled="False"/>
-                        </WrapPanel>
+                    <WrapPanel HorizontalAlignment="Right">
+                        <Button x:Name="EditCaptionButton" Content="Edit" Width="40" Height="20" Margin="0,5,10,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="EditCaptionButton_Click" HorizontalAlignment="Right"/>
+                        <Button x:Name="ApplyCaptionButton" Content="Apply" Width="50" Height="20" Margin="0,5,0,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="ApplyCaptionButton_Click" HorizontalAlignment="Right"/>
+                    </WrapPanel>
                 </Grid>
             </Grid>
 

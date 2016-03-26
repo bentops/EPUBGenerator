@@ -17,7 +17,6 @@ namespace EPUBGenerator.MainLogic
         public String EpubProjectPath { get; private set; }
         public String EpubName { get; private set; }
         public String PackageName { get; private set; }
-        //public SortedList<int, String> ContentList { get; private set; }
         public List<Content> Contents { get; private set; }
 
         public String EpubPath { get { return Path.Combine(ResourcesPath, EpubName); } }
@@ -61,6 +60,17 @@ namespace EPUBGenerator.MainLogic
         {
             get { return CurrentWord == null ? null : CurrentWord.Run; }
             set { CurrentWord = (value == null ? null : value.Word); }
+        }
+        public ARun CurrentARun
+        {
+            get
+            {
+                if (CurrentRunWord == null)
+                    return null;
+                if (CurrentRunWord.IsImage)
+                    return CurrentRunWord.Image;
+                return CurrentRunWord;
+            }
         }
         public Content CurrentContent { get; private set; }
         public bool Changed { get; private set; }

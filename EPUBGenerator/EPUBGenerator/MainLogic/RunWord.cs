@@ -11,7 +11,7 @@ using EPUBGenerator.MainLogic.SoundEngine;
 
 namespace EPUBGenerator.MainLogic
 {
-    class RunWord : Run
+    class RunWord : ARun
     {
         private LogicalDirection GoForward = LogicalDirection.Forward;
         private LogicalDirection GoBackward = LogicalDirection.Backward;
@@ -40,9 +40,13 @@ namespace EPUBGenerator.MainLogic
         public InlineCollection Inlines { get { return ElementStart.Paragraph.Inlines; } }
         public RunWord PreviousRun { get { return PreviousInline as RunWord; } }
         public RunWord NextRun { get { return NextInline as RunWord; } }
+        public Block Block { get { return Sentence.Block; } }
         public Sentence Sentence { get { return Word.Sentence; } }
         public Word Word { get; private set; }
-        
+
+        public override bool IsImage { get { return Block is ImageBlock; } }
+        public RunImage Image { get { return IsImage ? (Block as ImageBlock).Run : null; } }
+
         public RunWord(Word word) : base(word.OriginalText)
         {
             Word = word;
@@ -76,8 +80,8 @@ namespace EPUBGenerator.MainLogic
             Word.MergeWith(nextRun.Word);
             Inlines.Remove(nextRun);
             Text = Word.OriginalText;
-            UpdateSegmentedBackground();
-            //ApplyAvailableSegmentedBackground(ProjectProperties.MergedWords);
+            UpdateBackground();
+            //UpdateSegmentedBackground();
         }
         
         public RunWord SplitAt(TextPointer pointer)
@@ -85,8 +89,8 @@ namespace EPUBGenerator.MainLogic
             int splitPos = pointer.GetTextRunLength(GoBackward);
             Word newWord = Word.SplitAt(splitPos);
             Text = Word.OriginalText;
-            UpdateSegmentedBackground();
-            //ApplyAvailableSegmentedBackground(ProjectProperties.SplittedWords);
+            UpdateBackground();
+            //UpdateSegmentedBackground();
 
             TextPointer insertPos = pointer.GetNextContextPosition(GoForward);
             while (insertPos != null && insertPos.GetPointerContext(GoBackward) != TextPointerContext.ElementEnd)
@@ -94,7 +98,7 @@ namespace EPUBGenerator.MainLogic
             return new RunWord(newWord, insertPos);
         }
      
-        public void PlayCachedSound()
+        public override void PlayCachedSound()
         {
             if (_OnPlaying != null)
                 _OnPlaying.Stop();
@@ -110,39 +114,30 @@ namespace EPUBGenerator.MainLogic
         {
             return Word.Begin <= position && position <= Word.End;
         }
-        
-        public bool IsSelected { get { return ProjectInfo.CurrentRunWord == this; } }
+
+        public override bool IsSelected { get { return ProjectInfo.CurrentRunWord == this; } }
         public bool IsSentenceSelected { get { return ProjectInfo.CurrentRunWord != null && ProjectInfo.CurrentRunWord.Sentence == Sentence; } }
-        public void Select()
+        public override void Select()
         {
-            if (IsSelected)
-                return;
+            ARun recentARun = ProjectInfo.CurrentARun;
             RunWord recentWord = ProjectInfo.CurrentRunWord;
             ProjectInfo.CurrentRunWord = this;
             UpdateBackground();
 
+            if (recentARun != null && recentARun.IsImage && recentARun != ProjectInfo.CurrentARun)
+                recentARun.UpdateBackground();
+
             if (recentWord == null)
                 return;
             recentWord.UpdateBackground();
+
             if (ProjectInfo.CurrentState == State.Play && !recentWord.IsSentenceSelected)
                 foreach (RunWord prev in recentWord.PreviousWordsInSentence)
                     prev.UpdateBackground();
             Word.Content.Changed = true;
         }
 
-        public bool IsHovered { get; private set; }
-        public void Hover()
-        {
-            IsHovered = true;
-            UpdateBackground();
-        }
-        public void Unhover()
-        {
-            IsHovered = false;
-            UpdateBackground();
-        }
-
-        public bool IsEdited
+        public override bool IsEdited
         {
             get { return Word.IsEdited; }
             set { Word.IsEdited = value; }
@@ -153,7 +148,7 @@ namespace EPUBGenerator.MainLogic
         }
         
         public Brush SegmentedBackground { get; private set; }
-        public void UpdateSegmentedBackground()
+        public override void UpdateSegmentedBackground()
         {
             switch (Word.Status)
             {
@@ -172,7 +167,7 @@ namespace EPUBGenerator.MainLogic
             if (PreviousRun == null)
             {
                 SegmentedBackground = (NextRun == null || NextRun.SegmentedBackground != brushes[0]) ? brushes[0] : brushes[1];
-                UpdateBackground();
+                //UpdateBackground();
                 return;
             }
 
@@ -180,7 +175,7 @@ namespace EPUBGenerator.MainLogic
             if (NextRun == null)
             {
                 SegmentedBackground = (PreviousRun.SegmentedBackground != brushes[0]) ? brushes[0] : brushes[1];
-                UpdateBackground();
+                //UpdateBackground();
                 return;
             }
 
@@ -190,17 +185,17 @@ namespace EPUBGenerator.MainLogic
                 if (PreviousRun.SegmentedBackground == brush || NextRun.SegmentedBackground == brush)
                     continue;
                 SegmentedBackground = brush;
-                UpdateBackground();
+                //UpdateBackground();
                 return;
             }
 
             // If there is no consistent brush, choose one that is different from prev, repeat the algo with the next one.
             SegmentedBackground = (PreviousRun.SegmentedBackground != brushes[0]) ? brushes[0] : brushes[1];
-            UpdateBackground();
+            //UpdateBackground();
             NextRun.ApplyAvailableSegmentedBackground(brushes);
         }
 
-        public void UpdateBackground()
+        public override void UpdateBackground()
         {
             Brush brush = null;
             switch (ProjectInfo.CurrentState)
@@ -234,6 +229,7 @@ namespace EPUBGenerator.MainLogic
                         brush = null;
                     break;
                 case State.Segment:
+                    UpdateSegmentedBackground();
                     brush = SegmentedBackground;
                     break;
                 case State.Edit:
@@ -248,6 +244,23 @@ namespace EPUBGenerator.MainLogic
                     break;
             }
             Dispatcher.Invoke((Action)(() => { Background = brush; } ));
+        }
+
+        public override ARun LogicalPrevious()
+        {
+            if (PreviousRun != null)
+                return PreviousRun;
+            if (PreviousParagraph != null)
+                return PreviousParagraph.Inlines.LastInline as ARun;
+            return null;
+        }
+        public override ARun LogicalNext()
+        {
+            if (NextRun != null)
+                return NextRun;
+            if (NextParagraph != null)
+                return NextParagraph.Inlines.FirstInline as ARun;
+            return null;
         }
     }
 }
