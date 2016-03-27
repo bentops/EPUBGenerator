@@ -395,7 +395,7 @@
                 <Grid Grid.Row="0">
                     <StackPanel x:Name="ImagePanel" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
                         <Label Content="คำบรรยายภาพ" Margin="0,5,0,0" Style="{StaticResource LabelStyleInGrid}" />
-                        <Image x:Name="Image" Width="Auto" Height="130" Margin="0,5,0,0" />
+                        <Image x:Name="Image" Width="Auto" Height="130" Margin="0,5,0,0" Cursor="Hand" MouseLeftButtonUp="openImgWindow_Click" />
                         <DockPanel LastChildFill="True">
                         </DockPanel>
                     </StackPanel>
