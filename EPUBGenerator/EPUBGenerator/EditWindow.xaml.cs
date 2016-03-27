@@ -48,8 +48,8 @@ namespace EPUBGenerator
         private BlockCollection Paragraphs { get { return BookContentRTB.Document.Blocks; } }
         private InlineCollection ImageInlines { get { return (ImageCaptionRTB.Document.Blocks.FirstBlock as Paragraph).Inlines; } }
 
-        private bool PlayOnlyText { get; set; }
-        private bool EditCaption { get; set; }
+        private bool IsPlayingOnlyText { get; set; }
+        private bool IsEditingCaption { get; set; }
 
         private bool IsSaved
         {
@@ -219,6 +219,9 @@ namespace EPUBGenerator
                         foreach (RunWord run in currentImage.RunWords)
                             ImageInlines.Add(run);
                     }
+                    ImageCaptionRTB.IsEnabled = IsEditingCaption;
+                    EditCaptionButton.Visibility = IsEditingCaption ? Visibility.Collapsed : Visibility.Visible;
+                    ApplyCaptionButton.Visibility = IsEditingCaption ? Visibility.Visible : Visibility.Collapsed;
                 }
                 SaveLabel.Content = IsSaved ? "saved" : "unsaved";
                 SaveLabel.Foreground = IsSaved ? Brushes.Green : Brushes.Red;
@@ -781,7 +784,7 @@ namespace EPUBGenerator
         {
             if (CurrentRunWord == null)
                 return;
-            if (PlayOnlyText)
+            if (IsPlayingOnlyText)
                 if (CurrentARun.IsImage)
                     if (!SelectNextRunWord())
                         return;
@@ -845,7 +848,7 @@ namespace EPUBGenerator
                 return false;
 
             ARun firstWord = firstParagraph.Inlines.FirstInline as ARun;
-            if (PlayOnlyText)
+            if (IsPlayingOnlyText)
                 while (firstWord != null && firstWord.IsImage)
                     firstWord = firstWord.LogicalNext();
             if (firstWord == null)
@@ -859,7 +862,7 @@ namespace EPUBGenerator
             if (CurrentRunWord == null)
                 return false;
             ARun prevRun = CurrentARun.LogicalPrevious();
-            if (PlayOnlyText)
+            if (IsPlayingOnlyText)
                 while (prevRun != null && prevRun.IsImage)
                     prevRun = prevRun.LogicalPrevious();
             if (prevRun == null)
@@ -874,7 +877,7 @@ namespace EPUBGenerator
                 return false;
 
             ARun nextRun = CurrentARun.LogicalNext();
-            if (PlayOnlyText)
+            if (IsPlayingOnlyText)
                 while (nextRun != null && nextRun.IsImage)
                     nextRun = nextRun.LogicalNext();
             if (nextRun == null)
@@ -885,28 +888,31 @@ namespace EPUBGenerator
 
         private void PlayAll_Checked(object sender, RoutedEventArgs e)
         {
-            PlayOnlyText = false;
+            IsPlayingOnlyText = false;
         }
 
         private void PlayText_Checked(object sender, RoutedEventArgs e)
         {
-            PlayOnlyText = true;
+            IsPlayingOnlyText = true;
         }
 
         private void openImgWindow_Click(object sender, RoutedEventArgs e)
         {
-            //ImageWindow imageWindow = new ImageWindow(imgPath);
-            //ImageWindow.Show();
+            RunImage iRun = CurrentARun as RunImage;
+            if (iRun == null)
+                return;
+            new ImageWindow(iRun.ImageSource).Show();
         }
 
         private void EditCaptionButton_Click(object sender, RoutedEventArgs e)
         {
-
+            IsEditingCaption = true;
         }
 
         private void ApplyCaptionButton_Click(object sender, RoutedEventArgs e)
         {
-
+            IsEditingCaption = false;
+            // DO SOMEThING? +_+
         }
 
 

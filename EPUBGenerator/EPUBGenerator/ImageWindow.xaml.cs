@@ -23,10 +23,10 @@ namespace EPUBGenerator
         {
             InitializeComponent();
             img.Source = new BitmapImage(new Uri(imgPath));
-            getImageSize();
+            GetImageSize();
         }
 
-        private void getImageSize()
+        private void GetImageSize()
         {
             double imgW = img.Source.Width;
             double imgH = img.Source.Height;
