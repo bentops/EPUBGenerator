@@ -17,6 +17,7 @@ namespace EPUBGenerator.MainLogic
         public RunImage Run { get; set; }
 
         public String ImageResource { get { return Project.GetDirectory(ProjectInfo.PackageResourcesPath, Source); } }
+        public bool IsEdited { get; set; }
 
         #region ----------- NEW PROJECT ------------
         public ImageBlock(int id, XElement node, Content content)
@@ -56,6 +57,7 @@ namespace EPUBGenerator.MainLogic
             foreach (Sentence sentence in Sentences)
                 xSentences.Add(sentence.ToXml());
             xBlock.Add(xSentences);
+            IsEdited = false;
             return xBlock;
         }
         #endregion
@@ -82,6 +84,11 @@ namespace EPUBGenerator.MainLogic
             Sentences = new LinkedList<Sentence>();
             foreach (int startIdx in Split(Text))
                 new Sentence(startIdx, this);
+
+            foreach (Sentence sentence in Sentences)
+                sentence.Synthesize();
+            IsEdited = true;
+            Content.Changed = true;
         }
         #endregion
     }

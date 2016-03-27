@@ -13,24 +13,28 @@ namespace EPUBGenerator.MainLogic
     {
         public ProjectInfo ProjectInfo { get { return ImageBlock.Content.ProjectInfo; } }
         public ImageBlock ImageBlock { get; private set; }
-        public List<RunWord> RunWords { get; private set; }
+        //public LinkedList<RunWord> RunWords { get; private set; }
         public String ImageSource { get { return ImageBlock.ImageResource; } }
-
+        public IEnumerable<RunWord> RunWords
+        {
+            get
+            {
+                foreach (Sentence sentence in ImageBlock.Sentences)
+                    foreach (Word word in sentence.Words)
+                        yield return word.Run;
+            }
+        }
         public override bool IsImage { get { return true; } }
         
         public RunImage(ImageBlock imageBlock)
         {
             ImageBlock = imageBlock;
             ImageBlock.Run = this;
-            RunWords = new List<RunWord>();
             foreach (Sentence sentence in ImageBlock.Sentences)
             {
                 sentence.GetCachedSound();
                 foreach (Word word in sentence.Words)
-                {
-                    RunWord run = new RunWord(word);
-                    RunWords.Add(run);
-                }
+                    new RunWord(word);
             }
             Text = "<IMG SOURCE=\"" + ImageBlock.Source + "\">";
         }
@@ -43,10 +47,22 @@ namespace EPUBGenerator.MainLogic
         public override bool IsSelected { get { return ProjectInfo.CurrentARun == this; } }
         public override void Select()
         {
-            RunWords[0].Select();
+            RunWords.First().Select();
             UpdateBackground();
         }
-        public override bool IsEdited { get; set; }
+
+        public override bool IsEdited { get { return ImageBlock.IsEdited; } }
+        public void SetCaption(String text)
+        {
+            ImageBlock.SetAltText(text);
+            foreach (Sentence sentence in ImageBlock.Sentences)
+            {
+                sentence.GetCachedSound();
+                foreach (Word word in sentence.Words)
+                    new RunWord(word);
+            }
+        }
+
         public override void UpdateSegmentedBackground()
         {
             foreach (RunWord run in RunWords)
@@ -94,6 +110,8 @@ namespace EPUBGenerator.MainLogic
                         brush = ProjectProperties.EditedWord;
                     else
                         brush = null;
+                    break;
+                case State.Caption:
                     break;
             }
             Dispatcher.Invoke((Action)(() => { Background = brush; }));

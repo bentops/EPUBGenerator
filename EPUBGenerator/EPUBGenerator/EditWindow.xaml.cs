@@ -31,7 +31,7 @@ namespace EPUBGenerator
     /// Interaction logic for EditWindow.xaml
     /// </summary>
 
-    public enum State { Stop, Play, Segment, Edit }
+    public enum State { Stop, Play, Segment, Edit, Caption }
 
     public partial class EditWindow : Window
     {
@@ -57,7 +57,6 @@ namespace EPUBGenerator
             set
             {
                 CurrentContent.Changed = !value;
-                Export.IsEnabled = ProjectInfo.IsSaved;
             }
         }
         private State CurrentState
@@ -112,120 +111,239 @@ namespace EPUBGenerator
             UpdateUI();
         }
 
-        private void UpdateUI()
+        private void UpdateStateLabel()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Stop: StatusLabel.Content = "Playback Stop"; break;
+                    case State.Play: StatusLabel.Content = "Playing"; break;
+                    case State.Segment: StatusLabel.Content = "Word Segmentation"; break;
+                    case State.Edit: StatusLabel.Content = "Word Editing"; break;
+                    case State.Caption: StatusLabel.Content = "Image Captioning"; break;
+                }
+            }));
+        } // 1
+        private void UpdateSaveStatusLabel()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                SaveLabel.Content = IsSaved ? "SAVED" : "UNSAVED";
+                SaveLabel.Foreground = IsSaved ? Brushes.LightGreen : Brushes.Red;
+            }));
+        } // 2
+        private void UpdateBookContentRTB()
         {
             Dispatcher.Invoke((Action)(() =>
             {
                 switch (CurrentState)
                 {
                     case State.Stop:
-                        // StatusLabel
-                        StatusLabel.Content = "Stop";
-                        // richTextBox
-                        BookContentRTB.CaretBrush = Brushes.Transparent;
-                        BookContentRTB.IsReadOnlyCaretVisible = false;
-                        // PlayPauseButton
-                        PlayPauseB.Content = FindResource("Play");
-                        // PlayOptionPanel
-                        PlayOptionPanel.IsEnabled = true;
-                        // EditPanel
-                        EditPanel.IsEnabled = false;
-                        comboBox.Items.Clear();
-                        // ImageTextBox
-                        ImageCaptionRTB.CaretBrush = Brushes.Transparent;
-                        ImageCaptionRTB.IsReadOnlyCaretVisible = false;
-
-
-                        break;
                     case State.Play:
-                        // StatusLabel
-                        StatusLabel.Content = "Playing";
-                        // richTextBox
+                    case State.Edit:
+                        BookContentRTB.IsEnabled = true;
                         BookContentRTB.CaretBrush = Brushes.Transparent;
                         BookContentRTB.IsReadOnlyCaretVisible = false;
-                        // PlayPauseButton
-                        PlayPauseB.Content = FindResource("Pause");
-                        // PlayOptionPanel
-                        PlayOptionPanel.IsEnabled = false;
-                        // EditPanel
-                        EditPanel.IsEnabled = false;
-                        comboBox.Items.Clear();
-                        // ImageTextBox
-                        ImageCaptionRTB.CaretBrush = Brushes.Transparent;
-                        ImageCaptionRTB.IsReadOnlyCaretVisible = false;
-
                         break;
                     case State.Segment:
-                        // StatusLabel
-                        StatusLabel.Content = "Word Segmentation";
-                        // richTextBox
+                        BookContentRTB.IsEnabled = true;
                         BookContentRTB.CaretBrush = null;
                         BookContentRTB.IsReadOnlyCaretVisible = true;
-                        // PlayPauseButton
+                        break;
+                    case State.Caption:
+                        BookContentRTB.IsEnabled = false;
+                        break;
+                }
+            }));
+        } // 3
+        private void UpdatePlayPauseButton()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Play:
+                        PlayPauseB.Content = FindResource("Pause");
+                        break;
+                    case State.Stop:
+                    case State.Segment:
+                    case State.Edit:
+                    case State.Caption:
                         PlayPauseB.Content = FindResource("Play");
-                        // PlayOptionPanel
+                        break;
+                }
+            }));
+        } // 4
+        private void UpdatePlayOptionPanel()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Play: 
+                        PlayOptionPanel.IsEnabled = false;
+                        break;
+                    case State.Stop: 
+                    case State.Segment:
+                    case State.Edit: 
+                    case State.Caption:
                         PlayOptionPanel.IsEnabled = true;
-                        // EditPanel
+                        break;
+                }
+            }));
+        } // 5
+        private void UpdateEditPanel()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Stop: 
+                    case State.Play: 
+                    case State.Segment:
+                    case State.Caption:
                         EditPanel.IsEnabled = false;
-                        comboBox.Items.Clear();
-                        // ImageTextBox
-                        ImageCaptionRTB.CaretBrush = null;
-                        ImageCaptionRTB.IsReadOnlyCaretVisible = true;
-
+                        DictComboBox.Items.Clear();
                         break;
                     case State.Edit:
-                        // StatusLabel
-                        StatusLabel.Content = "Word Editing";
-                        // richTextBox
-                        BookContentRTB.CaretBrush = Brushes.Transparent;
-                        BookContentRTB.IsReadOnlyCaretVisible = false;
-                        // PlayPauseButton
-                        PlayPauseB.Content = FindResource("Play");
-                        // PlayOptionPanel
-                        PlayOptionPanel.IsEnabled = true;
-                        // EditPanel
                         EditPanel.IsEnabled = true;
-                        comboBox.Items.Clear();
+                        DictComboBox.Items.Clear();
                         String runText = CurrentRunWord.Text;
                         if (ProjectInfo.Dictionary.ContainsKey(runText))
                             foreach (String pronun in ProjectInfo.Dictionary[runText])
-                                comboBox.Items.Add(pronun);
+                                DictComboBox.Items.Add(pronun);
                         else
-                            comboBox.Items.Add(runText);
-                        comboBox.SelectedIndex = CurrentRunWord.Word.DictIndex;
-                        TextBox textBox = comboBox.Template.FindName(comboBox.Text, comboBox) as TextBox;
+                            DictComboBox.Items.Add(runText);
+                        DictComboBox.SelectedIndex = CurrentRunWord.Word.DictIndex;
+                        TextBox textBox = DictComboBox.Template.FindName(DictComboBox.Text, DictComboBox) as TextBox;
                         if (textBox != null)
                         {
                             textBox.SelectAll();
-                            comboBox.Focus();
+                            DictComboBox.Focus();
                         }
                         LockWord.IsChecked = CurrentRunWord.Word.Locked;
-                        // ImageTextBox
-                        ImageCaptionRTB.CaretBrush = Brushes.Transparent;
-                        ImageCaptionRTB.IsReadOnlyCaretVisible = false;
-
                         break;
                 }
-                
-                ImageCtrlGrid.Visibility = (CurrentARun != null && CurrentARun.IsImage) ? Visibility.Visible : Visibility.Hidden;
-                if (ImageCtrlGrid.Visibility == Visibility.Visible)
-                {
-                    RunImage currentImage = CurrentARun as RunImage;
-                    if (ImageCtrlGrid.Tag != currentImage)
-                    {
-                        ImageCtrlGrid.Tag = currentImage;
-                        Image.Source = new BitmapImage(new Uri(currentImage.ImageSource, UriKind.Absolute));
-                        ImageInlines.Clear();
-                        foreach (RunWord run in currentImage.RunWords)
-                            ImageInlines.Add(run);
-                    }
-                    ImageCaptionRTB.IsReadOnly = !IsEditingCaption;
-                    EditCaptionButton.Visibility = IsEditingCaption ? Visibility.Collapsed : Visibility.Visible;
-                    ApplyCaptionButton.Visibility = IsEditingCaption ? Visibility.Visible : Visibility.Collapsed;
-                }
-                SaveLabel.Content = IsSaved ? "saved" : "unsaved";
-                SaveLabel.Foreground = IsSaved ? Brushes.Green : Brushes.Red;
             }));
+        } // 6
+        private void UpdateImageCtrlGrid()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                ImageCtrlGrid.Visibility = (CurrentARun != null && CurrentARun.IsImage) ? Visibility.Visible : Visibility.Hidden;
+                if (ImageCtrlGrid.Visibility != Visibility.Visible)
+                    return;
+                RunImage currentImage = CurrentARun as RunImage;
+                switch (CurrentState)
+                {
+                    case State.Play:
+                    case State.Stop:
+                    case State.Segment:
+                    case State.Edit:
+                        if (ImageCtrlGrid.Tag != currentImage)
+                        {
+                            ImageCtrlGrid.Tag = currentImage;
+                            Image.Source = new BitmapImage(new Uri(currentImage.ImageSource, UriKind.Absolute));
+                            ImageInlines.Clear();
+                            foreach (RunWord run in currentImage.RunWords)
+                                ImageInlines.Add(run);
+                        }
+                        EditCaptionPanel.Visibility = Visibility.Visible;
+                        CancelApplyCaptionPanel.Visibility = Visibility.Hidden;
+                        break;
+                    case State.Caption:
+                        EditCaptionPanel.Visibility = Visibility.Hidden;
+                        CancelApplyCaptionPanel.Visibility = Visibility.Visible;
+                        break;
+                }
+                #region ImageCaptionRTB
+                switch (CurrentState)
+                {
+                    case State.Stop:
+                    case State.Play:
+                    case State.Edit:
+                        ImageCaptionRTB.IsReadOnly = true;
+                        ImageCaptionRTB.CaretBrush = Brushes.Transparent;
+                        ImageCaptionRTB.IsReadOnlyCaretVisible = false;
+                        break;
+                    case State.Segment:
+                        ImageCaptionRTB.IsReadOnly = true;
+                        ImageCaptionRTB.CaretBrush = null;
+                        ImageCaptionRTB.IsReadOnlyCaretVisible = true;
+                        break;
+                    case State.Caption:
+                        ImageCaptionRTB.IsReadOnly = false;
+                        ImageCaptionRTB.CaretBrush = null;
+                        break;
+                }
+                #endregion
+            }));
+        } // 7
+        private void UpdateSaveButton()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Play:
+                    case State.Stop:
+                    case State.Segment:
+                    case State.Edit:
+                        SaveBook.IsEnabled = !IsSaved;
+                        break;
+                    case State.Caption:
+                        SaveBook.IsEnabled = false;
+                        break;
+                }
+            }));
+        } // 8
+        private void UpdateExportButton()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Play:
+                    case State.Stop:
+                    case State.Segment:
+                    case State.Edit:
+                        Export.IsEnabled = IsSaved;
+                        break;
+                    case State.Caption:
+                        Export.IsEnabled = false;
+                        break;
+                }
+            }));
+        } // 9
+
+        private void UpdateTemplate()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Play:
+                    case State.Stop:
+                    case State.Segment:
+                    case State.Edit:
+                    case State.Caption:
+                        break;
+                }
+            }));
+        }
+
+        private void UpdateUI()
+        {
+            UpdateStateLabel(); // 1
+            UpdateSaveStatusLabel(); // 2
+            UpdateBookContentRTB(); // 3
+            UpdatePlayPauseButton(); // 4
+            UpdatePlayOptionPanel(); // 5
+            UpdateEditPanel(); // 6
+            UpdateImageCtrlGrid(); // 7
+            UpdateSaveButton(); // 8
+            UpdateExportButton(); // 9
         }
 
         public void Initiate(String epubProjPath)
@@ -342,7 +460,6 @@ namespace EPUBGenerator
             run.MouseLeave += Run_MouseLeave;
             run.MouseMove += Run_MouseMove;
             run.MouseLeftButtonDown += Run_MouseLeftButtonDown;
-            run.IsEdited = false;
         }
         
         private void EditWindow_KeyDown(object sender, KeyEventArgs e)
@@ -370,6 +487,8 @@ namespace EPUBGenerator
                 case State.Edit:
                     if (key == Key.LeftCtrl || key == Key.RightCtrl)
                         CurrentState = State.Segment;
+                    break;
+                case State.Caption:
                     break;
             }
             Cursor = Cursors.Arrow;
@@ -408,6 +527,8 @@ namespace EPUBGenerator
                 case State.Edit:
                     run.Cursor = Cursors.Hand;
                     break;
+                case State.Caption:
+                    break;
             }
         }
 
@@ -427,7 +548,8 @@ namespace EPUBGenerator
                     {
                         StopSound();
                         run.Select();
-                        CurrentState = State.Edit;
+                        if (run is RunWord)
+                            CurrentState = State.Edit;
                     }
                     break;
                 case State.Play:
@@ -442,7 +564,8 @@ namespace EPUBGenerator
                     {
                         StopSound();
                         run.Select();
-                        CurrentState = State.Edit;
+                        if (run is RunWord)
+                            CurrentState = State.Edit;
                     }
                     break;
                 case State.Segment:
@@ -488,8 +611,11 @@ namespace EPUBGenerator
                     else if (e.ClickCount == 2)
                     {
                         run.Select();
-                        CurrentState = State.Edit;
+                        if (run is RunWord)
+                            CurrentState = State.Edit;
                     }
+                    break;
+                case State.Caption:
                     break;
             }
             run.Cursor = Cursors.Hand;
@@ -511,6 +637,8 @@ namespace EPUBGenerator
                 case State.Edit:
                     run.Hover();
                     break;
+                case State.Caption:
+                    break;
             }
         }
 
@@ -529,6 +657,8 @@ namespace EPUBGenerator
                     break;
                 case State.Edit:
                     run.Unhover();
+                    break;
+                case State.Caption:
                     break;
             }
         }
@@ -554,6 +684,8 @@ namespace EPUBGenerator
                     CurrentState = State.Stop;
                     if (SelectNextRunWord())
                         CurrentRunWord.PlayCachedSound();
+                    break;
+                case State.Caption:
                     break;
             }
             (sender as FrameworkElement).Cursor = Cursors.Hand;
@@ -581,6 +713,8 @@ namespace EPUBGenerator
                     if (SelectPreviousRunWord())
                         CurrentRunWord.PlayCachedSound();
                     break;
+                case State.Caption:
+                    break;
             }
             (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
@@ -607,13 +741,13 @@ namespace EPUBGenerator
                 case State.Segment:
                     break;
                 case State.Edit:
-                    int selectIndex = comboBox.SelectedIndex;
+                    int selectIndex = DictComboBox.SelectedIndex;
                     if (selectIndex == -1)
                     {
-                        selectIndex = comboBox.Items.Add(comboBox.Text);
+                        selectIndex = DictComboBox.Items.Add(DictComboBox.Text);
                         if (!ProjectInfo.Dictionary.ContainsKey(CurrentRunWord.Text))
                             ProjectInfo.Dictionary.Add(CurrentRunWord.Text, new List<String>() { CurrentRunWord.Text });
-                        ProjectInfo.Dictionary[CurrentRunWord.Text].Add(comboBox.Text);
+                        ProjectInfo.Dictionary[CurrentRunWord.Text].Add(DictComboBox.Text);
                     }
                     if (ApplyOnlyThisWord.IsChecked == true)
                         CurrentRunWord.SelectDictAt(selectIndex);
@@ -651,6 +785,8 @@ namespace EPUBGenerator
                     
                     CurrentRunWord.PlayCachedSound();
                     break;
+                case State.Caption:
+                    break;
             }
             (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
@@ -668,6 +804,8 @@ namespace EPUBGenerator
                     break;
                 case State.Edit:
                     break;
+                case State.Caption:
+                    break;
             }
             (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
@@ -684,6 +822,8 @@ namespace EPUBGenerator
                 case State.Segment:
                     break;
                 case State.Edit:
+                    break;
+                case State.Caption:
                     break;
             }
             (sender as FrameworkElement).Cursor = Cursors.Hand;
@@ -710,22 +850,7 @@ namespace EPUBGenerator
                     CurrentState = State.Play;
                     PlaySound();
                     break;
-            }
-            (sender as FrameworkElement).Cursor = Cursors.Hand;
-        }
-
-        private void stopB_Click(object sender, RoutedEventArgs e)
-        {
-            (sender as FrameworkElement).Cursor = Cursors.Wait;
-            switch (CurrentState)
-            {
-                case State.Stop:
-                    break;
-                case State.Play:
-                    break;
-                case State.Segment:
-                    break;
-                case State.Edit:
+                case State.Caption:
                     break;
             }
             (sender as FrameworkElement).Cursor = Cursors.Hand;
@@ -896,7 +1021,7 @@ namespace EPUBGenerator
             IsPlayingOnlyText = true;
         }
 
-        private void openImgWindow_Click(object sender, RoutedEventArgs e)
+        private void OpenImageWindow_Click(object sender, RoutedEventArgs e)
         {
             RunImage iRun = CurrentARun as RunImage;
             if (iRun == null)
@@ -906,13 +1031,39 @@ namespace EPUBGenerator
 
         private void EditCaptionButton_Click(object sender, RoutedEventArgs e)
         {
-            IsEditingCaption = true;
+            Dispatcher.Invoke((Action)(() =>
+            {
+                RunImage currentImage = ImageCtrlGrid.Tag as RunImage;
+                ImageInlines.Clear();
+                Run caption = new Run();
+                foreach (RunWord run in currentImage.RunWords)
+                    caption.Text += run.Text;
+                ImageInlines.Add(caption);
+                ImageCaptionRTB.SelectAll();
+                ImageCaptionRTB.Focus();
+            }));
+            CurrentState = State.Caption;
         }
 
         private void ApplyCaptionButton_Click(object sender, RoutedEventArgs e)
         {
-            IsEditingCaption = false;
-            // DO SOMEThING? +_+
+            RunImage iRun = ImageCtrlGrid.Tag as RunImage;
+            String caption = "";
+            foreach (Paragraph par in ImageCaptionRTB.Document.Blocks)
+                foreach (Run run in par.Inlines)
+                    caption += run.Text;
+            iRun.SetCaption(caption);
+            foreach (RunWord runWord in iRun.RunWords)
+                InitiateRun(runWord);
+
+            ImageCtrlGrid.Tag = null;
+            CurrentState = State.Stop;
+        }
+
+        private void CancelCaptionButton_Click(object sender, RoutedEventArgs e)
+        {
+            ImageCtrlGrid.Tag = null;
+            CurrentState = State.Stop;
         }
 
 

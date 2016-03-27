@@ -366,7 +366,7 @@
             <Grid Grid.Row="2" Margin="10,10,10,0">
                 <StackPanel x:Name="EditPanel" IsEnabled="False">
                     <Label Content="คำอ่าน" Margin="0,5,0,0" Style="{StaticResource LabelStyleInGrid}" />
-                    <ComboBox x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="260" Height="30" Background="White" IsEditable="True" >
+                    <ComboBox x:Name="DictComboBox" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="260" Height="30" Background="White" IsEditable="True" >
                         <ComboBoxItem Content="Normal Item"/>
                     </ComboBox>
                     <WrapPanel Margin="0,10,0,0">
@@ -395,7 +395,7 @@
                 <Grid Grid.Row="0">
                     <StackPanel x:Name="ImagePanel" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
                         <Label Content="คำบรรยายภาพ" Margin="0,5,0,0" Style="{StaticResource LabelStyleInGrid}" />
-                        <Image x:Name="Image" Width="Auto" Height="130" Margin="0,5,0,0" Cursor="Hand" MouseLeftButtonUp="openImgWindow_Click"/>
+                        <Image x:Name="Image" Width="Auto" Height="130" Margin="0,5,0,0" Cursor="Hand" MouseLeftButtonUp="OpenImageWindow_Click"/>
                         <DockPanel LastChildFill="True">
                         </DockPanel>
                     </StackPanel>
@@ -411,11 +411,11 @@
                 </Grid>
 
                 <Grid Grid.Row="2">
-                    <WrapPanel x:Name="editCaptionPanel" HorizontalAlignment="Right" Visibility="Visible">
+                    <WrapPanel x:Name="EditCaptionPanel" HorizontalAlignment="Right" Visibility="Visible">
                         <Button x:Name="EditCaptionButton" Content="Edit" Width="40" Height="20" Margin="0,5,0,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="EditCaptionButton_Click" HorizontalAlignment="Right"/>
                     </WrapPanel>
-                    <WrapPanel x:Name="cancelApplyCaptionPanel" HorizontalAlignment="Right" Visibility="Hidden">
-                        <Button x:Name="CancelCaptionButton" Content="Cancel" Width="50" Height="20" Margin="0,5,10,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="EditCaptionButton_Click" HorizontalAlignment="Right"/>
+                    <WrapPanel x:Name="CancelApplyCaptionPanel" HorizontalAlignment="Right" Visibility="Hidden">
+                        <Button x:Name="CancelCaptionButton" Content="Cancel" Width="50" Height="20" Margin="0,5,10,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="CancelCaptionButton_Click" HorizontalAlignment="Right"/>
                         <Button x:Name="ApplyCaptionButton" Content="Apply" Width="50" Height="20" Margin="0,5,0,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="ApplyCaptionButton_Click" HorizontalAlignment="Right"/>
                     </WrapPanel>
                 </Grid>

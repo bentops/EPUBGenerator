@@ -137,11 +137,7 @@ namespace EPUBGenerator.MainLogic
             Word.Content.Changed = true;
         }
 
-        public override bool IsEdited
-        {
-            get { return Word.IsEdited; }
-            set { Word.IsEdited = value; }
-        }
+        public override bool IsEdited { get { return Word.IsEdited; } }
         public void SelectDictAt(int index)
         {
             Word.ChangeDictIndex(index);
@@ -241,6 +237,8 @@ namespace EPUBGenerator.MainLogic
                         brush = ProjectProperties.EditedWord;
                     else
                         brush = null;
+                    break;
+                case State.Caption:
                     break;
             }
             Dispatcher.Invoke((Action)(() => { Background = brush; } ));

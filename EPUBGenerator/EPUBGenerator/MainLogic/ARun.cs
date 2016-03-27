@@ -36,7 +36,7 @@ namespace EPUBGenerator.MainLogic
             UpdateBackground();
         }
 
-        abstract public bool IsEdited { get; set; }
+        abstract public bool IsEdited { get; }
         abstract public void UpdateSegmentedBackground();
         abstract public void UpdateBackground();
 
