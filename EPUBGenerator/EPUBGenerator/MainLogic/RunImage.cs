@@ -11,20 +11,17 @@ namespace EPUBGenerator.MainLogic
 {
     class RunImage : ARun
     {
-        private RichTextBox RichTextBox { get; set; }
-
         public ProjectInfo ProjectInfo { get { return ImageBlock.Content.ProjectInfo; } }
         public ImageBlock ImageBlock { get; private set; }
         public List<RunWord> RunWords { get; private set; }
-        public String ImageSource { get { return ImageBlock.Source; } }
+        public String ImageSource { get { return ImageBlock.ImageResource; } }
 
         public override bool IsImage { get { return true; } }
         
-        public RunImage(ImageBlock imageBlock, RichTextBox richTextBox)
+        public RunImage(ImageBlock imageBlock)
         {
             ImageBlock = imageBlock;
             ImageBlock.Run = this;
-            RichTextBox = richTextBox;
             RunWords = new List<RunWord>();
             foreach (Sentence sentence in ImageBlock.Sentences)
             {
@@ -40,21 +37,12 @@ namespace EPUBGenerator.MainLogic
 
         public override void PlayCachedSound()
         {
+            // WHAT TO DO ?? =_=
         }
 
         public override bool IsSelected { get { return ProjectInfo.CurrentARun == this; } }
         public override void Select()
         {
-            Dispatcher.Invoke((Action)(() =>
-            {
-                
-                RichTextBox.Document.Blocks.Clear();
-                Paragraph paragraph = new Paragraph();
-                RichTextBox.Document.Blocks.Add(paragraph);
-                foreach (RunWord run in RunWords)
-                    paragraph.Inlines.Add(run);
-                
-            }));
             RunWords[0].Select();
             UpdateBackground();
         }

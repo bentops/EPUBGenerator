@@ -1,8 +1,14 @@
-﻿using System;
+﻿using EPUBGenerator.MainLogic;
+using EPUBGenerator.MainLogic.SoundEngine;
+using NAudio.Wave;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -11,19 +17,13 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Path = System.IO.Path;
-using ParagraphBlock = System.Windows.Documents.Block;
-using Block = EPUBGenerator.MainLogic.Block;
-using EPUBGenerator.MainLogic;
 using System.Xml.Linq;
-using System.IO;
-using System.ComponentModel;
-using SaveFileDialog = System.Windows.Forms.SaveFileDialog;
+using Block = EPUBGenerator.MainLogic.Block;
 using DResult = System.Windows.Forms.DialogResult;
 using MBox = System.Windows.MessageBox;
-using NAudio.Wave;
-using EPUBGenerator.MainLogic.SoundEngine;
-using System.Timers;
+using ParagraphBlock = System.Windows.Documents.Block;
+using Path = System.IO.Path;
+using SaveFileDialog = System.Windows.Forms.SaveFileDialog;
 
 namespace EPUBGenerator
 {
@@ -45,9 +45,11 @@ namespace EPUBGenerator
         private ProjectInfo ProjectInfo { get; set; }
         private String ProjectName { get { return ProjectInfo.ProjectName; } }
         private String ProjectPath { get { return ProjectInfo.ProjectPath; } }
-        private BlockCollection Paragraphs { get { return richTextBox.Document.Blocks; } }
+        private BlockCollection Paragraphs { get { return BookContentRTB.Document.Blocks; } }
+        private InlineCollection ImageInlines { get { return (ImageCaptionRTB.Document.Blocks.FirstBlock as Paragraph).Inlines; } }
 
         private bool PlayOnlyText { get; set; }
+        private bool EditCaption { get; set; }
 
         private bool IsSaved
         {
@@ -120,8 +122,8 @@ namespace EPUBGenerator
                         // StatusLabel
                         StatusLabel.Content = "Stop";
                         // richTextBox
-                        richTextBox.CaretBrush = Brushes.Transparent;
-                        richTextBox.IsReadOnlyCaretVisible = false;
+                        BookContentRTB.CaretBrush = Brushes.Transparent;
+                        BookContentRTB.IsReadOnlyCaretVisible = false;
                         // PlayPauseButton
                         PlayPauseB.Content = FindResource("Play");
                         // PlayOptionPanel
@@ -139,8 +141,8 @@ namespace EPUBGenerator
                         // StatusLabel
                         StatusLabel.Content = "Playing";
                         // richTextBox
-                        richTextBox.CaretBrush = Brushes.Transparent;
-                        richTextBox.IsReadOnlyCaretVisible = false;
+                        BookContentRTB.CaretBrush = Brushes.Transparent;
+                        BookContentRTB.IsReadOnlyCaretVisible = false;
                         // PlayPauseButton
                         PlayPauseB.Content = FindResource("Pause");
                         // PlayOptionPanel
@@ -157,8 +159,8 @@ namespace EPUBGenerator
                         // StatusLabel
                         StatusLabel.Content = "Word Segmentation";
                         // richTextBox
-                        richTextBox.CaretBrush = null;
-                        richTextBox.IsReadOnlyCaretVisible = true;
+                        BookContentRTB.CaretBrush = null;
+                        BookContentRTB.IsReadOnlyCaretVisible = true;
                         // PlayPauseButton
                         PlayPauseB.Content = FindResource("Play");
                         // PlayOptionPanel
@@ -175,8 +177,8 @@ namespace EPUBGenerator
                         // StatusLabel
                         StatusLabel.Content = "Word Editing";
                         // richTextBox
-                        richTextBox.CaretBrush = Brushes.Transparent;
-                        richTextBox.IsReadOnlyCaretVisible = false;
+                        BookContentRTB.CaretBrush = Brushes.Transparent;
+                        BookContentRTB.IsReadOnlyCaretVisible = false;
                         // PlayPauseButton
                         PlayPauseB.Content = FindResource("Play");
                         // PlayOptionPanel
@@ -211,12 +213,12 @@ namespace EPUBGenerator
                     RunImage currentImage = CurrentARun as RunImage;
                     if (ImageCtrlGrid.Tag != currentImage)
                     {
-                        Image.Source = new BitmapImage(new Uri("", UriKind.Relative));
-                        //Image.Source = currentImage.
-                        //CurrentARun
-                        //ImageCtrlGrid.Tag = currentImage;
+                        ImageCtrlGrid.Tag = currentImage;
+                        Image.Source = new BitmapImage(new Uri(currentImage.ImageSource, UriKind.Absolute));
+                        ImageInlines.Clear();
+                        foreach (RunWord run in currentImage.RunWords)
+                            ImageInlines.Add(run);
                     }
-
                 }
                 SaveLabel.Content = IsSaved ? "saved" : "unsaved";
                 SaveLabel.Foreground = IsSaved ? Brushes.Green : Brushes.Red;
@@ -226,8 +228,8 @@ namespace EPUBGenerator
         public void Initiate(String epubProjPath)
         {
             this.PreviewKeyDown += EditWindow_KeyDown;
-            richTextBox.IsReadOnly = true;
-            richTextBox.SelectionBrush = ProjectProperties.Transparent;
+            BookContentRTB.IsReadOnly = true;
+            BookContentRTB.SelectionBrush = ProjectProperties.Transparent;
            
             ProjectInfo = new ProjectInfo(epubProjPath);
             CurrentState = State.Stop;
@@ -302,7 +304,7 @@ namespace EPUBGenerator
 
                 if (block is ImageBlock)
                 {
-                    RunImage image = new RunImage(block as ImageBlock, ImageCaptionRTB);
+                    RunImage image = new RunImage(block as ImageBlock);
                     InitiateRun(image);
                     paragraph.Inlines.Add(image);
                     continue;
@@ -317,7 +319,6 @@ namespace EPUBGenerator
                         RunWord run = new RunWord(word);
                         paragraph.Inlines.Add(run);
                         InitiateRun(run);
-                        //run.UpdateSegmentedBackground();
                     }
                 }
             }
@@ -388,7 +389,7 @@ namespace EPUBGenerator
                         run.Cursor = Cursors.Hand;
                         break;
                     }
-                    RichTextBox rtb = run.IsImage ? ImageCaptionRTB : richTextBox;
+                    RichTextBox rtb = run.IsImage ? ImageCaptionRTB : BookContentRTB;
                     rtb.Focus();
                     TextPointer pointer = rtb.GetPositionFromPoint(e.GetPosition(run), false);
                     rtb.CaretPosition = pointer;
@@ -451,7 +452,7 @@ namespace EPUBGenerator
                         }
 
                         RunWord curRun = run as RunWord;
-                        RichTextBox rtb = curRun.IsImage ? ImageCaptionRTB : richTextBox;
+                        RichTextBox rtb = curRun.IsImage ? ImageCaptionRTB : BookContentRTB;
                         TextPointer curPointer = rtb.GetPositionFromPoint(e.GetPosition(run), false);
                         if (curPointer == null)
                             return;

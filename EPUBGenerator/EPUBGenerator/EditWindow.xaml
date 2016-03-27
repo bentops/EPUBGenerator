@@ -287,7 +287,7 @@
                         <RowDefinition Height="50"/>
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0" Background="Snow" >
-                        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Center" Height="auto" Padding="10" VerticalAlignment="Top" Width="Auto" Background="Transparent" Cursor="Hand" FontSize="20" VerticalScrollBarVisibility="Auto">
+                        <RichTextBox x:Name="BookContentRTB" HorizontalAlignment="Center" Height="auto" Padding="10" VerticalAlignment="Top" Width="Auto" Background="Transparent" Cursor="Hand" FontSize="20" VerticalScrollBarVisibility="Auto">
                             <FlowDocument>
                             </FlowDocument>
                         </RichTextBox>
@@ -404,6 +404,9 @@
                 <Grid Grid.Row="1">
                     <RichTextBox x:Name="ImageCaptionRTB" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalScrollBarVisibility="Auto">
                         <FlowDocument>
+                            <Paragraph>
+                                
+                            </Paragraph>
                         </FlowDocument>
                     </RichTextBox>
                 </Grid>
