@@ -219,7 +219,7 @@ namespace EPUBGenerator
                         foreach (RunWord run in currentImage.RunWords)
                             ImageInlines.Add(run);
                     }
-                    ImageCaptionRTB.IsEnabled = IsEditingCaption;
+                    ImageCaptionRTB.IsReadOnly = !IsEditingCaption;
                     EditCaptionButton.Visibility = IsEditingCaption ? Visibility.Collapsed : Visibility.Visible;
                     ApplyCaptionButton.Visibility = IsEditingCaption ? Visibility.Visible : Visibility.Collapsed;
                 }
