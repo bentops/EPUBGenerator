@@ -891,6 +891,12 @@ namespace EPUBGenerator
             PlayOnlyText = true;
         }
 
+        private void openImgWindow_Click(object sender, RoutedEventArgs e)
+        {
+            //ImageWindow imageWindow = new ImageWindow(imgPath);
+            //ImageWindow.Show();
+        }
+
         private void EditCaptionButton_Click(object sender, RoutedEventArgs e)
         {
 
