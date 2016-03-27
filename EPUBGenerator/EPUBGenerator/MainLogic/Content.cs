@@ -18,8 +18,8 @@ namespace EPUBGenerator.MainLogic
         public int Order { get; private set; }
 
         public String ContentAudio { get { return Project.GetDirectory(ProjectInfo.AudioSavesPath, CID); } }
-        public String ContentResource { get { return Path.Combine(ProjectInfo.PackageResourcesPath, Source); } }
-        public String ContentSave { get { return Path.Combine(ProjectInfo.PackageSavesPath, Source); } }
+        public String ContentResource { get { return Project.GetDirectory(ProjectInfo.PackageResourcesPath, Source); } }
+        public String ContentSave { get { return Project.GetDirectory(ProjectInfo.PackageSavesPath, Source); } }
 
         public bool Changed { get; set; }
         public Word SelectedWord { get; set; }
@@ -54,6 +54,13 @@ namespace EPUBGenerator.MainLogic
             ImageBlocks = new List<ImageBlock>();
             GetBlocks(Root.Element(Xns + "body"));
             Changed = true;
+
+            // Save Content Structure in @"ProjDir\Resources\Package"
+            using (StreamWriter streamWriter = new StreamWriter(ContentResource))
+            {
+                streamWriter.Write(Root);
+                streamWriter.Close();
+            }
         }
 
         private void GetBlocks(XElement curNode)

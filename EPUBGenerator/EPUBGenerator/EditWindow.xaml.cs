@@ -211,6 +211,7 @@ namespace EPUBGenerator
                     RunImage currentImage = CurrentARun as RunImage;
                     if (ImageCtrlGrid.Tag != currentImage)
                     {
+                        Image.Source = new BitmapImage(new Uri("", UriKind.Relative));
                         //Image.Source = currentImage.
                         //CurrentARun
                         //ImageCtrlGrid.Tag = currentImage;

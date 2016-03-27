@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,7 @@ namespace EPUBGenerator.MainLogic
         public String Source { get; private set; }
         public RunImage Run { get; set; }
 
-        public String ImageResource { get { return Path.Combine(ProjectInfo.PackageResourcesPath, Source); } }
+        public String ImageResource { get { return Project.GetDirectory(ProjectInfo.PackageResourcesPath, Source); } }
 
         #region ----------- NEW PROJECT ------------
         public ImageBlock(int id, XElement node, Content content)
@@ -34,6 +35,13 @@ namespace EPUBGenerator.MainLogic
             Sentences = new LinkedList<Sentence>();
             foreach (int startIdx in Split(Text))
                 new Sentence(startIdx, this);
+            using (ZipArchive archive = ZipFile.Open(ProjectInfo.EpubPath, ZipArchiveMode.Read))
+            {
+                String imgZipPath = Path.Combine(ProjectInfo.PackageName, Source);
+                ZipArchiveEntry imgEntry = archive.GetEntry(imgZipPath.Replace('\\', '/'));
+                if (imgEntry != null)
+                    imgEntry.ExtractToFile(ImageResource);
+            }
         }
         #endregion
 
@@ -66,8 +74,7 @@ namespace EPUBGenerator.MainLogic
                 new Sentence(xSentence, this);
         }
         #endregion
-
-
+        
         #region ----------- EDIT PROJECT ------------
         public void SetAltText(String text)
         {

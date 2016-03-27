@@ -113,7 +113,7 @@ namespace EPUBGenerator.Pages
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
             ProjectInfo projInfo = null;
-            try
+            //try
             {
                 _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
                 projInfo = new ProjectInfo(epubPath, projPath);
@@ -131,12 +131,6 @@ namespace EPUBGenerator.Pages
                     Content content = new Content(nav, projInfo);
                     projInfo.AddContent(content);
                     totalSentence += content.SentenceCount;
-                    // Save Content Structure in @"ProjDir\Resources\Package"
-                    using (StreamWriter streamWriter = new StreamWriter(content.ContentResource))
-                    {
-                        streamWriter.Write(content.Root);
-                        streamWriter.Close();
-                    }
                     _ProgressUpdater.Increment();
                 }
 
@@ -152,11 +146,11 @@ namespace EPUBGenerator.Pages
                 projInfo.Save();
                 _ProgressUpdater.Result = new Tuple<String, ProjectInfo, int>(epubPath, projInfo, totalSentence);
             }
-            catch (Exception ex)
+            //catch (Exception ex)
             {
-                throw ex;
+                //throw ex;
             }
-            finally
+            //finally
             {
                 if (projInfo != null)
                     projInfo.Dispose();

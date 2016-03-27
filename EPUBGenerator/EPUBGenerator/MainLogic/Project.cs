@@ -78,10 +78,10 @@ namespace EPUBGenerator.MainLogic
                             xImage.SetAttributeValue("alt", content.ImageBlocks[id].Text);
                             count++;
                         }
-                        String xhtmlPath = Path.Combine(projInfo.PackageName, content.Source);
-                        ZipArchiveEntry xhtmlEntry = archive.GetEntry(xhtmlPath.Replace('\\', '/'));
+                        String xhtmlZipPath = Path.Combine(projInfo.PackageName, content.Source);
+                        ZipArchiveEntry xhtmlEntry = archive.GetEntry(xhtmlZipPath.Replace('\\', '/'));
                         if (xhtmlEntry == null)
-                            xhtmlEntry = archive.CreateEntry(xhtmlPath);
+                            xhtmlEntry = archive.CreateEntry(xhtmlZipPath);
                         using (StreamWriter streamWriter = new StreamWriter(xhtmlEntry.Open()))
                         {
                             streamWriter.Write(xContent);
@@ -146,8 +146,8 @@ namespace EPUBGenerator.MainLogic
                             }
                         }
 
-                        String smilPath = Path.Combine(projInfo.PackageName, content.Source) + ".smil";
-                        ZipArchiveEntry smilEntry = archive.CreateEntry(smilPath);
+                        String smilZipPath = Path.Combine(projInfo.PackageName, content.Source) + ".smil";
+                        ZipArchiveEntry smilEntry = archive.CreateEntry(smilZipPath);
                         using (StreamWriter streamWriter = new StreamWriter(smilEntry.Open()))
                         {
                             streamWriter.Write(xContent);
@@ -214,7 +214,7 @@ namespace EPUBGenerator.MainLogic
                                 {
                                     foreach (Sentence sentence in block.Sentences)
                                     {
-                                        String sourceFile = Path.Combine(sentence.WavPath);
+                                        String sourceFile = sentence.WavPath;
                                         using (WaveFileReader waveFileReader = new WaveFileReader(sourceFile))
                                         {
                                             while ((read = waveFileReader.Read(buffer, 0, buffer.Length)) > 0)
@@ -235,7 +235,7 @@ namespace EPUBGenerator.MainLogic
                                 }
                             }
 
-                            String audioPath = Path.Combine(projInfo.PackageName, content.Source) + ".mp3";
+                            String audioPath = GetDirectory(projInfo.PackageName, content.Source + ".mp3");
                             archive.CreateEntryFromFile(outputMP3, audioPath);
                         }
                     }
@@ -312,8 +312,9 @@ namespace EPUBGenerator.MainLogic
         public static String GetDirectory(params String[] paths)
         {
             String path = Path.Combine(paths);
-            if (!Directory.Exists(path))
-                Directory.CreateDirectory(path);
+            String directory = String.IsNullOrEmpty(Path.GetExtension(path))? path : Path.GetDirectoryName(path);
+            if (!Directory.Exists(directory))
+                Directory.CreateDirectory(directory);
             return path;
         }
         #endregion
