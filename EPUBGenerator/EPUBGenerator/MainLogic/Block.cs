@@ -10,6 +10,8 @@ namespace EPUBGenerator.MainLogic
 {
     abstract class Block
     {
+        protected ProjectInfo ProjectInfo { get { return Content.ProjectInfo; } }
+
         public int ID { get; protected set; }
         public abstract String B_ID { get; }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,8 @@ namespace EPUBGenerator.MainLogic
 
         public String Source { get; private set; }
         public RunImage Run { get; set; }
+
+        public String ImageResource { get { return Path.Combine(ProjectInfo.PackageResourcesPath, Source); } }
 
         #region ----------- NEW PROJECT ------------
         public ImageBlock(int id, XElement node, Content content)

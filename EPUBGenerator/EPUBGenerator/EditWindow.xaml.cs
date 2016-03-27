@@ -204,22 +204,19 @@ namespace EPUBGenerator
 
                         break;
                 }
-
-                if (CurrentARun != null && CurrentARun.IsImage)
+                
+                ImageCtrlGrid.Visibility = (CurrentARun != null && CurrentARun.IsImage) ? Visibility.Visible : Visibility.Hidden;
+                if (ImageCtrlGrid.Visibility == Visibility.Visible)
                 {
-                    ImagePanel.Visibility = Visibility.Visible;
-                    ImageCaptionRTB.Visibility = Visibility.Visible;
-                    EditCaptionButton.Visibility = Visibility.Visible;
-                    ApplyCaptionButton.Visibility = Visibility.Visible;
-                }
-                else
-                {
-                    ImagePanel.Visibility = Visibility.Hidden;
-                    ImageCaptionRTB.Visibility = Visibility.Hidden;
-                    EditCaptionButton.Visibility = Visibility.Hidden;
-                    ApplyCaptionButton.Visibility = Visibility.Hidden;
-                }
+                    RunImage currentImage = CurrentARun as RunImage;
+                    if (ImageCtrlGrid.Tag != currentImage)
+                    {
+                        //Image.Source = currentImage.
+                        //CurrentARun
+                        //ImageCtrlGrid.Tag = currentImage;
+                    }
 
+                }
                 SaveLabel.Content = IsSaved ? "saved" : "unsaved";
                 SaveLabel.Foreground = IsSaved ? Brushes.Green : Brushes.Red;
             }));

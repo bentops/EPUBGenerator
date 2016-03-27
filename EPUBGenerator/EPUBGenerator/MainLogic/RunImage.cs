@@ -16,6 +16,7 @@ namespace EPUBGenerator.MainLogic
         public ProjectInfo ProjectInfo { get { return ImageBlock.Content.ProjectInfo; } }
         public ImageBlock ImageBlock { get; private set; }
         public List<RunWord> RunWords { get; private set; }
+        public String ImageSource { get { return ImageBlock.Source; } }
 
         public override bool IsImage { get { return true; } }
         
@@ -46,13 +47,13 @@ namespace EPUBGenerator.MainLogic
         {
             Dispatcher.Invoke((Action)(() =>
             {
+                
                 RichTextBox.Document.Blocks.Clear();
                 Paragraph paragraph = new Paragraph();
                 RichTextBox.Document.Blocks.Add(paragraph);
                 foreach (RunWord run in RunWords)
-                {
                     paragraph.Inlines.Add(run);
-                }
+                
             }));
             RunWords[0].Select();
             UpdateBackground();
