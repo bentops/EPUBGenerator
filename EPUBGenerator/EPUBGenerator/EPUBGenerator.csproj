@@ -392,7 +392,6 @@
     <Resource Include="Resources\ErrorSignW.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\backward.png" />
     <Resource Include="Resources\forward.png" />
     <Resource Include="Resources\pause.png" />
     <Resource Include="Resources\stop.png" />
@@ -501,6 +500,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Picture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\backward.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

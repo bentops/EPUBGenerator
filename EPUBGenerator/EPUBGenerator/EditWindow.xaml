@@ -386,7 +386,7 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="3" x:Name="ImageCtrlGrid" Margin="10,10,10,10" Visibility="Hidden">
+            <Grid Grid.Row="3" x:Name="ImageCtrlGrid" Margin="10,10,10,10" Visibility="Visible">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
@@ -411,8 +411,11 @@
                 </Grid>
 
                 <Grid Grid.Row="2">
-                    <WrapPanel HorizontalAlignment="Right">
-                        <Button x:Name="EditCaptionButton" Content="Edit" Width="40" Height="20" Margin="0,5,10,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="EditCaptionButton_Click" HorizontalAlignment="Right"/>
+                    <WrapPanel x:Name="editCaptionPanel" HorizontalAlignment="Right" Visibility="Visible">
+                        <Button x:Name="EditCaptionButton" Content="Edit" Width="40" Height="20" Margin="0,5,0,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="EditCaptionButton_Click" HorizontalAlignment="Right"/>
+                    </WrapPanel>
+                    <WrapPanel x:Name="cancelApplyCaptionPanel" HorizontalAlignment="Right" Visibility="Hidden">
+                        <Button x:Name="CancelCaptionButton" Content="Cancel" Width="50" Height="20" Margin="0,5,10,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="EditCaptionButton_Click" HorizontalAlignment="Right"/>
                         <Button x:Name="ApplyCaptionButton" Content="Apply" Width="50" Height="20" Margin="0,5,0,0" Style="{StaticResource ImgButStyle}" VerticalAlignment="Bottom" Cursor="Hand" Click="ApplyCaptionButton_Click" HorizontalAlignment="Right"/>
                     </WrapPanel>
                 </Grid>
