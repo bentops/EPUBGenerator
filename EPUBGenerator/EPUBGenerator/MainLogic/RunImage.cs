@@ -13,8 +13,6 @@ namespace EPUBGenerator.MainLogic
     {
         public ProjectInfo ProjectInfo { get { return ImageBlock.Content.ProjectInfo; } }
         public ImageBlock ImageBlock { get; private set; }
-        //public LinkedList<RunWord> RunWords { get; private set; }
-        public String ImageSource { get { return ImageBlock.ImageResource; } }
         public IEnumerable<RunWord> RunWords
         {
             get
@@ -24,6 +22,7 @@ namespace EPUBGenerator.MainLogic
                         yield return word.Run;
             }
         }
+        public String ImageSource { get { return ImageBlock.ImageResource; } }
         public override bool IsImage { get { return true; } }
         
         public RunImage(ImageBlock imageBlock)

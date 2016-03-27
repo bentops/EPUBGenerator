@@ -15,6 +15,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Effects;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Xml.Linq;
@@ -879,6 +880,17 @@ namespace EPUBGenerator
                 {
                     _ExportPath = saveFileDialog.FileName;
 
+                    this.IsEnabled = false;
+                    BlurEffect objBlur = new BlurEffect();
+                    objBlur.Radius = 5;
+                    Effect = objBlur;
+                    ExportOkButton.Visibility = Visibility.Hidden;
+                    ExportCancelButton.Visibility = Visibility.Visible;
+                    ExportProgress.Visibility = Visibility.Visible;
+                    ExportWait.Content = "Please wait while exporting ...";
+                    /////
+                    ExportPopup.IsOpen = true;
+
                     BackgroundWorker bw = new BackgroundWorker();
                     bw.WorkerReportsProgress = true;
                     bw.WorkerSupportsCancellation = true;
@@ -888,23 +900,67 @@ namespace EPUBGenerator
                     bw.RunWorkerAsync();
                 }
             }
-            
         }
 
+        private ProgressUpdater _ProgressUpdater;
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
+            (sender as BackgroundWorker).Dispose();
+            if (e.Error != null)
+            {
+                if (e.Error is OperationCanceledException)
+                {
+                    this.IsEnabled = true;
+                    ExportPopup.IsOpen = false;
+                    Effect = null;
+                }
+                else
+                {
+                    Console.WriteLine("Exporting, RunworkerCompleted with Exception: ");
+                    Console.WriteLine("\t" + e.Error.Message);
+                    Console.WriteLine(e.Error.StackTrace);
+                    //ขึ้นerror ให้กด ok
+                    ExportPopupGrid.Background = new BrushConverter().ConvertFrom("#ffffa6") as SolidColorBrush;
+                    ExportOkButton.Visibility = Visibility.Visible;
+                    ExportCancelButton.Visibility = Visibility.Hidden;
+                    ExportProgress.Visibility = Visibility.Hidden;
+                    ExportWait.Content = "Exporting ERROR !";
+                }
+            }
+            else
+            {
+                ExportOkButton.Visibility = Visibility.Visible;
+                ExportCancelButton.Visibility = Visibility.Hidden;
+                ExportProgress.Visibility = Visibility.Hidden;
+                ExportWait.Content = "DONE !";
+            }
         }
 
         private void bw_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
+            ExportProgress.Value = e.ProgressPercentage;
         }
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            ProgressUpdater _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
+            _ProgressUpdater = new ProgressUpdater(sender as BackgroundWorker, e);
             Project.Export(ProjectInfo.EpubProjectPath, _ExportPath, _ProgressUpdater);
         }
-        
+
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            _ProgressUpdater.Cancel();
+        }
+
+        private void okButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.IsEnabled = true;
+            ExportPopup.IsOpen = false;
+            Effect = null;
+        }
+
+
+
         private void PlaySound()
         {
             if (CurrentRunWord == null)
@@ -1065,23 +1121,5 @@ namespace EPUBGenerator
             ImageCtrlGrid.Tag = null;
             CurrentState = State.Stop;
         }
-
-
-        //private void apply_Click(object sender, RoutedEventArgs e)
-        //{
-        //    Console.WriteLine(comboBox.Text);
-        //}
-
-        //private void browseLocation_Click(object sender, RoutedEventArgs e)
-        //{
-        //    var textBox = (comboBox.Template.FindName("PART_EditableTextBox", comboBox) as TextBox);
-        //    if (textBox != null)
-        //    {
-        //        textBox.SelectAll();
-        //        comboBox.Focus();
-        //        e.Handled = true;
-        //    }
-
-        //}
     }
 }

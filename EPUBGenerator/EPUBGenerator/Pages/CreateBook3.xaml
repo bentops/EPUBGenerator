@@ -222,11 +222,11 @@
                 </Button>
                 
                 <!-- PopUp -->
-                <Popup AllowsTransparency="True" Name="exportPopup" IsOpen="False" Width="500" Height="200" Placement="Center" PlacementRectangle="400,200,0,0" PlacementTarget="{Binding ElementName=CreateBook3Window}" OpacityMask="#FFE42A2A">
+                <Popup AllowsTransparency="True" Name="ExportPopup" IsOpen="False" Width="500" Height="200" Placement="Center" PlacementRectangle="400,200,0,0" PlacementTarget="{Binding ElementName=CreateBook3Window}" OpacityMask="#FFE42A2A">
                     <Grid x:Name="exportPopupGrid" Background="#bff4ed">
                         <Label x:Name="ExportWait" Content="Please wait while exporting ..." HorizontalAlignment="Left" Margin="50,0,0,115" VerticalAlignment="Bottom" Style="{StaticResource LabelStyle}"/>
                         <ProgressBar x:Name="ExportProgress" HorizontalAlignment="Center" Height="30" Margin="0" VerticalAlignment="Center" Width="400" />
-                        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="350,134,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
+                        <Button x:Name="ExportCancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="350,134,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
                             <Button.Style>
                                 <Style TargetType="{x:Type Button}">
                                     <Setter Property="Background" Value="#ff7f66" />
@@ -252,7 +252,7 @@
                             </Button.Style>
                         </Button>
 
-                        <Button x:Name="okButton" Visibility="Hidden" Content="OK" HorizontalAlignment="Left" Margin="350,134,0,0"  VerticalAlignment="Top" Width="100" Click="okButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
+                        <Button x:Name="ExportOkButton" Visibility="Hidden" Content="OK" HorizontalAlignment="Left" Margin="350,134,0,0"  VerticalAlignment="Top" Width="100" Click="okButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
                             <Button.Style>
                                 <Style TargetType="{x:Type Button}">
                                     <Setter Property="Background" Value="#ff7f66" />

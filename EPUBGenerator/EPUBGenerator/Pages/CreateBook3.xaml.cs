@@ -101,13 +101,13 @@ namespace EPUBGenerator.Pages
                 this.IsEnabled = false;
                 System.Windows.Media.Effects.BlurEffect objBlur = new System.Windows.Media.Effects.BlurEffect();
                 objBlur.Radius = 5;
-                Switcher.createBook3.Effect = objBlur;
-                okButton.Visibility = Visibility.Hidden;
-                cancelButton.Visibility = Visibility.Visible;
+                Effect = objBlur;
+                ExportOkButton.Visibility = Visibility.Hidden;
+                ExportCancelButton.Visibility = Visibility.Visible;
                 ExportProgress.Visibility = Visibility.Visible;
                 ExportWait.Content = "Please wait while exporting ...";
                 /////
-                exportPopup.IsOpen = true;
+                ExportPopup.IsOpen = true;
 
 
                 BackgroundWorker bw = new BackgroundWorker();
@@ -148,8 +148,8 @@ namespace EPUBGenerator.Pages
         private void okButton_Click(object sender, RoutedEventArgs e)
         {
             this.IsEnabled = true;
-            exportPopup.IsOpen = false;
-            Switcher.createBook3.Effect = null;
+            ExportPopup.IsOpen = false;
+            Effect = null;
         }
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
@@ -166,29 +166,31 @@ namespace EPUBGenerator.Pages
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             (sender as BackgroundWorker).Dispose();
-            if (e.Cancelled)
+            if (e.Error != null)
             {
-                this.IsEnabled = true;
-                exportPopup.IsOpen = false;
-                Switcher.createBook3.Effect = null;
-            }
-            else if (e.Error != null)
-            {
-                Console.WriteLine("CreatBook3, RunworkerCompleted with Exception: ");
-                Console.WriteLine("\t" + e.Error.Message);
-                Console.WriteLine(e.Error.StackTrace);
-                //ขึ้นerror ให้กด ok
-                exportPopupGrid.Background = new BrushConverter().ConvertFrom("#ffffa6") as SolidColorBrush;
-                okButton.Visibility = Visibility.Visible;
-                cancelButton.Visibility = Visibility.Hidden;
-                ExportProgress.Visibility = Visibility.Hidden;
-                ExportWait.Content = "Exporting ERROR !";
+                if (e.Error is OperationCanceledException)
+                {
+                    this.IsEnabled = true;
+                    ExportPopup.IsOpen = false;
+                    Effect = null;
+                }
+                else
+                {
+                    Console.WriteLine("CreatBook3, RunworkerCompleted with Exception: ");
+                    Console.WriteLine("\t" + e.Error.Message);
+                    Console.WriteLine(e.Error.StackTrace);
+                    //ขึ้นerror ให้กด ok
+                    exportPopupGrid.Background = new BrushConverter().ConvertFrom("#ffffa6") as SolidColorBrush;
+                    ExportOkButton.Visibility = Visibility.Visible;
+                    ExportCancelButton.Visibility = Visibility.Hidden;
+                    ExportProgress.Visibility = Visibility.Hidden;
+                    ExportWait.Content = "Exporting ERROR !";
+                }
             }
             else
             {
-                Thread.Sleep(500);
-                okButton.Visibility = Visibility.Visible;
-                cancelButton.Visibility = Visibility.Hidden;
+                ExportOkButton.Visibility = Visibility.Visible;
+                ExportCancelButton.Visibility = Visibility.Hidden;
                 ExportProgress.Visibility = Visibility.Hidden;
                 ExportWait.Content = "DONE !";
             }
