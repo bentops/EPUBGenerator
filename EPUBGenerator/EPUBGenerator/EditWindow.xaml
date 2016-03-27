@@ -386,7 +386,7 @@
                 </StackPanel>
             </Grid>
 
-            <Grid Grid.Row="3" Margin="10,10,10,10">
+            <Grid Grid.Row="3" x:Name="imageCtrlGrid" Margin="10,10,10,10" Visibility="Hidden">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
