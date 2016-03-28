@@ -36,13 +36,15 @@ namespace EPUBGenerator.MainLogic
             Sentences = new LinkedList<Sentence>();
             foreach (int startIdx in Split(Text))
                 new Sentence(startIdx, this);
-            using (ZipArchive archive = ZipFile.Open(ProjectInfo.EpubPath, ZipArchiveMode.Read))
-            {
-                String imgZipPath = Path.Combine(ProjectInfo.PackageName, Source);
-                ZipArchiveEntry imgEntry = archive.GetEntry(imgZipPath.Replace('\\', '/'));
-                if (imgEntry != null)
-                    imgEntry.ExtractToFile(ImageResource);
-            }
+
+            if (!File.Exists(ImageResource))
+                using (ZipArchive archive = ZipFile.Open(ProjectInfo.EpubPath, ZipArchiveMode.Read))
+                {
+                    String imgZipPath = Path.Combine(ProjectInfo.PackageName, Source);
+                    ZipArchiveEntry imgEntry = archive.GetEntry(imgZipPath.Replace('\\', '/'));
+                    if (imgEntry != null)
+                        imgEntry.ExtractToFile(ImageResource);
+                }
         }
         #endregion
 

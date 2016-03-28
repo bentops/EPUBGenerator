@@ -966,7 +966,7 @@ namespace EPUBGenerator
             if (CurrentRunWord == null)
                 return;
             if (IsPlayingOnlyText)
-                if (CurrentARun.IsImage)
+                if (CurrentRunWord.IsImage)
                     if (!SelectNextRunWord())
                         return;
             PlayingSound = CurrentRunWord.GetSentenceCachedSound();
@@ -1042,7 +1042,7 @@ namespace EPUBGenerator
         {
             if (CurrentRunWord == null)
                 return false;
-            ARun prevRun = CurrentARun.LogicalPrevious();
+            ARun prevRun = CurrentRunWord.LogicalPrevious();
             if (IsPlayingOnlyText)
                 while (prevRun != null && prevRun.IsImage)
                     prevRun = prevRun.LogicalPrevious();
@@ -1057,7 +1057,7 @@ namespace EPUBGenerator
             if (CurrentRunWord == null)
                 return false;
 
-            ARun nextRun = CurrentARun.LogicalNext();
+            ARun nextRun = CurrentRunWord.LogicalNext();
             if (IsPlayingOnlyText)
                 while (nextRun != null && nextRun.IsImage)
                     nextRun = nextRun.LogicalNext();
