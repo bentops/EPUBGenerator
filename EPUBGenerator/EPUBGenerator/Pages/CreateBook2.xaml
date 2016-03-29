@@ -59,7 +59,7 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <Label x:Name="wait" Content="Please wait while generating ..." HorizontalAlignment="Left" Margin="150,0,0,50" VerticalAlignment="Bottom" Style="{StaticResource LabelStyle}"/>
+            <Label x:Name="wait" Content="Please wait while generating a project." HorizontalAlignment="Left" Margin="145,0,0,50" VerticalAlignment="Bottom" Style="{StaticResource LabelStyle}"/>
             <ProgressBar Name="GeneratorProgress" HorizontalAlignment="Center" Height="50" Margin="0" VerticalAlignment="Bottom" Width="500" />
         </Grid>
 
