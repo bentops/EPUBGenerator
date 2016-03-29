@@ -37,13 +37,13 @@ namespace EPUBGenerator.MainLogic
                 XElement metadataOpf = rootOpf.Element(xnsOpf + "metadata");
                 XElement manifestOpf = rootOpf.Element(xnsOpf + "manifest");
 
-                int total = 4 * projInfo.Contents.Count + 1;
+                int total = 4 * projInfo.Contents.Count + 1 + projInfo.TotalSentences;
                 progressUpdater.Initialize(total);
                 foreach (Content content in projInfo.Contents)
                 {
                     long contentBytes = 0;
-                    String smilID = GetSmilID(content.Order);
-                    String audioID = GetAudioID(content.Order);
+                    String smilID = GetSmilID(content.ID);
+                    String audioID = GetAudioID(content.ID);
 
                     #region Overwrite XHTML files
                     {
@@ -220,7 +220,7 @@ namespace EPUBGenerator.MainLogic
                                             while ((read = waveFileReader.Read(buffer, 0, buffer.Length)) > 0)
                                                 waveFileWriter.Write(buffer, 0, read);
                                         }
-                                        //ProgressUpdater.Increment();
+                                        progressUpdater.Increment();
                                     }
                                 }
                             }
@@ -235,8 +235,8 @@ namespace EPUBGenerator.MainLogic
                                 }
                             }
 
-                            String audioPath = GetDirectory(projInfo.PackageName, content.Source + ".mp3");
-                            archive.CreateEntryFromFile(outputMP3, audioPath);
+                            String audioZipPath = Path.Combine(projInfo.PackageName, content.Source + ".mp3");
+                            archive.CreateEntryFromFile(outputMP3, audioZipPath);
                         }
                     }
 

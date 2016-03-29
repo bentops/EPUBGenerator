@@ -1,4 +1,5 @@
 ﻿using Chula.SLS.TTS.C2SSegmentator;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -65,7 +66,12 @@ namespace TTS.G2Ps
                         {
                             segmentedWords.Add(subStr);
                             pronunciations.Add(subStr);
-                            transcripts.Add(kvPair.Value.Replace('|', ' '));
+                            string trans = kvPair.Value;
+                            for (int i = 0; i < trans.Length; i++)
+                                if ('0' <= trans[i] && trans[i] <= '4' && (i + 1 >= trans.Length || trans[i + 1] != '|'))
+                                    trans = trans.Insert(i + 1, "|");
+
+                            transcripts.Add(trans.Replace('|', ' '));
                             startIndex = length;
                             length = input.Length;
                             found = true;
@@ -93,7 +99,10 @@ namespace TTS.G2Ps
                     pronunciations.Add(pronun);
                     transcripts.Add(_twordsegment.ConvertPhoneme(kv.Value).Replace('|', ' '));
                 }
+                Console.WriteLine("RULESCUT");
             }
+            foreach (string tr in transcripts)
+                Console.WriteLine(tr);
         }
 
         // NEW Return transcript

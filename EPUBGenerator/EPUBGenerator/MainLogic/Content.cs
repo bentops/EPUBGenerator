@@ -9,13 +9,11 @@ namespace EPUBGenerator.MainLogic
     class Content
     {
         public ProjectInfo ProjectInfo { get; private set; }
-        public String CID { get { return "C" + Order; } }
-        public String NavID { get; private set; }
+        public int ID { get; private set; }
+        public String CID { get { return "C" + ID; } }
         public XElement Root { get; private set; }
         public XNamespace Xns { get; private set; }
         public String Source { get; private set; }
-        public String Title { get; private set; }
-        public int Order { get; private set; }
 
         public String ContentAudio { get { return Project.GetDirectory(ProjectInfo.AudioSavesPath, CID); } }
         public String ContentResource { get { return Project.GetDirectory(ProjectInfo.PackageResourcesPath, Source); } }
@@ -27,7 +25,7 @@ namespace EPUBGenerator.MainLogic
         public List<Block> Blocks { get; private set; }
         public List<ContentBlock> ContentBlocks { get; private set; }
         public List<ImageBlock> ImageBlocks { get; private set; }
-        public int SentenceCount
+        public int TotalSentences
         {
             get
             {
@@ -39,15 +37,13 @@ namespace EPUBGenerator.MainLogic
         }
 
         #region ----------- NEW PROJECT ------------
-        public Content(NavPoint Nav, ProjectInfo projInfo)
+        public Content(int id, ContentData cData, ProjectInfo projInfo)
         {
             ProjectInfo = projInfo;
-            NavID = Nav.ID;
-            Root = XElement.Parse(Nav.ContentData.Content);
+            ID = id;
+            Source = cData.FileName;
+            Root = XElement.Parse(cData.Content);
             Xns = Root.Attribute("xmlns") != null ? Root.Attribute("xmlns").Value : XNamespace.None;
-            Source = Nav.Source;
-            Title = Nav.Title;
-            Order = Nav.Order;
 
             Blocks = new List<Block>();
             ContentBlocks = new List<ContentBlock>();
@@ -117,9 +113,7 @@ namespace EPUBGenerator.MainLogic
                 File.Delete(file);
 
             XElement xContent = new XElement("Content");
-            xContent.Add(new XAttribute("id", NavID));
-            xContent.Add(new XAttribute("title", Title));
-            xContent.Add(new XAttribute("order", Order));
+            xContent.Add(new XAttribute("id", ID));
             XElement xBlocks = new XElement("Blocks");
             foreach (Block block in Blocks)
                 xBlocks.Add(block.ToXml());
@@ -149,17 +143,7 @@ namespace EPUBGenerator.MainLogic
             using (StreamReader streamReader = new StreamReader(ContentSave))
             {
                 XElement xContent = XElement.Parse(streamReader.ReadToEnd());
-                foreach (XAttribute attribute in xContent.Attributes())
-                {
-                    String value = attribute.Value;
-                    switch (attribute.Name.ToString())
-                    {
-                        case "id": NavID = value; break;
-                        case "title": Title = value; break;
-                        case "order": Order = int.Parse(value); break;
-                    }
-                }
-
+                ID = int.Parse(xContent.Attribute("id").Value);
                 Blocks = new List<Block>();
                 ContentBlocks = new List<ContentBlock>();
                 ImageBlocks = new List<ImageBlock>();

@@ -29,7 +29,6 @@ namespace TTS.Synthesizers
                 "-od " + Quotation(Path.Combine(tempPath, oname + ".dur")),     // outDur
                 Quotation(fname)                                                // labFile
             };
-            Process process = new Process();
             Process.Start(new ProcessStartInfo("hts_engine1.10-org.exe")
             {
                 Arguments = string.Join(" ", arguments),

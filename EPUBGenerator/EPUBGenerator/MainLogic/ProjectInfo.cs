@@ -18,6 +18,16 @@ namespace EPUBGenerator.MainLogic
         public String EpubName { get; private set; }
         public String PackageName { get; private set; }
         public List<Content> Contents { get; private set; }
+        public int TotalSentences
+        {
+            get
+            {
+                int total = 0;
+                foreach (Content content in Contents)
+                    total += content.TotalSentences;
+                return total;
+            }
+        }
 
         public String EpubPath { get { return Path.Combine(ResourcesPath, EpubName); } }
 
@@ -114,6 +124,7 @@ namespace EPUBGenerator.MainLogic
                 }
                 streamReader.Close();
             }
+            Contents = new List<Content>();
         }
         
         public void AddContent(Content content)
@@ -193,7 +204,7 @@ namespace EPUBGenerator.MainLogic
 
                 Content content = new Content(src, this);
                 int insertIdx = Contents.Count;
-                while (insertIdx > 0 && order < Contents[insertIdx - 1].Order)
+                while (insertIdx > 0 && order < Contents[insertIdx - 1].ID)
                     insertIdx--;
                 Contents.Insert(insertIdx, content);
 
@@ -216,7 +227,7 @@ namespace EPUBGenerator.MainLogic
             foreach (Content content in Contents)
             {
                 XElement xContent = new XElement("Content");
-                xContent.Add(new XAttribute("order", content.Order));
+                xContent.Add(new XAttribute("order", content.ID));
                 xContent.Add(new XAttribute("src", content.Source));
                 if (CurrentContent != null && content == CurrentContent)
                     xContent.Add(new XAttribute("selected", ""));

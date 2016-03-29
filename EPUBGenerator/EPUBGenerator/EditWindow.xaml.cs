@@ -86,6 +86,24 @@ namespace EPUBGenerator
                     foreach (ARun run in paragraph.Inlines)
                         run.UpdateBackground();
                 UpdateUI();
+                if (CurrentState == State.Edit)
+                {
+                    DictComboBox.Items.Clear();
+                    String runText = CurrentRunWord.Text;
+                    if (ProjectInfo.Dictionary.ContainsKey(runText))
+                        foreach (String pronun in ProjectInfo.Dictionary[runText])
+                            DictComboBox.Items.Add(pronun);
+                    else
+                        DictComboBox.Items.Add(runText);
+                    DictComboBox.SelectedIndex = CurrentRunWord.Word.DictIndex;
+                    TextBox textBox = DictComboBox.Template.FindName(DictComboBox.Text, DictComboBox) as TextBox;
+                    if (textBox != null)
+                    {
+                        textBox.SelectAll();
+                        DictComboBox.Focus();
+                    }
+                    LockWord.IsChecked = CurrentRunWord.Word.Locked;
+                }
                 #endregion
             }
         }
@@ -209,21 +227,6 @@ namespace EPUBGenerator
                         break;
                     case State.Edit:
                         EditPanel.IsEnabled = true;
-                        DictComboBox.Items.Clear();
-                        String runText = CurrentRunWord.Text;
-                        if (ProjectInfo.Dictionary.ContainsKey(runText))
-                            foreach (String pronun in ProjectInfo.Dictionary[runText])
-                                DictComboBox.Items.Add(pronun);
-                        else
-                            DictComboBox.Items.Add(runText);
-                        DictComboBox.SelectedIndex = CurrentRunWord.Word.DictIndex;
-                        TextBox textBox = DictComboBox.Template.FindName(DictComboBox.Text, DictComboBox) as TextBox;
-                        if (textBox != null)
-                        {
-                            textBox.SelectAll();
-                            DictComboBox.Focus();
-                        }
-                        LockWord.IsChecked = CurrentRunWord.Word.Locked;
                         break;
                 }
             }));
@@ -264,11 +267,13 @@ namespace EPUBGenerator
                     case State.Stop:
                     case State.Play:
                     case State.Edit:
+                        ImageCaptionRTB.SelectionBrush = Brushes.Transparent;
                         ImageCaptionRTB.IsReadOnly = true;
                         ImageCaptionRTB.CaretBrush = Brushes.Transparent;
                         ImageCaptionRTB.IsReadOnlyCaretVisible = false;
                         break;
                     case State.Segment:
+                        ImageCaptionRTB.SelectionBrush = null;
                         ImageCaptionRTB.IsReadOnly = true;
                         ImageCaptionRTB.CaretBrush = null;
                         ImageCaptionRTB.IsReadOnlyCaretVisible = true;
@@ -417,7 +422,7 @@ namespace EPUBGenerator
             CurrentState = State.Stop;
             SelectedTVI = newTVI;
             ProjectInfo.SelectContent(SelectedTVI.Tag as String);
-            Console.WriteLine("Sentences Count = " + CurrentContent.SentenceCount);
+            Console.WriteLine("Sentences Count = " + CurrentContent.TotalSentences);
 
             foreach (Block block in CurrentContent.Blocks)
             {
@@ -767,7 +772,7 @@ namespace EPUBGenerator
                         bool foundFirstWord = false;
                         foreach (Content content in ProjectInfo.Contents)
                         {
-                            if (content.Order < CurrentContent.Order)
+                            if (content.ID < CurrentContent.ID)
                                 continue;
                             foreach (Block block in content.Blocks)
                                 foreach (Sentence sentence in block.Sentences)
@@ -966,7 +971,7 @@ namespace EPUBGenerator
             if (CurrentRunWord == null)
                 return;
             if (IsPlayingOnlyText)
-                if (CurrentRunWord.IsImage)
+                if (CurrentARun.IsImage)
                     if (!SelectNextRunWord())
                         return;
             PlayingSound = CurrentRunWord.GetSentenceCachedSound();
@@ -1042,7 +1047,7 @@ namespace EPUBGenerator
         {
             if (CurrentRunWord == null)
                 return false;
-            ARun prevRun = CurrentRunWord.LogicalPrevious();
+            ARun prevRun = CurrentARun.LogicalPrevious();
             if (IsPlayingOnlyText)
                 while (prevRun != null && prevRun.IsImage)
                     prevRun = prevRun.LogicalPrevious();
@@ -1057,7 +1062,7 @@ namespace EPUBGenerator
             if (CurrentRunWord == null)
                 return false;
 
-            ARun nextRun = CurrentRunWord.LogicalNext();
+            ARun nextRun = CurrentARun.LogicalNext();
             if (IsPlayingOnlyText)
                 while (nextRun != null && nextRun.IsImage)
                     nextRun = nextRun.LogicalNext();

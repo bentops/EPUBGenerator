@@ -43,7 +43,7 @@ namespace EPUBGenerator
             else if(imgW > 800)
             {
                 img.Width = 800;
-                img.Height = imgH * 800 / imgH;
+                img.Height = imgH * 800 / imgW;
             }
         }
     }

@@ -95,6 +95,7 @@ namespace TTS
                     string cutWord = tPair.Key;
                     string transcript = tPair.Value;
                     string phoneme = phonemeConverter.Convert(transcript, type);
+                    Console.WriteLine("Phon: " + phoneme + " Trans: " + transcript + " Word: " + cutWord);
                     if (type != 2 && type != 6)
                         phoneme = TrimPhoneme(phoneme);
                     phonemeList.Add(phoneme);
