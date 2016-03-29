@@ -105,6 +105,18 @@ namespace EPUBGenerator
             timer.Elapsed += Timer_Elapsed;
             timer.Enabled = true;
             Initiate(epubProjPath);
+            Closing += OnClosing;
+        }
+
+        private void OnClosing(object sender, CancelEventArgs cancelEventArgs)
+        {
+            cancelEventArgs.Cancel = true;
+            this.IsEnabled = false;
+            System.Windows.Media.Effects.BlurEffect objBlur = new System.Windows.Media.Effects.BlurEffect();
+            objBlur.Radius = 5;
+            Effect = objBlur;
+
+            ExitPopup.IsOpen = true;
         }
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
@@ -1120,6 +1132,24 @@ namespace EPUBGenerator
         {
             ImageCtrlGrid.Tag = null;
             CurrentState = State.Stop;
+        }
+
+        private void saveExitPopupButton_Click(object sender, RoutedEventArgs e)
+        {
+            SaveBook_Click(sender, e);
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void dontSaveExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void cancelExitPopupButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.IsEnabled = true;
+            ExitPopup.IsOpen = false;
+            Effect = null;
         }
     }
 }
