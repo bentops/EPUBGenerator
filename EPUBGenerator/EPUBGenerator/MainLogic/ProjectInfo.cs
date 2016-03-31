@@ -60,6 +60,7 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region Editing Project Info
+        public double Speed { get; set; }
         public State CurrentState { get; set; }
         public Word CurrentWord
         {
@@ -125,6 +126,7 @@ namespace EPUBGenerator.MainLogic
                 streamReader.Close();
             }
             Contents = new List<Content>();
+            Speed = 1;
         }
         
         public void AddContent(Content content)
@@ -165,6 +167,7 @@ namespace EPUBGenerator.MainLogic
                     case "package": PackageName = value; break;
                     case "epub": EpubName = value; break;
                     case "dict": _DictionaryName = value; break;
+                    case "speed": Speed = double.Parse(value); break;
                 }
             }
 
@@ -222,6 +225,7 @@ namespace EPUBGenerator.MainLogic
             xProject.Add(new XAttribute("package", PackageName));
             xProject.Add(new XAttribute("epub", EpubName));
             xProject.Add(new XAttribute("dict", _DictionaryName));
+            xProject.Add(new XAttribute("speed", Speed));
 
             XElement xContents = new XElement("Contents");
             foreach (Content content in Contents)

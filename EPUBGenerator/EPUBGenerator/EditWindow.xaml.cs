@@ -114,6 +114,11 @@ namespace EPUBGenerator
         private TreeViewItem SelectedTVI { get; set; }
 
         private CachedSoundSampleProvider PlayingSound;
+        private double CurrentSpeed
+        {
+            get { return ProjectInfo.Speed; }
+            set { if (ProjectInfo != null) ProjectInfo.Speed = value; }
+        }
 
         
         public EditWindow(String epubProjPath)
@@ -225,6 +230,26 @@ namespace EPUBGenerator
                 }
             }));
         } // 5
+        private void UpdateSpeedSlider()
+        {
+            Dispatcher.Invoke((Action)(() =>
+            {
+                switch (CurrentState)
+                {
+                    case State.Play:
+                        SpeedSlider.IsEnabled = false;
+                        SpeedTB.IsEnabled = false;
+                        break;
+                    case State.Stop:
+                    case State.Segment:
+                    case State.Edit:
+                    case State.Caption:
+                        SpeedSlider.IsEnabled = true;
+                        SpeedTB.IsEnabled = true;
+                        break;
+                }
+            }));
+        } // 6
         private void UpdateEditPanel()
         {
             Dispatcher.Invoke((Action)(() =>
@@ -243,7 +268,7 @@ namespace EPUBGenerator
                         break;
                 }
             }));
-        } // 6
+        } // 7
         private void UpdateImageCtrlGrid()
         {
             Dispatcher.Invoke((Action)(() =>
@@ -298,7 +323,7 @@ namespace EPUBGenerator
                 }
                 #endregion
             }));
-        } // 7
+        } // 8
         private void UpdateSaveButton()
         {
             Dispatcher.Invoke((Action)(() =>
@@ -316,7 +341,7 @@ namespace EPUBGenerator
                         break;
                 }
             }));
-        } // 8
+        } // 9
         private void UpdateExportButton()
         {
             Dispatcher.Invoke((Action)(() =>
@@ -334,7 +359,7 @@ namespace EPUBGenerator
                         break;
                 }
             }));
-        } // 9
+        } // 10
 
         private void UpdateTemplate()
         {
@@ -359,10 +384,11 @@ namespace EPUBGenerator
             UpdateBookContentRTB(); // 3
             UpdatePlayPauseButton(); // 4
             UpdatePlayOptionPanel(); // 5
-            UpdateEditPanel(); // 6
-            UpdateImageCtrlGrid(); // 7
-            UpdateSaveButton(); // 8
-            UpdateExportButton(); // 9
+            UpdateSpeedSlider(); //6
+            UpdateEditPanel(); // 7
+            UpdateImageCtrlGrid(); // 8
+            UpdateSaveButton(); // 9
+            UpdateExportButton(); // 10
         }
 
         public void Initiate(String epubProjPath)
@@ -1183,6 +1209,12 @@ namespace EPUBGenerator
             this.IsEnabled = true;
             ExitPopup.IsOpen = false;
             Effect = null;
+        }
+
+        private void SpeedSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+            CurrentSpeed = e.NewValue;
         }
     }
 }

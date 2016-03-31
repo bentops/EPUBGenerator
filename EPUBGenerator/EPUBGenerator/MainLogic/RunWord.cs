@@ -17,7 +17,7 @@ namespace EPUBGenerator.MainLogic
         private LogicalDirection GoBackward = LogicalDirection.Backward;
 
         private CachedSoundSampleProvider _OnPlaying;
-        private CachedSoundSampleProvider CachedSound { get { return new CachedSoundSampleProvider(Sentence.CachedSound, Word.Begin / 2, Word.End / 2); } }
+        private CachedSoundSampleProvider CachedSound { get { return new CachedSoundSampleProvider(Sentence.CachedSound, Word.Begin / 2, Word.End / 2, ProjectInfo.Speed); } }
 
         private IEnumerable<RunWord> PreviousWordsInSentence
         {
@@ -107,10 +107,10 @@ namespace EPUBGenerator.MainLogic
 
         public CachedSoundSampleProvider GetSentenceCachedSound()
         {
-            return new CachedSoundSampleProvider(Sentence.CachedSound, Word.Begin / 2, Sentence.Bytes / 2);
+            return new CachedSoundSampleProvider(Sentence.CachedSound, Word.Begin / 2, Sentence.Bytes / 2, ProjectInfo.Speed);
         }
 
-        public bool IsIn(long position)
+        public bool IsIn(double position)
         {
             return Word.Begin <= position && position <= Word.End;
         }
