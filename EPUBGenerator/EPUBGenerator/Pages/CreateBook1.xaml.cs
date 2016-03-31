@@ -66,8 +66,10 @@ namespace EPUBGenerator.Pages
                 if (!Directory.CreateDirectory(ProjectPath).EnumerateFileSystemInfos().Any())
                 {
                     Switcher.Switch(Switcher.createBook2);
-                    //Switcher.createBook2.createEPUB(EpubPath, ProjectPath, ProjectName);
-                    Switcher.createBook2.CreateProject(EpubPath, ProjectPath, ProjectName);
+                    Switcher.createBook2.createEPUB(EpubPath, ProjectPath, ProjectName);
+                    //System.Threading.Thread.Sleep(1000);
+                    //Switcher.createBook2.CreateProject(EpubPath, ProjectPath, ProjectName);
+                    //System.Windows.Input.CommandManager.InvalidateRequerySuggested();
                 }
                 else
                 {

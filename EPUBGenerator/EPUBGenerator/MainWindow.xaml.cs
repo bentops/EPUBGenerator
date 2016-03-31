@@ -22,7 +22,7 @@ namespace EPUBGenerator
     /// </summary>
     public partial class MainWindow : Window
     {
-        int test = 1;
+        int test = 2;
         public MainWindow()
         {
             InitializeComponent();
@@ -44,8 +44,8 @@ namespace EPUBGenerator
                 String projPath = @"C:\Users\xinghbtong.Baitongs\Desktop\TestEPUB\T01";
                 if (System.IO.Directory.Exists(projPath))
                     System.IO.Directory.Delete(projPath, true);
-                //Switcher.createBook2.createEPUB(epubPath, projPath, "T01");
-                Switcher.createBook2.CreateProject(epubPath, projPath, "T01");
+                Switcher.createBook2.createEPUB(epubPath, projPath, "T01");
+                //Switcher.createBook2.CreateProject(epubPath, projPath, "T01");
             }
             else if (test == 2)
             {

@@ -19,6 +19,16 @@ namespace TTS.G2Ps
             Dict.Add("7", "cet1");
             Dict.Add("8", "pxxt1");
             Dict.Add("9", "kaw2");
+            Dict.Add("๐", "suun4");
+            Dict.Add("๑", "nUN1");
+            Dict.Add("๒", "sOON4");
+            Dict.Add("๓", "saam4");
+            Dict.Add("๔", "sii1");
+            Dict.Add("๕", "haa2");
+            Dict.Add("๖", "hok1");
+            Dict.Add("๗", "cet1");
+            Dict.Add("๘", "pxxt1");
+            Dict.Add("๙", "kaw2");
             Dict.Add("sib", "sip1");
             Dict.Add("roy", "rOOj3");
             Dict.Add("pun", "phan0");
@@ -30,6 +40,11 @@ namespace TTS.G2Ps
             Dict.Add("minus", "lop3");
         }
 
+        private static bool IsZero(string str)
+        {
+            return (str == "0" || str == "-0" || str == "๐" || str == "-๐");
+        }
+
         public string GenTranscript(string inp)
         {
             string Outp = "";
@@ -38,7 +53,7 @@ namespace TTS.G2Ps
             //reduce zero
             if (inp.Length >= 2)
             {
-                while (inp.Substring(0, 1) == "0")
+                while (IsZero(inp.Substring(0, 1)))
                 {
                     if (inp.Length == 1)
                         return Dict["0"];
@@ -46,7 +61,7 @@ namespace TTS.G2Ps
                 }
             }
 
-            if (inp == "0" || inp == "-0")
+            if (IsZero(inp))
                 return Dict["0"];
 
             if (inp.Substring(0, 1) == "-")
@@ -61,7 +76,7 @@ namespace TTS.G2Ps
 
             while (binp.Length > 0)
             {
-                if (binp.Substring(0, 1) == "0")
+                if (IsZero(binp.Substring(0, 1)))
                 {
                     if ((binp.Length - 1) % 6 == 0 && binp.Length > 1)
                     {

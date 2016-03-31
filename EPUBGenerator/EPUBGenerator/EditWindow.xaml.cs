@@ -88,6 +88,7 @@ namespace EPUBGenerator
                 UpdateUI();
                 if (CurrentState == State.Edit)
                 {
+                    EditPanel.IsEnabled = true;
                     DictComboBox.Items.Clear();
                     String runText = CurrentRunWord.Text;
                     if (ProjectInfo.Dictionary.ContainsKey(runText))
@@ -96,11 +97,11 @@ namespace EPUBGenerator
                     else
                         DictComboBox.Items.Add(runText);
                     DictComboBox.SelectedIndex = CurrentRunWord.Word.DictIndex;
-                    TextBox textBox = DictComboBox.Template.FindName(DictComboBox.Text, DictComboBox) as TextBox;
+                    TextBox textBox = DictComboBox.Template.FindName("PART_EditableTextBox", DictComboBox) as TextBox;
                     if (textBox != null)
                     {
+                        textBox.Focus();
                         textBox.SelectAll();
-                        DictComboBox.Focus();
                     }
                     LockWord.IsChecked = CurrentRunWord.Word.Locked;
                 }
@@ -235,10 +236,10 @@ namespace EPUBGenerator
                     case State.Segment:
                     case State.Caption:
                         EditPanel.IsEnabled = false;
-                        DictComboBox.Items.Clear();
+                        DictComboBox.Text = "";
                         break;
                     case State.Edit:
-                        EditPanel.IsEnabled = true;
+                        EditCaptionButton.IsEnabled = true;
                         break;
                 }
             }));
@@ -261,6 +262,8 @@ namespace EPUBGenerator
                         {
                             ImageCtrlGrid.Tag = currentImage;
                             Image.Source = new BitmapImage(new Uri(currentImage.ImageSource, UriKind.Absolute));
+                            ImageCaptionRTB.Document.Blocks.Clear();
+                            ImageCaptionRTB.Document.Blocks.Add(new Paragraph());
                             ImageInlines.Clear();
                             foreach (RunWord run in currentImage.RunWords)
                                 ImageInlines.Add(run);
@@ -285,14 +288,12 @@ namespace EPUBGenerator
                         ImageCaptionRTB.IsReadOnlyCaretVisible = false;
                         break;
                     case State.Segment:
-                        ImageCaptionRTB.SelectionBrush = null;
+                        ImageCaptionRTB.SelectionBrush = Brushes.Transparent;
                         ImageCaptionRTB.IsReadOnly = true;
                         ImageCaptionRTB.CaretBrush = null;
                         ImageCaptionRTB.IsReadOnlyCaretVisible = true;
                         break;
                     case State.Caption:
-                        ImageCaptionRTB.IsReadOnly = false;
-                        ImageCaptionRTB.CaretBrush = null;
                         break;
                 }
                 #endregion
@@ -392,24 +393,25 @@ namespace EPUBGenerator
 
         private void GenerateProjectMenu()
         {
-            TreeViewItem projectTVI = new TreeViewItem() { Header = "Project '" + ProjectName + "'", IsExpanded = true };
-
             _AllContentsTVI = new TreeViewItem() { Header = "Contents", IsExpanded = true };
+            _AllImagesTVI = new TreeViewItem() { Header = "Images" };
             foreach (Content content in ProjectInfo.Contents)
             {
-                String src = content.Source;
-                String name = Path.GetFileNameWithoutExtension(src);
-                _AllContentsTVI.Items.Add(new TreeViewItem() { Header = name, Tag = src });
+                String name = Path.GetFileNameWithoutExtension(content.Source);
+                _AllContentsTVI.Items.Add(new TreeViewItem() { Header = name, Tag = content });
+
+                TreeViewItem contentTVI = new TreeViewItem() { Header = name };
+                _AllImagesTVI.Items.Add(contentTVI);
+                foreach (ImageBlock imageBlock in content.ImageBlocks)
+                {
+                    String imgName = Path.GetFileNameWithoutExtension(imageBlock.Source);
+                    contentTVI.Items.Add(new TreeViewItem() { Header = imgName, Tag = imageBlock});
+                }
+
             }
-            projectTVI.Items.Add(_AllContentsTVI);
 
-            _AllImagesTVI = new TreeViewItem() { Header = "Images" };
-            /*//
-            IMAGEEEEEEEEEEEEEEES
-            //*/
-            projectTVI.Items.Add(_AllImagesTVI);
-
-            treeView.Items.Add(projectTVI);
+            treeView.Items.Add(_AllContentsTVI);
+            treeView.Items.Add(_AllImagesTVI);
             treeView.SelectedItemChanged += TreeView_SelectedItemChanged;
         }
 
@@ -418,51 +420,70 @@ namespace EPUBGenerator
             TreeViewItem oldTVI = e.OldValue as TreeViewItem;
             TreeViewItem newTVI = e.NewValue as TreeViewItem;
             Console.WriteLine("OLD: " + oldTVI + ", NEW: " + newTVI);
-            Console.WriteLine("New Tag: " + newTVI == null ? null : newTVI.Tag);
             if (newTVI == null || newTVI.Tag == null)
                 return;
             
             Cursor = Cursors.Wait;
-            Paragraphs.Clear();
-            if (CurrentContent != null)
-                foreach (Block block in CurrentContent.Blocks)
-                    foreach (Sentence sentence in block.Sentences)
-                        sentence.ClearCachedSound();
-            if (SelectedTVI != null)
-                SelectedTVI.Background = ProjectProperties.Transparent;
+            Content oldContent = CurrentContent;
+            Content newContent = (newTVI.Tag is ImageBlock ? (newTVI.Tag as ImageBlock).Content : newTVI.Tag as Content);
 
-            CurrentState = State.Stop;
-            SelectedTVI = newTVI;
-            ProjectInfo.SelectContent(SelectedTVI.Tag as String);
-            Console.WriteLine("Sentences Count = " + CurrentContent.TotalSentences);
-
-            foreach (Block block in CurrentContent.Blocks)
+            if (oldContent != newContent)
             {
-                Paragraph paragraph = new Paragraph();
-                Paragraphs.Add(paragraph);
+                Paragraphs.Clear();
+                if (CurrentContent != null)
+                    foreach (Block block in CurrentContent.Blocks)
+                        foreach (Sentence sentence in block.Sentences)
+                            sentence.ClearCachedSound();
+                if (SelectedTVI != null)
+                    SelectedTVI.Background = ProjectProperties.Transparent;
+                foreach (TreeViewItem tvi in _AllContentsTVI.Items)
+                    if (tvi.Tag == oldContent)
+                        tvi.Background = ProjectProperties.Transparent;
 
-                if (block is ImageBlock)
-                {
-                    RunImage image = new RunImage(block as ImageBlock);
-                    InitiateRun(image);
-                    paragraph.Inlines.Add(image);
-                    continue;
-                }
+                CurrentState = State.Stop;
+                SelectedTVI = newTVI;
+                ProjectInfo.SelectContent(newContent);
+                Console.WriteLine("Sentences Count = " + CurrentContent.TotalSentences);
 
-                foreach (Sentence sentence in block.Sentences)
+                foreach (Block block in CurrentContent.Blocks)
                 {
-                    Console.WriteLine("S: " + sentence.ID);
-                    sentence.GetCachedSound();
-                    foreach (Word word in sentence.Words)
+                    Paragraph paragraph = new Paragraph();
+                    Paragraphs.Add(paragraph);
+
+                    if (block is ImageBlock)
                     {
-                        RunWord run = new RunWord(word);
-                        paragraph.Inlines.Add(run);
-                        InitiateRun(run);
+                        RunImage image = new RunImage(block as ImageBlock);
+                        InitiateRun(image);
+                        paragraph.Inlines.Add(image);
+                        continue;
+                    }
+
+                    foreach (Sentence sentence in block.Sentences)
+                    {
+                        Console.WriteLine("S: " + sentence.ID);
+                        sentence.GetCachedSound();
+                        foreach (Word word in sentence.Words)
+                        {
+                            RunWord run = new RunWord(word);
+                            paragraph.Inlines.Add(run);
+                            InitiateRun(run);
+                        }
                     }
                 }
+                SelectedTVI.Background = ProjectProperties.SelectedContent;
+                foreach (TreeViewItem tvi in _AllContentsTVI.Items)
+                    if (tvi.Tag == newContent)
+                        tvi.Background = ProjectProperties.SelectedContent;
+
             }
-            SelectedTVI.Background = ProjectProperties.SelectedContent;
-            if (CurrentARun == null)
+            
+            if (newTVI.Tag is ImageBlock)
+            {
+                RunImage runImg = (newTVI.Tag as ImageBlock).Run;
+                runImg.Select();
+                runImg.BringIntoView();
+            }
+            else if (CurrentARun == null)
                 SelectFirstRunWord();
             else
                 CurrentARun.Select();
@@ -759,7 +780,7 @@ namespace EPUBGenerator
                 case State.Segment:
                     break;
                 case State.Edit:
-                    int selectIndex = DictComboBox.SelectedIndex;
+                    int selectIndex = DictComboBox.Items.IndexOf(DictComboBox.Text);
                     if (selectIndex == -1)
                     {
                         selectIndex = DictComboBox.Items.Add(DictComboBox.Text);
@@ -1112,6 +1133,9 @@ namespace EPUBGenerator
                 foreach (RunWord run in currentImage.RunWords)
                     caption.Text += run.Text;
                 ImageInlines.Add(caption);
+                ImageCaptionRTB.ClearValue(RichTextBox.SelectionBrushProperty);
+                ImageCaptionRTB.IsReadOnly = false;
+                ImageCaptionRTB.CaretBrush = null;
                 ImageCaptionRTB.SelectAll();
                 ImageCaptionRTB.Focus();
             }));
@@ -1123,13 +1147,17 @@ namespace EPUBGenerator
             RunImage iRun = ImageCtrlGrid.Tag as RunImage;
             String caption = "";
             foreach (Paragraph par in ImageCaptionRTB.Document.Blocks)
+            {
                 foreach (Run run in par.Inlines)
                     caption += run.Text;
+                caption += "\n";
+            }
             iRun.SetCaption(caption);
             foreach (RunWord runWord in iRun.RunWords)
                 InitiateRun(runWord);
 
             ImageCtrlGrid.Tag = null;
+            iRun.Select();
             CurrentState = State.Stop;
         }
 

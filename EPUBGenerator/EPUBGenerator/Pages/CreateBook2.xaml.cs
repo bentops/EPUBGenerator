@@ -38,7 +38,10 @@ namespace EPUBGenerator.Pages
             InitializeComponent();
         }
 
-        public void createEPUB0(string epubPath, string projPath, string projName)
+
+        private object Result = null;
+
+        public void createEPUB(string epubPath, string projPath, string projName)
         {
             this.epubPath = epubPath;
             this.projPath = projPath;
@@ -63,7 +66,18 @@ namespace EPUBGenerator.Pages
             bw.ProgressChanged += bw_ProgressChanged;
             bw.RunWorkerCompleted += bw_RunWorkerCompleted;
             bw.RunWorkerAsync();
-            
+
+            /*
+            while (Result == null)
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("WAITING");
+            }
+            Console.WriteLine("FINISHED");
+
+            Switcher.Switch(Switcher.createBook3);
+            Switcher.createBook3.bookInfo(Result);*/
+
         }
         
         public void CreateProject(string epubPath, string projPath, string projName)
@@ -76,6 +90,7 @@ namespace EPUBGenerator.Pages
             infoprojLocation.Text = projPath;
             infoinputEPUB.Text = epubPath;
 
+            Thread.Sleep(1000);
 
             ProjectInfo projInfo = null;
             try
@@ -124,6 +139,7 @@ namespace EPUBGenerator.Pages
                 Console.WriteLine("CreatBook2, RunworkerCompleted with Exception: ");
                 Console.WriteLine("\t" + ex.Message);
                 Console.WriteLine(ex.StackTrace);
+                Project.ClearDirectory(projPath);
             }
             finally
             {
@@ -206,9 +222,9 @@ namespace EPUBGenerator.Pages
             {
                 Console.WriteLine("RunCompleted, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
                 Thread.Sleep(500);
+                //Result = e.Result;
                 Switcher.Switch(Switcher.createBook3);
                 Switcher.createBook3.bookInfo(e.Result);
-                //Switcher.createBook3.bookInfo(projName, projPath, epubPath);
             }
         }
         

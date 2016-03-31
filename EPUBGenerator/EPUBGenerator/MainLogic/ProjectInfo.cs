@@ -256,14 +256,9 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region ----------- EDIT PROJECT ------------
-        public void SelectContent(String source)
+        public void SelectContent(Content content)
         {
-            foreach (Content content in Contents)
-                if (content.Source.Equals(source))
-                {
-                    CurrentContent = content;
-                    return;
-                }
+            CurrentContent = content;
         }
         #endregion
     }

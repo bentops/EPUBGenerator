@@ -233,7 +233,7 @@ namespace eBdb.EpubReader {
 			XNamespace xNamespace = contentOpf.Attribute("xmlns") != null ? contentOpf.Attribute("xmlns").Value : XNamespace.None;
 
 			string uniqueIdentifier = contentOpf.Attribute("unique-identifier").Value;
-			UUID = contentOpf.Elements(xNamespace + "metadata").Elements().FirstOrDefault(e => e.Name.LocalName == "identifier" && e.Attribute("id").Value == uniqueIdentifier).Value;
+			UUID = contentOpf.Elements(xNamespace + "metadata").Elements().FirstOrDefault(e => e.Name.LocalName == "identifier" && e.Attribute("id") != null && e.Attribute("id").Value == uniqueIdentifier).Value;
 			foreach (var metadataElement in contentOpf.Elements(xNamespace + "metadata").Elements().Where(e => e.Value.Trim() != string.Empty)) {
 				switch (metadataElement.Name.LocalName) {
 					case "title": Title.Add(metadataElement.Value); break;
