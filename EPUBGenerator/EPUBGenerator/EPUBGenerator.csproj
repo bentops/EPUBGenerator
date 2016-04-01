@@ -204,12 +204,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
-    <Compile Include="TestPartTwo02.xaml.cs">
-      <DependentUpon>TestPartTwo02.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TestPartTwo01.xaml.cs">
-      <DependentUpon>TestPartTwo01.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ImageWindow.xaml.cs">
       <DependentUpon>ImageWindow.xaml</DependentUpon>
     </Compile>
@@ -334,14 +328,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\PageDictionary.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="TestPartTwo02.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="TestPartTwo01.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
