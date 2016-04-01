@@ -31,32 +31,23 @@
                 </StackPanel>
             </Border>
             <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
-            <!--<Border Background="White" HorizontalAlignment="Left" Height="40" Margin="0,70,0,0" VerticalAlignment="Top" Width="140" CornerRadius="0,10,10,0">
-                <StackPanel HorizontalAlignment="Left" Margin="0,0,0,0">
-                    <Label x:Name="step1" Content="STEP 1/4" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF2F2933"/>
-                </StackPanel>
-            </Border>-->
-
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,40" FontSize="16"><Run Text="จะแสดงหน้าจอที่มีข้อมูลไฟล์ Project"/></TextBlock>
             <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,-20,0,0" FontSize="16" LineHeight="30">
-                        <Run Text="คลิก "/>
-                        <InlineUIContainer>
-            		        <Image Source="/EPUBGenerator;component/Resources/exportAsEPUB.png" Height="20" Margin="0,0,0,-5" />
-            	        </InlineUIContainer><Run Text=" เพื่อทำการ Export Project เป็น EPUB 3 AUDIO BOOK "/>
+                <Run Text="คลิก "/>
+                    <InlineUIContainer>
+            		    <Image Source="/EPUBGenerator;component/Resources/exportAsEPUB.png" Height="20" Margin="0,0,0,-5" />
+            	    </InlineUIContainer>
+                <Run Text=" เพื่อทำการ Export Project เป็น EPUB 3 AUDIO BOOK "/>
             </TextBlock>
         </Grid>
 
-
         <Grid Grid.Row="2">
-            <!--<Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Click="NextPage_Click" />-->
             <Button Name="PreviousPage" Style="{StaticResource NextPageTrans}" VerticalAlignment="Bottom" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5" Margin="20,0,0,20" Click="PrevPage_click" />
             <WrapPanel Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Button x:Name="homebutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="homebutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource HomeButT}" Style="{StaticResource HomeBut}" Margin="0,0,30,0" />
                 <Button x:Name="exitbutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="exitbutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource CloseButT}" Style="{StaticResource CloseBut}" />
             </WrapPanel>
-
         </Grid>
     </Grid>
-
 
 </Page>

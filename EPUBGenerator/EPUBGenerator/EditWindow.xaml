@@ -10,232 +10,11 @@
         Icon="Resources/logoMiniR.png">
 
     <Window.Resources>
-        <Image x:Key="Play" Source="Resources/nextPlay.png" Height="25" Width="25" />
-        <Image x:Key="Pause" Source="Resources/pause.png" Height="25" Width="25"/>
-        <Style TargetType="{x:Type Label}" x:Key="HeadLabelStyle" >
-            <Setter Property="FontSize" Value="30" />
-            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-            <Setter Property="Foreground" Value="#F7F7FF" />
-        </Style>
-        <Style TargetType="{x:Type Label}" x:Key="LabelStyle" >
-            <Setter Property="FontSize" Value="20" />
-            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-        </Style>
-        <Style TargetType="{x:Type Label}" x:Key="LabelStyleInGrid" >
-            <Setter Property="FontSize" Value="18" />
-            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-            <Setter Property="Foreground" Value="#F7F7FF" />
-        </Style>
-        <Style TargetType="{x:Type Label}" x:Key="Status" >
-            <Setter Property="FontSize" Value="14" />
-            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-            <Setter Property="Foreground" Value="#F7F7FF" />
-            <Setter Property="Margin" Value="-5" />
-        </Style>
-        <Style TargetType="{x:Type TextBlock}" x:Key="progName" >
-            <Setter Property="FontSize" Value="14" />
-            <Setter Property="FontFamily" Value="Segoe UI Symbol" />
-            <Setter Property="FontWeight" Value="SemiBold" />
-            <Setter Property="Foreground" Value="#2F2933" />
-        </Style>
-        <Style TargetType="{x:Type TextBox}" x:Key="TextboxStyle" >
-            <Setter Property="FontSize" Value="16" />
-            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-            <Setter Property="Foreground" Value="#555555" />
-            <Setter Property="Padding" Value="2" />
-        </Style>
-        <Style TargetType="{x:Type Button}" x:Key="ApplyBStyle">
-            <Setter Property="Background" Value="#f1fcfb" />
-            <Setter Property="Foreground" Value="#415572" />
-            <Setter Property="FontSize" Value="14" />
-            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border Background="{TemplateBinding Background}">
-                            <Grid>
-                                <ContentPresenter x:Name="Create" Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                            </Grid>
-                        </Border>
-
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#A4B8C9" />
-                            </Trigger>
-                            <!-- Trigger Property="IsPressed" Value="True">
-                                        <Setter Property="Background" Value="OrangeRed" />
-                                        <Setter Property="Foreground" Value="White" />
-                                    </Trigger-->
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style TargetType="{x:Type Button}" x:Key="ImgButStyle">
-            <Setter Property="Background" Value="#f1fcfb" />
-            <Setter Property="Foreground" Value="#415572" />
-            <Setter Property="FontSize" Value="14" />
-            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border Background="{TemplateBinding Background}">
-                            <Grid>
-                                <ContentPresenter x:Name="Create" Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                            </Grid>
-                        </Border>
-
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#01A2A6" />
-                            </Trigger>
-                            <Trigger Property="IsEnabled" Value="false">
-                                <Setter Property="Background" Value="#FFAAAAAA"/>
-                            </Trigger>
-                            <!-- Trigger Property="IsPressed" Value="True">
-                                        <Setter Property="Background" Value="OrangeRed" />
-                                        <Setter Property="Foreground" Value="White" />
-                                    </Trigger-->
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style TargetType="{x:Type Button}" x:Key="SaveStyle">
-            <Setter Property="Background" Value="#29D9C2" />
-            <Setter Property="Foreground" Value="#FCFFFD" />
-            <Setter Property="FontSize" Value="18" />
-            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border Background="{TemplateBinding Background}">
-                            <Grid>
-                                <ContentPresenter x:Name="Create" Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" />
-                            </Grid>
-                        </Border>
-
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#01A2A6" />
-                            </Trigger>
-                            <Trigger Property="IsEnabled" Value="false">
-                                <Setter Property="Background" Value="#FFAAAAAA"/>
-                            </Trigger>
-                            <!-- Trigger Property="IsPressed" Value="True">
-                                        <Setter Property="Background" Value="OrangeRed" />
-                                        <Setter Property="Foreground" Value="White" />
-                                    </Trigger-->
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style TargetType="{x:Type ToggleButton}" x:Key="PlayConsoleStyle">
-            <Setter Property="Background" Value="#29D9C2" />
-            <Setter Property="Foreground" Value="White" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type ToggleButton }">
-                        <Border Background="{TemplateBinding Background}">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#01A2A6" />
-                </Trigger>
-                <Trigger Property="IsChecked" Value="true">
-                    <Setter Property="Background" Value="#01A2A6"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-        <Style TargetType="{x:Type Button}" x:Key="BackConsoleStyle">
-            <Setter Property="Background" Value="#29D9C2" />
-            <Setter Property="Foreground" Value="White" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border Background="{TemplateBinding Background}">
-                            <Image Source="Resources/backward.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#01A2A6" />
-                            </Trigger>
-                            <!-- Trigger Property="IsPressed" Value="True">
-                                        <Setter Property="Background" Value="OrangeRed" />
-                                        <Setter Property="Foreground" Value="White" />
-                                    </Trigger-->
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style TargetType="{x:Type Button}" x:Key="ForwConsoleStyle">
-            <Setter Property="Background" Value="#29D9C2" />
-            <Setter Property="Foreground" Value="White" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border Background="{TemplateBinding Background}">
-                            <Image Source="Resources/forward.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#01A2A6" />
-                            </Trigger>
-                            <!-- Trigger Property="IsPressed" Value="True">
-                                        <Setter Property="Background" Value="OrangeRed" />
-                                        <Setter Property="Foreground" Value="White" />
-                                    </Trigger-->
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style TargetType="{x:Type Button}" x:Key="StopConsoleStyle">
-            <Setter Property="Background" Value="#29D9C2" />
-            <Setter Property="Foreground" Value="White" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border Background="{TemplateBinding Background}">
-                            <Image Source="Resources/stop.png" Width="24" Height="24" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#01A2A6" />
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style TargetType="{x:Type Button}" x:Key="NextPage">
-            <Setter Property="Width" Value="50" />
-            <Setter Property="Height" Value="50" />
-            <Setter Property="Cursor" Value="Hand" />
-            <Setter Property="Background" Value="Transparent" />
-            <Setter Property="FontSize" Value="30" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate>
-                        <Border Name="BorderNextPage" CornerRadius="25" Background="White" BorderBrush="#415572" BorderThickness="2" >
-                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="4,-11,0,0" Foreground="#415572" FontFamily="Candara" FontSize="60" FontWeight="Bold" >></TextBlock>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="BorderNextPage" Property="Background" Value="#f1f1ff" />
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-
-        </Style>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="EditWindowDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Window.Resources>
 
     <Grid>
@@ -295,23 +74,13 @@
                             <FlowDocument>
                             </FlowDocument>
                         </RichTextBox>
-
                     </Grid>
 
                     <Grid Grid.Row="1" Background="Snow" >
                         <Border BorderThickness="0" />
                         <Button Name="NextPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="150,0,0,15" Click="NextPage_Click" Cursor="Hand"/>
                         <TextBlock Name="PageTeller" Text="page / page" Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30" FontSize="14" Background="Snow"></TextBlock>
-                        <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,15"  Click="PreviousPage_Click" Cursor="Hand">
-                            <Button.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
-                                    <SkewTransform AngleY="0" AngleX="0"/>
-                                    <RotateTransform Angle="0"/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </Button.RenderTransform>
-                        </Button>
+                        <Button Name="PreviousPage" Style="{StaticResource NextPage}" VerticalAlignment="Bottom" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0,0,150,15"  Click="PreviousPage_Click" Cursor="Hand" RenderTransform="{StaticResource BackPageTransform}" />
                     </Grid>
 
                     <Grid Grid.Row="2" Background="#415572" >
@@ -323,25 +92,17 @@
                             </ToggleButton>
                             <Button x:Name="forwardB" Content="FORWARD" Width="50" Height="40" Margin="30,0,0,0" Style="{StaticResource ForwConsoleStyle}" Click="ForwardB_Click" Cursor="Hand" />
                         </WrapPanel>
-                        
-                        <!--StackPanel Margin="0,10,30,0" HorizontalAlignment="Right">
-                            <RadioButton x:Name="pa" Content="Play All" Foreground="White" IsChecked="True" HorizontalAlignment="Left" />
-                            <RadioButton x:Name="pText" Content="Play Only Text" Foreground="White" HorizontalAlignment="Left" />
-                        </-->
                     </Grid>
                     <Grid Grid.Row="3" Background="#415572">
                         <Slider x:Name="SpeedSlider" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Maximum="3" SmallChange="0.25" TickFrequency="0.25" TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="181,16,231,16" Grid.ColumnSpan="2" Background="{x:Null}" BorderBrush="{x:Null}" Value="1" Minimum="0.25" Cursor="Hand" LargeChange="0.25" ValueChanged="SpeedSlider_ValueChanged"/>
                         <TextBox x:Name="SpeedTB" Text="{Binding ElementName=SpeedSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" TextAlignment="Center" Width="50" Height="30" Margin="300,10,0,10" Style="{StaticResource TextboxStyle}" Grid.Column="1" VerticalAlignment="Center" />
                     </Grid>
                 </Grid>
-
-
                 <GridSplitter HorizontalAlignment="Right" VerticalAlignment="Stretch" Grid.Column="0" Width="3" Background="#415572"/>
             </Grid>
             <GridSplitter ResizeDirection="Rows" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="3" Background="#415572" />
         </Grid>
         <Grid Grid.Column="1" Background="#415572">
-            <!--<Border borderbrush="#2f2933" borderthickness="1 0 0 0" />-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -438,58 +199,8 @@
             <Grid x:Name="ExportPopupGrid" Background="#bff4ed">
                 <Label x:Name="ExportWait" Content="Please wait while exporting ..." HorizontalAlignment="Left" Margin="50,0,0,115" VerticalAlignment="Bottom" Style="{StaticResource LabelStyle}"/>
                 <ProgressBar x:Name="ExportProgress" HorizontalAlignment="Center" Height="30" Margin="0" VerticalAlignment="Center" Width="400" />
-                <Button x:Name="ExportCancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="350,134,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
-                    <Button.Style>
-                        <Style TargetType="{x:Type Button}">
-                            <Setter Property="Background" Value="#ff7f66" />
-                            <Setter Property="Foreground" Value="White" />
-                            <Setter Property="FontSize" Value="20" />
-                            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                            <Setter Property="Template">
-                                <Setter.Value>
-                                    <ControlTemplate TargetType="{x:Type Button}">
-                                        <Border Background="{TemplateBinding Background}">
-                                            <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-                                        </Border>
-
-                                        <ControlTemplate.Triggers>
-                                            <Trigger Property="IsMouseOver" Value="True">
-                                                <Setter Property="Background" Value="#FFE67059" />
-                                            </Trigger>
-                                        </ControlTemplate.Triggers>
-                                    </ControlTemplate>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Button.Style>
-                </Button>
-
-                <Button x:Name="ExportOkButton" Visibility="Hidden" Content="OK" HorizontalAlignment="Left" Margin="350,134,0,0"  VerticalAlignment="Top" Width="100" Click="okButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
-                    <Button.Style>
-                        <Style TargetType="{x:Type Button}">
-                            <Setter Property="Background" Value="#ff7f66" />
-                            <Setter Property="Foreground" Value="White" />
-                            <Setter Property="FontSize" Value="20" />
-                            <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                            <Setter Property="Template">
-                                <Setter.Value>
-                                    <ControlTemplate TargetType="{x:Type Button}">
-                                        <Border Background="{TemplateBinding Background}">
-                                            <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-                                        </Border>
-
-                                        <ControlTemplate.Triggers>
-                                            <Trigger Property="IsMouseOver" Value="True">
-                                                <Setter Property="Background" Value="#FFE67059" />
-                                            </Trigger>
-                                        </ControlTemplate.Triggers>
-                                    </ControlTemplate>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Button.Style>
-                </Button>
-
+                <Button x:Name="ExportCancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="350,134,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand" Style="{StaticResource ExportCancelButStyle}" />
+                <Button x:Name="ExportOkButton" Visibility="Hidden" Content="OK" HorizontalAlignment="Left" Margin="350,134,0,0"  VerticalAlignment="Top" Width="100" Click="okButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand" Style="{StaticResource ExportCancelButStyle}" />
             </Grid>
         </Popup>
 
@@ -499,96 +210,19 @@
                     <RowDefinition Height="*" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                
+
                 <Grid Grid.Row="0">
                     <Label x:Name="Exit" Content="Want to save your changes to project?" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource LabelStyle}" Margin="50,50,0,0"/>
                 </Grid>
-                
+
                 <Grid Grid.Row="1">
                     <WrapPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,20">
-                        <Button x:Name="ExitSaveButton" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Click="saveExitPopupButton_Click" Height="40" Cursor="Hand">
-                            <Button.Style>
-                                <Style TargetType="{x:Type Button}">
-                                    <Setter Property="Background" Value="#415572" />
-                                    <Setter Property="Foreground" Value="White" />
-                                    <Setter Property="FontSize" Value="20" />
-                                    <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                                    <Setter Property="Template">
-                                        <Setter.Value>
-                                            <ControlTemplate TargetType="{x:Type Button}">
-                                                <Border Background="{TemplateBinding Background}">
-                                                    <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-                                                </Border>
-
-                                                <ControlTemplate.Triggers>
-                                                    <Trigger Property="IsMouseOver" Value="True">
-                                                        <Setter Property="Background" Value="#FF6A87B0" />
-                                                    </Trigger>
-                                                </ControlTemplate.Triggers>
-                                            </ControlTemplate>
-                                        </Setter.Value>
-                                    </Setter>
-                                </Style>
-                            </Button.Style>
-                        </Button>
-
-                        <Button x:Name="ExitDontButton" Content="Don't Save" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="120" Click="dontSaveExitButton_Click" Height="40" Cursor="Hand" Margin="20,0,0,0">
-                            <Button.Style>
-                                <Style TargetType="{x:Type Button}">
-                                    <Setter Property="Background" Value="#415572" />
-                                    <Setter Property="Foreground" Value="White" />
-                                    <Setter Property="FontSize" Value="20" />
-                                    <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                                    <Setter Property="Template">
-                                        <Setter.Value>
-                                            <ControlTemplate TargetType="{x:Type Button}">
-                                                <Border Background="{TemplateBinding Background}">
-                                                    <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-                                                </Border>
-
-                                                <ControlTemplate.Triggers>
-                                                    <Trigger Property="IsMouseOver" Value="True">
-                                                        <Setter Property="Background" Value="#FF6A87B0" />
-                                                    </Trigger>
-                                                </ControlTemplate.Triggers>
-                                            </ControlTemplate>
-                                        </Setter.Value>
-                                    </Setter>
-                                </Style>
-                            </Button.Style>
-                        </Button>
-                        <Button x:Name="ExitCancelButton" Content="Cancel" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="100" Click="cancelExitPopupButton_Click" Height="40" Cursor="Hand" Margin="20,0,0,0">
-                            <Button.Style>
-                                <Style TargetType="{x:Type Button}">
-                                    <Setter Property="Background" Value="#415572" />
-                                    <Setter Property="Foreground" Value="White" />
-                                    <Setter Property="FontSize" Value="20" />
-                                    <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                                    <Setter Property="Template">
-                                        <Setter.Value>
-                                            <ControlTemplate TargetType="{x:Type Button}">
-                                                <Border Background="{TemplateBinding Background}">
-                                                    <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-                                                </Border>
-
-                                                <ControlTemplate.Triggers>
-                                                    <Trigger Property="IsMouseOver" Value="True">
-                                                        <Setter Property="Background" Value="#FF6A87B0" />
-                                                    </Trigger>
-                                                </ControlTemplate.Triggers>
-                                            </ControlTemplate>
-                                        </Setter.Value>
-                                    </Setter>
-                                </Style>
-                            </Button.Style>
-                        </Button>
-
+                        <Button x:Name="ExitSaveButton" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Click="saveExitPopupButton_Click" Height="40" Cursor="Hand" Style="{StaticResource ExitPopupButStyle}" />
+                        <Button x:Name="ExitDontButton" Content="Don't Save" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="120" Click="dontSaveExitButton_Click" Height="40" Cursor="Hand" Margin="20,0,0,0" Style="{StaticResource ExitPopupButStyle}" />
+                        <Button x:Name="ExitCancelButton" Content="Cancel" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="100" Click="cancelExitPopupButton_Click" Height="40" Cursor="Hand" Margin="20,0,0,0" Style="{StaticResource ExitPopupButStyle}" />
                     </WrapPanel>
-                    
                 </Grid>
-                
             </Grid>
         </Popup>
-
     </Grid>
 </Window>

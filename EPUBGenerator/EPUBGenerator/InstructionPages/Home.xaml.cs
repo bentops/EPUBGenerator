@@ -32,7 +32,7 @@ namespace EPUBGenerator.InstructionPages
         private void instructionMenuMouseOver(object sender, RoutedEventArgs e)
         {
             string senderName = ((Border)sender).Name;
-            Brush bg = (SolidColorBrush)(new BrushConverter().ConvertFrom("#29d9c2"));
+            Brush bg = Brushes.PowderBlue;
             Brush fore = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FF2F2933"));
             if (senderName == "menu1" && state == 1)
             {

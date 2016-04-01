@@ -31,16 +31,8 @@
                 </StackPanel>
             </Border>
             <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
-            <!--<Border Background="White" HorizontalAlignment="Left" Height="40" Margin="0,70,0,0" VerticalAlignment="Top" Width="140" CornerRadius="0,10,10,0">
-                <StackPanel HorizontalAlignment="Left" Margin="0,0,0,0">
-                    <Label x:Name="step1" Content="STEP 1/4" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF2F2933"/>
-                </StackPanel>
-            </Border>-->
-
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,10" FontSize="16"><Run Text="จะปรากฏหน้าต่างสำหรับแก้ไขหนังสือเสียง ซึ่งประกอบด้วยส่วนต่าง ๆ "/></TextBlock>
-
         </Grid>
-
 
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -50,7 +42,6 @@
 
             <Grid Grid.Column="0">
                 <Image x:Name="image" HorizontalAlignment="Left" Margin="10" VerticalAlignment="Center" Width="Auto" Source="/EPUBGenerator;component/Resources/testEditScreen.png"/>
-
             </Grid>
 
             <Grid Grid.Column="1">
@@ -85,13 +76,6 @@
                         <Run FontWeight="Bold" Text="ส่วนที่ 12 " />
                         <Run Text="ส่งออกหนังสือไฟล์สกุล .epub" />
                     </TextBlock>
-                    <!--<TextBlock x:Name="textBlock3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="14" LineHeight="30">
-                        <Run Text="๐ คลิก "/>
-                        <InlineUIContainer>
-            		        <Image Source="/EPUBGenerator;component/Resources/home.png" Height="30" Margin="0,0,0,-5" />
-            	        </InlineUIContainer><Run Text=" เพื่อกลับไปยังหน้าแรกของ"/><LineBreak /><Run Text="โปรแกรม"/>
-                    </TextBlock>-->
-
                 </StackPanel>
             </Grid>
         </Grid>
@@ -103,7 +87,6 @@
                 <Button x:Name="homebutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="homebutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource HomeButT}" Style="{StaticResource HomeBut}" Margin="0,0,30,0" />
                 <Button x:Name="exitbutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="exitbutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource CloseButT}" Style="{StaticResource CloseBut}" />
             </WrapPanel>
-
         </Grid>
     </Grid>
 
