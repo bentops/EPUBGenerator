@@ -31,14 +31,6 @@
                 </StackPanel>
             </Border>
             <Image x:Name="image2" HorizontalAlignment="Right" Height="100" Margin="0,16,10,0" VerticalAlignment="Top" Width="100" Source="/EPUBGenerator;component/Resources/logoInstruction.png"/>
-            <!--<Border Background="White" HorizontalAlignment="Left" Height="40" Margin="0,70,0,0" VerticalAlignment="Top" Width="140" CornerRadius="0,10,10,0">
-                <StackPanel HorizontalAlignment="Left" Margin="0,0,0,0">
-                    <Label x:Name="step1" Content="STEP 1/4" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF2F2933"/>
-                </StackPanel>
-            </Border>-->
-
-            <!--<TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="60,0,0,10" FontSize="16"><Run Text="จะปรากฏหน้าต่างสำหรับแก้ไขหนังสือเสียง ซึ่งประกอบด้วยส่วนต่าง ๆ "/></TextBlock>-->
-
         </Grid>
 
 
@@ -86,7 +78,6 @@
                         <LineBreak />
                         <Run Text="   หน้าถัดไป"/>
                     </TextBlock>
-
                 </StackPanel>
             </Grid>
         </Grid>
@@ -98,7 +89,6 @@
                 <Button x:Name="homebutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="homebutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource HomeButT}" Style="{StaticResource HomeBut}" Margin="0,0,30,0" />
                 <Button x:Name="exitbutton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="exitbutton_Click" BorderThickness="0" BorderBrush="{x:Null}" Template="{StaticResource CloseButT}" Style="{StaticResource CloseBut}" />
             </WrapPanel>
-
         </Grid>
     </Grid>
 

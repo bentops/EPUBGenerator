@@ -9,35 +9,11 @@
              Background="#6ce5d5">
 
     <UserControl.Resources>
-        <Style TargetType="{x:Type Label}" x:Key="HeadLabelStyle" >
-            <Setter Property="FontSize" Value="30" />
-            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-            <Setter Property="Foreground" Value="#2f2933" />
-        </Style>
-        <Style TargetType="{x:Type Label}" x:Key="StepStyle" >
-            <Setter Property="FontSize" Value="20" />
-            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-            <Setter Property="Foreground" Value="#2f2933" />
-        </Style>
-        <Style TargetType="{x:Type Label}" x:Key="LabelStyle" >
-            <Setter Property="FontSize" Value="18" />
-            <Setter Property="FontFamily" Value="Segoe UI Semilight" />
-        </Style>
-        <Style TargetType="{x:Type Label}" x:Key="LabelLocationStyle" >
-            <Setter Property="FontSize" Value="16" />
-            <Setter Property="FontFamily" Value="Segoe UI Symbol" />
-            <Setter Property="Foreground" Value="Black" />
-        </Style>
-        <Style TargetType="{x:Type TextBox}" x:Key="TextboxStyle" >
-            <Setter Property="FontSize" Value="16" />
-            <Setter Property="FontFamily" Value="Segoe UI Symbol" />
-            <Setter Property="Foreground" Value="#555555" />
-        </Style>
-        <Style TargetType="{x:Type TextBlock}" x:Key="TextBlockStyle" >
-            <Setter Property="FontSize" Value="14" />
-            <Setter Property="FontFamily" Value="Segoe UI Symbol" />
-            <Setter Property="Foreground" Value="Black" />
-        </Style>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </UserControl.Resources>
 
     <Grid>
@@ -59,50 +35,25 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <Label x:Name="wait" Content="Please wait while generating a project." HorizontalAlignment="Left" Margin="145,0,0,50" VerticalAlignment="Bottom" Style="{StaticResource LabelStyle}"/>
+            <Label x:Name="wait" Content="Please wait while generating a project." HorizontalAlignment="Left" Margin="145,0,0,50" VerticalAlignment="Bottom" Style="{StaticResource WaitLabelStyle}"/>
             <ProgressBar Name="GeneratorProgress" HorizontalAlignment="Center" Height="50" Margin="0" VerticalAlignment="Bottom" Width="500" />
         </Grid>
 
         <Grid Grid.Row="2">
-            <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="70,30,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelLocationStyle}" />
+            <Label x:Name="projNameLabel" Content="Project Name :" HorizontalAlignment="Left" Margin="70,30,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
             <TextBlock x:Name="infoprojName" HorizontalAlignment="Left" Margin="220,36,0,0" TextWrapping="Wrap" Text="Project Name" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
-            <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="70,60,0,0" VerticalAlignment="Top" Height="30" Width="138" Style="{StaticResource LabelLocationStyle}"/>
+            <Label x:Name="projLocationLabel" Content="Project Location :" HorizontalAlignment="Left" Margin="70,60,0,0" VerticalAlignment="Top" Height="30" Width="138" Style="{StaticResource LabelStyle}"/>
             <TextBlock x:Name="infoprojLocation" TextWrapping="WrapWithOverflow" Margin="220,67,0,0" Width="510" Text="Project Location" Style="{StaticResource TextBlockStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" />
         </Grid>
 
         <Grid Grid.Row="3">
-            <Label x:Name="inputEPUBlabel" Content="Input EPUB :" HorizontalAlignment="Left" Margin="70,0,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelLocationStyle}" />
-            <TextBlock x:Name="infoinputEPUB" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="220,6,0,0" Width="510" Text="Input EPUB" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
+            <Label x:Name="inputEPUBlabel" Content="Input EPUB :" HorizontalAlignment="Left" Margin="70,0,0,0" VerticalAlignment="Top" Height="30" Width="120" Style="{StaticResource LabelStyle}" />
+            <TextBlock x:Name="infoinputEPUB" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="220,7,0,0" Width="510" Text="Input EPUB" VerticalAlignment="Top" Style="{StaticResource TextBlockStyle}" />
         </Grid>
 
         <Grid Grid.Row="4">
-            <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand">
-                <Button.Style>
-                    <Style TargetType="{x:Type Button}">
-                        <Setter Property="Background" Value="#bdf271" />
-                        <Setter Property="Foreground" Value="White" />
-                        <Setter Property="FontSize" Value="20" />
-                        <Setter Property="FontFamily" Value="Segoe UI Semibold" />
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="{x:Type Button}">
-                                    <Border Background="{TemplateBinding Background}">
-                                        <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-                                    </Border>
-
-                                    <ControlTemplate.Triggers>
-                                        <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter Property="Background" Value="#FFB1E26C" />
-                                        </Trigger>
-                                    </ControlTemplate.Triggers>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                    </Style>
-                </Button.Style>
-            </Button>
-        </Grid>
-       
+            <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Top" Width="100" Click="cancelButton_Click" Height="40" RenderTransformOrigin="0.24,-0.435" Cursor="Hand" Style="{StaticResource CancelButtonStyle}" />
+        </Grid>       
     </Grid>
 
 </UserControl>
