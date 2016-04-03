@@ -54,7 +54,8 @@ namespace EPUBGenerator.MainLogic
             // Save Content Structure in @"ProjDir\Resources\Package"
             using (StreamWriter streamWriter = new StreamWriter(ContentResource))
             {
-                streamWriter.Write(Root);
+                XDocument XDoc = new XDocument(new XDeclaration("1.0", "utf-8", "yes"), Root);
+                streamWriter.Write(XDoc);
                 streamWriter.Close();
             }
         }

@@ -26,8 +26,6 @@ namespace EPUBGenerator
         public MainWindow()
         {
             InitializeComponent();
-            Console.WriteLine("MainWindow, Current Thread: " + Thread.CurrentThread.ManagedThreadId);
-            Console.WriteLine(Application.Current.StartupUri);
             Switcher.pageSwitcher = this;
             Switcher.home = new Home();
             Switcher.createBook1 = new CreateBook1();

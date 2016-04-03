@@ -99,10 +99,7 @@ namespace TTS.G2Ps
                     pronunciations.Add(pronun);
                     transcripts.Add(_twordsegment.ConvertPhoneme(kv.Value).Replace('|', ' '));
                 }
-                Console.WriteLine("RULESCUT");
             }
-            foreach (string tr in transcripts)
-                Console.WriteLine(tr);
         }
 
         // NEW Return transcript

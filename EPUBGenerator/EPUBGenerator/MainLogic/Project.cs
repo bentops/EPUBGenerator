@@ -116,7 +116,7 @@ namespace EPUBGenerator.MainLogic
                                 String end = GetClockValue(contentBytes);
 
                                 XElement xText = new XElement(smilXns + "text");
-                                xText.Add(new XAttribute("src", fileName + "#" + GetXhtmlID(block as ImageBlock)));
+                                xText.Add(new XAttribute("src", fileName + "#" + block.B_ID));
                                 XElement xAudio = new XElement(smilXns + "audio");
                                 xAudio.Add(new XAttribute("clipBegin", begin));
                                 xAudio.Add(new XAttribute("clipEnd", end));

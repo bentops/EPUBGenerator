@@ -57,13 +57,13 @@ namespace EPUBGenerator.MainLogic
                 eMatch = eMatch.NextMatch();
             }
             SplitThaiWord(indexList, text.Substring(sIndex), sIndex);
-
+            /*
             for (int i = 0; i < indexList.Count - 1; i++)
             {
                 int start = indexList[i];
                 int len = indexList[i + 1] - start;
                 Console.WriteLine("/" + text.Substring(start, len) + "/");
-            }
+            }*/
             return indexList;
         }
 

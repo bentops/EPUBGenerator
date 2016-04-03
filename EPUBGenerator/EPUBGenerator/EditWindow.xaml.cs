@@ -119,7 +119,6 @@ namespace EPUBGenerator
             get { return ProjectInfo.Speed; }
             set { if (ProjectInfo != null) ProjectInfo.Speed = value; }
         }
-
         
         public EditWindow(String epubProjPath)
         {
@@ -412,8 +411,7 @@ namespace EPUBGenerator
             }
             else if (ProjectInfo.Contents.Count > 0)
                 (_AllContentsTVI.Items.GetItemAt(0) as TreeViewItem).IsSelected = true;
-
-
+            
             Show();
         }
 
@@ -445,7 +443,7 @@ namespace EPUBGenerator
         {
             TreeViewItem oldTVI = e.OldValue as TreeViewItem;
             TreeViewItem newTVI = e.NewValue as TreeViewItem;
-            Console.WriteLine("OLD: " + oldTVI + ", NEW: " + newTVI);
+            //Console.WriteLine("OLD: " + oldTVI + ", NEW: " + newTVI);
             if (newTVI == null || newTVI.Tag == null)
                 return;
             
@@ -469,7 +467,7 @@ namespace EPUBGenerator
                 CurrentState = State.Stop;
                 SelectedTVI = newTVI;
                 ProjectInfo.SelectContent(newContent);
-                Console.WriteLine("Sentences Count = " + CurrentContent.TotalSentences);
+                //Console.WriteLine("Sentences Count = " + CurrentContent.TotalSentences);
 
                 foreach (Block block in CurrentContent.Blocks)
                 {
@@ -486,7 +484,7 @@ namespace EPUBGenerator
 
                     foreach (Sentence sentence in block.Sentences)
                     {
-                        Console.WriteLine("S: " + sentence.ID);
+                        //Console.WriteLine("S: " + sentence.ID);
                         sentence.GetCachedSound();
                         foreach (Word word in sentence.Words)
                         {
@@ -501,6 +499,7 @@ namespace EPUBGenerator
                     if (tvi.Tag == newContent)
                         tvi.Background = ProjectProperties.SelectedContent;
 
+                PageTeller.Text = (1 + ProjectInfo.Contents.IndexOf(CurrentContent)) + " / " + ProjectInfo.Contents.Count;
             }
             
             if (newTVI.Tag is ImageBlock)
@@ -859,38 +858,18 @@ namespace EPUBGenerator
         private void NextPage_Click(object sender, RoutedEventArgs e)
         {
             (sender as FrameworkElement).Cursor = Cursors.Wait;
-            switch (CurrentState)
-            {
-                case State.Stop:
-                    break;
-                case State.Play:
-                    break;
-                case State.Segment:
-                    break;
-                case State.Edit:
-                    break;
-                case State.Caption:
-                    break;
-            }
+            int idx = ProjectInfo.Contents.IndexOf(CurrentContent);
+            if (idx + 1 < ProjectInfo.Contents.Count)
+                (_AllContentsTVI.Items.GetItemAt(idx + 1) as TreeViewItem).IsSelected = true;
             (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
 
         private void PreviousPage_Click(object sender, RoutedEventArgs e)
         {
             (sender as FrameworkElement).Cursor = Cursors.Wait;
-            switch (CurrentState)
-            {
-                case State.Stop:
-                    break;
-                case State.Play:
-                    break;
-                case State.Segment:
-                    break;
-                case State.Edit:
-                    break;
-                case State.Caption:
-                    break;
-            }
+            int idx = ProjectInfo.Contents.IndexOf(CurrentContent);
+            if (idx - 1 >= 0)
+                (_AllContentsTVI.Items.GetItemAt(idx - 1) as TreeViewItem).IsSelected = true;
             (sender as FrameworkElement).Cursor = Cursors.Hand;
         }
         

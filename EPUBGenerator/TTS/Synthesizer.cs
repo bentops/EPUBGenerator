@@ -83,7 +83,7 @@ namespace TTS
             {
                 string text = sPair.Key;
                 int type = sPair.Value;
-                Console.WriteLine(text + "/" + type);
+                //Console.WriteLine(text + "/" + type);
 
                 List<string> phonemeList = new List<string>();
                 string longPhoneme = "";
@@ -95,7 +95,7 @@ namespace TTS
                     string cutWord = tPair.Key;
                     string transcript = tPair.Value;
                     string phoneme = phonemeConverter.Convert(transcript, type);
-                    Console.WriteLine("Phon: " + phoneme + " Trans: " + transcript + " Word: " + cutWord);
+                    //Console.WriteLine("Phon: " + phoneme + " Trans: " + transcript + " Word: " + cutWord);
                     if (type != 2 && type != 6)
                         phoneme = TrimPhoneme(phoneme);
                     phonemeList.Add(phoneme);
@@ -241,7 +241,7 @@ namespace TTS
             } while (File.Exists(wavPath) || File.Exists(durPath));
 
             synthesizer.Synthesize(phoneme, type, randID, TempPath);
-            Console.WriteLine("Synthesizing: " + phoneme + ": " + randID);
+            //Console.WriteLine("Synthesizing: " + phoneme + ": " + randID);
             return wavPath;
         }
         private int ConcatWavFiles(List<string> waveList, WaveFormat waveFormat, string outputPath)
@@ -272,7 +272,7 @@ namespace TTS
 
         public long Synthesize(List<List<string>> sentence, string outputPath)
         {
-            Console.WriteLine("-----------------------------------------");
+            //Console.WriteLine("-----------------------------------------");
             ByteIndexList = new List<long>() { 0 };
             List<List<PairSI>> wordPhonemes = new List<List<PairSI>>();
             foreach (List<string> word in sentence)
@@ -459,7 +459,7 @@ namespace TTS
         private string ConvertToPhoneme(string text, int type)
         {
             string tmp = g2p.GenTranscript(text, type);
-            Console.WriteLine(">>>" + tmp);
+            //Console.WriteLine(">>>" + tmp);
             return phonemeConverter.Convert(tmp, type);
         }
 
