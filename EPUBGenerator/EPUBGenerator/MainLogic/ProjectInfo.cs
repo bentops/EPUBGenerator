@@ -83,7 +83,7 @@ namespace EPUBGenerator.MainLogic
                 return CurrentRunWord;
             }
         }
-        public Content CurrentContent { get; private set; }
+        public Content CurrentContent { get; set; }
         public bool Changed { get; private set; }
         public bool IsSaved
         {
@@ -260,10 +260,6 @@ namespace EPUBGenerator.MainLogic
         #endregion
 
         #region ----------- EDIT PROJECT ------------
-        public void SelectContent(Content content)
-        {
-            CurrentContent = content;
-        }
         #endregion
     }
 }

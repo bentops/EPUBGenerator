@@ -110,7 +110,11 @@ namespace EPUBGenerator
         }
         private ARun CurrentARun { get { return ProjectInfo.CurrentARun; } }
         private RunWord CurrentRunWord { get { return ProjectInfo.CurrentRunWord; } }
-        private Content CurrentContent { get { return ProjectInfo.CurrentContent; } }
+        private Content CurrentContent
+        {
+            get { return ProjectInfo.CurrentContent; }
+            set { ProjectInfo.CurrentContent = value; }
+        }
         private TreeViewItem SelectedTVI { get; set; }
 
         private CachedSoundSampleProvider PlayingSound;
@@ -124,7 +128,7 @@ namespace EPUBGenerator
         {
             InitializeComponent();
             Timer timer = new Timer();
-            timer.Interval = 200;
+            timer.Interval = 1000;
             timer.Elapsed += Timer_Elapsed;
             timer.Enabled = true;
             Initiate(epubProjPath);
@@ -133,6 +137,8 @@ namespace EPUBGenerator
 
         private void OnClosing(object sender, CancelEventArgs cancelEventArgs)
         {
+            if (IsSaved)
+                return;
             cancelEventArgs.Cancel = true;
             this.IsEnabled = false;
             System.Windows.Media.Effects.BlurEffect objBlur = new System.Windows.Media.Effects.BlurEffect();
@@ -406,8 +412,11 @@ namespace EPUBGenerator
             if (CurrentContent != null)
             {
                 foreach (TreeViewItem tvi in _AllContentsTVI.Items)
-                    if (CurrentContent.Source.Equals(tvi.Tag as String))
+                    if (CurrentContent == tvi.Tag)
+                    {
+                        CurrentContent = null;
                         tvi.IsSelected = true;
+                    }
             }
             else if (ProjectInfo.Contents.Count > 0)
                 (_AllContentsTVI.Items.GetItemAt(0) as TreeViewItem).IsSelected = true;
@@ -431,6 +440,7 @@ namespace EPUBGenerator
                     String imgName = Path.GetFileNameWithoutExtension(imageBlock.Source);
                     contentTVI.Items.Add(new TreeViewItem() { Header = imgName, Tag = imageBlock});
                 }
+                Console.WriteLine("Images: " + content.ImageBlocks.Count);
 
             }
 
@@ -466,7 +476,7 @@ namespace EPUBGenerator
 
                 CurrentState = State.Stop;
                 SelectedTVI = newTVI;
-                ProjectInfo.SelectContent(newContent);
+                CurrentContent = newContent;
                 //Console.WriteLine("Sentences Count = " + CurrentContent.TotalSentences);
 
                 foreach (Block block in CurrentContent.Blocks)
