@@ -441,7 +441,6 @@ namespace EPUBGenerator
                     contentTVI.Items.Add(new TreeViewItem() { Header = imgName, Tag = imageBlock});
                 }
                 Console.WriteLine("Images: " + content.ImageBlocks.Count);
-
             }
 
             treeView.Items.Add(_AllContentsTVI);
@@ -1202,7 +1201,6 @@ namespace EPUBGenerator
 
         private void SpeedSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-
             CurrentSpeed = e.NewValue;
         }
     }
