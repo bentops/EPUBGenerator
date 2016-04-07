@@ -37,6 +37,16 @@ namespace EPUBGenerator.MainLogic
                 XElement metadataOpf = rootOpf.Element(xnsOpf + "metadata");
                 XElement manifestOpf = rootOpf.Element(xnsOpf + "manifest");
 
+                List<XAttribute> delAttr = new List<XAttribute>();
+                foreach (XAttribute attr in metadataOpf.Attributes())
+                {
+                    if (attr.IsNamespaceDeclaration)
+                        if (attr.Value == rootOpf.GetDefaultNamespace())
+                            delAttr.Add(attr);
+                }
+                foreach (XAttribute attr in delAttr)
+                    attr.Remove();
+
                 int total = 4 * projInfo.Contents.Count + 1 + projInfo.TotalSentences;
                 progressUpdater.Initialize(total);
                 foreach (Content content in projInfo.Contents)
@@ -228,7 +238,7 @@ namespace EPUBGenerator.MainLogic
                             String outputMP3 = Path.Combine(projInfo.TempPath, content.CID + ".mp3");
                             using (WaveFileReader waveReader = new WaveFileReader(outputWave))
                             {
-                                using (MediaFoundationResampler resampled = new MediaFoundationResampler(waveReader, new WaveFormat(44100, 1)))
+                                using (MediaFoundationResampler resampled = new MediaFoundationResampler(waveReader, new WaveFormat(32000, 1)))
                                 {
                                     int desiredBitRate = 0; // ask for lowest available bitrate 
                                     MediaFoundationEncoder.EncodeToMp3(resampled, outputMP3, desiredBitRate);
